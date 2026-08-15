@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOPHIA 클랜 홍보글</title>
+<style>
+*{box-sizing:border-box}
+body{
+margin:0;
+background:#0f1115;
+color:#f5f7fb;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif;
+}
+.wrap{max-width:720px;margin:auto;padding:14px}
+h1{font-size:23px;margin:5px 0}
+.info{font-size:13px;color:#aaa;margin:0 0 12px}
+.search{
+width:100%;
+padding:11px;
+border-radius:10px;
+border:1px solid #303540;
+background:#171a21;
+color:white;
+font-size:15px;
+margin-bottom:10px;
+}
+.card{
+background:#171a21;
+border:1px solid #2a2f3a;
+border-radius:12px;
+padding:11px;
+margin-bottom:9px;
+}
+.num{
+font-size:13px;
+font-weight:bold;
+color:#8bd3ff;
+margin-bottom:5px;
+}
+.text{
+white-space:pre-wrap;
+font-size:14px;
+line-height:1.45;
+margin:0;
+}
+button{
+width:100%;
+margin-top:9px;
+padding:10px;
+border:0;
+border-radius:9px;
+background:#f0f3f7;
+color:#111;
+font-size:14px;
+font-weight:bold;
+cursor:pointer;
+}
+button:active{transform:scale(.99)}
+.hidden{display:none}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<h1>⭐ SOPHIA 클랜 홍보글</h1>
+<p class="info">원하는 홍보글의 복사 버튼을 눌러 사용하세요.</p>
+
+<input
+id="search"
+class="search"
+placeholder="검색: 속보, 영화, 모집, 전쟁..."
+oninput="searchPosts()">
+
+<div id="posts"></div>
+
+</div>
+
+<script>
+
+const posts = [
+
+`📢 S+++ SOPHIA 클랜원 모집!
+⚡기술트리10%로 인풋 대비 높은 점수!
+✔주간75만+ ✔전투력150M+
+✔접속·소통 활발 ✔전쟁지시 참여 ✔오카필참
+📩문의:오카 S42_온봄 or 월챗`,
+
+`🔥 S+++ SOPHIA 모집중!
+적게 넣고 더 높게! 기술트리10%⚡
+조건:주간75만+/전투력150M+
+접속·소통·전쟁참여 잘하실 분!
+📩오카 S42_온봄 or 월챗`,
+
+`🚨[속보] SOPHIA 자리 OPEN!
+S+++ 클랜에서 새로운 동료 모집합니다.
+⚡기술트리10% ✔75만+ ✔150M+
+접속·소통 좋고 전쟁지시 잘 따라주실 분!
+📩S42_온봄 or 월챗`,
+
+`🎬《SOPHIA》
+강함에는 이유가 있다.
+S+++ 그리고 기술트리10%.
+주간75만+/150M+의 당신,
+함께 오래할 다음 주인공을 기다립니다.
+📩S42_온봄 or 월챗`,
+
+`😂 SOPHIA 면접
+Q.주간75만+? ✔
+Q.전투력150M+? ✔
+Q.접속·소통·전쟁참여? ✔
+Q.오카 가능? ✔
+🎉합격! S42_온봄 or 월챗으로!`,
+
+`⚔️ S+++ SOPHIA
+기술트리10%로 효율적인 점수 획득!
+✔75만+ ✔150M+ ✔꾸준한접속
+✔활발한소통 ✔전쟁지시참여 ✔오카필참
+📩문의:S42_온봄`,
+
+`📺 SOPHIA 광고
+전투력은 있는데 좋은 클랜을 못 찾았다?
+S+++ / 기술트리10% / 함께 성장중🔥
+75만+·150M+ 동료 모집!
+📩S42_온봄 or 월챗`,
+
+`📰 SOPHIA NEWS
+S+++ SOPHIA 신규 클랜원 모집 발표!
+기술트리10%로 높은 점수 효율⚡
+조건:75만+/150M+/접속·소통·전쟁참여
+📩오카 S42_온봄 or 월챗`,
+
+`🎮 신규퀘스트《SOPHIA 합류》
+조건:주간75만+ / 전투력150M+
+필수:접속·소통·전쟁참여·오픈카톡
+보상:S+++ 동료들과 함께 성장🔥
+📩S42_온봄 or 월챗`,
+
+`💎 S+++ SOPHIA
+우리는 잠깐 강한 사람보다
+꾸준히 함께 성장할 사람을 기다립니다.
+75만+/150M+/접속·소통·전쟁참여
+📩오카 S42_온봄 or 월챗`,
+
+`📡 SOPHIA 탐지기
+75만+⭕ 150M+⭕
+접속·소통⭕ 전쟁참여⭕ 오카⭕
+🎉조건 일치! SOPHIA에서 찾던 분입니다.
+📩S42_온봄 or 월챗`,
+
+`🚀 SOPHIA 탑승안내
+목적지:S+++ 상위 클랜
+탑승조건:75만+/150M+
+준비물:접속·소통·전쟁참여+오카
+📩탑승문의:S42_온봄 or 월챗`,
+
+`🏆 S+++에서 함께 성장할 분!
+SOPHIA 기술트리10%⚡
+주간75만+ / 전투력150M+
+꾸준한 접속과 소통,전쟁참여 가능하신 분!
+📩S42_온봄 or 월챗`,
+
+`🎯 SOPHIA가 찾는 사람
+강함✔ 꾸준함✔ 소통✔ 팀워크✔
+75만+/150M+ & 오픈카톡 필참
+전쟁 때는 함께 움직이고 평소엔 즐겁게!
+📩S42_온봄`,
+
+`🔋 SOPHIA 충전상태
+기술트리10%⚡
+S+++ 준비완료⚡
+좋은 동료만 충전하면 100%!
+조건:75만+/150M+/접속·소통·전쟁참여
+📩S42_온봄`,
+
+`🎞️《SOPHIA : NEXT MEMBER》
+S+++의 다음 자리는 누구인가.
+75만+ / 150M+
+접속 좋고 소통하며 전쟁 때 함께할 당신.
+📩오카 S42_온봄 or 월챗`,
+
+`📢 SOPHIA 공식모집
+⚡기술트리10% 효율UP
+🏆S+++ 함께 성장중
+✔75만+ ✔150M+ ✔오카필참
+접속·소통·전쟁참여 좋은 분 환영!`,
+
+`😂 SOPHIA 자격시험
+75만 넘는다? 합격!
+150M 넘는다? 합격!
+접속·소통 좋다? 합격!
+전쟁지시 잘 따른다? 최종합격!🎉
+📩S42_온봄`,
+
+`🚨 SOPHIA 긴급수배
+특징:75만+ / 150M+
+습관:꾸준히 접속하고 소통함
+특기:전쟁 때 지시 잘 따라줌
+본인 같다면 연락주세요.🔎
+📩S42_온봄`,
+
+`⚡ 효율도 실력입니다.
+SOPHIA 기술트리10%
+인풋 대비 높은 점수로 함께 성장!
+75만+/150M+/접속·소통·전쟁참여
+📩S42_온봄 or 월챗`,
+
+`👑 S+++ SOPHIA
+높은 등급만 자랑하지 않습니다.
+함께 움직이는 팀워크를 중요하게 생각합니다.
+75만+/150M+/접속·소통+오카필참
+📩S42_온봄`,
+
+`📊 SOPHIA 스펙
+등급:S+++
+기술트리:10%
+모집:75만+/150M+
+필수:접속·소통·전쟁참여·오카
+📩S42_온봄 or 월챗`,
+
+`🎭 "어디 클랜 가?"
+"SOPHIA."
+"왜?"
+"S+++에 기술트리10%래."
+"자리 있어?"
+"75만+/150M+면 문의해봐!"
+📩S42_온봄`,
+
+`🔥 SOPHIA와 오래 함께하실 분!
+잘하는 것도 중요하지만
+접속·소통·팀워크도 중요합니다.
+75만+/150M+/전쟁지시참여/오카필참
+📩S42_온봄 or 월챗`,
+
+`📜 SOPHIA 가입조건
+①주간75만+
+②전투력150M+
+③접속·소통 활발
+④전쟁지시 참여
+⑤오픈카톡 필참
+조건 맞으면 바로 문의주세요!🔥`,
+
+`🌟 좋은 클랜은 함께 만듭니다.
+S+++ SOPHIA에서
+꾸준히 접속하고 소통하며
+전쟁도 함께할 75만+/150M+ 동료 모집!
+📩S42_온봄`,
+
+`🎬 COMING SOON《SOPHIA》
+S+++의 새로운 전력이 합류한다.
+조건:75만+/150M+
+접속·소통·전쟁참여 준비 완료했다면
+다음 주인공은 당신입니다.🔥`,
+
+`💡 SOPHIA 선택이유
+🏆S+++ 클랜
+⚡기술트리10%
+🤝꾸준한 성장과 팀워크
+75만+/150M+ 동료 모집!
+📩S42_온봄 or 월챗`,
+
+`⚔️ 혼자 강한 것보다 함께 강하게!
+S+++ SOPHIA 신규 클랜원 모집
+75만+/150M+/접속·소통 활발
+전쟁지시 참여+오카필참
+📩S42_온봄 or 월챗`,
+
+`✨ SOPHIA
+S+++의 이름보다 중요한 건 사람.
+기술트리10%의 효율과 좋은 팀워크로
+오래 함께 성장할 75만+/150M+ 동료 모집!
+📩오카 S42_온봄 or 월챗`
+
+];
+
+function renderPosts(list=posts){
+
+const box=document.getElementById("posts");
+box.innerHTML="";
+
+list.forEach((text,index)=>{
+
+const card=document.createElement("div");
+card.className="card";
+
+const num=document.createElement("div");
+num.className="num";
+num.textContent="#"+String(index+1).padStart(2,"0");
+
+const p=document.createElement("div");
+p.className="text";
+p.textContent=text;
+
+const button=document.createElement("button");
+button.textContent="📋 복사";
+
+button.onclick=async()=>{
+
+try{
+await navigator.clipboard.writeText(text);
+button.textContent="✅ 복사됨";
+}catch(e){
+
+const textarea=document.createElement("textarea");
+textarea.value=text;
+document.body.appendChild(textarea);
+textarea.select();
+document.execCommand("copy");
+textarea.remove();
+
+button.textContent="✅ 복사됨";
+}
+
+setTimeout(()=>{
+button.textContent="📋 복사";
+},1200);
+
+};
+
+card.appendChild(num);
+card.appendChild(p);
+card.appendChild(button);
+box.appendChild(card);
+
+});
+
+}
+
+function searchPosts(){
+
+const q=document.getElementById("search").value.toLowerCase();
+
+document.querySelectorAll(".card").forEach(card=>{
+
+const text=card.innerText.toLowerCase();
+
+if(text.includes(q)){
+card.classList.remove("hidden");
+}else{
+card.classList.add("hidden");
+}
+
+});
+
+}
+
+renderPosts();
+
+</script>
+</body>
+</html>
