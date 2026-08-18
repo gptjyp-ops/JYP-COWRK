@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JYP COWRK 대시보드</title>
+<style>
+:root{color-scheme:dark;--bg:#050505;--card:#050505;--line:#22b8c9;--text:#fff;--muted:#b7d7d5;--blue:#19bfd1;--green:#66ad25}
+*{box-sizing:border-box}
+body{margin:0;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;min-height:100vh;background:#050505}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;background:#050505}
+body:after{content:none}
+.wrap{max-width:920px;margin:auto;padding:44px 24px 72px;position:relative}
+header{margin-bottom:30px}
+.eyebrow{color:#fff;font-size:13px;font-weight:900;letter-spacing:.2em}
+h1{font-size:clamp(38px,7vw,72px);line-height:.86;margin:12px 0 16px;font-family:Impact,"Arial Black",sans-serif;font-weight:900;letter-spacing:-.055em;text-transform:uppercase;text-shadow:5px 5px 0 #050505}
+.lead{display:inline-block;margin:0;color:#fff;background:#050505;padding:8px 12px;line-height:1.55;font-weight:700}
+h2{font-size:15px;margin:32px 0 12px;color:#050505;background:#fff;display:table;padding:6px 10px;letter-spacing:.08em}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.card{display:block;position:relative;min-height:158px;padding:20px;border:3px solid #050505;border-radius:0;background:rgba(5,5,5,.94);box-shadow:8px 8px 0 rgba(255,255,255,.9);color:#fff;text-decoration:none;transition:.18s ease}
+.card:hover{transform:translate(-3px,-3px);border-color:#050505;background:#101010;box-shadow:12px 12px 0 #65aa24}
+.icon{font-size:30px}
+.card h3{font-size:20px;margin:12px 0 6px}
+.card p{margin:0;color:var(--muted);font-size:14px;line-height:1.5}
+.go{position:absolute;right:18px;bottom:16px;color:#20c4d4;font-weight:900}
+.badge{display:inline-block;margin-top:14px;padding:5px 9px;border-radius:0;background:#65aa24;color:#050505;font-size:12px;font-weight:900}
+.disabled{opacity:.62;cursor:default}
+.disabled:hover{transform:none;border-color:var(--line);background:rgba(21,26,36,.92)}
+footer{margin-top:32px;color:#68758a;font-size:12px;text-align:center}
+@media(max-width:760px){body:before{background:#050505}body:after{content:none}.wrap{background:#050505}}
+@media(max-width:620px){.wrap{padding-top:26px}h1{font-size:28px}.grid{grid-template-columns:1fr}.card{min-height:142px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header>
+<div class="eyebrow">サイト・ディレクトリ · JYP COWRK</div>
+<h1>MY<br>DASHBOARD</h1>
+<p class="lead">필요한 페이지를 목차에서 바로 선택하세요.<br><span style="color:#1fc0d0">OKINAWA POSTER EDITION · EST. 2026</span></p>
+</header>
+
+<h2>01 · 주식과 시장</h2>
+<section class="grid">
+<a class="card" href="https://gptjyp-ops.github.io/AI-stock-orchestrator/">
+<div class="icon">📈</div><h3>Pulse Market</h3>
+<p>보유·관심 종목, 강세 모멘텀, 공시와 거래량 신호</p><span class="go">열기 →</span>
+</a>
+</section>
+
+<h2>02 · 게임과 클랜</h2>
+<section class="grid">
+<a class="card" href="lumen.html">
+<div class="icon">✨</div><h3>LUMEN 홍보글</h3>
+<p>클랜 홍보 문구 50개를 검색하고 바로 복사</p><span class="go">열기 →</span>
+</a>
+<a class="card" href="sophia.html">
+<div class="icon">⭐</div><h3>SOPHIA 홍보글</h3>
+<p>SOPHIA 클랜 모집 문구를 한곳에서 관리</p><span class="go">열기 →</span>
+</a>
+</section>
+
+<h2>03 · 공부와 생활</h2>
+<section class="grid">
+<div class="card disabled">
+<div class="icon">🧠</div><h3>AI 오케스트레이션</h3>
+<p>강의와 실습 내용을 차례대로 정리할 공간</p><span class="badge">준비 중</span>
+</div>
+<div class="card disabled">
+<div class="icon">🐈</div><h3>고양이 관리</h3>
+<p>네 마리의 건강·투약·생활 기록을 모을 공간</p><span class="badge">준비 중</span>
+</div>
+</section>
+<footer>JYP COWRK · Personal Dashboard</footer>
+</main>
+</body>
+</html>
