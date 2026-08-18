@@ -5,25 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JYP COWRK 대시보드</title>
 <style>
-:root{color-scheme:dark;--bg:#0b0e14;--card:#151a24;--line:#283144;--text:#f4f7fb;--muted:#9aa7ba;--blue:#75c7ff}
+:root{color-scheme:dark;--bg:#050505;--card:#050505;--line:#22b8c9;--text:#fff;--muted:#b7d7d5;--blue:#19bfd1;--green:#66ad25}
 *{box-sizing:border-box}
-body{margin:0;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;min-height:100vh;background-color:#09101c;background-image:radial-gradient(circle at 50% -10%,rgba(49,74,105,.72),transparent 42%),radial-gradient(circle at 0 100%,rgba(152,42,31,.12),transparent 35%),repeating-radial-gradient(circle at 0 100%,transparent 0 23px,rgba(185,204,222,.055) 24px 26px,transparent 27px 47px);background-size:auto,auto,96px 48px;background-attachment:fixed}
-body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.16'/%3E%3C/svg%3E")}
-body:after{content:"日々の道具";position:fixed;right:17px;top:0;z-index:-1;color:rgba(225,231,222,.032);font-family:serif;font-weight:700;font-size:92px;letter-spacing:.16em;writing-mode:vertical-rl}
-.wrap{max-width:920px;margin:auto;padding:36px 18px 60px}
+body{margin:0;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;min-height:100vh;background:#050505}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;background:linear-gradient(90deg,#050505 0 7%,transparent 7% 93%,#050505 93%),linear-gradient(#050505 0 9%,transparent 9% 91%,#050505 91%),#18afc1}
+body:after{content:"";position:fixed;right:-55px;bottom:-30px;width:min(52vw,620px);height:min(76vh,720px);z-index:-1;pointer-events:none;opacity:.72;background-repeat:no-repeat;background-position:right bottom;background-size:contain;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 760'%3E%3Cg fill='none' stroke='%231b1209' stroke-width='30' stroke-linecap='round'%3E%3Cpath d='M520 760C470 590 420 490 355 395C292 302 258 207 292 78'/%3E%3Cpath d='M386 450C285 415 203 373 114 310'/%3E%3Cpath d='M333 320C410 272 462 212 503 141'/%3E%3Cpath d='M280 205C208 178 153 132 98 77'/%3E%3C/g%3E%3Cg fill='%235aa823' stroke='%23171308' stroke-width='9'%3E%3Cellipse cx='132' cy='298' rx='122' ry='39'/%3E%3Cellipse cx='237' cy='372' rx='132' ry='40'/%3E%3Cellipse cx='429' cy='218' rx='115' ry='38'/%3E%3Cellipse cx='493' cy='137' rx='82' ry='31'/%3E%3Cellipse cx='175' cy='129' rx='102' ry='35'/%3E%3Cellipse cx='293' cy='73' rx='94' ry='33'/%3E%3Cellipse cx='456' cy='495' rx='116' ry='42'/%3E%3C/g%3E%3C/svg%3E")}
+.wrap{max-width:920px;margin:auto;padding:44px 24px 72px;position:relative}
 header{margin-bottom:30px}
-.eyebrow{color:#e36d5a;font-size:13px;font-weight:800;letter-spacing:.22em}
-h1{font-size:34px;margin:8px 0 8px;font-family:"Yu Mincho","Hiragino Mincho ProN","Noto Serif KR",serif;font-weight:700;letter-spacing:.02em}
-.lead{margin:0;color:var(--muted);line-height:1.6}
-h2{font-size:17px;margin:28px 0 12px}
+.eyebrow{color:#fff;font-size:13px;font-weight:900;letter-spacing:.2em}
+h1{font-size:clamp(38px,7vw,72px);line-height:.86;margin:12px 0 16px;font-family:Impact,"Arial Black",sans-serif;font-weight:900;letter-spacing:-.055em;text-transform:uppercase;text-shadow:5px 5px 0 #050505}
+.lead{display:inline-block;margin:0;color:#fff;background:#050505;padding:8px 12px;line-height:1.55;font-weight:700}
+h2{font-size:15px;margin:32px 0 12px;color:#050505;background:#fff;display:table;padding:6px 10px;letter-spacing:.08em}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.card{display:block;position:relative;min-height:158px;padding:20px;border:1px solid rgba(140,158,177,.24);border-radius:4px 18px 4px 18px;background:linear-gradient(145deg,rgba(25,33,45,.94),rgba(15,22,32,.94));box-shadow:0 12px 30px rgba(0,0,0,.18),inset 3px 0 #a33c32;color:var(--text);text-decoration:none;transition:.18s ease}
-.card:hover{transform:translateY(-3px);border-color:#b95a4d;background:#1c2635;box-shadow:0 16px 35px rgba(0,0,0,.28),inset 3px 0 #dc6959}
+.card{display:block;position:relative;min-height:158px;padding:20px;border:3px solid #050505;border-radius:0;background:rgba(5,5,5,.94);box-shadow:8px 8px 0 rgba(255,255,255,.9);color:#fff;text-decoration:none;transition:.18s ease}
+.card:hover{transform:translate(-3px,-3px);border-color:#050505;background:#101010;box-shadow:12px 12px 0 #65aa24}
 .icon{font-size:30px}
 .card h3{font-size:20px;margin:12px 0 6px}
 .card p{margin:0;color:var(--muted);font-size:14px;line-height:1.5}
-.go{position:absolute;right:18px;bottom:16px;color:var(--blue);font-weight:800}
-.badge{display:inline-block;margin-top:14px;padding:5px 9px;border-radius:999px;background:#222a37;color:#a9b4c4;font-size:12px}
+.go{position:absolute;right:18px;bottom:16px;color:#20c4d4;font-weight:900}
+.badge{display:inline-block;margin-top:14px;padding:5px 9px;border-radius:0;background:#65aa24;color:#050505;font-size:12px;font-weight:900}
 .disabled{opacity:.62;cursor:default}
 .disabled:hover{transform:none;border-color:var(--line);background:rgba(21,26,36,.92)}
 footer{margin-top:32px;color:#68758a;font-size:12px;text-align:center}
@@ -33,9 +33,9 @@ footer{margin-top:32px;color:#68758a;font-size:12px;text-align:center}
 <body>
 <main class="wrap">
 <header>
-<div class="eyebrow">JYP COWRK · 暮らしの目次</div>
-<h1>무엇을 열어볼까요?</h1>
-<p class="lead">필요한 페이지를 목차에서 바로 선택하세요.<br><span style="font-family:serif;color:#7f8da0">静かな道具箱 · 조용한 나만의 도구함</span></p>
+<div class="eyebrow">サイト・ディレクトリ · JYP COWRK</div>
+<h1>MY<br>DASHBOARD</h1>
+<p class="lead">필요한 페이지를 목차에서 바로 선택하세요.<br><span style="color:#1fc0d0">OKINAWA POSTER EDITION · EST. 2026</span></p>
 </header>
 
 <h2>01 · 주식과 시장</h2>
