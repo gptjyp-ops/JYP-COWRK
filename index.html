@@ -7,16 +7,18 @@
 <style>
 :root{color-scheme:dark;--bg:#0b0e14;--card:#151a24;--line:#283144;--text:#f4f7fb;--muted:#9aa7ba;--blue:#75c7ff}
 *{box-sizing:border-box}
-body{margin:0;background:radial-gradient(circle at top,#15233a 0,#0b0e14 42%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;min-height:100vh}
+body{margin:0;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;min-height:100vh;background-color:#09101c;background-image:radial-gradient(circle at 50% -10%,rgba(49,74,105,.72),transparent 42%),radial-gradient(circle at 0 100%,rgba(152,42,31,.12),transparent 35%),repeating-radial-gradient(circle at 0 100%,transparent 0 23px,rgba(185,204,222,.055) 24px 26px,transparent 27px 47px);background-size:auto,auto,96px 48px;background-attachment:fixed}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.16'/%3E%3C/svg%3E")}
+body:after{content:"日々の道具";position:fixed;right:17px;top:0;z-index:-1;color:rgba(225,231,222,.032);font-family:serif;font-weight:700;font-size:92px;letter-spacing:.16em;writing-mode:vertical-rl}
 .wrap{max-width:920px;margin:auto;padding:36px 18px 60px}
 header{margin-bottom:30px}
-.eyebrow{color:var(--blue);font-size:13px;font-weight:800;letter-spacing:.14em}
-h1{font-size:34px;margin:8px 0 8px}
+.eyebrow{color:#e36d5a;font-size:13px;font-weight:800;letter-spacing:.22em}
+h1{font-size:34px;margin:8px 0 8px;font-family:"Yu Mincho","Hiragino Mincho ProN","Noto Serif KR",serif;font-weight:700;letter-spacing:.02em}
 .lead{margin:0;color:var(--muted);line-height:1.6}
 h2{font-size:17px;margin:28px 0 12px}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.card{display:block;position:relative;min-height:158px;padding:20px;border:1px solid var(--line);border-radius:18px;background:rgba(21,26,36,.92);color:var(--text);text-decoration:none;transition:.18s ease}
-.card:hover{transform:translateY(-3px);border-color:#4b83aa;background:#192131}
+.card{display:block;position:relative;min-height:158px;padding:20px;border:1px solid rgba(140,158,177,.24);border-radius:4px 18px 4px 18px;background:linear-gradient(145deg,rgba(25,33,45,.94),rgba(15,22,32,.94));box-shadow:0 12px 30px rgba(0,0,0,.18),inset 3px 0 #a33c32;color:var(--text);text-decoration:none;transition:.18s ease}
+.card:hover{transform:translateY(-3px);border-color:#b95a4d;background:#1c2635;box-shadow:0 16px 35px rgba(0,0,0,.28),inset 3px 0 #dc6959}
 .icon{font-size:30px}
 .card h3{font-size:20px;margin:12px 0 6px}
 .card p{margin:0;color:var(--muted);font-size:14px;line-height:1.5}
@@ -31,9 +33,9 @@ footer{margin-top:32px;color:#68758a;font-size:12px;text-align:center}
 <body>
 <main class="wrap">
 <header>
-<div class="eyebrow">JYP COWRK</div>
+<div class="eyebrow">JYP COWRK · 暮らしの目次</div>
 <h1>무엇을 열어볼까요?</h1>
-<p class="lead">필요한 페이지를 목차에서 바로 선택하세요.</p>
+<p class="lead">필요한 페이지를 목차에서 바로 선택하세요.<br><span style="font-family:serif;color:#7f8da0">静かな道具箱 · 조용한 나만의 도구함</span></p>
 </header>
 
 <h2>01 · 주식과 시장</h2>
