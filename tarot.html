@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090713">
+<title>달의 서재 · AI 타로 체험</title>
+<meta name="description" content="고민을 적고 세 장의 카드를 직접 선택해 흐름을 읽어보는 AI 타로 체험입니다.">
+<style>
+:root{--bg:#090713;--panel:#121020;--gold:#e6c978;--gold2:#9c7b35;--ink:#f7f0dc;--muted:#aaa2bd;--violet:#7757bd;--line:rgba(230,201,120,.24)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR","Segoe UI",sans-serif;background:radial-gradient(circle at 50% -10%,#37255c 0,#151027 27%,var(--bg) 62%);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;background-image:radial-gradient(#fff 0.7px,transparent .8px);background-size:31px 31px}
+.wrap{width:min(100%,920px);margin:auto;padding:22px 18px 72px;position:relative}
+.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:30px}
+.back{color:var(--muted);text-decoration:none;font-size:14px}.mark{font-family:Georgia,serif;color:var(--gold);letter-spacing:.12em}
+.hero{text-align:center;margin:12px auto 26px}.moon{font-size:42px;filter:drop-shadow(0 0 18px rgba(230,201,120,.35))}
+h1{font-family:Georgia,"Noto Serif KR",serif;font-size:clamp(34px,9vw,62px);font-weight:500;letter-spacing:-.05em;margin:8px 0 10px}
+.hero p{color:var(--muted);line-height:1.7;margin:0}
+.panel{background:rgba(18,16,32,.84);border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:0 24px 70px rgba(0,0,0,.28);backdrop-filter:blur(12px)}
+label{display:block;color:var(--gold);font-size:13px;font-weight:800;margin:0 0 8px}
+textarea{width:100%;min-height:92px;resize:vertical;border:1px solid var(--line);border-radius:14px;background:#0d0b18;color:#fff;padding:14px;font:inherit;line-height:1.55;outline:none}
+textarea:focus{border-color:var(--gold)}
+.chips{display:flex;gap:8px;overflow:auto;padding:13px 0 5px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);border-radius:999px;padding:8px 13px;background:transparent;color:var(--muted);font-weight:700;cursor:pointer}
+.chip.active{background:var(--gold);color:#191326;border-color:var(--gold)}
+.action{width:100%;margin-top:14px;border:0;border-radius:14px;padding:15px;background:linear-gradient(135deg,#ead58f,#c7a650);color:#171020;font-size:16px;font-weight:900;cursor:pointer;box-shadow:0 8px 28px rgba(230,201,120,.18)}
+.action:disabled{opacity:.45;cursor:not-allowed}.hint{text-align:center;color:var(--muted);font-size:13px;margin:21px 0 14px}
+.deck{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;max-width:660px;margin:auto}
+.pick{aspect-ratio:2/3;border:0;padding:0;border-radius:12px;background:transparent;perspective:900px;cursor:pointer;min-width:0}
+.inner{width:100%;height:100%;position:relative;transition:transform .72s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d}
+.pick.chosen .inner{transform:rotateY(180deg) translateY(-7px)}
+.face{position:absolute;inset:0;border-radius:12px;backface-visibility:hidden;border:1px solid rgba(230,201,120,.55);overflow:hidden}
+.cardback{display:grid;place-items:center;background:repeating-linear-gradient(45deg,#17102b 0 8px,#20143c 8px 16px);box-shadow:inset 0 0 0 5px #0e0b17,inset 0 0 0 6px var(--gold2)}
+.cardback:after{content:"✦";display:grid;place-items:center;width:46%;aspect-ratio:1;border:1px solid var(--gold);border-radius:50%;color:var(--gold);font-size:clamp(16px,4vw,28px);background:#100c1c}
+.cardfront{transform:rotateY(180deg);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:8px;color:#20162d;background:linear-gradient(160deg,#fff8df,#d8bd73)}
+.symbol{font-size:clamp(26px,7vw,50px);line-height:1}.cardname{font-family:Georgia,"Noto Serif KR",serif;font-weight:800;font-size:clamp(10px,2.5vw,15px);margin-top:8px}
+.pick:not(.chosen):hover .inner{transform:translateY(-5px)}.pick:disabled:not(.chosen){opacity:.42;cursor:default}
+.reading{display:none;margin-top:28px}.reading.show{display:block;animation:rise .5s ease both}@keyframes rise{from{opacity:0;transform:translateY(12px)}}
+.result-title{text-align:center;font-family:Georgia,"Noto Serif KR",serif;color:var(--gold);font-size:25px;margin:0 0 18px}
+.result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.result{border:1px solid var(--line);background:#0d0b18;border-radius:16px;padding:16px}
+.position{color:var(--gold);font-size:12px;font-weight:900}.result h3{margin:8px 0;font-size:17px}.result p{margin:0;color:#c9c2d4;font-size:14px;line-height:1.7}
+.summary{margin-top:13px;border-left:3px solid var(--gold);padding:15px 16px;background:rgba(230,201,120,.07);border-radius:0 12px 12px 0;line-height:1.75}.summary strong{color:var(--gold)}
+.reset{display:block;margin:18px auto 0;border:1px solid var(--line);border-radius:999px;padding:10px 18px;background:transparent;color:var(--muted);cursor:pointer}
+.notice{color:#777187;text-align:center;font-size:11px;line-height:1.55;margin-top:28px}
+@media(max-width:600px){.wrap{padding:18px 14px 54px}.deck{gap:7px}.panel{padding:15px}.result-grid{grid-template-columns:1fr}.hero{margin-top:2px}.top{margin-bottom:18px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<nav class="top"><a class="back" href="index.html">← 대시보드</a><div class="mark">MOON ARCHIVE</div></nav>
+<header class="hero"><div class="moon">☾</div><h1>달의 서재</h1><p>마음속 질문을 한 문장으로 적어보세요.<br>당신이 고른 세 장의 카드가 흐름을 비춥니다.</p></header>
+<section class="panel" aria-label="질문 입력">
+<label for="question">오늘 묻고 싶은 것</label>
+<textarea id="question" maxlength="180" placeholder="예: 그 사람과의 관계를 계속 이어가도 괜찮을까요?"></textarea>
+<div class="chips" aria-label="고민 분야">
+<button class="chip active" data-topic="연애">연애</button><button class="chip" data-topic="재회">재회</button><button class="chip" data-topic="직장">직장</button><button class="chip" data-topic="금전">금전</button><button class="chip" data-topic="관계">인간관계</button>
+</div>
+<button id="start" class="action">카드 섞기</button>
+</section>
+<p id="hint" class="hint">질문을 적으면 카드가 깨어납니다.</p>
+<section id="deck" class="deck" aria-label="타로 카드 선택"></section>
+<section id="reading" class="reading panel" aria-live="polite">
+<h2 class="result-title">세 장의 카드가 들려주는 이야기</h2>
+<div id="resultGrid" class="result-grid"></div>
+<div id="summary" class="summary"></div>
+<button id="reset" class="reset">새로운 질문 보기</button>
+</section>
+<p class="notice">이 페이지는 AI 타로 서비스의 체험 버전입니다. 결과는 자기 성찰과 재미를 위한 참고 자료이며 의료·법률·투자 판단을 대신하지 않습니다.</p>
+</main>
+<script>
+const cards=[
+{name:"광대",symbol:"🕊️",light:"새로운 흐름이 열리고 있습니다. 완벽한 확신보다 작은 첫걸음이 필요한 때입니다.",shadow:"충동적으로 움직이기 전에 내가 감당할 수 있는 범위를 먼저 정해보세요."},
+{name:"마법사",symbol:"✦",light:"이미 필요한 재료와 능력이 가까이에 있습니다. 먼저 표현하고 제안할수록 흐름이 움직입니다.",shadow:"말과 가능성만 커지지 않도록 오늘 실행할 한 가지를 정하는 것이 중요합니다."},
+{name:"여사제",symbol:"☽",light:"겉으로 드러난 말보다 미묘한 느낌과 아직 밝혀지지 않은 정보가 중요합니다.",shadow:"확인되지 않은 추측을 사실처럼 믿지 말고 잠시 관찰할 시간이 필요합니다."},
+{name:"여황제",symbol:"🌿",light:"관계와 일이 자라날 여지가 큽니다. 편안함과 꾸준한 돌봄이 좋은 결과를 만듭니다.",shadow:"상대나 결과를 지나치게 돌보다가 내 에너지를 모두 쓰지 않도록 경계를 세우세요."},
+{name:"황제",symbol:"♜",light:"기준과 구조를 세울 때 상황이 안정됩니다. 내가 결정할 수 있는 부분부터 분명히 하세요.",shadow:"통제하려는 마음이 강해지면 관계가 굳을 수 있습니다. 상대의 선택도 남겨두세요."},
+{name:"교황",symbol:"🔑",light:"검증된 방식과 믿을 만한 조언이 길을 보여줍니다. 혼자 판단하기보다 경험자의 말을 들어보세요.",shadow:"남들이 정한 정답이 반드시 내 답은 아닙니다. 조언과 내 가치관을 구분하세요."},
+{name:"연인",symbol:"♡",light:"마음이 향하는 방향과 중요한 선택이 만나는 카드입니다. 솔직한 대화가 전환점이 됩니다.",shadow:"끌림만으로 선택하지 말고 서로의 가치와 현실적인 조건도 함께 바라보세요."},
+{name:"전차",symbol:"➶",light:"방향을 정하고 집중하면 빠르게 진전될 수 있습니다. 주도권을 되찾을 시기입니다.",shadow:"속도만 높이면 중요한 감정을 놓칠 수 있습니다. 목표와 이유가 같은지 확인하세요."},
+{name:"힘",symbol:"∞",light:"강하게 밀어붙이기보다 부드럽고 꾸준한 태도가 상황을 바꿉니다.",shadow:"참는 것과 견디는 것은 다릅니다. 내 마음을 억누르고 있지 않은지 살펴보세요."},
+{name:"은둔자",symbol:"✧",light:"답은 외부의 반응보다 내 안의 기준에 가깝습니다. 잠시 거리를 두면 본질이 보입니다.",shadow:"생각이 깊어질수록 고립될 수 있습니다. 필요한 말까지 숨기지는 마세요."},
+{name:"운명의 수레바퀴",symbol:"◉",light:"멈춰 있던 흐름에 변화가 들어옵니다. 예상 밖의 기회를 유연하게 받아들이세요.",shadow:"운에만 기대기보다 변화가 왔을 때 잡을 준비가 되어 있는지 점검하세요."},
+{name:"정의",symbol:"⚖",light:"감정보다 사실과 균형이 중요합니다. 주고받은 것을 차분히 비교하면 답이 선명해집니다.",shadow:"옳고 그름만 따지면 마음의 사정을 놓칠 수 있습니다. 사실과 감정을 함께 보세요."},
+{name:"매달린 사람",symbol:"▽",light:"지금의 멈춤은 실패가 아니라 관점을 바꾸는 시간입니다. 서두르지 않아도 됩니다.",shadow:"기다림이 습관이 되지 않도록 내가 정할 수 있는 기한을 만들어두세요."},
+{name:"죽음",symbol:"🦋",light:"낡은 흐름을 끝내야 새로운 국면이 시작됩니다. 변화의 문턱에 서 있습니다.",shadow:"끝을 두려워해 이미 역할을 다한 관계나 방식을 붙들고 있지 않은지 보세요."},
+{name:"절제",symbol:"≈",light:"극단보다 조율이 답입니다. 서로 다른 조건을 조금씩 맞추면 안정적인 흐름이 생깁니다.",shadow:"모든 것을 적당히 유지하려다 중요한 결정을 미루지 않도록 하세요."},
+{name:"악마",symbol:"⛓",light:"강한 욕망과 집착의 정체를 알아차릴 때 오히려 선택권을 되찾을 수 있습니다.",shadow:"불안 때문에 반복하는 행동이나 끊기 어려운 관계의 패턴을 솔직히 살펴보세요."},
+{name:"탑",symbol:"⚡",light:"기존 생각을 흔드는 사실이 드러날 수 있습니다. 무너지는 것은 새 기준을 세울 공간이 됩니다.",shadow:"감정이 격할 때 즉시 결론 내리지 말고, 사실을 확인한 뒤 움직이세요."},
+{name:"별",symbol:"☆",light:"회복과 희망의 흐름입니다. 솔직한 바람을 잃지 않으면 길이 조금씩 선명해집니다.",shadow:"막연한 기대에 머무르지 말고 희망을 현실로 옮길 작은 행동이 필요합니다."},
+{name:"달",symbol:"☾",light:"감정과 직감이 크게 움직이는 시기입니다. 꿈과 불안이 무엇을 말하는지 천천히 들여다보세요.",shadow:"정보가 불분명합니다. 불안이 만든 상상과 실제 신호를 구분해야 합니다."},
+{name:"태양",symbol:"☀",light:"숨겨졌던 것이 밝아지고 자신감이 살아납니다. 기쁨을 표현할수록 좋은 흐름이 커집니다.",shadow:"긍정적인 분위기에 가려진 작은 문제도 함께 챙기면 흐름이 오래갑니다."},
+{name:"심판",symbol:"♬",light:"과거의 경험을 새롭게 이해하고 결론 내릴 시기입니다. 다시 기회가 주어질 수 있습니다.",shadow:"후회만 반복하기보다 이번에는 무엇을 다르게 할지 분명히 정하세요."},
+{name:"세계",symbol:"◎",light:"하나의 과정이 완성되고 다음 단계로 넘어갈 준비가 됩니다. 성취를 충분히 인정하세요.",shadow:"완벽한 마무리만 기다리면 출발이 늦어집니다. 지금의 완성도를 받아들이세요."}
+];
+const positions=["지나온 흐름","현재의 핵심","다가올 가능성"];
+let topic="연애", chosen=[], shuffled=[];
+const deck=document.getElementById("deck"), hint=document.getElementById("hint"), start=document.getElementById("start"), question=document.getElementById("question");
+document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("active"));b.classList.add("active");topic=b.dataset.topic});
+function sample(){return [...cards].sort(()=>Math.random()-.5).slice(0,5)}
+function renderDeck(active=false){
+shuffled=sample();chosen=[];deck.innerHTML="";
+shuffled.forEach((c,i)=>{const b=document.createElement("button");b.className="pick";b.disabled=!active;b.setAttribute("aria-label",(i+1)+"번째 카드");b.innerHTML='<span class="inner"><span class="face cardback"></span><span class="face cardfront"><span class="symbol">'+c.symbol+'</span><span class="cardname">'+c.name+'</span></span></span>';b.onclick=()=>pick(b,c);deck.appendChild(b)})
+}
+function pick(el,card){if(el.classList.contains("chosen")||chosen.length>=3)return;el.classList.add("chosen");el.disabled=true;chosen.push(card);hint.textContent=chosen.length<3?("카드를 "+(3-chosen.length)+"장 더 선택하세요."):"세 장이 모두 열렸습니다.";if(chosen.length===3){document.querySelectorAll(".pick:not(.chosen)").forEach(x=>x.disabled=true);setTimeout(showReading,650)}}
+function showReading(){
+const q=question.value.trim();document.getElementById("resultGrid").innerHTML=chosen.map((c,i)=>'<article class="result"><div class="position">'+positions[i]+'</div><h3>'+c.symbol+' '+c.name+'</h3><p>'+c.light+' '+c.shadow+'</p></article>').join("");
+const tone=topic==="연애"||topic==="재회"?"상대의 반응을 맞히는 것보다 두 사람 사이에서 반복되는 패턴을 보는 것이 중요합니다.":topic==="금전"?"가능성은 보이지만 감정적인 결정과 실제 숫자를 반드시 분리해서 확인하세요.":"상황을 한 번에 바꾸기보다 내가 통제할 수 있는 행동부터 정리하는 편이 좋습니다.";
+document.getElementById("summary").innerHTML='<strong>오늘의 종합 메시지</strong><br>“'+q.replace(/[<>]/g,"")+'”에 대한 흐름은 <b>'+chosen[0].name+' → '+chosen[1].name+' → '+chosen[2].name+'</b>으로 이어집니다. '+tone+' 오늘은 <b>'+chosen[1].name+'</b>의 조언을 기준으로 가장 작은 행동 한 가지를 실행해보세요.';
+document.getElementById("reading").classList.add("show");document.getElementById("reading").scrollIntoView({behavior:"smooth",block:"start"})
+}
+start.onclick=()=>{if(!question.value.trim()){question.focus();hint.textContent="먼저 마음속 질문을 한 문장으로 적어주세요.";return}document.getElementById("reading").classList.remove("show");renderDeck(true);hint.textContent="직감이 머무는 카드 세 장을 차례로 선택하세요.";start.textContent="다시 섞기"};
+document.getElementById("reset").onclick=()=>{question.value="";start.textContent="카드 섞기";renderDeck(false);document.getElementById("reading").classList.remove("show");hint.textContent="질문을 적으면 카드가 깨어납니다.";window.scrollTo({top:0,behavior:"smooth"});question.focus()};
+renderDeck(false);
+</script>
+</body>
+</html>
