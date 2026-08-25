@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LUMEN 클랜 홍보글 50</title>
 <style>
-.lang-switch{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}.lang-switch button{margin:0;background:#242a35;color:#dce3ee;border:1px solid var(--line)}.lang-switch button.active{background:var(--accent);color:#071019;border-color:var(--accent)}
+.lang-switch{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0}.lang-switch button{margin:0;background:#242a35;color:#dce3ee;border:1px solid var(--line)}.lang-switch button.active{background:var(--accent);color:#071019;border-color:var(--accent)}
 .sophia-btn{
 display:block;
 text-align:center;
@@ -80,7 +80,7 @@ button:active { transform:scale(.99); }
 <div class="wrap">
   <div class="top">
     <h1 id="pageTitle">✨ LUMEN 클랜 홍보글 50</h1>
-    <div class="lang-switch"><button id="koBtn" class="active" onclick="setLanguage('ko')">한국어</button><button id="enBtn" onclick="setLanguage('en')">English</button></div>
+    <div class="lang-switch"><button id="koBtn" class="active" onclick="setLanguage('ko')">한국어</button><button id="enBtn" onclick="setLanguage('en')">English</button><button id="jpBtn" onclick="setLanguage('jp')">日本語</button></div>
     <a href="sophia.html" class="sophia-btn">⭐ SOPHIA 클랜 홍보글 바로가기</a>
     <button class="random-btn" id="randomCopyBtn" onclick="randomCopy(this)">🎲 랜덤 홍보글 복사</button>
     <p class="desc">휴대폰에서 원하는 문구의 ‘복사’ 버튼만 누르면 됩니다.</p>
@@ -357,20 +357,32 @@ LUMEN</pre><button onclick="copyPost(47, this)">📋 복사</button></article>
 </div>
 <script>
 const englishPosts = ["🎬 LUMEN — A game started alone, continued together. Good manners and steady activity are all you need. We are waiting for our next hero.","🚨 BREAKING — LUMEN is looking for good people. Trait: great manners. Habit: stays active. Sound like you? Join us! 😎","😂 LUMEN APPLICATION — Power? We grow together. Spending? Does not matter. Manners? Important. Activity? Even more important. Accepted! 🤝","📢 LUMEN IS RECRUITING — We want people who stay, not just strong players. ✔ Manners ✔ Steady activity. Great friendships await.","🎭 INTERVIEW — Your specialty? Staying active. Your strength? Good manners. You are hired. Welcome to LUMEN.","📰 LUMEN NEWS — Clear skies today ☀️ Activity is steady and the manner index is rising 📈 New members wanted!","🎮 TODAY’S QUEST — Goal: Find a great clan. Difficulty: Easy. Requirement: Manners + Activity. Destination: LUMEN.","📺 AD — You can play alone, but together the fun lasts longer. Stay active with good people. Come to LUMEN.","🌿 A great clan is not built by power alone. Small greetings, consideration and consistency build it. Join us in LUMEN.","🎞️ TO BE CONTINUED — Fight together today and meet again tomorrow. Our story is not over. LUMEN is casting new heroes.","🏠 LUMEN REAL ESTATE — Great spot available. Neighbors: Good people. Rent: Manners. Lease: Stay active. Long-term residents welcome 😂","📡 LUMEN DETECTOR — Big spender ❌ Top power ❌ Good manners ⭕ Active player ⭕ Found you! Welcome to LUMEN 😎","☎️ LUMEN SUPPORT — Want to join? Good manners? Yes! Staying active? Yes! Membership approved 😂","🔋 LUMEN CHARGE — Manners ⚡ Consistency ⚡ Laughter ⚡ One more great person makes 100%!","🎬 WHY WE LOG IN — First for the game, then for the people. That is where we gather. This is LUMEN.","🚨 WANTED — Good manners. Steady activity. Here for the long run. Found them? Yes, it is you reading this 🔎","📜 LUMEN TERMS — Respect each other. Enjoy the game. Stay together. Agree? You are welcome to join 🤝","🧪 LUMEN LAB — Great people + manners + activity = more fun 📈 Come test the result yourself 😂","📻 LUMEN RADIO — Today’s song: I Will Log In Tomorrow Too. Requested by LUMEN members. New listeners wanted.","🎥 2026 FEATURE: LUMEN — Lead: You. Cast: Great people. Genre: Teamwork, growth and fun. Entry: Manners + Activity.","🍿 AUDIENCE SCORE ★★★★★ — I have a reason to log in. The people are great. LUMEN is now recruiting!","📦 LUMEN TRACKING — Item: Great friendships. Status: On the way. Required: Manners + Consistency. Destination: LUMEN.","🎯 TODAY’S GOALS — Level up ✔ Raise power ✔ Meet great people ✔ Find the last goal in LUMEN.","💡 LUMEN waits for people who stay, not people passing through. Good manners and consistency are all you need.","🛫 LUMEN BOARDING — Destination: Great friendships. Ticket: Manners. Passport: Activity. Long-term travelers welcome ✈️","🎭 SHORT SKIT — Logging in again? Of course. Why? My people are waiting. — LUMEN —","📱 LUMEN UPDATE — New feature: Great friendships. Minimum spec: Manners. Recommended: Stay active. Side effect: More logins 😂","📊 LUMEN STATISTICS — Gear gets replaced. Power gets caught. Great people stay remembered. We choose people.","🌙 After everyone logs out, one message remains: See you tomorrow. A place with people to meet again. LUMEN.","🎬 COMING SOON — An adventure once faced alone becomes ours. More laughter, less boredom. LUMEN is recruiting.","🏪 LUMEN STORE — One order of manners! Add consistency? Great friendships are free. Open today 😎","🚨 INCIDENT — Delayed logout. Cause: Too many friends online. Symptom: Just one more thing. New accomplices wanted 😂","📚 DICTIONARY — LUMEN: A place to laugh together, value manners and slowly feel at home.","🎙️ INTERVIEW — Why stay in LUMEN? Because the people are great. How long? A long time. We are waiting for that bond.","🌿 Countless usernames pass by. Then a familiar name makes you smile. A place that builds those bonds: LUMEN.","🎮 SAVE POINT: LUMEN — Today’s laughter saved. Today’s friendships saved. Log in tomorrow to continue. Save together?","📺 HOME SHOPPING — Product: LUMEN. Includes fun, teamwork and friends. Use daily. Manners required. Join now 📦","🔮 TODAY’S FORTUNE — Great clan: High. Great people: Very high. Lucky action: Stay active. Lucky place: LUMEN ✨","🎞️ END CREDITS — Those who laughed and fought with us today, and those we meet tomorrow. The LUMEN story continues.","🍜 LUMEN RECIPE — Two spoons of manners, plenty of consistency, a pinch of care and laughter to taste. Great clan complete 😋","🚦 LUMEN TRAFFIC — Communication flowing 🟢 Manners lane clear. Activity lane open. Great people may merge anytime 🚗","🤖 AI ANALYSIS — Power ❌ Spending ❌ Manners + Consistency ⭕ Result: LUMEN recommended 😂","💳 LUMEN MEMBERSHIP — Joining fee: $0. Monthly fee: $0. Required: Manners. Stay active. Benefit: Great people.","🎬 FILM: SEE YOU TOMORROW — Strangers meet and become people who wait for each other. Starring LUMEN.","📢 LOOKING FOR A CLAN? No flashy promises, just people who stay. If manners and activity matter, meet us in LUMEN.","🌌 A road walked alone becomes a story when shared. Small daily logins become lasting bonds. Walk with LUMEN.","⚔️ Power is a number. Manners show character. Consistency shows heart. We value people over numbers. LUMEN.","🎁 LUMEN GIFT BOX — Open? YES. Great teammate ×1. Laughter ×99. Lasting friendship ×∞.","🚪 Knock, knock. Who is it? I brought manners and consistency. Welcome to LUMEN 😎","✨ LUMEN — Not just skilled players, but people we enjoy. Not just today, but tomorrow too. Your place is waiting."];
+const japanesePosts = ["🎬《LUMEN》\n一人で始めたゲーム。\n仲間がいるから続けられるゲーム。\nマナーと継続的な参加があれば十分。\n次の主人公を待っています。","🚨【速報】\nLUMENで素敵な仲間を募集中！\n特徴：マナーが良い\n習慣：コツコツ参加\nあなたのことなら、ぜひどうぞ！😎","😂 LUMEN加入審査\n戦闘力？一緒に育てればOK。\n課金？関係ありません。\nマナー？大切です。\n継続参加？もっと大切。合格！🤝","📢 LUMENメンバー募集\n強い人より、長く一緒にいられる人。\n競争より、互いを思いやれる人。\n✔マナー ✔継続参加\n素敵なご縁を待っています。","🎭 面接会場\n「特技は？」\n「コツコツ参加することです」\n「長所は？」\n「マナーを守れます」\n「合格。LUMENへどうぞ」","📰 LUMEN NEWS\n今日もクランの雰囲気は晴れ☀️\n参加率は安定。\nマナー指数は上昇中📈\n新メンバー募集中！","🎮 今日のクエスト\n目標：良いクランを探す\n難易度：かんたん\n条件：マナー＋継続参加\n目的地：LUMEN","📺 CM\nゲームは一人でもできます。\nでも仲間がいれば、もっと長く楽しめます。\n素敵な仲間と続けられる場所。\nLUMENへどうぞ。","🌿 良いクランは\n戦闘力だけでは作れません。\n毎日の挨拶と思いやり、\nそして継続が集まって生まれます。\nLUMENで一緒に。","🎞️《TO BE CONTINUED》\n今日、一緒に戦い\n明日、また会える仲間たち。\n物語はまだ終わりません。\nLUMENの新しい主人公を募集中。","🏠 LUMEN不動産\n良い空きが出ました。\n隣人：素敵な仲間\n管理費：マナー\n契約条件：継続参加\n長期入居歓迎😂","📡 LUMEN探知機\n重課金❌ ピー\n最強戦闘力❌ ピー\nマナー⭕ ピン！\n継続参加⭕ ピン！\n発見！LUMENへご案内😎","☎️ LUMENサポート\n「加入したいです」\n「マナーは守れますか？」はい！\n「継続して参加できますか？」はい！\n「加入完了です😂」","🔋 LUMEN充電状況\nマナー充電完了⚡\n継続力充電完了⚡\n笑顔充電完了⚡\nあと一人で100％！","🎬《ログインする理由》\n最初はゲームのため。\nいつからか仲間のため。\nそんな人たちが集まる場所。\nLUMENです。","🚨 緊急手配\nマナーの良い人。\n継続して参加する人。\n長く一緒にいられる人。\n見つけましたか？\nはい、この文章を読むあなたです🔎","📜 LUMEN利用規約\n第1条 お互いを尊重する。\n第2条 楽しくゲームする。\n第3条 長く一緒に続ける。\n同意できれば加入可能です🤝","🧪 LUMEN研究所\n良い仲間＋マナー＋継続参加\n＝ゲームの楽しさアップ📈\n長年の研究結果です。\nぜひ体験してください😂","📻 LUMENラジオ\n今日のリクエスト曲\n🎵《明日もログインするよ》\nリクエスト：LUMENメンバー\n新しいリスナー募集中。","🎥 2026年期待作《LUMEN》\n主演：あなた\n共演：素敵な仲間\nジャンル：協力・成長・笑顔\n参加条件：マナー＋継続参加","🍿 観客評価 ★★★★★\n「ログインする理由ができました」\n「仲間が素敵です」\n「思ったより長くいます」\n《LUMEN》好評募集中！","📦 LUMEN配送追跡\n商品名：素敵なご縁\n現在：配送中\n受取条件：マナー＋継続\n到着地：LUMEN","🎯 今日の目標\nレベルアップ✔\n戦闘力アップ✔\n素敵な仲間に出会う✔\n最後の目標はLUMENで。","💡 LUMENは\n少しだけ立ち寄る人より\n長く一緒にいられる人を待っています。\nマナーと継続、\nその二つで十分です。","🛫 LUMEN搭乗案内\n目的地：素敵なご縁\n搭乗券：マナー\nパスポート：継続参加\n長期旅行の方、歓迎です✈️","🎭 ショートコント\n「今日もログイン？」\n「もちろん」\n「どうして？」\n「一緒に遊ぶ仲間がいるから」\n—LUMEN—","📱 LUMENアップデート\n新機能：素敵なご縁\n必須条件：マナー\n推奨条件：継続参加\n副作用：またログインしたくなる😂","📊 LUMEN統計局\n良い装備→いつか変わる\n高い戦闘力→いつか追いつかれる\n良い仲間→長く記憶に残る\nだから私たちは人を見ます。","🌙 みんながログアウトした夜。\nチャットに一言だけ残ります。\n「また明日」\n明日会える人がいる場所。\nLUMENです。","🎬 COMING SOON\n一人だった冒険。\n仲間と歩き始めた瞬間。\n笑顔が増えて退屈が消えた。\n《LUMEN》メンバー募集中。","🏪 LUMENコンビニ\nマナーを一つください！\n継続力も付けますか？\n素敵なご縁はサービスです。\n本日も営業中😎","🚨 事件発生\n事件名：ログアウト遅延\n原因：一緒に遊ぶ仲間が多い\n症状：「これだけやって終わる」\n新しい共犯者募集中😂","📚 辞書検索\nLUMEN【名詞】\n①一緒に笑う場所\n②マナーを大切にする場所\n③続けるほど愛着が湧く場所","🎙️ インタビュー\nQ.なぜLUMENに？\nA.仲間が好きだから。\nQ.いつまでいますか？\nA.長くいるつもりです。\nそんなご縁を待っています。","🌿 数え切れない名前が通り過ぎます。\nでも、いつか\n名前を見るだけで嬉しい人ができます。\nそんな絆を作る場所、\nLUMENです。","🎮 SAVE POINT：LUMEN\n今日の笑顔、保存完了。\n今日のご縁、保存完了。\n明日ログインすれば続きから。\n一緒にSAVEしますか？","📺 テレビショッピング\n本日の商品：LUMEN\n内容：笑顔＋協力＋素敵なご縁\n使い方：継続参加\n必須：マナー\n今すぐどうぞ📦","🔮 今日の運勢\n良いクランに出会う確率：高い\n良い仲間に出会う確率：とても高い\n幸運の行動：継続参加\n幸運の場所：LUMEN✨","🎞️ エンドロール\n今日、一緒に笑った人たち。\n今日、一緒に戦った人たち。\nそして明日、また会う人たち。\n《LUMEN》物語は続きます。","🍜 LUMENレシピ\nマナーを2杯\n継続力をたっぷり\n思いやりをひとつまみ\n笑顔はお好みで\n混ぜれば良いクランの完成😋","🚦 LUMEN交通情報\n現在、交流はスムーズ🟢\nマナー区間は正常。\n継続参加レーン開放中。\n素敵な人はいつでも合流可能🚗","🤖 AI分析完了\n良いクランの核心は？\n戦闘力❌\n課金❌\nマナー＋継続⭕\n結果：LUMENを推奨😂","💳 LUMENメンバーシップ\n加入費：0円\n月会費：0円\n必要：マナー\n維持条件：継続参加\n特典：素敵な仲間との時間","🎬 映画《明日もログインします》\n主演：LUMEN\nジャンル：友情・成長・協力\nあらすじ：知らない人同士が出会い\nいつか互いを待つ仲間になる物語。","📢 クランをお探しですか？\n派手な広告はありません。\nでも長く一緒にいる仲間がいます。\nマナーと継続を大切にするなら\nLUMENで会いましょう。","🌌 一人で歩いた道も\n一緒に歩けば物語になります。\n小さな毎日の参加も\n積み重なればご縁になります。\nLUMENで一緒に歩きましょう。","⚔️ 戦闘力は数字です。\nマナーは人柄を示します。\n継続は心を示します。\n私たちは数字より人を待っています。\nLUMEN","🎁 LUMENギフトボックス\n開けますか？\n【YES】\n獲得：素敵な仲間×1\n獲得：笑顔×99\n獲得：長いご縁×∞","🚪 コンコン—\n「どなたですか？」\n「マナーを持ってきました」\n「継続力も？」\n「もちろんです」\n「ようこそ、LUMENへ😎」","✨ LUMEN\n上手な人より、一緒にいたい人。\n今日だけの人より、明日も会える人。\nマナーを守り、コツコツと。\nあなたの席を空けて待っています。"];
 const koreanPosts = Array.from(document.querySelectorAll('pre[id^="post-"]')).map(el => el.innerText);
 let currentLanguage = 'ko';
+function formatEnglish(text) {
+  return text.replace(/([.!?])\s+/g, '$1\n').replace(/ — /g, '\n');
+}
 function setLanguage(lang) {
   currentLanguage = lang;
-  document.documentElement.lang = lang;
+  document.documentElement.lang = lang === 'jp' ? 'ja' : lang;
   document.getElementById('koBtn').classList.toggle('active', lang === 'ko');
   document.getElementById('enBtn').classList.toggle('active', lang === 'en');
-  document.getElementById('pageTitle').textContent = lang === 'ko' ? '✨ LUMEN 클랜 홍보글 50' : '✨ 50 LUMEN Recruitment Posts';
-  document.querySelector('.sophia-btn').textContent = lang === 'ko' ? '⭐ SOPHIA 클랜 홍보글 바로가기' : '⭐ Open SOPHIA Recruitment Posts';
-  document.getElementById('randomCopyBtn').textContent = lang === 'ko' ? '🎲 랜덤 홍보글 복사' : '🎲 Copy a Random Post';
-  document.querySelector('.desc').textContent = lang === 'ko' ? '휴대폰에서 원하는 문구의 ‘복사’ 버튼만 누르면 됩니다.' : 'Choose a post and tap Copy.';
-  document.getElementById('search').placeholder = lang === 'ko' ? '검색: 영화, 속보, 매너, 꾸준함...' : 'Search: movie, news, manners, active...';
-  document.querySelectorAll('pre[id^="post-"]').forEach((el, i) => el.textContent = lang === 'ko' ? koreanPosts[i] : englishPosts[i]);
-  document.querySelectorAll('.card button').forEach(btn => btn.textContent = lang === 'ko' ? '📋 복사' : '📋 Copy');
+  document.getElementById('jpBtn').classList.toggle('active', lang === 'jp');
+  const ui = {
+    ko: {title:'✨ LUMEN 클랜 홍보글 50', sophia:'⭐ SOPHIA 클랜 홍보글 바로가기', random:'🎲 랜덤 홍보글 복사', desc:'휴대폰에서 원하는 문구의 ‘복사’ 버튼만 누르면 됩니다.', search:'검색: 영화, 속보, 매너, 꾸준함...', copy:'📋 복사'},
+    en: {title:'✨ 50 LUMEN Recruitment Posts', sophia:'⭐ Open SOPHIA Recruitment Posts', random:'🎲 Copy a Random Post', desc:'Choose a post and tap Copy.', search:'Search: movie, news, manners, active...', copy:'📋 Copy'},
+    jp: {title:'✨ LUMEN メンバー募集文 50選', sophia:'⭐ SOPHIA 募集文を見る', random:'🎲 ランダム募集文をコピー', desc:'好きな募集文の「コピー」ボタンを押してください。', search:'検索：映画、速報、マナー、継続...', copy:'📋 コピー'}
+  }[lang];
+  document.getElementById('pageTitle').textContent = ui.title;
+  document.querySelector('.sophia-btn').textContent = ui.sophia;
+  document.getElementById('randomCopyBtn').textContent = ui.random;
+  document.querySelector('.desc').textContent = ui.desc;
+  document.getElementById('search').placeholder = ui.search;
+  document.querySelectorAll('pre[id^="post-"]').forEach((el, i) => {
+    el.textContent = lang === 'ko' ? koreanPosts[i] : lang === 'en' ? formatEnglish(englishPosts[i]) : japanesePosts[i];
+  });
+  document.querySelectorAll('.card button').forEach(btn => btn.textContent = ui.copy);
   filterCards();
 }
 let lastRandomIndex = -1;
@@ -390,7 +402,7 @@ async function copyPost(i, btn) {
   const text = document.getElementById('post-' + i).innerText;
   await writeClipboard(text);
   const old = btn.textContent;
-  btn.textContent = currentLanguage === 'ko' ? '✅ 복사됨' : '✅ Copied';
+  btn.textContent = currentLanguage === 'ko' ? '✅ 복사됨' : currentLanguage === 'jp' ? '✅ コピー完了' : '✅ Copied';
   setTimeout(() => btn.textContent = old, 1200);
 }
 async function randomCopy(btn) {
@@ -403,7 +415,7 @@ async function randomCopy(btn) {
   lastRandomIndex = idx;
   await writeClipboard(posts[idx].innerText);
   const old = btn.textContent;
-  btn.textContent = '✅ #' + String(idx + 1).padStart(2,'0') + (currentLanguage === 'ko' ? ' 복사됨' : ' Copied');
+  btn.textContent = '✅ #' + String(idx + 1).padStart(2,'0') + (currentLanguage === 'ko' ? ' 복사됨' : currentLanguage === 'jp' ? ' コピー完了' : ' Copied');
   setTimeout(() => btn.textContent = old, 1500);
 }
 function filterCards() {
