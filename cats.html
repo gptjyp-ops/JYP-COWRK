@@ -5,22 +5,17 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>우리 고양이 나이 · JYP COWRK</title>
 <style>
-:root{color-scheme:dark;--bg:#08090b;--card:#12151a;--line:#29313b;--text:#f7f8fa;--muted:#9eabb9;--mint:#6ee7c7;--blue:#69c8ff}
+:root{color-scheme:dark;--bg:#08090b;--card:#12151a;--line:#29313b;--text:#f7f8fa;--muted:#9eabb9;--mint:#6ee7c7}
 *{box-sizing:border-box}
 body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}
-.wrap{width:min(920px,100%);margin:auto;padding:28px 20px 64px}
-.back{display:inline-block;margin-bottom:28px;color:var(--muted);text-decoration:none;font-weight:700}
-header{margin-bottom:24px}
-.eyebrow{color:var(--mint);font-size:12px;font-weight:900;letter-spacing:.18em}
-h1{font-size:clamp(34px,8vw,60px);margin:8px 0 10px;letter-spacing:-.055em}
-.lead{margin:0;color:var(--muted)}
+.wrap{width:min(920px,100%);margin:auto;padding:28px 20px 64px}.back{display:inline-block;margin-bottom:28px;color:var(--muted);text-decoration:none;font-weight:700}
+header{margin-bottom:24px}.eyebrow{color:var(--mint);font-size:12px;font-weight:900;letter-spacing:.18em}
+h1{font-size:clamp(34px,8vw,60px);margin:8px 0 10px;letter-spacing:-.055em}.lead{margin:0;color:var(--muted)}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:26px}
 .card{padding:22px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,#151a20,#0e1115);box-shadow:0 14px 34px rgba(0,0,0,.24)}
-.top{display:flex;align-items:center;justify-content:space-between}
-.name{font-size:25px;font-weight:900}
-.emoji{font-size:31px}
-.age{margin:22px 0 6px;color:var(--mint);font-size:25px;font-weight:900;letter-spacing:-.04em}
-.birth{color:var(--muted);font-size:14px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:14px}.name{font-size:25px;font-weight:900}.look{margin-top:4px;color:var(--muted);font-size:13px}
+.catpic{width:94px;height:70px;flex:0 0 94px}.catpic svg{display:block;width:100%;height:100%}
+.age{margin:18px 0 6px;color:var(--mint);font-size:25px;font-weight:900;letter-spacing:-.04em}.birth{color:var(--muted);font-size:14px}
 .note{margin-top:22px;padding:15px 17px;border:1px solid var(--line);border-radius:14px;color:var(--muted);font-size:13px;line-height:1.6}
 @media(max-width:600px){.grid{grid-template-columns:1fr}.wrap{padding-top:20px}}
 </style>
@@ -28,40 +23,28 @@ h1{font-size:clamp(34px,8vw,60px);margin:8px 0 10px;letter-spacing:-.055em}
 <body>
 <main class="wrap">
 <a class="back" href="index.html">← 대시보드</a>
-<header>
-<div class="eyebrow">OUR CATS · AGE RECORD</div>
-<h1>우리 고양이 나이</h1>
-<p class="lead" id="asOf"></p>
-</header>
+<header><div class="eyebrow">OUR CATS · AGE RECORD</div><h1>우리 고양이 나이</h1><p class="lead" id="asOf"></p></header>
 <section class="grid" id="cats"></section>
 <div class="note">생년월일을 기준으로 만 나이를 자동 계산합니다. 페이지를 여는 날짜에 맞춰 나이가 갱신됩니다.</div>
 </main>
 <script>
+const drawings={
+ cheese:`<svg viewBox="0 0 110 80" aria-label="치즈 고양이"><path d="M24 28 30 10l14 12c8-3 17-3 25 0l15-12 4 19c8 7 11 16 8 26-5 16-27 21-48 16S14 50 18 38c1-4 3-7 6-10Z" fill="#eaa43b"/><path d="M39 22l5 9M56 19v11M73 22l-5 9" stroke="#a85e16" stroke-width="4" stroke-linecap="round"/><circle cx="42" cy="43" r="3" fill="#24211d"/><circle cx="70" cy="43" r="3" fill="#24211d"/><path d="m53 49 4 3 4-3M57 52v5" fill="none" stroke="#6c3d18" stroke-width="2" stroke-linecap="round"/></svg>`,
+ tabby:`<svg viewBox="0 0 110 80" aria-label="고등어태비 고양이"><path d="M24 28 30 10l14 12c8-3 17-3 25 0l15-12 4 19c8 7 11 16 8 26-5 16-27 21-48 16S14 50 18 38c1-4 3-7 6-10Z" fill="#858b8d"/><path d="M39 20l5 12M56 18v14M73 20l-5 12M29 34l10 4M83 34l-10 4" stroke="#34383b" stroke-width="4" stroke-linecap="round"/><circle cx="42" cy="45" r="3" fill="#d8e56f"/><circle cx="70" cy="45" r="3" fill="#d8e56f"/><path d="m53 51 4 3 4-3" fill="none" stroke="#282b2d" stroke-width="2"/></svg>`,
+ black:`<svg viewBox="0 0 110 80" aria-label="검은 고양이"><path d="M24 28 30 10l14 12c8-3 17-3 25 0l15-12 4 19c8 7 11 16 8 26-5 16-27 21-48 16S14 50 18 38c1-4 3-7 6-10Z" fill="#15171a" stroke="#454b52" stroke-width="2"/><circle cx="42" cy="44" r="4" fill="#d4de62"/><circle cx="70" cy="44" r="4" fill="#d4de62"/><path d="m53 51 4 3 4-3" fill="none" stroke="#777f87" stroke-width="2"/></svg>`,
+ calico:`<svg viewBox="0 0 110 80" aria-label="흰 바탕 삼색 고양이"><path d="M19 49c1-18 15-28 35-27 20 1 33 12 34 29 1 14-11 21-32 21-22 0-38-7-37-23Z" fill="#f6f2e9" stroke="#b9b3a9" stroke-width="2"/><path d="M27 27 32 11l12 12M67 23l13-12 5 19" fill="#f6f2e9" stroke="#b9b3a9" stroke-width="2" stroke-linejoin="round"/><path d="M35 18c7 0 12 3 15 8l-7 14-15-4Z" fill="#c57537"/><path d="M66 23c8 2 13 7 16 13l-13 7-9-12Z" fill="#292726"/><path d="M68 54c9-4 17 0 18 8-8 5-18 5-25 1Z" fill="#c57537"/><circle cx="47" cy="43" r="2.8" fill="#333"/><circle cx="66" cy="43" r="2.8" fill="#333"/><path d="M87 57c14 2 18-9 13-20-3-7-1-13 4-16" fill="none" stroke="#a96131" stroke-width="8" stroke-linecap="round"/></svg>`
+};
 const cats=[
-  {name:"땅콩",birth:"2017-04-28",emoji:"🐈"},
-  {name:"오레오",birth:"2021-03-20",emoji:"🐈‍⬛"},
-  {name:"고소미",birth:"2022-05-30",emoji:"🐱"},
-  {name:"밤",birth:"2024-10-15",emoji:"🐾"}
+{name:"땅콩",nickname:"콩이",birth:"2017-04-28",look:"치즈 고양이",type:"cheese"},
+{name:"오레오",nickname:"",birth:"2021-03-20",look:"고등어태비",type:"tabby"},
+{name:"고소미",nickname:"소미",birth:"2022-05-30",look:"검은 고양이",type:"black"},
+{name:"밤",nickname:"밤이",birth:"2024-10-15",look:"흰 바탕 삼색이 · 갈색 꼬리 · 엉덩이 점",type:"calico"}
 ];
-const today=new Date();
-const parts=new Intl.DateTimeFormat("ko-KR",{timeZone:"Asia/Seoul",year:"numeric",month:"numeric",day:"numeric"}).formatToParts(today);
-const v=Object.fromEntries(parts.map(p=>[p.type,Number(p.value)]));
-const now=new Date(v.year,v.month-1,v.day);
-function age(birth){
-  const b=new Date(birth+"T00:00:00");
-  let y=now.getFullYear()-b.getFullYear();
-  let m=now.getMonth()-b.getMonth();
-  let d=now.getDate()-b.getDate();
-  if(d<0){m--;d+=new Date(now.getFullYear(),now.getMonth(),0).getDate()}
-  if(m<0){y--;m+=12}
-  return {y,m,d};
-}
+const parts=new Intl.DateTimeFormat("ko-KR",{timeZone:"Asia/Seoul",year:"numeric",month:"numeric",day:"numeric"}).formatToParts(new Date());
+const v=Object.fromEntries(parts.map(p=>[p.type,Number(p.value)]));const now=new Date(v.year,v.month-1,v.day);
+function age(birth){const b=new Date(birth+"T00:00:00");let y=now.getFullYear()-b.getFullYear(),m=now.getMonth()-b.getMonth(),d=now.getDate()-b.getDate();if(d<0){m--;d+=new Date(now.getFullYear(),now.getMonth(),0).getDate()}if(m<0){y--;m+=12}return{y,m,d}}
 document.getElementById("asOf").textContent=`${v.year}년 ${v.month}월 ${v.day}일 기준`;
-document.getElementById("cats").innerHTML=cats.map(c=>{
-  const a=age(c.birth);
-  const [y,m,d]=c.birth.split("-");
-  return `<article class="card"><div class="top"><span class="name">${c.name}</span><span class="emoji">${c.emoji}</span></div><div class="age">만 ${a.y}살 · ${a.m}개월 ${a.d}일</div><div class="birth">${y}년 ${Number(m)}월 ${Number(d)}일생</div></article>`;
-}).join("");
+document.getElementById("cats").innerHTML=cats.map(c=>{const a=age(c.birth),[y,m,d]=c.birth.split("-"),label=c.nickname?`${c.name} · ${c.nickname}`:c.name;return `<article class="card"><div class="top"><div><div class="name">${label}</div><div class="look">${c.look}</div></div><div class="catpic">${drawings[c.type]}</div></div><div class="age">만 ${a.y}살 · ${a.m}개월 ${a.d}일</div><div class="birth">${y}년 ${Number(m)}월 ${Number(d)}일생</div></article>`}).join("");
 </script>
 </body>
 </html>
