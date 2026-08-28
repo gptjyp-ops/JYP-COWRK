@@ -29,7 +29,7 @@ h1{font-family:Impact,"Arial Black",sans-serif;font-size:clamp(48px,10vw,112px);
 <div class="rule"><b>GOOD DIRECTION</b>굵은 타이포 · 행동하는 인물 · 단색 · 손맛</div>
 <div class="rule"><b>AVOID</b>치즈 같은 원형 구멍 · 앱 아이콘 느낌 · 무난한 기업 심벌</div>
 </section>
-<nav class="filters"><button class="active" data-filter="all">전체 33</button><button data-filter="explore">초기 탐색</button><button data-filter="symbol">심벌 실험</button><button data-filter="character">캐릭터·타이포</button><button data-filter="mockup">색상·적용 목업</button></nav>
+<nav class="filters"><button class="active" data-filter="all">전체 30</button><button data-filter="explore">초기 탐색</button><button data-filter="symbol">심벌 실험</button><button data-filter="character">캐릭터·타이포</button><button data-filter="mockup">색상·적용 목업</button></nav>
 <p class="summary"><strong>현재 기준:</strong> 베이비 블루 #89CFF0를 메인으로 사용하며, 검정 #111111과 소프트 아이보리 #F6F1E8는 보조색으로만 사용한다. 로고는 이름만 꾸민 워드마크보다 ‘작업과 행동이 보이는 장면’이 닷츠다운 방향이다.</p>
 <section class="grid" id="gallery"></section>
 <section class="note"><b>다음 작업</b><br>지용님의 사이드파트·얇은 타원형 안경을 단순화한 작업자 캐릭터를 중심으로, 가로형 간판용과 정사각형 스탬프용 두 체계를 정교화한다. 작은 인쇄에서도 머리·안경·손동작이 뭉치지 않도록 선을 줄이고 완전한 단색 벡터로 제작한다.</section>
@@ -45,6 +45,6 @@ const labels=[
 ];
 const category={explore:"초기 탐색",symbol:"심벌 실험",character:"캐릭터·타이포",mockup:"색상·적용 목업"};
 const gallery=document.getElementById("gallery");
-gallery.innerHTML=window.DOTS_IMAGES.map((src,i)=>{const [title,type]=labels[i]||["추가 시안","explore"];return `<figure class="card" data-type="${type}"><img src="${src}" loading="lazy" alt="DOTS Coffee Works 시안 ${i+1}"><figcaption><div class="no">CONCEPT ${String(i+1).padStart(2,"0")}</div><div class="title">${title}</div><div class="tag">${category[type]} · 작업 기록 보존</div></figcaption></figure>`}).join("");
+const excluded=new Set([5,17,27]);\nconst curated=window.DOTS_IMAGES.map((src,i)=>({src,label:labels[i]})).filter((_,i)=>!excluded.has(i));\ngallery.innerHTML=curated.map(({src,label},i)=>{const [title,type]=label||["추가 시안","explore"];return `<figure class="card" data-type="${type}"><img src="${src}" loading="lazy" alt="DOTS Coffee Works 시안 ${i+1}"><figcaption><div class="no">CONCEPT ${String(i+1).padStart(2,"0")}</div><div class="title">${title}</div><div class="tag">${category[type]} · 작업 기록 보존</div></figcaption></figure>`}).join("");
 document.querySelectorAll(".filters button").forEach(btn=>btn.addEventListener("click",()=>{document.querySelector(".filters .active").classList.remove("active");btn.classList.add("active");const f=btn.dataset.filter;document.querySelectorAll(".card").forEach(c=>c.classList.toggle("hidden",f!=="all"&&c.dataset.type!==f))}));
 </script></body></html>
