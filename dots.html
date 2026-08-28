@@ -35,8 +35,9 @@ h1{font-family:Impact,"Arial Black",sans-serif;font-size:clamp(48px,10vw,112px);
 <section class="note"><b>다음 작업</b><br>지용님의 사이드파트·얇은 타원형 안경을 단순화한 작업자 캐릭터를 중심으로, 가로형 간판용과 정사각형 스탬프용 두 체계를 정교화한다. 작은 인쇄에서도 머리·안경·손동작이 뭉치지 않도록 선을 줄이고 완전한 단색 벡터로 제작한다.</section>
 </main>
 
+<script src="assets/dots/flat-gallery-1.js"></script><script src="assets/dots/flat-gallery-2.js"></script><script src="assets/dots/flat-gallery-3.js"></script><script src="assets/dots/flat-gallery-4.js"></script><script src="assets/dots/flat-gallery-5.js"></script><script src="assets/dots/flat-gallery-6.js"></script><script src="assets/dots/flat-gallery-7.js"></script>
 <script>
-const labels=[
+const labels[
 ["초기 방향 01","explore"],["초기 방향 02","explore"],["초기 방향 03","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],
 ["로스트 커브","symbol"],["독립 심벌 탐색","symbol"],["점과 기반 실험","symbol"],["점과 기반 실험","symbol"],["언밸런스 심벌","symbol"],["이동한 기초점","symbol"],["단색 심벌","symbol"],
 ["행동하는 DOTS 01","character"],["행동하는 DOTS 02","character"],["지용 캐릭터 적용","character"],["점을 딛는 제작자","character"],["기준점을 맞추는 제작자","character"],["로스터의 교정선","character"],["터닝 포인트","character"],["타이포 발전안","character"],["타이포 발전안","character"],["공정의 레이어","character"],
@@ -44,6 +45,6 @@ const labels=[
 ];
 const category={explore:"초기 탐색",symbol:"심벌 실험",character:"캐릭터·타이포",mockup:"색상·적용 목업"};
 const gallery=document.getElementById("gallery");
-gallery.innerHTML=window.DOTS_IMAGES.map((src,i)=>{const [title,type]=labels[i]||["추가 시안","explore"];return `<figure class="card" data-type="${type}" data-index="${i+1}" data-dark="${[1,2,3].includes(i+1)?'strong':[11,12,13,14,15,16,17,20,23,25,28].includes(i+1)?'medium':'none'}"><img src="${src}" loading="lazy" alt="DOTS Coffee Works 시안 ${i+1}"><figcaption><div class="no">CONCEPT ${String(i+1).padStart(2,"0")}</div><div class="title">${title}</div><div class="tag">${category[type]} · 작업 기록 보존</div></figcaption></figure>`}).join("");
+gallery.innerHTML=window.DOTS_IMAGES.map((src,i)=>{const [title,type]=labels[i]||["추가 시안","explore"];return `<figure class="card" data-type="${type}"><img src="${src}" loading="lazy" alt="DOTS Coffee Works 시안 ${i+1}"><figcaption><div class="no">CONCEPT ${String(i+1).padStart(2,"0")}</div><div class="title">${title}</div><div class="tag">${category[type]} · 작업 기록 보존</div></figcaption></figure>`}).join("");
 document.querySelectorAll(".filters button").forEach(btn=>btn.addEventListener("click",()=>{document.querySelector(".filters .active").classList.remove("active");btn.classList.add("active");const f=btn.dataset.filter;document.querySelectorAll(".card").forEach(c=>c.classList.toggle("hidden",f!=="all"&&c.dataset.type!==f))}));
 </script></body></html>
