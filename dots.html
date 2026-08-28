@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DOTS Coffee Works · Design Archive</title>
+<style>
+:root{--blue:#89CFF0;--ink:#111;--ivory:#F6F1E8;--line:#c8c1b7;--muted:#625f59}
+*{box-sizing:border-box}body{margin:0;background:var(--ivory);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}
+.wrap{width:min(1180px,100%);margin:auto;padding:28px 22px 70px}.back{color:var(--ink);text-decoration:none;font-weight:900}
+header{padding:54px 0 28px;border-bottom:3px solid var(--ink)}.eyebrow{font-size:12px;font-weight:900;letter-spacing:.18em;color:#4385a2}
+h1{font-family:Impact,"Arial Black",sans-serif;font-size:clamp(48px,10vw,112px);line-height:.82;letter-spacing:-.055em;margin:15px 0 22px}
+.lead{max-width:760px;font-size:16px;line-height:1.65}.brand{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:26px 0}
+.rule{border:2px solid var(--ink);padding:14px;background:#fff}.rule b{display:block;font-size:12px;margin-bottom:7px}.swatch{height:32px;background:var(--blue);border:1px solid #78b9d8;margin-bottom:8px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;padding:24px 0}.filters button{appearance:none;border:2px solid var(--ink);background:transparent;padding:9px 13px;font-weight:900;cursor:pointer}.filters button.active{background:var(--blue)}
+.summary{margin:0 0 28px;padding:16px 18px;background:#111;color:#fff;line-height:1.6}.summary strong{color:var(--blue)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{margin:0;border:2px solid var(--ink);background:#fff;box-shadow:6px 6px 0 var(--blue)}
+.card img{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;background:#f2eee7}.card figcaption{padding:13px 14px 16px;border-top:2px solid var(--ink)}
+.no{font-size:12px;font-weight:900;color:#397c99;letter-spacing:.1em}.title{font-size:17px;font-weight:900;margin:4px 0}.tag{font-size:12px;color:var(--muted)}
+.note{margin-top:38px;border-top:3px solid var(--ink);padding-top:20px;line-height:1.7}.hidden{display:none}
+@media(max-width:760px){.brand{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.brand,.grid{grid-template-columns:1fr}header{padding-top:38px}}
+</style></head>
+<body><main class="wrap"><a class="back" href="index.html">← 대시보드</a>
+<header><div class="eyebrow">BRAND DESIGN ARCHIVE · 2026</div><h1>DOTS<br>COFFEE WORKS</h1>
+<p class="lead">점에서 시작해 기본기를 쌓고, 새로운 관점으로 확장하는 닷츠의 로고·브랜딩 개발 기록. 완성안뿐 아니라 폐기한 시안과 그 이유도 남겨 다음 판단의 기준으로 사용한다.</p></header>
+<section class="brand">
+<div class="rule"><div class="swatch"></div><b>MAIN COLOR</b>Baby Blue Mist · #89CFF0</div>
+<div class="rule"><b>CORE IDEA</b>DOTS → 기본기 → 확장된 생각</div>
+<div class="rule"><b>GOOD DIRECTION</b>굵은 타이포 · 행동하는 인물 · 단색 · 손맛</div>
+<div class="rule"><b>AVOID</b>치즈 같은 원형 구멍 · 앱 아이콘 느낌 · 무난한 기업 심벌</div>
+</section>
+<nav class="filters"><button class="active" data-filter="all">전체 33</button><button data-filter="explore">초기 탐색</button><button data-filter="symbol">심벌 실험</button><button data-filter="character">캐릭터·타이포</button><button data-filter="mockup">색상·적용 목업</button></nav>
+<p class="summary"><strong>현재 기준:</strong> 베이비 블루 #89CFF0를 메인으로 사용하며, 검정 #111111과 소프트 아이보리 #F6F1E8는 보조색으로만 사용한다. 로고는 이름만 꾸민 워드마크보다 ‘작업과 행동이 보이는 장면’이 닷츠다운 방향이다.</p>
+<section class="grid" id="gallery"></section>
+<section class="note"><b>다음 작업</b><br>지용님의 사이드파트·얇은 타원형 안경을 단순화한 작업자 캐릭터를 중심으로, 가로형 간판용과 정사각형 스탬프용 두 체계를 정교화한다. 작은 인쇄에서도 머리·안경·손동작이 뭉치지 않도록 선을 줄이고 완전한 단색 벡터로 제작한다.</section>
+</main>
+<script src="assets/dots/gallery-1.js"></script><script src="assets/dots/gallery-2.js"></script><script src="assets/dots/gallery-3.js"></script><script src="assets/dots/gallery-4.js"></script>
+<script>
+const labels=[
+["초기 방향 01","explore"],["초기 방향 02","explore"],["초기 방향 03","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],
+["로스트 커브","symbol"],["독립 심벌 탐색","symbol"],["점과 기반 실험","symbol"],["점과 기반 실험","symbol"],["언밸런스 심벌","symbol"],["이동한 기초점","symbol"],["단색 심벌","symbol"],
+["행동하는 DOTS 01","character"],["행동하는 DOTS 02","character"],["지용 캐릭터 적용","character"],["점을 딛는 제작자","character"],["기준점을 맞추는 제작자","character"],["로스터의 교정선","character"],["터닝 포인트","character"],["타이포 발전안","character"],["타이포 발전안","character"],["공정의 레이어","character"],
+["베이비 블루 수정","mockup"],["컵 적용 목업","mockup"],["투명 뚜껑 적용","mockup"],["로스팅 배치 기준점","mockup"],["로스팅 배치 아카이브","mockup"],["패키지 적용안","mockup"]
+];
+const category={explore:"초기 탐색",symbol:"심벌 실험",character:"캐릭터·타이포",mockup:"색상·적용 목업"};
+const gallery=document.getElementById("gallery");
+gallery.innerHTML=window.DOTS_IMAGES.map((src,i)=>{const [title,type]=labels[i]||["추가 시안","explore"];return `<figure class="card" data-type="${type}"><img src="${src}" loading="lazy" alt="DOTS Coffee Works 시안 ${i+1}"><figcaption><div class="no">CONCEPT ${String(i+1).padStart(2,"0")}</div><div class="title">${title}</div><div class="tag">${category[type]} · 작업 기록 보존</div></figcaption></figure>`}).join("");
+document.querySelectorAll(".filters button").forEach(btn=>btn.addEventListener("click",()=>{document.querySelector(".filters .active").classList.remove("active");btn.classList.add("active");const f=btn.dataset.filter;document.querySelectorAll(".card").forEach(c=>c.classList.toggle("hidden",f!=="all"&&c.dataset.type!==f))}));
+</script></body></html>
