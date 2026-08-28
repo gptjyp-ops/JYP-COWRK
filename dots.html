@@ -45,6 +45,8 @@ const labels=[
 ];
 const category={explore:"초기 탐색",symbol:"심벌 실험",character:"캐릭터·타이포",mockup:"색상·적용 목업"};
 const gallery=document.getElementById("gallery");
-const excluded=new Set([5,17,27]);\nconst curated=window.DOTS_IMAGES.map((src,i)=>({src,label:labels[i]})).filter((_,i)=>!excluded.has(i));\ngallery.innerHTML=curated.map(({src,label},i)=>{const [title,type]=label||["추가 시안","explore"];return `<figure class="card" data-type="${type}"><img src="${src}" loading="lazy" alt="DOTS Coffee Works 시안 ${i+1}"><figcaption><div class="no">CONCEPT ${String(i+1).padStart(2,"0")}</div><div class="title">${title}</div><div class="tag">${category[type]} · 작업 기록 보존</div></figcaption></figure>`}).join("");
+const excluded=new Set([5,17,27]);
+const curated=window.DOTS_IMAGES.map((src,i)=>({src,label:labels[i]})).filter((_,i)=>!excluded.has(i));
+gallery.innerHTML=curated.map(({src,label},i)=>{const [title,type]=label||["추가 시안","explore"];return `<figure class="card" data-type="${type}"><img src="${src}" loading="lazy" alt="DOTS Coffee Works 시안 ${i+1}"><figcaption><div class="no">CONCEPT ${String(i+1).padStart(2,"0")}</div><div class="title">${title}</div><div class="tag">${category[type]} · 작업 기록 보존</div></figcaption></figure>`}).join("");
 document.querySelectorAll(".filters button").forEach(btn=>btn.addEventListener("click",()=>{document.querySelector(".filters .active").classList.remove("active");btn.classList.add("active");const f=btn.dataset.filter;document.querySelectorAll(".card").forEach(c=>c.classList.toggle("hidden",f!=="all"&&c.dataset.type!==f))}));
 </script></body></html>
