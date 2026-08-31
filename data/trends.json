@@ -1,10 +1,30 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-08-31T04:49:15.015797+00:00",
-  "updated_kst": "2026년 08월 31일 13:49",
+  "updated_at": "2026-08-31T04:53:57.349117+00:00",
+  "updated_kst": "2026년 08월 31일 13:53",
   "sources": {
     "google": {
       "items": [
+        {
+          "k": "이혜영",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "주문도",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "김윤지",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "김호창",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "테니스",
+          "m": "검색량 200+"
+        },
         {
           "k": "종합 부동산 세",
           "m": "검색량 200+"
@@ -24,98 +44,79 @@
         {
           "k": "르브론 제임스",
           "m": "검색량 200+"
-        },
-        {
-          "k": "빠니보틀",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "이만희",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "이란",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "지예은",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "이재명 지지율",
-          "m": "검색량 10000+"
         }
       ]
     },
-    "news": {
+    "shopping": {
+      "updated": "20260827",
       "items": [
         {
-          "k": "네팔·중국 대홍수 사망 804명…생존 가능 터널 뚫고 공기 넣었지만 - 한겨레",
-          "m": "한겨레",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCZjRpcG83Zjhma2ZuNDVwa0FLdmZ6bDVHWS1palJKa0luRWppWXFvaEoybHYtQkEzRTlHR0xsZUx6V2dPb0ZIUjlybFQwSTl2VjExSGxQWmpvV0xUVElJdmNQcnB3TFdoejZQM1RVSG1BWnBa?oc=5",
-          "tag": "news"
+          "k": "산타마리아노벨라비누",
+          "m": "클렌징 · 유지",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%82%B0%ED%83%80%EB%A7%88%EB%A6%AC%EC%95%84%EB%85%B8%EB%B2%A8%EB%9D%BC%EB%B9%84%EB%88%84",
+          "tag": "buy"
         },
         {
-          "k": "용혜인 비례의원직 유지 입장에 “위성정당 면죄부 주나”…진보 진영 포함 야권 거센 비판 - 경향신문",
-          "m": "경향신문",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFR0xuQ3BtdXVjWkoydnd6SVNoWXpRTHBIWFZqd1BjVUpzc1RzME9mX0lJYUVCNHlwNXZIVE9XdGgzZ0RWNzh0WnJ5cGExVHZrTmJ5d01GZDFvUdIBX0FVX3lxTE9PZjFXd0lJaDN2RHM2U0NJdjVDX1QyNEZJZkVPUTNXd3lodGt2U2FKcHo4Y19paC1vQlpZSlY2UDM4WTIwdXA2aWZnenA0emhYWDA0d1RZd0tXUFVWdmEw?oc=5",
-          "tag": "news"
+          "k": "스톰에메랄다",
+          "m": "완구/인형 · 상승 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%8A%A4%ED%86%B0%EC%97%90%EB%A9%94%EB%9E%84%EB%8B%A4",
+          "tag": "buy"
         },
         {
-          "k": "다시 사법부로 넘어온 공…조희대, 초유의 ‘대법관 재제청’ 어떻게 풀까 - 경향신문",
-          "m": "경향신문",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FbVVCVXlyQ280X3llTkJqdWl4WE9DQ2ZXYmQyRTJvV1ZIN1lhdXVWZzA0dzJCdHU2MjlhYzBZbDJnNlhsaUdHM21oUFR2OC00M0E0ZHpXSTZxd9IBX0FVX3lxTE8tZjdhM3FPMXJJOWEtUzhuWk9KajFwaV9GMlFMVkRuT0UwV0dONHJoWDhWRklWUjZRZmU3UllQaWY1MFNqMG5na3V6VWRwN1NuaTJ1dlpuRnQwbHg4b09j?oc=5",
-          "tag": "news"
+          "k": "종근당이노시톨",
+          "m": "건강식품 · 하락 2",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%A2%85%EA%B7%BC%EB%8B%B9%EC%9D%B4%EB%85%B8%EC%8B%9C%ED%86%A8",
+          "tag": "buy"
         },
         {
-          "k": "제주 실종여성, 처음엔 “자살 추정” 이라더니···국수본부장 “시신 부패로 인해 사인 불명” - 경향신문",
-          "m": "경향신문",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04SHZJRV9JWHZxaWlGaHhuaG9QMXdBOWE1VzN3dDZMNkZzRWJvaDI4bmUtdU1ZMzJoRkwzU2NiYmdCODlaNVhrWFhWM0t2MTZuWGM4cmFiWkdJQdIBX0FVX3lxTE41UkQ1UG8wY0VoaTR2NzJVRUs0RXU1cmsyS2kySUREaC1iU0IwdF9rRWRRd3V4b2hQTmp5UmZKWE1KckN6VVA4UlFDbDFWdUtSSVZMMTlrdWI5ZGY4dVRj?oc=5",
-          "tag": "news"
+          "k": "오우라링5",
+          "m": "휴대폰액세서리 · 하락 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%98%A4%EC%9A%B0%EB%9D%BC%EB%A7%815",
+          "tag": "buy"
         },
         {
-          "k": "배달기사 사망‥마세라티 만취 운전 40대 구속 - v.daum.net",
-          "m": "v.daum.net",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hTGVvb1VsWEdrbDdVZWdyNkxoRTBha0JYY1N3RXRvQkNKWjJGd0huVV81ZVlHa0dGV1BVSE9oYmZ2SGQ1bEZURElhS1pySG8?oc=5",
-          "tag": "news"
+          "k": "미닉스음쓰처리기",
+          "m": "주방가전 · 상승 3",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%AF%B8%EB%8B%89%EC%8A%A4%EC%9D%8C%EC%93%B0%EC%B2%98%EB%A6%AC%EA%B8%B0",
+          "tag": "buy"
         },
         {
-          "k": "장동혁, 김승원·용혜인·이형일·홍지선 콕 집어 “부적격 인사 철회해야” - 한겨레",
-          "m": "한겨레",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hZ2xjU2t0V19oUm5NR2QxbndKU2RSTFAyV3oyTVptaXNGNDRtVWUxZ290V0FISk5VUlh4aWszN1QxNGRPekdVYU1uSWwwVnFKMEQzbzNHaTRnSW1sbGUxMFEzZ0RzUDlKcVUyY0RUYXpoel9N?oc=5",
-          "tag": "news"
+          "k": "농심삼계탕사발면",
+          "m": "라면/면류 · 하락 2",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%86%8D%EC%8B%AC%EC%82%BC%EA%B3%84%ED%83%95%EC%82%AC%EB%B0%9C%EB%A9%B4",
+          "tag": "buy"
         },
         {
-          "k": "수도권·충청·전라, 새벽부터 많은 비 - 조선일보",
-          "m": "조선일보",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMDFCTlJaQTItMGVsWFFVN1ZuWFJ5MkplLWF3aTA0NWFjaFRFSjg2SlQtSzZ1REY5MU9MNHB6NmF3SGMzZHVpbVBKeUQtR3lPUHlhaERiU3BnSkViQWVrQTRLV3IyRmpSbi1GTTdIY25Qd1Q2bC1XeXlObUM1T0VBVnFjSFhkUV81bEYxZ0Z0M3g?oc=5",
-          "tag": "news"
+          "k": "도미솔김치박미희",
+          "m": "김치 · 하락 2",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%8F%84%EB%AF%B8%EC%86%94%EA%B9%80%EC%B9%98%EB%B0%95%EB%AF%B8%ED%9D%AC",
+          "tag": "buy"
         },
         {
-          "k": "정교유착 합수본 종료…이만희 구속기소·한학자 금고 260억원 압수 - 연합뉴스",
-          "m": "연합뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5OEVWeGJHeVZuSUUxTGNHbHExUDVWaEpIcnFjWXY4bExPS1Z4bm83YWplWDJpSGZ5OW43NXdtczBBazh0ZjdUZW91d2c3ck1HdXRTajVmSjA5UGPSAWBBVV95cUxQemVVazlYeFZMRmpTQjk1QVZVbmYxUzhIRzJhQWdjYWlGSTlYVld0dVpwRkJpaWtDdmQzTkdlLUcyUUhnbU1EeWN2dk02TXFaTVVldEpCRkdablRuT2d4Yms?oc=5",
-          "tag": "news"
+          "k": "동결건조보이차",
+          "m": "음료 · 상승 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%8F%99%EA%B2%B0%EA%B1%B4%EC%A1%B0%EB%B3%B4%EC%9D%B4%EC%B0%A8",
+          "tag": "buy"
         },
         {
-          "k": "“이번엔 시민이 지켜본다”…제주경찰서 앞 CCTV 풍자 광고 - 한겨레",
-          "m": "한겨레",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtakg5ZXFJaW9RLVh0UUhaalFlVkFaTkc3dVBGVE9kWkZzTzNzVmx1c0VLbk1ZLWU0OUJlVm5FcUFJZXhzZjZPMmk1WlFOS1dLNy1FQ0dvQlYtQjlkY1Jn?oc=5",
-          "tag": "news"
+          "k": "수제먹태",
+          "m": "수산물 · 상승 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%88%98%EC%A0%9C%EB%A8%B9%ED%83%9C",
+          "tag": "buy"
         },
         {
-          "k": "이 대통령 지지율 38.9%…7주 연속 하락세, 취임 후 최저[리얼미터] - 경향신문",
-          "m": "경향신문",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pNXB3Zm81QnVsRlpicDNYbndRa1hqSUxYamlOS29YVGMxVkdnODlna0xyS1pFa2xNZTFpcHM5ZWhMT0VlMWdFRkFOcjVsbXlZVzlhaWt3MjNmZ9IBX0FVX3lxTE4tUnJfQlZfNWV3OV82ck10QkZyQWVNa1I3bU4wU3RHZ0V1Mm80ajVVQkpkUU1nSkNpU2F1S0EyaHR3TGJPcWFaZ2RFMERHbHA2aThjaXotSFdlbVVWWmZV?oc=5",
-          "tag": "news"
+          "k": "아르타민",
+          "m": "다이어트식품 · 상승 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%95%84%EB%A5%B4%ED%83%80%EB%AF%BC",
+          "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026년 08월 31일 13시 39분",
+      "updated": "2026년 08월 31일 13시 49분",
       "items": [
         {
-          "k": "엔하이픈 빌보드 200 1위",
+          "k": "엔하이픈 빌보드 1위",
           "m": "실시간 인기 검색어"
         },
         {
@@ -123,15 +124,11 @@
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "제주 실종여성 사인 불명",
-          "m": "실시간 인기 검색어"
-        },
-        {
           "k": "김용남 정책위 상임부의장",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "조코비치 US오픈 1회전 탈락",
+          "k": "창원 바다 추락",
           "m": "실시간 인기 검색어"
         },
         {
@@ -139,11 +136,11 @@
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "이형철 다이빙",
+          "k": "조코비치 US오픈 1회전 탈락",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "민주당 메가성장특위",
+          "k": "제주 실종여성 사인 불명",
           "m": "실시간 인기 검색어"
         },
         {
@@ -151,7 +148,11 @@
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "기본소득당",
+          "k": "이형철 다이빙",
+          "m": "실시간 인기 검색어"
+        },
+        {
+          "k": "조희대 대법원장 부친상",
           "m": "실시간 인기 검색어"
         }
       ]
@@ -204,6 +205,26 @@
   },
   "items": [
     {
+      "k": "이혜영",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "주문도",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "김윤지",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "김호창",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "테니스",
+      "m": "검색량 200+"
+    },
+    {
       "k": "종합 부동산 세",
       "m": "검색량 200+"
     },
@@ -222,26 +243,6 @@
     {
       "k": "르브론 제임스",
       "m": "검색량 200+"
-    },
-    {
-      "k": "빠니보틀",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "이만희",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "이란",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "지예은",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "이재명 지지율",
-      "m": "검색량 10000+"
     }
   ]
 }
