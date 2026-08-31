@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>JYP 실시간 키워드 탐색기</title>
-<meta name="description" content="Google Trends를 4시간마다 수집해 블로그 소재를 찾는 JYP COWRK 키워드 대시보드">
+<meta name="description" content="Google·다음·크리에이터 인기 검색어를 1시간마다 수집해 블로그 소재를 찾는 JYP COWRK 키워드 대시보드">
 <style>
 :root{--bg:#f4f1eb;--ink:#111827;--muted:#6b7280;--paper:#fffdf8;--line:#ded8cd;--orange:#f59e0b;--blue:#3977f6;--green:#1ca65a;--navy:#101b35}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif}
@@ -27,7 +27,9 @@
 <section class="hero"><div class="eyebrow">REALTIME SEARCH SIGNALS</div><h1>지금 사람들이 찾는 것</h1><p>인기 검색어를 그대로 베끼지 않고, 블로그로 발전시킬 만한 질문을 찾습니다.</p><div class="stamp"><span class="dot"></span><span id="updated">데이터 불러오는 중</span></div></section>
 <nav class="toolbar" aria-label="키워드 필터"><button class="chip active" data-filter="all">전체</button><button class="chip" data-filter="how">방법·해결</button><button class="chip" data-filter="buy">구매·비교</button><button class="chip" data-filter="news">이슈·뉴스</button></nav>
 <section class="grid">
-<article class="panel blue"><div class="panel-head"><div class="title-row"><div class="source"><span class="source-icon">G</span>Google Trends</div><span class="status">4시간 자동 갱신</span></div><p class="desc">대한민국 Google 인기 검색어 RSS 기준</p></div><ol class="list" id="google"><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li></ol></article>
+<article class="panel orange"><div class="panel-head"><div class="title-row"><div class="source"><span class="source-icon">D</span>다음 실시간 검색어</div><span class="status">1시간 자동 갱신</span></div><p class="desc">다음에서 주목받는 실시간 검색 주제</p></div><ol class="list" id="daum"><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li></ol></article>
+<article class="panel blue"><div class="panel-head"><div class="title-row"><div class="source"><span class="source-icon">G</span>Google Trends</div><span class="status">1시간 자동 갱신</span></div><p class="desc">대한민국 Google 인기 검색어 RSS 기준</p></div><ol class="list" id="google"><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li></ol></article>
+<article class="panel green"><div class="panel-head"><div class="title-row"><div class="source"><span class="source-icon">N</span>크리에이터 어드바이저</div><span class="status">1시간 자동 갱신</span></div><p class="desc">네이버 콘텐츠 검색 관심 주제</p></div><ol class="list" id="creator"><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li></ol></article>
 <article class="panel orange"><div class="panel-head"><div class="title-row"><div class="source"><span class="source-icon">↗</span>블로그 기회</div><span class="status">AI 편집 후보</span></div><p class="desc">인기어에서 질문형·행동형 소재를 골라낸 목록</p></div><ol class="list" id="opportunity"></ol></article>
 <article class="panel green"><div class="panel-head"><div class="title-row"><div class="source"><span class="source-icon">J</span>지용님 소재</div><span class="status">실제 경험 우선</span></div><p class="desc">카페·장비·제작 경험으로 차별화하기 좋은 주제</p></div><ol class="list" id="personal"></ol></article>
 </section>
@@ -44,21 +46,25 @@ const personal=[
  {k:"원목 상판 바니시 5회 작업 후기",tag:"how",m:"사진형 콘텐츠"},
  {k:"카페 제빙기 주름관이 비싼 이유",tag:"buy",m:"부품 비교"}
 ];
-let currentFilter="all", live=[];
+let currentFilter="all", live=[], daum=[], creator=[];
 const classify=k=>/(방법|신청|설치|해결|고장|만들|사용|기준|규격)/.test(k)?"how":/(가격|구매|추천|비교|할인|제품)/.test(k)?"buy":"news";
-function row(x,i,source){const tag=x.tag||classify(x.k);if(currentFilter!=="all"&&tag!==currentFilter)return"";const q=encodeURIComponent(x.k);const url=source==="google"?"https://www.google.com/search?q="+q:"https://search.naver.com/search.naver?query="+q;return '<li class="item"><span class="rank">'+(i+1)+'</span><span class="keyword">'+escapeHtml(x.k)+'<span class="meta">'+escapeHtml(x.m||label(tag))+'</span></span><button class="search" aria-label="'+escapeHtml(x.k)+' 검색" onclick="window.open(\''+url+'\',\'_blank\')">⌕</button></li>'}
+function row(x,i,source){const tag=x.tag||classify(x.k);if(currentFilter!=="all"&&tag!==currentFilter)return"";const q=encodeURIComponent(x.k);const bases={google:"https://www.google.com/search?q=",daum:"https://search.daum.net/search?w=tot&q=",naver:"https://search.naver.com/search.naver?query="};const url=(bases[source]||bases.naver)+q;return '<li class="item"><span class="rank">'+(i+1)+'</span><span class="keyword">'+escapeHtml(x.k)+'<span class="meta">'+escapeHtml(x.m||label(tag))+'</span></span><button class="search" aria-label="'+escapeHtml(x.k)+' 검색" onclick="window.open(\''+url+'\',\'_blank\')">⌕</button></li>'}
 function label(t){return t==="how"?"방법·해결형":t==="buy"?"구매·비교형":"이슈·뉴스형"}
 function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]))}
 function render(){
+ const d=daum.slice(0,10).map((x,i)=>row(x,i,"daum")).join("");
+ document.querySelector("#daum").innerHTML=d||'<li class="empty">이 필터에 해당하는 검색어가 없습니다.</li>';
  const g=live.slice(0,10).map((x,i)=>row(x,i,"google")).join("");
  document.querySelector("#google").innerHTML=g||'<li class="empty">이 필터에 해당하는 검색어가 없습니다.</li>';
+ const c=creator.slice(0,10).map((x,i)=>row(x,i,"naver")).join("");
+ document.querySelector("#creator").innerHTML=c||'<li class="empty">이 필터에 해당하는 검색어가 없습니다.</li>';
  const opportunities=live.filter(x=>classify(x.k)!=="news").slice(0,10);
  document.querySelector("#opportunity").innerHTML=opportunities.map((x,i)=>row({...x,m:"질문형 글 후보"} ,i,"naver")).join("")||'<li class="empty">현재 검색어 중 장기형 후보가 적습니다.<br>잠시 후 다시 확인하세요.</li>';
  document.querySelector("#personal").innerHTML=personal.map((x,i)=>row(x,i,"naver")).join("")||'<li class="empty">이 필터에 해당하는 소재가 없습니다.</li>';
 }
 async function load(){
- try{const r=await fetch("data/trends.json?"+Date.now());if(!r.ok)throw 0;const d=await r.json();live=d.items||[];document.querySelector("#updated").textContent=(d.updated_kst||d.updated_at||"최근")+" 기준";}
- catch(e){live=[{k:"데이터 갱신 대기 중",m:"GitHub 자동 수집 준비 중",tag:"news"}];document.querySelector("#updated").textContent="초기 데이터";}
+ try{const r=await fetch("data/trends.json?"+Date.now());if(!r.ok)throw 0;const d=await r.json();const s=d.sources||{};live=(s.google&&s.google.items)||d.items||[];daum=(s.daum&&s.daum.items)||[];creator=(s.creator&&s.creator.items)||[];document.querySelector("#updated").textContent=(d.updated_kst||d.updated_at||"최근")+" 기준";}
+ catch(e){live=[{k:"데이터 갱신 대기 중",m:"GitHub 자동 수집 준비 중",tag:"news"}];daum=[];creator=[];document.querySelector("#updated").textContent="초기 데이터";}
  render();
 }
 document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("active"));b.classList.add("active");currentFilter=b.dataset.filter;render()});
