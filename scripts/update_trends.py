@@ -4,6 +4,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 URL = "https://trends.google.com/trending/rss?geo=KR"
+NEWS_URL = "https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko"
 HEADERS = {"User-Agent":"Mozilla/5.0 JYP-COWRK/1.0"}
 
 def request(url):
@@ -22,6 +23,18 @@ def google_trends():
                 traffic=(child.text or "").strip()
         if title:
             items.append({"k":title,"m":f"검색량 {traffic}" if traffic else "Google Trends"})
+    return {"items":items}
+
+def google_news():
+    root = ET.fromstring(request(NEWS_URL))
+    items=[]
+    for node in root.findall("./channel/item")[:10]:
+        title=(node.findtext("title") or "").strip()
+        link=(node.findtext("link") or "").strip()
+        source=node.find("source")
+        publisher=(source.text or "").strip() if source is not None else "Google 뉴스"
+        if title:
+            items.append({"k":title, "m":publisher, "url":link, "tag":"news"})
     return {"items":items}
 
 def public_ranking(name):
@@ -46,6 +59,7 @@ if out.exists():
 sources={}
 for key, loader in (
     ("google", google_trends),
+    ("news", google_news),
     ("daum", lambda: public_ranking("daum")),
     ("creator", lambda: public_ranking("naver")),
 ):
