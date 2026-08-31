@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-import json, urllib.request, xml.etree.ElementTree as ET
+import json, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 URL = "https://trends.google.com/trending/rss?geo=KR"
-NEWS_URL = "https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko"
+SHOPPING_BEST_URL = "https://snxbest.naver.com/home"
 HEADERS = {"User-Agent":"Mozilla/5.0 JYP-COWRK/1.0"}
 
 def request(url):
@@ -25,17 +25,46 @@ def google_trends():
             items.append({"k":title,"m":f"검색량 {traffic}" if traffic else "Google Trends"})
     return {"items":items}
 
-def google_news():
-    root = ET.fromstring(request(NEWS_URL))
+def naver_shopping_best():
+    raw=request(SHOPPING_BEST_URL).decode("utf-8", errors="replace")
+    marker='\\"keywordChartRankData\\":'
+    start=raw.find(marker)
+    if start < 0:
+        raise RuntimeError("Naver shopping ranking data not found")
+    start += len(marker)
+    depth=0
+    end=-1
+    for pos, char in enumerate(raw[start:], start):
+        if char == '[':
+            depth += 1
+        elif char == ']':
+            depth -= 1
+            if depth == 0:
+                end=pos+1
+                break
+    if end < 0:
+        raise RuntimeError("Naver shopping ranking list incomplete")
+    ranks=json.loads(raw[start:end].replace('\\"','"'))
     items=[]
-    for node in root.findall("./channel/item")[:10]:
-        title=(node.findtext("title") or "").strip()
-        link=(node.findtext("link") or "").strip()
-        source=node.find("source")
-        publisher=(source.text or "").strip() if source is not None else "Google 뉴스"
-        if title:
-            items.append({"k":title, "m":publisher, "url":link, "tag":"news"})
-    return {"items":items}
+    status_label={"NEW":"신규", "UP":"상승", "DOWN":"하락", "STABLE":"유지"}
+    for x in ranks[:10]:
+        title=str(x.get("title", "")).strip()
+        if not title:
+            continue
+        movement=status_label.get(x.get("status"), "인기")
+        change=x.get("rankFluctuation")
+        if change and x.get("status") in ("UP", "DOWN"):
+            movement += f" {abs(int(change))}"
+        category=str(x.get("subTitle", "쇼핑")).strip()
+        query=urllib.parse.quote(title)
+        items.append({
+            "k":title,
+            "m":f"{category} · {movement}",
+            "url":f"https://shopping.naver.com/ns/search?query={query}",
+            "tag":"buy",
+        })
+    sync=str(ranks[0].get("syncDate", "")) if ranks else ""
+    return {"updated":sync, "items":items}
 
 def public_ranking(name):
     # 공개 순위 제공 페이지의 JSON 결과를 한 시간마다 보관합니다.
@@ -59,7 +88,7 @@ if out.exists():
 sources={}
 for key, loader in (
     ("google", google_trends),
-    ("news", google_news),
+    ("shopping", naver_shopping_best),
     ("daum", lambda: public_ranking("daum")),
     ("creator", lambda: public_ranking("naver")),
 ):
