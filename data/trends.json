@@ -1,7 +1,7 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-09-01T16:42:15.648193+00:00",
-  "updated_kst": "2026년 09월 02일 01:42",
+  "updated_at": "2026-09-01T17:24:49.633858+00:00",
+  "updated_kst": "2026년 09월 02일 02:24",
   "sources": {
     "google": {
       "items": [
@@ -155,7 +155,8 @@
           "k": "고범석 프로필",
           "m": "실시간 인기 검색어"
         }
-      ]
+      ],
+      "stale": true
     },
     "creator": {
       "updated": "2026년 08월 31일",
@@ -200,7 +201,8 @@
           "k": "빠니보틀 메로나",
           "m": "실시간 인기 검색어"
         }
-      ]
+      ],
+      "stale": true
     }
   },
   "items": [
