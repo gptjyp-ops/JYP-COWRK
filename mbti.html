@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MBTI 성향 알아보기 · JYP COWRK</title>
+<style>
+:root{color-scheme:dark;--bg:#050505;--panel:#0b0b0b;--line:#22b8c9;--text:#fff;--muted:#b7d7d5;--cyan:#19bfd1;--green:#66ad25;--white:#fff}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}
+a{color:inherit}.wrap{max-width:900px;margin:auto;padding:34px 20px 72px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:28px}.back{text-decoration:none;font-weight:900;color:var(--cyan)}.count{font-size:13px;color:var(--muted)}
+.eyebrow{font-size:12px;font-weight:900;letter-spacing:.18em;color:var(--cyan)}h1{font-family:Impact,"Arial Black",sans-serif;font-size:clamp(42px,9vw,78px);line-height:.88;margin:12px 0 14px;letter-spacing:-.045em}.lead{max-width:700px;line-height:1.65;color:#dcebea;margin-bottom:24px}.notice{border:1px solid #24464b;padding:13px 15px;color:#a8c4c2;font-size:13px;line-height:1.55;margin-bottom:24px}
+.progressBox{position:sticky;top:0;background:rgba(5,5,5,.94);backdrop-filter:blur(8px);padding:12px 0 10px;z-index:5}.progress{height:8px;background:#171717;overflow:hidden}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--cyan),var(--green));transition:.2s}.progressText{font-size:12px;color:var(--muted);margin-top:7px}
+.question{border:2px solid #202020;background:var(--panel);padding:20px;margin:14px 0;box-shadow:6px 6px 0 #101010}.qnum{font-size:11px;color:var(--cyan);font-weight:900;letter-spacing:.12em}.qtext{font-size:18px;font-weight:800;line-height:1.45;margin:8px 0 14px}.choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}.choice{appearance:none;border:2px solid #303030;background:#090909;color:white;padding:14px;text-align:left;font:inherit;line-height:1.4;cursor:pointer;transition:.15s}.choice:hover{border-color:var(--cyan)}.choice.selected{border-color:var(--green);background:#112006;box-shadow:inset 0 0 0 1px var(--green)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.primary,.secondary{border:0;padding:14px 18px;font-weight:900;font-size:15px;cursor:pointer}.primary{background:var(--green);color:#050505}.secondary{background:#fff;color:#050505}.result{display:none;margin-top:34px;border:3px solid #fff;padding:24px;background:#080808;box-shadow:10px 10px 0 var(--green)}.result.show{display:block}.resultType{font-family:Impact,"Arial Black",sans-serif;font-size:58px;line-height:1;color:var(--cyan);letter-spacing:.03em}.subtype{font-weight:900;font-size:18px;margin:8px 0 18px}.scoreGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0}.score{border:1px solid #2a2a2a;padding:12px}.score b{font-size:20px}.score small{display:block;color:var(--muted);margin-top:5px}.summary{line-height:1.65;color:#d9e8e7}.saved{margin-top:16px;padding:12px;border-left:4px solid var(--cyan);background:#0b1415;color:#cde6e4}.footer{margin-top:36px;color:#66757a;text-align:center;font-size:12px}
+@media(max-width:650px){.choices{grid-template-columns:1fr}.scoreGrid{grid-template-columns:1fr 1fr}.question{padding:16px}.resultType{font-size:48px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<div class="top"><a class="back" href="index.html">← 대시보드</a><div class="count">JYP COWRK · PERSONAL TEST</div></div>
+<div class="eyebrow">PERSONALITY EXPLORER</div><h1>MBTI<br>TENDENCY</h1>
+<p class="lead">지금까지 대화에서 사용한 질문 흐름을 바탕으로 만든 개인용 성향 검사입니다. 정답은 없고, 그 순간 더 가까운 쪽을 고르면 됩니다.</p>
+<div class="notice">※ MBTI는 성향을 이해하기 위한 참고 도구입니다. 이 페이지의 결과는 공식 MBTI 검사나 심리 진단을 대체하지 않습니다.</div>
+<div class="progressBox"><div class="progress"><div class="bar" id="bar"></div></div><div class="progressText" id="progressText">0 / 38 응답</div></div>
+<section id="questions"></section>
+<div class="actions"><button class="primary" id="resultBtn">결과 보기</button><button class="secondary" id="resetBtn">처음부터 다시</button></div>
+<section class="result" id="result"><div class="eyebrow">YOUR CURRENT TENDENCY</div><div class="resultType" id="resultType">INTJ</div><div class="subtype" id="subtype"></div><div class="scoreGrid" id="scores"></div><div class="summary" id="summary"></div><div class="saved">이 검사는 한 번에 사람을 확정하기보다, 반복해서 검사했을 때 어떤 축이 계속 유지되는지 보는 용도로 쓰는 것이 좋습니다.</div></section>
+<div class="footer">JYP COWRK · MBTI Tendency Explorer</div>
+</main>
+<script>
+const Q=[
+['사람들과 오래 어울린 뒤','에너지가 올라간다','혼자 있어야 회복된다','E','I'],
+['새로운 일을 볼 때','실제 경험·사실부터 본다','가능성·큰 그림부터 본다','S','N'],
+['결정할 때 더 중요한 것은','논리적으로 맞는가','사람에게 어떤 영향을 주는가','T','F'],
+['일을 할 때','계획을 정해놓는 게 편하다','상황에 따라 바꾸는 게 편하다','J','P'],
+['처음 보는 사람들과 있는 자리에서','먼저 말을 거는 편이다','상대가 말을 걸 때까지 보는 편이다','E','I'],
+['설명을 들을 때','구체적인 예시가 있어야 이해가 잘 된다','원리만 알면 응용할 수 있다','S','N'],
+['누군가 고민을 말하면','해결 방법부터 생각난다','그 사람의 기분부터 생각난다','T','F'],
+['여행을 간다면','일정과 동선을 미리 짠다','핵심만 정하고 즉흥적으로 움직인다','J','P'],
+['생각을 정리할 때','다른 사람과 대화하면서 정리된다','혼자 생각한 뒤 말하는 편이다','E','I'],
+['관심이 가는 것은','지금 실제로 쓸 수 있는 것','아직 없지만 만들 수 있는 것','S','N'],
+['의견 충돌이 생기면','틀린 건 틀렸다고 말하는 편이다','관계가 상하지 않는 쪽을 고려한다','T','F'],
+['마감이 일주일 남았다면','미리 끝내놓는 편이다','막판 집중력이 더 잘 나온다','J','P'],
+['무언가를 배울 때','검증된 방법부터 따라 해본다','원리를 이해하고 내 방식으로 바꿔본다','S','N'],
+['문제를 해결할 때','이전에 잘됐던 방법을 먼저 떠올린다','더 나은 새 방법이 없는지 먼저 본다','S','N'],
+['일을 시작할 때','필요한 자료와 순서를 먼저 정리한다','일단 시작하면서 방향을 잡는다','J','P'],
+['새 아이디어가 떠오르면','현실적으로 가능한지부터 따져본다','가능성부터 키우고 현실성은 나중에 본다','S','N'],
+['계획이 갑자기 바뀌면','스트레스받고 원래 계획으로 돌리고 싶다','바뀐 상황에 맞춰 다시 움직이면 된다','J','P'],
+['여러 아이디어가 동시에 떠오를 때','가장 가능성 높은 하나를 골라 깊게 판다','여러 가능성을 계속 열어두고 비교한다','J','P'],
+['미래를 생각할 때','대략적인 방향만 있으면 충분하다','몇 년 뒤 모습을 구체적으로 자주 그린다','P','J'],
+['어떤 일을 할 때','방식이 정해지면 그대로 밀고 간다','더 좋은 방법이 보이면 중간에도 바꾼다','J','P'],
+['사람을 판단할 때','실제로 한 행동과 결과를 본다','의도와 앞으로의 가능성까지 본다','S','N'],
+['일을 끝내는 방식은','완성 기준을 정하고 끝까지 마무리한다','어느 정도 되면 다음 아이디어나 일로 넘어간다','J','P'],
+['해야 할 일이 여러 개 있으면','우선순위를 정해서 하나씩 처리한다','그때 가장 집중되는 것부터 처리한다','J','P'],
+['계획보다 더 흥미로운 방법이 떠오르면','원래 계획을 유지한다','새 방법을 시험해본다','J','P'],
+['결정을 내려야 할 때','충분히 괜찮은 답이면 결정하고 넘어간다','더 나은 답이 있을 것 같아 계속 비교한다','J','P'],
+['주제를 깊게 파고들 때','결론이나 실용적인 결과가 중요하다','원리와 가능성을 탐구하는 과정이 더 재미있다','J','P'],
+['규칙이나 시스템을 볼 때','효율적이면 그대로 활용한다','왜 그렇게 만들어졌는지부터 따져본다','T','T'],
+['아이디어가 떠오르면','현실에서 어떻게 실행할지 구조를 잡는다','또 다른 아이디어가 계속 뻗어나간다','J','P'],
+['문제를 오래 생각할 때','여러 정보가 합쳐져 하나의 방향으로 정리된다','여러 가능성을 계속 비교하는 편이다','J','P'],
+['새 아이디어를 볼 때','실제로 어떻게 써먹을지부터 본다','이 아이디어에서 또 뭐가 나올지 본다','J','P'],
+['“원래 다들 이렇게 해”라는 말을 들으면','효과적이고 합리적이면 그냥 쓴다','왜 그런지 논리부터 따져보고 납득돼야 쓴다','J','P'],
+['일을 할 때 더 답답한 상황은','목표는 있는데 방법이 비효율적이다','방법은 있는데 왜 해야 하는지 의미가 없다','T','F'],
+['중요한 선택을 할 때','내 가치와 맞는지가 중요하다','논리적으로 가장 타당한지가 중요하다','F','T'],
+['예상 못 한 상황이 생기면','다시 통제 가능한 구조를 만들려고 한다','즉흥 대응 자체가 재미있는 편이다','J','P'],
+['새로운 아이디어가 떠오르면','여러 아이디어 중 하나를 골라 깊게 판다','하나에서 다른 가능성이 연쇄적으로 떠오른다','J','P'],
+['미래를 생각할 때','결국 갈 것 같은 하나의 그림이 생긴다','여러 미래의 가능성을 계속 열어둔다','J','P'],
+['새 정보를 접했을 때','공통된 핵심 의미 하나로 묶는다','연결될 다른 아이디어들이 계속 떠오른다','J','P'],
+['아이디어를 생각할 때 더 즐거운 것은','여러 가능성을 하나의 큰 방향으로 정리한다','하나의 아이디어에서 또 다른 아이디어가 뻗는다','J','P']
+];
+const answers=Array(Q.length).fill(null);
+const container=document.getElementById('questions');
+Q.forEach((q,i)=>{const el=document.createElement('article');el.className='question';el.innerHTML=`<div class="qnum">QUESTION ${String(i+1).padStart(2,'0')}</div><div class="qtext">${q[0]}</div><div class="choices"><button class="choice" data-i="${i}" data-v="0"><b>A.</b> ${q[1]}</button><button class="choice" data-i="${i}" data-v="1"><b>B.</b> ${q[2]}</button></div>`;container.appendChild(el)});
+container.addEventListener('click',e=>{const b=e.target.closest('.choice');if(!b)return;const i=+b.dataset.i,v=+b.dataset.v;answers[i]=v;b.parentElement.querySelectorAll('.choice').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');updateProgress()});
+function updateProgress(){const n=answers.filter(v=>v!==null).length;document.getElementById('bar').style.width=(n/Q.length*100)+'%';document.getElementById('progressText').textContent=`${n} / ${Q.length} 응답`}
+function calc(){if(answers.some(v=>v===null)){alert('아직 답하지 않은 문항이 있습니다. 모든 문항을 선택해 주세요.');return}const s={E:0,I:0,S:0,N:0,T:0,F:0,J:0,P:0};answers.forEach((v,i)=>{const key=Q[i][3+v];s[key]++});const type=(s.I>=s.E?'I':'E')+(s.N>=s.S?'N':'S')+(s.T>=s.F?'T':'F')+(s.J>=s.P?'J':'P');const pairs=[['E','I'],['S','N'],['T','F'],['J','P']];const scoreHtml=pairs.map(([a,b])=>{const total=s[a]+s[b]||1;const winner=s[a]>=s[b]?a:b;const pct=Math.round(Math.max(s[a],s[b])/total*100);return `<div class="score"><b>${winner} ${pct}%</b><small>${a} ${s[a]} · ${b} ${s[b]}</small></div>`}).join('');let subtype='';let text='';if(type==='INTJ'){subtype='전략형 · 구조화와 실행을 중시';text='혼자 사고를 정리하고, 큰 그림과 논리를 바탕으로 실제 실행 구조를 만드는 경향이 강합니다. 계획을 선호하지만 더 효율적인 방법이 보이면 수정하려는 유연성도 함께 나타날 수 있습니다.'}else if(type==='INTP'){subtype='탐구형 · 논리와 가능성 탐색을 중시';text='혼자 깊게 생각하고, 원리와 논리를 따지며 여러 가능성을 열어두는 경향이 강합니다. 정해진 방식보다 스스로 납득되는 구조를 선호합니다.'}else{text=`현재 응답에서는 ${type} 성향이 가장 높게 나타났습니다. 네 글자는 고정된 정체성이라기보다 지금의 선택 패턴을 요약한 값으로 보는 것이 좋습니다.`;subtype='현재 응답 기준 성향'}document.getElementById('resultType').textContent=type;document.getElementById('subtype').textContent=subtype;document.getElementById('scores').innerHTML=scoreHtml;document.getElementById('summary').textContent=text;document.getElementById('result').classList.add('show');document.getElementById('result').scrollIntoView({behavior:'smooth',block:'start'})}
+document.getElementById('resultBtn').onclick=calc;document.getElementById('resetBtn').onclick=()=>{answers.fill(null);document.querySelectorAll('.choice').forEach(x=>x.classList.remove('selected'));document.getElementById('result').classList.remove('show');updateProgress();window.scrollTo({top:0,behavior:'smooth'})};
+</script>
+</body>
+</html>
