@@ -1,10 +1,26 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-09-11T04:27:01.307065+00:00",
-  "updated_kst": "2026년 09월 11일 13:27",
+  "updated_at": "2026-09-11T05:24:56.950482+00:00",
+  "updated_kst": "2026년 09월 11일 14:24",
   "sources": {
     "google": {
       "items": [
+        {
+          "k": "이용진",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "앤 해서웨이",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "유보영",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "와이파이",
+          "m": "검색량 200+"
+        },
         {
           "k": "김민수",
           "m": "검색량 500+"
@@ -15,7 +31,7 @@
         },
         {
           "k": "두산에너 빌리티",
-          "m": "검색량 500+"
+          "m": "검색량 1000+"
         },
         {
           "k": "이더 리움",
@@ -28,85 +44,69 @@
         {
           "k": "푸바오",
           "m": "검색량 500+"
-        },
-        {
-          "k": "인터파크",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "파운드리",
-          "m": "검색량 10000+"
-        },
-        {
-          "k": "여권",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "카카오 모빌리티",
-          "m": "검색량 1000+"
         }
       ]
     },
     "shopping": {
-      "updated": "20260909",
+      "updated": "20260910",
       "items": [
         {
           "k": "미닉스음쓰처리기",
-          "m": "주방가전 · 유지",
+          "m": "주방가전 · 하락 1",
           "url": "https://shopping.naver.com/ns/search?query=%EB%AF%B8%EB%8B%89%EC%8A%A4%EC%9D%8C%EC%93%B0%EC%B2%98%EB%A6%AC%EA%B8%B0",
           "tag": "buy"
         },
         {
           "k": "블라누스",
-          "m": "여성언더웨어/잠옷 · 유지",
+          "m": "여성언더웨어/잠옷 · 하락 1",
           "url": "https://shopping.naver.com/ns/search?query=%EB%B8%94%EB%9D%BC%EB%88%84%EC%8A%A4",
           "tag": "buy"
         },
         {
           "k": "익수황진환",
-          "m": "건강식품 · 유지",
+          "m": "건강식품 · 하락 1",
           "url": "https://shopping.naver.com/ns/search?query=%EC%9D%B5%EC%88%98%ED%99%A9%EC%A7%84%ED%99%98",
           "tag": "buy"
         },
         {
+          "k": "아식스젤ammg",
+          "m": "남성신발 · 상승 2",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%95%84%EC%8B%9D%EC%8A%A4%EC%A0%A4ammg",
+          "tag": "buy"
+        },
+        {
           "k": "종근당이노시톨",
-          "m": "건강식품 · 유지",
+          "m": "건강식품 · 하락 2",
           "url": "https://shopping.naver.com/ns/search?query=%EC%A2%85%EA%B7%BC%EB%8B%B9%EC%9D%B4%EB%85%B8%EC%8B%9C%ED%86%A8",
           "tag": "buy"
         },
         {
           "k": "코스트룰로백",
-          "m": "여성가방 · 상승 4",
+          "m": "여성가방 · 하락 2",
           "url": "https://shopping.naver.com/ns/search?query=%EC%BD%94%EC%8A%A4%ED%8A%B8%EB%A3%B0%EB%A1%9C%EB%B0%B1",
           "tag": "buy"
         },
         {
-          "k": "호보니치2027",
-          "m": "문구/사무용품 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=%ED%98%B8%EB%B3%B4%EB%8B%88%EC%B9%982027",
-          "tag": "buy"
-        },
-        {
-          "k": "아식스젤ammg",
-          "m": "남성신발 · 인기",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%95%84%EC%8B%9D%EC%8A%A4%EC%A0%A4ammg",
-          "tag": "buy"
-        },
-        {
           "k": "위닉스제로s공기청정기필터",
-          "m": "계절가전 · 상승 3",
+          "m": "계절가전 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EC%9C%84%EB%8B%89%EC%8A%A4%EC%A0%9C%EB%A1%9Cs%EA%B3%B5%EA%B8%B0%EC%B2%AD%EC%A0%95%EA%B8%B0%ED%95%84%ED%84%B0",
           "tag": "buy"
         },
         {
-          "k": "진설미가자미식해",
-          "m": "수산물 · 인기",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%A7%84%EC%84%A4%EB%AF%B8%EA%B0%80%EC%9E%90%EB%AF%B8%EC%8B%9D%ED%95%B4",
+          "k": "호보니치2027",
+          "m": "문구/사무용품 · 하락 6",
+          "url": "https://shopping.naver.com/ns/search?query=%ED%98%B8%EB%B3%B4%EB%8B%88%EC%B9%982027",
+          "tag": "buy"
+        },
+        {
+          "k": "나그랑티셔츠",
+          "m": "여성의류 · 유지",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%82%98%EA%B7%B8%EB%9E%91%ED%8B%B0%EC%85%94%EC%B8%A0",
           "tag": "buy"
         },
         {
           "k": "스키비디",
-          "m": "수집품 · 인기",
+          "m": "수집품 · 하락 3",
           "url": "https://shopping.naver.com/ns/search?query=%EC%8A%A4%ED%82%A4%EB%B9%84%EB%94%94",
           "tag": "buy"
         }
@@ -155,7 +155,8 @@
           "k": "브루노 마스 내한",
           "m": "실시간 인기 검색어"
         }
-      ]
+      ],
+      "stale": true
     },
     "creator": {
       "updated": "2026년 09월 10일",
@@ -200,10 +201,27 @@
           "k": "언어의 온도",
           "m": "실시간 인기 검색어"
         }
-      ]
+      ],
+      "stale": true
     }
   },
   "items": [
+    {
+      "k": "이용진",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "앤 해서웨이",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "유보영",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "와이파이",
+      "m": "검색량 200+"
+    },
     {
       "k": "김민수",
       "m": "검색량 500+"
@@ -214,7 +232,7 @@
     },
     {
       "k": "두산에너 빌리티",
-      "m": "검색량 500+"
+      "m": "검색량 1000+"
     },
     {
       "k": "이더 리움",
@@ -227,22 +245,6 @@
     {
       "k": "푸바오",
       "m": "검색량 500+"
-    },
-    {
-      "k": "인터파크",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "파운드리",
-      "m": "검색량 10000+"
-    },
-    {
-      "k": "여권",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "카카오 모빌리티",
-      "m": "검색량 1000+"
     }
   ]
 }
