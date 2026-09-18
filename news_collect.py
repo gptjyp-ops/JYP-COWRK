@@ -110,7 +110,7 @@ def score_news(items: list[dict]) -> tuple[int, str, list[str]]:
     # 기사 수 자체는 관심도 신호로 아주 작게만 반영
     score += min(2.0, len(items) * 0.35)
     score = int(round(max(0.0, min(10.0, score))))
-    label = "강함" if score >= 7 else "형성중" if score >= 4 else "약함"
+    label = "강함" if score >= 4 else "형성중" if score >= 2 else "약함"
     return score, label, list(dict.fromkeys(reasons))[:5]
 
 
