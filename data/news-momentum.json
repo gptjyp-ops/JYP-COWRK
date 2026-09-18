@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T15:46:27+00:00",
+  "generated_at": "2026-09-18T19:02:32+00:00",
   "version": "stock-miner-news-v1",
   "lookback_days": 7,
   "sources": [
@@ -110,8 +110,8 @@
           "source_group": "연합뉴스"
         },
         {
-          "title": "[시선강탈] 옵티시스 vs 삼성E&A vs 라온시큐어, 공략법은? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oTmh2djR1X2NZRlF5Q0E2TEgxZ2xCd3Z3X1QzWEEycVZJNVRfVEhBaUJia0hyaEluM3RjS3RCaFhGSEpEMVd0eDdZSlBia0ZaekM4MVA4bzA3OEYwejduSllETW94QmlE0gFuQVVfeXFMTWV6T0drUnN6R2Q0NF92Q1BIN3dYaXpLNnp2dnpjZHgySFB2WnFNZ01qcjJRM3RlNmRjbWpFM1JkZVVOR3QtdmpwWnc0Wmw5S2I5TEZXaXRWY0hITzZSRjRpRXc5Z0FxZ3EwaEUtWWc?oc=5",
+          "title": "[시선강탈] 옵티시스 vs 삼성E&A vs 라온시큐어, 공략법은? - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oTmh2djR1X2NZRlF5Q0E2TEgxZ2xCd3Z3X1QzWEEycVZJNVRfVEhBaUJia0hyaEluM3RjS3RCaFhGSEpEMVd0eDdZSlBia0ZaekM4MVA4bzA3OEYwejduSllETW94QmlE?oc=5",
           "published": "2026-09-14T13:42:37+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
@@ -123,7 +123,7 @@
       "code": "009150",
       "name": "삼성전기",
       "news_score": 2,
-      "news_label": "약함",
+      "news_label": "형성중",
       "news_count": 3,
       "news_reasons": [
         "실적 개선"
@@ -232,7 +232,7 @@
       "code": "005930",
       "name": "삼성전자",
       "news_score": 4,
-      "news_label": "형성중",
+      "news_label": "강함",
       "news_count": 8,
       "news_reasons": [
         "급등"
@@ -381,7 +381,7 @@
       "code": "000660",
       "name": "SK하이닉스",
       "news_score": 4,
-      "news_label": "형성중",
+      "news_label": "강함",
       "news_count": 8,
       "news_reasons": [
         "급등"
@@ -450,7 +450,7 @@
       "code": "047040",
       "name": "대우건설",
       "news_score": 2,
-      "news_label": "약함",
+      "news_label": "형성중",
       "news_count": 6,
       "news_reasons": [],
       "news": [
@@ -503,7 +503,7 @@
       "code": "272210",
       "name": "한화시스템",
       "news_score": 2,
-      "news_label": "약함",
+      "news_label": "형성중",
       "news_count": 7,
       "news_reasons": [],
       "news": [
@@ -564,9 +564,17 @@
       "name": "신한지주",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 0,
+      "news_count": 1,
       "news_reasons": [],
-      "news": [],
+      "news": [
+        {
+          "title": "기념 촬영하는 정은보 한국거래소 이사장·장정훈 신한지주 재무부문장 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZZEx6aHZ6U1Ayb20xcGRJZjZ4OS1DV3htdFdzTUFqYkRZaUlYWGNaVWp0WkxISHJLOXBXT2VSU3hzSnF5QXVQWkVWajJNQ3NxT01TckczU09kQUdQMk9IZNIBYEFVX3lxTE5ZZEx6aHZ6U1Ayb20xcGRJZjZ4OS1DV3htdFdzTUFqYkRZaUlYWGNaVWp0WkxISHJLOXBXT2VSU3hzSnF5QXVQWkVWajJNQ3NxT01TckczU09kQUdQMk9IZA?oc=5",
+          "published": "2026-09-18T04:47:25+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        }
+      ],
       "errors": []
     },
     "125490": {
@@ -800,13 +808,13 @@
       "code": "000150",
       "name": "두산",
       "news_score": 2,
-      "news_label": "약함",
+      "news_label": "형성중",
       "news_count": 8,
       "news_reasons": [],
       "news": [
         {
           "title": "'이럴수가' 4시간 20분 혈투 '세베리노 또 홈런포' 두산, '박찬혁 생애 첫 멀티홈런' 키움 '헛심 공방'... 연장 11회 승부 끝에 6-6 무승부 [잠실 현장리뷰] - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NVXpfLVUtV3I5WjkxbDNudkp5NmhMM2dsRGo3OS1TZ0dTVWN3RG9ULTBacG1oV0NwbGhDbWh1aUYwNTVDc3hLMUQybU9XYXRDeExYLWtySldYbjBfbUEtLXl5Rlo4S3ozVEHSAW9BVV95cUxPckIwRmhJbkJ6OXhkRmNhanQ0Wk5Wcm5QTXNUNXdTMU9nTThVREgyLUJBTTdxQXNmenBRWklWT1ZuZ21MRkRQSVdEd3AtTHNVZ1MyOGgtV1Uya0U4dW9yb3BFT2IzT0otakZaSFFRQlk?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9yQjBGaEluQno5eGRGY2FqdDRaTlZyblBNc1Q1d1MxT2dNOFVESDItQkFNN3FBc2Z6cFFaSVZPVm5nbUxGRFBJV0R3cC1Mc1VnUzI4aC1XVTJrRTh1b3JvcEVPYjNPSi1qRlpIUVFCWdIBb0FVX3lxTE9yQjBGaEluQno5eGRGY2FqdDRaTlZyblBNc1Q1d1MxT2dNOFVESDItQkFNN3FBc2Z6cFFaSVZPVm5nbUxGRFBJV0R3cC1Mc1VnUzI4aC1XVTJrRTh1b3JvcEVPYjNPSi1qRlpIUVFCWQ?oc=5",
           "published": "2026-09-18T14:05:44+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
@@ -820,16 +828,16 @@
         },
         {
           "title": "4시간20분 대혈투, 승자 없이 끝났다…두산-키움 3:3 무승부, 빛바랜 박찬혁 2홈런 5타점 활약 [잠실 리뷰] - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55R0U1Tmhnb2JOZkRPNEt4SjBYQUpndE8tWlV6ZzRkUkpJU0JZMzR2bWNOVUVzUTh4Q25RelctdGZ4NzdWZ0JDR05vcURhUDEzUUJhbE8ydk04QlRlUGFzdmpqX0o1U1d3SHfSAW9BVV95cUxPUkRvSmhIbk5pTTZQZHFIQ0wwS0wxWlFoS1lsZ254MkxPenBQSkxseGV1TmtCOExCRGxvWHJNVkhPOHRzN3ZRdEgta0pMTUpaN2o4aXpXLUIzWGNRY2ZieV93OWRENGhsOE1FbTZDLVE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SRG9KaEhuTmlNNlBkcUhDTDBLTDFaUWhLWWxnbngyTE96cFBKTGx4ZXVOa0I4TEJEbG9Yck1WSE84dHM3dlF0SC1rSkxNSlo3ajhpelctQjNYY1FjZmJ5X3c5ZEQ0aGw4TUVtNkMtUdIBb0FVX3lxTE9SRG9KaEhuTmlNNlBkcUhDTDBLTDFaUWhLWWxnbngyTE96cFBKTGx4ZXVOa0I4TEJEbG9Yck1WSE84dHM3dlF0SC1rSkxNSlo3ajhpelctQjNYY1FjZmJ5X3c5ZEQ0aGw4TUVtNkMtUQ?oc=5",
           "published": "2026-09-18T13:54:00+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
         },
         {
-          "title": "4시간20분 대혈투, 승자 없이 끝났다…두산-키움 3:3 무승부, 빛바랜 박찬혁 2홈런 5타점 활약 [잠실 리뷰] - osen.mt.co.kr",
+          "title": "4시간20분 대혈투, 승자 없이 끝났다…두산-키움 3:3 무승부, 빛바랜 박찬혁 2홈런 5타점 활약 [잠실 리뷰] - OSEN",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FRkRzT091MzB2SGJNWTBSZl8yX2lTUEhuM2toMXZsXzF2YXotU0FLX1V4SmktWlh0THhEcDA3WnBDOWhqN0pGeTVhMmE1ZVpiN1E?oc=5",
           "published": "2026-09-18T13:54:00+00:00",
-          "source": "osen.mt.co.kr",
+          "source": "OSEN",
           "source_group": "머니투데이"
         },
         {
@@ -867,7 +875,7 @@
       "code": "456010",
       "name": "아이씨티케이",
       "news_score": 2,
-      "news_label": "약함",
+      "news_label": "형성중",
       "news_count": 5,
       "news_reasons": [
         "급등"
@@ -943,7 +951,7 @@
       "code": "000270",
       "name": "기아",
       "news_score": 2,
-      "news_label": "약함",
+      "news_label": "형성중",
       "news_count": 8,
       "news_reasons": [],
       "news": [
@@ -1047,12 +1055,10 @@
     "005380": {
       "code": "005380",
       "name": "현대차",
-      "news_score": 0,
-      "news_label": "약함",
+      "news_score": 2,
+      "news_label": "형성중",
       "news_count": 8,
-      "news_reasons": [
-        "주의:하향"
-      ],
+      "news_reasons": [],
       "news": [
         {
           "title": "무뇨스 현대차 사장 \"미국, 진입장벽 없애면 중국차 밀려들 것\" - 머니투데이 - 머니투데이",
@@ -1083,6 +1089,13 @@
           "source_group": "연합뉴스"
         },
         {
+          "title": "현대차 제품·기술 지켜보는 실리콘밸리 구직자들 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LMW1GdTBEaDlkdjZOa2NQUXdJTGlVbElBSGtUd1A2Q2d5dVFxYVRXal92U1ZvbnRuS0sxX0t6N3U2dzhybEFZQjVnTUZ5QkEzSUkzYTJwYUFlN3Y0U05ydtIBYEFVX3lxTE9LMW1GdTBEaDlkdjZOa2NQUXdJTGlVbElBSGtUd1A2Q2d5dVFxYVRXal92U1ZvbnRuS0sxX0t6N3U2dzhybEFZQjVnTUZ5QkEzSUkzYTJwYUFlN3Y0U05ydg?oc=5",
+          "published": "2026-09-18T02:22:12+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
           "title": "시티아이랩, 현대차 협력사 아산공장에 AI 화재 감지 시스템 구축 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUSTd5c3BXaTNUSE4xN1FLejJEMjVTX0tqamoxT00tdTQ3LUQwVUpqTUtxQzRxS2t3QWpfMjdZZXBGU29teUc2MFVrckd1TlE1aWgtNktKRDZSaWNjZjlUTFhGSjdKUGvSAWxBVV95cUxOcmI2Y2prek8zM2NWTzl5T0s1NGpRT1FONXpUVWd2NkQ0bzVvM3ViLXBRajAtME53UEFzV0dQZmNoa2psMVNfNTVjUnk2MDdSSlhMYVBtTTdrZ1EzZm5IMk9sa2ZCQTE5YXVxUnY?oc=5",
           "published": "2026-09-18T02:00:00+00:00",
@@ -1102,13 +1115,6 @@
           "published": "2026-09-18T00:45:45+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
-        },
-        {
-          "title": "현대차증권, 한국전력 목표주가 하향…\"연료비 부담 상승\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VYWcwc0VaY19zUHFNbkY0NURmOWhiRjRYdWpZRW1XYjRfR3FfUmgwTUxTOWR0TFkxdFpHQUZ0QlVtS0V4a1RHa2Jwd1puVkJiR3Z5T1BCdXBiZTDSAWBBVV95cUxOMy1Lbk1iM3g5cG56TkhSVERUSncySXFuRUlnZ29RNThIaHk4R3Q4NjVnckUxdXhkVl91MWhoci12RzRWal8tVG9yZzRwZG54emVXVFpxUXl6UDhraWpKNms?oc=5",
-          "published": "2026-09-17T23:34:05+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
         }
       ],
       "errors": []
@@ -1165,7 +1171,7 @@
       "code": "032820",
       "name": "우리기술",
       "news_score": 2,
-      "news_label": "약함",
+      "news_label": "형성중",
       "news_count": 1,
       "news_reasons": [
         "수주"
