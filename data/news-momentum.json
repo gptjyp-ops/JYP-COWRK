@@ -1,1 +1,1308 @@
-{"generated_at":null,"version":"stock-miner-news-v1","lookback_days":7,"sources":["머니투데이","연합뉴스"],"stocks":{}}
+{
+  "generated_at": "2026-09-18T15:46:27+00:00",
+  "version": "stock-miner-news-v1",
+  "lookback_days": 7,
+  "sources": [
+    "머니투데이",
+    "연합뉴스"
+  ],
+  "stocks": {
+    "319400": {
+      "code": "319400",
+      "name": "현대무벡스",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "006340": {
+      "code": "006340",
+      "name": "대원전선",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "126640": {
+      "code": "126640",
+      "name": "화신정공",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "090710": {
+      "code": "090710",
+      "name": "휴림로봇",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "001510": {
+      "code": "001510",
+      "name": "SK증권",
+      "news_score": 1,
+      "news_label": "약함",
+      "news_count": 1,
+      "news_reasons": [
+        "상향"
+      ],
+      "news": [
+        {
+          "title": "SK증권, 한화 목표가 상향…\"사업 포트폴리오 최적화 기대\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MN2VDdkxFZjhFMVo2c2NuTzJFbk1KYkdXQkRvUlVia2dLNzJuU3MxOGNNOW4wZXo1YmJLcWF1aDhYb3gzYU1kamZHd3ZsOEdTdkFJekp4X3JXbUXSAWBBVV95cUxPLTMwQjFlZzl1emxyRDg5ZlBLMXItUlpFNEEtTmNWYmdRUFV2djZSdHJSV2VXZDlvakZOakcxem1IUS1Wb21SV3ZxaS1zTnQ2clZwSWUwWWZvcGtVb3gyTGI?oc=5",
+          "published": "2026-09-15T23:37:02+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        }
+      ],
+      "errors": []
+    },
+    "005690": {
+      "code": "005690",
+      "name": "파미셀",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "033160": {
+      "code": "033160",
+      "name": "엠케이전자",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "028050": {
+      "code": "028050",
+      "name": "삼성E&A",
+      "news_score": 1,
+      "news_label": "약함",
+      "news_count": 3,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "삼성E&A, LNG 액화 플랜트 시장 공략…\"공사기간 20% 단축\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Wc0d6S0JVZFlucl9RZFhzRm5MdTZKWVJ5QVRyYkxNUHI2QXBvaC1VUU1iOHhOZTFiR2J3MUZrdlM2Slo4aTRGbzZXMUxiVlJsQnp3aDNEcDE5a0hEaGZIWHJPTExBQ01LSEFnTmtLWjhiRThaeVVZ0gF8QVVfeXFMTm1oeTlvOExHNVZSN3FtN0trdG5qZHpTNGdHM3pnWlpKUEVzMTJKdDUyQkhtN24xbDlBWHh0UkdFQ0Jkc2QxOVNFejJaRG0tZDNBLXZ3LUNER0dyNW1RMmRYY0x4TkVvS0I0d3VVQ19WdlM2ZlZvbHBoY2tfNQ?oc=5",
+          "published": "2026-09-17T02:15:14+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "삼성E&A, LNG 액화 플랜트 사업 본격화…모듈 패키지 공개 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qakxtN2VBQlRtNGVRYy1yWUJQZ2IzYXpRVjluSGc0Vm1aY3FIdUdaTWRvaWc0TEozRkh0a1NDS3RpRUdfY3lCSi1MNFRMU2M4V2RLMVZHcjRaWVnSAWBBVV95cUxQcEFGZmVQLTVOdUJQR1J5cnlhYWRGdDJ4azd1YWlhRlZuYnpON2JLMXBLZEJNUTJ3NHVXRDN6WHlWaDV5R1NiMU5xR1NwdGFHVkhDdFN0YjBGTE5KRTRhYkY?oc=5",
+          "published": "2026-09-17T00:11:39+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "[시선강탈] 옵티시스 vs 삼성E&A vs 라온시큐어, 공략법은? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oTmh2djR1X2NZRlF5Q0E2TEgxZ2xCd3Z3X1QzWEEycVZJNVRfVEhBaUJia0hyaEluM3RjS3RCaFhGSEpEMVd0eDdZSlBia0ZaekM4MVA4bzA3OEYwejduSllETW94QmlE0gFuQVVfeXFMTWV6T0drUnN6R2Q0NF92Q1BIN3dYaXpLNnp2dnpjZHgySFB2WnFNZ01qcjJRM3RlNmRjbWpFM1JkZVVOR3QtdmpwWnc0Wmw5S2I5TEZXaXRWY0hITzZSRjRpRXc5Z0FxZ3EwaEUtWWc?oc=5",
+          "published": "2026-09-14T13:42:37+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "009150": {
+      "code": "009150",
+      "name": "삼성전기",
+      "news_score": 2,
+      "news_label": "약함",
+      "news_count": 3,
+      "news_reasons": [
+        "실적 개선"
+      ],
+      "news": [
+        {
+          "title": "[특징주] 삼성전기, 3분기 실적 개선 기대감 등에 4% 상승 마감(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyLVFBekh2U0dTYXlxc00tRmo0TDdyX0FmU3hWZV9MLXFtUWVEM0FfdlBoeWlNWDF6YWtTTl9tMVE4ODBoU2lqT080OUJveXJ4Z2VzS2hjZ0hwQXfSAWBBVV95cUxOQ2o0N2VHc041NWxXSW5ZcjVxVWY1SThYb0FiSEdtYzR3SGpkbW5uR3ZfTzJ4OHpmUjR0aElOZkxsWGpOMGdWTVQ5d2w2eDZUcWNldVdBa1RLZlk0am10Ukg?oc=5",
+          "published": "2026-09-18T06:37:31+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "MLCC 판바꾼 글로벌 1위… 삼성전기, 후광효과 누린다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oYzBvbVhfcFUyT2FTdHZCMXhLQTBzM19TSmJyXzVCSjYyblZHX1phcWZDRWw0aEluOVRISGNTaFEyaGVuMFRpQ1NwOTN5VWVlVF9CMTBKOHhDRXVubmhoQm5pZjl4MnRZaGFvY9IBckFVX3lxTE5WRUJieWMyT1FUazlta1RWeW9tZFVYZ0lMQzZGdm1aTFVic0hRT1dWRTF5Zk5XSkh3a1ByUXpaNTEwVjJxSzRCUkhGY1VvbDVEMGlnVUs1UUY5NEhhRHcxTWxQVkpyTC1aamRPLTZKa2VYQQ?oc=5",
+          "published": "2026-09-13T19:17:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "\"범용 줄이고 AI로\"…판 바뀐 MLCC, 삼성전기 웃는다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PYUFKNGlMTFZ4cGtqaVVjOXRBR0F1LW5RMF9FYjdsYTlaR1pRMzVIc0NvMmRwWld0S2VaalAxN1p5aGQySzMta1p1bGZkOTdpdW9pRVJTWm43TklMMnRmZTVsOG9WZG1VamsxeNIBckFVX3lxTFBMcVV6ZWdkLXIzYmM4UXE4VHk4LXFIcm1rb1RnODg0a1BOZ1RaUTVWbndsbW00b3J5NmoxcTdjVEFlUXhIakJ6OFFuX1dEZEx5UVg1eHdNeVZBa3RyX0s1LW1FRE9tVEUzUldpMEl5cHpHdw?oc=5",
+          "published": "2026-09-13T04:28:12+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "215790": {
+      "code": "215790",
+      "name": "이노인스트루먼트",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "011200": {
+      "code": "011200",
+      "name": "HMM",
+      "news_score": 1,
+      "news_label": "약함",
+      "news_count": 1,
+      "news_reasons": [
+        "강세"
+      ],
+      "news": [
+        {
+          "title": "HMM 강세…호르무즈 타국선박 피격에 운임상승 기대감 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4UC1vSXRfVzJ2ZXV2R05rZnozaFR5ZGU0QmJxSTctR2lYZTRDc3BpM3FkenZqekMtR2ROaWdXRldJSmRkZzF3N2NJdjJLdGJaVWNSUVEydDdfTXRoalhNajZHbVdyNGZO0gFuQVVfeXFMTWVvMVNtVDc0TFNZaTE4em9td0UySnBxc2tHZUh2Slhyb25WOUxCcXJKTVpSdjNOb3prTUtUV0h3RHlFOU03M0h1aU80Nk1vWUpFbFJjbzctVEthUnhNSjI0RlUxczdsQ2dBWjQ0VEE?oc=5",
+          "published": "2026-09-18T00:18:24+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "001440": {
+      "code": "001440",
+      "name": "대한전선",
+      "news_score": 1,
+      "news_label": "약함",
+      "news_count": 2,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "SK지오센트릭·대한전선 회사채 수요예측서 자금 2~3배 몰려 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwZG4xcE12VWotTnhwNjN0QkREN1F3NDNxSU5XSk1yMWlPOVlUejVBSGdNTXhSSXRCMzhqN2d5Y3JHT1NKbVFtb01vODl5VTh3eXhWclRZdHBEV2PSAWBBVV95cUxQT3E4QXhteGE3bk56YlgyQXp4YURtYnpBWmc2LUdVVlhxUFRMM1NKak5OeDZGTndKU0hfdUdiVEFwRUQzT3IxaWlaZWotSENJc245aUQ5VF9mclAwSWFObjk?oc=5",
+          "published": "2026-09-15T07:54:06+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "대한전선, 기후산업박람회 참가…초고압 직류송전 역량 선보여 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FOVBYeWRPYXVQM1AxZVFVM3p1WTNCRVhSYmdMWk90VVhOUGpEMzlROXlfUDkyczJtY19LbkdKWHlKUVRrNGN5QWFpcVdxR2ppTEVtd1ZjX2tPVEHSAWBBVV95cUxQSl94Zml0TVh0SHVMNWhuT3RldWN6Mm5DYUtCQ1FtN3Bhd1FsU2tiRUhueHBvcHBPWnRXUWhCQV91Y0hBbXQxa05nYnpvQXVJSDVycUNsd0JCXzRKQUdVd2M?oc=5",
+          "published": "2026-09-14T23:49:21+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        }
+      ],
+      "errors": []
+    },
+    "003280": {
+      "code": "003280",
+      "name": "흥아해운",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "240810": {
+      "code": "240810",
+      "name": "원익IPS",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "005930": {
+      "code": "005930",
+      "name": "삼성전자",
+      "news_score": 4,
+      "news_label": "형성중",
+      "news_count": 8,
+      "news_reasons": [
+        "급등"
+      ],
+      "news": [
+        {
+          "title": "삼성전자 DX노조, 이재용 회장 자택 앞 집회…\"직접 대화하자\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yTnNsTWFKZGtQakFSOTRVMTJHX0tnSkh1bTlxQlZna1AtVzdTaXRCdk5Ja1llTVcwQks5aVVUbjRUVGhIS2lELUhJN29JanUwU1RTUkVGdTFwcUXSAWBBVV95cUxQR1k0aFc4ZHBGcEExQnFOMTJrSzg3a2dlMEoyNnp2YlM2UmhvNHRGTGdmVXhFeVNIRzJRcEdxdk5vRlRkMHRzTWhfendXcVlGU21aOU1QczdUT2Y5VS1SR3c?oc=5",
+          "published": "2026-09-18T08:49:53+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "삼성전자 DX 노조, 이재용 회장 자택앞 집회 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zQk5NdVNqTHRMR2N3UU9ZRjY1VENlLUdxb09iM094U2VhREIzMmFEWkU4bGppcEc5RFppcmZmenpHM3lLSURrS1JKR3QxZU04NDJ3dDROQ0xQWEXSAWBBVV95cUxQd3piUDlKeDFiZV94bXBoUXNwcURtak9mXzNvcnRpamJLMTMtaFVCN2ZMc205MU93azduTGVKZ3NIRDNyM21HQjFlRVlKMm5yTDRVUDdyWmdselBWWWxPUUY?oc=5",
+          "published": "2026-09-18T08:30:59+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "삼성전자, 3.4% 급등 마감…SK하이닉스는 6.4% 뛰어(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TQzUyVXZPdkVQa3J4VnJZM1NHRHJlMnhNamFJMmVYLXZOb3hpaXluUm1hVS1ubFkwUjZHczBGbzNhX2VaZl9jYVl3OVRVdEhSRmdhUTRkVlNzcm_SAWBBVV95cUxQVk9Wc3RBNWZxWDVNQnluVm1sOVF4UENjVC1aTmJBTE5nX3dDUzJmaHl4elRFVUNSdlE3QTBIN2RXbmhHY0I0XzBtRG9aTXVsQVRPVjJYLTByVUZ3LXJkbm4?oc=5",
+          "published": "2026-09-18T06:52:52+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "[특징주] 삼성전자 장 초반 2.6% 급등…SK하이닉스는 4.2%↑ - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91Y2NHOUNLeFlUMTJfQ1BQY05QREx4cVNmWkREb2NuTWhpN25yNUhrVEstVF9KRktrY25qV0o4cDQ4TnVhbGJVYzdCX3JKOHUzN3N3R3NxckFhbE3SAWBBVV95cUxQbWxMa0d4dEpQUXNsV2p2dU9nNWdla0o4VXJRTTk4T2lnanFrdExHZ3dreks1VkcweXdPbG1IOGRNcl9jMkdnckhJaXVWUVlqZ250aHQtc3l2amQtSTBReU4?oc=5",
+          "published": "2026-09-18T00:18:28+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "세 키우던 삼성전자 노조 어쩌다…비위 의혹에 불신임 맞불 투표까지 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tYjZWZk1ldXppMFlJeVZjb29SeE53NjFSa01QVkZ2emthN0NOR1c1NVBlV1c5UEotaE9EaGpGdF9aQlJhcEZlZkhhOFZGdnR0OVZVckJYY3VNekEyUFdGZllzdG9oV3ExeW9MSdIBckFVX3lxTE5HaUVDNjlRZjgzZEpiWGxuVWxrWUgxRzMyWUJKeDFpSU9uVEp6VURvdXhQQUpaOVJBT2o2cVZpemZtT295ZUI4Q1hGbndKYk5QZmRCdTROWUxZSjFpS2FqWHllOU85V2cyd2Rtc3NudHN1dw?oc=5",
+          "published": "2026-09-17T07:50:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "삼성전자, 필리핀 프리미엄 복합단지에 'AI 홈' 조성..DH플러스와 맞손 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1mcWh3VFFFSTVJdGk1WjVvT05uNW9jZkZpRGpsb3FHTGhsS3BYUmwzWGJFZy1mMW5hYWFWb1hsWHpGNkFZWG5zNm1vR3YwLXlxUGtaNjY0dW9RalJ5bThvT21IbUxjV2Q1YkdhdzRmeVBQcGhLYTZfaXZ30gF_QVVfeXFMTVpmMFhyT2VXZUotTnZjWXkyV25IYm5MaXJOUFlTZVpaMnBxcWxGSllxZ1BQV2dYOURteWJmR1hFUlpfR3hNYWZCTnVmTWRHWG80UHZhbnEyM0lfMkgxQVgtVE9hcXJCS3N2QzcydnN6cE1idWJ6blA2YUI5YUhkdw?oc=5",
+          "published": "2026-09-17T04:43:17+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "\"삼성전자가 투자했다\"…네덜란드 AI 반도체 스타트업은 어디? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RR2JPMlk1NEViNXpSY2ZxSnpSSHZIZU5wMkVpbzdvMEg4SjhNY2l4TEp3XzJ2ODg5QmZjejBSdkIyNnNIQ3ZlTkRUNmozbThpX3doNy1uZlhhcDh2eUptZ3FhbUhfTW9W0gFuQVVfeXFMTVRiaEtmM1RGeTdZcHdBSllCaTc4OU9CdExUWFNPNmVnTzlUNHFacE43ZE5uNXZNOUJCQUVlZ3dWamR5b1JqLTFUOHhpMEU0RlJqVXVDUmdLRGFGZVdRWllPdWNmNFQzZnVoNGU2X3c?oc=5",
+          "published": "2026-09-17T01:33:23+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "SG, 삼성전자 온양캠퍼스에 에코스틸아스콘 납품 확정 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PRW1GZnhNT1ExYzFXZWtyaGx1OFRvMkFkY3gwd3VoVUVXaV9SQnNnb2kzVTRRVFE2TjVBTlVac21DbjdmMEdLU0Q0elgwdktZRENxR1JFay1fTXFzY1Aza0dPLXpwTWNR0gFuQVVfeXFMTVY5OHNTSUNNTHQzWEpuVEVVLXZXeThrNXhsODhPaFlaZXhuYmFLczJpcjN0OGxQR1NrbTRVdHN6Q0w1d3NOVjc0Q0pQSDYyRGFaek1ULXBOMWZqek54NU56ckl0TWVmcVE2c3NUQWc?oc=5",
+          "published": "2026-09-17T01:04:49+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "234340": {
+      "code": "234340",
+      "name": "헥토파이낸셜",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "077500": {
+      "code": "077500",
+      "name": "유니퀘스트",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "046970": {
+      "code": "046970",
+      "name": "우리로",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "402340": {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "267260": {
+      "code": "267260",
+      "name": "HD현대일렉트릭",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "032580": {
+      "code": "032580",
+      "name": "피델릭스",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "316140": {
+      "code": "316140",
+      "name": "우리금융지주",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "042700": {
+      "code": "042700",
+      "name": "한미반도체",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "000660": {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "news_score": 4,
+      "news_label": "형성중",
+      "news_count": 8,
+      "news_reasons": [
+        "급등"
+      ],
+      "news": [
+        {
+          "title": "삼성전자, 3.4% 급등 마감…SK하이닉스는 6.4% 뛰어(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TQzUyVXZPdkVQa3J4VnJZM1NHRHJlMnhNamFJMmVYLXZOb3hpaXluUm1hVS1ubFkwUjZHczBGbzNhX2VaZl9jYVl3OVRVdEhSRmdhUTRkVlNzcm_SAWBBVV95cUxQVk9Wc3RBNWZxWDVNQnluVm1sOVF4UENjVC1aTmJBTE5nX3dDUzJmaHl4elRFVUNSdlE3QTBIN2RXbmhHY0I0XzBtRG9aTXVsQVRPVjJYLTByVUZ3LXJkbm4?oc=5",
+          "published": "2026-09-18T06:52:52+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "SK하이닉스 손자회사 솔리다임, 미국에 첫 낸드공장 검토 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94RHlkbk9vV2RMWFllVHU0QVh2VHpaVGkzTWNST0hycW9ZX1ZjY1dDZHpfc0pvS2I1UU9UMVo4ajhpek9GUWdobm5PcGVrNVdVTDZOMjRBdzFEWEVHWTlRaNIBYEFVX3lxTE94RHlkbk9vV2RMWFllVHU0QVh2VHpaVGkzTWNST0hycW9ZX1ZjY1dDZHpfc0pvS2I1UU9UMVo4ajhpek9GUWdobm5PcGVrNVdVTDZOMjRBdzFEWEVHWTlRaA?oc=5",
+          "published": "2026-09-18T05:39:42+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "SK그룹 부회장 3인, SK하이닉스 합류…AI·반도체 힘 싣는다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pc19qRHlGSGMzSzB4bm9EamJmQV9GeFpBUGNOV2QzQzVlQWE5aE1RQnZyc2tOSVdRTFdyZndpb1VxN0tqcURYdmJEQjhkVWc2NVVidk1ENzB2SFhxdjJnM1o2Y1N2QmlKMVRNNdIBckFVX3lxTFBGUlN5bnE2TFNydWNOZWlOazBDUDNKZW9wSkptTzV3a1d1Sm84bjZOUW9pUkdZcFZ4dVJrYkdrOHhvRllOV244N1RxY19kVUgzTlFkaWczQWNNaXpET0tmX0hSZG81THFNQ0pSYWNxbEtQZw?oc=5",
+          "published": "2026-09-18T00:59:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "주형철 경기도 부지사, SK하이닉스와 용인 일반산단 방류수 점검 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zaVA5VUVLZGZjdEkxdXR1RGtQclRkUHZOZVVfNW1US0hjY2RrSkJPWVVkSzlyUjYwZVhvYXdvM3V1UFFBNUh2OXZpX19wTDRVX1Z3SXo3MHdVOERPYlJ1MlVQU3pldWpLNUHSAW9BVV95cUxQTUtMcHIteU1PQldFRl8tVkhpWDBISExHQW9jeWhZTUtHenpISHlNS2pmZnZpRlBrajJVTW9hTXE2WUJWNld1dkFpQzM5RjJkTWhrU2RacFdhSGR5SzZWVVJPd0xPaUxISWpwb1d3MVE?oc=5",
+          "published": "2026-09-17T08:08:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "SK하이닉스, 미국서 반도체 만드나...인텔 '골칫거리' 해결? 주가 급등 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5ck11LW5pMURKak90VWtIdTNNSHV2Vm9MaWR3VTZIRFAyd2R6NkNBQjQ0MHFqQnNkVFRIQi1HUWtYUE9FQ1dLbWlWb1N6c1RnOVN0WnZwZU0zNl9DbXBSc0RCQVFqa1JL0gFuQVVfeXFMTVp5eGJjWFBfQmttcTBjMWpNVDUwWTZIck5ndWpUX3BVeS1tbXFGT1lQMjhiWmRfYzF5R0wtTDJTdWcwbC10bFlqOENSY3FOeWVpRDJPVkQ3OFRoWk1YQUs3WFFJazRvWnFHckVEclE?oc=5",
+          "published": "2026-09-17T02:42:50+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "\"SK하이닉스, 인텔과 미국서 메모리 생산 협상중\"(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jdjhOUUxUU21BR05yTlp2WHF2cktkX19nZFg5cEdRdE5uRm1YMTN2REhROWNLSUlxSDNYLTd6c0hQdWRvbG1hTDdrSm9kdkEyUnplaTFEQS0zNUXSAWBBVV95cUxOald5cE5aV3NEdDJqNWgyXzU4WVRVUFhqTHRfbUJUODd1cl83Y0JYbmpWdzRPNEdqVXhJcEZtTVVfVkoyYkFNaGxweG9GRWV6SEFkOEU2ajdmNjUtR2F4X3Y?oc=5",
+          "published": "2026-09-16T06:44:08+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "SK하이닉스 임단협 수정안 3주만에 가결…PS 주식 비중 50% - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90NzBDM2dMbFZKNkZKeWZTdUQzd2ZvYWwyenk2ejZUVVdNZGZjUHhwQ290NWJnOVozR0JKcUs4dlRMbUszaDJ1RmgtWEtkbGNibGl2bWE5aFJUb2pYWmg2a9IBYEFVX3lxTE90NzBDM2dMbFZKNkZKeWZTdUQzd2ZvYWwyenk2ejZUVVdNZGZjUHhwQ290NWJnOVozR0JKcUs4dlRMbUszaDJ1RmgtWEtkbGNibGl2bWE5aFJUb2pYWmg2aw?oc=5",
+          "published": "2026-09-16T00:09:49+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "[속보] SK하이닉스 임단협 합의안 노조 재투표서 가결 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXMVFxTG5VTEtRYmZKeG1jb1J2Q05MM1RnQ1c2NkhLSVd5UGF0YmxMQ2JLcTJsSnBCeWUyXzFkNjh2eFgxZGM2WVlnbkMyaHBrWlllVnVQQkdvTE3SAWBBVV95cUxNVF9pdDdrRTNvaDBoeVFBSWRWWU5Zenp4MXBjOTVCblBBbE9tX0VmbjR1QnNGcWNUVVpYbmNxMUpsdnVweUI1dkwtYU0yandPXzZ3RHYydkpJcjVITTVMbEI?oc=5",
+          "published": "2026-09-16T00:03:55+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        }
+      ],
+      "errors": []
+    },
+    "047040": {
+      "code": "047040",
+      "name": "대우건설",
+      "news_score": 2,
+      "news_label": "약함",
+      "news_count": 6,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "정원주 대우건설 회장, 한-중앙아 정상회의 참석…'민간외교' 행보 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uWV9TVVY1cWF3MFJ1eDJRWWNlaVdlYTBSSl9paUpOdk4tNG9ETlZVQmtRQnMtTExjWFVGNlVQSHQ2bmhUZG9aY25aV3ZxNkl1RmZNVVBBbTN0WHI4WkJ5MVVMVzFyeEFfM0HSAW9BVV95cUxPOEI1R3dhUVpWeFVuX01LWWd4MG8wZDFXaU5XbnliZVlDaTJaUE9MRW1ISXZ4VFNWN1VKbVYyUU84b09ZWFVNTkR2aXdrbnBLX3kwcGJ2RWpVcnJnZWd2UE9lT200N05qd3VhT0lWNlU?oc=5",
+          "published": "2026-09-18T01:23:42+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "대우건설 정원주 회장, 한-중앙아 정상회의서 협력 확대 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqQWRPN3NROXRWclFCWmozSGltUlJHYmFDQzRVWFlSMHpUQWxvSGN5bW5vWFRVdHlMLWVVdkE3OUlyMENDd0JmMllReDU3LVhLRUlWempTV3NGMGPSAWBBVV95cUxNR0M3c3ZLRjB3VWdrMms1dGdFVTE3T1dxSG1xMGJxc1JtSmNFVnB1c2hwS0hXVjBSZzBEMDg4TElNOG1tOWJGTThuQ3FrMWI0MmdGQ3lkQ011Rks1WWZwak8?oc=5",
+          "published": "2026-09-18T00:51:33+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "대우건설, 투르크메니스탄 카라쿰운하 현대화 사업 MOU 체결 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1RUmJqTlJuZDJsRnJWcHBZYjdLdC1pNi1wS1ZRRVJMaE1XQjhzUzJIVnlSX3M5R0sxWFE2WkdGczRBYU8tUjNlUnBjd2dDRFVudExwai0zRmZuQjVVcHY5OURjLWRfb0pDT0HSAW9BVV95cUxOVDZhRHFvb08zMmlKeTdqWE51b2hIbXptV2Iwd1dEdkF2dGxjLXdLRGVkWnBUNTRZd2Q2Mnk5SDdlUXBvRHRuRHVUM2I1V25SYmhzYTJ4ZnQ0aFhEOHlkMXdKcUpZejUzNWZsYl9vcWM?oc=5",
+          "published": "2026-09-16T01:15:08+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "대우건설, 투르크메니스탄 카라쿰운하 현대화 사업 협력 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWRkZicUc1QmJUa2lNd0xYa1Z1VmFLRzMxR3VqNzVIZkZHbzNOY1VFdVpqbldXX3cyLS1yejJYdTE4MFRncWJMOXlZczBrTFJXMlFlWUp0LTJKQ03SAWBBVV95cUxOYjBuX0JST0Q1MDZzRGJtNVRlSy1Ha01QLTB5UnJEd0lfNEZNckh1WnBvbnhDZlMwS1Y2TUluZy1fQk1CZ0FseGZSU2dvMEE1emVYcmRUY3cxSEZ4Z25sUnc?oc=5",
+          "published": "2026-09-16T00:43:46+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "대우건설, 'AI 실시간 번역기·스마트 안전교육' 현장 적용 확대 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fNm9PVVpFWEtaM2FJODVrdDBJdkdud1VUT0hkdWVBbHhoN08tMzRrMmliVTBCbEZleThRbll1bGY5bDFETGxheGpyamVOcWNYbzVUak82d0hZMEtDNUNRNzhSWE5zMHFGTHfSAW9BVV95cUxNRldXTXVYMGl5aWM3NTA0WmVIOWxZYnh0bjJFZExNYTlNZHRaeXRDTEFvNG02Wkl3VmZGS1FSTnZ1RGI5WUZLZHFXSm90amMyallQYVoxalU5a3FWNGhCVzRZX3d1aGZTQUk3TnZHZVU?oc=5",
+          "published": "2026-09-15T01:47:16+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "대우건설, 연천서 '노사합동 가족사랑 페스티벌' 개최 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5RGJzU2J5aTVWWmhJUUIwTXVpcWpyOE5pUldLX1dSNHBFVmV1VEJ6ekZsTTctaGpOSEIyNTBlcUxWQmtURlVHWGRKYWpPaVk1aFk0MFJOdnl3QTh1b2pPWXkxYXdaSktvRmfSAW9BVV95cUxOVkluX1k5MndrWEwwVU1QWGFfSGE1RDJPbllsNHMwMkNVOWs0cmN1WVBUdFFpYWJsLWFMNjY2SjFFMmREdkFCVDBDQ1JHNnlfUm1VTHVXdmVCM3YzNWpMRTdKd3Y5NlR6cW1CdFFPVXc?oc=5",
+          "published": "2026-09-14T05:46:30+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "272210": {
+      "code": "272210",
+      "name": "한화시스템",
+      "news_score": 2,
+      "news_label": "약함",
+      "news_count": 7,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "한화시스템, AI 우주상황인식체계 개발 착수..우주 안전 지킨다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kdXhCLVVTekF2TG1BeWVvNlh5Z3l5QTZnQTFtV2x1NktMTzF5a2VJOV8ydjQtdlRwQVJEd284Z1F5SC0xOF9lSlBWOGtoaTJQRjJUWVc1VjNlQXpQaTE1Rkh0YXRTZWN6R1J6M9IBckFVX3lxTE10XzVKMFc3MEpJMVZGUEV6Q084R251YmlNWkR0N1JvVXpRTWpfcEpSSFdRaVJ0RTFHQlNNcWRYNUlxdnhac3doVFFCcUlidmIyelpITWVod0tRT1FGUm8zRVdMQ3FtOU1qUTNqdVZqV1BRUQ?oc=5",
+          "published": "2026-09-18T01:04:41+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "한화시스템, AI 우주상황인식체계 개발 착수 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PNGNXRXdmSGNPN1BoZU1OT2VFQWhOaUlfYjNtRWQzcU5WNGxuVXNpTU1zeVRpZmtjZWhVTUJVOHo1Yjl1b1NNUXdwbzRPQ1ZSOUVFbE5Wd0RMWWvSAWBBVV95cUxPZ2tHR05vT0d2QzNzNjJCeGF4NHN2YW9JQk1EUGRtbzJfREZJNzBzLXFHdVdnUHdpc29iRnFnUEIwR2FmNmN3YWdBbmJoY3RnYThKYzlReDh5X2xhUkNwcEY?oc=5",
+          "published": "2026-09-17T23:54:55+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "유안타증권 \"한화시스템, UAE 협력 중장기 주가 재평가 가능성\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85NFpZS2tlU0N0Q0gxV215R1ItT3BfejNmS3Q1YkZmUEJhOUtyblNvaG9taERnYlY3Vm01dU1yUmxEZDBNYnJBa044TnowOW5ZUjVJMGJGOGlfazDSAWBBVV95cUxQbWNWemVPWDlPR2ZZekhiQUtaYkVqTGpkY1ByeGNpRk9MWFJpdDFVM2pWcm9zVnp3Y3YzamE2WFlLRnFWXzB6S1c3TkZCYXVmb1BCTXhxak9BNHYwY3BlRlk?oc=5",
+          "published": "2026-09-17T23:38:29+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "[특징주] 한화시스템, 'UAE 통합대공망 구축' 추진에 12% 상승 마감(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FUmJEZWJlYTFwZ01wQ25FbW9Nd243ZlBvVGkwWGNTSFB1Q3lGa3hOMUJYeU9obEZsdUVpS3doS2hNcDN6WERZSWpzVHBvLVg2c05sLWhnRGtFekHSAWBBVV95cUxPWDBobk1vNUlQMHZTRVA0OThULUtpV3NfVTVYdFZJQkhfVlBYRk02MlpyeGVaX1lCSEIxV3doRWxBYjlpUTc3MXZ6MTFCclNiTWswVkd4WlZvSWxjOVJZWG4?oc=5",
+          "published": "2026-09-17T06:46:52+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "[특징주] 한화시스템, 'UAE 통합대공망 구축' 추진에 장 초반 7%↑ - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92VnRjcFJPZ2lvZDhhOXlaYVdpbnFXWlZNbTRYR3Zia2VmZF9BM0ZPNndxM1g2VkxWeUh0NzJyWGxQWGRoWHctVkhKTUlMd2wyYTVDRTRScTZQT3fSAWBBVV95cUxOVnBNWFNCakh1YzgxazRqd1pvcUpiLWR4Umd6VGdMNmtPQzdkdzNnWE80dVpyak9IalhtQUllYzEya1Q1TjR4OVJZZ05WLW1rYmVwRnBwWUpSaEpwVGhCdVk?oc=5",
+          "published": "2026-09-17T01:20:40+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "한화시스템·UAE 에지그룹, 통합대공망 구축 협력 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xVmdIMUFGZkxVcWV3Q2s4a0RhN2s0eUFWNU1EQ2QwSGZUWFJpcGNfOUw1Um1EckNDRDdBMUQyUEg5aHZLR0xCYlM2YzVnY2F3bWVhYTNvcEJBczTSAWBBVV95cUxNSHoxSGxQMEFlZGpBMzFQQUhrb3NJWDBJYnBWYk9DTXplNENvSDF3LW0ycWNURW03T3NudEQwZ19NeE9EbERRekxXX0tNQlZUZTdnSl9DM0dlWmFUM05RaTk?oc=5",
+          "published": "2026-09-17T01:18:48+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "[더벨]플리토, 한화오션·한화시스템과 AI 통번역 솔루션 구축 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UUlpLQkw1ZENKd1V2eHNRcUxYanpmRUdDa19mT0dkLXFJdWRTU3VzYWhrb1gwaHdrSjRrOVhVbmRsR0hkblh3UFp5aTA2TzN4dUdHRlN6U294VThQaTEyZEotNU0yUzU50gFuQVVfeXFMUGVyRWIzVHg0bDVyVDJnQ2ZrQUN2bjh4aDk0TWxIODloYlhyMnJkc3d5dlQwckpnNW9EaW1TalBoTlJtelZ3NEFSWVg5TzdxTU1PTl9wZWtqT21XN1l5Y01wd2dBc1dmMTBVMHJxSHc?oc=5",
+          "published": "2026-09-16T00:52:33+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "055550": {
+      "code": "055550",
+      "name": "신한지주",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "125490": {
+      "code": "125490",
+      "name": "한라캐스트",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "217590": {
+      "code": "217590",
+      "name": "티엠씨",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 1,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "[고래사냥] '에스피소프트·아이씨티케이·티엠씨! 내일장 고래 종목은?! - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Idm1UMG95M1JKTExLVGk0VE1nazcwcHdha0lPNG1yWWR2QjBINzhuMkpyOGJVbWlCM1pISlIweEJ3QWhxZWVtZVF2c2VseGZ4ZHh5MnlnczlMUXJPX0R2bmVCcHh6YURy0gFuQVVfeXFMTVBqWnB3NEMycUxvdVRBYUFUZnNtVG9sWXRXMVdpM0FWZmVILXdMYUpYa1hsdEM5YU5NYTJCN2dlOTZ4MXNscjVZdWhTa01XSjNzZWRJdzFfcmk5Ymw5V0lxSDNCbWdxOEEySWRfMGc?oc=5",
+          "published": "2026-09-14T13:41:21+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "003350": {
+      "code": "003350",
+      "name": "한국화장품제조",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "072950": {
+      "code": "072950",
+      "name": "빛샘전자",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "024060": {
+      "code": "024060",
+      "name": "흥구석유",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "483650": {
+      "code": "483650",
+      "name": "달바글로벌",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 1,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "\"달바글로벌, 안정적 성장 이어갈 것…저가 매수 구간 진입\"-NH - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zZlNlZUVxbWkwdUZnM3N0bDBJSjI5ajFHeGNXaElJNDhzZWJaQllVVDUwMHJEcFByMnZxczZEYjdTRTc2R3EzSUJRYkpjOUNERE5uMXlZTlFRSnRHMDhvNjEyVjVMWFNC0gFuQVVfeXFMUHNqQlF1TmNBWUwxOEI4aFRybXdfblJoMDc0ZHFULVR1VE9qMjdYNTJrQkF0ZnBWcEhxa3d3QmVvNU51RlFYY1RkS1BhRGZPcmpuMDBHMHdnd2NzOUhoOTdHWWI0ZnBDd1FIYkpHU2c?oc=5",
+          "published": "2026-09-17T23:31:02+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "027360": {
+      "code": "027360",
+      "name": "아주IB투자",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 1,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "[적중! 대박 예감] '아주IB투자, 케이엔알시스템' 내일장 예감 좋은 대박 종목은? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85cXpIeF9fS2NxTEwxYkVuR1N1SG02S21mZnplZ2M4X19MaXBFYkQzNzFOUnQyYUMzNDlkR2tBZnUzdkNXektiUm81OU80OUNzNTFrR2dtc0gxMnFuT01Ea2FoYUpwODFYbDVuN2JB0gFuQVVfeXFMTzlxekh4X19LY3FMTDFiRW5HU3VIbTZLbWZmemVnYzhfX0xpcEViRDM3MU5SdDJhQzM0OWRHa0FmdTN2Q1d6S2JSbzU5TzQ5Q3M1MWtHZ21zSDEycW5PTURrYWhhSnA4MVhsNW43YkE?oc=5",
+          "published": "2026-09-17T00:16:52+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "332570": {
+      "code": "332570",
+      "name": "PS일렉트로닉스",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "024840": {
+      "code": "024840",
+      "name": "KBI메탈",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "001230": {
+      "code": "001230",
+      "name": "동국홀딩스",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "051160": {
+      "code": "051160",
+      "name": "지어소프트",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "017900": {
+      "code": "017900",
+      "name": "광전자",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "413630": {
+      "code": "413630",
+      "name": "씨피시스템",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "012200": {
+      "code": "012200",
+      "name": "계양전기",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "375500": {
+      "code": "375500",
+      "name": "DL이앤씨",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "067290": {
+      "code": "067290",
+      "name": "JW신약",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "036540": {
+      "code": "036540",
+      "name": "SFA반도체",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 1,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "\"SFA반도체, 목표가↑…DDR5 외주물량 증가세\"-한투 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zOVdCTk9NSFctd3NVVFUzaG5Pbl9YN1RxNDFQQkNDNVlLM3RmeWVfNUtINDhhaEpXRXVQeWhva0NKc2U0aFNtZE56SXdiSzBZNUUwZUhaSDloYWJPcFN2b0dvcTA5MURS0gFuQVVfeXFMTWYwSnFKRGk5UU03Q1FHckZCc09LNmQ2ekVwUFpfRjRUdWxfaWtVVHIyNHpuLURHb3pUWGJLVkIwb3NXbzRoWHFKN0FSeXJndmdJdTRqVnlLTUV1WTdRRHZ3VDF5c1BqWXdNUlh3a1E?oc=5",
+          "published": "2026-09-13T23:34:45+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "298380": {
+      "code": "298380",
+      "name": "에이비엘바이오",
+      "news_score": 1,
+      "news_label": "약함",
+      "news_count": 2,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "에이비엘바이오, '공시전 거래의혹'에 \"성실히 조사 협조\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yckdXOTNybGx1YUVrUE1DOGFlbFVaZ0ttOUphOXR5eXdFaDF1aTlVZk9nMnVKdi1pVldnSll0bmZtVGoxSTRCMldRWDRZeFJza0w3Ml9tV0FLaUnSAWBBVV95cUxQN2pkZWR2Y0FCdmhZVHF0MDU4MXF2cTBMWVBveFFESW5jTXZyRFFoMnZDX2s3UmJYN0JjZmU0SmlVRjlCZ3Z4LVZzU2lDd1pneXR3NzN3a1dTbFhpczJ4Qlk?oc=5",
+          "published": "2026-09-17T05:55:25+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "에이비엘바이오 \"준법경영·내부통제 보완…연구성과로 보답\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50RXdrclFVaVNKN2phaEZXbDFXNUdrQXhVNnlDa2VOR2dydWVOR2VLU1l6RkExN0lNZVdrOWVra21Jem41TDc5a0NCZ0JORkpWbkRsUTJHWUdjMUpzWE4xTVNGS0NPa2gzZEHSAW9BVV95cUxQZ1REUEc5NnFlbzVmdzFnVENmaG1lQnZwUmJVel90ZzZPaGkxYlF0eVFMVENMTTlGWXphMFFyanRGUnhjOXZ2UUNiaURCU2FJZUc2U1otSzlMb21EREc5SVEyV3hfNFljSUVHaVYtdjg?oc=5",
+          "published": "2026-09-16T00:47:25+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "000150": {
+      "code": "000150",
+      "name": "두산",
+      "news_score": 2,
+      "news_label": "약함",
+      "news_count": 8,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "'이럴수가' 4시간 20분 혈투 '세베리노 또 홈런포' 두산, '박찬혁 생애 첫 멀티홈런' 키움 '헛심 공방'... 연장 11회 승부 끝에 6-6 무승부 [잠실 현장리뷰] - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NVXpfLVUtV3I5WjkxbDNudkp5NmhMM2dsRGo3OS1TZ0dTVWN3RG9ULTBacG1oV0NwbGhDbWh1aUYwNTVDc3hLMUQybU9XYXRDeExYLWtySldYbjBfbUEtLXl5Rlo4S3ozVEHSAW9BVV95cUxPckIwRmhJbkJ6OXhkRmNhanQ0Wk5Wcm5QTXNUNXdTMU9nTThVREgyLUJBTTdxQXNmenBRWklWT1ZuZ21MRkRQSVdEd3AtTHNVZ1MyOGgtV1Uya0U4dW9yb3BFT2IzT0otakZaSFFRQlk?oc=5",
+          "published": "2026-09-18T14:05:44+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "[프로야구 잠실전적] 키움 6-6 두산 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWUXlGdmlKekxIZ1NrZGc3aEtyUEpkNzFDTlliZWcxOWNOenZZQXlJY3lRekZXQTFodzZHUEZVa0NuSlo2MHRuQ3RIRlg5M2hqcURWbXFscmlOSXPSAWBBVV95cUxQb2lzTmF0TGVHRFM0bFpwd0ZYaUw3MWQ0SmY0Nk9XXzlVM2JJVkFGaGF2QmJ6eEJUYlNNVDMwWHZxclliMUJremZWQ3A2SlVJMC10WWhxdzRyWEFMbnJEcDk?oc=5",
+          "published": "2026-09-18T13:56:14+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "4시간20분 대혈투, 승자 없이 끝났다…두산-키움 3:3 무승부, 빛바랜 박찬혁 2홈런 5타점 활약 [잠실 리뷰] - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55R0U1Tmhnb2JOZkRPNEt4SjBYQUpndE8tWlV6ZzRkUkpJU0JZMzR2bWNOVUVzUTh4Q25RelctdGZ4NzdWZ0JDR05vcURhUDEzUUJhbE8ydk04QlRlUGFzdmpqX0o1U1d3SHfSAW9BVV95cUxPUkRvSmhIbk5pTTZQZHFIQ0wwS0wxWlFoS1lsZ254MkxPenBQSkxseGV1TmtCOExCRGxvWHJNVkhPOHRzN3ZRdEgta0pMTUpaN2o4aXpXLUIzWGNRY2ZieV93OWRENGhsOE1FbTZDLVE?oc=5",
+          "published": "2026-09-18T13:54:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "4시간20분 대혈투, 승자 없이 끝났다…두산-키움 3:3 무승부, 빛바랜 박찬혁 2홈런 5타점 활약 [잠실 리뷰] - osen.mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FRkRzT091MzB2SGJNWTBSZl8yX2lTUEhuM2toMXZsXzF2YXotU0FLX1V4SmktWlh0THhEcDA3WnBDOWhqN0pGeTVhMmE1ZVpiN1E?oc=5",
+          "published": "2026-09-18T13:54:00+00:00",
+          "source": "osen.mt.co.kr",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "\"곽빈처럼 에이스가 꿈\", \"韓 빛내는 선수 되겠다\"... 1986년부터 풀뿌리 야구 발전에 기여하는 두산, 2026 대회 우승은 가동초와 서대문구리틀야구단 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBnRktDLXc4eVFfUWFjQVh3NnBFSVNXX0ZfNWZkc0p4THQ1MlM0alJwX20wM1hIRm5sRXR5ODBMNHlEVlhHUGVKbFJjTFZMcTd3Y2hGTUZRVXJLcmh4aHgzeVFweF9sOHRQa0w0VkYzQdIBb0FVX3lxTFBnRktDLXc4eVFfUWFjQVh3NnBFSVNXX0ZfNWZkc0p4THQ1MlM0alJwX20wM1hIRm5sRXR5ODBMNHlEVlhHUGVKbFJjTFZMcTd3Y2hGTUZRVXJLcmh4aHgzeVFweF9sOHRQa0w0VkYzQQ?oc=5",
+          "published": "2026-09-18T10:09:11+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "두산, 3연승으로 사실상 '5위 굳히기' 끝내나→오늘(18일) 키움 상대 선발 라인업 발표 [잠실 현장] - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xUVhUel83YnBPMHZHM2R3NG1YaFF6bDBmVlNDR0FfSFVPdk85UmhaVUU0YkF2ZnJvM0hTSlN0cUVHeFpWaWpvdTJxY3dqa1pFQV9aTVBmdU9Xa0VlS0FhbF9lWjh0N180Z0kyNDdHSdIBb0FVX3lxTE1xUVhUel83YnBPMHZHM2R3NG1YaFF6bDBmVlNDR0FfSFVPdk85UmhaVUU0YkF2ZnJvM0hTSlN0cUVHeFpWaWpvdTJxY3dqa1pFQV9aTVBmdU9Xa0VlS0FhbF9lWjh0N180Z0kyNDdHSQ?oc=5",
+          "published": "2026-09-18T08:00:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "두산로보틱스 신임 CEO에 전략통 권영민 사장 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4td2k3LVpTUmtnTlVVcHdOaUhRX2JLQzZGZ0R1YVpRcnlBcGpUYmQtVTcxc09KNTA3VGF0RTFFUi1CREtlVjhkMkM4YkpWaG93RUVsaTVWby1XMEHSAWBBVV95cUxPNFUySmFoTzhtV0NtcnV6bm5KYmNTUTJtcmtXb0w4ckdBTFlabFJvSWh3bU5BUTB6Rld3TjZCdFJqS0hDd1EyNW1xVmhhZkhfSW5WTE1hYzB6TGV4b1YxSDY?oc=5",
+          "published": "2026-09-18T07:37:39+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "두산로보틱스, 신임 CEO에 권영민 두산모트롤 대표 선임 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBU2ZPcThLRmJhMlhnN2FaVVFOUWpJalNDTjZzWmNqMEtDc2lKc2UxSDk1TmhBUU5HY0VVYi1vVUVWSHllc3NHOGp4WUxYZU5uVDI4MU9hSGNrRElTb3B5LTlsZURuUm5aMF9YZ9IBckFVX3lxTE9Odm12RlNRbFZtWjhEeWY3WXZiRVVVNGJjNkhjWFVIc3NaVzJndGZ0ZWU2QW1sS09iM242QmFfLWxqMnlvWjdVR1NjT1U3Tm9rZGU0UVVNRFR2VkFzU1ozbDgtZWllZXFBblM2RVpEd1V2QQ?oc=5",
+          "published": "2026-09-18T07:31:25+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "456010": {
+      "code": "456010",
+      "name": "아이씨티케이",
+      "news_score": 2,
+      "news_label": "약함",
+      "news_count": 5,
+      "news_reasons": [
+        "급등"
+      ],
+      "news": [
+        {
+          "title": "[더벨]아이씨티케이, 지란지교시큐리티와 PQC 전환 사업 MOU 체결 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jUE9BQVEzdXdMY2JfSzV5RmtGN1FaWkhlMXdZZTh4djVjTGpjY3dvMGdUQ09yQnBFYUJpN0lhLUhrc2o3Uzc2SWJkRHpnSnVWdUxuckE1bW9CSEZNalJoalNpb0k1MVF50gFuQVVfeXFMTmxMZXhtQTNPNWNzN1FRSUVOQWlzUmZJU0FkNVI4RDZaMFJsQ1ZTZS1fNDdsVFU5ejF0by1xN0QwZXo4bTd2V3pIWGJNelhGY2hQb1hnSkdYSGE0Q044SkVZa1VRaS00VTk3TFpzaWc?oc=5",
+          "published": "2026-09-18T00:30:47+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "[고래사냥] '에이팩트·아이씨티케이·케이엔에스! 내일장 고래 종목은?! - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkM3ZvQ2pVMk5MYnFvdFRidmtfUzY1b1dtYTR4TXUycnF2eDBGTTVJaXhNa2ZDaEU2TEF3V2dCWGlfZ2NlVDR5c3FEelhBWjN2d3BNX0pFWWJ0QUtpV0dYdDlPWi01Wl9G0gFuQVVfeXFMUFhHYTYza1RMVjJnRWphWEIyV1JlOTFzcm5PcHpYSFJKRms2dEthX2lxM2pxZUNFX3ZLcDZpNTZEUi1Bdm5XSUhpSzNkeUlJVWNHU19FdGYxb2lLRkdOWXV3SVRNeUVvSEtQMk1ScHc?oc=5",
+          "published": "2026-09-18T00:28:29+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "[적중! 대박 예감] '라온시큐어, 아이씨티케이' 내일장 예감 좋은 대박 종목? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41NTJRMzhQOXE0ekZTRGwyWS1ndy1DaXJmbHRJcmp6bTFoZ0EzMDZPZnpNWTgzN1BMd2NNWUNHTkgwaDRFbVJCQU5hY05VS2VWWkxIYi1Zakg1cFF3SkcxbkduQ2NzRzE30gFuQVVfeXFMTXNEbXhtcjkxYUVWR1RQYXdZcElPRmdtOUtoZFB2QkNSOFN4MjllaXdYZTUwdW1yZ2xpQll2VXBhUzRVTGZ6YVZTMUo3cTRESVZvTURLaEZkQy11S1U4cTJCY01RZ3JUV2ZXM1dDN0E?oc=5",
+          "published": "2026-09-14T14:16:48+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "[고래사냥] '에스피소프트·아이씨티케이·티엠씨! 내일장 고래 종목은?! - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Idm1UMG95M1JKTExLVGk0VE1nazcwcHdha0lPNG1yWWR2QjBINzhuMkpyOGJVbWlCM1pISlIweEJ3QWhxZWVtZVF2c2VseGZ4ZHh5MnlnczlMUXJPX0R2bmVCcHh6YURy0gFuQVVfeXFMTVBqWnB3NEMycUxvdVRBYUFUZnNtVG9sWXRXMVdpM0FWZmVILXdMYUpYa1hsdEM5YU5NYTJCN2dlOTZ4MXNscjVZdWhTa01XSjNzZWRJdzFfcmk5Ymw5V0lxSDNCbWdxOEEySWRfMGc?oc=5",
+          "published": "2026-09-14T13:41:21+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "[급등수사본부] 반도체 공정용 특수가스 제조 '티이엠씨' vs 보안 시스템 반도체 설계 전문업체 '아이씨티케이' - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RcW1sUkRJU1AxeUl3VGs0M1gxS25FUXNQZlFNbDFDakJNTnhrV0ZLeXcwcUlwT0N5Y1hWeUx2M2tld3Nkbmx3Uy1UZXJCRDVEUXowdHZ6OGxvOFF0Z0tDNmpsYTFBeG5U0gFuQVVfeXFMUC1Ua1lYMmd2VFNDUDZDY05YVExibzkyRFZKOFcxLUM1MDlRbUpqMF9tREY2aHNTVGhMbzhEVDN5RlJ4R240aG56VDVaQy1FNGVLMEo3d1ZYS1Y0YVFxdk01OFdmemptcmhXZHBhWUE?oc=5",
+          "published": "2026-09-14T10:07:25+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "010170": {
+      "code": "010170",
+      "name": "대한광통신",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 1,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "[여의도 클라쓰] '나무가, 비나텍, 대한광통신' 클라쓰 올릴 종목은? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FeDBXZ3ZRMkZwWVhxRzNueEg1Rk9zbW5ISkwwdDNtcC1oRm5YR0hpOTdwN3FCbHgtQlpEdEstNVp3ZElSbHA4LTFxVTMweDNUTEJwLVEtZURaOXZxNWxmZ2dMSVRnV2la0gFuQVVfeXFMTlFlMXo1WFRNcm1nZUhFYjRJN090SzRoMjBILUJPUzJFczJ4czRqZlJMd0NhX2Q3eUlBdlZRdTk1bGxTdDExQ2otX2hWR2FMQ2gzMHI2NUl0ODVWRnkxdlF0UElQekU5VklKLWNWWVE?oc=5",
+          "published": "2026-09-18T00:26:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "078350": {
+      "code": "078350",
+      "name": "한양디지텍",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "000270": {
+      "code": "000270",
+      "name": "기아",
+      "news_score": 2,
+      "news_label": "약함",
+      "news_count": 8,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "엔저에 웃는 일본차…현대차·기아 미국 점유율·수익성 비상등 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTczZlQW5rZm5VSnNTVmptbkpjWDVNZ3cwMS1CaXg2WXU0UjNOMUl2TWFfVjhBank2aDVqQmJfRURpdjNCNWVhZUwxbXFBTzdSMG5jN1RRakZlUlJlcm83SFVacm5OVHBKR0pXY9IBckFVX3lxTFBrNC1IUGVmZ2UtTFgwM3M0cjROZDVPdV9WaUhvazdBMTVKdkFNOGR4M3JwaUhKQzFDX1prelM5NE13ekdsR3VDZmFDWnowTG1fRC15YXozdV9xaHRwUkoxNW5XUWh6LXJHbHBzcWpOMG5aZw?oc=5",
+          "published": "2026-09-18T05:39:23+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "[더벨]E8, 현대기아자동차에 온톨로지 AI 적용 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Qc1BwbFJwREtWaWFyT1FVbVVuMzZSdHNxZnh6UmtydGhGS2t5cll4UElWZmE4YUpwdTlrTWduc1lISFNOMjRBRjJodjlJb1Q5NXpKcWJRTWVobkh6TkxhSnlYa05hSFVoSGlFOUhB0gFuQVVfeXFMT1BzUHBsUnBES1ZpYXJPUVVtVW4zNlJ0c3FmeHpSa3J0aEZLa3lyWXhQSVZmYThhSnB1OWtNZ25zWUhIU04yNEFGMmh2OUlvVDk1ekpxYlFNZWhuSHpOTGFKeVhrTmFIVWhIaUU5SEE?oc=5",
+          "published": "2026-09-17T03:58:12+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "\"현대차·기아·제네시스, 럭셔리 브랜드와 격차 빠르게 좁혀\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wZUZmSm54a09oME9FUXB5alEtSDRfSVJOMXhfTzdkUm0xWGJmY2hRNjd4Q1U4NDgzb1VnU1ZsR2pGS2JZeUVGa0E1NTM1Z2REWmJScjhlLXVxTDTSAWBBVV95cUxPYTY4YkxTclZWSzhZdGktTkUtZ2tlT1pBeTkxamlIREdtZWVfZTQtV1hoOC1FYTU5aHRmZVVBVW9ySmJ0TDJGTVVLaVRGdjhvNmRFNWM3RWhXcFVYaDdQMlA?oc=5",
+          "published": "2026-09-16T01:33:27+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "송호성 기아 사장 \"PV7 앞세워 유럽 시장 정조준\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOcWtEMWVEbWpyUUZhejJ1RU9ncWNmMzBJN3BEOUdQXzJXUVFycUtwdlNwMmtSMFpxTnd4NDBnY2cwTi04dVZGZHJtSzRzSHBMWG9vRlgtaTlCcnJyZThPYUNPMEZVT0ZwRDMxWNIBckFVX3lxTE9CMENSWUVNdUkzUEtlOXlIUF9od1B5MTVHS0wxUXl0Wmcxclo2NGJ1MlpUYmdUd1RfT2dVcVQ1QTZxZktIb29KYXlPbV9RYjh1YUM1T3BJbHZlbDJrenhJSWNvaWhkWHVNOWE3cTVkaVVEZw?oc=5",
+          "published": "2026-09-15T18:59:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "기아 송호성 \"PBV, 300개 이상 회사와 협상중…본게임 시작\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GcGJaOUh3YWtaTkZVSUpzV3VEN3F2Yk5NdW9SZmJNcVhNS3REbDlkZUdKeTdzbWZ4X2UxcTA2WEdVQUcxUjV5WDBNVHZVcldfbGE5YndfWHI2R0XSAWBBVV95cUxNeTgxWC05X3VDX3JJd0lWdzhOTjkzM1F1LU1CSkluVDBEalRMYjNFU1BJR0t4UjhseXUwa2FFdGgtWGVIc2tCSDQxUWZKcmpfeWJvXzBjekFfZjNMeXM4MXM?oc=5",
+          "published": "2026-09-15T07:55:22+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "기아 ‘맞춤형 PV7·9’ 들고 유럽 정조준..중국차 따돌릴 비책은? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tdExBTlBDOTZxUjlXNlpsaVFLLVpLVmlZOEZSbHpSTkZwVE1hUm1vZm9zSEhTSjVVMDdJS29MZXVGaWZrWFJ4czhwR2FmdTVPNEZiRWZQazhDcUZNTTBhVXZ6THdPa0pRMTJqM9IBckFVX3lxTE82MGZuX1BvR0MxSmhuZ0lrdDloUGFaRDFMVjJlNlBxaHdxaXd1Qm9hX2o1WUdrT0c1U29xcEk4T0lQMkNMWTJucnVyQTJrZnRwSU1sdTQtWlY2ZkFvOS1DR19CWlBMWi1UUFBxd05vVGEwdw?oc=5",
+          "published": "2026-09-15T06:30:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "송호성 기아 사장 \"PV7 현장 반응 좋아\"…유럽 '경상용차' 시장 정조준 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wUjZ3ZUEwNzE4MjJuNlpzRGk2UTVmTlloTGQ3Y3Rwa2RrZHhPSXItTV9LMXZ5Q0xpN2JhbDVJemR3UHFnTjBrZDM4cThRdWxfOVZsbUk4dXNYQjQtYjd1Z2g3OGNFYlpmaWpuetIBckFVX3lxTE1DbHRITU9fS3BTUWxFdy1HUWg4cDZqNmZjUFB6Y3liRlhDdzdoMlItZ3p1NjVybUE0SEpVLWE2dTRQOVNBUTJZSmppOHRsbkpnQ1o0WlZWbWRqVkVRUWlJdXZhcGo2YWttcjdIdDFPSk1uUQ?oc=5",
+          "published": "2026-09-14T10:19:27+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "기아, '더 기아 PV7' 세계 최초 공개 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGVUdSZjM5dEVTX01sNXhzempzV1E4WW1tYXVxVHJOOWF4YUVaeVduUHhodzBzZHMyaWpYNWtEVTcwYTlpVzFGbjhnRnd6MllqY3RCWnhvVUx2aEHSAWBBVV95cUxONEJXbU5hMUxudkdETGt2TmM0OHJYRnRNX01SNUxpX2ZBTER0YXUxZXQxRmlMX0FmVXZ3b19iQVVjOTZ1Q1BTTTJGYXlLYXlNSFhNeXVJR0ZuRnA2X19wNUQ?oc=5",
+          "published": "2026-09-14T09:19:16+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        }
+      ],
+      "errors": []
+    },
+    "274090": {
+      "code": "274090",
+      "name": "켄코아에어로스페이스",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 1,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "[적중! 대박 예감] '아톤, 켄코아에어로스페이스' 내일장 예감 좋은 대박 종목은? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91bERRZ0NBankxdXZRbjVLR0tCTnI2c0k3bHZuWldkQUNoU1FvMGVLRWRIZFlWR3RYRVNXZlBRUkhVcWgtNG01XzhkNjJjelphbTUwNjBCejh0QW1taGZISXM3ZGZTRFdD0gFuQVVfeXFMT3RvUTlOMXhMekdzOHN6MzZVNXNUVEdTMmRwbDlUQ01nY2hYQjItdnBNWHRHdDdmQ2dXR3g4RXQ1OGp5bTd1dkw3NXVQYWM1azk4bVB2SGZBb2RvMndSNXRUVlVsazFtZGxaZmItaUE?oc=5",
+          "published": "2026-09-18T00:29:42+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "162300": {
+      "code": "162300",
+      "name": "신스틸",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "356680": {
+      "code": "356680",
+      "name": "엑스게이트",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "005380": {
+      "code": "005380",
+      "name": "현대차",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 8,
+      "news_reasons": [
+        "주의:하향"
+      ],
+      "news": [
+        {
+          "title": "무뇨스 현대차 사장 \"미국, 진입장벽 없애면 중국차 밀려들 것\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91cnZ3eXJvcVpBYURrNkpaN3A0SmtWVmcwb2hieXJwWk40b1BrM2tTRXJsREl1WlNDbl9jWGdTVXIxWi1PZl8yc3FBSWdGR2ZHWS1ucm9pRDg4cmE3RzRuSk5QWlhwSndQSEpBeNIBckFVX3lxTFBRbjlWc0EzODhnVHYzb0R5QlVBdUs2YmpjSDcxc2ZWdXM3VXhoY19XZW44OW1ONjhVTEFpY0xQTnp2VkstU210VXZScWdoZVpmMmo3NzdjZmxqNnBZNGN4Smw2QVZJVU5YWVJVMFpuQzc2UQ?oc=5",
+          "published": "2026-09-18T07:59:44+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "현대차 CEO \"미국, 시장보호 유지 안하면 중국차 밀려들 것\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10OS1QN0l1bWNfeUwxSHJhR2YzUHlvNjdPOVRzYThCS1VyWUlwSWMxNXc1UXdPdU9HUEo2M1dLMm1WOGdsNFY1R2hxeWdVNWRoeGg2WXdsVHBUaGPSAWBBVV95cUxNYnhJeE9IS0U5Vm1DSzlXQjVYRmJ5R2pHeFVNVlY0OE1XWlhuV2s3NzhLUEtJejRPXzE0V0NZc1JyWDRUbG43dmVyYkhSdUk2MWlHVWpYNG9tY2RGX3g4QnQ?oc=5",
+          "published": "2026-09-18T06:46:01+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "엔저에 웃는 일본차…현대차·기아 미국 점유율·수익성 비상등 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTczZlQW5rZm5VSnNTVmptbkpjWDVNZ3cwMS1CaXg2WXU0UjNOMUl2TWFfVjhBank2aDVqQmJfRURpdjNCNWVhZUwxbXFBTzdSMG5jN1RRakZlUlJlcm83SFVacm5OVHBKR0pXY9IBckFVX3lxTFBrNC1IUGVmZ2UtTFgwM3M0cjROZDVPdV9WaUhvazdBMTVKdkFNOGR4M3JwaUhKQzFDX1prelM5NE13ekdsR3VDZmFDWnowTG1fRC15YXozdV9xaHRwUkoxNW5XUWh6LXJHbHBzcWpOMG5aZw?oc=5",
+          "published": "2026-09-18T05:39:23+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "현대차증권, 임금 2.5% 인상…자사주 500주 지급 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyN3FILVJGTVY3MXZVN0NDblI4ekxINFpRdHFZSm0tUkZjZWdELUJfeHF1eFpnSURiYkZKbENtcEx2eWlPVENwRlRkTk44eDRRSXQybTRWVU1SVWPSAWBBVV95cUxQQjRiTEI0bVJIY0xWQzdhbkFrQzd2c001NVE0SlpUR1FIcUMxemMtQ1RfbE5TeEJELVlPVDhHTEEyNVhtdUxvcG5SQXJSTWJmckpwX05zT0FJOEdvcW1NOHg?oc=5",
+          "published": "2026-09-18T04:48:43+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "시티아이랩, 현대차 협력사 아산공장에 AI 화재 감지 시스템 구축 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUSTd5c3BXaTNUSE4xN1FLejJEMjVTX0tqamoxT00tdTQ3LUQwVUpqTUtxQzRxS2t3QWpfMjdZZXBGU29teUc2MFVrckd1TlE1aWgtNktKRDZSaWNjZjlUTFhGSjdKUGvSAWxBVV95cUxOcmI2Y2prek8zM2NWTzl5T0s1NGpRT1FONXpUVWd2NkQ0bzVvM3ViLXBRajAtME53UEFzV0dQZmNoa2psMVNfNTVjUnk2MDdSSlhMYVBtTTdrZ1EzZm5IMk9sa2ZCQTE5YXVxUnY?oc=5",
+          "published": "2026-09-18T02:00:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "현대차, 실리콘밸리서 기술인재 모집…\"우리는 글로벌 AI기업\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ndnlsUV9tX0JYTUs0c2ZlcExnQUJSQk9QNVlqWHVlUWlCSjV5aW5hdzR2cDA5UmVvZ2V0Z0Q5bFJPeENuUjVCVW8xWHgtQWRhckU0U0JfbHU5REnSAWBBVV95cUxNU3N6aXlZbm5WRnVHRDF3c0M5bDhhX2Ywd2VPamdrRnRqRmtTVi1FdVFFRmtUN2N1QlZiZHpQWUM2Rl9waUVGRm5yNXNxLUZjd1lvTzU5ekFjQkVMWDg1bzI?oc=5",
+          "published": "2026-09-18T00:47:59+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "\"피지컬AI 산업 생태계 구축\"…엔비디아·삼성·현대차 한자리에 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DMXEwdlFmRnhFR3ZESWRZZV84UkIxdS01ekN5ZnlPcGVkQWZhX1BmSktHZGg4Y3RnSEZieVlhZHlWbGs1S25nWDBiSGNsUmJRUWZUOHJpcEg3NkpwUlVtd185UG5kYTZTclHSAW9BVV95cUxOZC14MC0zM3BTZVJmOXNHeFNiM01TR0NzOW9RelNScGEtN1dReHprU2NXWjVnVUZWU3pHVlpPNDE3N2c4cGJ2RzJxcmg5U1k4MG9SamJ3UkZtNWg2WDY1bkJqRnh6OFdmbGp3cGJ1X3c?oc=5",
+          "published": "2026-09-18T00:45:45+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "현대차증권, 한국전력 목표주가 하향…\"연료비 부담 상승\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VYWcwc0VaY19zUHFNbkY0NURmOWhiRjRYdWpZRW1XYjRfR3FfUmgwTUxTOWR0TFkxdFpHQUZ0QlVtS0V4a1RHa2Jwd1puVkJiR3Z5T1BCdXBiZTDSAWBBVV95cUxOMy1Lbk1iM3g5cG56TkhSVERUSncySXFuRUlnZ29RNThIaHk4R3Q4NjVnckUxdXhkVl91MWhoci12RzRWal8tVG9yZzRwZG54emVXVFpxUXl6UDhraWpKNms?oc=5",
+          "published": "2026-09-17T23:34:05+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        }
+      ],
+      "errors": []
+    },
+    "042370": {
+      "code": "042370",
+      "name": "비츠로테크",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "480370": {
+      "code": "480370",
+      "name": "씨케이솔루션",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "203650": {
+      "code": "203650",
+      "name": "드림시큐리티",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "321370": {
+      "code": "321370",
+      "name": "센서뷰",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 1,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "[시선강탈] 로보티즈 vs 센서뷰 vs 와이씨, 공략법은? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDaVpnUzE4WVJwSjFDMHdRUUQzZXBjVWdya3gwODhVTWplYWQ1VUtoSHpTZEQwWklDUW1Pbl82cnh3bjctdzJjRjhYQU54bVdNU2llVXVwYzhrZFpaaG91OVhHdFJwUmdL0gFuQVVfeXFMT2RNV2lydU13blBqdUk4TTNlZ09lNWJXdTVlOVZRMHJtc2tmRUxjRE1aWWlDYjlXbVJyYzF2OUJjSWJwdTlqcjc5cEkxZ20taGQ5WkY3LUt6Q3JmRmVoQmstUXdqeThKZGlRNTZOWmc?oc=5",
+          "published": "2026-09-18T00:27:03+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "032820": {
+      "code": "032820",
+      "name": "우리기술",
+      "news_score": 2,
+      "news_label": "약함",
+      "news_count": 1,
+      "news_reasons": [
+        "수주"
+      ],
+      "news": [
+        {
+          "title": "[더벨]우리기술, 두산에너빌리티향 원전 가상화 DCS 개발용역 수주 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mZHBuWU1nT2Z5Z2F5cHpZVnJtQkxtLVdlUDZ1b1lGc1BGelhnbmQtMmRMb1o0MXk4NFFma3VFakxRVUFOS0h3ZE90RWZzVEp2czYwOGtxUVo2U3NoSmprSExHSnpaT1Jz0gFuQVVfeXFMUDFjODhQZE1ob0Nwb3dJMThtSG42emVDbEJzX1c5X3FHQTNwSzhTd2pCOFhPVVlrNURlRTBzeHVBZHBxYWo0WF9hVWxEZzlxQTVlQkdsR1VNcVd0Tkg3UGNTTUJfRm9DUm9teVRlTWc?oc=5",
+          "published": "2026-09-17T01:52:37+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    },
+    "115440": {
+      "code": "115440",
+      "name": "우리넷",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "001210": {
+      "code": "001210",
+      "name": "금호전기",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "478340": {
+      "code": "478340",
+      "name": "나라스페이스테크놀로지",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "406820": {
+      "code": "406820",
+      "name": "뷰티스킨",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "201490": {
+      "code": "201490",
+      "name": "미투온",
+      "news_score": 1,
+      "news_label": "약함",
+      "news_count": 6,
+      "news_reasons": [
+        "주의:유상증자"
+      ],
+      "news": [
+        {
+          "title": "[특징주] '카카오게임즈에 피인수' 미투온 상한가(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ONVEtd0JXSEhzZWtYMFRTanNiZ2JMeU12b0ttbWxQS2RUdk9wdFU2WFRJZFk3YWJfbUd3U3pxOHdTOFJ0RHVYa3JWdkF2clUxdVNsaEhqT3hodjTSAWBBVV95cUxQS3Z4Z0ZsaktwN1dxRkpTVlZuekJrcmphaV9lSDI0SWtDNl81SFVBS2Vzem5Lck1XbUdKMjlORGpsZm9Oam9PTmd0dDVRN2hOMVhqSHllM3hEVDBzd1ZJSUE?oc=5",
+          "published": "2026-09-16T06:38:51+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "미투온 상한가…카카오게임즈 피인수 효과 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWS1dpbzRUOFgtdDZCdGVCOFMyV0lSZFVsNFB1UU5aVkpQb29fNGZvUTRLQ1ZVT1ZOS191cUJNMDRCNE1UYUNpdXkyYmFxRVU5ckdIVHBvRDFDVmZTR0k4YXBMODRhODRQ0gFuQVVfeXFMUGdPX3lKOEVaZ1RQbzIyNmZDWTZ0aDhwdmRMVlYwajMwdnNFaC1CbUdZeVU2M2xwR001VkV3VmppZWw5UDVjbzBSM0FhczFzTG81NHo0QjFVWFZUZk1Za0NtTm1yRWpCejNxdVR2THc?oc=5",
+          "published": "2026-09-16T00:42:31+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "카카오게임즈, 글로벌 캐주얼 게임 기업 미투온 인수(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yV1pwUXg0d1Q5QUhoQl9Fb01wa2RxcGJzNENHVDJQamtNOV96X0xHSXo0djlCaE14cVpyM2NzanRjOU81dHVRYWNMLXVKRHJzU016YjNJVS1BcGvSAWBBVV95cUxPb0swa2pudUFZRTVrVFltVm9KejVTU1UzUVVYRHloQ2FUNFEtU2cxV1U5SFVSbmxBaXdwdk5WREpLTFNFcnllamZuQkpVdDBkWmVwS2hHaTJfeHVISVRhUTg?oc=5",
+          "published": "2026-09-15T07:44:48+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "카카오게임즈, 980억에 미투온 인수…웹보드 장르 확장 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xd01iYmp3Nl9LZFp0N2h1VTNscHlaX29rSmt0eUxYeEQ4RDlKVmN0MEp6bkkwWWV0N29RQkYxX1VYOXA4ZjRlUG1xMXRCN0FLRUsxSXZ0ejBFMFN5Y09uM3VyVTVCemvSAWxBVV95cUxONzQwZmZIdFRHUGhxSlR5V3hlNG5BTHZ5ZElXOFZmSWJVRjRrZlEtdTMtdVh3cGJXVzVyMk9ta2R1dDFId19lcG1ScS1POXNKWlk1dVdablZyOGR5d2xpelpYM2ZtOURFUTdGVEE?oc=5",
+          "published": "2026-09-15T07:06:28+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "카카오게임즈 \"미투온 주식 980억원어치 취득…지분율 39.6%\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KN3phUEMxODB0a3ZIN09pal9TbEdVY1dlM3B5eUxYa3hySWUyNDdSV0FqX0had2wzY0g0X284ZEpGaDJha19VM29Qc29zYy1sTmRGY0h5SjY1RHPSAWBBVV95cUxQd3pkSHEyUmE4bU8yU0tyTENVRVVYbUJQZ25vUENCWWMyWGEyYWZtTlhORFZaMG93OXpUd1RtbFp4VlprVGoxR1pMY2x0N0ZTUmtROGUzMXA0b1NVUEpiS1o?oc=5",
+          "published": "2026-09-15T07:00:45+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "미투온, 279억원 유상증자…카카오게임즈에 제3자배정 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUaEtvQVJJR25iVjNXdlE4OGh4VlJHR1FPZjN1Y1R2dVREbWZRTjI1blJMaEYzVExEUXhSSW1XR1VvOFlnc0otVF9Ga05IdkFDeU1QeHdwYVA3cVHSAWBBVV95cUxNN0txdUphU2pHbHNLb0dkZmlFcXZwQTVZOVpaNHlTX0NSdmU5YXU1aEZPVENMZG1aX2tjUnZQNS1mNHg4RHJ5dVpfVWxod0xDREF4UGtDWXJhSVZjSkdUUE4?oc=5",
+          "published": "2026-09-15T06:58:47+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        }
+      ],
+      "errors": []
+    },
+    "069540": {
+      "code": "069540",
+      "name": "빛과전자",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 0,
+      "news_reasons": [],
+      "news": [],
+      "errors": []
+    },
+    "062970": {
+      "code": "062970",
+      "name": "한국첨단소재",
+      "news_score": 0,
+      "news_label": "약함",
+      "news_count": 1,
+      "news_reasons": [],
+      "news": [
+        {
+          "title": "한국첨단소재, 양자키분배핵심 광부품 기술 고도화…글로벌 공략 본격화 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Lb0gzZDJMYl82ZjFiaXYyZnU2U0lNOU9xajItOVJwMXFWWGdHdHBrcnVFREUzSm5iWnU0YUdfcFBYRXYxS1lHVjVLMDlfdmF2dUhmdUJoSWdESHh2andLY1FFTnh0TTRv0gFuQVVfeXFMTUtZdGhHaGdfVUx3TlBSazN5cmFQbktNNExzNmFOWUg1a2lUeFp2NUxmaXUtZmxBU243RkhqYktjWm5Sa3huMDVFTlVEMGtLMVZrNzhqUkVhVU8tRU80ajNQb21Oc0xqUndKMzRVQ0E?oc=5",
+          "published": "2026-09-14T00:06:13+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
+      ],
+      "errors": []
+    }
+  }
+}
