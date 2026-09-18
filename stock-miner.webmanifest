@@ -1,0 +1,19 @@
+{
+  "name": "Stock Miner v4",
+  "short_name": "Stock Miner",
+  "description": "키움 수급·거래량·이평선과 OpenDART 실적·공시를 결합한 종목 발굴 대시보드",
+  "start_url": "/JYP-COWRK/stock-miner.html",
+  "scope": "/JYP-COWRK/",
+  "display": "standalone",
+  "background_color": "#0b0d10",
+  "theme_color": "#0b0d10",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/JYP-COWRK/stock-miner-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
