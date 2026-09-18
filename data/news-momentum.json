@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:02:32+00:00",
+  "generated_at": "2026-09-18T22:35:21+00:00",
   "version": "stock-miner-news-v1",
   "lookback_days": 7,
   "sources": [
@@ -382,7 +382,7 @@
       "name": "SK하이닉스",
       "news_score": 4,
       "news_label": "강함",
-      "news_count": 8,
+      "news_count": 7,
       "news_reasons": [
         "급등"
       ],
@@ -409,13 +409,6 @@
           "source_group": "머니투데이"
         },
         {
-          "title": "주형철 경기도 부지사, SK하이닉스와 용인 일반산단 방류수 점검 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zaVA5VUVLZGZjdEkxdXR1RGtQclRkUHZOZVVfNW1US0hjY2RrSkJPWVVkSzlyUjYwZVhvYXdvM3V1UFFBNUh2OXZpX19wTDRVX1Z3SXo3MHdVOERPYlJ1MlVQU3pldWpLNUHSAW9BVV95cUxQTUtMcHIteU1PQldFRl8tVkhpWDBISExHQW9jeWhZTUtHenpISHlNS2pmZnZpRlBrajJVTW9hTXE2WUJWNld1dkFpQzM5RjJkTWhrU2RacFdhSGR5SzZWVVJPd0xPaUxISWpwb1d3MVE?oc=5",
-          "published": "2026-09-17T08:08:00+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
-        },
-        {
           "title": "SK하이닉스, 미국서 반도체 만드나...인텔 '골칫거리' 해결? 주가 급등 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5ck11LW5pMURKak90VWtIdTNNSHV2Vm9MaWR3VTZIRFAyd2R6NkNBQjQ0MHFqQnNkVFRIQi1HUWtYUE9FQ1dLbWlWb1N6c1RnOVN0WnZwZU0zNl9DbXBSc0RCQVFqa1JL0gFuQVVfeXFMTVp5eGJjWFBfQmttcTBjMWpNVDUwWTZIck5ndWpUX3BVeS1tbXFGT1lQMjhiWmRfYzF5R0wtTDJTdWcwbC10bFlqOENSY3FOeWVpRDJPVkQ3OFRoWk1YQUs3WFFJazRvWnFHckVEclE?oc=5",
           "published": "2026-09-17T02:42:50+00:00",
@@ -423,11 +416,11 @@
           "source_group": "머니투데이"
         },
         {
-          "title": "\"SK하이닉스, 인텔과 미국서 메모리 생산 협상중\"(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jdjhOUUxUU21BR05yTlp2WHF2cktkX19nZFg5cEdRdE5uRm1YMTN2REhROWNLSUlxSDNYLTd6c0hQdWRvbG1hTDdrSm9kdkEyUnplaTFEQS0zNUXSAWBBVV95cUxOald5cE5aV3NEdDJqNWgyXzU4WVRVUFhqTHRfbUJUODd1cl83Y0JYbmpWdzRPNEdqVXhJcEZtTVVfVkoyYkFNaGxweG9GRWV6SEFkOEU2ajdmNjUtR2F4X3Y?oc=5",
-          "published": "2026-09-16T06:44:08+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
+          "title": "'25표'로 부결→'2165표' 차로 가결…SK하이닉스 임단협 마무리 수순 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iOUJKTG01MjJtSXlad0xSMENTY2t2R05BS2NwclN0am51SVZHTVl1MkZLd1QyWkVHMGVYTG53a19OMlkzcFdFRURNOThCeVlMekJEM2RZWWQyTDA1d3ZfUDVCR20xY1VJU29DYtIBckFVX3lxTE9MNVN5dG9jWEIxVzdtLS1CVDRqQTVXZ3F3WDdRUlVZWFFoMjh0bDFHcFd6bmMzZTh2V2pQLXNlcEJFRE1TSmd0ZVhKM2NYSnhVUzN3bXY1MzR4YThNVXdHZzhWdDk0VktfXzMyU1Eta29DQQ?oc=5",
+          "published": "2026-09-16T01:54:13+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
         },
         {
           "title": "SK하이닉스 임단협 수정안 3주만에 가결…PS 주식 비중 50% - 연합뉴스",
@@ -633,7 +626,9 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": []
+      "errors": [
+        "연합뉴스: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
     },
     "483650": {
       "code": "483650",
@@ -807,10 +802,12 @@
     "000150": {
       "code": "000150",
       "name": "두산",
-      "news_score": 2,
-      "news_label": "형성중",
+      "news_score": 4,
+      "news_label": "강함",
       "news_count": 8,
-      "news_reasons": [],
+      "news_reasons": [
+        "증설"
+      ],
       "news": [
         {
           "title": "'이럴수가' 4시간 20분 혈투 '세베리노 또 홈런포' 두산, '박찬혁 생애 첫 멀티홈런' 키움 '헛심 공방'... 연장 11회 승부 끝에 6-6 무승부 [잠실 현장리뷰] - 머니투데이 - 머니투데이",
@@ -831,13 +828,6 @@
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SRG9KaEhuTmlNNlBkcUhDTDBLTDFaUWhLWWxnbngyTE96cFBKTGx4ZXVOa0I4TEJEbG9Yck1WSE84dHM3dlF0SC1rSkxNSlo3ajhpelctQjNYY1FjZmJ5X3c5ZEQ0aGw4TUVtNkMtUdIBb0FVX3lxTE9SRG9KaEhuTmlNNlBkcUhDTDBLTDFaUWhLWWxnbngyTE96cFBKTGx4ZXVOa0I4TEJEbG9Yck1WSE84dHM3dlF0SC1rSkxNSlo3ajhpelctQjNYY1FjZmJ5X3c5ZEQ0aGw4TUVtNkMtUQ?oc=5",
           "published": "2026-09-18T13:54:00+00:00",
           "source": "머니투데이",
-          "source_group": "머니투데이"
-        },
-        {
-          "title": "4시간20분 대혈투, 승자 없이 끝났다…두산-키움 3:3 무승부, 빛바랜 박찬혁 2홈런 5타점 활약 [잠실 리뷰] - OSEN",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FRkRzT091MzB2SGJNWTBSZl8yX2lTUEhuM2toMXZsXzF2YXotU0FLX1V4SmktWlh0THhEcDA3WnBDOWhqN0pGeTVhMmE1ZVpiN1E?oc=5",
-          "published": "2026-09-18T13:54:00+00:00",
-          "source": "OSEN",
           "source_group": "머니투데이"
         },
         {
@@ -862,11 +852,18 @@
           "source_group": "연합뉴스"
         },
         {
-          "title": "두산로보틱스, 신임 CEO에 권영민 두산모트롤 대표 선임 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBU2ZPcThLRmJhMlhnN2FaVVFOUWpJalNDTjZzWmNqMEtDc2lKc2UxSDk1TmhBUU5HY0VVYi1vVUVWSHllc3NHOGp4WUxYZU5uVDI4MU9hSGNrRElTb3B5LTlsZURuUm5aMF9YZ9IBckFVX3lxTE9Odm12RlNRbFZtWjhEeWY3WXZiRVVVNGJjNkhjWFVIc3NaVzJndGZ0ZWU2QW1sS09iM242QmFfLWxqMnlvWjdVR1NjT1U3Tm9rZGU0UVVNRFR2VkFzU1ozbDgtZWllZXFBblM2RVpEd1V2QQ?oc=5",
-          "published": "2026-09-18T07:31:25+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
+          "title": "[특징주] 두산, 1조원 규모 CCL 생산라인 증설 소식에 강세(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wak1ZQUppb0pCRHpvazFhRW5nVkFpLThrS2xSdWxEVnBTV2hjcXhYWFhTUmQ5NWMzVlRDQm5RQ1VteDNKSDlqRVQ3bGdPTFFWS3U3NjU0a2VmWW1hdGxEMtIBYEFVX3lxTE0wak1ZQUppb0pCRHpvazFhRW5nVkFpLThrS2xSdWxEVnBTV2hjcXhYWFhTUmQ5NWMzVlRDQm5RQ1VteDNKSDlqRVQ3bGdPTFFWS3U3NjU0a2VmWW1hdGxEMg?oc=5",
+          "published": "2026-09-18T06:42:40+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "두산건설, 하반기 신입사원 공개채용…8개 분야 모집 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iYXVzbjFoamdiM3FrSGZSYS1aSzRQR01ZNnNZVHBRYWgwZzFzWk9wUVViakQxeDJZVTAxbjNXSE5lU0tXaGlTdXczckNURm5ZNElLY29VVVc0M2vSAWBBVV95cUxPaWZGbEJiaktCNlpNVUg3UzhVbmRyckJoR3hvOFpvUWhlS2lwd194aHNoUV9PYlA3cDNkel9kLTVaRnVWWWNidEJRMTBYVkFtNG9CQWpWbm1RWHNDZEFmUnE?oc=5",
+          "published": "2026-09-18T01:05:41+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
         }
       ],
       "errors": []
@@ -1061,6 +1058,13 @@
       "news_reasons": [],
       "news": [
         {
+          "title": "승자는 몰라도 車는 판다…현대차그룹, 로보택시 '파운드리' 승부 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40cmtjYkYyRGNJekdEZjBzazNQYmFGN0h3Ui1kVkxRbkVFc2htM1AxYmt1S0xaNVBoRWo3bjBoMVNLSThkSzVDSElNWnB6eEdtdUlRdUNJdXFxTjB6NnRyYkJORGpLdWU3MVJGSNIBckFVX3lxTE9oUW1YbGxVN082ajBhMF9oNDVtMmZjMWpjOWxjWExqUFo5Z1d0azJLdlRUOXlqSG1ZeWRERFRtYURGYWFiVnJqT2RfQVVyd3JiTVdydUxKbjk0bEhRdG92bVR4RmpqYUM2cE9KWUhidl9oUQ?oc=5",
+          "published": "2026-09-18T22:00:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
           "title": "무뇨스 현대차 사장 \"미국, 진입장벽 없애면 중국차 밀려들 것\" - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91cnZ3eXJvcVpBYURrNkpaN3A0SmtWVmcwb2hieXJwWk40b1BrM2tTRXJsREl1WlNDbl9jWGdTVXIxWi1PZl8yc3FBSWdGR2ZHWS1ucm9pRDg4cmE3RzRuSk5QWlhwSndQSEpBeNIBckFVX3lxTFBRbjlWc0EzODhnVHYzb0R5QlVBdUs2YmpjSDcxc2ZWdXM3VXhoY19XZW44OW1ONjhVTEFpY0xQTnp2VkstU210VXZScWdoZVpmMmo3NzdjZmxqNnBZNGN4Smw2QVZJVU5YWVJVMFpuQzc2UQ?oc=5",
           "published": "2026-09-18T07:59:44+00:00",
@@ -1097,7 +1101,7 @@
         },
         {
           "title": "시티아이랩, 현대차 협력사 아산공장에 AI 화재 감지 시스템 구축 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUSTd5c3BXaTNUSE4xN1FLejJEMjVTX0tqamoxT00tdTQ3LUQwVUpqTUtxQzRxS2t3QWpfMjdZZXBGU29teUc2MFVrckd1TlE1aWgtNktKRDZSaWNjZjlUTFhGSjdKUGvSAWxBVV95cUxOcmI2Y2prek8zM2NWTzl5T0s1NGpRT1FONXpUVWd2NkQ0bzVvM3ViLXBRajAtME53UEFzV0dQZmNoa2psMVNfNTVjUnk2MDdSSlhMYVBtTTdrZ1EzZm5IMk9sa2ZCQTE5YXVxUnY?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2VmUwT3FwcmRHM0x1bTNTLWpnU0U0cDJ4QXR4QW5wcmVNLURsSlQ3V1VKUzRreUZ4WTY4YjJJY2lKUWFFc1AyeU9nbWdVUmNHSDBMUnRwQmh0RnF2amZVUDJlSlBUb1Q1LUotOGNYTkRCMV9f0gF6QVVfeXFMUDF1OFF2VVlCNzNac0EyckpJdUlTenMzRG5IaHJoUGh2M0pVcHZaaldtcFp0Y3RCdS0yem0wMEtjS2xiR0pTSDFnZGM4X2o1YW1DTFZ2QWpac0xKLVRYaU1DVS03VWR4MVl2elBjYnV0dkJianJBSjdZWmc?oc=5",
           "published": "2026-09-18T02:00:00+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
@@ -1108,13 +1112,6 @@
           "published": "2026-09-18T00:47:59+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
-        },
-        {
-          "title": "\"피지컬AI 산업 생태계 구축\"…엔비디아·삼성·현대차 한자리에 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DMXEwdlFmRnhFR3ZESWRZZV84UkIxdS01ekN5ZnlPcGVkQWZhX1BmSktHZGg4Y3RnSEZieVlhZHlWbGs1S25nWDBiSGNsUmJRUWZUOHJpcEg3NkpwUlVtd185UG5kYTZTclHSAW9BVV95cUxOZC14MC0zM3BTZVJmOXNHeFNiM01TR0NzOW9RelNScGEtN1dReHprU2NXWjVnVUZWU3pHVlpPNDE3N2c4cGJ2RzJxcmg5U1k4MG9SamJ3UkZtNWg2WDY1bkJqRnh6OFdmbGp3cGJ1X3c?oc=5",
-          "published": "2026-09-18T00:45:45+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
         }
       ],
       "errors": []
