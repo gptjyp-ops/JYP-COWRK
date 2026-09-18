@@ -16,7 +16,7 @@ jobs:
           KIWOOM_SECRET_KEY: ${{ secrets.KIWOOM_SECRET_KEY }}
         run: |
           python - <<'PY'
-          import json, os, urllib.request, sys
+          import json, os, urllib.request, urllib.error, sys
 
           appkey = os.environ.get('KIWOOM_APP_KEY', '').strip()
           secretkey = os.environ.get('KIWOOM_SECRET_KEY', '').strip()
@@ -40,11 +40,22 @@ jobs:
 
           try:
               with urllib.request.urlopen(req, timeout=30) as resp:
-                  body = json.loads(resp.read().decode('utf-8'))
+                  raw = resp.read().decode('utf-8')
+          except urllib.error.HTTPError as e:
+              raw = e.read().decode('utf-8', errors='replace')
+              print('HTTP status:', e.code)
+              try:
+                  err = json.loads(raw)
+                  print('return_code:', err.get('return_code'))
+                  print('return_msg:', err.get('return_msg'))
+              except Exception:
+                  print('response_body:', raw[:500])
+              sys.exit(1)
           except Exception as e:
               print('ERROR: request failed:', type(e).__name__, str(e))
               sys.exit(1)
 
+          body = json.loads(raw)
           code = body.get('return_code')
           msg = body.get('return_msg')
           expires = body.get('expires_dt')
