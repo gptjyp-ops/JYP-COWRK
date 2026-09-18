@@ -1,0 +1,60 @@
+name: Kiwoom API Test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/kiwoom-api-test.yml'
+
+jobs:
+  test-token:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Kiwoom OAuth token
+        env:
+          KIWOOM_APP_KEY: ${{ secrets.KIWOOM_APP_KEY }}
+          KIWOOM_SECRET_KEY: ${{ secrets.KIWOOM_SECRET_KEY }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request, sys
+
+          appkey = os.environ.get('KIWOOM_APP_KEY', '').strip()
+          secretkey = os.environ.get('KIWOOM_SECRET_KEY', '').strip()
+          if not appkey or not secretkey:
+              print('ERROR: KIWOOM_APP_KEY or KIWOOM_SECRET_KEY secret is missing.')
+              sys.exit(1)
+
+          url = 'https://api.kiwoom.com/oauth2/token'
+          payload = {
+              'grant_type': 'client_credentials',
+              'appkey': appkey,
+              'secretkey': secretkey,
+          }
+          data = json.dumps(payload).encode('utf-8')
+          req = urllib.request.Request(
+              url,
+              data=data,
+              method='POST',
+              headers={'Content-Type': 'application/json;charset=UTF-8'},
+          )
+
+          try:
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  body = json.loads(resp.read().decode('utf-8'))
+          except Exception as e:
+              print('ERROR: request failed:', type(e).__name__, str(e))
+              sys.exit(1)
+
+          code = body.get('return_code')
+          msg = body.get('return_msg')
+          expires = body.get('expires_dt')
+          token = body.get('token')
+
+          print('return_code:', code)
+          print('return_msg:', msg)
+          print('expires_dt:', expires)
+          print('token_received:', bool(token))
+
+          if code != 0 or not token:
+              sys.exit(1)
+          PY
