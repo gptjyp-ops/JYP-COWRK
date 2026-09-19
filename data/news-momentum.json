@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T18:37:05+00:00",
+  "generated_at": "2026-09-19T22:20:14+00:00",
   "version": "stock-miner-news-v1",
   "lookback_days": 7,
   "sources": [
@@ -122,17 +122,25 @@
     "009150": {
       "code": "009150",
       "name": "삼성전기",
-      "news_score": 2,
+      "news_score": 3,
       "news_label": "형성중",
-      "news_count": 3,
+      "news_count": 4,
       "news_reasons": [
-        "실적 개선"
+        "실적 개선",
+        "수주"
       ],
       "news": [
         {
           "title": "[특징주] 삼성전기, 3분기 실적 개선 기대감 등에 4% 상승 마감(종합) - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyLVFBekh2U0dTYXlxc00tRmo0TDdyX0FmU3hWZV9MLXFtUWVEM0FfdlBoeWlNWDF6YWtTTl9tMVE4ODBoU2lqT080OUJveXJ4Z2VzS2hjZ0hwQXc?oc=5",
           "published": "2026-09-18T06:37:31+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "삼성전기, AI용 MLCC 추가 수주 임박…올해 장기계약 4조원 눈앞 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDX3VjbXA3S1h2NzZTLUlmMkZPMGUyV19NZDI4bXVkMkdISGxxcGVhdU5JWUlpLVg3TnFxaHpwdmdxbFk2M3hOR1NtM1hpUmc0X0hSc0QwVjVmcFXSAWBBVV95cUxON3ZkQTE4OHFDZHFSVW45T2liVlRtTVhFZFBiZnZJbi1UVGVQcDdYTmR4ZmF6ZGFsamVPelBYdTBwcXFRbzQ4SkZvdkxrcGZCQW00WHVUWFNQX3F0Nmc4TXk?oc=5",
+          "published": "2026-09-17T23:37:00+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
         },
@@ -405,13 +413,6 @@
           "source_group": "연합뉴스"
         },
         {
-          "title": "SK그룹 부회장 3인, SK하이닉스 합류…AI·반도체 힘 싣는다 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pc19qRHlGSGMzSzB4bm9EamJmQV9GeFpBUGNOV2QzQzVlQWE5aE1RQnZyc2tOSVdRTFdyZndpb1VxN0tqcURYdmJEQjhkVWc2NVVidk1ENzB2SFhxdjJnM1o2Y1N2QmlKMVRNNdIBckFVX3lxTFBGUlN5bnE2TFNydWNOZWlOazBDUDNKZW9wSkptTzV3a1d1Sm84bjZOUW9pUkdZcFZ4dVJrYkdrOHhvRllOV244N1RxY19kVUgzTlFkaWczQWNNaXpET0tmX0hSZG81THFNQ0pSYWNxbEtQZw?oc=5",
-          "published": "2026-09-18T00:59:00+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
-        },
-        {
           "title": "SK하이닉스, 미국서 반도체 만드나...인텔 '골칫거리' 해결? 주가 급등 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5ck11LW5pMURKak90VWtIdTNNSHV2Vm9MaWR3VTZIRFAyd2R6NkNBQjQ0MHFqQnNkVFRIQi1HUWtYUE9FQ1dLbWlWb1N6c1RnOVN0WnZwZU0zNl9DbXBSc0RCQVFqa1JL0gFuQVVfeXFMTVp5eGJjWFBfQmttcTBjMWpNVDUwWTZIck5ndWpUX3BVeS1tbXFGT1lQMjhiWmRfYzF5R0wtTDJTdWcwbC10bFlqOENSY3FOeWVpRDJPVkQ3OFRoWk1YQUs3WFFJazRvWnFHckVEclE?oc=5",
           "published": "2026-09-17T02:42:50+00:00",
@@ -424,6 +425,13 @@
           "published": "2026-09-16T06:44:08+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
+        },
+        {
+          "title": "'25표'로 부결→'2165표' 차로 가결…SK하이닉스 임단협 마무리 수순 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iOUJKTG01MjJtSXlad0xSMENTY2t2R05BS2NwclN0am51SVZHTVl1MkZLd1QyWkVHMGVYTG53a19OMlkzcFdFRURNOThCeVlMekJEM2RZWWQyTDA1d3ZfUDVCR20xY1VJU29DYtIBckFVX3lxTE9MNVN5dG9jWEIxVzdtLS1CVDRqQTVXZ3F3WDdRUlVZWFFoMjh0bDFHcFd6bmMzZTh2V2pQLXNlcEJFRE1TSmd0ZVhKM2NYSnhVUzN3bXY1MzR4YThNVXdHZzhWdDk0VktfXzMyU1Eta29DQQ?oc=5",
+          "published": "2026-09-16T01:54:13+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
         },
         {
           "title": "SK하이닉스 임단협 수정안 가결…성과급 현금 50%·주식 50%(종합) - 연합뉴스",
@@ -666,7 +674,7 @@
       "news": [
         {
           "title": "[적중! 대박 예감] '아주IB투자, 케이엔알시스템' 내일장 예감 좋은 대박 종목은? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85cXpIeF9fS2NxTEwxYkVuR1N1SG02S21mZnplZ2M4X19MaXBFYkQzNzFOUnQyYUMzNDlkR2tBZnUzdkNXektiUm81OU80OUNzNTFrR2dtc0gxMnFuT01Ea2FoYUpwODFYbDVuN2JB0gFuQVVfeXFMTzlxekh4X19LY3FMTDFiRW5HU3VIbTZLbWZmemVnYzhfX0xpcEViRDM3MU5SdDJhQzM0OWRHa0FmdTN2Q1d6S2JSbzU5TzQ5Q3M1MWtHZ21zSDEycW5PTURrYWhhSnA4MVhsNW43YkE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5Y0RtNE9abFBSS2pBenhQa1Y1WW1CRXFYR0tEZVM1RmlNT0d0SkF6azFBZVFZSTFYNmpRdmFzVXhJSF9jbmVydW0zU21sMWlZa1pkSTVRTFIzTDU1R2huSVhGYVl5WUd30gFuQVVfeXFMTzlxekh4X19LY3FMTDFiRW5HU3VIbTZLbWZmemVnYzhfX0xpcEViRDM3MU5SdDJhQzM0OWRHa0FmdTN2Q1d6S2JSbzU5TzQ5Q3M1MWtHZ21zSDEycW5PTURrYWhhSnA4MVhsNW43YkE?oc=5",
           "published": "2026-09-17T00:16:52+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
@@ -819,7 +827,7 @@
       "news": [
         {
           "title": "힐리어드 37호 대포 폭발…kt, 두산 대파하고 선두 수성(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhQkpqV1hOZ2YzZFN2dV9XcVBtMlJMN3BoV3IxYWYxWHI4TWFnLXhCYlRqNElHcXpTdF9DTllNYlV6TkdKYkIxbzBVTlpIdjJ4ME8xRGotMjV1QWdhS3pqdNIBYEFVX3lxTFBhQkpqV1hOZ2YzZFN2dV9XcVBtMlJMN3BoV3IxYWYxWHI4TWFnLXhCYlRqNElHcXpTdF9DTllNYlV6TkdKYkIxbzBVTlpIdjJ4ME8xRGotMjV1QWdhS3pqdA?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkUE14M1d5QWlMU0RyM1p5NEx0QUxkZ2NaSUZZSkg1dUNUczU2QUNkSEZ3dkNOT2VwZjdQQmZ1WW5mS1pfNFFrekRsVVVxRE1qRGpnaXRHTVd1RWPSAWBBVV95cUxQYUJKaldYTmdmM2RTdnVfV3FQbTJSTDdwaFdyMWFmMVhyOE1hZy14QmJUajRJR3F6U3RfQ05ZTWJVek5HSmJCMW8wVU5aSHYyeDBPMURqLTI1dUFnYUt6anQ?oc=5",
           "published": "2026-09-19T11:52:28+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
@@ -969,7 +977,7 @@
         },
         {
           "title": "[더벨]E8, 현대기아자동차에 온톨로지 AI 적용 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Qc1BwbFJwREtWaWFyT1FVbVVuMzZSdHNxZnh6UmtydGhGS2t5cll4UElWZmE4YUpwdTlrTWduc1lISFNOMjRBRjJodjlJb1Q5NXpKcWJRTWVobkh6TkxhSnlYa05hSFVoSGlFOUhB0gFuQVVfeXFMT1BzUHBsUnBES1ZpYXJPUVVtVW4zNlJ0c3FmeHpSa3J0aEZLa3lyWXhQSVZmYThhSnB1OWtNZ25zWUhIU04yNEFGMmh2OUlvVDk1ekpxYlFNZWhuSHpOTGFKeVhrTmFIVWhIaUU5SEE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qWDJ6cXB2clg2aXRhN0tlODNHbTd5TFhYWTZHZFJLdEJ3YW9pOU41Y2NOSFU5Nk1DV2dKSDNlRnA1NDQ1SVkxRU1QRlFvSzVPYThMc3dVejNtNkxVWXJETkt1WW5Kb0tH0gFuQVVfeXFMT1BzUHBsUnBES1ZpYXJPUVVtVW4zNlJ0c3FmeHpSa3J0aEZLa3lyWXhQSVZmYThhSnB1OWtNZ25zWUhIU04yNEFGMmh2OUlvVDk1ekpxYlFNZWhuSHpOTGFKeVhrTmFIVWhIaUU5SEE?oc=5",
           "published": "2026-09-17T03:58:12+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
