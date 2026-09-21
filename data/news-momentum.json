@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T19:27:39+00:00",
+  "generated_at": "2026-09-21T23:16:45+00:00",
   "version": "stock-miner-news-v1",
   "lookback_days": 7,
   "sources": [
@@ -27,7 +27,7 @@
       "news": [
         {
           "title": "[주식민원처리반 3부] '대원전선, 한컴위드' 월요일에 선택할 이 종목은? - 머니투데이 - mt.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAyOFE0a1lFOGRFX3UwMmJKVkhsU2JyNjFpTnNGbXRRMnFMdDBlcG5GUllFamFaN1lnOTNVOTJwZW5ZdnpjNjJ6bnNsQjAzZ0FuM2UwMVVUeUFQSVpxVnBrQlNIUUo3RmF10gFuQVVfeXFMTk9vRW9sUVgxSTVESFhCY0JLeF9pb24yenR0Y1A4Q29aN2hVZFVlZ2N4TlFIN1lILVpyUHBwTy1oeVRQZzRQX1B3TE9yczg1Sy1Iallkd3lkaGlNM0tSUjlYaXFVdGZEN3Y1WGhnSEE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qTV84eG1jSk8xNWw2QmR1ZHprSjAzcThCR0NsVDhFaFFBcDk1N2hvTC1rc3A4cTh6b19heHd3QXY1QVIzNEJrRmtKTEZmdjJiQnpjc1FxZzBEQWJnM2NBTElNaFZHZ05ldUZaY1FsOFBTMGV4QkHSAXtBVV95cUxPUHRBUUhNWWNHcGRxdjRPUFZvclFsZjlJcTBKN2hXczloeV9uX05KY3hvbjFISVlsUnRvUHFDc3Q2QUEyckpwMEprNkttb01tVVRzc0FacU9hUlU5Rm1ZbnZtQWFjMEpZbjBsZ2Z3UEo3OEsxR2tLakJhOWM?oc=5",
           "published": "2026-09-21T00:11:05+00:00",
           "source": "mt.co.kr",
           "source_group": "머니투데이"
@@ -293,9 +293,23 @@
       ],
       "news": [
         {
+          "title": "[단독]반도체 화학사고 5년간 12건…SK하이닉스·삼성전자가 11건 - 머니투데이 - mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90eTMxdG9zLUh2NzFDbi04emZXbE9CT3IyMFNJd09YUDRSQk51ZkdiUGtMTG1lamVRMnk1alBIZXZiT3pzN1RiS0Uxay1KVi1lR3U1a1dvNWxPT1hFaEtpb2IwSGRpVXduS2R30gFwQVVfeXFMUFloVXFPMWdiaDN2Ymh2VU4wdFBoVWZzMVA3SUpWWWlscjl4OU05QWhZTmo4MUR6UmR1YVlaajMyY0x6ckpUT3kyUzd5N0Z1aUo4YU1xZkFRWlRfNEViSWxmM05heUpDenF1amN3OEJrUw?oc=5",
+          "published": "2026-09-21T21:00:00+00:00",
+          "source": "mt.co.kr",
+          "source_group": "머니투데이"
+        },
+        {
           "title": "반도체 타고 '7천피' 탈환…삼성전자 5% 급등 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NdlZfZWlUX3hpV1gybmNyUUtvVDFBeHIyWVFHLTZsS1hpRE9JWktiTnVUWURRVVp5TV9KR3NiVEZqbGZxLXg2VVl5aUFrbU9GMVB2OEJNQlR3aXNxbkNCVNIBYEFVX3lxTE1NdlZfZWlUX3hpV1gybmNyUUtvVDFBeHIyWVFHLTZsS1hpRE9JWktiTnVUWURRVVp5TV9KR3NiVEZqbGZxLXg2VVl5aUFrbU9GMVB2OEJNQlR3aXNxbkNCVA?oc=5",
           "published": "2026-09-21T12:00:22+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "삼성전자 5% 급등…코스피 7,000선 탈환 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41RndXQk1JZHJ3cFNKWWFaeDROT2ZKT0xleFpMeXdoaGVQMjYyTGFZNUdQTFVPbnNYY3ZLVWxUa3JOc3ZsU0VXUF83N2NlRk5selJkeWVhbjA2TVlEUFBHdtIBYEFVX3lxTE41RndXQk1JZHJ3cFNKWWFaeDROT2ZKT0xleFpMeXdoaGVQMjYyTGFZNUdQTFVPbnNYY3ZLVWxUa3JOc3ZsU0VXUF83N2NlRk5selJkeWVhbjA2TVlEUFBHdg?oc=5",
+          "published": "2026-09-21T09:34:52+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
         },
@@ -333,20 +347,6 @@
           "published": "2026-09-21T00:22:14+00:00",
           "source": "mt.co.kr",
           "source_group": "머니투데이"
-        },
-        {
-          "title": "[특징주] 삼성전자, 장초반 3%대 급등…SK하이닉스도 1.29%↑ - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lT2t5T3l4UUZCc0haTnJDd3RLU3RucUFCem1fNGkzZnd5eS1YNUxORHl5cnpyb2ZkS3lWeHozeE1NbU9tamkxSjRqOHBWWEg5SHVPVWhjMVdlYTjSAWBBVV95cUxOUkctSC14VmQ0LXMtYURmUnVGd1BlSlRmSnQ4V1kyTnhoeDdHazFfYXJxdGVWVE5fckZnNl8zUXdWZWVoY3BOS0pEeEhjaENfUmVBeVVqOFROOVhqdFJnaGM?oc=5",
-          "published": "2026-09-21T00:13:44+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
-        },
-        {
-          "title": "아산시, 삼성전자 지원 소나무 40그루 공원 등에 이식 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAydlNWOHZXYTI4d0RvaTNsV0hSVXZ6alhtRW10V2lzMGlCQ0YwbkhPb0FyM3JyN092S2M1M3VqcUJyX2tocjR2Q0ZEVXlIUy1sVjVxN0JNMEdJam_SAWBBVV95cUxOUTdsM01LdmNlUUNnU1hOUDN1SnBJVUNIczdpUjNMNTdwVmpJRGNmOTNYX3NhUGVuUmUxU0ZYSUs5bmpOOWV4QWxDdWd4blI5eTEzb0RNMFJHZWlFTXVFdFo?oc=5",
-          "published": "2026-09-20T23:43:23+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
         }
       ],
       "errors": []
@@ -450,6 +450,13 @@
       ],
       "news": [
         {
+          "title": "[단독]반도체 화학사고 5년간 12건…SK하이닉스·삼성전자가 11건 - 머니투데이 - mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90eTMxdG9zLUh2NzFDbi04emZXbE9CT3IyMFNJd09YUDRSQk51ZkdiUGtMTG1lamVRMnk1alBIZXZiT3pzN1RiS0Uxay1KVi1lR3U1a1dvNWxPT1hFaEtpb2IwSGRpVXduS2R30gFwQVVfeXFMUFloVXFPMWdiaDN2Ymh2VU4wdFBoVWZzMVA3SUpWWWlscjl4OU05QWhZTmo4MUR6UmR1YVlaajMyY0x6ckpUT3kyUzd5N0Z1aUo4YU1xZkFRWlRfNEViSWxmM05heUpDenF1amN3OEJrUw?oc=5",
+          "published": "2026-09-21T21:00:00+00:00",
+          "source": "mt.co.kr",
+          "source_group": "머니투데이"
+        },
+        {
           "title": "삼성전자, 5% 급등 '27만전자' 회복…SK하이닉스 0.6%↑(종합) - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lVEJFUmdCa3JlQlc4cDhUTnVXdkZGUWE2NFF1Z0oxZDMyajdrenBza3FFVE5CcDhOOTJqYm84cExBRUFhbFY4UTFjMV93ZDJjVHdSbFJ6N203T0nSAWBBVV95cUxQVV9xdFVRNzVFS3BSeEdGUWllcUllVTQ2Z2ZDeUdZR2sxSW5wOFRobjdka1RtRWNzdXZTZENSUzFtUmRrSXFqODIycVl6bmJpVjhNQ3hUYVJtVUhLWE1PSHk?oc=5",
           "published": "2026-09-21T06:53:03+00:00",
@@ -466,13 +473,6 @@
         {
           "title": "술 못 참아 '꿈의 직장' 날렸다...SK하이닉스 신입 '해고', 무슨 일? - 머니투데이 - mt.co.kr",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95djJoQW1xSEp2QkR1aVhCTDFMa2xZcUxTTzYtVWdQYVJHME1maGJuWEFpYl91aXVKYVVKdE45ZDk3Ni1KQTFqOXpLX2k2TVFVZ21XemliRFpyOGMzbUVua3g1bGtKeW5CX1l30gFwQVVfeXFMTjhuZTdWQWtYeXdRclgybzh2TkJKb1lkZDYwQ0gtME56Wjd6Zl83djlXNnptb1FyYzBrbDNwSzhFdzFUalNIa3U0eS1vbGJOc3NpUmhySnY5Tm9IYWwzaWFydzd1M09iTG0xaHZDYjBadw?oc=5",
-          "published": "2026-09-21T02:26:43+00:00",
-          "source": "mt.co.kr",
-          "source_group": "머니투데이"
-        },
-        {
-          "title": "\"무슨 술을 마셨길래\"…SK하이닉스 신입 4명, 음주 등으로 해고 - 머니투데이 - mt.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qTkUtdUlXZ2UxbmJ3ZmRoSGt1QlZyUlFOR3RfT25NSEhBbjVGQTd0elNGeEU5dkxNQVJaVVpjWXNRSXF5eDc0Z2FvSEttT25oOE5qUXBoR1dMTmxSSUZ6Z29WR2N6bHF3bFZrc1pGOE9ycmtqYVNyMWR3WHdoQdIBfkFVX3lxTE1qTkUtdUlXZ2UxbmJ3ZmRoSGt1QlZyUlFOR3RfT25NSEhBbjVGQTd0elNGeEU5dkxNQVJaVVpjWXNRSXF5eDc0Z2FvSEttT25oOE5qUXBoR1dMTmxSSUZ6Z29WR2N6bHF3bFZrc1pGOE9ycmtqYVNyMWR3WHdoQQ?oc=5",
           "published": "2026-09-21T02:26:43+00:00",
           "source": "mt.co.kr",
           "source_group": "머니투데이"
@@ -879,27 +879,13 @@
       "name": "두산",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 8,
+      "news_count": 6,
       "news_reasons": [],
       "news": [
         {
           "title": "\"두산 베어스의 오랜 팬으로서...\" 배우 진선규 잠실야구장 마운드 오른다, 23일 두산 홈 경기 KIA전 시구 - 머니투데이 - mt.co.kr",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBUU44SlRDcC0wcm5hZURkUTVZSmpDdVoyYk5mdlJYMmZQMFlTMjRuYkd0S1duTnlaelB4dXBSN0tzZGQtZUhKbl83bzU0a0Z5WHVnM0JKeXZYTkhyT1U5U2xzMFdDdVVkWDRMVTNCRdIBb0FVX3lxTFBBUU44SlRDcC0wcm5hZURkUTVZSmpDdVoyYk5mdlJYMmZQMFlTMjRuYkd0S1duTnlaelB4dXBSN0tzZGQtZUhKbl83bzU0a0Z5WHVnM0JKeXZYTkhyT1U5U2xzMFdDdVVkWDRMVTNCRQ?oc=5",
           "published": "2026-09-21T16:10:00+00:00",
-          "source": "mt.co.kr",
-          "source_group": "머니투데이"
-        },
-        {
-          "title": "[포토] 김지우-설재민 '미래를 향한 두산' - 머니투데이 - mt.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ockxSRk5oY1JQRFg3NGdUYW1IbkdDRlI3dTNxRm1vcU0zb3JDSUxRMHYxTlBvbmtuc3BMSW9TUkE1SVVDbW1HR1U0Y3VUR1Rva1Rja2FwdEdaV2xheEQ0ZlRPMDB2UnFSeUHSAW9BVV95cUxPY1EwUFZzNVRxVnFubXdBSTBod21oZkJNWjFiTGMyNUVvOFprT0t1OXZWWnZZNkhXQkhTR3FqUndENEhXWnRIZjE3YXU5bFBEVG81YUxLSGViT3dFM3Z5TzRCcUhjRVNvWV9sWWpaczg?oc=5",
-          "published": "2026-09-21T09:36:37+00:00",
-          "source": "mt.co.kr",
-          "source_group": "머니투데이"
-        },
-        {
-          "title": "[포토] 김태룡 단장 '두산 타선 막강해졌다' - 머니투데이 - mt.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsSzBaNXZOZjhLR1ZZdFlKb1NiaWc1cHRWY0xMZ1pCUWp6S1cxbWJONDdpUzZNRW84SWJfSFdwcEQ5cDRDaTVmVS1QSUpMNG04QzJ4bVQ5REFNRGNjRXRpeDhSWHM3bjc3SEHSAW9BVV95cUxNd3FTYlJXaWVxSjVySjhnYXB0cy13VnpqM3FaUUlkMzdNUFpRRDFWT19jQi1HaDRmbTFnbDA4SGh4dm00NUtQZGYyRmtrd09RMGFyNGlLRG9TT1NXV2NuN0ZmR3NpeWZlOExOb0VEVkk?oc=5",
-          "published": "2026-09-21T09:35:17+00:00",
           "source": "mt.co.kr",
           "source_group": "머니투데이"
         },
@@ -911,11 +897,11 @@
           "source_group": "머니투데이"
         },
         {
-          "title": "[사진]김지우-설재민, '두산의 미래' - 머니투데이 - mt.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yQUt6bVhOckhUU0lWLVlZRmpLUElOQjd6WlF6OXFsaFpCUTc0TFVidW5CaEtScGFvSy1xUG1JTDRXWTJtR3EwUnI4STd4MGo5dFY2VFdDeFhleVlmVmVRVXNvWUpqMGhwTkHSAW9BVV95cUxQSVBEM3lKY0NzZ3UtenJtb0ZyX3F3RHpkMWYxY2Z2dUZXUGxyQUdnYkxqRE83alFKb1BpTjBXTWRQMmpYOGprWVJkZVB1WnVUdi1RTGdrVHNWMFV4WUVvcFRuRXBKdmwwUk5fY1VUY2c?oc=5",
-          "published": "2026-09-21T08:13:00+00:00",
-          "source": "mt.co.kr",
-          "source_group": "머니투데이"
+          "title": "두산 베어스 지명된 서울고 김지우 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBlZVdMZmp6amJ1Z1ZXYXFldDRHTGRrMDQxSkxjOVhWOFVlczJoeEZaNWpVaDE3R3JUUm8yOTdicHlKa3daSWJMMVNyd3U1T3h2alNzQ0VERGJrY1RvVlkyWNIBYEFVX3lxTFBlZVdMZmp6amJ1Z1ZXYXFldDRHTGRrMDQxSkxjOVhWOFVlczJoeEZaNWpVaDE3R3JUUm8yOTdicHlKa3daSWJMMVNyd3U1T3h2alNzQ0VERGJrY1RvVlkyWA?oc=5",
+          "published": "2026-09-21T05:54:12+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
         },
         {
           "title": "두산건설, 5천154억원 부천 원미 도심 공공주택 복합사업 시공사 - 연합뉴스",
@@ -958,7 +944,7 @@
         },
         {
           "title": "[더벨]아이씨티케이, 지란지교시큐리티와 PQC 전환 사업 MOU 체결 - 머니투데이 - mt.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WT1BRUnk3RXhndHA2OW1ES1Q4TU00ZkdfRkdTWWp2SGZ6WmdqSjJFYVBxc3ppa1J6ZlRvQXZXTmU3cTZUOVdHNnBlOUl3NWRsZlJKSHVMWWVJS1lYbEpoSE1vaWN1LXRfWldxaDFBcHp6NXI3a0HSAXtBVV95cUxNRXM2eFZrRE11Rzd3NGpuS2lqLXFmTno1Qkd4VDhFaGpsTFUxbDRuTV91Vy04UVlyNHJTS2Jlc2hSelJqbi1QdTZiNjlkZXJrOHY2UlNQTEJwS3c3TmJLV1k2REdOMndKblVhZFZlUk9iLWFlZWJlZ3NMSFU?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FczZ4VmtETXVHN3c0am5LaWotcWZOejVCR3hUOEVoamxMVTFsNG5NX3VXLThRWXI0clNLYmVzaFJ6UmpuLVB1NmI2OWRlcms4djZSU1BMQnBLdzdOYktXWTZER04yd0puVWFkVmVST2ItYWVlYmVnc0xIVdIBe0FVX3lxTE1FczZ4VmtETXVHN3c0am5LaWotcWZOejVCR3hUOEVoamxMVTFsNG5NX3VXLThRWXI0clNLYmVzaFJ6UmpuLVB1NmI2OWRlcms4djZSU1BMQnBLdzdOYktXWTZER04yd0puVWFkVmVST2ItYWVlYmVnc0xIVQ?oc=5",
           "published": "2026-09-18T00:30:47+00:00",
           "source": "mt.co.kr",
           "source_group": "머니투데이"
@@ -1017,6 +1003,13 @@
       "news_reasons": [],
       "news": [
         {
+          "title": "기아 타이거즈 지명된 경남고 이호민 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qUFVmeGppRGkxYWdxVjVyM2RZQ2psSnpNNTRzZktydGtOcFFlQUNNZE1nMlVFOXk5UGF1MkhJa3hTWWVOTGlRQWRtNFpjVjFyanNaY3NENVdvYTJyUmNWcdIBYEFVX3lxTE5qUFVmeGppRGkxYWdxVjVyM2RZQ2psSnpNNTRzZktydGtOcFFlQUNNZE1nMlVFOXk5UGF1MkhJa3hTWWVOTGlRQWRtNFpjVjFyanNaY3NENVdvYTJyUmNWcQ?oc=5",
+          "published": "2026-09-21T05:55:41+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
           "title": "기아, 다문화·탈북 청소년 자립 지원한다…'하모니움' 4기 입학 - 머니투데이 - mt.co.kr",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6X2t2SEdnRFkxSWQzdDN3QXlHcGxMX3lsaWlET0RJd3gyX1ZCQXdYamI4aGhQeENtaEdkSVNGa1ZmSVNYeVE3WVgySEZSVUE2VlVlaHdtcWFudkpZbDdKUUoxQV9jZlpMTGNEOdIBckFVX3lxTE5xQ3lIRFRmM09PUFkwdXB2MHcta2d3cHhtUFlMUTJZX1FNZWo2VlZ0bHVxb2d3N1Y1WkZLVEUzUHp6bUhkUUhiMUhSUmJwTVRYdmFCN0pLdy1jYVd3S3VndFROY1dyb3VJYzdzRVZweUltQQ?oc=5",
           "published": "2026-09-21T00:08:32+00:00",
@@ -1064,13 +1057,6 @@
           "published": "2026-09-15T18:59:00+00:00",
           "source": "mt.co.kr",
           "source_group": "머니투데이"
-        },
-        {
-          "title": "기아 송호성 \"PBV, 300개 이상 회사와 협상중…본게임 시작\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GcGJaOUh3YWtaTkZVSUpzV3VEN3F2Yk5NdW9SZmJNcVhNS3REbDlkZUdKeTdzbWZ4X2UxcTA2WEdVQUcxUjV5WDBNVHZVcldfbGE5YndfWHI2R0XSAWBBVV95cUxNeTgxWC05X3VDX3JJd0lWdzhOTjkzM1F1LU1CSkluVDBEalRMYjNFU1BJR0t4UjhseXUwa2FFdGgtWGVIc2tCSDQxUWZKcmpfeWJvXzBjekFfZjNMeXM4MXM?oc=5",
-          "published": "2026-09-15T07:55:22+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
         }
       ],
       "errors": []
@@ -1085,7 +1071,7 @@
       "news": [
         {
           "title": "[적중! 대박 예감] '아톤, 켄코아에어로스페이스' 내일장 예감 좋은 대박 종목은? - 머니투데이 - mt.co.kr",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RZ0IwWHREMDFmRHNCUy1sSGZpWURhenpOLUV4NHZDcU9HVGx4NE9CTFZ6YXlHTnY0YzJfeTB0cmpLak1sT1d5UmNHMUZucThQVnA4dEN5R0IwM3l0RHl0T3lsa0EySnU4SVNwb3QwWEZXTlBHVWU5ZEZzVdIBe0FVX3lxTE1RZ0IwWHREMDFmRHNCUy1sSGZpWURhenpOLUV4NHZDcU9HVGx4NE9CTFZ6YXlHTnY0YzJfeTB0cmpLak1sT1d5UmNHMUZucThQVnA4dEN5R0IwM3l0RHl0T3lsa0EySnU4SVNwb3QwWEZXTlBHVWU5ZEZzVQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CeWV4WWpzUTVHamVPeGppU3VibnFIc2ozZ1VUdVJZQW1xT2xHOUJIYUpzMlJUTnBfWk45VWF6Q0NhbE9saXVObUR2Z3JtaFdvZFBfVmNxa1BfbFVEU1hyci1qZlE5V0x5SHBza1F4QUZEd0l1MGfSAXtBVV95cUxNUWdCMFh0RDAxZkRzQlMtbEhmaVlEYXp6Ti1FeDR2Q3FPR1RseDRPQkxWemF5R052NGMyX3kwdHJqS2pNbE9XeVJjRzFGbnE4UFZwOHRDeUdCMDN5dER5dE95bGtBMkp1OElTcG90MFhGV05QR1VlOWRGc1U?oc=5",
           "published": "2026-09-18T00:29:42+00:00",
           "source": "mt.co.kr",
           "source_group": "머니투데이"
@@ -1337,7 +1323,7 @@
           "source_group": "연합뉴스"
         },
         {
-          "title": "카카오게임즈, 980억에 미투온 인수…웹보드 장르 확장 - 머니투데이 - mt.co.kr",
+          "title": "카카오게임즈, 980억에 미투온 인수…소셜카지노 장르 확장 - 머니투데이 - mt.co.kr",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xd01iYmp3Nl9LZFp0N2h1VTNscHlaX29rSmt0eUxYeEQ4RDlKVmN0MEp6bkkwWWV0N29RQkYxX1VYOXA4ZjRlUG1xMXRCN0FLRUsxSXZ0ejBFMFN5Y09uM3VyVTVCemvSAWxBVV95cUxONzQwZmZIdFRHUGhxSlR5V3hlNG5BTHZ5ZElXOFZmSWJVRjRrZlEtdTMtdVh3cGJXVzVyMk9ta2R1dDFId19lcG1ScS1POXNKWlk1dVdablZyOGR5d2xpelpYM2ZtOURFUTdGVEE?oc=5",
           "published": "2026-09-15T07:06:28+00:00",
           "source": "mt.co.kr",
