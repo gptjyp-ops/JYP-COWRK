@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T18:24:39+00:00",
+  "generated_at": "2026-09-23T22:57:38+00:00",
   "version": "stock-miner-news-v1",
   "lookback_days": 7,
   "sources": [
@@ -290,7 +290,7 @@
         },
         {
           "title": "[급등수사본부] 극대형 반도체 기판 등 차세대 기술 공개 'LG이노텍' vs 반도체 장비· 시스템 전문업체 '원익IPS' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KVTVoVF9lMjFSR2xBY0JibHhXb1hhUGJfOTh6MjJDZTBYWFJsNTlWalMwc0hCeVB4eUxJbnVnd0dFTnppMWlieGtNM0VlTHAzbG9tSXBlQ3JhX01kODBhYndUUE10N0d1MkdwVXV0LXRqem5CNmfSAXtBVV95cUxQUThXcVVBSHNWVnZfZjlubGNZdEpreWJpYldKY1hPTlluV1JpeUlEUlE2VmpUMmROTEJhWHN2Rzg4eTVDWXBmSGYtclcydkVQMld4d0JNZU9IN3FlTV85Rml6QmdtQVJzTmVoa1VEV0d5akZFYUc4b0plMkk?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBROFdxVUFIc1ZWdl9mOW5sY1l0Smt5YmliV0pjWE9OWW5XUml5SURSUTZWalQyZE5MQmFYc3ZHODh5NUNZcGZIZi1yVzJ2RVAyV3h3Qk1lT0g3cWVNXzlGaXpCZ21BUnNOZWhrVURXR3lqRkVhRzhvSmUySdIBe0FVX3lxTFBROFdxVUFIc1ZWdl9mOW5sY1l0Smt5YmliV0pjWE9OWW5XUml5SURSUTZWalQyZE5MQmFYc3ZHODh5NUNZcGZIZi1yVzJ2RVAyV3h3Qk1lT0g3cWVNXzlGaXpCZ21BUnNOZWhrVURXR3lqRkVhRzhvSmUySQ?oc=5",
           "published": "2026-09-21T11:17:17+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
@@ -310,6 +310,13 @@
         "강세"
       ],
       "news": [
+        {
+          "title": "삼성전자 성과급 세부안 이달말 공개…200만원대 사무용 의자도 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1b2p0VzFlbEtnUTEtNnp0QWZPazFmUkZ2R3RVUE9yNHpXUUNyZmNIVzdFcElleUtRWmpzek54RjVFX21pM1JwNUNLaGM0aVRYLVU5bmhHS3VkRU3SAWBBVV95cUxOTkNCVVRFWEx4bU0xR2pHN2VfY3BlSEplZThtcDRuVFZvMlZ6Rzc3SEFFbjNZaUJyX05hNEhGY0hRdnJKYzVlV3BhcE9vM2N5MVJTc0Y0ZXJBVmxEUWktTWM?oc=5",
+          "published": "2026-09-23T21:05:00+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
         {
           "title": "HBM4 날개 단 삼성전자, 3분기도 사상 최대 실적…환율은 '복병' - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lc2N5akRRNDZPVGdLY2h4WWdIYkVIY21la1NSUUNPenpRR0NtTGF4Z1ZVcUpzNEFMaVNlMUNwRFdsSEk3STJ1eThBRDV1RXNMQ04zRXhYY1BCaDVDZ0Y4czNVb0E5SUE1NERIQ9IBckFVX3lxTFBHV1ZfVm8zWmsyT1Q1R3RvN1M2VTlDMlVuaWhtS2xYYnhGRGhOVmpfUE84bEN6YzUtVXJtS0tRTjdQSGhHYVM1SHJXY0RoRkV1NENNSHR5STVySmVoaTdZdnZwYkVNVFZwRElvWTNWVm5SQQ?oc=5",
@@ -358,13 +365,6 @@
           "published": "2026-09-22T23:52:21+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
-        },
-        {
-          "title": "키움증권 \"삼성전자, 3분기 실적 기존 전망치 하회할듯\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wOVRQUElQWHVFZGRwQUMzMWJ1WXZ4RzBOenBwUUJXLVIta3ZNMVMyRTRmM2lMZzFROWgyNm5fdGxOX1NwSWhrWlhGeG1RM0RGUVhZc0dHZzliZXfSAWBBVV95cUxOVExkVWVKaFp4QUlETjRKMVpHelRQaUJ0Uk9MTXFPWXNCUnM1ZE92UXo4TS1kRGg3OXlXNFpJQXRtRU9NWlJPQ3hNLWlfTnZOSmIyRDl0WWRjSjYwd2FaaXk?oc=5",
-          "published": "2026-09-22T23:30:34+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
         }
       ],
       "errors": []
@@ -483,7 +483,7 @@
       "name": "SK하이닉스",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 4,
+      "news_count": 3,
       "news_reasons": [
         "급등"
       ],
@@ -506,13 +506,6 @@
           "title": "AI 투자 늘자 eSSD도 '불티'…삼성·SK하이닉스 주도권 경쟁 가속 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zRVc5ZTJoOHFoTWNINVdIZjdqc2M2cDk3RjdmUUYtTy01N0treS01WE9DVmhsRC1UbmZnazZZV1ZpX0l0QjJ1RXRqay05ZUUweG05M2MzMkRhMDRsaDh6bTN4U3NOamY2TVZ0MNIBckFVX3lxTE1JaHdZVVFzNmptR2h1ekUySHFHYThCaDhvTFNkVnZRT1JGQVpCQzV1NnBmQjZZdUxwUFRfa2dqME93Nm83bW51QkY0aG5oU0lnTHhRWDhUTTd4Y2F6dWlCWExYTklCVjY1YTAxWk95d3ZZZw?oc=5",
           "published": "2026-09-22T07:50:00+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
-        },
-        {
-          "title": "[단독]반도체 화학사고 5년간 12건…SK하이닉스·삼성전자가 11건 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE90eTMxdG9zLUh2NzFDbi04emZXbE9CT3IyMFNJd09YUDRSQk51ZkdiUGtMTG1lamVRMnk1alBIZXZiT3pzN1RiS0Uxay1KVi1lR3U1a1dvNWxPT1hFaEtpb2IwSGRpVXduS2R30gFwQVVfeXFMUFloVXFPMWdiaDN2Ymh2VU4wdFBoVWZzMVA3SUpWWWlscjl4OU05QWhZTmo4MUR6UmR1YVlaajMyY0x6ckpUT3kyUzd5N0Z1aUo4YU1xZkFRWlRfNEViSWxmM05heUpDenF1amN3OEJrUw?oc=5",
-          "published": "2026-09-21T21:00:00+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
         }
@@ -749,7 +742,7 @@
         },
         {
           "title": "[고래사냥] '제이앤티씨·주성엔지니어링·PS일렉트로닉스! 내일장 고래 종목은?! - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50cS1tdnItMDczNTM4TVFTbnUtdjdzRDVtNDdNbklVUnhyV1BIUHZodkVTci1rd2lHYUlzaHJQaC04VGhhLTlldFg1eFR0eVI4bTU5UnF6bFl0dmV3SF9heVJrYVRCLU5lTVhpeFZNTWlWN2h2dFHSAXtBVV95cUxOTW5rT0N0U19VOHltaGY4djZXSHRsc1FJOTlpRU9VTmMzb25WWm5ibk81SDZIdXJUTUxTWHpRTnFab2ZOdGhuMktlTExXbDFHTHR2aG5iN1pja1lYR0FUR1BWZnhXSG9NQ1YyM0dFU3J2UENTWTc3cDROaDg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xeFpldjRQOF90RUUtRmtyaXBrUE5HRUFscEJmRzdqY2U0UlFiWVVTMWM2Y2h4UEJYWnZmckdpdklOZG1FSXViUk8yTjZEeGJwNzd6dkFLbVM4WjhtcGNFSmRZUmYzMFBS0gFuQVVfeXFMUFVtUU5oNGpOUFJsOXUtRGRmdllJcFRUeDctRnI1N1ZlZmVibG1ha3JZMlc2ZE9YX3p6bUNVc3g4MFlCaUZkZUNrUzg1WlA4LVIyY3dpa3dNMlhLUGoxakhjbVMzdnA2VFk2bmZTSXc?oc=5",
           "published": "2026-09-21T00:09:36+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
@@ -870,9 +863,16 @@
       "name": "두산",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 7,
+      "news_count": 8,
       "news_reasons": [],
       "news": [
+        {
+          "title": "'미라클' 두산 내친김에 4위 KIA 자리도 넘보나→사령탑 \"제 단점은 여유가... 마지막까지 최선을 다한다\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90bkI0dGFoMHFySjdrN2NCcWpfVGtXZm5QelVscVRHSVozLS1uek50dHdaWlBhLUYxN2hRMnR2Y0NvXzRvNV9vV21BVDRoTVlaREVCeUQwRXJsZG9uV2RSdEJWVzZlUTF5MWfSAW9BVV95cUxPODJLSVg1cUk0UXFZMC1uV2ZicE1HMnZxcjZCRmxZR0NNVWllX1JRYmtSZEc0ZmN4VHlnU2tfN3YydG1xTDloRkljakhDc1h2SDEyVmZ4ZldWOTk2TlppSEI2dWR6U1JjMXk2V1RXdE0?oc=5",
+          "published": "2026-09-23T21:10:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
         {
           "title": "9회말 끝내기, KIA에 치명타...두산, 기회 되면 4위 노린다 \"엄청난 집중력과 투지로 승리했다\" - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1XQlVnRTgzUjNhODdJV3JZa0RnVFZoZFRRXzh5UHNLM2pYaVMtT0xEQUF0WS1LQTlQOXFkbG9QLWVpejZ4QmtfbnRFd3dTVVJWMXV5VnFNbVdMTU1ZSHg5dFpkREtDWVQwTTRfUmVCd9IBb0FVX3lxTE1XQlVnRTgzUjNhODdJV3JZa0RnVFZoZFRRXzh5UHNLM2pYaVMtT0xEQUF0WS1LQTlQOXFkbG9QLWVpejZ4QmtfbnRFd3dTVVJWMXV5VnFNbVdMTU1ZSHg5dFpkREtDWVQwTTRfUmVCdw?oc=5",
@@ -888,15 +888,15 @@
           "source_group": "머니투데이"
         },
         {
-          "title": "[사진]두산 김원형 감독, '잭로그 호투가 승리의 발판' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13dmZOX3pnNEtXVjQ0dHRSeG5ibGwwT3p6OHZZanNSTGNNbDNHUThJN0EwZ21xYUozVjR2VlJ2WmJuMFlIVTU3WEJpYmd1Ymp4cVRnc2hEMlM2U05FU0h5S1QzMFQyal9OQjNnZWtNMNIBb0FVX3lxTE13dmZOX3pnNEtXVjQ0dHRSeG5ibGwwT3p6OHZZanNSTGNNbDNHUThJN0EwZ21xYUozVjR2VlJ2WmJuMFlIVTU3WEJpYmd1Ymp4cVRnc2hEMlM2U05FU0h5S1QzMFQyal9OQjNnZWtNMA?oc=5",
+          "title": "[사진]두산 안재석, '내가 바로 끝내주는 사나이' - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1qamNkc3Nvd010aFdlWF8tMFhvNU1qbkU1emQ5Q0I2bW1mSEI0bGNRdzczRS1CVnc3OFZvVE1mQ0U2eUdGMEdMRFdMN1cxMHB4QnlzVnZRQjRtX0ZEeEp0WUtuYk1kRm9CLTU2WEVvTdIBb0FVX3lxTE1qamNkc3Nvd010aFdlWF8tMFhvNU1qbkU1emQ5Q0I2bW1mSEI0bGNRdzczRS1CVnc3OFZvVE1mQ0U2eUdGMEdMRFdMN1cxMHB4QnlzVnZRQjRtX0ZEeEp0WUtuYk1kRm9CLTU2WEVvTQ?oc=5",
           "published": "2026-09-23T13:02:00+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
         },
         {
-          "title": "[사진]두산 안재석, '내가 바로 끝내주는 사나이' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VVGpkMlUxTlhCZ3RVcnhBc3RiVE8yTWhpNEJ5NmhWNUtWRDVreW9aQkZWWkdYVkQ0Y2lLVXVmeHlDX1VvOUpSYlRDUkZBT2R2MGlHdjF1REswbjdFSVNfSlcwcHE0djE1a0HSAW9BVV95cUxNampjZHNzb3dNdGhXZVhfLTBYbzVNam5FNXpkOUNCNm1tZkhCNGxjUXc3M0UtQlZ3NzhWb1RNZkNFNnlHRjBHTERXTDdXMTBweEJ5c1Z2UUI0bV9GRHhKdFlLbmJNZEZvQi01NlhFb00?oc=5",
+          "title": "[사진]두산 김원형 감독, '잭로그 호투가 승리의 발판' - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13dmZOX3pnNEtXVjQ0dHRSeG5ibGwwT3p6OHZZanNSTGNNbDNHUThJN0EwZ21xYUozVjR2VlJ2WmJuMFlIVTU3WEJpYmd1Ymp4cVRnc2hEMlM2U05FU0h5S1QzMFQyal9OQjNnZWtNMNIBb0FVX3lxTE13dmZOX3pnNEtXVjQ0dHRSeG5ibGwwT3p6OHZZanNSTGNNbDNHUThJN0EwZ21xYUozVjR2VlJ2WmJuMFlIVTU3WEJpYmd1Ymp4cVRnc2hEMlM2U05FU0h5S1QzMFQyal9OQjNnZWtNMA?oc=5",
           "published": "2026-09-23T13:02:00+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
@@ -909,16 +909,16 @@
           "source_group": "연합뉴스"
         },
         {
+          "title": "[사진]두산 유격수 박찬호, '안타 타구 지우고 싶었지만' - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBiUnA2R3pSWUhSMVo1bUNfejdJZTgzY3JVNUJvVERFRkpMV19MMHBHQUQtcTRYUUlwQ01VakRlRnRHN0c3b2t4XzA0YkdkU2l4aW9QX1U4V0FLYlpybnF3SkxxdEM1VTNpcTFWc1ZDMNIBb0FVX3lxTFBiUnA2R3pSWUhSMVo1bUNfejdJZTgzY3JVNUJvVERFRkpMV19MMHBHQUQtcTRYUUlwQ01VakRlRnRHN0c3b2t4XzA0YkdkU2l4aW9QX1U4V0FLYlpybnF3SkxxdEM1VTNpcTFWc1ZDMA?oc=5",
+          "published": "2026-09-23T11:45:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
           "title": "[프로야구 고척전적] 두산 5-3 키움 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PVEdhSktJMURCckd5Y3d1Q21kdGhOOHJOSGF6WFRrUjVlQVNTLVpnTkxHWjJKeGJZYU4yNE56SXVsbkxRcXJ5RV81WXBtd2NPbDVBMzREajNHc2fSAWBBVV95cUxNdnhHblNkN1hyVzNDWXFQNmNZNFNJTnpKMHdGY2VJc3Q2bG93Qkw3ektXMVo3QVhWZ0Z2TGVxbXEyTjc5QWZHZkFHcWxZSjlyMVB3clN5RkVIeklQUTBBZEQ?oc=5",
           "published": "2026-09-22T13:03:33+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
-        },
-        {
-          "title": "두산 베어스 지명된 서울고 김지우 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBlZVdMZmp6amJ1Z1ZXYXFldDRHTGRrMDQxSkxjOVhWOFVlczJoeEZaNWpVaDE3R3JUUm8yOTdicHlKa3daSWJMMVNyd3U1T3h2alNzQ0VERGJrY1RvVlkyWNIBYEFVX3lxTFBlZVdMZmp6amJ1Z1ZXYXFldDRHTGRrMDQxSkxjOVhWOFVlczJoeEZaNWpVaDE3R3JUUm8yOTdicHlKa3daSWJMMVNyd3U1T3h2alNzQ0VERGJrY1RvVlkyWA?oc=5",
-          "published": "2026-09-21T05:54:12+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
         }
@@ -1108,6 +1108,13 @@
       ],
       "news": [
         {
+          "title": "성기홍 수석과 성김 현대차 사장 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLMEhEODZPVVloUG1HcGxQdlNiQVFjNnYwLW1RVEU2cVlQTkVFeV91WHF3RThFRzRUZjBRTEpDSm10bkNiMTJoWnpkQVc0ZHB5Wm9GcTRmbUQ4V1FZN1NNbdIBYEFVX3lxTFBLMEhEODZPVVloUG1HcGxQdlNiQVFjNnYwLW1RVEU2cVlQTkVFeV91WHF3RThFRzRUZjBRTEpDSm10bkNiMTJoWnpkQVc0ZHB5Wm9GcTRmbUQ4V1FZN1NNbQ?oc=5",
+          "published": "2026-09-23T14:10:50+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
           "title": "현대차·토요타·테슬라, 휴머노이드 큰손…부품사 수주전 불붙었다 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FV2lUSUVXRkNGWGl5eEVTckljaXJaRHdDdnlIYjVwSVh0ajBUR2Nkak1mcVFudEhUMEJPNkprUlcyZ0EzcTdsMFRsQWNwNGNMdmhfeG1ram8yR1UzUlNEdzQzTjN1SGNHbUNJcNIBckFVX3lxTE1MZ1ZmX3pUbGtUTnByYlduWVpjektfaDVXeG9ubW9ESGl0cldHdkdPUjczS0lwaTg3NTZFNENNQlNVR2MyU2JQLUQ4SDdoSzFMbUJxTW9pMm9hTVpQZUNFb1RZLTBQVWNRbFBaamhvY1VrUQ?oc=5",
           "published": "2026-09-23T06:16:53+00:00",
@@ -1155,13 +1162,6 @@
           "published": "2026-09-21T23:59:23+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
-        },
-        {
-          "title": "\"78층 구조대 안 와요?\" 주가 반토막 현대차, 증권가 전망도 뚝뚝 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aSk96RFFVVHlIRnk3QUZtb1RuY1lYMDlmZGI4dllORGZUOGlJak9lU3pEZXQwX3l0cGJ1WUctTWZLWTg0eFd6NWVHak9OUjNkd3VxU1NUOTVERm9oMTd0dUlqdXlWVy1f0gFuQVVfeXFMUDRLSno4dDJUdkJfRnEwWVFpQVpuVTRBV0xoWGxUQ0I2cXZrSlJYLTJUN3pMYXlxekJsUFRua0lCR2RyQlBQeHR3R1FDSG50WlpLU1dIa3FLamZvRkNLM01zaS1nQ01xM2FCQTFha0E?oc=5",
-          "published": "2026-09-21T23:54:17+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
         }
       ],
       "errors": []
