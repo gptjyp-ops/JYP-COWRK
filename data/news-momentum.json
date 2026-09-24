@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T04:48:31+00:00",
+  "generated_at": "2026-09-24T11:44:12+00:00",
   "version": "stock-miner-news-v1",
   "lookback_days": 7,
   "sources": [
@@ -27,7 +27,7 @@
       "news": [
         {
           "title": "[주식민원처리반 3부] '대원전선, 한컴위드' 월요일에 선택할 이 종목은? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qTV84eG1jSk8xNWw2QmR1ZHprSjAzcThCR0NsVDhFaFFBcDk1N2hvTC1rc3A4cTh6b19heHd3QXY1QVIzNEJrRmtKTEZmdjJiQnpjc1FxZzBEQWJnM2NBTElNaFZHZ05ldUZaY1FsOFBTMGV4QkHSAXtBVV95cUxPUHRBUUhNWWNHcGRxdjRPUFZvclFsZjlJcTBKN2hXczloeV9uX05KY3hvbjFISVlsUnRvUHFDc3Q2QUEyckpwMEprNkttb01tVVRzc0FacU9hUlU5Rm1ZbnZtQWFjMEpZbjBsZ2Z3UEo3OEsxR2tLakJhOWM?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QdEFRSE1ZY0dwZHF2NE9QVm9yUWxmOUlxMEo3aFdzOWh5X25fTkpjeG9uMUhJWWxSdG9QcUNzdDZBQTJySnAwSms2S21vTW1VVHNzQVpxT2FSVTlGbVludm1BYWMwSlluMGxnZndQSjc4SzFHa0tqQmE5Y9IBe0FVX3lxTE9QdEFRSE1ZY0dwZHF2NE9QVm9yUWxmOUlxMEo3aFdzOWh5X25fTkpjeG9uMUhJWWxSdG9QcUNzdDZBQTJySnAwSms2S21vTW1VVHNzQVpxT2FSVTlGbVludm1BYWMwSlluMGxnZndQSjc4SzFHa0tqQmE5Yw?oc=5",
           "published": "2026-09-21T00:11:05+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
@@ -116,8 +116,8 @@
     "009150": {
       "code": "009150",
       "name": "삼성전기",
-      "news_score": 3,
-      "news_label": "형성중",
+      "news_score": 4,
+      "news_label": "강함",
       "news_count": 8,
       "news_reasons": [
         "주의:급락",
@@ -294,13 +294,12 @@
     "005930": {
       "code": "005930",
       "name": "삼성전자",
-      "news_score": 5,
-      "news_label": "강함",
+      "news_score": 3,
+      "news_label": "형성중",
       "news_count": 8,
       "news_reasons": [
         "최대 실적",
-        "급등",
-        "강세"
+        "급등"
       ],
       "news": [
         {
@@ -346,16 +345,16 @@
           "source_group": "연합뉴스"
         },
         {
+          "title": "삼성전자 메모리 LPDDR6, '퀄컴 스냅드래곤 8' 플랫폼 첫 검증 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xWmVYSV9iRFlWaDJPZ3k1ekgzTk1SZXJaNGJ4YUNJTVpEZnZCRzhxUUFDT05TdElvQVZZUkt1SW0wcjNnNmlHalVPVnJHVW9OQ3dTNHI5RURWTFHSAWBBVV95cUxPTnR6YkpmNDlJcEZTLUZ2MWo4Y0hNQVNXa3RzVF81UEV6SVpBN1dxZ1A2eVczRHlzazZsX09WS1p3ZkVwTVR5dkRLRllRdDlhUzB1N3pCbmR1eHJKUTdxNmQ?oc=5",
+          "published": "2026-09-23T00:52:30+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
           "title": "삼성전자·SK하이닉스, 반도체 수요 증가 기대감에 동반 상승 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ubW5mdnNpUHdtYkctQV8yWnFPQ0Y4bE1ESmJiOE55TlFVLVZGWHZtS1VVT3Z6SzV2cUNYU205ay11ZWItczhqNmwwUl9XZTl0VEVnOU9UX2pQR19wemx3d2ppT2VOcjZl0gFuQVVfeXFMUEc2YUhkMUtXNGJVNkgwRTFCUzEyb2g3OHd6MWt5LUVqRXZLZGVWU2xIcE40ZDhmUlkxYzFIYWwzLXBXckNScEd5Q0ZiM2c2d0NuMkRjUmMxQnBTQTNTemVUeGhUTldBMlFKNVBYaUE?oc=5",
           "published": "2026-09-23T00:09:36+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
-        },
-        {
-          "title": "\"삼성전자, 3Q 예상 영업익 107조…환율·D램 강세 둔화\"-키움 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pbVUxTGpRckw2RU5HTk51dVpxN3BfcVVJZERwZEQwY3ZYV0RETmNDMjJoVXFmM0tWQWJ3U2VWbWY2SkR5TERTZlVPY0Vtdl9tV002a0FzVzJ4Um9PVm4zMDE0RFBTX3h50gFuQVVfeXFMUG9aaDVOU0g0TzRtSXRpUFh6UTg4SF80dTRIa200eDc1ekk2ZWE0UTJVaDJkWkM2S3gwZW5KX0FrRU9jNk5OeU93NDJjMnNDQTl6UTM4eFZqVFRCSGp1RmJFYVZoS0pvb0oxRG1xbVE?oc=5",
-          "published": "2026-09-22T23:52:21+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
         }
@@ -476,7 +475,7 @@
       "name": "SK하이닉스",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 3,
+      "news_count": 4,
       "news_reasons": [
         "급등"
       ],
@@ -494,6 +493,13 @@
           "published": "2026-09-23T00:09:36+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
+        },
+        {
+          "title": "[DM왔어요] \"술 때문에 SK하이닉스를\"…신입사원 해고, 무슨 일? 外 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40SkNYQ2pZYzA0QUlmQjdTaWlLek1wN2czakZ0X1hReWpjbXBXeTU1QUhRV3liN055WERiMlowY3hjRGVLMUdIZ2tBN1pKZTRQOHZUdkhHLTlpYnFFbnBZZdIBYEFVX3lxTE40SkNYQ2pZYzA0QUlmQjdTaWlLek1wN2czakZ0X1hReWpjbXBXeTU1QUhRV3liN055WERiMlowY3hjRGVLMUdIZ2tBN1pKZTRQOHZUdkhHLTlpYnFFbnBZZQ?oc=5",
+          "published": "2026-09-22T09:48:48+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
         },
         {
           "title": "AI 투자 늘자 eSSD도 '불티'…삼성·SK하이닉스 주도권 경쟁 가속 - 머니투데이 - 머니투데이",
@@ -830,17 +836,9 @@
       "name": "에이비엘바이오",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 1,
+      "news_count": 0,
       "news_reasons": [],
-      "news": [
-        {
-          "title": "에이비엘바이오, '공시전 거래의혹'에 \"성실히 조사 협조\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yckdXOTNybGx1YUVrUE1DOGFlbFVaZ0ttOUphOXR5eXdFaDF1aTlVZk9nMnVKdi1pVldnSll0bmZtVGoxSTRCMldRWDRZeFJza0w3Ml9tV0FLaUnSAWBBVV95cUxQN2pkZWR2Y0FCdmhZVHF0MDU4MXF2cTBMWVBveFFESW5jTXZyRFFoMnZDX2s3UmJYN0JjZmU0SmlVRjlCZ3Z4LVZzU2lDd1pneXR3NzN3a1dTbFhpczJ4Qlk?oc=5",
-          "published": "2026-09-17T05:55:25+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
-        }
-      ],
+      "news": [],
       "errors": []
     },
     "000150": {
@@ -1078,8 +1076,8 @@
     "005380": {
       "code": "005380",
       "name": "현대차",
-      "news_score": 4,
-      "news_label": "강함",
+      "news_score": 3,
+      "news_label": "형성중",
       "news_count": 8,
       "news_reasons": [
         "수주"
@@ -1154,7 +1152,7 @@
       "news": [
         {
           "title": "[시선강탈] 에이치브이엠 vs 심텍 vs 비츠로테크, 공략법은? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBScFBUMEVzcVJSTFhDa3FHNnlmVGFIcWx6QlNVNlA1LVhvS3pURWZWeTNRSGNpU1EtUHhTVFQ4NGRMSmFPeGVhMHNZTHJMNUVtcndJX2NBdjB6d2JkWkEybFNvRm5nNDhN0gFuQVVfeXFMUGRDdlZpeVowVlM1cFV0eVktT3hhN1k1dGxOaF81UGhtb05UUU9xSVNIUW9IaVlLcFFzazlnY1JheWhTRGdPNHNvZ0xtNVlDY0M5eUJwNk1xdzVnMUs4Wm1URDdVRUZ3c1BQY24yTUE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkQ3ZWaXlaMFZTNXBVdHlZLU94YTdZNXRsTmhfNVBobW9OVFFPcUlTSFFvSGlZS3BRc2s5Z2NSYXloU0RnTzRzb2dMbTVZQ2NDOXlCcDZNcXc1ZzFLOFptVEQ3VUVGd3NQUGNuMk1B0gFuQVVfeXFMUGRDdlZpeVowVlM1cFV0eVktT3hhN1k1dGxOaF81UGhtb05UUU9xSVNIUW9IaVlLcFFzazlnY1JheWhTRGdPNHNvZ0xtNVlDY0M5eUJwNk1xdzVnMUs4Wm1URDdVRUZ3c1BQY24yTUE?oc=5",
           "published": "2026-09-22T13:34:12+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
