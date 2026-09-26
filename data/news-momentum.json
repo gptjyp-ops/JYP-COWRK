@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T11:23:29+00:00",
+  "generated_at": "2026-09-26T16:22:52+00:00",
   "version": "stock-miner-news-v1",
   "lookback_days": 7,
   "sources": [
@@ -259,7 +259,7 @@
         },
         {
           "title": "[급등수사본부] 극대형 반도체 기판 등 차세대 기술 공개 'LG이노텍' vs 반도체 장비· 시스템 전문업체 '원익IPS' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBROFdxVUFIc1ZWdl9mOW5sY1l0Smt5YmliV0pjWE9OWW5XUml5SURSUTZWalQyZE5MQmFYc3ZHODh5NUNZcGZIZi1yVzJ2RVAyV3h3Qk1lT0g3cWVNXzlGaXpCZ21BUnNOZWhrVURXR3lqRkVhRzhvSmUySdIBe0FVX3lxTFBROFdxVUFIc1ZWdl9mOW5sY1l0Smt5YmliV0pjWE9OWW5XUml5SURSUTZWalQyZE5MQmFYc3ZHODh5NUNZcGZIZi1yVzJ2RVAyV3h3Qk1lT0g3cWVNXzlGaXpCZ21BUnNOZWhrVURXR3lqRkVhRzhvSmUySQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TWGdBQWtGTVM5OU5jNFQzckpxXzEtWHpBaUx3ZHk3X3JQTUlVZFF2VERXVjRjN0MyemtCR0Y1aTlVLXhhbzJtemlsWWlnS3FyREI5YW1MM2xETlRUck9MWTVVTGJXcnhE0gFuQVVfeXFMTWdiVEV5UVhneDdQTVRucjhOR3kxMkQtclJLQVM5U0JXZmlPeEVkcGpSZy1MQW9pbzJQVU96LXljZFN2QmR3ZWd4ZFhtSUhsVVVybzlPUXI5R2dvd1laVGpGT09vMldvTjlLejBtS2c?oc=5",
           "published": "2026-09-21T11:17:17+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
@@ -422,9 +422,16 @@
       "name": "SK하이닉스",
       "news_score": 1,
       "news_label": "약함",
-      "news_count": 3,
+      "news_count": 4,
       "news_reasons": [],
       "news": [
+        {
+          "title": "SK하이닉스 손자회사 솔리다임, 이르면 내년 美상장 검토 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzQXdvcHBUZ2hfQUNCU2VlYzZhbG5JWExXYlg2bUlJWkxQbi0xeENvaEY0dFdBSkRUNXZLQk9QaGQ4MnV4NnM0TkVCU2Zwa1kwM21hcHdCd0ZveUHSAWBBVV95cUxQVG9JZlJnNm01Zk5BeGg3RGtXdmFxQjg1MUFDRGtqT2V0TnJibUJuV2ZKaUw5YWhWTTN6VlFEaFZZOFJfbGJMOTRuNHh4ZjdvUnF6TWoxLWtnMUZTajJSbUQ?oc=5",
+          "published": "2026-09-26T01:44:55+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
         {
           "title": "SK하이닉스 솔리다임, 美증시 상장 추진…\"기업가치 최대 200조원\" - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zbXB4Y0ZsQ1Npb1lnYm1oWmZ0NC1ZUF95bDhvVW1qSjl4dURWOUhRRTRWNG9hek5Sc2g0V2l4LU52X05KLTRMVFEyQV91ZEVza0ZVOVRITmdra3BFaTd2ZFdPUVhPTjJR0gFuQVVfeXFMUHpLRzBvemp3R3FlUU1UeTFjN1A4UHI4MzAzUDc2VENremEwZnc2Njh0SExkVjlTeEhtcmNwUGJtb2JWMjJzdFd5UHhKV3BKQXNPTWU0QkJQYTdjekhRSFJPSVNMVk1PQlluUk51bUE?oc=5",
@@ -741,19 +748,12 @@
       "name": "두산",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 7,
+      "news_count": 6,
       "news_reasons": [],
       "news": [
         {
           "title": "[사진]가을비로 취소된 추석 두산-롯데 맞대결 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JYllFNHpsY2U3ZkNUbXBmREpnTThVazNfajZBOGZtZmZCbXFiMTZfRkVQclV5aE1uQnhXTlREMGFhYmJmWUNWTUdrYVlsZmUxYm9wMzNIRU5VSkNlaXQ1Z000NEc3cGxxZkHSAW9BVV95cUxPMXpGSWl2aVpKS3NFckE1VlZEbkJLOXgyWXlkaVdlZmxud2hucU56czNvTmdIRUtVQWRqc2F4Y01pclpJV0NxTEVUWFNsMC1yaDBRYW5jdUhDdFRUUjBXRmNJRWxfcFhQa25zRTJ5RUU?oc=5",
-          "published": "2026-09-25T06:25:00+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
-        },
-        {
-          "title": "[사진]추석 두산-롯데 맞대결 우천으로 취소 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJMlp4eUpEZDR1QjZmb0otUHhoOExrb0JCeUxVNnJyOWVNNF9OcllHbUhyX3ViYmVKb2NEb1RmTGJiWG00aVdidHEyT2taZmlib2xDSHZWNU05aktsc3pJSVhldVpNeldsc3fSAW9BVV95cUxOeklvRURLaUNncno1cnNZSTBMalJraTRfSmxaZkI2U0s2d2hFYlFETXNoTXZ5anNaN0p0SjJpQ3ZmTlZsTlJGbGxsMVF3R3RuTU5wekdGUkp4OGctc0tGbDRFZDlVN0t3R2RyRjE4X2M?oc=5",
           "published": "2026-09-25T06:25:00+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
@@ -824,7 +824,7 @@
       "news": [
         {
           "title": "[종목상담소 주식민원처리반 1부] '대한광통신 vs 기도산업' ... 다음주 승자는? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xeG5vRnRCSjRWbVJ6cGNCdUtrTVp2eWRhellFUWdYZGk5VjlJbkktRmFhSUI4TkxRYmJWSjlrTEhPbVJ3dWEteVlzLTlpandVdTBiV3B5UnNEVzFiTllfSlExRUtrWjVUY2wwa1RIMkl5X2xVRnlSV1BDc9IBe0FVX3lxTE1xeG5vRnRCSjRWbVJ6cGNCdUtrTVp2eWRhellFUWdYZGk5VjlJbkktRmFhSUI4TkxRYmJWSjlrTEhPbVJ3dWEteVlzLTlpandVdTBiV3B5UnNEVzFiTllfSlExRUtrWjVUY2wwa1RIMkl5X2xVRnlSV1BDcw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3N3dBa3ZVYXd2WW1OR016blV4NFpTRy11M1F4dEJmamIwN2VqSS1ZZ1E2OXhqT29aQm8xbmcxTVhScHRKUEVsZzJoczlDdGJtMjRqQXFUb2xjajI2YUNJQlI2cHd0S2NTY0UyZWJjNGNkOWhtMmfSAXtBVV95cUxNcXhub0Z0Qko0Vm1SenBjQnVLa01adnlkYXpZRVFnWGRpOVY5SW5JLUZhYUlCOE5MUWJiVko5a0xIT21Sd3VhLXlZcy05aWp3VXUwYldweVJzRFcxYk5ZX0pRMUVLa1o1VGNsMGtUSDJJeV9sVUZ5UldQQ3M?oc=5",
           "published": "2026-09-21T00:10:03+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
@@ -1067,7 +1067,7 @@
       "news": [
         {
           "title": "[적중! 대박 예감] '우리기술투자, 에프에스티' 내일장 예감 좋은 대박 종목? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9NRGlDZHV4bks2U3dndUVXQnMwejlVWGZqaWtlWWRES0J4c0tTMW5jSzdTdEY1akhkYVlNVGEwdXRJbWVDcWZQOUJFZUFfdVZ5dm41TFQ1WXZYSG1MSjJhTnJoTTdVWGJPM285MmJRVnVRS2l4ckU5QWROY9IBe0FVX3lxTE9NRGlDZHV4bks2U3dndUVXQnMwejlVWGZqaWtlWWRES0J4c0tTMW5jSzdTdEY1akhkYVlNVGEwdXRJbWVDcWZQOUJFZUFfdVZ5dm41TFQ1WXZYSG1MSjJhTnJoTTdVWGJPM285MmJRVnVRS2l4ckU5QWROYw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zTHlJMndkdjRxVjRfelhyUjBDdC1zVXozWDYyUFBxY0tsS3l2Mm94czZ6QVJ0eWZyQ1pmY3Exa05zdkUydEtZR3JoQWRJU1ZNa0xjSHp1SURoYmVnZU9MTlpIRFJnbTBoQm5mM2NQcEVRTUpja3fSAXtBVV95cUxPTURpQ2R1eG5LNlN3Z3VFV0JzMHo5VVhmamlrZVlkREtCeHNLUzFuY0s3U3RGNWpIZGFZTVRhMHV0SW1lQ3FmUDlCRWVBX3VWeXZuNUxUNVl2WEhtTEoyYU5yaE03VVhiTzNvOTJiUVZ1UUtpeHJFOUFkTmM?oc=5",
           "published": "2026-09-21T14:15:51+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
