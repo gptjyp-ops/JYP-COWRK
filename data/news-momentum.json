@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T00:35:52+00:00",
+  "generated_at": "2026-09-27T23:03:15+00:00",
   "version": "stock-miner-news-v1",
   "lookback_days": 7,
   "sources": [
@@ -116,13 +116,12 @@
     "009150": {
       "code": "009150",
       "name": "삼성전기",
-      "news_score": 3,
+      "news_score": 2,
       "news_label": "형성중",
-      "news_count": 6,
+      "news_count": 5,
       "news_reasons": [
         "주의:급락",
-        "상향",
-        "수주"
+        "상향"
       ],
       "news": [
         {
@@ -159,13 +158,6 @@
           "published": "2026-09-21T03:00:00+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
-        },
-        {
-          "title": "AI 타고 4조 잭팟 기대...삼성전기, 7000억 규모 MLCC 추가 수주 눈앞 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05T21qSS13LW9sTlNjbWNxdlN3eHFMNmhrWloyb2NHVDlTblhUb3hOYzJxVGstNllydEdSZXRZLWlyQ0ZnMmxfSHhoZEpsbGJYV3V5Q2N6VGFiN1VwZlNoZzdDYW1yczVlUGtyZtIBckFVX3lxTE5GeEpHXzVuM245U2s3U1V1ZXNxT3gtb2FtNXVMbWpWZW9Uc3k3dnVMVVFuVjd6bVVURzhkQ0xpMkkzcWNRVkJuYU9BUHNvQVZzTC1NemR6R0FiUmw5SjBEb0xJek9YUHdHbWMwVDExRDhDQQ?oc=5",
-          "published": "2026-09-20T07:37:17+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
         }
       ],
       "errors": []
@@ -272,22 +264,43 @@
       "name": "삼성전자",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 5,
+      "news_count": 8,
       "news_reasons": [
         "최대 실적"
       ],
       "news": [
         {
-          "title": "삼성전자, DX직원과 내달 직접 소통…성과급 불만 잠재울까 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94UW9OZjRIQWtQS0ViRmJxemV5SllqMWJlZks2VUxpbUJaYmZPbHdyeHE3bzd2SjRFVWxFVzRDU1dNdmZqLW94RGZyZDk2bG1OaDB1WXljRDFMVjTSAWBBVV95cUxPSmg0VWRaVW1GbmRKUW9sSkp3aTVNVGdvNjgxT2dsZjhyd1Bfc0kwYVB2SjVVb1NRUDNiQXNhTUU2SmhqYnltWEtJUHF4S2RvV0FZYl9DWWFqQmpBVE8xXy0?oc=5",
-          "published": "2026-09-26T21:09:01+00:00",
+          "title": "삼성전자, '성과급 불만' DX 직원과 내달 직접 소통 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMdVVvQUp0b1haR2JwUncyNUhBUGtobWRXQU5VdEo2al9CLUVLQnJ1MS1IM3FzbDM5MmM2R2hMYVdjemJZYWdfUTJBcXBrLXRkb0lSd2ZVaGswSWPSAWBBVV95cUxPWmZjT3pjOEhXWW0xZWdCa3ZmSHVMb3V5a1ZRY1VZSHZpTDlmckh5c0lRa2pPYjZqbjRQb2FxRGhWd2JVZkZuY0pMSlpHN2lPc0RGMHViTG1lYk10YTRaUWU?oc=5",
+          "published": "2026-09-27T05:06:56+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
         },
         {
-          "title": "삼성전자 냉장고 업데이트에 먹통…\"긴급 복구 중\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uOFlBcXB2THhHc2RTa0FfRHg1RDhBSUhVQm5NQ2JDb3hNTmd3eHdzSFI3bGFBM2wwSUUwQWRnUW4xRXY0blc2amFzODV6ZEtYZ0NTSW0xNVlLbUnSAWBBVV95cUxOMTNMM2NDNTg1TUFDcXNxbVBxOVlFNm9uaHVtZmIzV0xHYXZDbXN4NUgxTXl4YS11S2hjaWd3MFpKT1pxNWVJU1VMM045VENCQmt3UVgwSnNOdG50ZF9va24?oc=5",
-          "published": "2026-09-23T23:50:38+00:00",
+          "title": "삼성전자, 3분기 영업이익 첫 100조 상회 주목 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KVGlMeWp0V2tubGFqeDVuTmdqTHhsNzdpeWZzbzktclFIc1JxT0VJMGkzVmxUYWJDenZPM2ZabzczNmdzUmlxYjZHQzViNHI4Y0RJOHoxYnp0bFHSAWBBVV95cUxQckZVZ2Zpa3JYS2R3TF9SazVYdmhyT0lZUkY0OGpBZExQUHFCMDJsVjNYSkVxQmxudkpTTXhrd1k4WHhsLWQ3bVE1a1REaFZ4Q0p6eldqMjNncExsbjl4U2E?oc=5",
+          "published": "2026-09-27T04:18:37+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "중남미 K컬처 만난 삼성전자 AI..'2026 멕시코 K박람회' 참가 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQQTVscV9oYmlCcWJMbUplR004eGVoaTFBZzRlVmRyNjdtRlA3VHVVancxbXVKaWQyWUhKeW00bmNmdTFjRVNqNzRCQmoyMDBHZUpJWmVkbFZ3aWpnTVk2TlFrSmxzbVI2Uy1sbNIBckFVX3lxTE1LLUlMYUFlZVJCckR3V2ZUZDd3WDFEV0t6ODNXeG1MUmtYYzhYdEhLN1dqVlhMeFo4UjA4UXJPU21JYTEyaFc3WnpGT3BmekVNR2tHdnhEbzhsNmZhR3JISUFNOWZXb2haR0wyQ25CSWNWdw?oc=5",
+          "published": "2026-09-27T00:35:28+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "삼성전자, 멕시코 K-박람회서 스마트폰·가전 AI 연결 경험 선봬 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOaG4zLWIyeU9ybmFUdnFodnJ6R0V1cC1tb1V2aGJqZHliOXk1V0JUNzBCdU5qanFPdmFKYnZzQjREeWc2Qy1abG93NmMwNGlNRHdHNElmckQ0OEHSAWBBVV95cUxQTWdSbUhqSmhma3JRc2JHcDJ1c1RWTW1BTGJXb093N0FZSFpoNlAxMVF6ZGJ4Q3NRTTUxVFpGTDhxOVAzcExZY1NEWmVjcV81eE1SSFpxUzM4bHNoVjdSVG0?oc=5",
+          "published": "2026-09-27T00:09:04+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "삼성전자, DX직원과 내달 직접 소통…성과급 불만 잠재울까 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94UW9OZjRIQWtQS0ViRmJxemV5SllqMWJlZks2VUxpbUJaYmZPbHdyeHE3bzd2SjRFVWxFVzRDU1dNdmZqLW94RGZyZDk2bG1OaDB1WXljRDFMVjTSAWBBVV95cUxPSmg0VWRaVW1GbmRKUW9sSkp3aTVNVGdvNjgxT2dsZjhyd1Bfc0kwYVB2SjVVb1NRUDNiQXNhTUU2SmhqYnltWEtJUHF4S2RvV0FZYl9DWWFqQmpBVE8xXy0?oc=5",
+          "published": "2026-09-26T21:09:01+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
         },
@@ -440,16 +453,16 @@
           "source_group": "연합뉴스"
         },
         {
-          "title": "SK하이닉스 솔리다임, 美증시 상장 추진…\"기업가치 최대 200조원\" - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zbXB4Y0ZsQ1Npb1lnYm1oWmZ0NC1ZUF95bDhvVW1qSjl4dURWOUhRRTRWNG9hek5Sc2g0V2l4LU52X05KLTRMVFEyQV91ZEVza0ZVOVRITmdra3BFaTd2ZFdPUVhPTjJR0gFuQVVfeXFMUHpLRzBvemp3R3FlUU1UeTFjN1A4UHI4MzAzUDc2VENremEwZnc2Njh0SExkVjlTeEhtcmNwUGJtb2JWMjJzdFd5UHhKV3BKQXNPTWU0QkJQYTdjekhRSFJPSVNMVk1PQlluUk51bUE?oc=5",
-          "published": "2026-09-25T20:18:05+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
-        },
-        {
           "title": "\"SK하이닉스 손자회사 솔리다임, 이르면 내년 美상장 검토\" - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NMi1HbWpsZTI3QUVVMDViVldjZ0lNczRhaTFtVU5ZajRqZHo5aDRKbXN2cjhCLWRad2FjMlR5ei1kZVFEUG5aRkl3Mm5IVlVxODg5S3dyMVduVDDSAWBBVV95cUxPVzNVdXlXOGtvN3NKbjRZRk11NGhRUFVHZHhldnZydnUxaGV5UGE1blJwVGNlSVhPc3ZnTG4ySDdNZ0pYRVJocV9VRzhxR1k5cjRseVp1dEVtcjJHdFZtWDc?oc=5",
           "published": "2026-09-25T19:31:28+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "[이 시각 핫뉴스] 연수기간 술 마신 SK하이닉스 신입 4명 해고 外 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Sc3FZZkxzWGt3Z1ZaRm9QSUJubmsyQXB2dDJHR1hDa0d6T3ZIbDhoTGxqYkVTbk84N2pheXJHVlpVXzEta1o0dW5CMW85UGJqUk10Vkd2YWpFODjSAWBBVV95cUxPbkROalQwMi1WM0Fydnh0U0NYWFJhWTNmWkJUYi1UVDBEMmNmLTJpWmNaYVU3cmlXWEV2QUFSQ2I4cGp2RXdYRk9KYzBSNFllNUd3eWV5aUN0Qms2c3ZsSV8?oc=5",
+          "published": "2026-09-22T20:45:45+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
         }
@@ -748,20 +761,27 @@
       "name": "두산",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 5,
+      "news_count": 6,
       "news_reasons": [],
       "news": [
         {
-          "title": "[사진]가을비로 취소된 추석 두산-롯데 맞대결 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xekZJaXZpWkpLc0VyQTVWVkRuQks5eDJZeWRpV2VmbG53aG5xTnpzM29OZ0hFS1VBZGpzYXhjTWlyWklXQ3FMRVRYU2wwLXJoMFFhbmN1SEN0VFRSMFdGY0lFbF9wWFBrbnNFMnlFRdIBb0FVX3lxTE8xekZJaXZpWkpLc0VyQTVWVkRuQks5eDJZeWRpV2VmbG53aG5xTnpzM29OZ0hFS1VBZGpzYXhjTWlyWklXQ3FMRVRYU2wwLXJoMFFhbmN1SEN0VFRSMFdGY0lFbF9wWFBrbnNFMnlFRQ?oc=5",
-          "published": "2026-09-25T06:25:00+00:00",
+          "title": "[사진]두산 향해 90도 인사하는 장성우 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vUmJfc21MYlFRLXY2bkFRdWVMZk1nVUt3ODNabGVBVUtmZXBnQ2M2VXFSQlBBQVIyWGNpOVM3ZFphRlJ2VHFGWVZZSlV5STYwU1Y5clRCVVNnOGN6NVZUcU1TUWhOaWFkdkFsZmZ6c9IBb0FVX3lxTE9vUmJfc21MYlFRLXY2bkFRdWVMZk1nVUt3ODNabGVBVUtmZXBnQ2M2VXFSQlBBQVIyWGNpOVM3ZFphRlJ2VHFGWVZZSlV5STYwU1Y5clRCVVNnOGN6NVZUcU1TUWhOaWFkdkFsZmZ6cw?oc=5",
+          "published": "2026-09-27T11:35:00+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
         },
         {
-          "title": "[사진]가을비로 취소된 추석날 두산-롯데 맞대결 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ubnBKcFNKMm5UNXFvajFMOG9RTjZEQTIyQ29scHh3OHlfOUFoRmFxRG5MTF9VaUpaWDJOOVNiWTF1WUt0QWJWUTBEVi1mU2xLeWhMTXBSTXJubGNxRVpkRTZRNGo4X00yMndtT2RHRdIBb0FVX3lxTE5ubnBKcFNKMm5UNXFvajFMOG9RTjZEQTIyQ29scHh3OHlfOUFoRmFxRG5MTF9VaUpaWDJOOVNiWTF1WUt0QWJWUTBEVi1mU2xLeWhMTXBSTXJubGNxRVpkRTZRNGo4X00yMndtT2RHRQ?oc=5",
-          "published": "2026-09-25T06:20:00+00:00",
+          "title": "[프로야구 잠실전적] kt 12-6 두산 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9URmlaa2RQR2dPclBKbVBDTUZNT0I1Q3owQUwycmxDTlhQQmtNODNZZEhZUXdIQnNSbkxEUFZFSzNSMllKb3Y0eVJPMllfcVhBODRiSGg2T3FZTlXSAWBBVV95cUxPLTFHRnBfYUhPSklHTzdUZFB5UTZDVEU4YVNlMzlfQ212dmtBWTN2ZFY3YkotR2doa3hYcmhMSEV5d1dGdFVlMTNNb2NYUDRib05sLXZEMm8xQzZhODYzUnI?oc=5",
+          "published": "2026-09-27T11:23:51+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "삼성 실망했겠네...1위 KT, 다시 3경기 차 달아나다. 20안타 폭발→두산 대파, 배제성 6이닝 무실점 3승 [잠실 리뷰] - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE14d3JqNHlTYll6WXQxYTZybXFBYVliTHpNQkZiQUtCZUI3TGRHZlY1Y0NmZDl6V0dEZ2U1UVZrZUJycVF1MGtPellEQ1gzcWE3MFFXTGJIX290aGhQYzJYZHRaajVYNE13ZWhZaGJfZ9IBb0FVX3lxTE14d3JqNHlTYll6WXQxYTZybXFBYVliTHpNQkZiQUtCZUI3TGRHZlY1Y0NmZDl6V0dEZ2U1UVZrZUJycVF1MGtPellEQ1gzcWE3MFFXTGJIX290aGhQYzJYZHRaajVYNE13ZWhZaGJfZw?oc=5",
+          "published": "2026-09-27T11:21:00+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
         },
@@ -840,9 +860,23 @@
       "name": "기아",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 7,
+      "news_count": 8,
       "news_reasons": [],
       "news": [
+        {
+          "title": "현대차·기아, 미국 시장서 RV 누적 판매 1천500만대 돌파 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mNlJMOExnRzV4UFlBR0ZCTl9NZTl1M0hYZ0tUVDVZVXhQeHhoRFJod0RaRTROOHo3cndUQTI0VlNGdDNHOXpWSkxTcDNCSzdpUnFKMVlHdkRmVzTSAWBBVV95cUxNakl2dEt3TjFVVUR0dmdUODhmRXZkTGRxQ192VTNaUVk1QTFTZ081aEFYYVVsVUlTS09MdEFVVklYSXljRUNUbmxvMG9LUF9LeUh2ZUIybmNvU0xwU1JqZk0?oc=5",
+          "published": "2026-09-27T21:09:01+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "씨엔블루 강민혁, 10월 1일 기아전 시구 출격..'승리 요정' 뜬다 - osen.mt.co.kr",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fYlRlRUhoczlZWVVOMzNfTkhLTWxIM2UyTl84UDhzNjdKZUlfME0xLWQ0YWJmcmtWZllHYi1lVUFqVDlEVGdUUmtVUnBSSUR4b3c?oc=5",
+          "published": "2026-09-27T08:09:00+00:00",
+          "source": "osen.mt.co.kr",
+          "source_group": "머니투데이"
+        },
         {
           "title": "현대차·기아 서비스 거점 2천곳 육박…수입차 전체의 4배 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rdktUcEVlekdfQ2ZvQ0g2MUR3eE4xalBVNndUcVI5Z2NfWDlkM1ktTjQtdTczOEdhMHE0TWVTT05pTFBlY0xnODA4UEZvNGFXVzRTb1ZKSjNieWvSAWBBVV95cUxPU2Z6ajZMQi16cXdZQUNPUll5Z2FBLUpDR2xkZ3M5bEtQdXdFZ0tqVnlMVnpwa3YzejYzMENzaEYyMlEyZnQ5YmQtc1k1SS1IcWc5TlpPaWs0dEZOWjUzMm4?oc=5",
@@ -884,13 +918,6 @@
           "published": "2026-09-21T00:08:32+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
-        },
-        {
-          "title": "기아, 다문화 청소년 자립 프로그램 3기 수료식·4기 입학식 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFblp3WWpGWWVyNjBZRE5GOGVkRG0wYlIyanF1Y2pCSG1GanN0d25hNGZ0TjFjX0o2U0NKNG1DX1NZcFlyTWJZX2FBelpZMjdWN2pIaUxNTEFTMFHSAWBBVV95cUxNcnA0cmQySG1tS0NFZmNyZF81SnBJZ01CQVdsU0tWTWVZLUFLUTgyd2FhMFFHZmwyU1daRS1pQmxSdFdSM3kxVVRmZDMxNXhXOFloLXlWeHFPTi1ITjRYUzM?oc=5",
-          "published": "2026-09-20T23:52:57+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
         }
       ],
       "errors": []
@@ -928,14 +955,28 @@
     "005380": {
       "code": "005380",
       "name": "현대차",
-      "news_score": 3,
-      "news_label": "형성중",
+      "news_score": 4,
+      "news_label": "강함",
       "news_count": 8,
       "news_reasons": [
         "출시",
         "수주"
       ],
       "news": [
+        {
+          "title": "현대차·기아, 미국 시장서 RV 누적 판매 1천500만대 돌파 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mNlJMOExnRzV4UFlBR0ZCTl9NZTl1M0hYZ0tUVDVZVXhQeHhoRFJod0RaRTROOHo3cndUQTI0VlNGdDNHOXpWSkxTcDNCSzdpUnFKMVlHdkRmVzTSAWBBVV95cUxNakl2dEt3TjFVVUR0dmdUODhmRXZkTGRxQ192VTNaUVk1QTFTZ081aEFYYVVsVUlTS09MdEFVVklYSXljRUNUbmxvMG9LUF9LeUh2ZUIybmNvU0xwU1JqZk0?oc=5",
+          "published": "2026-09-27T21:09:01+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "현대차 2세대 팰리세이드 출시 20개월만 누적 30만대 판매 육박 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44d2dLNHpQWEQwZXRZRVNiT3pTLWI2X3pCQVNIVVVGNlpBNFdaQS1XaXlhenFUQ3pnMENXYmQyNUhjLS1yVHRVTXY4d3lSeDZ6b3lUUVZpVnliWmlCVHo1M9IBYEFVX3lxTE44d2dLNHpQWEQwZXRZRVNiT3pTLWI2X3pCQVNIVVVGNlpBNFdaQS1XaXlhenFUQ3pnMENXYmQyNUhjLS1yVHRVTXY4d3lSeDZ6b3lUUVZpVnliWmlCVHo1Mw?oc=5",
+          "published": "2026-09-26T22:01:01+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
         {
           "title": "현대차, 미 車시장서 포드 제칠 듯…GM·도요타 이어 3위 전망 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kUG5pVGpJbmYwcVpoTEZ1RjhWaXE3YURqWHgzX2szbmNLbUVMeWhtNVJkajYwUVpMT2JralF1WElILVpXcUhNUzRXaGxuc3c3M0YtTV9yTndYLTjSAWBBVV95cUxOUF9iTHVabVk5QUtoQkRvSDIyWDhuNXA4OTVNeWN1WGd3UG1kSmhyYm9EWktFdmRUZFZRRi1DQWU3WXg0WkRmMU1yUlJGRXUzOGVFY3Q3V0thUFF5aUFtckk?oc=5",
@@ -947,13 +988,6 @@
           "title": "성기홍 수석과 성김 현대차 사장 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91eDY1WloycHFzTF9xX1lkM2d2Ym9DYXhha2FuZE9xeU9XTUNzbWczeHNUV0U0dUNhWG1DQi1IUW5aNXBtV2NRcDFlVWpraTV4MlhNWDJyQlYtUFnSAWBBVV95cUxQSzBIRDg2T1VZaFBtR3BsUHZTYkFRYzZ2MC1tUVRFNnFZUE5FRXlfdVhxd0U4RUc0VGYwUUxKQ0ptdG5DYjEyaFp6ZEFXNGRweVpvRnE0Zm1EOFdRWTdTTW0?oc=5",
           "published": "2026-09-23T14:10:50+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
-        },
-        {
-          "title": "현대차 2세대 팰리세이드 출시 20개월만 누적 30만대 판매 육박 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MMWZ6VlRtc0dFSklsanRHeFVsSlI3VUkwMnhGWW5Xb01FS2VmNnlmZWFUTUVjUmRCY3haS3dWQ2loV1ZsSHNhQng4RWpnbE0zSDNfcS0wTFpuWnfSAWBBVV95cUxOOHdnSzR6UFhEMGV0WUVTYk96Uy1iNl96QkFTSFVVRjZaQTRXWkEtV2l5YXpxVEN6ZzBDV2JkMjVIYy0tclR0VU12OHd5Ung2em95VFFWaVZ5YlppQlR6NTM?oc=5",
-          "published": "2026-09-23T07:28:00+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
         },
@@ -984,13 +1018,6 @@
           "published": "2026-09-22T07:17:19+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
-        },
-        {
-          "title": "현대로템, 항공우주 생산기지에 현대차 스마트팩토리 기술 도입 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YQWk1XzZYMExTelZoX1VOcldVajByVlhscEZWM1pQUy0tQzhpNGl6WWFYa3Y5TnlKVGxXZzJkUmFFUkxNMGFQWWVSZEF0b3NGMkhNS3I3Z0Y2M0liRkowNEctTW96TzI3d2JKM9IBckFVX3lxTE1ERW5JX2ZITDlkQUlGOEFZc0NuZl9RajlJZzJrblB6a0tJTGV5b3FBRHQtQ25uT2ZiQ21rUnM3czdCMjB0c2p3N1BsemlITXFjb0dIZ1NycDUtWkZKSnA0VDNfQ0RnSjl1czcza2xFOTN6UQ?oc=5",
-          "published": "2026-09-22T01:09:06+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
         }
       ],
       "errors": []
@@ -1028,18 +1055,12 @@
       "name": "드림시큐리티",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 1,
+      "news_count": 0,
       "news_reasons": [],
-      "news": [
-        {
-          "title": "[고래사냥] '케이씨텍·티이엠씨·드림시큐리티! 내일장 고래 종목은?! - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TX1VRMlZsanl5dk1JcGtIVjJiMGxZSzVtSWtYT3BrYllYS2VmeXk4Nnl4cTdWcTBlbEhNSDI5NUY1ckQ5NS1NWXpfUUk4amFMN3dCZG55bmRVWGUxb0VKTGV0RTFnWmx00gFuQVVfeXFMTmUybVpVeEVXYWdMc0dkTjMyNFltYmtGOWZBbUNwOEhfTEd0NFNfSDI1ZkZPSjhGaGU3VXpjTFlxY2JDLTNfdTBpZFNTNFBmdW9kT1VJWXJIZGVpbjR3Ylk0eHJ3UmlES2pBcElGTlE?oc=5",
-          "published": "2026-09-21T13:09:19+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
-        }
-      ],
-      "errors": []
+      "news": [],
+      "errors": [
+        "머니투데이: <urlopen error _ssl.c:993: The handshake operation timed out>"
+      ]
     },
     "321370": {
       "code": "321370",
