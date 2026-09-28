@@ -1,55 +1,61 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-09-28T00:44:59.397657+00:00",
-  "updated_kst": "2026년 09월 28일 09:44",
+  "updated_at": "2026-09-28T06:52:16.802275+00:00",
+  "updated_kst": "2026년 09월 28일 15:52",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "columbus vs inter miami",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "오늘날씨",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "김시우",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "콜럼버스 크루 대 인터 마이애미",
+          "k": "살림하는 남자들",
           "m": "검색량 2000+"
         },
         {
-          "k": "나는 solo",
+          "k": "삼성전기",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "옥천군",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "마크 도스 산토스",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "박보검",
           "m": "검색량 500+"
         },
         {
-          "k": "식중독",
+          "k": "윤아",
+          "m": "검색량 5000+"
+        },
+        {
+          "k": "돈",
+          "m": "검색량 10000+"
+        },
+        {
+          "k": "장재인",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "india vs afghanistan",
           "m": "검색량 200+"
         },
         {
-          "k": "klasemen tim nasional sepak bola norwegia vs portugal",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "권상우",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "엔비디아",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "weather",
-          "m": "검색량 1000+"
+          "k": "홍준표",
+          "m": "검색량 5000+"
         }
       ]
     },
     "shopping": {
-      "updated": "20260923",
+      "updated": "20260927",
       "items": [
+        {
+          "k": "361도",
+          "m": "남성신발 · 유지",
+          "url": "https://shopping.naver.com/ns/search?query=361%EB%8F%84",
+          "tag": "buy"
+        },
         {
           "k": "에어팟5",
           "m": "음향가전 · 유지",
@@ -63,96 +69,90 @@
           "tag": "buy"
         },
         {
-          "k": "361도",
-          "m": "남성신발 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=361%EB%8F%84",
-          "tag": "buy"
-        },
-        {
           "k": "치아미백기계",
-          "m": "구강위생용품 · 유지",
+          "m": "구강위생용품 · 하락 1",
           "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%95%84%EB%AF%B8%EB%B0%B1%EA%B8%B0%EA%B3%84",
           "tag": "buy"
         },
         {
-          "k": "에어팟5케이스",
-          "m": "음향가전 · 상승 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%97%90%EC%96%B4%ED%8C%9F5%EC%BC%80%EC%9D%B4%EC%8A%A4",
+          "k": "구룡포피데기",
+          "m": "수산물 · 유지",
+          "url": "https://shopping.naver.com/ns/search?query=%EA%B5%AC%EB%A3%A1%ED%8F%AC%ED%94%BC%EB%8D%B0%EA%B8%B0",
+          "tag": "buy"
+        },
+        {
+          "k": "스파이더플랜트",
+          "m": "원예/식물 · 상승 3",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%8A%A4%ED%8C%8C%EC%9D%B4%EB%8D%94%ED%94%8C%EB%9E%9C%ED%8A%B8",
           "tag": "buy"
         },
         {
           "k": "아식스젤ammg",
-          "m": "남성신발 · 하락 1",
+          "m": "남성신발 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EC%95%84%EC%8B%9D%EC%8A%A4%EC%A0%A4ammg",
           "tag": "buy"
         },
         {
-          "k": "더리얼그레인프리",
-          "m": "반려동물 · 하락 1",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%8D%94%EB%A6%AC%EC%96%BC%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC",
+          "k": "에어팟5케이스",
+          "m": "음향가전 · 하락 4",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%97%90%EC%96%B4%ED%8C%9F5%EC%BC%80%EC%9D%B4%EC%8A%A4",
           "tag": "buy"
         },
         {
-          "k": "다이슨에어스무스",
-          "m": "이미용가전 · 하락 3",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%8B%A4%EC%9D%B4%EC%8A%A8%EC%97%90%EC%96%B4%EC%8A%A4%EB%AC%B4%EC%8A%A4",
+          "k": "아이폰18프로자급제",
+          "m": "휴대폰 · 유지",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%95%84%EC%9D%B4%ED%8F%B018%ED%94%84%EB%A1%9C%EC%9E%90%EA%B8%89%EC%A0%9C",
           "tag": "buy"
         },
         {
-          "k": "미라클제주갈치",
-          "m": "수산물 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%AF%B8%EB%9D%BC%ED%81%B4%EC%A0%9C%EC%A3%BC%EA%B0%88%EC%B9%98",
-          "tag": "buy"
-        },
-        {
-          "k": "26년햅쌀",
-          "m": "농산물 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=26%EB%85%84%ED%96%85%EC%8C%80",
+          "k": "맛다시고추장",
+          "m": "조미료 · 인기",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%A7%9B%EB%8B%A4%EC%8B%9C%EA%B3%A0%EC%B6%94%EC%9E%A5",
           "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026년 09월 28일 09시 42분",
+      "updated": "2026년 09월 28일 15시 49분",
       "items": [
         {
-          "k": "오유경 과학자 남편",
+          "k": "최미나수 첫 독립집",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "이 대통령 지지율 상승",
+          "k": "군산 AI 데이터센터",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "국정원",
+          "k": "고영욱 틱톡 삭제",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "김민 나혼산 출연",
+          "k": "이소영 중기부 규제개혁",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "이준 헬스장 CEO",
+          "k": "김기현 징역 구형",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "장동혁 최고위 발언",
+          "k": "설악산 첫 단풍",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "명예영국인 백진경 만삭 화보",
+          "k": "김승원 성추행 수사",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "우상혁 높이뛰기 동메달",
+          "k": "비치발리볼",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "맨시티",
+          "k": "이재명 지지율 상승",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "김도영 금메달",
+          "k": "코리아 프리미엄 위크",
           "m": "실시간 인기 검색어"
         }
       ]
@@ -205,44 +205,44 @@
   },
   "items": [
     {
-      "k": "columbus vs inter miami",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "오늘날씨",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "김시우",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "콜럼버스 크루 대 인터 마이애미",
+      "k": "살림하는 남자들",
       "m": "검색량 2000+"
     },
     {
-      "k": "나는 solo",
+      "k": "삼성전기",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "옥천군",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "마크 도스 산토스",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "박보검",
       "m": "검색량 500+"
     },
     {
-      "k": "식중독",
+      "k": "윤아",
+      "m": "검색량 5000+"
+    },
+    {
+      "k": "돈",
+      "m": "검색량 10000+"
+    },
+    {
+      "k": "장재인",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "india vs afghanistan",
       "m": "검색량 200+"
     },
     {
-      "k": "klasemen tim nasional sepak bola norwegia vs portugal",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "권상우",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "엔비디아",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "weather",
-      "m": "검색량 1000+"
+      "k": "홍준표",
+      "m": "검색량 5000+"
     }
   ]
 }
