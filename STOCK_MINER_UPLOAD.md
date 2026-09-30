@@ -22,7 +22,7 @@ Stock Miner는 `JYP-COWRK`의 별도 페이지입니다. `AI-stock-orchestrator`
    powershell -ExecutionPolicy Bypass -File scripts/install_stock_miner_task.ps1
    ```
 
-등록 후 평일 09:20, 14:20, 18:20에 수집·DART 보강·검증·분할·GitHub 업로드를
+등록 후 평일 09:20, 14:20, 16:30에 수집·DART 보강·검증·분할·GitHub 업로드를
 실행합니다. PC가 켜져 있고 같은 사용자가 로그인해 있어야 합니다. GitHub
 푸시 인증도 PC에 구성되어야 합니다. 실패하면 기존 게시 데이터는 그대로
 유지되며, 사이트에는 오래된 데이터 경고가 표시됩니다. 실행 로그는 PC의
