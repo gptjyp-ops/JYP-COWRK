@@ -10,8 +10,10 @@ from kiwoom import get_client, KiwoomError
 
 OUT = Path("stock-miner-data.json")
 REQUEST_DELAY = 0.22
-SOURCE_LIMIT = 40
-MAX_CANDIDATES = 80
+SOURCE_LIMIT = 120  # 각 경로에서 필터를 통과한 고유 종목 수
+MAX_SOURCE_PAGES = 20  # API 호출의 상한; 목표 개수를 보장하지는 않음
+MAX_CANDIDATES = 300
+SOURCE_DIAGNOSTICS = {}
 MIN_PRICE = 500
 MAX_ABS_CHANGE = 20.0
 
@@ -93,63 +95,129 @@ def add_candidate(pool: dict, filtered: list, code: str, name: str, source: str,
             item[k] = v
 
 
+def collect_ranked(pool, filtered, source, code_key, name_key, extras,
+                   api_id, path, body, want_key, change_key=None):
+    """필터 통과 종목을 확보할 때까지 연속 조회하며 원본 행 누락을 진단한다."""
+    client = get_client()
+    accepted, seen_tokens = set(), set()
+    cont_yn = next_key = None
+    diag = {"pages": 0, "raw_rows": 0, "accepted": 0,
+            "excluded": 0, "missing_identity": 0, "duplicates": 0,
+            "row_fields": [], "stop_reason": "page_limit"}
+    SOURCE_DIAGNOSTICS[source] = diag
+    for _ in range(MAX_SOURCE_PAGES):
+        res = client.fetch_page(api_id=api_id, path=path, body=body,
+                                cont_yn=cont_yn, next_key=next_key)
+        rb = res.body
+        diag["pages"] += 1
+        if rb.get("return_code") not in (None, 0):
+            raise RuntimeError(f"{api_id}: {rb.get('return_msg') or rb.get('return_code')}")
+        if not isinstance(rb.get(want_key), list):
+            diag["stop_reason"] = "response_schema_mismatch"
+            diag["response_fields"] = sorted(rb.keys())
+            break
+        rows = rb[want_key]
+        diag["raw_rows"] += len(rows)
+        for r in rows:
+            if not isinstance(r, dict):
+                diag["missing_identity"] += 1
+                continue
+            if not diag["row_fields"]:
+                diag["row_fields"] = sorted(r.keys())
+            code = str(r.get(code_key) or "").strip()
+            name = str(r.get(name_key) or "").strip()
+            if not code or not name:
+                diag["missing_identity"] += 1
+                continue
+            reason = prefilter_reason(code, name)
+            if change_key and abs(num(r.get(change_key))) > MAX_ABS_CHANGE:
+                reason = f"당일 변동 {MAX_ABS_CHANGE:.0f}% 초과"
+            if reason:
+                diag["excluded"] += 1
+                filtered.append({"code": code, "name": name, "reason": reason, "source": source})
+                continue
+            if code in accepted:
+                diag["duplicates"] += 1
+                continue
+            accepted.add(code)
+            add_candidate(pool, filtered, code, name, source,
+                          **{k: num(r.get(v)) for k, v in extras.items()})
+            if len(accepted) >= SOURCE_LIMIT:
+                break
+        diag["accepted"] = len(accepted)
+        if len(accepted) >= SOURCE_LIMIT:
+            diag["stop_reason"] = "target_reached"
+            break
+        cont_yn = res.continuation.cont_yn
+        next_key = res.continuation.next_key
+        if cont_yn != "Y":
+            diag["stop_reason"] = "source_exhausted"
+            break
+        if not next_key or next_key in seen_tokens:
+            diag["stop_reason"] = "invalid_continuation"
+            break
+        seen_tokens.add(next_key)
+        time.sleep(REQUEST_DELAY)
+    print(f"[후보진단] {source}: 원본 {diag['raw_rows']}행 / 확보 {diag['accepted']} / "
+          f"제외 {diag['excluded']} / 코드·이름누락 {diag['missing_identity']} / "
+          f"{diag['pages']}페이지 / {diag['stop_reason']}")
+    if diag["missing_identity"] or diag["stop_reason"] == "response_schema_mismatch":
+        print(f"[후보경고] {source} 응답 필드 확인 필요: "
+              f"{diag.get('response_fields', diag['row_fields'])}")
+
+
+def select_candidates(pool):
+    """복수 포착을 우선하고 단일 경로는 순위 순으로 번갈아 선택한다."""
+    items = list(pool.values())
+    multi = sorted((x for x in items if len(x['sources']) > 1),
+                   key=lambda x: len(x['sources']), reverse=True)
+    selected = multi[:MAX_CANDIDATES]
+    queues = [[x for x in items if x['sources'] == [source]]
+              for source in ('외국인연속', '기관순매수', '거래량상위')]
+    for rank in range(max((len(q) for q in queues), default=0)):
+        for queue in queues:
+            if len(selected) >= MAX_CANDIDATES:
+                return selected
+            if rank < len(queue):
+                selected.append(queue[rank])
+    return selected
+
+
 def collect_foreign_streak(pool: dict, filtered: list):
-    rows = fetch(
+    collect_ranked(
+        pool, filtered, "외국인연속", "stk_cd", "stk_nm", {"foreign_streak_total": "tot"},
         "ka10035", "/api/dostk/rkinfo",
         {"mrkt_tp": "000", "trde_tp": "2", "base_dt_tp": "0", "stex_tp": "1"},
-        "for_cont_nettrde_upper", max_pages=3, max_rows=SOURCE_LIMIT,
+        "for_cont_nettrde_upper",
     )
-    for r in rows:
-        add_candidate(
-            pool, filtered,
-            r.get("stk_cd"), r.get("stk_nm"), "외국인연속",
-            foreign_streak_total=num(r.get("tot")),
-        )
 
 
 def collect_institution_top(pool: dict, filtered: list):
     today = datetime.now().strftime("%Y%m%d")
-    rows = fetch(
+    collect_ranked(
+        pool, filtered, "기관순매수", "orgn_netprps_stk_cd", "orgn_netprps_stk_nm",
+        {"institution_rank_qty": "orgn_netprps_qty"},
         "ka90009", "/api/dostk/rkinfo",
         {"mrkt_tp": "000", "amt_qty_tp": "2", "qry_dt_tp": "1", "stex_tp": "1", "date": today},
-        "frgnr_orgn_trde_upper", max_pages=3, max_rows=SOURCE_LIMIT,
+        "frgnr_orgn_trde_upper",
     )
-    for r in rows:
-        add_candidate(
-            pool, filtered,
-            r.get("orgn_netprps_stk_cd"), r.get("orgn_netprps_stk_nm"), "기관순매수",
-            institution_rank_qty=num(r.get("orgn_netprps_qty")),
-        )
 
 
 def collect_volume_top(pool: dict, filtered: list):
-    rows = fetch(
+    collect_ranked(
+        pool, filtered, "거래량상위", "stk_cd", "stk_nm", {"volume_rank_qty": "trde_qty"},
         "ka10030", "/api/dostk/rkinfo",
         {
             "mrkt_tp": "000", "sort_tp": "1", "mang_stk_incls": "16",
             "crd_tp": "0", "trde_qty_tp": "0", "pric_tp": "0",
             "trde_prica_tp": "0", "mrkt_open_tp": "0", "stex_tp": "1",
         },
-        "tdy_trde_qty_upper", max_pages=3, max_rows=SOURCE_LIMIT,
+        "tdy_trde_qty_upper", change_key="flu_rt",
     )
-    for r in rows:
-        change = num(r.get("flu_rt"))
-        if abs(change) > MAX_ABS_CHANGE:
-            filtered.append({
-                "code": str(r.get("stk_cd", "")).strip(),
-                "name": str(r.get("stk_nm", "")).strip(),
-                "reason": f"거래량상위지만 당일 변동 {MAX_ABS_CHANGE:.0f}% 초과",
-                "source": "거래량상위",
-            })
-            continue
-        add_candidate(
-            pool, filtered,
-            r.get("stk_cd"), r.get("stk_nm"), "거래량상위",
-            volume_rank_qty=num(r.get("trde_qty")),
-        )
 
 
 def collect_candidates():
+    SOURCE_DIAGNOSTICS.clear()
     pool, filtered = {}, []
     collect_foreign_streak(pool, filtered)
     time.sleep(REQUEST_DELAY)
@@ -157,10 +225,10 @@ def collect_candidates():
     time.sleep(REQUEST_DELAY)
     collect_volume_top(pool, filtered)
 
-    # 여러 입구에서 동시에 잡힌 종목을 우선하고, 나머지는 최초 수집 순서를 유지
-    candidates = list(pool.values())
-    candidates.sort(key=lambda x: (len(x.get("sources", [])), x.get("foreign_streak_total", 0), x.get("institution_rank_qty", 0), x.get("volume_rank_qty", 0)), reverse=True)
-    return candidates[:MAX_CANDIDATES], filtered
+    candidates = select_candidates(pool)
+    print(f"[범위] 통합 {len(pool)}개 / 상세분석 {len(candidates)}개 / "
+          f"분석한도 제외 {len(pool) - len(candidates)}개")
+    return candidates, filtered
 
 
 def investor_5d(code: str):
@@ -289,7 +357,7 @@ def main():
             if f5 > 0: reasons.append("외국인 5일 순매수")
             if i5 > 0: reasons.append("기관 5일 순매수")
             if vr >= 1.5: reasons.append(f"20일 평균 대비 거래량 {vr:.1f}배")
-            if abs(d20) <= 5 or abs(d60) <= 5: reasons.append("이평선/저점 접근")
+            if abs(d20) <= 5 or abs(d60) <= 5: reasons.append("20일 또는 60일 이평선 근처")
 
             result.append({
                 "code": code,
@@ -334,6 +402,11 @@ def main():
         "count": len(good),
         "filtered_count": len(filtered),
         "source_counts": source_counts,
+        "collector_revision": "expanded-candidates-1",
+        "source_diagnostics": SOURCE_DIAGNOSTICS,
+        "collection_limits": {"accepted_per_source": SOURCE_LIMIT,
+                              "pages_per_source": MAX_SOURCE_PAGES,
+                              "detail_candidates": MAX_CANDIDATES},
         "filters": {
             "common_stock_only": True,
             "min_price": MIN_PRICE,
