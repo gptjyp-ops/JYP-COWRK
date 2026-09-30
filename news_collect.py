@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from momentum_themes import THEMES, SPORTS, build_themes
 
 PARTS = [Path(f"data/stock-miner-v4-part{i}.json") for i in (1, 2, 3)]
 OUT = Path("data/news-momentum.json")
@@ -45,8 +46,8 @@ def load_stocks() -> list[dict]:
     return rows
 
 
-def rss_search(name: str, domain: str) -> list[dict]:
-    query = f'"{name}" site:{domain} when:{DAYS}d'
+def rss_search(name: str, domain: str, *, theme_search=False) -> list[dict]:
+    query = f'({name}) site:{domain} when:{DAYS}d' if theme_search else f'"{name}" site:{domain} when:{DAYS}d'
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
         "q": query,
         "hl": "ko",
@@ -64,7 +65,7 @@ def rss_search(name: str, domain: str) -> list[dict]:
         pub = (item.findtext("pubDate") or "").strip()
         source_node = item.find("source")
         source = (source_node.text or "").strip() if source_node is not None else ""
-        if name not in title:
+        if SPORTS.search(title) or (not theme_search and name not in title):
             continue
         dt = None
         try:
@@ -160,12 +161,26 @@ def main():
             "errors": errors,
         }
 
+    independent, theme_errors = {}, {}
+    for key, label, _, query, _ in THEMES:
+        independent[key], theme_errors[key] = [], []
+        print(f"[관심 모멘텀] {label}")
+        for source_name, domain in SOURCES:
+            try:
+                found = rss_search(query, domain, theme_search=True)
+                independent[key].extend(dict(x, source_group=source_name) for x in found)
+            except Exception as e:
+                theme_errors[key].append(f"{source_name}: {e}")
+            time.sleep(REQUEST_DELAY)
+
     payload = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "version": "stock-miner-news-v1",
         "lookback_days": DAYS,
         "sources": [x[0] for x in SOURCES],
         "stocks": result,
+        "themes": build_themes(stocks, result, independent, theme_errors),
+        "theme_method": "최근 7일 기사·공시 제목 기반. 기업 업종 및 직접 수혜 확정 아님.",
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -174,3 +189,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
