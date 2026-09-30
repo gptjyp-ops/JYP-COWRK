@@ -10,10 +10,10 @@ $action = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument ('-NoProfi
 $triggers = @(
     (New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -At '09:20'),
     (New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -At '14:20'),
-    (New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -At '18:20')
+    (New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -At '16:30')
 )
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 2)
 $principal = New-ScheduledTaskPrincipal -UserId ([System.Security.Principal.WindowsIdentity]::GetCurrent().Name) -LogonType Interactive -RunLevel Limited
 Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $triggers -Settings $settings -Principal $principal -Force | Out-Null
-Write-Host "등록 완료: $taskName (평일 09:20, 14:20, 18:20)"
+Write-Host "등록 완료: $taskName (평일 09:20, 14:20, 16:30)"
 Write-Host 'PC가 켜져 있고 현재 사용자가 로그인한 상태에서 실행됩니다.'
