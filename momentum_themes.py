@@ -1,6 +1,6 @@
 """Evidence-based topic matching; these tags are not company sector classifications."""
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 THEMES = [
     ('gold','금',['금값','금 가격','금가격','국제 금','국제금','금 선물','금선물','금광','귀금속','골드'], '금값 OR 국제금 OR 금광', '금 가격·달러·금리 변화'),
@@ -17,7 +17,7 @@ THEMES = [
     ('beauty','화장품',['화장품','뷰티','코스메틱','스킨케어'], '화장품 OR 뷰티 OR 코스메틱', '수출·해외 유통·판매 실적'),
     ('bio','바이오',['바이오','신약','임상','FDA','기술수출','기술 수출','제약'], '바이오 OR 신약 OR 임상', '임상 결과·허가·기술이전 계약'),
 ]
-SPORTS = re.compile(r'야구|프로야구|KBO|타율|홈런|선발투수|타석|승점|챔피언스리그|골키퍼')
+SPORTS = re.compile(r'야구|KBO|타율|홈런|투수|타석|완투승|승점|챔피언스리그|골키퍼|프로농구|농구|골프선수권|골프대회|감독(?=[\s\"\']|$)')
 EVENTS = [('계약·수주',['수주','공급계약','계약 체결','계약체결','기술이전','기술수출']),('투자·생산',['증설','양산','시설투자','투자유치']),('허가·임상',['FDA','승인','허가','임상']),('실적',['실적','흑자','적자','매출']),('가격·수요',['금값','유가','운임','수요','가격'])]
 RISKS = ['유상증자','전환사채','적자','급락','하락','소송','제재','리콜','중단','실패','철회','해지']
 
@@ -26,6 +26,27 @@ def contains(title, word):
     if word.isascii():
         return bool(re.search(r'(?<![A-Za-z0-9])'+re.escape(word)+r'(?![A-Za-z0-9])',title,re.I))
     return word in title
+
+
+def company_match(title, name, code=''):
+    """Conservative title match; short names must not match another company or acronym."""
+    if not title or not name or SPORTS.search(title):
+        return False
+    if code and re.search(r'(?<!\d)'+re.escape(code)+r'(?!\d)', title):
+        return True
+    pattern = r'(?<![가-힣A-Za-z0-9])'+re.escape(name)+r'(?=$|[^가-힣A-Za-z0-9]|(?:은|는|이|가|의|도|와|과|에서|에|로|을|를)(?=$|[^가-힣A-Za-z0-9]))'
+    if not re.search(pattern,title,re.I):
+        return False
+    if name.upper() == 'DB':
+        # DB is also a database acronym. Require listed-company wording without a code.
+        if re.search(r'DB\s*(?:Inc\.?|아이앤씨)|디비아이앤씨',title,re.I):
+            return True
+        if re.search(r'데이터|뇌영상|데이터베이스|DB그룹|DB손해보험|DB하이텍|DB금융',title,re.I):
+            return False
+        return bool(re.search(r'DB\s*[,，]|DB(?:는|가|의)\s',title,re.I) and re.search(r'주가|실적|공시|순매수|수주|매출|영업이익|상한가|증권',title))
+    if name.isascii() and len(name)<=3:
+        return bool(re.search(r'기업|주가|실적|공시|수주|매출|영업이익|순매수|상한가|증권|특징주|계약',title))
+    return True
 
 
 def topic_ids(title):
@@ -45,7 +66,9 @@ def annotate(item):
 
 def recent(item, now):
     try:
-        stamp = datetime.fromisoformat(item['published']).astimezone(timezone.utc)
+        stamp = datetime.fromisoformat(item['published'])
+        if stamp.tzinfo is None: return False
+        stamp = stamp.astimezone(timezone.utc)
         return -300 <= (now-stamp).total_seconds() <= 7*86400
     except (ValueError, KeyError, TypeError):
         return False
@@ -62,14 +85,14 @@ def build_themes(stocks, news_map, independent=None, errors=None, now=None):
         for stock in stocks:
             code = str(stock.get('code',''))
             items = news_map.get(code,{}).get('news',[])
-            evidence = [annotate(x) for x in items if key in topic_ids(x.get('title','')) and recent(x,now) and str(stock.get('name','')) in x.get('title','')]
+            evidence = [annotate(x) for x in items if key in topic_ids(x.get('title','')) and recent(x,now) and company_match(x.get('title',''), str(stock.get('name','')), code)]
             for x in evidence:
                 articles.append(dict(x, mentioned_codes=[code]))
             disclosure = stock.get('dart_disclosures',{})
             for x in disclosure.get('latest',[]):
                 if key in topic_ids(x.get('title','')):
                     try:
-                        date = datetime.strptime(x['date'],'%Y%m%d').replace(tzinfo=timezone.utc)
+                        date = datetime.strptime(x['date'],'%Y%m%d').replace(tzinfo=timezone(timedelta(hours=9)))
                         if not 0 <= (now-date).total_seconds() <= 7*86400: continue
                     except (KeyError, ValueError): continue
                     evidence.append(dict(annotate(x), source='DART', published=x['date'], link='https://dart.fss.or.kr/dsaf001/main.do?rcpNo='+str(x.get('rcept_no',''))))
@@ -78,7 +101,7 @@ def build_themes(stocks, news_map, independent=None, errors=None, now=None):
         for item in independent.get(key,[]):
             if key not in topic_ids(item.get('title','')) or not recent(item,now): continue
             item = annotate(item)
-            item['mentioned_codes'] = [str(s['code']) for s in stocks if len(str(s.get('name','')))>=2 and str(s['name']) in item['title']]
+            item['mentioned_codes'] = [str(s['code']) for s in stocks if company_match(item['title'], str(s.get('name','')), str(s['code']))]
             articles.append(item)
             for code in item['mentioned_codes']:
                 candidate = next((s for s in candidates if s['code']==code),None)
@@ -92,5 +115,8 @@ def build_themes(stocks, news_map, independent=None, errors=None, now=None):
             if title in dedup:
                 dedup[title]['mentioned_codes'] = sorted(set(dedup[title]['mentioned_codes']+item['mentioned_codes']))
             else: dedup[title] = dict(item)
+        for candidate in candidates:
+            candidate['evidence'] = list({x.get('title',''):x for x in candidate['evidence']}.values())[:4]
         out.append({'id':key,'label':label,'watch':watch,'articles':sorted(dedup.values(),key=lambda x:x.get('published',''),reverse=True)[:12], 'candidates':candidates,'errors':errors.get(key,[]),'independent_search':key in independent})
     return out
+

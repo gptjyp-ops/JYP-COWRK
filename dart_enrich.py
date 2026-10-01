@@ -3,9 +3,10 @@ from __future__ import annotations
 import io
 import json
 import os
+import re
 import time
 import zipfile
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -15,6 +16,7 @@ DATA_PATH = Path("stock-miner-data.json")
 DART_BASE = "https://opendart.fss.or.kr/api"
 REQUEST_DELAY = 0.12
 LOOKBACK_DAYS = 90
+KST = timezone(timedelta(hours=9))
 
 POSITIVE_KEYWORDS = (
     "단일판매ㆍ공급계약", "단일판매·공급계약", "공급계약", "수주",
@@ -40,10 +42,16 @@ def n(v):
 
 
 def get_json(url: str, params: dict) -> dict:
-    r = requests.get(url, params=params, timeout=20)
-    r.raise_for_status()
-    data = r.json()
-    return data if isinstance(data, dict) else {}
+    try:
+        r = requests.get(url, params=params, timeout=20)
+        r.raise_for_status()
+        data = r.json()
+    except (requests.RequestException, ValueError):
+        # Do not include URLs containing crtfc_key in public error records.
+        raise RuntimeError("DART 통신 또는 JSON 응답 오류") from None
+    if not isinstance(data, dict):
+        raise RuntimeError("DART 응답 형식 오류")
+    return data
 
 
 def load_corp_map(api_key: str) -> dict[str, str]:
@@ -75,16 +83,32 @@ def report_candidates(now: datetime):
 
 
 def find_account(rows: list[dict], names: tuple[str, ...], ids: tuple[str, ...] = ()) -> dict | None:
-    for r in rows:
-        aid = str(r.get("account_id", ""))
-        anm = str(r.get("account_nm", "")).replace(" ", "")
-        if aid in ids or any(k.replace(" ", "") in anm for k in names):
-            return r
+    statements = [r for r in rows if r.get("sj_div") in ("IS", "CIS")]
+    for row in statements:
+        if str(row.get("account_id", "")) in ids:
+            return row
+    normalize = lambda text: re.sub(r"[\s()（）]", "", text)
+    allowed = {normalize(name) for name in names}
+    for row in statements:
+        if normalize(str(row.get("account_nm", ""))) in allowed:
+            return row
     return None
 
 
+def profit_state(cur, prev):
+    if cur is None: return "missing"
+    if cur > 0:
+        if prev is None: return "profitable_unknown_growth"
+        if prev <= 0: return "turnaround"
+        return "profitable_growth" if cur > prev else "profitable_decline"
+    if cur == 0: return "break_even"
+    if prev is None: return "loss_unknown_growth"
+    if prev >= 0: return "turned_loss"
+    return "loss_narrowing" if cur > prev else "loss_widening"
+
+
 def financials(api_key: str, corp_code: str) -> dict:
-    now = datetime.now()
+    now = datetime.now(KST)
     for year, reprt_code, label in report_candidates(now):
         for fs_div in ("CFS", "OFS"):
             data = get_json(
@@ -101,11 +125,11 @@ def financials(api_key: str, corp_code: str) -> dict:
             if status == "013":
                 continue
             if status != "000":
-                continue
+                raise RuntimeError(f"DART 재무 조회 오류 (코드 {status})")
             rows = data.get("list") or []
             op = find_account(
                 rows,
-                ("영업이익", "영업손익"),
+                ("영업이익", "영업손익", "영업이익(손실)", "영업손실"),
                 ("ifrs-full_ProfitLossFromOperatingActivities",),
             )
             rev = find_account(
@@ -158,6 +182,14 @@ def financials(api_key: str, corp_code: str) -> dict:
                 "op_margin": round(op_margin, 2) if op_margin is not None else None,
                 "turnaround": bool(turnaround),
                 "financial_score": fin_score,
+                "financial_status": "missing_values" if any(x is None for x in (cur_op, prev_op, cur_rev, prev_rev)) else "not_comparable" if prev_op == 0 else "ok",
+                "profit_state": profit_state(cur_op, prev_op),
+                "op_current": cur_op, "op_previous": prev_op,
+                "revenue_current": cur_rev, "revenue_previous": prev_rev,
+                "financial_period": "annual" if is_annual else "year_to_date",
+                "financial_rcept_no": op.get("rcept_no"),
+                "financial_account_id": op.get("account_id"),
+                "financial_statement": op.get("sj_div"),
             }
     return {
         "report_year": None,
@@ -169,33 +201,38 @@ def financials(api_key: str, corp_code: str) -> dict:
         "op_margin": None,
         "turnaround": False,
         "financial_score": 0.0,
+        "financial_status": "unavailable",
+        "profit_state": "missing",
     }
 
 
 def disclosures(api_key: str, corp_code: str) -> dict:
-    end = datetime.now().date()
+    end = datetime.now(KST).date()
     begin = end - timedelta(days=LOOKBACK_DAYS)
-    data = get_json(
-        f"{DART_BASE}/list.json",
-        {
-            "crtfc_key": api_key,
-            "corp_code": corp_code,
-            "bgn_de": begin.strftime("%Y%m%d"),
-            "end_de": end.strftime("%Y%m%d"),
-            "last_reprt_at": "Y",
-            "sort": "date",
-            "sort_mth": "desc",
-            "page_count": "100",
-        },
-    )
-    if str(data.get("status")) == "013":
-        return {"positive": [], "risk": [], "latest": [], "disclosure_score": 0.0, "risk_penalty": 0.0}
-    if str(data.get("status")) != "000":
-        return {"positive": [], "risk": [], "latest": [], "disclosure_score": 0.0, "risk_penalty": 0.0}
+    rows = []
+    for page in range(1, 21):
+        data = get_json(f"{DART_BASE}/list.json", {
+            "crtfc_key": api_key, "corp_code": corp_code,
+            "bgn_de": begin.strftime("%Y%m%d"), "end_de": end.strftime("%Y%m%d"),
+            "last_reprt_at": "Y", "sort": "date", "sort_mth": "desc",
+            "page_count": "100", "page_no": str(page),
+        })
+        status = str(data.get("status", ""))
+        if status == "013":
+            return {"positive": [], "risk": [], "latest": [], "disclosure_score": 0.0, "risk_penalty": 0.0, "status": "no_filings", "queried_days": LOOKBACK_DAYS}
+        if status != "000":
+            raise RuntimeError(f"DART 공시 조회 오류 (코드 {status})")
+        entries = data.get("list")
+        if not isinstance(entries, list):
+            raise RuntimeError("DART 공시 응답 목록 누락")
+        rows.extend(entries)
+        pages = int(data.get("total_page", 1))
+        if page >= pages: break
+        if page == 20: raise RuntimeError("DART 공시 조회 페이지 상한 초과")
+        time.sleep(REQUEST_DELAY)
 
-    rows = data.get("list") or []
     positive, risk, latest = [], [], []
-    for r in rows[:20]:
+    for r in rows:
         title = str(r.get("report_nm", "")).strip()
         item = {
             "title": title,
@@ -217,6 +254,9 @@ def disclosures(api_key: str, corp_code: str) -> dict:
         "latest": latest,
         "disclosure_score": disc_score,
         "risk_penalty": risk_penalty,
+        "status": "ok",
+        "queried_days": LOOKBACK_DAYS,
+        "queried_count": len(rows),
     }
 
 
@@ -247,6 +287,9 @@ def main():
         print(f"[{idx}/{len(stocks)}] {name} {code}")
         if not corp_code:
             s["dart_status"] = "고유번호 없음"
+            s["financial_status"] = "unavailable"
+            s["score_status"] = "partial"
+            s["score_final"] = final_score(s.get("score_base", 0), 0, 0, 0)
             continue
         try:
             fin = financials(api_key, corp_code)
@@ -271,9 +314,16 @@ def main():
             else:
                 s["disclosure"] = "특이공시 없음"
             s["stage"] = "집중관찰" if s["score_final"] >= 80 else "관찰" if s["score_final"] >= 70 else "대기"
-            s["dart_status"] = "완료"
+            s["score_status"] = "complete" if fin["financial_status"] in ("ok", "not_comparable") else "partial"
+            s["dart_status"] = "완료" if s["score_status"] == "complete" else "실적 일부 누락"
         except Exception as e:
-            s["dart_status"] = f"오류: {e}"
+            s["dart_status"] = "조회 실패"
+            s["dart_error"] = str(e)
+            s["financial_status"] = "error"
+            s["score_status"] = "partial"
+            s["score_final"] = final_score(s.get("score_base", 0), 0, 0, 0)
+            s["disclosure"] = "조회 실패"
+            s["dart_disclosures"] = {"status": "error", "positive": [], "risk": [], "latest": []}
             errors.append({"code": code, "name": name, "error": str(e)})
 
     stocks.sort(key=lambda x: x.get("score_final", x.get("score_base", 0)), reverse=True)
@@ -285,8 +335,10 @@ def main():
         "status": "연결 완료",
         "lookback_days": LOOKBACK_DAYS,
         "errors": errors,
+        "complete_count": sum(s.get("score_status") == "complete" for s in stocks),
+        "partial_count": sum(s.get("score_status") != "complete" for s in stocks),
     }
-    payload["generated_at_dart"] = datetime.now().isoformat(timespec="seconds")
+    payload["generated_at_dart"] = datetime.now(KST).isoformat(timespec="seconds")
     DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n[DART 완료] {DATA_PATH.resolve()}")
     print(f"성공 {len(stocks) - len(errors)}개 / 오류 {len(errors)}개")
@@ -297,3 +349,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

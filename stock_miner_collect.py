@@ -2,8 +2,9 @@ from __future__ import annotations
 
 import json
 import os
+import math
 import time
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from kiwoom import get_client, KiwoomError
@@ -14,6 +15,8 @@ SOURCE_LIMIT = 120  # 각 경로에서 필터를 통과한 고유 종목 수
 MAX_SOURCE_PAGES = 20  # API 호출의 상한; 목표 개수를 보장하지는 않음
 MAX_CANDIDATES = 300
 SOURCE_DIAGNOSTICS = {}
+STOCK_DIAGNOSTICS = {}
+KST = timezone(timedelta(hours=9))
 MIN_PRICE = 500
 MAX_ABS_CHANGE = 20.0
 
@@ -34,6 +37,38 @@ def num(v, default=0.0):
         return default
 
 
+def required_num(value, field):
+    if value is None or str(value).strip() in ("", "-", "--"):
+        raise RuntimeError(f"필수 숫자 누락: {field}")
+    try:
+        number = float(str(value).strip().replace(",", "").replace("+", ""))
+    except (ValueError, TypeError):
+        raise RuntimeError(f"필수 숫자 형식 오류: {field}") from None
+    if not math.isfinite(number):
+        raise RuntimeError(f"유효하지 않은 숫자: {field}")
+    return number
+
+
+def dated_rows(rows, minimum, label):
+    unique = {}
+    today = datetime.now(KST).strftime("%Y%m%d")
+    for row in rows:
+        date = str(row.get("dt", ""))
+        try:
+            datetime.strptime(date, "%Y%m%d")
+        except ValueError:
+            raise RuntimeError(f"{label} 일자 누락 또는 형식 오류") from None
+        if date > today:
+            raise RuntimeError(f"{label} 미래 일자 응답")
+        if date in unique and unique[date] != row:
+            raise RuntimeError(f"{label} 동일 일자 상충 데이터")
+        unique[date] = row
+    result = [unique[date] for date in sorted(unique, reverse=True)]
+    if len(result) < minimum:
+        raise RuntimeError(f"{label} 고유 일자 {minimum}개 미만")
+    return result
+
+
 def fetch(api_id: str, path: str, body: dict, want_key: str, max_pages: int = 1, max_rows: int | None = None):
     client = get_client()
     rows = []
@@ -44,9 +79,10 @@ def fetch(api_id: str, path: str, body: dict, want_key: str, max_pages: int = 1,
         rb = res.body
         if rb.get("return_code") not in (None, 0):
             raise RuntimeError(f"{api_id}: {rb.get('return_msg') or rb.get('return_code')}")
-        recs = rb.get(want_key, [])
-        if isinstance(recs, list):
-            rows.extend(x for x in recs if isinstance(x, dict))
+        recs = rb.get(want_key)
+        if not isinstance(recs, list) or any(not isinstance(x, dict) for x in recs):
+            raise RuntimeError(f"{api_id}: 응답 목록 형식 오류 ({want_key})")
+        rows.extend(recs)
         if max_rows and len(rows) >= max_rows:
             break
         cont_yn = res.continuation.cont_yn
@@ -193,7 +229,7 @@ def collect_foreign_streak(pool: dict, filtered: list):
 
 
 def collect_institution_top(pool: dict, filtered: list):
-    today = datetime.now().strftime("%Y%m%d")
+    today = datetime.now(KST).strftime("%Y%m%d")
     collect_ranked(
         pool, filtered, "기관순매수", "orgn_netprps_stk_cd", "orgn_netprps_stk_nm",
         {"institution_rank_qty": "orgn_netprps_qty"},
@@ -218,6 +254,7 @@ def collect_volume_top(pool: dict, filtered: list):
 
 def collect_candidates():
     SOURCE_DIAGNOSTICS.clear()
+    STOCK_DIAGNOSTICS.clear()
     pool, filtered = {}, []
     collect_foreign_streak(pool, filtered)
     time.sleep(REQUEST_DELAY)
@@ -232,44 +269,43 @@ def collect_candidates():
 
 
 def investor_5d(code: str):
-    today = datetime.now().strftime("%Y%m%d")
-    rows = fetch(
-        "ka10059", "/api/dostk/stkinfo",
+    today = datetime.now(KST).strftime("%Y%m%d")
+    rows = fetch("ka10059", "/api/dostk/stkinfo",
         {"dt": today, "stk_cd": code, "amt_qty_tp": "2", "trde_tp": "0", "unit_tp": "1"},
-        "stk_invsr_orgn", max_pages=2, max_rows=5,
-    )
-    return (
-        sum(num(r.get("frgnr_invsr")) for r in rows[:5]),
-        sum(num(r.get("orgn")) for r in rows[:5]),
-        sum(num(r.get("ind_invsr")) for r in rows[:5]),
-    )
+        "stk_invsr_orgn", max_pages=2, max_rows=10)
+    rows = dated_rows(rows, 5, "수급")[:5]
+    sample = [{"date": r["dt"],
+               "foreign": required_num(r.get("frgnr_invsr"), "frgnr_invsr"),
+               "institution": required_num(r.get("orgn"), "orgn"),
+               "individual": required_num(r.get("ind_invsr"), "ind_invsr")} for r in rows]
+    STOCK_DIAGNOSTICS.setdefault(code, {})["investor"] = {"unit": "shares", "rows": sample}
+    return tuple(sum(r[key] for r in sample) for key in ("foreign", "institution", "individual"))
 
 
 def chart_metrics(code: str):
-    today = datetime.now().strftime("%Y%m%d")
-    rows = fetch(
-        "ka10081", "/api/dostk/chart",
+    today = datetime.now(KST).strftime("%Y%m%d")
+    rows = fetch("ka10081", "/api/dostk/chart",
         {"stk_cd": code, "base_dt": today, "upd_stkpc_tp": "1"},
-        "stk_dt_pole_chart_qry", max_pages=3, max_rows=70,
-    )
-    if len(rows) < 60:
-        raise RuntimeError("일봉 60개 미만")
-
-    prices = [abs(num(r.get("cur_prc"))) for r in rows if num(r.get("cur_prc")) != 0]
-    vols = [abs(num(r.get("trde_qty"))) for r in rows if num(r.get("trde_qty")) >= 0]
-    if len(prices) < 60 or len(vols) < 21:
-        raise RuntimeError("차트 데이터 부족")
-
+        "stk_dt_pole_chart_qry", max_pages=3, max_rows=70)
+    rows = dated_rows(rows, 60, "일봉")[:60]
+    prices = [abs(required_num(r.get("cur_prc"), "cur_prc")) for r in rows]
+    vols = [required_num(r.get("trde_qty"), "trde_qty") for r in rows]
+    if any(price <= 0 for price in prices) or any(volume < 0 for volume in vols):
+        raise RuntimeError("차트 가격 또는 거래량 범위 오류")
     current = prices[0]
-    ma20 = sum(prices[:20]) / 20
-    ma60 = sum(prices[:60]) / 60
-    prev20 = vols[1:21]
-    avg20vol = sum(prev20) / 20 if prev20 else 0
-    vol_ratio = (vols[0] / avg20vol) if avg20vol else 0
-    dist20 = ((current / ma20) - 1) * 100 if ma20 else 0
-    dist60 = ((current / ma60) - 1) * 100 if ma60 else 0
-    change = (current / prices[1] - 1) * 100 if prices[1] else 0
-    return current, change, vol_ratio, dist20, dist60
+    ma20, ma60 = sum(prices[:20]) / 20, sum(prices[:60]) / 60
+    avg20vol = sum(vols[1:21]) / 20
+    if avg20vol <= 0:
+        raise RuntimeError("과거 20일 평균 거래량 0 이하")
+    metrics = (current, (current / prices[1] - 1) * 100, vols[0] / avg20vol,
+               (current / ma20 - 1) * 100, (current / ma60 - 1) * 100)
+    STOCK_DIAGNOSTICS.setdefault(code, {})["chart"] = {
+        "adjusted_prices": True, "exchange": "KRX",
+        "volume_basis": "intraday_cumulative_vs_previous_20_full_days",
+        "rows": [{"date": r["dt"], "price": price, "volume": volume} for r, price, volume in zip(rows, prices, vols)],
+        "ma20": ma20, "ma60": ma60, "previous_20_average_volume": avg20vol,
+    }
+    return metrics
 
 
 def postfilter_reason(price: float, change: float, vol_ratio: float) -> str | None:
@@ -327,6 +363,7 @@ def local_score(f5, i5, vol_ratio, dist20, dist60, streak_total, sources):
 
 
 def main():
+    started = datetime.now(KST).isoformat(timespec="seconds")
     print("[1/4] 외국인 연속순매수 후보")
     print("[2/4] 기관 순매수 상위 후보")
     print("[3/4] 거래량 상위 후보")
@@ -381,6 +418,11 @@ def main():
                 "op_yoy": None,
                 "disclosure": "DART 대기",
                 "theme": "분류 전",
+                "market_data_status": "input_checked",
+                "quote_date": STOCK_DIAGNOSTICS[code]["chart"]["rows"][0]["date"],
+                "investor_dates": [r["date"] for r in STOCK_DIAGNOSTICS[code]["investor"]["rows"]],
+                "collected_at": datetime.now(KST).isoformat(timespec="seconds"),
+                "volume_basis": "intraday_cumulative_vs_previous_20_full_days",
             })
         except Exception as e:
             result.append({"code": code, "name": name, "sources": c.get("sources", []), "error": str(e)})
@@ -396,13 +438,17 @@ def main():
         "multi_source": sum(r.get("source_count", 0) >= 2 for r in good),
     }
     payload = {
-        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "generated_at": datetime.now(KST).isoformat(timespec="seconds"),
         "version": "stock-miner-collector-v3",
         "note": "외국인 연속순매수 + 기관 순매수 상위 + 거래량 상위 3개 입구를 통합한 뒤, 5일 수급·20일 거래량배수·20/60일선으로 점수화. DART 실적/공시는 아직 미합산.",
         "count": len(good),
         "filtered_count": len(filtered),
         "source_counts": source_counts,
-        "collector_revision": "expanded-candidates-1",
+        "collector_revision": "validated-inputs-2",
+        "collection_started_at": started,
+        "data_quality": {"status": "needs_review" if any(d["accepted"] == 0 or d["missing_identity"] or d["stop_reason"] == "response_schema_mismatch" for d in SOURCE_DIAGNOSTICS.values()) else "ok",
+            "empty_sources": [k for k, d in SOURCE_DIAGNOSTICS.items() if d["accepted"] == 0]},
+        "market_audit": {code: STOCK_DIAGNOSTICS[code] for code in (r["code"] for r in good)},
         "source_diagnostics": SOURCE_DIAGNOSTICS,
         "collection_limits": {"accepted_per_source": SOURCE_LIMIT,
                               "pages_per_source": MAX_SOURCE_PAGES,
@@ -434,3 +480,4 @@ if __name__ == "__main__":
         main()
     except KiwoomError as e:
         raise SystemExit(f"키움 API 오류: {e}")
+

@@ -20,6 +20,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Check data integrity rules
+        run: python -m unittest test_data_integrity test_momentum_themes
+
       - name: Collect news momentum
         run: python news_collect.py
 
@@ -34,3 +37,4 @@ jobs:
           git add data/news-momentum.json
           git commit -m "Update news momentum data"
           git push
+

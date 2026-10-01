@@ -14,7 +14,8 @@ SOURCE = ROOT / "stock-miner-data.json"
 DATA = ROOT / "data"
 META = DATA / "stock-miner-v4-meta.json"
 PARTS = [DATA / f"stock-miner-v4-part{i}.json" for i in (1, 2, 3)]
-PUBLISH_FILES = [META, *PARTS]
+AUDIT = DATA / "stock-miner-v4-audit.json"
+PUBLISH_FILES = [META, *PARTS, AUDIT]
 
 
 def run(*args: str) -> None:
@@ -56,10 +57,13 @@ def main() -> None:
 
     meta = {key: payload[key] for key in (
         "generated_at", "generated_at_dart", "version", "note", "count",
-        "filtered_count", "source_counts", "dart",
+        "filtered_count", "source_counts", "dart", "collector_revision",
+        "collection_started_at", "source_diagnostics", "collection_limits", "data_quality", "errors",
     ) if key in payload}
     meta["count"] = len(stocks)
     meta["parts"] = [path.name for path in PARTS]
+    meta["audit_file"] = AUDIT.name
+    AUDIT.write_text(json.dumps({"generated_at": payload["generated_at"], "collector_revision": payload.get("collector_revision"), "stocks": payload.get("market_audit", {})}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     META.write_text(json.dumps(meta, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     if sum(len(json.loads(path.read_text(encoding="utf-8"))) for path in PARTS) != len(stocks):
         raise ValueError("분할 데이터 개수가 맞지 않아 업로드하지 않습니다.")
@@ -85,3 +89,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

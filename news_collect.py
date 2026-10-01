@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from momentum_themes import THEMES, SPORTS, build_themes
+from momentum_themes import THEMES, SPORTS, build_themes, company_match, recent
 
 PARTS = [Path(f"data/stock-miner-v4-part{i}.json") for i in (1, 2, 3)]
 OUT = Path("data/news-momentum.json")
@@ -28,7 +28,7 @@ POSITIVE = (
 )
 NEGATIVE = (
     "유상증자", "전환사채", "CB", "감자", "최대주주 변경", "적자", "실적 부진",
-    "하향", "목표가 하향", "급락", "약세", "하락", "소송", "제재", "리콜", "중단",
+    "하향", "목표가 하향", "급락", "약세", "하락", "소송", "제재", "리콜", "중단", "해지", "철회", "실패",
 )
 STRONG = ("수주", "공급계약", "FDA", "흑자전환", "증설", "투자유치", "양산", "특허")
 
@@ -46,7 +46,7 @@ def load_stocks() -> list[dict]:
     return rows
 
 
-def rss_search(name: str, domain: str, *, theme_search=False) -> list[dict]:
+def rss_search(name: str, domain: str, *, theme_search=False, code="") -> list[dict]:
     query = f'({name}) site:{domain} when:{DAYS}d' if theme_search else f'"{name}" site:{domain} when:{DAYS}d'
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
         "q": query,
@@ -65,7 +65,7 @@ def rss_search(name: str, domain: str, *, theme_search=False) -> list[dict]:
         pub = (item.findtext("pubDate") or "").strip()
         source_node = item.find("source")
         source = (source_node.text or "").strip() if source_node is not None else ""
-        if SPORTS.search(title) or (not theme_search and name not in title):
+        if SPORTS.search(title) or (not theme_search and not company_match(title, name, code)):
             continue
         dt = None
         try:
@@ -83,10 +83,11 @@ def rss_search(name: str, domain: str, *, theme_search=False) -> list[dict]:
     return out
 
 
-def score_news(items: list[dict]) -> tuple[int, str, list[str]]:
+def score_news(items: list[dict], now=None) -> tuple[int, str, list[str]]:
     score = 0.0
     reasons = []
-    now = datetime.now(timezone.utc)
+    now = now or datetime.now(timezone.utc)
+    items = [x for x in items if recent(x, now) and not SPORTS.search(x.get("title", ""))]
     for item in items:
         title = item.get("title", "")
         age_weight = 1.0
@@ -101,6 +102,8 @@ def score_news(items: list[dict]) -> tuple[int, str, list[str]]:
 
         pos = [k for k in POSITIVE if k.lower() in title.lower()]
         neg = [k for k in NEGATIVE if k.lower() in title.lower()]
+        if any(k in title for k in ("해지", "철회", "실패")):
+            pos = []
         if pos:
             score += (2.0 if any(k in title for k in STRONG) else 1.0) * age_weight
             reasons.extend(pos[:1])
@@ -117,6 +120,8 @@ def score_news(items: list[dict]) -> tuple[int, str, list[str]]:
 
 def main():
     stocks = load_stocks()
+    if not stocks:
+        raise RuntimeError("시세 종목 목록이 비어 있어 뉴스 게시를 중단합니다.")
     result = {}
     print(f"[뉴스] {len(stocks)}종목 / 머니투데이+연합뉴스 / 최근 {DAYS}일")
 
@@ -130,7 +135,8 @@ def main():
         errors = []
         for source_name, domain in SOURCES:
             try:
-                found = rss_search(name, domain)
+                found = rss_search(name, domain, code=code)
+                found = [x for x in found if recent(x, datetime.now(timezone.utc))]
                 for x in found:
                     x["source_group"] = source_name
                 items.extend(found)
@@ -159,6 +165,7 @@ def main():
             "news_reasons": reasons,
             "news": dedup,
             "errors": errors,
+            "news_status": "partial" if errors and dedup else "error" if errors else "ok" if dedup else "no_articles",
         }
 
     independent, theme_errors = {}, {}
@@ -179,6 +186,8 @@ def main():
         "lookback_days": DAYS,
         "sources": [x[0] for x in SOURCES],
         "stocks": result,
+        "input_generated_at": json.loads(Path("data/stock-miner-v4-meta.json").read_text(encoding="utf-8")).get("generated_at") if Path("data/stock-miner-v4-meta.json").exists() else None,
+        "matching_revision": "company-boundary-v2",
         "themes": build_themes(stocks, result, independent, theme_errors),
         "theme_method": "최근 7일 기사·공시 제목 기반. 기업 업종 및 직접 수혜 확정 아님.",
     }
@@ -189,4 +198,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
