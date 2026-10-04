@@ -4,6 +4,7 @@ import json
 import time
 import urllib.parse
 import urllib.request
+import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -12,6 +13,7 @@ from momentum_themes import THEMES, SPORTS, build_themes, company_match, recent
 
 PARTS = [Path(f"data/stock-miner-v4-part{i}.json") for i in (1, 2, 3)]
 OUT = Path("data/news-momentum.json")
+STATUS = Path("data/news-momentum-status.json")
 DAYS = 7
 MAX_ITEMS = 6
 REQUEST_DELAY = 0.25
@@ -55,8 +57,17 @@ def rss_search(name: str, domain: str, *, theme_search=False, code="") -> list[d
         "ceid": "KR:ko",
     })
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 StockMiner/1.0"})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        root = ET.fromstring(r.read())
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                root = ET.fromstring(r.read())
+            break
+        except (urllib.error.URLError, TimeoutError) as error:
+            if isinstance(error, urllib.error.HTTPError) and error.code not in (429, 500, 502, 503, 504):
+                raise
+            if attempt == 2:
+                raise
+            time.sleep(2 ** attempt)
 
     out = []
     for item in root.findall("./channel/item")[:MAX_ITEMS]:
@@ -118,11 +129,13 @@ def score_news(items: list[dict], now=None) -> tuple[int, str, list[str]]:
     return score, label, list(dict.fromkeys(reasons))[:5]
 
 
-def main():
+def collect_payload():
     stocks = load_stocks()
     if not stocks:
         raise RuntimeError("시세 종목 목록이 비어 있어 뉴스 게시를 중단합니다.")
     result = {}
+    successful_queries = 0
+    attempted_queries = 0
     print(f"[뉴스] {len(stocks)}종목 / 머니투데이+연합뉴스 / 최근 {DAYS}일")
 
     for idx, s in enumerate(stocks, 1):
@@ -134,8 +147,10 @@ def main():
         items = []
         errors = []
         for source_name, domain in SOURCES:
+            attempted_queries += 1
             try:
                 found = rss_search(name, domain, code=code)
+                successful_queries += 1
                 found = [x for x in found if recent(x, datetime.now(timezone.utc))]
                 for x in found:
                     x["source_group"] = source_name
@@ -167,18 +182,26 @@ def main():
             "errors": errors,
             "news_status": "partial" if errors and dedup else "error" if errors else "ok" if dedup else "no_articles",
         }
+        # Stop a widespread outage without repeatedly hammering the same RSS service.
+        if attempted_queries >= 6 and successful_queries == 0:
+            raise RuntimeError("뉴스 조회가 연속 실패했습니다. 기존 게시 자료를 보존합니다. " + "; ".join(errors))
 
     independent, theme_errors = {}, {}
     for key, label, _, query, _ in THEMES:
         independent[key], theme_errors[key] = [], []
         print(f"[관심 모멘텀] {label}")
         for source_name, domain in SOURCES:
+            attempted_queries += 1
             try:
                 found = rss_search(query, domain, theme_search=True)
+                successful_queries += 1
                 independent[key].extend(dict(x, source_group=source_name) for x in found)
             except Exception as e:
                 theme_errors[key].append(f"{source_name}: {e}")
             time.sleep(REQUEST_DELAY)
+
+    if successful_queries == 0:
+        raise RuntimeError("뉴스 조회가 모두 실패했습니다. 기존 게시 자료를 보존합니다.")
 
     payload = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
@@ -188,12 +211,44 @@ def main():
         "stocks": result,
         "input_generated_at": json.loads(Path("data/stock-miner-v4-meta.json").read_text(encoding="utf-8")).get("generated_at") if Path("data/stock-miner-v4-meta.json").exists() else None,
         "matching_revision": "company-boundary-v2",
+        "collection_status": "partial" if successful_queries < attempted_queries else "ok",
+        "successful_queries": successful_queries,
+        "attempted_queries": attempted_queries,
         "themes": build_themes(stocks, result, independent, theme_errors),
         "theme_method": "최근 7일 기사·공시 제목 기반. 기업 업종 및 직접 수혜 확정 아님.",
     }
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"완료: {OUT} / {len(result)}종목")
+    return payload
+
+
+def write_json(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    temporary.replace(path)
+
+
+def main():
+    attempted_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    try:
+        payload = collect_payload()
+        write_json(OUT, payload)
+    except Exception as error:
+        write_json(STATUS, {
+            "attempted_at": attempted_at,
+            "status": "error",
+            "message": str(error),
+            "preserved_previous_data": OUT.exists(),
+        })
+        raise
+    write_json(STATUS, {
+        "attempted_at": attempted_at,
+        "status": payload["collection_status"],
+        "last_success_at": payload["generated_at"],
+        "successful_queries": payload["successful_queries"],
+        "attempted_queries": payload["attempted_queries"],
+        "preserved_previous_data": False,
+    })
+    print(f"완료: {OUT} / {len(payload['stocks'])}종목 / 조회 {payload['successful_queries']}/{payload['attempted_queries']} 성공")
 
 
 if __name__ == "__main__":
