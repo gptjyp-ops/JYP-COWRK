@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:23:27+00:00",
+  "generated_at": "2026-10-04T19:37:41+00:00",
   "version": "stock-miner-news-v1",
   "lookback_days": 7,
   "sources": [
@@ -1086,7 +1086,7 @@
         },
         {
           "title": "롯데관광개발, 'TTG 트래블 어워드'서 명예의 전당 트로피 받아 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqNlE5V0h6UloxYUFtLWJ2VXhXOUZZR1Z6T2xvWWpRQ2Z2b3J0bTlrazhWUUhmSHI4M2g5dEdrYW9RTjR1bzF2WGgwYTc2clRsVWlwM0ZGcE12WFk?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqNlE5V0h6UloxYUFtLWJ2VXhXOUZZR1Z6T2xvWWpRQ2Z2b3J0bTlrazhWUUhmSHI4M2g5dEdrYW9RTjR1bzF2WGgwYTc2clRsVWlwM0ZGcE12WFnSAWBBVV95cUxNd205NU1vYnpCS0hDX1FyRFZ3N0sxTGV0QVVMWnRmbGtWMExxRWlXYS1MdGFBQXdtR3B6RGZiNjM2MlBvTzRpS3NhbGdjU0NFdXhfM3BIRW9FQjliU1NySlg?oc=5",
           "published": "2026-09-28T02:04:38+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스"
@@ -3277,11 +3277,24 @@
       "watch": "인프라 투자·서비스 계약·전력 수요",
       "articles": [
         {
-          "title": "트럼프 \"美선두 유지\" 슈퍼지능TF 발족…AI차르에 국가정보국장 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1SXzRJRV9mVF9adG5IQUFCTkxhYjI5VXVNN2ZrOGRObUw0UDBSMENrZXBXMG1tMkFlM3pONnpuZzQ2bVNlS2pCNlo0eW5FMjY2a1IxaE9CbnVIUzTSAWBBVV95cUxPRlFKY3Q1MEs5WnFxU0JzRk9qRElYZ1NObTh3dGxkS2xaSVBPVFFwdzVrNFdzQ1hJODRPNXJ5TFE0OGxXdkdaTkV4ckVmUTZsbktWOUN2ZHBhcmVya1pZYjk?oc=5",
-          "published": "2026-10-04T14:07:57+00:00",
+          "title": "구글 제미나이 AI요금 개편…월10달러 내도 '프로' 모델 못쓴다 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZbEtjekVDdGVqTzVJMl9DT1ZlQ3RfVi1NWEdxWlBwMmo5MFppRHlqb2pfeXVPa3RfMUhxcXh3YV9mdGhOOGJWeEptM2FhN0FVb3NHQ0Q2VTVMODTSAWBBVV95cUxNRjhtcG95QlZ6a0JveHY5SHhKczNCcGZhRTI4ZzAwS213b1F3UE1mU3dqT3diTHhrX1BELXBwbkwtNkxDT05FOVk5Ul8wR0RvSEJoMmxmNnVsdGNFNjhCVV8?oc=5",
+          "published": "2026-10-04T17:27:55+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
+          "theme_ids": [
+            "ai"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "'AI 차르' 띄우고 직접 보고 받는다…트럼프, 국가 컨트롤타워 신설 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TUFdMVksyUVJ4YnU4Q1BmcGdGQkpPNEw0RDc2QVlSMDJZMDNyR0c3UWpnVHhZQk1DdmxzZXhSQ19iZFR1MW04YV9wdnlvYmV5LUJRbjFKZTNWUENxVE5SSWQyY3l1UHJQ0gFuQVVfeXFMT0hOVU13eGhhZ1NreTNXaXY1ZzZIV0xUT244V1hMSmE5Q1V5SFpGVnpFcHo3RmpydnRkMWlJcFU0V244MFJpdWpSRlNlMkZDSENaOHl2bXpKajNJdXFvWXhoenlULWFBenlySDVHYXc?oc=5",
+          "published": "2026-10-04T15:42:59+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
           "theme_ids": [
             "ai"
           ],
@@ -3307,19 +3320,6 @@
           "title": "추석 연휴에 털린 모우다·PFCT… 온투업권까지 퍼진 AI 공격 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rcnVSTWZhX0tyNzl3SmlZVktMenBPRGhydTFkbmM1WHdQenQ0Wm5WaE52ekVNM2RoLTNTekVaZnVJNlZXVWNncHJSUFV5WmVtalhDS3hEZTJCYUxwZF9qOVJadXZYcTVRNDJB0gFwQVVfeXFMTV9DMHF6czZYQm1oWTFKMmxXbEFlX3U0NDR4WG9mRnJBREVURUVVemo4cEwzS2tBdkVlVTVhUWs2SExoeTAzVk9CNXFnTVljRlNQbWthdmhDbHljeVNoY3o3NHU5VkcxaVJTTmpjSjJyVg?oc=5",
           "published": "2026-10-04T09:17:47+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "ai"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "가상자산·증권업계, 잇단 금융권 AI 해킹 사고에 보안 점검 나서 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tSGN3ZFlvTnA5NFBYZTFRdVlIUU5NaldqdnhHcndwNTZsWTZ1ZVpzZmQtc3dYWmE4Z3JVa2p4Z3Nsc0FUZUduZ3lITXhNWlVPUnI2bzhDUlBpZ180SVByZ3NtXzlHYkRh0gFuQVVfeXFMT2FpSkVheXZNUURUMjJlMFdNMzFYTkQ4TlVsdk4tbjFNTmlhUlNQQzFNVGxQMlZRaUtpM3UxX3RZNERueTUwbkdZLWp6dmJlaFphaXIxSXJkcVFJSldZcWw3Zkt4RFRmYU5yaUJyRlE?oc=5",
-          "published": "2026-10-04T07:46:22+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
           "theme_ids": [
@@ -3773,19 +3773,6 @@
       "watch": "망 투자·요금 정책·설비 계약",
       "articles": [
         {
-          "title": "[특징주] 광통신주, 美광통신 강세 등에 줄상승(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9od1FGdVU0dVBLY2I5ampDSFdkcm1WcUgwWmxlR2xyMDZlNGhFZGl4MmlsNjZmQW9LZEdnTjhTTk1EV01XMjhVUFJHWmxMbjg2bUVoc3pvZ1hIajDSAWBBVV95cUxONm5LMl9Del9SbEozQW1NbmdaNVNCVHdpN1R0UDY2V0RvZHBGNDF2Z0tTNV9tc3dKRWhRSElSeC1xeEtpTHJrMmFQaS1jNnNjN1B4d1FaRS04QmFiTnlDdno?oc=5",
-          "published": "2026-10-02T06:41:46+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "telecom"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
           "title": "\"오늘은 우주·광통신이다\" NASA 프로젝트발 테마주 강세 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41N2N1cjlndVV5RUZkRHhuRGVkd3pWRzRtZkRmY0ZNOHZDZGQ4cWhOZWFOdm9jejdiTmtJaXNDaHlOUGw1dXdMajd5T3FGRG8xdlBVR1hMYnVpblQtVUV4U3Q1OGtxUjc00gFuQVVfeXFMTWpJSXhUTDJsOC1DcWtHaUZ2VDh4Z01nWTBVSlZpMldQUGtDZVp5RENBMTNTYWpkUDJCX2gwVDR6SE9VZUZNUUVXRndoLTRNV1dVQlQ4cTFiWkhaUDJDcWcwSl9pX1k3SHFvR3d2VEE?oc=5",
           "published": "2026-10-02T02:55:30+00:00",
@@ -3800,8 +3787,8 @@
           "mentioned_codes": []
         },
         {
-          "title": "AI 데이터센터 투자 확대에 광통신株 '덩실' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vN1lyMG00amxDMEt3U0ZJcndMdExyajdwUG50OVNOb0Q0MmE4TXotX2l5TWo0RDMwbDkxSld0LUlITFRQUUhTUnhQNFhFWE9qUFZjbjhmUW5WZXlBVWZDVG9XZGlwS0JY0gFuQVVfeXFMUFgzSDU4NmV3OUJiLTI1TUhTVjN2a3pnN3RaVkxkTW5Za0tGSWdNcXgzVjhVbFFOSmZWTTBvWWZHbi1vRmk3SFBKMF85bzlhYTJESXNsckQ1N2w5Y3o5MjE2SDhJM3A2LThCU0c1bkE?oc=5",
+          "title": "AI 데이터센터 투자 확대에 광통신株 '덩실' - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vN1lyMG00amxDMEt3U0ZJcndMdExyajdwUG50OVNOb0Q0MmE4TXotX2l5TWo0RDMwbDkxSld0LUlITFRQUUhTUnhQNFhFWE9qUFZjbjhmUW5WZXlBVWZDVG9XZGlwS0JY?oc=5",
           "published": "2026-10-02T00:38:09+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -3874,8 +3861,8 @@
         },
         {
           "title": "송경희 개보위원장, 통신 3사 CEO와 간담회 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9saXZTUGJkYzYzeWtCTlVPZ3NqM3F4bWJsNFh4SVZGbDh0Z3hVZ1VuS015OHE3YkNGbFlMWVZTT19sWlBHdVltM0hHR0Zoa0F5RGhRSG1GUnA2M0pQUVItVdIBYEFVX3lxTE9saXZTUGJkYzYzeWtCTlVPZ3NqM3F4bWJsNFh4SVZGbDh0Z3hVZ1VuS015OHE3YkNGbFlMWVZTT19sWlBHdVltM0hHR0Zoa0F5RGhRSG1GUnA2M0pQUVItVQ?oc=5",
-          "published": "2026-09-28T07:34:11+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91NDhtSVRMUHo1RXJORllSU3R4bXpMNTE0Y1hKX3U4eHZ5cXloY1E4ZXdMRThLSklfc3dDbE5yTS1RNjdIeHF5UWJ3R1ZobWo5Mk9aa3I3NFI2ZVHSAWBBVV95cUxNTUc3WjdvUHloREg2MndxVGRCcldnblBmR0d6QUZWVWRhQUdqY1NkVW1vRWV2eTB4X05VQmstMy10WjZZZGlCMlpKSWVOWE05UHl5bFRBckNLVDVpcm5HN3g?oc=5",
+          "published": "2026-09-28T07:34:40+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
           "theme_ids": [
@@ -4331,7 +4318,7 @@
       "articles": [
         {
           "title": "지상전에 로봇 대세…우크라, 러에 빼앗겼던 영토 대거 탈환 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uaXJndUFzemY0bjkzS0c4U1ZDeHBpUnJuTzVfNDEtOTQxR0dPUVpYdUZFUlhiaTgwd19nMW1sUFhXVHZoU3JXM3hlalA2RFNCaXVjMldQZTZ4R2NGN1lQadIBYEFVX3lxTE9uaXJndUFzemY0bjkzS0c4U1ZDeHBpUnJuTzVfNDEtOTQxR0dPUVpYdUZFUlhiaTgwd19nMW1sUFhXVHZoU3JXM3hlalA2RFNCaXVjMldQZTZ4R2NGN1lQaQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpeFJMRWZlUWdxcGdKaEdzMGQ0T1FKM1Q2NndvMDg0VjFJNE1BZUNTOENaMFlVT0sya0JXSy1aUjBNdHNfRnI4Y2lWREFsWVh1eDBBeW9MczI2aVXSAWBBVV95cUxPbmlyZ3VBc3pmNG45M0tHOFNWQ3hwaVJybk81XzQxLTk0MUdHT1FaWHVGRVJYYmk4MHdfZzFtbFBYV1R2aFNyVzN4ZWpQNkRTQml1YzJXUGU2eEdjRjdZUGk?oc=5",
           "published": "2026-10-04T11:45:12+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -4372,7 +4359,7 @@
         },
         {
           "title": "서울연구원, 6일 퀘벡·플랑드르와 'AI·도시로봇 협력 세미나' - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hN0x6UElIVmFoUVFPcjVZLU1ZQ1kwVU5RS05Pa19teGNpYS1icy1nSjdBd2hldW5ubkFQWUxKZDF2N1dBYU1tNDktdERtc2ZUUFFHS3VTbVFRbUHSAWBBVV95cUxOOGo2RWgtMHk2QlByREpXZ05vbk5jaklWVllrZ0k3UHVJUDd0eGtFMHB2bTBFako5RDdCamFJbnBKR0FPaWNrU2duSGVxYjJkWXZCajlqYlJEQmw4alNpSXc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT3J5SWdsNUdpWDd4UXJ3VDJnaUZ1d1BHRG90UnJXVzkzQjhqb2l1WWhyQWJ4dE9mY2dXUk1SbTdxUlRMWnh3bjVBMU5xMllSWXNhUDBwQ21YUVRqVkg5ZjJFTjBRM0UwVW02bnRob0p1MkZyWEg0YkJJS2EzZWhBYdIBYEFVX3lxTE44ajZFaC0weTZCUHJESldnTm9uTmNqSVZWWWtnSTdQdUlQN3R4a0UwcHZtMEVqSjlEN0JqYUlucEpHQU9pY2tTZ25IZXFiMmRZdkJqOWpiUkRCbDhqU2lJdw?oc=5",
           "published": "2026-10-04T02:15:01+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
