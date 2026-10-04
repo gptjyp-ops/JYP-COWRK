@@ -1,8 +1,8 @@
 {
-  "status": "error",
-  "attempted_at": "2026-10-04T01:12:30+00:00",
-  "last_success_at": "2026-10-03T21:14:37+00:00",
-  "preserved_previous_data": true,
-  "message": "최근 실행에서 모든 종목과 분야의 RSS 조회가 HTTP 503으로 실패했습니다. 이전 정상 게시 기록을 복원했습니다.",
-  "restored_from_commit": "a6b3da1bb428d04ef6968037998e8c6e95b365bb"
+  "attempted_at": "2026-10-04T08:25:26+00:00",
+  "status": "ok",
+  "last_success_at": "2026-10-04T08:27:34+00:00",
+  "successful_queries": 276,
+  "attempted_queries": 276,
+  "preserved_previous_data": false
 }
