@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T07:23:02+00:00",
+  "generated_at": "2026-10-05T16:06:28+00:00",
   "version": "stock-miner-news-v1",
   "lookback_days": 7,
   "sources": [
@@ -459,19 +459,11 @@
       "name": "아이티센글로벌",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 1,
+      "news_count": 0,
       "news_reasons": [],
-      "news": [
-        {
-          "title": "[더벨]아이티센글로벌, KGLD 시범 발행·상환 검증 완료 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zaEV2WXFxeWJ2UnVUUHZ2OXEtQVFWcXF4SlRUdW5IS2tLLVlFVjBDYlhHYVl2Vml3bWxJV2NINEpSUmlUcWc0QkhrcXRaZ05KT2JUYm9uLTlKSEtfck42cnhiUmRRbjNs0gFuQVVfeXFMTS1HR2FPYkRLZlNWUUplMUxBNjdmSFZyVlhhaU1rSG9BNUlNQkZwUjhlWGsxT2pZWnNjZUgtRmFJMnZ6X0x6YWdmZ00zbHRuQ2xGU1dIaEZlU0JjN3JhWjFWMFBLZWFMc3pmX3FHbVE?oc=5",
-          "published": "2026-09-28T07:27:34+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
-        }
-      ],
+      "news": [],
       "errors": [],
-      "news_status": "ok"
+      "news_status": "no_articles"
     },
     "316140": {
       "code": "316140",
@@ -560,19 +552,11 @@
       "name": "LG에너지솔루션",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 1,
+      "news_count": 0,
       "news_reasons": [],
-      "news": [
-        {
-          "title": "[고래사냥] '한화솔루션·디케이락·LG에너지솔루션! 내일장 고래 종목은?! - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5US1RwSy1ZcVQyMUV4V3hadUJlZjR1TG1IWTEzNFFlY3F1WFhqakdzNERhNlZJRHNUTjFRVlFyTU82ODBEZ2pPUUh0R3lyb1MzbEM5a2RPX0tTbmNHLUlMTE9sd052dHVY0gFuQVVfeXFMTkdpMWFCa1lOZTJMMlV2TzlWNGdiWFVieWNKd0l1UDJ2V0JBQi1SRGVEZ1JkMDRXOGRkQ2dRX3VsQkxrVWtMcHluT09DZnRWS0JuVWJ4dVlSdVFZZHVtcGd3WUhiVnJydmg5ZnVrM3c?oc=5",
-          "published": "2026-09-28T13:12:57+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이"
-        }
-      ],
+      "news": [],
       "errors": [],
-      "news_status": "ok"
+      "news_status": "no_articles"
     },
     "417970": {
       "code": "417970",
@@ -1588,13 +1572,18 @@
     "005930": {
       "code": "005930",
       "name": "삼성전자",
-      "news_score": 3,
+      "news_score": 2,
       "news_label": "형성중",
       "news_count": 8,
-      "news_reasons": [
-        "회복"
-      ],
+      "news_reasons": [],
       "news": [
+        {
+          "title": "자사주 '버팀목' 빠지는 삼성전자… 100조원대 영업익으로 극복할까? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxMmt5U0pMN3ByMFlSVmtEa2E4eFR4YlJ6TzhyTnBQWjZSd1Vta2NvQXl3bUI0cktaSkpoT1poRmRsQy0yS2hpaml4R1g5TzM1bVFfQllBZnFBMGJLdnVOOTFzcDB4dGFu0gFuQVVfeXFMTXE1dnZtNThpMllRSURXd01VYnA0UGMtaXJkcDJwV2dBRGhLSHZnbjRIM1V6OVhIaWNqT0RPc2NXXzNYVlNMTHlmdjVQUGRlUU5YamhYcWQ4czc4eGV0Vm1MdGxpVmZSNkNuNFBjY1E?oc=5",
+          "published": "2026-10-05T06:17:36+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
         {
           "title": "분기 영업익 100조 '꿈의 숫자' 눈앞…삼성전자 실적 D-3 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yc050eTBVRGx3ZnJuX3dJZlMwNGtreHFQY01BdUpqR0QxOVBEWXFpcmVOVmxFR25hdFJoeUVneThFdk9GSnpWTTl6NUdPTFB0LXUtSHJ1SVdqM3I0TFpQenJiZVJqUmlv0gFuQVVfeXFMTjZJdjRQX0hqbFRXY2ZqZjVzZ2ktVzVGRFl4dzFHWDhIUWRJTHNWSXF6ZDNGeVlhdTZQYXJUOGowVldqakc1dGEyWmFHVHVzbVlkUTA1R1RuWmt6Y0FnNk1Fak5Za2FtdENFV3JCMWc?oc=5",
@@ -1617,20 +1606,6 @@
           "source_group": "머니투데이"
         },
         {
-          "title": "코스피 7,000선 회복…연휴 후 삼성전자 실적 발표 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VRHAzQW5YNG93a3pHZHVYamsyd0h2VTlsTFkyV3lpOWZMM1hMbENGQ2pOUlZmQW1oVVRGb3NnSE1jcWlxbUYzWEY1Vm1sUE13TGw2RkhYUk56aDTSAWBBVV95cUxNNTlTZy0wS2xKd3VzbHNQdnBRdFluTkU0RU11MzVyZVkyTW4zcG5jcTJBTm5lOWV6VjVYVEt6WVVJdnRscTF0MFVmUHoyRHZMN1RXdjBSOU1jM2lGVXV0Tzg?oc=5",
-          "published": "2026-10-02T12:07:17+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
-        },
-        {
-          "title": "자사주 매입 종료 우려탓?…삼성전자, 등락끝 보합 마감(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80aGlUZ3BUWGJUSXQxR1h3VVRGTWRxRFFReEY4X3FvWEQzdENkZ05LcG02S1dnS3ZLMmtEenJNaXB2Y2l3Nk0zSTktallZaFRJQTZYY2pHZ2lrNkXSAWBBVV95cUxOQ254UUpxcVBfb1pUQVNuT0FxUUFTcV85VDFheENycXg3UmVPNXhhczFBVDZFTmtrbE5kaHdNR1NHVkFQSWp3d1o5MWdlOGdIb0xuWW01VlZCTmJQS20xQnk?oc=5",
-          "published": "2026-10-02T06:54:45+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스"
-        },
-        {
           "title": "\"내 통장엔 특별성과급 몇억?\"…삼성전자 다음주 세부기준안 공개 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00aWszTTItQk14LWVJSnpocEcwNGswQzl0cTNlVTVVYkVLa0lVYUxMUGo1Sk9jUy1WUF9JakQwY2M4Ql9KSmYzTFNNRTAza0xtMjhKb3lVWmhBSlhtbjZCSEVtNU9KWllTZkVONNIBckFVX3lxTE1hUXVveG1VWHkwUnNSNjNDdXF1NDhPekoxc2JCU2l0YzE4Yk1wUFkzOHNQajAwQ3ZGZE41SmYtdDY1M0F0azF3Q2xYWXh1a2F4bXYtN0VfSk5rbEN5MU5aZHR5cmVTemZPNXFQMEJTOXRLdw?oc=5",
           "published": "2026-10-02T06:47:37+00:00",
@@ -1650,6 +1625,13 @@
           "published": "2026-10-02T01:28:04+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이"
+        },
+        {
+          "title": "삼성전자, 자사주 계획물량 모두 매입…9천억 여유, 300만주 더살듯 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5VXhvaVpGSjlTeGZaM3ZCX2F6ZjhNeFNTWGVxM2VSblB5R1g5Vzc5ZXN5dHpIMWFHaExZZVJRZjBPelJiaXJDLWNFUFgxSkpiVGl2dTRwLTNnYWfSAWBBVV95cUxQc0tpYnA0VHJIZmlPeHpRSDEwWE9XaHdDQzVJb1ktMnI3SEtSN01JV3J5ZExRMEZnVUZGcHU1RFJiQ3NwUWtuSm5yd3U5Vll3UUxiNUk1M3ZwS19sQUtrTEU?oc=5",
+          "published": "2026-10-02T01:09:55+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
         }
       ],
       "errors": [],
@@ -1663,10 +1645,8 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "032580": {
       "code": "032580",
@@ -1676,11 +1656,8 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "347700": {
       "code": "347700",
@@ -1690,39 +1667,46 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "125490": {
       "code": "125490",
       "name": "한라캐스트",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 0,
+      "news_count": 1,
       "news_reasons": [],
-      "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
+      "news": [
+        {
+          "title": "[주식민원처리반 2부] LG전자 vs 한라캐스트, 관심 포인트는? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9XUWRUc1dNdDN0UjBHLWhSNkZTTEpjZnd2MVFVMjdmTXRxcTVTV0FjNTRoLTc1VnVZakhnb1Y5SVRKZmloLVlCbDlpXzBEb2dHTGVuUjNOU3NmUTYxN21xX0l5T2I4SVlCYnpxZEFoQjNDVTE1a0HSAXtBVV95cUxNdWhOTDcxUFljQlNUSURNR0wyS0laWUhJZVBlZ1lIU0c2bTNBN3B3TGNfbXdvaDZiQlM4TGVleVB5WWdGcHhnMXVUY05Bb0s0RjY4amJrQkNSbG1nRlZUcTBhaGFpVlJyUmtHMEVaSHhmemNPTFY4c3FvWkU?oc=5",
+          "published": "2026-10-02T13:42:56+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
       ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "ok"
     },
     "032300": {
       "code": "032300",
       "name": "한국파마",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 0,
+      "news_count": 1,
       "news_reasons": [],
-      "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
+      "news": [
+        {
+          "title": "한국파마, 10억원 규모 자사주 취득 결정…주주가치 제고 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sRFNaX0FXelZfd3lTbXBCbEhPOEs5cGVQUHcxYzIyNUtMWFoyTlltWGMtM0owcWxXV00wQ0ZoaWZYb2h1REg0b0FxSGM4OTRvaVVvSmVjYkFiY3hLbUNDVmdMaXQtMGRK0gFuQVVfeXFMUGJBTEwzVjZzTkYyU01YOFlDejBzWHNLUDdlcmNxWUpTMHZLZmpkaDdYSTNCbm81aTh3b2JIaUN0ckJHTWZtMVVfRVQtaWxIc01aVnJTbXJtaFpyYnBMYnVSMVMwN1o4d09ZTFowZWc?oc=5",
+          "published": "2026-10-02T07:04:32+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
       ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "ok"
     },
     "025560": {
       "code": "025560",
@@ -1732,11 +1716,8 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "138360": {
       "code": "138360",
@@ -1746,11 +1727,8 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "004770": {
       "code": "004770",
@@ -1760,11 +1738,8 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "388870": {
       "code": "388870",
@@ -1774,11 +1749,8 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "123330": {
       "code": "123330",
@@ -1788,39 +1760,95 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "098460": {
       "code": "098460",
       "name": "고영",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 0,
+      "news_count": 1,
       "news_reasons": [],
-      "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
+      "news": [
+        {
+          "title": "[시선강탈] 고영 vs 삼미금속 vs 이수스페셜티케미컬, 공략법은? - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tQWdncDlSY2hKTlpoVmRTUFM4OG1SUTVHNFNVNW9YRUlaQ3h2WnR4WTBQT25FZVJ6ZjZaeDZOMUZBYTMzRUhLQm1OVVctMTFiYnJCUnpnVDVJeWJRR05GVk9jYm9FX2J10gFuQVVfeXFMUEJNa19sMVZtYnExQXNQWlVueGUybDNQU0dheF81OWZxM28zdk1lajlqZ2VjOXNUaFNNLUwtQmYtQUpLRmRYUGhhZFRYXzl0OFRmVmQyNV9ZUm9SSm1sUmJxdWx3bGpJTmNSME9RS2c?oc=5",
+          "published": "2026-10-01T00:39:55+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        }
       ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "ok"
     },
     "003490": {
       "code": "003490",
       "name": "대한항공",
-      "news_score": 0,
-      "news_label": "약함",
-      "news_count": 0,
+      "news_score": 2,
+      "news_label": "형성중",
+      "news_count": 8,
       "news_reasons": [],
-      "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
+      "news": [
+        {
+          "title": "\"내가 소리치면 동생들도 따라온다\" 대한항공 '태생적 리더' 김규민의 존재감 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BTENGcU1OeS14R2NhZkFvVzVocC0zODQ1YnQtMVh0eVBER0lBYUxOOWhJNTRGLWM3NVY3TVZnNkJ6UWxPOEUtc2lWeW9nWDlDZ1VXUFlFbVh5SFBodmlMSjlPNkIyODcyU19faUxib9IBb0FVX3lxTE5BTENGcU1OeS14R2NhZkFvVzVocC0zODQ1YnQtMVh0eVBER0lBYUxOOWhJNTRGLWM3NVY3TVZnNkJ6UWxPOEUtc2lWeW9nWDlDZ1VXUFlFbVh5SFBodmlMSjlPNkIyODcyU19faUxibw?oc=5",
+          "published": "2026-10-04T11:41:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "'삼성화재→대한항공' 우승팀이 왜 원했나...\"리베로 이상욱 때문에 더 단단해졌다 평가 받길\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yY1ROZi1LdWhOVnZmd3d5ak43ZVJwWkpPbnBjSFk5VTcwYTN3eEZROGpzbklfY3h3cFBMTnRIbWZXVUg0NFg5Q0RGcnpjell3a0wtd214Q3RTUEVpazhKN1g1ejZHbElpVWlJbkVUTdIBb0FVX3lxTE0yY1ROZi1LdWhOVnZmd3d5ak43ZVJwWkpPbnBjSFk5VTcwYTN3eEZROGpzbklfY3h3cFBMTnRIbWZXVUg0NFg5Q0RGcnpjell3a0wtd214Q3RTUEVpazhKN1g1ejZHbElpVWlJbkVUTQ?oc=5",
+          "published": "2026-10-03T20:39:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "연습경기 맞아? 유료 티켓 800장 팔렸다…‘디펜딩 챔피언’ 대한항공, 日서 완전체 첫 실전 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wM2RCWEgzdG9lV1JWejY0aVJQaDRDMGxud3hyb04zZUdzeFYwSlh1MnBVR0xXSVUzN2F4WlJWRUxHNWVERWZQUDJJbG1wYmVXeWlJZVZpb1pCMzFvbkJseXRKQU9RMnJpOGZwRUgyMNIBb0FVX3lxTE0wM2RCWEgzdG9lV1JWejY0aVJQaDRDMGxud3hyb04zZUdzeFYwSlh1MnBVR0xXSVUzN2F4WlJWRUxHNWVERWZQUDJJbG1wYmVXeWlJZVZpb1pCMzFvbkJseXRKQU9RMnJpOGZwRUgyMA?oc=5",
+          "published": "2026-10-03T13:40:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "'통합 2연패 향해 출항' 대한항공, 日 사카이와 합동훈련에서 무엇을 얻나...\"우리의 현주소 확인, '원팀'이 되는 과정\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90cm1xaERiNGdJTWZaVUdCLUg1akxzSlBWaWtoTC0yZk1IZDJBakwzQ2xvZ3R6Q0QwSWtTaHhpVnhHZW44Rjd3ampzSDdnZUZSVlU5WnlfRjc2MkZJMWFWRFp3dkdHMmJMckR5Qm9DZ9IBb0FVX3lxTE90cm1xaERiNGdJTWZaVUdCLUg1akxzSlBWaWtoTC0yZk1IZDJBakwzQ2xvZ3R6Q0QwSWtTaHhpVnhHZW44Rjd3ampzSDdnZUZSVlU5WnlfRjc2MkZJMWFWRFp3dkdHMmJMckR5Qm9DZw?oc=5",
+          "published": "2026-10-03T10:40:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "'통합 2연패 향해 출항' 대한항공, 日 사카이와 합동훈련에서 무엇을 얻나...\"우리의 현주소 확인, '원팀'이 되는 과정\" - OSEN",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fZE5jM2dfR1BRQ0hWNzc4UmtiMG1ETklXV0FMVHU2S2lCQ2hFVXhCM19yMko0SDZaZWV0d0dUdnpySTFUNzhqVFVvM1Bvdjh6ZVE?oc=5",
+          "published": "2026-10-03T10:40:00+00:00",
+          "source": "OSEN",
+          "source_group": "머니투데이"
+        },
+        {
+          "title": "합병요건 상습 위반…아시아나·대한항공, 공정위 과태료 톱3 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QcXBCY0k0Z0tTUUtRVk8xMmlTR1FBYUpOR0NmRkhXeUlDTFI3WkJETV9wV1RkUjdpSkpKUG1uNjVJenZOSjU1dTNTc09PYjVCOVg3SUNCcjhrMm_SAWBBVV95cUxPek16MHI2M2cxUXVJX3hKMVZiTmVicEhvVzlnaXVmQ19ad3Y4N05UU1lKU0piWXUzLXpHRmE5dncxTF9OMFVZeHdna1cyeTlHLWVxUnJKaE5WbkR4WERndjU?oc=5",
+          "published": "2026-10-02T13:51:00+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "대한항공-아시아나항공 2026 부모님 초청 행사 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuWURxTGlGM1RUelpDaE5TNV9JYTFzQ0c4OVp6Y2VrRzR0QnhURl9BS1RianVEOFZEdzN5dk1QdmtuYS1jUTZFd0cxOUtpejk4dVdMNHVja1JpM0XSAWBBVV95cUxPaGV6cHhxdmNYRXd5ajFzaFROQ3hqMnNwVzE0UnJIRUhUNHM5bG1naEsyQVYzRjlVWW05SEFYeUdzVG5PbjVYUUNTb0hFVHlKcndZZ3dvV1RfSnJxTkYyb2k?oc=5",
+          "published": "2026-10-01T01:14:23+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        },
+        {
+          "title": "영종도 대한항공 항공정비 클러스터 구축 속도…관계기관 협약 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RWm5pYjJxTzdMMG93cUVBX3labzY3NjZnRWxWNHB2VFpROV9MSHZXWUpIeHdodFo3OUxxV0docjVGbDBWVDBiSVU0UkhoMTBGNG5ySUxqQkU3czTSAWBBVV95cUxNSUhUbVRmUXktRHR4MzNwdEJ5ZEJHQUU0ZkcyLV9zR3k2Znh3ZE9UOUxSck4wcXlXTkU2X01CTXI2SjZhbjVRNFFsZWlFQUpaUXdocW5lQUFEOEpzOEN0Q0Y?oc=5",
+          "published": "2026-09-30T05:00:07+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스"
+        }
       ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "ok"
     },
     "050890": {
       "code": "050890",
@@ -1830,11 +1858,8 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "108490": {
       "code": "108490",
@@ -1844,11 +1869,8 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "303030": {
       "code": "303030",
@@ -1858,11 +1880,8 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "001250": {
       "code": "001250",
@@ -1872,11 +1891,8 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "news_status": "no_articles"
     },
     "064350": {
       "code": "064350",
@@ -3181,10 +3197,10 @@
       "news_status": "error"
     }
   },
-  "input_generated_at": "2026-10-05T14:25:26+09:00",
+  "input_generated_at": "2026-10-05T16:35:29+09:00",
   "matching_revision": "company-boundary-v2",
   "collection_status": "partial",
-  "successful_queries": 223,
+  "successful_queries": 254,
   "attempted_queries": 466,
   "themes": [
     {
