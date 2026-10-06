@@ -1,9 +1,19 @@
 name: News Momentum
 
 on:
+  push:
+    paths:
+      - news_collect.py
+      - .github/workflows/news-momentum.yml
   workflow_dispatch:
   schedule:
     - cron: '15 */2 * * *'
+    # 한국시간 평일 09:00~15:59, 관심종목만 5분 간격으로 조회합니다.
+    - cron: '2-57/5 0-6 * * 1-5'
+
+concurrency:
+  group: news-momentum
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -21,11 +31,22 @@ jobs:
           python-version: '3.12'
 
       - name: Check data integrity rules
-        run: python -m unittest test_data_integrity test_momentum_themes test_news_recovery test_momentum_tracking
+        run: python -m unittest test_data_integrity test_momentum_themes test_news_recovery test_momentum_tracking test_news_ranking
+
+      - name: Check news ranking
+        run: node test_news_ranking.cjs
 
       - name: Collect news momentum
         id: collect
-        run: python news_collect.py
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$SCHEDULE" = '2-57/5 0-6 * * 1-5' ] || [ "$EVENT_NAME" = 'push' ]; then
+            python news_collect.py --watch-only
+          else
+            python news_collect.py
+          fi
 
       - name: Commit updated news data
         if: success() || (failure() && steps.collect.outcome == 'failure')
@@ -40,5 +61,3 @@ jobs:
           git commit -m "Update news momentum data"
           git pull --rebase origin main
           git push origin HEAD:main
-
-

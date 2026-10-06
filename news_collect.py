@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import argparse
+import re
 import time
 import urllib.parse
 import urllib.request
@@ -9,14 +11,14 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from stock_miner_watchlist import include_watchlist
+from stock_miner_watchlist import include_watchlist, load_watchlist
 from momentum_themes import THEMES, SPORTS, build_themes, company_match, recent
 
 PARTS = [Path(f"data/stock-miner-v4-part{i}.json") for i in (1, 2, 3)]
 OUT = Path("data/news-momentum.json")
 STATUS = Path("data/news-momentum-status.json")
 DAYS = 7
-MAX_ITEMS = 6
+MAX_ITEMS = 100
 REQUEST_DELAY = 0.25
 
 SOURCES = [
@@ -71,7 +73,7 @@ def rss_search(name: str, domain: str, *, theme_search=False, code="") -> list[d
             time.sleep(2 ** attempt)
 
     out = []
-    for item in root.findall("./channel/item")[:MAX_ITEMS]:
+    for item in root.findall("./channel/item"):
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
         pub = (item.findtext("pubDate") or "").strip()
@@ -89,10 +91,26 @@ def rss_search(name: str, domain: str, *, theme_search=False, code="") -> list[d
         out.append({
             "title": title,
             "link": link,
-            "published": dt.isoformat() if dt else pub,
+            "published": dt.astimezone(timezone.utc).isoformat() if dt else pub,
             "source": source,
         })
-    return out
+    return sorted(out, key=lambda x: x.get("published", ""), reverse=True)[:MAX_ITEMS]
+
+def article_key(item):
+    title=re.sub(r"\s+-\s+[^-]+$", "", item.get("title", ""))
+    return re.sub(r"[\W_]+", "", title).casefold()
+
+def track_articles(items, previous, observed_at):
+    old={article_key(x):x for x in previous if article_key(x)}
+    result, seen=[], set()
+    for item in sorted(items, key=lambda x:x.get("published", ""), reverse=True):
+        key=article_key(item)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        first_seen=old[key].get("first_seen_at") if key in old else observed_at
+        result.append(dict(item, first_seen_at=first_seen))
+    return result[:20]
 
 
 def score_news(items: list[dict], now=None) -> tuple[int, str, list[str]]:
@@ -130,13 +148,20 @@ def score_news(items: list[dict], now=None) -> tuple[int, str, list[str]]:
     return score, label, list(dict.fromkeys(reasons))[:5]
 
 
-def collect_payload():
-    stocks = load_stocks()
+def collect_payload(watch_only=False):
+    stocks = load_watchlist() if watch_only else load_stocks()
+    previous={}
+    if OUT.exists():
+        try:
+            previous=json.loads(OUT.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            pass
     if not stocks:
         raise RuntimeError("시세 종목 목록이 비어 있어 뉴스 게시를 중단합니다.")
     result = {}
     successful_queries = 0
     attempted_queries = 0
+    public_feeds={}
     print(f"[뉴스] {len(stocks)}종목 / 머니투데이+연합뉴스 / 최근 {DAYS}일")
 
     for idx, s in enumerate(stocks, 1):
@@ -150,7 +175,13 @@ def collect_payload():
         for source_name, domain in SOURCES:
             attempted_queries += 1
             try:
-                found = rss_search(name, domain, code=code)
+                if watch_only:
+                    # 관심종목명·코드는 외부로 보내지 않고 공개 기업뉴스를 내부 대조합니다.
+                    if domain not in public_feeds:
+                        public_feeds[domain]=rss_search("증시 OR 기업 OR 실적 OR 수주", domain, theme_search=True)
+                    found=[x for x in public_feeds[domain] if company_match(x.get("title", ""), name, code)]
+                else:
+                    found = rss_search(name, domain, code=code)
                 successful_queries += 1
                 found = [x for x in found if recent(x, datetime.now(timezone.utc))]
                 for x in found:
@@ -160,16 +191,15 @@ def collect_payload():
                 errors.append(f"{source_name}: {e}")
             time.sleep(REQUEST_DELAY)
 
-        # 제목 중복 제거
-        dedup = []
-        seen = set()
-        for x in sorted(items, key=lambda z: z.get("published", ""), reverse=True):
-            key = x.get("title", "").strip()
-            if not key or key in seen:
-                continue
-            seen.add(key)
-            dedup.append(x)
-        dedup = dedup[:8]
+        checked_at=datetime.now(timezone.utc).isoformat(timespec="seconds")
+        old=previous.get("stocks", {}).get(code, {})
+        if watch_only:
+            # 공개 피드의 상위 목록에서 벗어난 기사도 7일 동안 유지합니다.
+            items += [x for x in old.get("news", []) if recent(x, datetime.now(timezone.utc))]
+        dedup=track_articles(items, old.get("news", []), checked_at)
+        if errors and not dedup and old.get("news"):
+            result[code]=dict(old, errors=errors, news_status="error", checked_at=checked_at)
+            continue
 
         score, label, reasons = score_news(dedup)
         result[code] = {
@@ -181,6 +211,7 @@ def collect_payload():
             "news_reasons": reasons,
             "news": dedup,
             "errors": errors,
+            "checked_at": checked_at,
             "news_status": "partial" if errors and dedup else "error" if errors else "ok" if dedup else "no_articles",
         }
         # Stop a widespread outage without repeatedly hammering the same RSS service.
@@ -188,7 +219,7 @@ def collect_payload():
             raise RuntimeError("뉴스 조회가 연속 실패했습니다. 기존 게시 자료를 보존합니다. " + "; ".join(errors))
 
     independent, theme_errors = {}, {}
-    for key, label, _, query, _ in THEMES:
+    for key, label, _, query, _ in ([] if watch_only else THEMES):
         independent[key], theme_errors[key] = [], []
         print(f"[관심 모멘텀] {label}")
         for source_name, domain in SOURCES:
@@ -204,6 +235,11 @@ def collect_payload():
     if successful_queries == 0:
         raise RuntimeError("뉴스 조회가 모두 실패했습니다. 기존 게시 자료를 보존합니다.")
 
+    if watch_only:
+        return dict(previous, stocks={**previous.get("stocks", {}), **result},
+                    watch_checked_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                    collection_status="partial" if successful_queries < attempted_queries else "ok",
+                    successful_queries=successful_queries, attempted_queries=attempted_queries)
     payload = {
         "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "version": "stock-miner-news-v1",
@@ -228,10 +264,10 @@ def write_json(path: Path, payload: dict) -> None:
     temporary.replace(path)
 
 
-def main():
+def main(watch_only=False):
     attempted_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
     try:
-        payload = collect_payload()
+        payload = collect_payload(watch_only=watch_only)
         write_json(OUT, payload)
     except Exception as error:
         write_json(STATUS, {
@@ -244,7 +280,7 @@ def main():
     write_json(STATUS, {
         "attempted_at": attempted_at,
         "status": payload["collection_status"],
-        "last_success_at": payload["generated_at"],
+        "last_success_at": payload.get("watch_checked_at") if watch_only else payload["generated_at"],
         "successful_queries": payload["successful_queries"],
         "attempted_queries": payload["attempted_queries"],
         "preserved_previous_data": False,
@@ -253,6 +289,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
-
-
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--watch-only", action="store_true")
+    main(watch_only=parser.parse_args().watch_only)
