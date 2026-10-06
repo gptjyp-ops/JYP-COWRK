@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - news_collect.py
+      - watch_flow_collect.py
       - stock_miner_watchlist.py
       - data/stock-miner-watchlist.json
       - .github/workflows/news-momentum.yml
@@ -33,10 +34,13 @@ jobs:
           python-version: '3.12'
 
       - name: Check data integrity rules
-        run: python -m unittest test_data_integrity test_momentum_themes test_news_recovery test_momentum_tracking test_news_ranking
+        run: python -m unittest test_data_integrity test_momentum_themes test_news_recovery test_momentum_tracking test_news_ranking test_watch_flow
 
       - name: Check news ranking
         run: node test_news_ranking.cjs
+
+      - name: Supplement watchlist investor flow
+        run: python watch_flow_collect.py
 
       - name: Collect news momentum
         id: collect
@@ -53,7 +57,7 @@ jobs:
       - name: Commit updated news data
         if: success() || (failure() && steps.collect.outcome == 'failure')
         run: |
-          git add data/news-momentum.json data/news-momentum-status.json
+          git add data/news-momentum.json data/news-momentum-status.json data/watch-investor-flow.json
           if git diff --cached --quiet; then
             echo "No news data changes"
             exit 0

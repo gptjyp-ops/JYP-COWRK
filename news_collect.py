@@ -20,6 +20,14 @@ STATUS = Path("data/news-momentum-status.json")
 DAYS = 7
 MAX_ITEMS = 100
 REQUEST_DELAY = 0.25
+PUBLIC_NEWS_QUERIES = (
+    "증시 OR 기업 OR 실적 OR 수주",
+    "반도체 OR 통신장비 OR 전자 OR 인공지능",
+    "로봇 OR 바이오 OR 제약 OR 의료",
+    "조선 OR 방산 OR 자동차 OR 우주 OR 위성",
+    "에너지 OR 석유 OR 전력 OR 신재생",
+    "백화점 OR 유통 OR 투자 OR 소프트웨어",
+)
 
 SOURCES = [
     ("머니투데이", "mt.co.kr"),
@@ -162,6 +170,17 @@ def collect_payload(watch_only=False):
     successful_queries = 0
     attempted_queries = 0
     public_feeds={}
+    public_errors={}
+    if watch_only:
+        for source_name, domain in SOURCES:
+            public_feeds[domain], public_errors[domain] = [], []
+            for query in PUBLIC_NEWS_QUERIES:
+                try:
+                    public_feeds[domain].extend(rss_search(query, domain, theme_search=True))
+                except Exception as error:
+                    public_errors[domain].append(f"{source_name}: {error}")
+        if all(len(public_errors[d]) == len(PUBLIC_NEWS_QUERIES) for _, d in SOURCES):
+            raise RuntimeError("공개 뉴스 조회 전체 실패. 기존 게시 자료를 보존합니다.")
     print(f"[뉴스] {len(stocks)}종목 / 머니투데이+연합뉴스 / 최근 {DAYS}일")
 
     for idx, s in enumerate(stocks, 1):
@@ -177,8 +196,7 @@ def collect_payload(watch_only=False):
             try:
                 if watch_only:
                     # 관심종목명·코드는 외부로 보내지 않고 공개 기업뉴스를 내부 대조합니다.
-                    if domain not in public_feeds:
-                        public_feeds[domain]=rss_search("증시 OR 기업 OR 실적 OR 수주", domain, theme_search=True)
+                    errors.extend(public_errors[domain])
                     found=[x for x in public_feeds[domain] if company_match(x.get("title", ""), name, code)]
                 else:
                     found = rss_search(name, domain, code=code)

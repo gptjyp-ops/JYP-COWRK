@@ -24,3 +24,9 @@ vm.runInContext("newsMeta={stocks:{}};renderWatchNews()",context);
 assert.ok(node('watchNewsPending').innerHTML.includes('A'));
 assert.ok(node('watchNewsPending').innerHTML.includes('미수집'));
 console.log('Ranking, duplicate/future/missing timestamps, stale/missing flows, filter and no-news watch cards passed');
+
+vm.runInContext("flowMeta={stocks:{C:{code:'C',name:'C',foreign5:10,inst5:-2,investor_dates:['20261002'],collected_at:'2026-10-06T03:55:00Z'},A:{code:'A',foreign5:999,inst5:999,investor_dates:['20261002'],collected_at:'2026-10-06T03:55:00Z'}}}",context);
+assert.equal(run("watchMarketRow({code:'C',name:'C'}).foreign5"),10);
+assert.equal(run("watchMarketRow({code:'A',name:'A'}).foreign5"),10);
+assert.equal(run("flowEvidence(watchMarketRow({code:'C'}),testNow).fresh"),false);
+assert.equal(run("flowEvidence({...rows[0],flow_status:'error'},testNow).fresh"),false);
