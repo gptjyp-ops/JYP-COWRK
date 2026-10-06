@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-06T15:10:49.916871+00:00",
-  "updated_kst": "2026년 10월 07일 00:10",
+  "updated_at": "2026-10-06T20:18:30.878424+00:00",
+  "updated_kst": "2026년 10월 07일 05:18",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "박지선",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "투수",
+          "k": "이천수",
           "m": "검색량 500+"
         },
         {
-          "k": "남성진",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "보이스 피싱",
-          "m": "검색량 5000+"
-        },
-        {
-          "k": "전력",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "world space week 2026",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "미국 상품거래위원회",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "노벨 물리학상",
+          "k": "그랜드 테프트 오토 v",
           "m": "검색량 100+"
         },
         {
-          "k": "유재명",
+          "k": "김용림",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "크로아티아 대 스페인",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "원현준",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "페스트",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "서영교",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "홍창기",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "어선",
           "m": "검색량 200+"
         },
         {
-          "k": "서현진",
-          "m": "검색량 2000+"
+          "k": "키드냅게임",
+          "m": "검색량 100+"
         }
       ]
     },
@@ -113,15 +113,15 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-07T00:00:05.879+09:00",
+      "updated": "2026-10-07T01:00:40.330+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "문희준 H.O.T. 음료수 매출",
+          "k": "이경규 주병진 사과",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%AC%B8%ED%9D%AC%EC%A4%80%20H.O.T.%20%EC%9D%8C%EB%A3%8C%EC%88%98%20%EB%A7%A4%EC%B6%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EA%B2%BD%EA%B7%9C%20%EC%A3%BC%EB%B3%91%EC%A7%84%20%EC%82%AC%EA%B3%BC"
         },
         {
           "k": "키드냅 게임",
@@ -130,52 +130,52 @@
           "url": "https://search.daum.net/search?w=tot&q=%ED%82%A4%EB%93%9C%EB%83%85%20%EA%B2%8C%EC%9E%84"
         },
         {
-          "k": "차경은 이유진 결혼",
+          "k": "문희준 다이어트 실패",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%A8%EA%B2%BD%EC%9D%80%20%EC%9D%B4%EC%9C%A0%EC%A7%84%20%EA%B2%B0%ED%98%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%AC%B8%ED%9D%AC%EC%A4%80%20%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8%20%EC%8B%A4%ED%8C%A8"
         },
         {
-          "k": "홍경민 신문 1면 스캔들",
+          "k": "윤하정 혼인신고 유부녀",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%99%8D%EA%B2%BD%EB%AF%BC%20%EC%8B%A0%EB%AC%B8%201%EB%A9%B4%20%EC%8A%A4%EC%BA%94%EB%93%A4"
-        },
-        {
-          "k": "조희대 노력",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EB%85%B8%EB%A0%A5"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A4%ED%95%98%EC%A0%95%20%ED%98%BC%EC%9D%B8%EC%8B%A0%EA%B3%A0%20%EC%9C%A0%EB%B6%80%EB%85%80"
         },
         {
           "k": "누리호 5차 발사일정",
-          "rank": 6,
+          "rank": 5,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EB%88%84%EB%A6%AC%ED%98%B8%205%EC%B0%A8%20%EB%B0%9C%EC%82%AC%EC%9D%BC%EC%A0%95"
         },
         {
-          "k": "이태원 참사",
+          "k": "인천 원병원",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B8%EC%B2%9C%20%EC%9B%90%EB%B3%91%EC%9B%90"
+        },
+        {
+          "k": "조상호 세종시장 취임 100일",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%83%9C%EC%9B%90%20%EC%B0%B8%EC%82%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%EC%83%81%ED%98%B8%20%EC%84%B8%EC%A2%85%EC%8B%9C%EC%9E%A5%20%EC%B7%A8%EC%9E%84%20100%EC%9D%BC"
         },
         {
-          "k": "칸나바로 한국전 인터뷰",
+          "k": "조현 한동훈 북한 공방",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B9%B8%EB%82%98%EB%B0%94%EB%A1%9C%20%ED%95%9C%EA%B5%AD%EC%A0%84%20%EC%9D%B8%ED%84%B0%EB%B7%B0"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%ED%98%84%20%ED%95%9C%EB%8F%99%ED%9B%88%20%EB%B6%81%ED%95%9C%20%EA%B3%B5%EB%B0%A9"
         },
         {
-          "k": "손솔 국회의원",
+          "k": "계약결혼 32기영수",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%86%90%EC%86%94%20%EA%B5%AD%ED%9A%8C%EC%9D%98%EC%9B%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B3%84%EC%95%BD%EA%B2%B0%ED%98%BC%2032%EA%B8%B0%EC%98%81%EC%88%98"
         },
         {
-          "k": "조슈아 정한 살롱드립 갈등",
+          "k": "장동윤 김승윤 결혼",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%EC%8A%88%EC%95%84%20%EC%A0%95%ED%95%9C%20%EC%82%B4%EB%A1%B1%EB%93%9C%EB%A6%BD%20%EA%B0%88%EB%93%B1"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%A5%EB%8F%99%EC%9C%A4%20%EA%B9%80%EC%8A%B9%EC%9C%A4%20%EA%B2%B0%ED%98%BC"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "박지선",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "투수",
+      "k": "이천수",
       "m": "검색량 500+"
     },
     {
-      "k": "남성진",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "보이스 피싱",
-      "m": "검색량 5000+"
-    },
-    {
-      "k": "전력",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "world space week 2026",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "미국 상품거래위원회",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "노벨 물리학상",
+      "k": "그랜드 테프트 오토 v",
       "m": "검색량 100+"
     },
     {
-      "k": "유재명",
+      "k": "김용림",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "크로아티아 대 스페인",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "원현준",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "페스트",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "서영교",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "홍창기",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "어선",
       "m": "검색량 200+"
     },
     {
-      "k": "서현진",
-      "m": "검색량 2000+"
+      "k": "키드냅게임",
+      "m": "검색량 100+"
     }
   ]
 }
