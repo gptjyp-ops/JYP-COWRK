@@ -33,6 +33,32 @@ else:
     dart = module('dart_enrich')
 from momentum_themes import company_match, build_themes
 import news_collect
+import stock_miner_watchlist
+
+class FixedWatchlistTests(unittest.TestCase):
+    def setUp(self):
+        loader = patch.object(stock_miner_watchlist, 'load_watchlist', return_value=[{'code': '347700', 'name': '스피어', 'fixed_watch': True}, {'code': '105740', 'name': '디케이락', 'fixed_watch': True}])
+        loader.start()
+        self.addCleanup(loader.stop)
+
+    def test_registered_stocks_are_included_once_without_source_bonus(self):
+        rows = [{'code': '347700', 'name': '스피어', 'sources': ['거래량상위']}]
+        result = stock_miner_watchlist.include_watchlist(rows)
+        self.assertEqual([r['code'] for r in result], ['347700', '105740'])
+        self.assertTrue(all(r['fixed_watch'] for r in result))
+        self.assertEqual(result[0]['sources'], ['거래량상위'])
+        self.assertEqual(result[1]['sources'], [])
+        self.assertNotIn('fixed_watch', rows[0])
+
+    def test_empty_rankings_still_collect_fixed_stocks(self):
+        with patch.object(collector, 'collect_foreign_streak'), patch.object(collector, 'collect_institution_top'), patch.object(collector, 'collect_volume_top'), patch.object(collector.time, 'sleep'):
+            rows, _ = collector.collect_candidates()
+        self.assertEqual({r['code'] for r in rows}, {'347700', '105740'})
+
+    def test_news_tracks_fixed_stocks_without_market_parts(self):
+        with patch.object(news_collect, 'PARTS', []):
+            rows = news_collect.load_stocks()
+        self.assertEqual({r['code'] for r in rows}, {'347700', '105740'})
 
 class DataIntegrityTests(unittest.TestCase):
     def test_company_boundaries_and_ambiguous_acronyms(self):

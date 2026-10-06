@@ -8,6 +8,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from kiwoom import get_client, KiwoomError
+from stock_miner_watchlist import include_watchlist
 
 OUT = Path("stock-miner-data.json")
 REQUEST_DELAY = 0.22
@@ -262,9 +263,10 @@ def collect_candidates():
     time.sleep(REQUEST_DELAY)
     collect_volume_top(pool, filtered)
 
-    candidates = select_candidates(pool)
+    ranked_candidates = select_candidates(pool)
+    candidates = include_watchlist(ranked_candidates)
     print(f"[범위] 통합 {len(pool)}개 / 상세분석 {len(candidates)}개 / "
-          f"분석한도 제외 {len(pool) - len(candidates)}개")
+          f"분석한도 제외 {len(pool) - len(ranked_candidates)}개")
     return candidates, filtered
 
 
@@ -381,13 +383,15 @@ def main():
             time.sleep(REQUEST_DELAY)
             price, change, vr, d20, d60 = chart_metrics(code)
             reason = postfilter_reason(price, change, vr)
-            if reason:
+            if reason and not c.get("fixed_watch"):
                 filtered.append({"code": code, "name": name, "reason": reason, "source": src})
                 continue
 
             score = local_score(f5, i5, vr, d20, d60, c.get("foreign_streak_total", 0), c.get("sources", []))
             stage = "집중관찰" if score >= 80 else "관찰" if score >= 70 else "대기"
             reasons = []
+            if c.get("fixed_watch"): reasons.append("고정 관심종목 추적")
+            if reason: reasons.append("발굴 필터 참고: " + reason)
             if "외국인연속" in c.get("sources", []): reasons.append("외국인 연속순매수 상위 포착")
             if "기관순매수" in c.get("sources", []): reasons.append("기관 순매수 상위 포착")
             if "거래량상위" in c.get("sources", []): reasons.append("거래량 상위 포착")
@@ -403,6 +407,8 @@ def main():
                 "score_base": score,
                 "sources": c.get("sources", []),
                 "source_count": len(c.get("sources", [])),
+                "fixed_watch": bool(c.get("fixed_watch")),
+                "screening_note": reason,
                 "price": round(price),
                 "change": round(change, 2),
                 "foreign5": round(f5),

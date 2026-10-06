@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from stock_miner_watchlist import include_watchlist
 from momentum_themes import THEMES, SPORTS, build_themes, company_match, recent
 
 PARTS = [Path(f"data/stock-miner-v4-part{i}.json") for i in (1, 2, 3)]
@@ -45,7 +46,7 @@ def load_stocks() -> list[dict]:
             rows.extend(data)
         elif isinstance(data, dict):
             rows.extend(data.get("stocks") or [])
-    return rows
+    return include_watchlist(rows)
 
 
 def rss_search(name: str, domain: str, *, theme_search=False, code="") -> list[dict]:
