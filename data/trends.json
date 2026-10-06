@@ -1,61 +1,55 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-06T00:48:23.438343+00:00",
-  "updated_kst": "2026년 10월 06일 09:48",
+  "updated_at": "2026-10-06T07:33:32.234838+00:00",
+  "updated_kst": "2026년 10월 06일 16:33",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "클로드",
-          "m": "검색량 5000+"
+          "k": "비상사태",
+          "m": "검색량 2000+"
         },
         {
-          "k": "엔화",
+          "k": "재산세",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "주식",
+          "m": "검색량 10000+"
+        },
+        {
+          "k": "식이",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "jyp엔터테인먼트",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "퇴직금",
           "m": "검색량 500+"
         },
         {
-          "k": "1박 2일",
+          "k": "nba",
           "m": "검색량 200+"
         },
         {
-          "k": "이자",
+          "k": "강신철",
+          "m": "검색량 10000+"
+        },
+        {
+          "k": "티빙",
           "m": "검색량 2000+"
         },
         {
-          "k": "송강",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "유승민",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "백악관 대변인",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "tsla",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "중앙일보",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "남편",
-          "m": "검색량 1000+"
+          "k": "김종민",
+          "m": "검색량 5000+"
         }
       ]
     },
     "shopping": {
-      "updated": "20261004",
+      "updated": "20261005",
       "items": [
-        {
-          "k": "361도",
-          "m": "남성신발 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=361%EB%8F%84",
-          "tag": "buy"
-        },
         {
           "k": "아이폰18프로케이스",
           "m": "휴대폰액세서리 · 유지",
@@ -63,119 +57,125 @@
           "tag": "buy"
         },
         {
-          "k": "나나탑",
-          "m": "여성의류 · 상승 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%82%98%EB%82%98%ED%83%91",
-          "tag": "buy"
-        },
-        {
           "k": "치이카와쿠키",
-          "m": "스낵/과자 · 상승 2",
+          "m": "스낵/과자 · 상승 1",
           "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%EC%BF%A0%ED%82%A4",
           "tag": "buy"
         },
         {
-          "k": "맥도날드모자",
-          "m": "모자 · 상승 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%EB%AA%A8%EC%9E%90",
+          "k": "361도",
+          "m": "남성신발 · 하락 3",
+          "url": "https://shopping.naver.com/ns/search?query=361%EB%8F%84",
           "tag": "buy"
         },
         {
           "k": "갈옷",
-          "m": "남성의류 · 인기",
+          "m": "남성의류 · 상승 2",
           "url": "https://shopping.naver.com/ns/search?query=%EA%B0%88%EC%98%B7",
           "tag": "buy"
         },
         {
           "k": "제주갈옷",
-          "m": "남성의류 · 인기",
+          "m": "남성의류 · 상승 2",
           "url": "https://shopping.naver.com/ns/search?query=%EC%A0%9C%EC%A3%BC%EA%B0%88%EC%98%B7",
           "tag": "buy"
         },
         {
+          "k": "맥도날드모자",
+          "m": "모자 · 하락 2",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%EB%AA%A8%EC%9E%90",
+          "tag": "buy"
+        },
+        {
+          "k": "치이카와굿즈",
+          "m": "수집품 · 상승 4",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%EA%B5%BF%EC%A6%88",
+          "tag": "buy"
+        },
+        {
+          "k": "이케아크리스마스빔",
+          "m": "인테리어소품 · 신규",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%9D%B4%EC%BC%80%EC%95%84%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EB%B9%94",
+          "tag": "buy"
+        },
+        {
           "k": "에어팟5케이스",
-          "m": "음향가전 · 하락 1",
+          "m": "음향가전 · 하락 2",
           "url": "https://shopping.naver.com/ns/search?query=%EC%97%90%EC%96%B4%ED%8C%9F5%EC%BC%80%EC%9D%B4%EC%8A%A4",
           "tag": "buy"
         },
         {
-          "k": "스파이더플랜트",
-          "m": "원예/식물 · 하락 5",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%8A%A4%ED%8C%8C%EC%9D%B4%EB%8D%94%ED%94%8C%EB%9E%9C%ED%8A%B8",
-          "tag": "buy"
-        },
-        {
-          "k": "이케아크리스마스조명",
-          "m": "인테리어소품 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%9D%B4%EC%BC%80%EC%95%84%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EC%A1%B0%EB%AA%85",
+          "k": "가습기스텐팟",
+          "m": "계절가전 · 인기",
+          "url": "https://shopping.naver.com/ns/search?query=%EA%B0%80%EC%8A%B5%EA%B8%B0%EC%8A%A4%ED%85%90%ED%8C%9F",
           "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-10-06T12:51:15.201+09:00",
+      "updated": "2026-10-06T16:30:24.393+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "송지호 김소리 결혼",
+          "k": "코스피 7000선 붕괴",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%86%A1%EC%A7%80%ED%98%B8%20%EA%B9%80%EC%86%8C%EB%A6%AC%20%EA%B2%B0%ED%98%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%BD%94%EC%8A%A4%ED%94%BC%207000%EC%84%A0%20%EB%B6%95%EA%B4%B4"
         },
         {
-          "k": "조희대 제청 관여",
+          "k": "이휘재 부친상",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EC%A0%9C%EC%B2%AD%20%EA%B4%80%EC%97%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%9C%98%EC%9E%AC%20%EB%B6%80%EC%B9%9C%EC%83%81"
+        },
+        {
+          "k": "국감 호남 반도체",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AD%EA%B0%90%20%ED%98%B8%EB%82%A8%20%EB%B0%98%EB%8F%84%EC%B2%B4"
+        },
+        {
+          "k": "김태규 발언권 정지",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%83%9C%EA%B7%9C%20%EB%B0%9C%EC%96%B8%EA%B6%8C%20%EC%A0%95%EC%A7%80"
+        },
+        {
+          "k": "인천 원병원",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B8%EC%B2%9C%20%EC%9B%90%EB%B3%91%EC%9B%90"
+        },
+        {
+          "k": "조희대 재제청 거부",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EC%9E%AC%EC%A0%9C%EC%B2%AD%20%EA%B1%B0%EB%B6%80"
+        },
+        {
+          "k": "개인정보 유출",
+          "rank": 7,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C"
         },
         {
           "k": "우리들의 발라드2",
-          "rank": 3,
+          "rank": 8,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%9A%B0%EB%A6%AC%EB%93%A4%EC%9D%98%20%EB%B0%9C%EB%9D%BC%EB%93%9C2"
         },
         {
-          "k": "엄마가 미쳤어요",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%97%84%EB%A7%88%EA%B0%80%20%EB%AF%B8%EC%B3%A4%EC%96%B4%EC%9A%94"
-        },
-        {
-          "k": "국가대표 병역 특례",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AD%EA%B0%80%EB%8C%80%ED%91%9C%20%EB%B3%91%EC%97%AD%20%ED%8A%B9%EB%A1%80"
-        },
-        {
-          "k": "김종민 아내 임신",
-          "rank": 6,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A2%85%EB%AF%BC%20%EC%95%84%EB%82%B4%20%EC%9E%84%EC%8B%A0"
-        },
-        {
-          "k": "누리호 5차 발사일정",
-          "rank": 7,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%88%84%EB%A6%AC%ED%98%B8%205%EC%B0%A8%20%EB%B0%9C%EC%82%AC%EC%9D%BC%EC%A0%95"
-        },
-        {
-          "k": "연애박사",
-          "rank": 8,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%97%B0%EC%95%A0%EB%B0%95%EC%82%AC"
-        },
-        {
-          "k": "암살자(들) 배우 협박",
+          "k": "원희 샤넬",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%94%EC%82%B4%EC%9E%90%28%EB%93%A4%29%20%EB%B0%B0%EC%9A%B0%20%ED%98%91%EB%B0%95"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9B%90%ED%9D%AC%20%EC%83%A4%EB%84%AC"
         },
         {
-          "k": "손솔 국회의원",
+          "k": "티빙 보상",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%86%90%EC%86%94%20%EA%B5%AD%ED%9A%8C%EC%9D%98%EC%9B%90"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8B%B0%EB%B9%99%20%EB%B3%B4%EC%83%81"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "클로드",
-      "m": "검색량 5000+"
+      "k": "비상사태",
+      "m": "검색량 2000+"
     },
     {
-      "k": "엔화",
+      "k": "재산세",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "주식",
+      "m": "검색량 10000+"
+    },
+    {
+      "k": "식이",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "jyp엔터테인먼트",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "퇴직금",
       "m": "검색량 500+"
     },
     {
-      "k": "1박 2일",
+      "k": "nba",
       "m": "검색량 200+"
     },
     {
-      "k": "이자",
+      "k": "강신철",
+      "m": "검색량 10000+"
+    },
+    {
+      "k": "티빙",
       "m": "검색량 2000+"
     },
     {
-      "k": "송강",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "유승민",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "백악관 대변인",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "tsla",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "중앙일보",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "남편",
-      "m": "검색량 1000+"
+      "k": "김종민",
+      "m": "검색량 5000+"
     }
   ]
 }
