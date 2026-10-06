@@ -27,7 +27,7 @@
 <section class="hero"><div class="eyebrow">REALTIME SEARCH SIGNALS</div><h1>지금 사람들이 찾는 것</h1><p>인기 검색어를 그대로 베끼지 않고, 블로그로 발전시킬 만한 질문을 찾습니다.</p><div class="stamp"><span class="dot"></span><span id="updated">데이터 불러오는 중</span></div></section>
 <nav class="toolbar" aria-label="키워드 필터"><button class="chip active" data-filter="all">전체</button><button class="chip" data-filter="how">방법·해결</button><button class="chip" data-filter="buy">구매·비교</button><button class="chip" data-filter="news">이슈·뉴스</button></nav>
 <section class="grid">
-<article class="panel orange"><div class="panel-head"><div class="title-row"><div class="source"><span class="source-icon">D</span>다음 실시간 검색어</div><span class="status">1시간 자동 갱신</span></div><p class="desc">다음에서 주목받는 실시간 검색 주제</p></div><ol class="list" id="daum"><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li></ol></article>
+<article class="panel orange"><div class="panel-head"><div class="title-row"><div class="source"><span class="source-icon">D</span>다음 실시간 트렌드</div><span class="status">1시간 자동 갱신</span></div><p class="desc">다음 공식 홈페이지의 실시간 트렌드 표시 순위</p></div><ol class="list" id="daum"><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li></ol></article>
 <article class="panel blue"><div class="panel-head"><div class="title-row"><div class="source"><span class="source-icon">G</span>Google Trends</div><span class="status">1시간 자동 갱신</span></div><p class="desc">대한민국 Google 인기 검색어 RSS 기준</p></div><ol class="list" id="google"><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li></ol></article>
 <article class="panel green"><div class="panel-head"><div class="title-row"><div class="source"><span class="source-icon">N</span>크리에이터 어드바이저</div><span class="status">1시간 자동 갱신</span></div><p class="desc">네이버 콘텐츠 검색 관심 주제</p></div><ol class="list" id="creator"><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li></ol></article>
 <article class="panel red"><div class="panel-head"><div class="title-row"><div class="source"><span class="source-icon">S</span>네이버 쇼핑 인기 검색어</div><span class="status">1시간 자동 확인</span></div><p class="desc">네이버플러스 스토어 Best Keyword 주간 순위</p></div><ol class="list" id="shopping"><li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li></ol></article>
@@ -47,14 +47,27 @@ const personal=[
  {k:"원목 상판 바니시 5회 작업 후기",tag:"how",m:"사진형 콘텐츠"},
  {k:"카페 제빙기 주름관이 비싼 이유",tag:"buy",m:"부품 비교"}
 ];
-let currentFilter="all", live=[], daum=[], creator=[], shopping=[];
+let currentFilter="all", live=[], daum=[], creator=[], shopping=[], sourceState={}, loadError=false;
 const classify=k=>/(방법|신청|설치|해결|고장|만들|사용|기준|규격)/.test(k)?"how":/(가격|구매|추천|비교|할인|제품)/.test(k)?"buy":"news";
 function row(x,i,source){const tag=x.tag||classify(x.k);if(currentFilter!=="all"&&tag!==currentFilter)return"";const q=encodeURIComponent(x.k);const bases={google:"https://www.google.com/search?q=",daum:"https://search.daum.net/search?w=tot&q=",naver:"https://search.naver.com/search.naver?query="};const url=x.url||(bases[source]||bases.naver)+q;return '<li class="item"><span class="rank">'+(i+1)+'</span><span class="keyword">'+escapeHtml(x.k)+'<span class="meta">'+escapeHtml(x.m||label(tag))+'</span></span><button class="search" aria-label="'+escapeHtml(x.k)+' 열기" onclick="window.open(\''+escapeHtml(url)+'\',\'_blank\')">⌕</button></li>'}
 function label(t){return t==="how"?"방법·해결형":t==="buy"?"구매·비교형":"이슈·뉴스형"}
 function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]))}
+function sourceMessage(key, noun){
+ const state=sourceState[key]||{};
+ if(loadError)return "데이터를 불러오지 못했습니다. 새로고침으로 다시 시도해 주세요.";
+ if(state.error&&!state.items?.length)return "현재 "+noun+"를 수집하지 못했습니다. 다음 자동 수집 때 다시 확인합니다.";
+ return "이 필터에 해당하는 "+noun+"가 없습니다.";
+}
 function render(){
+ ["daum","google","creator","shopping"].forEach(key=>{
+  const state=sourceState[key]||{}, badge=document.querySelector("#"+key).closest(".panel").querySelector(".status");
+  badge.textContent=loadError?"불러오기 실패":state.stale?"이전 수집 데이터":state.error?"수집 대기":key==="shopping"?"1시간 자동 확인":"1시간 자동 갱신";
+  badge.style.background=loadError||state.stale||state.error?"#fff1d6":"";
+  badge.style.color=loadError||state.stale||state.error?"#926000":"";
+ });
+
  const d=daum.slice(0,10).map((x,i)=>row(x,i,"daum")).join("");
- document.querySelector("#daum").innerHTML=d||'<li class="empty">이 필터에 해당하는 검색어가 없습니다.</li>';
+ document.querySelector("#daum").innerHTML=d||'<li class="empty">'+escapeHtml(sourceMessage("daum","트렌드"))+'</li>';
  const g=live.slice(0,10).map((x,i)=>row(x,i,"google")).join("");
  document.querySelector("#google").innerHTML=g||'<li class="empty">이 필터에 해당하는 검색어가 없습니다.</li>';
  const c=creator.slice(0,10).map((x,i)=>row(x,i,"naver")).join("");
@@ -66,8 +79,8 @@ function render(){
  document.querySelector("#personal").innerHTML=personal.map((x,i)=>row(x,i,"naver")).join("")||'<li class="empty">이 필터에 해당하는 소재가 없습니다.</li>';
 }
 async function load(){
- try{const r=await fetch("data/trends.json?"+Date.now());if(!r.ok)throw 0;const d=await r.json();const s=d.sources||{};live=(s.google&&s.google.items)||d.items||[];daum=(s.daum&&s.daum.items)||[];creator=(s.creator&&s.creator.items)||[];shopping=(s.shopping&&s.shopping.items)||[];document.querySelector("#updated").textContent=(d.updated_kst||d.updated_at||"최근")+" 기준";}
- catch(e){live=[{k:"데이터 갱신 대기 중",m:"GitHub 자동 수집 준비 중",tag:"news"}];daum=[];creator=[];shopping=[];document.querySelector("#updated").textContent="초기 데이터";}
+ try{const r=await fetch("data/trends.json?"+Date.now());if(!r.ok)throw 0;const d=await r.json();const s=d.sources||{};sourceState=s;loadError=false;live=(s.google&&s.google.items)||d.items||[];daum=((s.daum&&s.daum.items)||[]).filter(x=>typeof x.k==="string"&&!/^(none|null|undefined)?$/i.test(x.k.trim()));creator=(s.creator&&s.creator.items)||[];shopping=(s.shopping&&s.shopping.items)||[];document.querySelector("#updated").textContent=(d.updated_kst||d.updated_at||"최근")+" 기준";}
+ catch(e){loadError=true;sourceState={};live=[{k:"데이터 갱신 대기 중",m:"GitHub 자동 수집 준비 중",tag:"news"}];daum=[];creator=[];shopping=[];document.querySelector("#updated").textContent="초기 데이터";}
  render();
 }
 document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("active"));b.classList.add("active");currentFilter=b.dataset.filter;render()});
