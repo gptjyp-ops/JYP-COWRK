@@ -1662,13 +1662,25 @@
     "347700": {
       "code": "347700",
       "name": "스피어",
-      "news_score": 0,
-      "news_label": "약함",
-      "news_count": 0,
-      "news_reasons": [],
-      "news": [],
+      "news_score": 2,
+      "news_label": "형성중",
+      "news_count": 1,
+      "news_reasons": [
+        "양산"
+      ],
+      "news": [
+        {
+          "title": "스피어, 우주산업 검증된 공급망·양산 확대 주목 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Hem4yRHhwZHczQ1lEbnhaNWVHSFZQb0kyU09RcVg1eHpRR3RScWNlQ3VmYWxrUXZBRldhUVNFc3pTamtld2V1N0I4RnkzV0I2OXMzNzlqSjVCRmZ0RFBUcTdvYTZJN2lXRUFDZ0ZSZ3J2ZFRNVk1aUzF5ONIBe0FVX3lxTE9Hem4yRHhwZHczQ1lEbnhaNWVHSFZQb0kyU09RcVg1eHpRR3RScWNlQ3VmYWxrUXZBRldhUVNFc3pTamtld2V1N0I4RnkzV0I2OXMzNzlqSjVCRmZ0RFBUcTdvYTZJN2lXRUFDZ0ZSZ3J2ZFRNVk1aUzF5OA?oc=5",
+          "published": "2026-10-06T01:03:53+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-06T04:10:31+00:00"
+        }
+      ],
       "errors": [],
-      "news_status": "no_articles"
+      "checked_at": "2026-10-06T04:10:31+00:00",
+      "news_status": "ok"
     },
     "125490": {
       "code": "125490",
@@ -2535,11 +2547,9 @@
       "news_count": 0,
       "news_reasons": [],
       "news": [],
-      "errors": [
-        "머니투데이: HTTP Error 503: Service Unavailable",
-        "연합뉴스: HTTP Error 503: Service Unavailable"
-      ],
-      "news_status": "error"
+      "errors": [],
+      "checked_at": "2026-10-06T04:10:32+00:00",
+      "news_status": "no_articles"
     },
     "396300": {
       "code": "396300",
@@ -3202,9 +3212,9 @@
   },
   "input_generated_at": "2026-10-05T16:35:29+09:00",
   "matching_revision": "company-boundary-v2",
-  "collection_status": "partial",
-  "successful_queries": 252,
-  "attempted_queries": 466,
+  "collection_status": "ok",
+  "successful_queries": 4,
+  "attempted_queries": 4,
   "themes": [
     {
       "id": "gold",
@@ -3672,5 +3682,6 @@
       "independent_search": true
     }
   ],
-  "theme_method": "최근 7일 기사·공시 제목 기반. 기업 업종 및 직접 수혜 확정 아님."
+  "theme_method": "최근 7일 기사·공시 제목 기반. 기업 업종 및 직접 수혜 확정 아님.",
+  "watch_checked_at": "2026-10-06T04:10:32+00:00"
 }
