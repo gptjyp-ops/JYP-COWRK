@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-06T07:33:32.234838+00:00",
-  "updated_kst": "2026년 10월 06일 16:33",
+  "updated_at": "2026-10-06T15:10:49.916871+00:00",
+  "updated_kst": "2026년 10월 07일 00:10",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "비상사태",
+          "k": "박지선",
           "m": "검색량 2000+"
         },
         {
-          "k": "재산세",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "주식",
-          "m": "검색량 10000+"
-        },
-        {
-          "k": "식이",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "jyp엔터테인먼트",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "퇴직금",
+          "k": "투수",
           "m": "검색량 500+"
         },
         {
-          "k": "nba",
+          "k": "남성진",
           "m": "검색량 200+"
         },
         {
-          "k": "강신철",
-          "m": "검색량 10000+"
+          "k": "보이스 피싱",
+          "m": "검색량 5000+"
         },
         {
-          "k": "티빙",
+          "k": "전력",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "world space week 2026",
           "m": "검색량 2000+"
         },
         {
-          "k": "김종민",
-          "m": "검색량 5000+"
+          "k": "미국 상품거래위원회",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "노벨 물리학상",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "유재명",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "서현진",
+          "m": "검색량 2000+"
         }
       ]
     },
@@ -93,12 +93,6 @@
           "tag": "buy"
         },
         {
-          "k": "이케아크리스마스빔",
-          "m": "인테리어소품 · 신규",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%9D%B4%EC%BC%80%EC%95%84%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EB%B9%94",
-          "tag": "buy"
-        },
-        {
           "k": "에어팟5케이스",
           "m": "음향가전 · 하락 2",
           "url": "https://shopping.naver.com/ns/search?query=%EC%97%90%EC%96%B4%ED%8C%9F5%EC%BC%80%EC%9D%B4%EC%8A%A4",
@@ -109,73 +103,79 @@
           "m": "계절가전 · 인기",
           "url": "https://shopping.naver.com/ns/search?query=%EA%B0%80%EC%8A%B5%EA%B8%B0%EC%8A%A4%ED%85%90%ED%8C%9F",
           "tag": "buy"
+        },
+        {
+          "k": "아식스젤ammg",
+          "m": "남성신발 · 유지",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%95%84%EC%8B%9D%EC%8A%A4%EC%A0%A4ammg",
+          "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-10-06T16:30:24.393+09:00",
+      "updated": "2026-10-07T00:00:05.879+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "코스피 7000선 붕괴",
+          "k": "문희준 H.O.T. 음료수 매출",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%BD%94%EC%8A%A4%ED%94%BC%207000%EC%84%A0%20%EB%B6%95%EA%B4%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%AC%B8%ED%9D%AC%EC%A4%80%20H.O.T.%20%EC%9D%8C%EB%A3%8C%EC%88%98%20%EB%A7%A4%EC%B6%9C"
         },
         {
-          "k": "이휘재 부친상",
+          "k": "키드냅 게임",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%9C%98%EC%9E%AC%20%EB%B6%80%EC%B9%9C%EC%83%81"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%82%A4%EB%93%9C%EB%83%85%20%EA%B2%8C%EC%9E%84"
         },
         {
-          "k": "국감 호남 반도체",
+          "k": "차경은 이유진 결혼",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AD%EA%B0%90%20%ED%98%B8%EB%82%A8%20%EB%B0%98%EB%8F%84%EC%B2%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%A8%EA%B2%BD%EC%9D%80%20%EC%9D%B4%EC%9C%A0%EC%A7%84%20%EA%B2%B0%ED%98%BC"
         },
         {
-          "k": "김태규 발언권 정지",
+          "k": "홍경민 신문 1면 스캔들",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%83%9C%EA%B7%9C%20%EB%B0%9C%EC%96%B8%EA%B6%8C%20%EC%A0%95%EC%A7%80"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%99%8D%EA%B2%BD%EB%AF%BC%20%EC%8B%A0%EB%AC%B8%201%EB%A9%B4%20%EC%8A%A4%EC%BA%94%EB%93%A4"
         },
         {
-          "k": "인천 원병원",
+          "k": "조희대 노력",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B8%EC%B2%9C%20%EC%9B%90%EB%B3%91%EC%9B%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EB%85%B8%EB%A0%A5"
         },
         {
-          "k": "조희대 재제청 거부",
+          "k": "누리호 5차 발사일정",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EC%9E%AC%EC%A0%9C%EC%B2%AD%20%EA%B1%B0%EB%B6%80"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%88%84%EB%A6%AC%ED%98%B8%205%EC%B0%A8%20%EB%B0%9C%EC%82%AC%EC%9D%BC%EC%A0%95"
         },
         {
-          "k": "개인정보 유출",
+          "k": "이태원 참사",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%83%9C%EC%9B%90%20%EC%B0%B8%EC%82%AC"
         },
         {
-          "k": "우리들의 발라드2",
+          "k": "칸나바로 한국전 인터뷰",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9A%B0%EB%A6%AC%EB%93%A4%EC%9D%98%20%EB%B0%9C%EB%9D%BC%EB%93%9C2"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B9%B8%EB%82%98%EB%B0%94%EB%A1%9C%20%ED%95%9C%EA%B5%AD%EC%A0%84%20%EC%9D%B8%ED%84%B0%EB%B7%B0"
         },
         {
-          "k": "원희 샤넬",
+          "k": "손솔 국회의원",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9B%90%ED%9D%AC%20%EC%83%A4%EB%84%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%86%90%EC%86%94%20%EA%B5%AD%ED%9A%8C%EC%9D%98%EC%9B%90"
         },
         {
-          "k": "티빙 보상",
+          "k": "조슈아 정한 살롱드립 갈등",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%8B%B0%EB%B9%99%20%EB%B3%B4%EC%83%81"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%EC%8A%88%EC%95%84%20%EC%A0%95%ED%95%9C%20%EC%82%B4%EB%A1%B1%EB%93%9C%EB%A6%BD%20%EA%B0%88%EB%93%B1"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "비상사태",
+      "k": "박지선",
       "m": "검색량 2000+"
     },
     {
-      "k": "재산세",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "주식",
-      "m": "검색량 10000+"
-    },
-    {
-      "k": "식이",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "jyp엔터테인먼트",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "퇴직금",
+      "k": "투수",
       "m": "검색량 500+"
     },
     {
-      "k": "nba",
+      "k": "남성진",
       "m": "검색량 200+"
     },
     {
-      "k": "강신철",
-      "m": "검색량 10000+"
+      "k": "보이스 피싱",
+      "m": "검색량 5000+"
     },
     {
-      "k": "티빙",
+      "k": "전력",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "world space week 2026",
       "m": "검색량 2000+"
     },
     {
-      "k": "김종민",
-      "m": "검색량 5000+"
+      "k": "미국 상품거래위원회",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "노벨 물리학상",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "유재명",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "서현진",
+      "m": "검색량 2000+"
     }
   ]
 }
