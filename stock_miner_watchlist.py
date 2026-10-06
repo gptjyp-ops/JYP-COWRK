@@ -12,8 +12,8 @@ def load_watchlist():
     stocks = payload["stocks"]
     result, seen = [], set()
     for stock in stocks:
-        code, name = str(stock["code"]), str(stock["name"]).strip()
-        if not re.fullmatch(r"\d{6}", code) or not name:
+        code, name = str(stock["code"]).strip().upper(), str(stock["name"]).strip()
+        if not re.fullmatch(r"[0-9A-Z]{6}", code) or not name:
             raise ValueError("고정 관심종목 코드·이름 형식 오류")
         if code not in seen:
             result.append({"code": code, "name": name, "fixed_watch": True})

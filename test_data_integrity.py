@@ -6,6 +6,7 @@ import unittest
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from unittest.mock import patch
+import stock_miner_watchlist
 
 ROOT = Path(__file__).resolve().parent
 
@@ -36,6 +37,15 @@ import news_collect
 import stock_miner_watchlist
 
 class FixedWatchlistTests(unittest.TestCase):
+    def test_alphanumeric_stock_code_is_preserved(self):
+        import json
+        payload={'stocks':[{'code':'0161M0','name':'네오사피엔스'}]}
+        with patch.object(stock_miner_watchlist.WATCHLIST.__class__, 'exists', return_value=True), patch.object(stock_miner_watchlist.WATCHLIST.__class__, 'read_text', return_value=json.dumps(payload)):
+            # setUp's fixture is bypassed to exercise the actual format validator.
+            import importlib
+            isolated=module('stock_miner_watchlist')
+            self.assertEqual(isolated.load_watchlist()[0]['code'],'0161M0')
+
     def setUp(self):
         loader = patch.object(stock_miner_watchlist, 'load_watchlist', return_value=[{'code': '347700', 'name': '스피어', 'fixed_watch': True}, {'code': '105740', 'name': '디케이락', 'fixed_watch': True}])
         loader.start()

@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - news_collect.py
+      - stock_miner_watchlist.py
+      - data/stock-miner-watchlist.json
       - .github/workflows/news-momentum.yml
   workflow_dispatch:
   schedule:
