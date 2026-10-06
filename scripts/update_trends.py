@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import json, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -66,15 +66,60 @@ def naver_shopping_best():
     sync=str(ranks[0].get("syncDate", "")) if ranks else ""
     return {"updated":sync, "items":items}
 
+def valid_keyword(value):
+    return isinstance(value, str) and value.strip().lower() not in ("", "none", "null", "undefined")
+
+def daum_trends():
+    # 공식 홈페이지에 포함된 실시간 트렌드 데이터를 직접 읽습니다.
+    raw=request("https://www.daum.net/").decode("utf-8", errors="replace")
+    marker=re.search(r"window\.tillerInitData\s*=\s*", raw)
+    if not marker:
+        raise RuntimeError("다음 공식 페이지의 트렌드 데이터를 찾지 못했습니다.")
+    payload, _=json.JSONDecoder().raw_decode(raw[marker.end():])
+    def find(node):
+        if isinstance(node, dict):
+            if node.get("uiType") == "REALTIME_TREND_TOP":
+                return node.get("contents", {}).get("data", {})
+            for value in node.values():
+                found=find(value)
+                if found is not None:
+                    return found
+        elif isinstance(node, list):
+            for value in node:
+                found=find(value)
+                if found is not None:
+                    return found
+        return None
+    data=find(payload) or {}
+    items=[]
+    for entry in data.get("keywords", []):
+        title=entry.get("keyword")
+        if not valid_keyword(title):
+            continue
+        rank=entry.get("displayRank")
+        if not isinstance(rank, int) or rank < 1:
+            continue
+        title=title.strip()
+        items.append({"k":title, "rank":rank, "m":"다음 공식 실시간 트렌드",
+                      "url":"https://search.daum.net/search?w=tot&q="+urllib.parse.quote(title)})
+    items.sort(key=lambda item: item["rank"])
+    if not items:
+        raise RuntimeError("다음 공식 실시간 트렌드가 비어 있습니다.")
+    return {"updated":data.get("updatedAt", ""), "provider":"Daum official",
+            "source_url":"https://www.daum.net/", "items":items[:10]}
+
 def public_ranking(name):
     # 공개 순위 제공 페이지의 JSON 결과를 한 시간마다 보관합니다.
     payload=json.loads(request(f"https://adsensefarm.kr/realtime/{name}.php"))
     if payload.get("result") != "success":
         raise RuntimeError(f"{name} ranking unavailable")
+    items=[{"k":k.strip(), "m":"실시간 인기 검색어"}
+           for k in payload.get("data", []) if valid_keyword(k)][:10]
+    if not items:
+        raise RuntimeError(f"{name} ranking contains no valid keywords")
     return {
         "updated": payload.get("nowtime", ""),
-        "items": [{"k":str(k).strip(), "m":"실시간 인기 검색어"}
-                  for k in payload.get("data", [])[:10] if str(k).strip()]
+        "items": items
     }
 
 out=Path(__file__).resolve().parents[1]/"data"/"trends.json"
@@ -89,15 +134,16 @@ sources={}
 for key, loader in (
     ("google", google_trends),
     ("shopping", naver_shopping_best),
-    ("daum", lambda: public_ranking("daum")),
+    ("daum", daum_trends),
     ("creator", lambda: public_ranking("naver")),
 ):
     try:
         sources[key]=loader()
     except Exception as exc:
-        if previous.get("sources", {}).get(key):
-            sources[key]=previous["sources"][key]
-            sources[key]["stale"]=True
+        old=previous.get("sources", {}).get(key, {})
+        valid_items=[item for item in old.get("items", []) if valid_keyword(item.get("k"))]
+        if valid_items:
+            sources[key]={**old, "items":valid_items, "stale":True, "error":str(exc)}
         else:
             sources[key]={"items":[], "error":str(exc)}
 now=datetime.now(timezone.utc)
