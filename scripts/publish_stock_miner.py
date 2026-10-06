@@ -10,12 +10,17 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from stock_miner_observations import update as update_observations
+from stock_miner_watchlist import load_watchlist
+from stock_miner_momentum import priority, timestamp
 SOURCE = ROOT / "stock-miner-data.json"
 DATA = ROOT / "data"
 META = DATA / "stock-miner-v4-meta.json"
 PARTS = [DATA / f"stock-miner-v4-part{i}.json" for i in (1, 2, 3)]
 AUDIT = DATA / "stock-miner-v4-audit.json"
-PUBLISH_FILES = [META, *PARTS, AUDIT]
+OBSERVATIONS = DATA / "stock-miner-observations.json"
+PUBLISH_FILES = [META, *PARTS, AUDIT, OBSERVATIONS]
 
 
 def run(*args: str) -> None:
@@ -50,7 +55,17 @@ def main() -> None:
     if len(payload.get("dart", {}).get("errors", [])) > len(stocks) // 2:
         raise ValueError("DART 종목 조회 오류가 절반을 넘어 업로드하지 않습니다.")
 
+    news_path = DATA / "news-momentum.json"
+    news = json.loads(news_path.read_text(encoding="utf-8")) if news_path.exists() else {}
+    now = timestamp(payload["generated_at_dart"])
+    for stock in stocks:
+        stock["observation_priority"] = priority(stock, news.get("stocks", {}).get(stock["code"]), now)
+    if not OBSERVATIONS.exists():
+        raise ValueError("관찰 비교 등록 파일이 없습니다.")
+    history = json.loads(OBSERVATIONS.read_text(encoding="utf-8"))
+    history = update_observations(history, stocks, payload.get("market_audit", {}), news, payload["generated_at_dart"], load_watchlist())
     DATA.mkdir(exist_ok=True)
+    OBSERVATIONS.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
     for index, path in enumerate(PARTS):
         segment = stocks[index * len(stocks) // 3:(index + 1) * len(stocks) // 3]
         path.write_text(json.dumps(segment, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
@@ -89,4 +104,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 

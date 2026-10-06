@@ -21,7 +21,7 @@ jobs:
           python-version: '3.12'
 
       - name: Check data integrity rules
-        run: python -m unittest test_data_integrity test_momentum_themes test_news_recovery
+        run: python -m unittest test_data_integrity test_momentum_themes test_news_recovery test_momentum_tracking
 
       - name: Collect news momentum
         id: collect
@@ -40,4 +40,5 @@ jobs:
           git commit -m "Update news momentum data"
           git pull --rebase origin main
           git push origin HEAD:main
+
 

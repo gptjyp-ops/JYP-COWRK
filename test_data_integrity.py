@@ -51,7 +51,7 @@ class FixedWatchlistTests(unittest.TestCase):
         self.assertNotIn('fixed_watch', rows[0])
 
     def test_empty_rankings_still_collect_fixed_stocks(self):
-        with patch.object(collector, 'collect_foreign_streak'), patch.object(collector, 'collect_institution_top'), patch.object(collector, 'collect_volume_top'), patch.object(collector.time, 'sleep'):
+        with patch.object(collector, 'collect_foreign_streak'), patch.object(collector, 'collect_institution_top'), patch.object(collector, 'collect_volume_top'), patch.object(collector, 'include_pending', side_effect=lambda rows: rows), patch.object(collector.time, 'sleep'):
             rows, _ = collector.collect_candidates()
         self.assertEqual({r['code'] for r in rows}, {'347700', '105740'})
 

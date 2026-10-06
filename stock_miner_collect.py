@@ -9,6 +9,7 @@ from pathlib import Path
 
 from kiwoom import get_client, KiwoomError
 from stock_miner_watchlist import include_watchlist
+from stock_miner_observations import include_pending
 
 OUT = Path("stock-miner-data.json")
 REQUEST_DELAY = 0.22
@@ -264,7 +265,7 @@ def collect_candidates():
     collect_volume_top(pool, filtered)
 
     ranked_candidates = select_candidates(pool)
-    candidates = include_watchlist(ranked_candidates)
+    candidates = include_pending(include_watchlist(ranked_candidates))
     print(f"[범위] 통합 {len(pool)}개 / 상세분석 {len(candidates)}개 / "
           f"분석한도 제외 {len(pool) - len(ranked_candidates)}개")
     return candidates, filtered
@@ -383,7 +384,7 @@ def main():
             time.sleep(REQUEST_DELAY)
             price, change, vr, d20, d60 = chart_metrics(code)
             reason = postfilter_reason(price, change, vr)
-            if reason and not c.get("fixed_watch"):
+            if reason and not (c.get("fixed_watch") or c.get("comparison_only")):
                 filtered.append({"code": code, "name": name, "reason": reason, "source": src})
                 continue
 
@@ -408,6 +409,7 @@ def main():
                 "sources": c.get("sources", []),
                 "source_count": len(c.get("sources", [])),
                 "fixed_watch": bool(c.get("fixed_watch")),
+                "comparison_only": bool(c.get("comparison_only")),
                 "screening_note": reason,
                 "price": round(price),
                 "change": round(change, 2),
@@ -486,4 +488,5 @@ if __name__ == "__main__":
         main()
     except KiwoomError as e:
         raise SystemExit(f"키움 API 오류: {e}")
+
 
