@@ -1,0 +1,966 @@
+{
+  "version": 1,
+  "reviewed_at": "2026-10-07",
+  "note": "주요 사업·제품 이해를 위한 간략 요약. 매출 비중이나 특정 뉴스의 직접 수혜를 뜻하지 않습니다. 신규 종목은 자료 확인 후 등록합니다.",
+  "stocks": {
+    "100590": {
+      "name": "머큐리",
+      "summary": "통신사 가정용 단말·네트워크·IoT 통신장비 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=100590",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "101670": {
+      "name": "하이드로리튬",
+      "summary": "배터리급 수산화리튬·탄산리튬 등 리튬 소재 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=101670",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "103590": {
+      "name": "일진전기",
+      "summary": "전선·변압기·차단기 등 전력망 제품 제조·공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=103590",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "105740": {
+      "name": "디케이락",
+      "summary": "배관을 연결하는 계장용 피팅과 유체 흐름을 조절하는 밸브 제조",
+      "source_url": "https://kind.krx.co.kr/external/2025/11/14/000553/20251114001135/11013.htm",
+      "source_label": "기업 공시",
+      "reviewed_at": "2026-10-07"
+    },
+    "107640": {
+      "name": "한중엔시에스",
+      "summary": "ESS 배터리 수냉식 냉각시스템과 전기차 냉각 부품 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=107640",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "109820": {
+      "name": "진매트릭스",
+      "summary": "분자진단 시약 개발·판매와 백신·면역항암제 연구개발",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=109820",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "111770": {
+      "name": "영원무역",
+      "summary": "글로벌 브랜드의 아웃도어 의류·신발 주문생산과 브랜드 유통",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=111770",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "115440": {
+      "name": "우리넷",
+      "summary": "광전송·IoT 통신장비와 OLED 유기물 소재 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=115440",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "115450": {
+      "name": "HLB테라퓨틱스",
+      "summary": "바이오 신약개발·콜드체인·전자 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=115450",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "124500": {
+      "name": "아이티센글로벌",
+      "summary": "IT 서비스·기업 투자와 금속 제조·유통 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=124500",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "125020": {
+      "name": "티씨머티리얼즈",
+      "summary": "변압기·모터·전력기기에 쓰이는 구리 권선 소재 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=125020",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "125490": {
+      "name": "한라캐스트",
+      "summary": "자동차 등에 쓰이는 알루미늄·마그네슘·아연 정밀 부품 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=125490",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "138360": {
+      "name": "앤로보틱스",
+      "summary": "식품 공정 자동화 설비·산업용 로봇·로봇 제어시스템 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=138360",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "142280": {
+      "name": "녹십자엠에스",
+      "summary": "체외진단 시약·혈당측정기·혈액투석액 제조·판매",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=142280",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "158430": {
+      "name": "아톤",
+      "summary": "금융·공공기관용 간편인증·전자서명·보안 솔루션 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=158430",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "184230": {
+      "name": "SGA솔루션즈",
+      "summary": "정보보안·시스템 접근제어 솔루션 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=184230",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "189300": {
+      "name": "인텔리안테크",
+      "summary": "선박·항공·저궤도 위성통신용 안테나와 통신장비 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=189300",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "189330": {
+      "name": "씨이랩",
+      "summary": "GPU 관리·영상분석 AI·디지털트윈 솔루션 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=189330",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "200350": {
+      "name": "아티스트스튜디오",
+      "summary": "드라마·예능·공연 콘텐츠 제작과 콘텐츠 IP 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=200350",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "203650": {
+      "name": "드림시큐리티",
+      "summary": "암호·인증·정보보안 솔루션과 자회사 렌탈 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=203650",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "204270": {
+      "name": "제이앤티씨",
+      "summary": "모바일·자동차용 유리와 반도체용 유리기판 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=204270",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "214450": {
+      "name": "파마리서치",
+      "summary": "PN·PDRN 기반 재생의학 의료기기·의약품·화장품 개발·판매",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=214450",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "215790": {
+      "name": "이노인스트루먼트",
+      "summary": "광섬유를 연결하는 융착접속기·절단기·광통신 장비 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=215790",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "217590": {
+      "name": "티엠씨",
+      "summary": "선박·해양·광통신·원전용 케이블 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=217590",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "218410": {
+      "name": "RFHIC",
+      "summary": "통신·방산용 GaN 반도체와 무선신호 전력증폭기 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=218410",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "224060": {
+      "name": "더코디",
+      "summary": "가전·전기차용 고주파 코일·트랜스포머·인덕터 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=224060",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "232140": {
+      "name": "와이씨",
+      "summary": "DRAM·NAND 웨이퍼 검사·분석·수리용 자동검사 장비 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=232140",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "253840": {
+      "name": "수젠텍",
+      "summary": "체외진단 의료기기·검사 시약과 디지털 헬스케어 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=253840",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "255220": {
+      "name": "SG",
+      "summary": "도로 포장용 아스콘 제조·판매와 포장공사·환경설비 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=255220",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "256840": {
+      "name": "한국비엔씨",
+      "summary": "필러·보툴리눔 톡신 등 미용 의료기기·의약품·화장품 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=256840",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "263600": {
+      "name": "덕우전자",
+      "summary": "모바일 카메라 정밀 부품·자동차 전장 부품 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=263600",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "263860": {
+      "name": "지니언스",
+      "summary": "네트워크 접근제어·단말보안·제로트러스트 보안 솔루션 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=263860",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "270520": {
+      "name": "앱튼",
+      "summary": "지열 냉난방시스템·연료전지 설계 및 시공",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=270520",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "278650": {
+      "name": "HLB바이오스텝",
+      "summary": "신약 후보물질 비임상 시험과 바이오 연구시설 구축 서비스",
+      "source_url": "https://hlbbiostep.com/",
+      "source_label": "회사 소개",
+      "reviewed_at": "2026-10-07"
+    },
+    "299660": {
+      "name": "셀리드",
+      "summary": "항암면역·감염병 백신 연구개발과 바이오 의약품 위탁생산",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=299660",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "304100": {
+      "name": "솔트룩스",
+      "summary": "생성형 AI·언어모델·지식그래프·빅데이터 솔루션 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=304100",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "307750": {
+      "name": "국전",
+      "summary": "원료의약품 제조·유통과 디스플레이·반도체용 소재 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=307750&cn=",
+      "source_label": "회사 소개",
+      "reviewed_at": "2026-10-07"
+    },
+    "321370": {
+      "name": "센서뷰",
+      "summary": "고주파 RF 케이블·커넥터·안테나 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=321370",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "327260": {
+      "name": "RF머트리얼즈",
+      "summary": "통신·레이저·군수용 화합물 반도체 패키지 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=327260",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "332570": {
+      "name": "PS일렉트로닉스",
+      "summary": "무선통신 RF 부품·공장 자동화 장비·AI 서버 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=332570",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "340450": {
+      "name": "지씨지놈",
+      "summary": "산과·암·유전희귀질환 등 임상 유전체 검사 서비스",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=340450",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "347700": {
+      "name": "스피어",
+      "summary": "우주항공용 특수합금 공급과 특수광물·디지털 헬스케어 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=347700",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "348030": {
+      "name": "모비릭스",
+      "summary": "모바일 게임 개발·유통·운영과 게임 내 광고 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=348030",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "353200": {
+      "name": "대덕전자",
+      "summary": "반도체 패키지용 기판과 서버·네트워크용 PCB 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=353200",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "356680": {
+      "name": "엑스게이트",
+      "summary": "VPN·방화벽 등 네트워크 보안장비와 보안관제 서비스",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=356680",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "382800": {
+      "name": "지앤비에스 에코",
+      "summary": "반도체 등 공정의 유해가스·분진 처리 장비 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=382800",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "388050": {
+      "name": "지투파워",
+      "summary": "수배전반·태양광발전시스템·ESS 제조·설치",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=388050",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "388790": {
+      "name": "라이콤",
+      "summary": "광증폭기·광섬유 레이저 등 광통신 부품 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=388790",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "396300": {
+      "name": "HT로보틱스",
+      "summary": "ESS·자동차·IT기기용 알루미늄 정밀 부품 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=396300",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "402340": {
+      "name": "SK스퀘어",
+      "summary": "SK하이닉스 등 반도체 중심 기업에 투자하는 지주회사",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=402340",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "403870": {
+      "name": "HPSP",
+      "summary": "반도체 전공정용 고압 수소 열처리 장비 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=403870",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "406820": {
+      "name": "뷰티스킨",
+      "summary": "화장품 주문생산·개발생산과 자체 브랜드 유통",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=406820",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "411080": {
+      "name": "샌즈랩",
+      "summary": "AI 기반 사이버 위협 정보 분석·보안 솔루션 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=411080",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "417200": {
+      "name": "LS머트리얼즈",
+      "summary": "고출력 에너지 저장용 울트라커패시터와 알루미늄 부품 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=417200",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "439580": {
+      "name": "블루엠텍",
+      "summary": "의약품 유통과 의약품 전자상거래 서비스",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=439580",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "439960": {
+      "name": "코스모로보틱스",
+      "summary": "보행재활·보행보조·근력보조용 웨어러블 로봇 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=439960",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "443670": {
+      "name": "에스피소프트",
+      "summary": "소프트웨어 라이선스·클라우드·가상 데스크톱 서비스",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=443670",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "445680": {
+      "name": "큐리옥스바이오시스템즈",
+      "summary": "세포 분석에 쓰이는 세포 세척·실험 자동화 장비 개발",
+      "source_url": "https://curiox.co.kr/",
+      "source_label": "회사 소개",
+      "reviewed_at": "2026-10-07"
+    },
+    "448900": {
+      "name": "한국피아이엠",
+      "summary": "금속분말 사출성형으로 자동차·의료·전자기기 정밀 부품 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=448900",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "452190": {
+      "name": "한빛레이저",
+      "summary": "배터리·자동차·반도체 제조용 레이저 자동화 장비 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=452190",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "456010": {
+      "name": "아이씨티케이",
+      "summary": "복제방지 PUF·양자내성암호 기반 보안 반도체 설계",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=456010",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "475150": {
+      "name": "SK이터닉스",
+      "summary": "태양광·풍력·연료전지 발전과 ESS 사업 개발·운영",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=475150",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "488280": {
+      "name": "에스투더블유",
+      "summary": "AI 기반 빅데이터 분석·데이터 인텔리전스 솔루션 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=488280",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "490470": {
+      "name": "세미파이브",
+      "summary": "시스템 반도체 설계부터 생산·후공정까지 개발 서비스",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=490470",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "024840": {
+      "name": "KBI메탈",
+      "summary": "전선 원료인 동봉과 전장용 모터코어·전선 제조",
+      "source_url": "https://kind.krx.co.kr/corpdetail/totalinfo.do?isurCd=02484&kisComCd=450898&method=searchTotalInfo&repIsuCd=KR7024840001",
+      "source_label": "기업 공시",
+      "reviewed_at": "2026-10-07"
+    },
+    "032500": {
+      "name": "케이엠더블유",
+      "summary": "이동통신 기지국용 안테나·필터·무선장비와 LED 조명 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=032500",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "036930": {
+      "name": "주성엔지니어링",
+      "summary": "반도체·태양광·디스플레이 생산에 쓰이는 제조장비 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=036930",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "005930": {
+      "name": "삼성전자",
+      "summary": "메모리 반도체·스마트폰·TV·가전과 디스플레이 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=005930",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "0161M0": {
+      "name": "네오사피엔스",
+      "summary": "타입캐스트 등 AI 음성 생성·음성합성 서비스 운영",
+      "source_url": "https://typecast.ai/kr/",
+      "source_label": "회사 소개",
+      "reviewed_at": "2026-10-07"
+    },
+    "024060": {
+      "name": "흥구석유",
+      "summary": "휘발유·경유·등유 등 석유제품 도소매와 주유소 운영",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=024060",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "041190": {
+      "name": "우리기술투자",
+      "summary": "신기술 기업 지분 투자와 벤처투자조합 운용",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=041190",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "064350": {
+      "name": "현대로템",
+      "summary": "철도차량·방산 무기체계와 산업 플랜트 설비 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=064350",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "000660": {
+      "name": "SK하이닉스",
+      "summary": "DRAM·NAND 등 메모리 반도체 생산·판매",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=000660",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "080220": {
+      "name": "제주반도체",
+      "summary": "모바일 기기용 저전력 메모리 반도체 설계·위탁생산",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=080220",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "069960": {
+      "name": "현대백화점",
+      "summary": "백화점·아울렛·면세점 운영과 매트리스·가구 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=069960",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "042660": {
+      "name": "한화오션",
+      "summary": "상선·LNG 운반선·잠수함 등 선박과 해양설비 건조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=042660",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "012330": {
+      "name": "현대모비스",
+      "summary": "자동차 핵심 모듈·전장·전동화 부품 개발·공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=012330",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "082740": {
+      "name": "한화엔진",
+      "summary": "대형 선박 엔진과 선박 전력·추진 시스템 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=082740",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "028670": {
+      "name": "팬오션",
+      "summary": "철광석·석탄·곡물·원유·LNG 등 화물의 해상운송",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=028670",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "047040": {
+      "name": "대우건설",
+      "summary": "아파트·도로·철도·발전소·산업 플랜트 건설",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=047040",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "003670": {
+      "name": "포스코퓨처엠",
+      "summary": "배터리 양극재·음극재와 내화물 등 산업 소재 생산",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=003670",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "036030": {
+      "name": "케이티알파",
+      "summary": "KT알파 쇼핑의 TV 데이터방송 쇼핑과 모바일상품권 서비스",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=036030",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "065950": {
+      "name": "웰크론",
+      "summary": "극세사 청소용품·기능성 침구·방호제품과 건설·플랜트 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=065950",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "001510": {
+      "name": "SK증권",
+      "summary": "증권 매매·중개·자산관리와 기업금융 서비스",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=001510",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "006910": {
+      "name": "보성파워텍",
+      "summary": "송전철탑·변압기·개폐기 등 전력설비 기자재 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=006910",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "003280": {
+      "name": "흥아해운",
+      "summary": "액체 석유화학제품 해상운송과 물류·선박관리 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=003280",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "010120": {
+      "name": "LS ELECTRIC",
+      "summary": "전력기기·전력시스템과 공장 자동화 장비 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=010120",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "027360": {
+      "name": "아주IB투자",
+      "summary": "벤처기업 투자와 사모투자펀드 운용",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=027360",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "034220": {
+      "name": "LG디스플레이",
+      "summary": "TV·IT·모바일·자동차용 LCD·OLED 패널 생산",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=034220",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "019990": {
+      "name": "에너토크",
+      "summary": "밸브를 여닫는 전동 구동장치와 감속기 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=019990",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "003490": {
+      "name": "대한항공",
+      "summary": "항공 여객·화물 운송과 항공우주 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=003490",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "001440": {
+      "name": "대한전선",
+      "summary": "초고압·전력·해저 케이블 제조와 전력망 시공",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=001440",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "000020": {
+      "name": "동화약품",
+      "summary": "의약품·원료의약품·의약외품·건강기능식품 제조·판매",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=000020",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "004310": {
+      "name": "현대약품",
+      "summary": "전문의약품·일반의약품·건강기능음료 등 제조·판매",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=004310",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "034020": {
+      "name": "두산에너빌리티",
+      "summary": "발전설비·가스터빈·발전 플랜트 설계·제작·시공",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=034020",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "066570": {
+      "name": "LG전자",
+      "summary": "가전·TV·냉난방 및 냉각솔루션·자동차 부품 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=066570",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "011700": {
+      "name": "한신기계",
+      "summary": "공장·플랜트 등에 쓰이는 공기압축기 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=011700",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "006340": {
+      "name": "대원전선",
+      "summary": "전력케이블·건축용 전선·자동차용 전선 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=006340",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "003220": {
+      "name": "대원제약",
+      "summary": "전문·일반의약품 제조·판매와 의약품 위탁생산",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=003220",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "093370": {
+      "name": "후성",
+      "summary": "냉매·배터리 전해질 소재·반도체 특수가스 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=093370",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "078150": {
+      "name": "HB테크놀러지",
+      "summary": "디스플레이·배터리 검사장비와 디스플레이 부품 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=078150",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "019170": {
+      "name": "신풍제약",
+      "summary": "완제의약품·원료의약품 제조·판매와 신약 개발",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=019170",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "018880": {
+      "name": "한온시스템",
+      "summary": "자동차 냉난방·공조 및 열관리 시스템 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=018880",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "046970": {
+      "name": "우리로",
+      "summary": "광분배기·광다이오드 등 광통신 부품과 IT 저장장치 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=046970",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "010140": {
+      "name": "삼성중공업",
+      "summary": "상선·선박 블록·해양설비 설계·제작",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=010140",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "012210": {
+      "name": "삼미금속",
+      "summary": "상용차·중장비·선박엔진용 금속 단조 부품 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=012210",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "090710": {
+      "name": "휴림로봇",
+      "summary": "산업용 제조 로봇과 서비스 로봇 개발·공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=090710",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "098460": {
+      "name": "고영",
+      "summary": "전자·반도체 조립 공정용 3차원 검사·정밀측정 장비 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=098460",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "067290": {
+      "name": "JW신약",
+      "summary": "항진균제·비뇨기과용제 등 전문의약품 제조·판매",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=067290",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "032820": {
+      "name": "우리기술",
+      "summary": "원자력발전소 감시·제어 시스템과 제어계측 장비 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=032820",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "050890": {
+      "name": "쏠리드",
+      "summary": "이동통신 중계기·광전송·기지국 네트워크 장비 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=050890",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "041960": {
+      "name": "코미팜",
+      "summary": "동물용 백신·치료제 제조와 인체 신약 연구개발",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=041960",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "009830": {
+      "name": "한화솔루션",
+      "summary": "석유화학 기초소재·태양광 셀·모듈과 발전소 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=009830",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "067310": {
+      "name": "하나마이크론",
+      "summary": "반도체 패키징·테스트·모듈 등 후공정 서비스",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=067310",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "042370": {
+      "name": "비츠로테크",
+      "summary": "자회사를 통한 전력기기·리튬일차전지·특수공정 기술 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=042370",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "042510": {
+      "name": "라온시큐어",
+      "summary": "생체인증·계정관리·분산신원인증 등 보안 솔루션 공급",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=042510",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "014950": {
+      "name": "삼익제약",
+      "summary": "고혈압·고지혈증·당뇨 등 전문의약품 제조·위탁생산",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=014950",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "047920": {
+      "name": "HLB제약",
+      "summary": "의약품 제조·판매·위탁생산과 건강기능식품 사업",
+      "source_url": "https://kind.krx.co.kr/external/2025/11/14/002132/20251114004825/11013.htm",
+      "source_label": "기업 공시",
+      "reviewed_at": "2026-10-07"
+    },
+    "043260": {
+      "name": "성호전자",
+      "summary": "필름 콘덴서·전원공급장치와 반도체 관련 장비 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=043260",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "095700": {
+      "name": "제넥신",
+      "summary": "단백질 신약·항암면역치료제·DNA 백신 연구개발",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=095700",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "008970": {
+      "name": "KBI동양철관",
+      "summary": "가스관·송유관·구조용 강관과 동합금 제품 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=008970",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "072950": {
+      "name": "빛샘전자",
+      "summary": "LED 전광판·광통신 부품·방산 케이블·솔더 소재 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=072950",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "065530": {
+      "name": "와이어블",
+      "summary": "이동통신 공용 기지국·중계망 구축 및 유지보수",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=065530",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "033160": {
+      "name": "엠케이전자",
+      "summary": "반도체 칩 연결용 본딩와이어·솔더볼 소재 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=033160",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "001360": {
+      "name": "삼성제약",
+      "summary": "의약품·건강식품 판매와 신약 개발",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=001360",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "097800": {
+      "name": "윈팩",
+      "summary": "반도체 패키징과 기능 검사 등 후공정 서비스",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=097800",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "010170": {
+      "name": "대한광통신",
+      "summary": "통신망에 쓰이는 광섬유·광케이블 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=010170",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "017900": {
+      "name": "광전자",
+      "summary": "모바일·자동차·가전용 반도체와 전자부품 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=017900",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "003350": {
+      "name": "한국화장품제조",
+      "summary": "기초·색조 화장품 주문생산·개발생산 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=003350",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "069540": {
+      "name": "빛과전자",
+      "summary": "통신망·데이터센터 등에 쓰이는 광트랜시버 모듈 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=069540",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "036540": {
+      "name": "SFA반도체",
+      "summary": "반도체 조립·패키징·테스트 후공정 서비스",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=036540",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "033790": {
+      "name": "피노",
+      "summary": "배터리 양극재·전구체 소재 사업과 통신장비 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=033790",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "062970": {
+      "name": "한국첨단소재",
+      "summary": "광통신망용 광분배기·광파장 분할기 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=062970",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "054920": {
+      "name": "한컴위드",
+      "summary": "인증·데이터 보안 솔루션과 자회사 금 유통 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=054920",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "003580": {
+      "name": "HLB글로벌",
+      "summary": "미디어커머스·식품·음료·화장품 판매",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=003580",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "028300": {
+      "name": "HLB",
+      "summary": "항암 신약개발·체외진단 제품과 선박·미디어커머스 사업",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=028300",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    },
+    "000500": {
+      "name": "가온전선",
+      "summary": "전력·통신·특수 케이블 제조",
+      "source_url": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=000500",
+      "source_label": "FnGuide 기업개요",
+      "reviewed_at": "2026-10-07"
+    }
+  }
+}
