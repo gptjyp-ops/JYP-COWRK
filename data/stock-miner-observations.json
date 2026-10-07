@@ -1,8 +1,803 @@
 {
   "version": 1,
   "tracking_started_at": "2026-10-06T12:52:33+09:00",
-  "cohort_at": null,
-  "records": [],
-  "method": "등록 이후 첫 PC 수집에서 관심종목과 자동 상위 10개의 기준가격을 함께 기록. 이후 확인된 완료 일봉 1·3·5개 뒤 가격변화율. 수수료·배당 제외. 당일 일봉은 다음날 수집부터 반영."
+  "cohort_at": "2026-10-07T09:36:47+09:00",
+  "records": [
+    {
+      "group": "관심",
+      "code": "105740",
+      "name": "디케이락",
+      "baseline_price": 11740,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:05+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 12000.0,
+        "volume": 1981241.0
+      },
+      "priority_at_start": 5.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "347700",
+      "name": "스피어",
+      "baseline_price": 26400,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:23:27+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 27050.0,
+        "volume": 3600125.0
+      },
+      "priority_at_start": 46.7,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "024840",
+      "name": "KBI메탈",
+      "baseline_price": 6390,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:20:39+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 6420.0,
+        "volume": 1405791.0
+      },
+      "priority_at_start": 20.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "218410",
+      "name": "RFHIC",
+      "baseline_price": 61800,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:07+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 62900.0,
+        "volume": 396258.0
+      },
+      "priority_at_start": 4.3,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "032500",
+      "name": "케이엠더블유",
+      "baseline_price": 20700,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:09+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 21400.0,
+        "volume": 224793.0
+      },
+      "priority_at_start": 0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "baseline_price": 268000,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:21:33+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 283000.0,
+        "volume": 3543097.0
+      },
+      "priority_at_start": 10.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "005930",
+      "name": "삼성전자",
+      "baseline_price": 277500,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:20:28+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 273000.0,
+        "volume": 12913819.0
+      },
+      "priority_at_start": 15.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "189300",
+      "name": "인텔리안테크",
+      "baseline_price": 71400,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:11+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 75200.0,
+        "volume": 171440.0
+      },
+      "priority_at_start": 20.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "214450",
+      "name": "파마리서치",
+      "baseline_price": 311000,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:13+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 306000.0,
+        "volume": 118152.0
+      },
+      "priority_at_start": 18.3,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "0161M0",
+      "name": "네오사피엔스",
+      "baseline_price": null,
+      "baseline_date": null,
+      "baseline_collected_at": null,
+      "previous_close": null,
+      "priority_at_start": null,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "missing_baseline"
+    },
+    {
+      "group": "관심",
+      "code": "024060",
+      "name": "흥구석유",
+      "baseline_price": 12200,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:17+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 12100.0,
+        "volume": 674501.0
+      },
+      "priority_at_start": 15.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "396300",
+      "name": "HT로보틱스",
+      "baseline_price": 6100,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:19+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 6100.0,
+        "volume": 1295234.0
+      },
+      "priority_at_start": 15.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "041190",
+      "name": "우리기술투자",
+      "baseline_price": 6180,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:22:26+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 6340.0,
+        "volume": 2787720.0
+      },
+      "priority_at_start": 26.7,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "402340",
+      "name": "SK스퀘어",
+      "baseline_price": 1171000,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:21+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 1164000.0,
+        "volume": 637118.0
+      },
+      "priority_at_start": 20.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "107640",
+      "name": "한중엔시에스",
+      "baseline_price": 45600,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:23+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 45650.0,
+        "volume": 200247.0
+      },
+      "priority_at_start": 15,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "475150",
+      "name": "SK이터닉스",
+      "baseline_price": 49850,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:25+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 50500.0,
+        "volume": 711906.0
+      },
+      "priority_at_start": 6.7,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "448900",
+      "name": "한국피아이엠",
+      "baseline_price": 57200,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:26+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 58200.0,
+        "volume": 37566.0
+      },
+      "priority_at_start": 20.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "445680",
+      "name": "큐리옥스바이오시스템즈",
+      "baseline_price": 61500,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:28+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 62100.0,
+        "volume": 103541.0
+      },
+      "priority_at_start": 0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "064350",
+      "name": "현대로템",
+      "baseline_price": 111300,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:30+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 112600.0,
+        "volume": 368794.0
+      },
+      "priority_at_start": 14.7,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "000660",
+      "name": "SK하이닉스",
+      "baseline_price": 1764000,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:21:48+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 1784000.0,
+        "volume": 2811364.0
+      },
+      "priority_at_start": 0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "080220",
+      "name": "제주반도체",
+      "baseline_price": 87900,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:21:50+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 94100.0,
+        "volume": 2149194.0
+      },
+      "priority_at_start": 15.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "189330",
+      "name": "씨이랩",
+      "baseline_price": 10650,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:32+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 10860.0,
+        "volume": 98106.0
+      },
+      "priority_at_start": 23.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "304100",
+      "name": "솔트룩스",
+      "baseline_price": 15370,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:34+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 15620.0,
+        "volume": 71532.0
+      },
+      "priority_at_start": 25.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "069960",
+      "name": "현대백화점",
+      "baseline_price": 86700,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:36+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 87800.0,
+        "volume": 76203.0
+      },
+      "priority_at_start": 16.7,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "042660",
+      "name": "한화오션",
+      "baseline_price": 76300,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:38+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 77600.0,
+        "volume": 650272.0
+      },
+      "priority_at_start": 0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "012330",
+      "name": "현대모비스",
+      "baseline_price": 374500,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:40+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 381500.0,
+        "volume": 220656.0
+      },
+      "priority_at_start": 26.3,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "124500",
+      "name": "아이티센글로벌",
+      "baseline_price": 29300,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:41+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 30350.0,
+        "volume": 135418.0
+      },
+      "priority_at_start": 19.3,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "관심",
+      "code": "082740",
+      "name": "한화엔진",
+      "baseline_price": 46800,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:24:43+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 47750.0,
+        "volume": 663576.0
+      },
+      "priority_at_start": 29.3,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "자동",
+      "code": "019170",
+      "name": "신풍제약",
+      "baseline_price": 10530,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:21:25+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 10090.0,
+        "volume": 439976.0
+      },
+      "priority_at_start": 45,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "자동",
+      "code": "065950",
+      "name": "웰크론",
+      "baseline_price": 1193,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:23:54+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 1137.0,
+        "volume": 47193.0
+      },
+      "priority_at_start": 45.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "자동",
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "baseline_price": 82300,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:21:13+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 81600.0,
+        "volume": 2016414.0
+      },
+      "priority_at_start": 44.3,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "자동",
+      "code": "003670",
+      "name": "포스코퓨처엠",
+      "baseline_price": 189400,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:23:08+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 209000.0,
+        "volume": 629827.0
+      },
+      "priority_at_start": 44.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "자동",
+      "code": "028670",
+      "name": "팬오션",
+      "baseline_price": 6140,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:21:08+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 6010.0,
+        "volume": 3229768.0
+      },
+      "priority_at_start": 42.3,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "자동",
+      "code": "307750",
+      "name": "국전",
+      "baseline_price": 2500,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:22:05+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 2405.0,
+        "volume": 151199.0
+      },
+      "priority_at_start": 40.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "자동",
+      "code": "010120",
+      "name": "LS ELECTRIC",
+      "baseline_price": 220500,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:22:47+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 217500.0,
+        "volume": 492936.0
+      },
+      "priority_at_start": 32.3,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "자동",
+      "code": "003220",
+      "name": "대원제약",
+      "baseline_price": 8360,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:23:44+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 7860.0,
+        "volume": 21925.0
+      },
+      "priority_at_start": 31.7,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "자동",
+      "code": "003280",
+      "name": "흥아해운",
+      "baseline_price": 1847,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:21:21+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 1815.0,
+        "volume": 2267952.0
+      },
+      "priority_at_start": 31.7,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    },
+    {
+      "group": "자동",
+      "code": "019990",
+      "name": "에너토크",
+      "baseline_price": 5890,
+      "baseline_date": "20261007",
+      "baseline_collected_at": "2026-10-07T09:23:36+09:00",
+      "previous_close": {
+        "date": "20261006",
+        "price": 5370.0,
+        "volume": 33039.0
+      },
+      "priority_at_start": 30.0,
+      "returns": {
+        "1": null,
+        "3": null,
+        "5": null
+      },
+      "return_dates": {},
+      "status": "tracking"
+    }
+  ],
+  "method": "등록 이후 첫 PC 수집에서 관심종목과 자동 상위 10개의 기준가격을 함께 기록. 이후 확인된 완료 일봉 1·3·5개 뒤 가격변화율. 수수료·배당 제외. 당일 일봉은 다음날 수집부터 반영.",
+  "updated_at": "2026-10-07T09:36:47+09:00"
 }
-
