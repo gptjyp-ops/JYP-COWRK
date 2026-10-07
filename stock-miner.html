@@ -2,8 +2,8 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Stock Miner v4</title>
-<meta name="theme-color" content="#0b0d10">
+<title>Stock Miner · Matrix Edition</title>
+<meta name="theme-color" content="#020705">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Stock Miner">
@@ -22,10 +22,58 @@
 :root{--muted:#a9b4c5;--good:#66d6b0;--bad:#ff8585}body{line-height:1.5}.wrap{max-width:1440px;padding:24px}.top h1{font-size:26px}.top p{margin:5px 0;font-size:13px}.status{max-width:760px;line-height:1.7}.quickTabs{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 10px}.quickTabs button{font-size:13px;padding:9px 16px}.quickTabs button.active{background:#b8d3ff;color:#12233b;border-color:#b8d3ff;font-weight:800}.interestFilter,.extraFilters{font-size:13px;display:inline-block;vertical-align:top;margin:0 14px 8px 0;max-width:100%}.interestFilter summary,.extraFilters summary{cursor:pointer;color:#bdc9da}.interestFilter summary b{color:var(--accent);margin-left:7px}.interestFilter[open],.extraFilters[open]{display:block}.themeTabs{margin:12px 0}.discoveryHeading{margin:20px 0 12px}.discoveryGrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.discoveryStock{padding:20px;gap:14px;border-color:#303b4b;cursor:pointer}.stockTop b{font-size:23px;letter-spacing:-.5px}.stockTop>span:first-child{min-width:0;overflow-wrap:anywhere}.stockCode{font-size:12px;line-height:1.7}.stockScore{flex-shrink:0;text-align:right;color:#bccbdf}.stockScore b{font-size:18px;letter-spacing:0}.stockScore small{display:block;font-size:10px}.stockSignal{background:#1b293b;color:#d4e4fa;padding:10px 12px;border-radius:8px;font-size:13px;min-height:65px}.stockSignal small,.stockMaterial small{display:block;font-size:10px;color:var(--muted);margin-bottom:3px}.stockPrice{display:flex;justify-content:space-between;align-items:center;gap:8px}.stockPrice>b{font-size:25px;font-variant-numeric:tabular-nums}.stockPrice>b small{font-size:13px;font-weight:500;margin-left:3px}.stockPrice>span{font-size:17px;font-weight:750}.cardMetrics,.cardFlows{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-variant-numeric:tabular-nums}.cardMetrics small,.cardFlows small{display:block;font-size:11px;color:var(--muted);margin-bottom:3px}.cardMetrics b{font-size:16px}.cardFlows b{font-size:14px}.cardFlows{border-top:1px solid var(--line);padding-top:11px}.stockMaterial{font-size:12px;min-height:53px;line-height:1.6;margin-top:auto;-webkit-line-clamp:3;overflow-wrap:anywhere}.cardWarning{font-size:11px;color:var(--warn);border-left:2px solid var(--warn);padding-left:8px}.cardAction{display:flex;justify-content:space-between;font-size:11px;color:#abc9f8;border-top:1px solid var(--line);padding-top:10px}.comparison{margin:18px 0}.comparison>summary{cursor:pointer;padding:14px;background:var(--panel);border:1px solid var(--line);border-radius:10px;font-size:13px}.comparison[open] .tableArea{margin-top:10px}.detailDialog{background:var(--panel);color:var(--text);border:1px solid #3b4a61;border-radius:18px;padding:0;width:min(640px,calc(100vw - 24px));max-height:calc(100dvh - 36px);overflow:auto}.detailDialog::backdrop{background:rgba(0,0,0,.72)}.dialogBar{position:sticky;top:0;background:var(--panel);padding:12px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);z-index:5;font-size:12px;color:var(--muted)}.dialogBar button{padding:6px 11px}.detailDialog #detail{padding:20px}.detailDialog h2{font-size:26px;margin:0}.detailDialog h3{font-size:15px;margin:20px 0 10px}.detailDialog .muted{font-size:12px}.detailMetrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.detailMetrics>div{padding:12px;background:var(--panel2);border-radius:8px}.detailMetrics small{display:block;color:var(--muted);font-size:11px}.detailMetrics b{display:block;font-size:19px;margin-top:3px}.detailSection{border-top:1px solid var(--line);padding:14px 0;margin-top:12px;font-size:13px}.detailSection summary{cursor:pointer;color:#bcd4fa}.detailDialog .warning-tip{z-index:30}.collectionStats{margin-top:20px}.footer{max-width:900px;line-height:1.7}button:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}@media(max-width:1000px){.discoveryGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.wrap{padding:14px}.discoveryGrid{grid-template-columns:1fr}.discoveryStock{padding:18px}.quickTabs{gap:6px}.quickTabs button{flex:1 1 calc(50% - 6px);padding:9px 7px}.top h1{font-size:23px}.stockMaterial,.stockSignal{min-height:0}.stockPrice>b{font-size:27px}.discoveryHeading{margin-top:16px}}
 
 .viewTabs{display:flex;gap:8px;margin:20px 0}.viewTabs button[aria-pressed="true"]{background:#b8d3ff;color:#12233b;font-weight:800}.newsToolbar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.newsToolbar select{background:var(--panel2);color:var(--text);border:1px solid var(--line);padding:10px;border-radius:10px}.newsRanking{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.rankNews{background:var(--panel);border:1px solid #303b4b;border-radius:14px;padding:20px}.rankNews h3{margin:0;display:flex;align-items:center;gap:10px}.newsRank{background:#28456a;padding:4px 10px;border-radius:8px;font-size:16px}.rankNews .headline{display:block;margin:14px 0 8px;color:#d4e4ff;font-size:16px;font-weight:700;text-decoration:none;line-height:1.6}.newsTimes{font-size:12px;line-height:1.8;color:var(--muted)}.newsTimes strong{color:var(--warn)}.rankNews details{margin-top:12px;font-size:13px}.rankNews summary{cursor:pointer;color:#bcd4fa}.flowState{display:inline-block;margin:10px 0 6px;font-size:12px;padding:5px 9px;border-radius:8px;background:#1c2937}.flowState.buy{color:var(--good)}.flowState.sell{color:var(--bad)}.rankNews .cardFlows{margin-top:8px}.rankNews .topicHint{margin-bottom:0}.rankNews button{margin-top:12px}.newsEmpty{padding:24px;border:1px solid var(--line);border-radius:12px}.newsRankingStatus{font-size:12px;color:var(--muted);line-height:1.8}@media(max-width:700px){.newsRanking{grid-template-columns:1fr}.rankNews{padding:16px}}[hidden]{display:none!important}
+
+/* Matrix cinema theme — cosmetic only; data and ranking remain unchanged. */
+:root{color-scheme:dark;--bg:#020705;--panel:#07140f;--panel2:#04100b;--muted:#a0b9ab;--text:#ebfff1;--line:#234833;--good:#64fba8;--warn:#ffd17a;--bad:#ff929d;--accent:#69ff9c;--multi:#a1e6c3}
+body{background:#020705;background-image:radial-gradient(ellipse at 50% 0,#103c2466,transparent 60%);isolation:isolate}
+::selection{background:#77ffa2;color:#021009}
+#matrixRain{position:fixed;inset:0;width:100%;height:100%;z-index:-2;pointer-events:none;opacity:.28}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,#02070566,#02070522 50%,#02070566)}
+.wrap{max-width:1440px;padding:28px}
+.top{position:relative;padding:28px;border:1px solid #36744c;border-radius:4px;background:linear-gradient(115deg,#061b11f5,#020a07e8);box-shadow:inset 3px 0 #7bffab,0 12px 50px #0009;overflow:hidden}
+.top::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 3px,#80ffb004 4px)}
+.matrixEyebrow{font:11px/1.7 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.19em;color:#83b396;margin:0 0 10px;display:flex;align-items:center;gap:8px}
+.matrixEyebrow::before{content:"";width:6px;height:6px;background:#81ffb0;box-shadow:0 0 10px #75ffa5}
+.top h1{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:clamp(28px,3.5vw,46px);letter-spacing:-.055em;line-height:1.1;color:#dcffe8;text-shadow:0 0 28px #54ff9b44}
+.matrixEdition{display:block;font:10px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.3em;color:#7ef7ab;margin-top:10px}
+.top p{color:#bed6c7;margin-top:12px}.status{color:#98b4a3;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:11px}
+.controls{max-width:590px;align-items:center;position:relative;z-index:1}
+.controls input,.controls select,button,.newsToolbar select{border-radius:4px;background:#06130d;color:var(--text);border-color:#31573f}
+button{transition:background .18s,border-color .18s,box-shadow .18s}
+button:hover{border-color:#65ba83;background:#102b1b}
+.controls input:focus-visible,.controls select:focus-visible,.newsToolbar select:focus-visible{outline:2px solid #69ff9c;outline-offset:3px}
+.primary{background:#91ffb2;color:#021309;border:1px solid #91ffb2;box-shadow:0 0 20px #71ff9a18}.primary:hover{background:#b7ffcc;color:#021309}
+.install{background:#082116;border-color:#316747;color:#b8f7ce}.matrixToggle{font-size:11px;color:#aacbb7}
+.viewTabs{border-bottom:1px solid #30533d;padding-bottom:10px;gap:10px}
+.viewTabs button{padding:11px 20px;font-weight:700}
+.viewTabs button[aria-pressed="true"],.quickTabs button.active{background:#9affbb;color:#03220e;border-color:#9affbb;box-shadow:0 0 22px #69ff9c18}
+.tab.active,.themeTabs button[aria-pressed="true"]{background:#123723;border-color:#67d68c;color:#c5ffdb}
+.discoveryHeading h2,.tableHeading{color:#e6ffef;letter-spacing:-.04em}
+.discoveryHeading h2::before{content:"// ";font-family:ui-monospace,SFMono-Regular,Consolas,monospace;color:#6fffa6;font-weight:400}
+.interestFilter summary,.extraFilters summary,.detailSection summary,.rankNews summary{color:#b9dbc7}
+.discoveryStock,.rankNews{position:relative;background:linear-gradient(145deg,#0a1b12f7,#040c08fa);border:1px solid #31503d;border-radius:5px;box-shadow:0 7px 24px #0005}
+.discoveryStock::before,.rankNews::before{content:"";position:absolute;left:-1px;top:-1px;width:30px;height:14px;border-top:2px solid #7dedaa;border-left:2px solid #7dedaa;pointer-events:none}
+.discoveryStock:hover,.discoveryStock:focus-visible{background:linear-gradient(145deg,#112c1cf7,#06120afa);border-color:#8bf6ad;box-shadow:0 0 24px #4bff9212}
+.stockTop b{color:#effff3}.stockCode{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;color:#98b7a5}
+.stockScore{color:#a0b9ab}.stockScore b{color:#83ffb3;text-shadow:0 0 15px #69ff9c22}
+.stockSignal{background:#0d2519;color:#d2f5df;border-left:2px solid #528564;border-radius:3px}
+.stockPrice>b,.cardMetrics b,.cardFlows b,.stockScore b,.v{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-variant-numeric:tabular-nums}
+.stockMaterial{color:#c1d4c8}.cardAction{color:#9af5be}.stockTopics{color:#a1e6c3}
+.card,.comparison>summary,.tableWrap,.side,.newsEmpty{background:#07120cf5;border-color:#2c4c38;border-radius:5px}
+.collectionStats>summary,.themeNews>summary{color:#b8cfc1}
+.detailDialog{background:#06110b;border-color:#6fa784;border-radius:7px;box-shadow:0 0 70px #000}.detailDialog::backdrop{background:#010604d9;backdrop-filter:blur(5px)}
+.dialogBar{background:#0a1d12;border-color:#35583f}.detailMetrics>div,.reason,.newsItem{background:#0a1c12;border-radius:4px}
+.newsItem a,.rankNews .headline{color:#c0ffd5}.newsRank{background:#174a2b;color:#baffd1;border-radius:3px}.flowState{background:#122d1e}
+.warning-tip{background:#10281a;border-color:#71937a;border-radius:7px;color:#effff3}
+th{background:#0d2417;color:#b9dbc7}tr:hover{background:#0e281a}.multirow{background:#82ffae08}
+.source.multi{border-color:#527460}.wait{color:#b8cec1}.footer{border-top:1px solid #234833;padding-top:16px;color:#98b4a3}
+@media(max-width:600px){.wrap{padding:12px}.top{padding:20px 16px;gap:20px}.controls{max-width:none}.matrixEyebrow{font-size:9px;letter-spacing:.12em}.matrixEdition{font-size:9px}.viewTabs button{flex:1;padding:11px 8px;font-size:12px}.discoveryStock{padding:18px}#matrixRain{opacity:.19}}
+@media(prefers-reduced-motion:reduce){button{transition:none}#matrixRain{opacity:.16}}
+
 </style>
 </head>
-<body><div class="wrap">
-<div class="top"><div><h1>Stock Miner v4</h1><p>새 재료 → 수급 반응 → 아직 덜 오른 후보</p><div class="status" id="updated">데이터 불러오는 중...</div></div><div class="controls"><input id="q" placeholder="종목명/코드 검색"><select id="grade"><option value="all">전체 점수</option><option value="80">기존 종합 80점 이상</option><option value="70">기존 종합 70점 이상</option></select><button class="primary" id="reloadBtn">업로드 확인</button><button class="install" id="installBtn">📱 앱으로 설치</button></div></div>
+<body><canvas id="matrixRain" aria-hidden="true"></canvas><div class="wrap">
+<div class="top"><div><div class="matrixEyebrow">FOLLOW THE SIGNAL / 신호를 관찰하다</div><h1>STOCK MINER<span class="matrixEdition">MATRIX EDITION</span></h1><p>새 재료 → 수급 반응 → 아직 덜 오른 후보</p><div class="status" id="updated">데이터 불러오는 중...</div></div><div class="controls"><input id="q" placeholder="종목명/코드 검색"><select id="grade"><option value="all">전체 점수</option><option value="80">기존 종합 80점 이상</option><option value="70">기존 종합 70점 이상</option></select><button class="primary" id="reloadBtn">업로드 확인</button><button class="install" id="installBtn">📱 앱으로 설치</button><button type="button" class="matrixToggle" id="matrixToggle" aria-pressed="true" aria-controls="matrixRain">코드 효과 끄기</button></div></div>
 <p id="newsHealth" class="topicHint" role="status" hidden></p>
 <nav class="viewTabs" aria-label="화면 선택"><button id="discoveryViewBtn" aria-pressed="true">종목 발굴</button><button id="watchNewsViewBtn" aria-pressed="false">관심종목 뉴스·수급</button></nav>
 <section id="watchNewsView" hidden aria-labelledby="watchNewsTitle"><div class="discoveryHeading"><h2 id="watchNewsTitle">관심종목 뉴스 순위</h2></div><p class="topicHint">기사 발행 시각을 기준으로 정렬합니다. 외국인·기관 5거래일 합계는 별도 수집값이며, 현재 순간의 매수·매도를 뜻하지 않습니다.</p><div class="newsToolbar"><select id="newsSort" aria-label="뉴스 정렬"><option value="latest">최신 뉴스순</option><option value="combined">뉴스+수급 우선순위</option><option value="both">외국인·기관 동반 순매수</option></select><select id="newsWindow" aria-label="뉴스 기간"><option value="24">최근 24시간</option><option value="1">최근 1시간</option><option value="6">최근 6시간</option><option value="168">최근 7일</option></select><select id="newsScope" aria-label="종목 범위"><option value="watch">고정 관심종목</option><option value="all">전체 수집 종목</option></select></div><p class="newsRankingStatus" id="newsRankingStatus" role="status"></p><div class="newsRanking" id="watchNewsRanking"></div><div class="newsRanking" id="watchNewsPending" style="margin-top:16px"></div><details class="collectionStats"><summary>뉴스·수급 순위 기준</summary><p class="topicHint">최신순: 기사 발행 시각 내림차순. 뉴스+수급: 최신성 60점(1시간 이내 60, 6시간 이내 45, 24시간 이내 30, 이후 10) + 외국인·기관 각각 순매수 15점 + 동반 순매수 10점. 순매도는 각각 10점 감점합니다. 수급은 오늘을 포함하고 수집 후 90분 이내인 자료만 점수에 반영합니다. 동반 순매수 필터도 같은 기준을 적용합니다. 제목상 호재·악재 점수나 상승 예측이 아닙니다. 같은 제목의 반복 기사는 묶고 시각 없는 기사·미래 기사는 순위에서 제외합니다.</p></details></section>
@@ -213,4 +261,54 @@ async function loadData(){try{const ts=Date.now();const m=await fetch('data/stoc
 function enableMouseDrag(){const el=$('tableWrap');let down=false,startX=0,startScroll=0,moved=false;el.addEventListener('mousedown',e=>{if(e.button!==0)return;down=true;moved=false;startX=e.clientX;startScroll=el.scrollLeft;el.classList.add('dragging')});window.addEventListener('mousemove',e=>{if(!down)return;const dx=e.clientX-startX;if(Math.abs(dx)>3)moved=true;el.scrollLeft=startScroll-dx});window.addEventListener('mouseup',()=>{down=false;el.classList.remove('dragging')});el.addEventListener('click',e=>{if(moved){e.preventDefault();e.stopPropagation();moved=false}},true);el.addEventListener('wheel',e=>{if(e.shiftKey||Math.abs(e.deltaX)>Math.abs(e.deltaY)){e.preventDefault();el.scrollLeft+=e.deltaX||e.deltaY}},{passive:false})}
 function setupInstall(){const btn=$('installBtn'),standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;if(standalone){btn.classList.add('hidden');return}window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e});window.addEventListener('appinstalled',()=>btn.classList.add('hidden'));btn.onclick=async()=>{if(deferredInstall){deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;return}if(/iphone|ipad|ipod/i.test(navigator.userAgent))alert('Safari 아래 공유 버튼 → 홈 화면에 추가를 선택해 주세요.');else alert('브라우저 메뉴에서 홈 화면에 추가 또는 앱 설치를 선택해 주세요.')}}
 if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./stock-miner-sw.js').catch(()=>{}));$('q').oninput=()=>{discoveryLimit=12;render()};$('grade').onchange=()=>{discoveryLimit=12;render()};$('reloadBtn').onclick=loadData;renderTabs();enableMouseDrag();setupInstall();setupWarningTips();setupDetailDialog();setupNewsRanking();loadData();
-</script></body></html>
+</script>
+<script>
+(function setupMatrixRain(){
+ const canvas=document.getElementById('matrixRain'),button=document.getElementById('matrixToggle');
+ if(!canvas||!button)return;
+ const ctx=canvas.getContext('2d');
+ if(!ctx){button.hidden=true;return}
+ const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ const glyphs='012345789アイウエオカキクケコサシスセソタチツテトナニヌネノ';
+ let enabled=true;
+ try{enabled=localStorage.getItem('stock-miner-matrix-motion')!=='off'}catch(_e){}
+ let width=0,height=0,streams=[],timer=null;
+ function draw(){
+  ctx.fillStyle='rgba(2,7,5,.12)';ctx.fillRect(0,0,width,height);
+  ctx.font='14px ui-monospace, monospace';
+  streams.forEach((s,i)=>{
+   const x=i*26+5,y=s.y*20;
+   ctx.fillStyle=i%7===0?'#bbffd3':'#42dd7b';
+   ctx.fillText(glyphs[Math.floor(Math.random()*glyphs.length)],x,y);
+   if(y>height+100&&Math.random()>.985)s.y=-Math.random()*30;
+   else s.y+=s.speed;
+  });
+ }
+ function resize(){
+  width=window.innerWidth;height=Math.min(window.innerHeight,1200);
+  const ratio=Math.min(window.devicePixelRatio||1,1.5);
+  canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);
+  ctx.setTransform(ratio,0,0,ratio,0,0);
+  streams=Array.from({length:Math.ceil(width/26)},()=>({y:Math.random()*height/20,speed:.3+Math.random()*.65}));
+  ctx.clearRect(0,0,width,height);
+  for(let i=0;i<25;i++)draw();
+ }
+ function sync(){
+  clearInterval(timer);timer=null;
+  canvas.hidden=!enabled;
+  button.setAttribute('aria-pressed',String(enabled));
+  button.textContent=enabled?'코드 효과 끄기':'코드 효과 켜기';
+  if(enabled&&!reduced.matches&&!document.hidden)timer=setInterval(draw,80);
+ }
+ button.addEventListener('click',()=>{
+  enabled=!enabled;
+  try{localStorage.setItem('stock-miner-matrix-motion',enabled?'on':'off')}catch(_e){}
+  sync();
+ });
+ document.addEventListener('visibilitychange',sync);
+ reduced.addEventListener('change',sync);
+ window.addEventListener('resize',()=>{resize();sync()});
+ resize();sync();
+})();
+</script>
+</body></html>
