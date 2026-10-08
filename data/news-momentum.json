@@ -12,21 +12,12 @@
       "name": "한화엔진",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 1,
+      "news_count": 0,
       "news_reasons": [],
-      "news": [
-        {
-          "title": "[인사] 한화에너지·한화토탈에너지스·한화파워·한화엔진 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51bXkxZjFYWHFZSDVlemc5MVJCY01sU1FZRzJLd08yelBDLU80Nk9OQmRqYkNackpvNU1QTThuRElSVGh2OXU5bFJhY2xjR3FYaFFQalVHSWxQeWlneXZlRDEwWUF6NDZCcHBkVNIBckFVX3lxTE1JOGdIeHUxZS11OGdSREQzRHl2TVhBMnRFRHM5UnNTYUVGLWVOS1ZlUVpVZXRzMTFPUXVyS1U3NEtMWms2cS1uT2l3TGtFRmZ5Tmg5Q1VIM0ZpSDM2WkRhZU5naURMdVRPaWFUT3h5LXZVZw?oc=5",
-          "published": "2026-10-01T06:08:30+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-06T07:17:15+00:00"
-        }
-      ],
+      "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:00+00:00",
-      "news_status": "ok"
+      "checked_at": "2026-10-08T12:24:45+00:00",
+      "news_status": "no_articles"
     },
     "028670": {
       "code": "028670",
@@ -296,7 +287,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:09+00:00",
+      "checked_at": "2026-10-08T12:24:45+00:00",
       "news_status": "no_articles"
     },
     "010120": {
@@ -332,7 +323,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:12+00:00",
+      "checked_at": "2026-10-08T12:24:43+00:00",
       "news_status": "no_articles"
     },
     "307750": {
@@ -356,7 +347,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:14+00:00",
+      "checked_at": "2026-10-08T12:24:35+00:00",
       "news_status": "no_articles"
     },
     "034220": {
@@ -532,7 +523,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:18+00:00",
+      "checked_at": "2026-10-08T12:24:38+00:00",
       "news_status": "no_articles"
     },
     "000020": {
@@ -791,7 +782,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:25+00:00",
+      "checked_at": "2026-10-08T12:24:42+00:00",
       "news_status": "no_articles"
     },
     "041190": {
@@ -803,7 +794,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:26+00:00",
+      "checked_at": "2026-10-08T12:24:37+00:00",
       "news_status": "no_articles"
     },
     "011700": {
@@ -827,7 +818,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:28+00:00",
+      "checked_at": "2026-10-08T12:24:39+00:00",
       "news_status": "no_articles"
     },
     "006340": {
@@ -851,7 +842,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:29+00:00",
+      "checked_at": "2026-10-08T12:24:32+00:00",
       "news_status": "no_articles"
     },
     "003220": {
@@ -907,10 +898,28 @@
       "news_count": 20,
       "news_reasons": [
         "최대 실적",
+        "주의:하락",
+        "주의:급락",
         "주의:약세",
         "주의:적자"
       ],
       "news": [
+        {
+          "title": "셀온? 리밸런싱?…삼성전자 역대 최대 실적에도 코스피 2.6% 하락(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5qSnU4aEM1MmJGNHJvZkV1VklWaE55c1c4QkFYUFgwdkFOdWJOUnhLSlBiczhBTjJ4NzZJRHEzTGk3YWlIU0RwdmVSTU5NRmh0OWdBUUFiSDVrTzDSAWBBVV95cUxOV3lIRVFEZzVoQ0praGZzeVdLaVdUb3d5Y3ZnbXBNNW44dXdSaXoxLVFqRXo2R18zNVg4T254bjVkeDk1eDUtcm95NkdHSV9nNm83NjQ5YmtfMnBEQnJydEk?oc=5",
+          "published": "2026-10-08T07:27:41+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-08T12:24:34+00:00"
+        },
+        {
+          "title": "삼성전자, 역대 최대 실적에도 2%대 급락…SK하이닉스도 내려(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6LXZVdjlraVUydVVfcEFCekhEY28yOGlVamg0b0xFY1NRSGVLblY5UXpuYmNlaWZoZ1pIUkswMlRiMEJOc0F6NUMxdUdIaTJlMGM5N09XeU1WSXPSAWBBVV95cUxOYUdMTnlvU1NoMXdhS2c4MnpycFpobkxmaHBCVVMzeTh1Q1doYUt0ZkVrb3FWb2RDMVJpcWFweFBXR0ppbjlNR0Nac0w4aU1ZQjdtN3FoVHptRm1FMXdEMlE?oc=5",
+          "published": "2026-10-08T06:53:22+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-08T12:24:34+00:00"
+        },
         {
           "title": "리밸런싱 수급부담? 삼성전자 역대 최대 실적에도 코스피 약세 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iVU1qU2p5N2hWeHJpTGNHdmpxUm5qQktPVWY0RlVac1NFUll6OV94dFpRbEVsYzdtVTdfaU1kU2J4MzNfQmtOeF9XSnA0dTVTNjJETjZEbVVNSmvSAWBBVV95cUxPNjN1NWp2X284NkdUYUhmZmJlNFlQT3JYRmlnS2VjYVBoX2kxbkllVjNGTGVoeE9BLTBaMnJGZ2VKcVRsNEJsZ2FEeEV6VWtnMFc4VUlJbkNaQ29NYU5wams?oc=5",
@@ -929,7 +938,7 @@
         },
         {
           "title": "삼성전자 분기 영업익 100조에도 코스피 약세…外人은 9거래일째 매도 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rY19uZ082ZkpqWWZiaGQtZS1aYS0zUllFQS1WRGFONkVzNnRTRk9LbTZITWVKMkhNZlpkVGNMajIxd3FxUkdmQl9UbXA0R250Z05TX2xJUnBpencyMUxDbXE1cGNsbU1UYzIwMDFKTUdiQWFkREHSAXtBVV95cUxOVHBwSWpYN01Yb1Ytenp1SjdtalQ5VlNpNHVlbGVVRlN3WHVCNVJMUDdCY0tWSUs2R0V2YXR6S1VkUkU0WmxUV0tWZkFsX1J6T0dtdVpMNzVnZmhlLVM0QnUzT1dtX29DMnlxbzRLaXJFSldIQmxrM1gyY3c?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FUGVjU3pDNU8wdk43UkM5dXBPRThvYVlzMkxxSV9FLTVvS0MwUGxNd3dXSHIxclVEd0o2bjZWZmlzdEpqanNiWURUUmx2UUJYNmxPRW5Ral9KX1FZNGw4S1YyS1I3eDFlU3Z2bzdB0gFuQVVfeXFMTUVQZWNTekM1TzB2TjdSQzl1cE9FOG9hWXMyTHFJX0UtNW9LQzBQbE13d1dIcjFyVUR3SjZuNlZmaXN0Smpqc2JZRFRSbHZRQlg2bE9FblFqX0pfUVk0bDhLVjJLUjd4MWVTdnZvN0E?oc=5",
           "published": "2026-10-08T00:33:56+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -937,11 +946,19 @@
         },
         {
           "title": "[특징주] 삼성전자, 실적호조에도 장초반 약세…하닉은 0.7%↑ - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nQUw1SVNXamR0VENjUUUxSGdjX2VnZ19NbnMzNm5BZ20xQUdfU0Q2T3E3SElNcU1aQzFrUTVaTDQyc2tuRXZDTkpGS0tzX1JZa2RzbWI4YTVxSjDSAWBBVV95cUxPRmlLdk94RTVJNXluV3pIRElwV1FTdUdmUTNtUEtubHlMRnVKYUJBbGh0ZmY5XzJ0ekNMQnluelhGa0szR2VDalZ6Y3pRNE1YVzVzZGFBZTcweXJ3RHNoMFY?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GaUt2T3hFNUk1eW5XekhESXBXUVN1R2ZRM21QS25seUxGdUphQkFsaHRmZjlfMnR6Q0xCeW56WEZrSzNHZUNqVnpjelE0TVhXNXNkYUFlNzB5cndEc2gwVtIBYEFVX3lxTE9GaUt2T3hFNUk1eW5XekhESXBXUVN1R2ZRM21QS25seUxGdUphQkFsaHRmZjlfMnR6Q0xCeW56WEZrSzNHZUNqVnpjelE0TVhXNXNkYUFlNzB5cndEc2gwVg?oc=5",
           "published": "2026-10-08T00:31:08+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
           "first_seen_at": "2026-10-08T05:50:17+00:00"
+        },
+        {
+          "title": "'전세계 1등' 삼성전자, 100조대 영업익 '전무후무 새역사' 썼다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UT1Q0UFktMmlBVkhrWXloOHlOMTFicm5hUG9PYnJiNTZzaHhod2RILXFNYWd2QlBRQVh1M1Vpa0ZrOFVoM3l6LXJsOTV2YnN1TEVhY0ZfX1NEd2JKWURaWEM2TlQ0bV9SbmVxOFZvRFpzX1cyNlowNEg4Z3kxWVHSAX9BVV95cUxOVE9UNFBZLTJpQVZIa1l5aDh5TjExYnJuYVBvT2JyYjU2c2h4aHdkSC1xTWFndkJQUUFYdTNVaWtGazhVaDN5ei1ybDk1dmJzdUxFYWNGX19TRHdiSllEWlhDNk5UNG1fUm5lcThWb0Rac19XMjZaMDRIOGd5MVlR?oc=5",
+          "published": "2026-10-07T23:56:16+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-08T12:24:34+00:00"
         },
         {
           "title": "'전세계 최초' 100조 영업익 '새역사' 쓴 삼성전자…신기록 안 끝났다 - 머니투데이 - 머니투데이",
@@ -966,6 +983,14 @@
           "source": "머니투데이",
           "source_group": "머니투데이",
           "first_seen_at": "2026-10-08T05:50:17+00:00"
+        },
+        {
+          "title": "삼성전자 3분기 영업익 107조…글로벌 빅테크 최초 100조 돌파(종합2보) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01ck5JT0NhU1BzMU1fZlNOVmJZX3NWSEhKUVR0anlBU0ZsUF9POFZ0THNLWHFGdHZQUENZNmVua2psejZfa0pYOWs0TkJkOEVjM3djUFVvXzBGU2g5akhXZtIBYEFVX3lxTE01ck5JT0NhU1BzMU1fZlNOVmJZX3NWSEhKUVR0anlBU0ZsUF9POFZ0THNLWHFGdHZQUENZNmVua2psejZfa0pYOWs0TkJkOEVjM3djUFVvXzBGU2g5akhXZg?oc=5",
+          "published": "2026-10-07T23:25:30+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-08T12:24:34+00:00"
         },
         {
           "title": "삼성전자 107조 '역대급 실적'에도…갤럭시는 1조 적자 전망 - 머니투데이 - 머니투데이",
@@ -1009,7 +1034,7 @@
         },
         {
           "title": "삼성전자 3분기 영업익 107조4천억원…국내 첫 100조 시대 개막(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04eVY1Q0dKUHVmRkpFZmpnVUJ0b0xCXzhsZm9MZEcxaUp3R2RWelEzaWRJekpkNVpvczh5U2ZGQkVQV1ZCV0ZCa1FCZm4tcmM1Q1FNemhxZ19HdjjSAWBBVV95cUxQVjZULWwzdmhqQVVlRjZpUE9GclpVTEVvaFVMa2c1dGFZTXAzeGtfaDl5LTlwZXUtLXN2Y2dlNm1Kd2ZyMFBkTDJNWGNOMjB6c2xMRi1oeWtTMnlBMlM5UEQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWNlQtbDN2aGpBVWVGNmlQT0ZyWlVMRW9oVUxrZzV0YVlNcDN4a19oOXktOXBldS0tc3ZjZ2U2bUp3ZnIwUGRMMk1YY04yMHpzbExGLWh5a1MyeUEyUzlQRNIBYEFVX3lxTFBWNlQtbDN2aGpBVWVGNmlQT0ZyWlVMRW9oVUxrZzV0YVlNcDN4a19oOXktOXBldS0tc3ZjZ2U2bUp3ZnIwUGRMMk1YY04yMHpzbExGLWh5a1MyeUEyUzlQRA?oc=5",
           "published": "2026-10-07T23:03:26+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -1017,7 +1042,7 @@
         },
         {
           "title": "메모리가 다 했다…삼성전자, 3Q 영업이익 107.4조 '새 역사' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBMcjRyM0pvSktzTFFEMmhoLVJrMjJ3dGFOdW5wb29HOHRTbXdDTXotNTZTZlBkSW5UQ1lyRU54Ym5rQ2QwU01UcXBrZUZiY3M0UXFvMEU3eFljUUR1bzB2Y0UwenpVR3dZWmdZMtIBckFVX3lxTE1zTmN2azdfRld2QW84Mjc2azNUQjV1OEVDRU85eEVaREdlemFkX0hwYzJGYUY5TThzdmpheXk2cDdHUVJvRVp3QWZxR2d1QkQzRnJOay1FNHA1YkpzTVJsTkdWNFI5Q1VWVG4yU0MtRlRldw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PTWxyOFhNek5fOGhfemZUVmxoZ3B5WTY4MFN1NnhOYlEtb3F1WjlVYTVzUGQ5UlUxVFRwc3ZmZ3A3U0s3Y2F0bWtFanBVTmVmV1k0NFpvS2pEeEhfdFYzUzdVa2kwQXFmNlFwc0MtMHlTTGl3b0RObVdPV3JwTEnSAX9BVV95cUxPT01scjhYTXpOXzhoX3pmVFZsaGdweVk2ODBTdTZ4TmJRLW9xdVo5VWE1c1BkOVJVMVRUcHN2ZmdwN1NLN2NhdG1rRWpwVU5lZldZNDRab0tqRHhIX3RWM1M3VWtpMEFxZjZRcHNDLTB5U0xpd29ETm1XT1dycExJ?oc=5",
           "published": "2026-10-07T22:56:31+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -1038,42 +1063,10 @@
           "source": "머니투데이",
           "source_group": "머니투데이",
           "first_seen_at": "2026-10-07T23:04:42+00:00"
-        },
-        {
-          "title": "[속보] 삼성전자 3분기 매출 전년비 127%↑ 195조…역대 최대 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9sclZnOHVXQ3dfTFVKWEtiSlhLUFV3WjloaFJsN2ptcW9HOWJvcU01ejFMVnp3LUFHbHg5a2ktakRkX1VfSDR0TWFNbkd4SGRmbWVaanFxWDJZd1HSAWBBVV95cUxOeGZfTTV0dFVhbWYtYmpRbFpGZUVxMl9jUWZ5cERnQUhMWmtWYllWNHJ6VjcxbmhWa2R4NlFYdjFCd3VRSEZjZXo1bEVOcE5LdmhxaWkzenUwaEFhUHlrRkk?oc=5",
-          "published": "2026-10-07T22:47:53+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-08T05:50:17+00:00"
-        },
-        {
-          "title": "[1보] 삼성전자 3분기 영업이익 107조4천억원…작년 대비 782.5%↑ - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zWlVRU0VJVVh4M1BGZ1RCbGRjSHdTNGhtTEVlVFBIeDJSdVIwWjZEblpraDZMOGJHQjNzVmptdWlaVVNmNGt4V0xlU0ZWUnRNZDlfUnAwX01XU0XSAWBBVV95cUxOWmNETEN5QXdoWENjOFh1eEYteE9NbTRoVDVxeUVrN1RxOC1DODZtXzEyTGVRWG81TU1oTmpKNXZkUXhMLUNpNFFEUWNtYVlDUG82SlVoWUtkQVoteURIcFk?oc=5",
-          "published": "2026-10-07T22:47:31+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-08T05:50:17+00:00"
-        },
-        {
-          "title": "[속보]삼성전자, 3분기 영업이익 107.4조…시장 기대치 충족 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RN0hCQUpHOEh1MWFVQXMwZE5xRVFQNFdpX3I0aHVDa1JWS01FbDg4NmZyaVF1ZVN0MkN1SFlQcmdDNEV1YlR5WU5aVG1yTGFnYTFCakZxWjRtXzRQV1NUYmdLTnBCeUtBSjdqadIBckFVX3lxTE1mb3BHTTJPZmpiMGJwQW9QNTZJS1hhX25FVjJuaEc2b0k1WjdYcndMaWxIOUU1Wkl3WDJoR0J4elJiRThfRk1yS2Q1Z1dZZmpWVGpYa2VqVE11cVItVWd0Smp6emVwWkpQOVRMSDR2OThVZw?oc=5",
-          "published": "2026-10-07T22:46:27+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-08T06:01:33+00:00"
-        },
-        {
-          "title": "[속보]삼성전자, 3분기 영업이익 107.4조…시장 기대치 넘어섰다 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aTDRXWjhQSENDNC1BU29sWXhWVUtMVWhxOFluWm1YQ0NCSXJUNVA2Wl9IM2xheVk2NHAtOU9nXzBxYU1uQlI0azVfWFlhYWl4VEhkeFlZRWluTzdrYjJMVmpVTnZKOHFLbzJBVTlqM2JLR2pPMUJkTmFB0gF_QVVfeXFMT2lyUGprMnVJTXppMkgzbFg3Tkdoa2I5cDVFYnRwbzgzSUNiWmpldEgwOFh3MmhMZm0tMHJNVHZvb25ZN1VxcFQxT3Y0QTl6NVIwYnVMR3RQU1JQSFZGaGZOMXdDOXBjUlh0YUZWVVlia0cwTzdoYUVIa3gwazQwRQ?oc=5",
-          "published": "2026-10-07T22:46:27+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-08T06:01:33+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:33+00:00",
+      "checked_at": "2026-10-08T12:24:34+00:00",
       "news_status": "ok"
     },
     "388050": {
@@ -1091,13 +1084,23 @@
     "000660": {
       "code": "000660",
       "name": "SK하이닉스",
-      "news_score": 3,
+      "news_score": 2,
       "news_label": "형성중",
       "news_count": 13,
       "news_reasons": [
+        "최대 실적",
+        "주의:급락",
         "급등"
       ],
       "news": [
+        {
+          "title": "삼성전자, 역대 최대 실적에도 2%대 급락…SK하이닉스도 내려(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6LXZVdjlraVUydVVfcEFCekhEY28yOGlVamg0b0xFY1NRSGVLblY5UXpuYmNlaWZoZ1pIUkswMlRiMEJOc0F6NUMxdUdIaTJlMGM5N09XeU1WSXPSAWBBVV95cUxOYUdMTnlvU1NoMXdhS2c4MnpycFpobkxmaHBCVVMzeTh1Q1doYUt0ZkVrb3FWb2RDMVJpcWFweFBXR0ppbjlNR0Nac0w4aU1ZQjdtN3FoVHptRm1FMXdEMlE?oc=5",
+          "published": "2026-10-08T06:53:22+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-08T12:24:41+00:00"
+        },
         {
           "title": "누리호 탄 SK하이닉스 반도체, 우주서 성능 검증 나선다 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IVlQ2SFJUWnVqX1pwcWk0TVdvOWF2QmFnZUs4Wl9wbU9yOXNHeFRwVlc2Z0VURG40T1JPS1kxbGwwRkVGX1hsZ1d4VXVpMW04Q0tfQUtJZ1h4VVXSAWBBVV95cUxPOXhYX2I0MlhxbGpoYlR4QnBGTlpPNVRkZ3VnLUlJNHBXUjljS29jXzFsaXZ1aVFOdTc0SmJ3MjZodkc2bXBZbFY0a0JYYnpiVVhEY0l4RmliN3lic2tINGU?oc=5",
@@ -1164,7 +1167,7 @@
         },
         {
           "title": "경기도 \"SK하이닉스 방류수, FAO 권고치 초과…배출기준 마련해야\" - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93bk53aTFYZldNM1YzdmNTUWVvMnRqUFk0REItN2lUMF9CeVlvM1l2YXFlUFo0bVJ5SlZ6SllkaUJxa0VvWG5QQWEtRl93cU84NnhoS0M3cW9ENHBQbDJiSnJwYXc0Q0xEb1HSAW9BVV95cUxNM09aQlMxeE1tQjAyWEVWRXVRZmY1ZGMtSWRZQ1UxUEdTZGJHbmlORU9QZDhaMGM2anBDcV8wV0VhRU9uaXhiWV85VERGRGNEd0VXRl9IMDBzR01TMmNBbXQ5YUdvLXQwVW1XMkpSSm8?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zT1pCUzF4TW1CMDJYRVZFdVFmZjVkYy1JZFlDVTFQR1NkYkduaU5FT1BkOFowYzZqcENxXzBXRWFFT25peGJZXzlUREZEY0R3RVdGX0gwMHNHTVMyY0FtdDlhR28tdDBVbVcySlJKb9IBb0FVX3lxTE0zT1pCUzF4TW1CMDJYRVZFdVFmZjVkYy1JZFlDVTFQR1NkYkduaU5FT1BkOFowYzZqcENxXzBXRWFFT25peGJZXzlUREZEY0R3RVdGX0gwMHNHTVMyY0FtdDlhR28tdDBVbVcySlJKbw?oc=5",
           "published": "2026-10-06T02:09:59+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -1193,18 +1196,10 @@
           "source": "연합뉴스",
           "source_group": "연합뉴스",
           "first_seen_at": "2026-10-06T06:18:18+00:00"
-        },
-        {
-          "title": "한전·SK하이닉스, 반도체 산단 안정적 전력공급 위해 맞손 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fZVBvNjMwQWFFN1FzcmctbUQzYTVSSEVqbXI4UjJQUTdZUGhIUVQ2LTJvUEQ1YUVDQ3pTY2VYUWMwQWo5RWdqMFg2a2lmZUF3ZmJUZHhZODBhVmPSAWBBVV95cUxOU3FMczJHbzJybmsxMXUzM2ZTWk5uVVlEeVJnRk9MYXIxbjRGNU5qM25jcnEzaTNNdjJ0TURHU3ZfSDQ4TnRoay1GazYwcnJOTnJxZERmcVZqazVJbU85ZHk?oc=5",
-          "published": "2026-10-01T07:38:16+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-06T06:18:18+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:36+00:00",
+      "checked_at": "2026-10-08T12:24:41+00:00",
       "news_status": "ok"
     },
     "019170": {
@@ -1245,7 +1240,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:37+00:00",
+      "checked_at": "2026-10-08T12:24:39+00:00",
       "news_status": "ok"
     },
     "018880": {
@@ -1313,7 +1308,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:41+00:00",
+      "checked_at": "2026-10-08T12:24:36+00:00",
       "news_status": "no_articles"
     },
     "012210": {
@@ -1337,7 +1332,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:43+00:00",
+      "checked_at": "2026-10-08T12:24:35+00:00",
       "news_status": "no_articles"
     },
     "090710": {
@@ -1425,7 +1420,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:46+00:00",
+      "checked_at": "2026-10-08T12:24:44+00:00",
       "news_status": "ok"
     },
     "098460": {
@@ -1494,7 +1489,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:50+00:00",
+      "checked_at": "2026-10-08T12:24:42+00:00",
       "news_status": "no_articles"
     },
     "253840": {
@@ -1559,7 +1554,7 @@
       "name": "한화오션",
       "news_score": 1,
       "news_label": "약함",
-      "news_count": 14,
+      "news_count": 12,
       "news_reasons": [
         "주의:소송"
       ],
@@ -1590,7 +1585,7 @@
         },
         {
           "title": "데이브 맥코믹 美 상원의원, 한화오션 거제사업장 방문 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSb1RYWDBRWmFSQi1ZTFdMbzgtYURMYndVai1PSmN6dHhsbVBhQ0JGYkpPTDVrNVdXYWlYNngzLWd4S2lteGloZllKMkdLNEg0MXdZeW9JQlR2MVAzTnZ4YklZcFBGVlZuT2UyRNIBckFVX3lxTFBLM2ZUZ05TXy1GUF84T3RzcmlPYWxzUkRXX19jWVhjX25fTjJHWFZYcnlrX1pUZnFNNjVCSWNmSDlkcUxxZ2p0X19qWUtRc2hOLTBPa1lGenVNYjNZdTdQY21xb1pyMXBTYXUwa0ZrcUpkdw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93Y1luTXJrTkVuOE40c1dqWVRSenJnVXFRVEF1Q2hia1VreE1qNFhVaWppNzB6OUxXZWpsNXJra3YyMmIwUjRhdElzR2UxN2ZkZU9TbUVybWZBempPMHF4SzZGaGhLdFhsQ2NOQ2pZRlJWWnR6T0VkaEcxUzB3SEnSAX9BVV95cUxPd2NZbk1ya05FbjhONHNXallUUnpyZ1VxUVRBdUNoYmtVa3hNajRYVWlqaTcwejlMV2VqbDVya2t2MjJiMFI0YXRJc0dlMTdmZGVPU21Fcm1mQXpqTzBxeEs2RmhoS3RYbENjTkNqWUZSVlp0ek9FZGhHMVMwd0hJ?oc=5",
           "published": "2026-10-07T23:48:06+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -1598,7 +1593,7 @@
         },
         {
           "title": "맥코믹 美상원의원, 한화오션 거제사업장 방문…조선협력 논의 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DU0tpWExJeXF0SDRxMUkzNlNmN0V3dGxhQ0ZZeHFHVG5tdnJaME9yT01tMUNILTJ5a3VoYXdHRENfVW1IU19ENUxfZE9JSHdoSjB3QzNpcTZiTk3SAWBBVV95cUxQaFo4cGx6UWJmdnJfVDRqTFhtaVpZNjNMUjQyLVU2aUlZRXBaTE1hcHF5WFJFTE1sdjFnSDN3REhUZTF0THdRSlNxSFFRQldSUWJ1bTR4dXhkSmV4bDZhZ0E?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoWjhwbHpRYmZ2cl9UNGpMWG1pWlk2M0xSNDItVTZpSVlFcFpMTWFwcXlYUkVMTWx2MWdIM3dESFRlMXRMd1FKU3FIUVFCV1JRYnVtNHh1eGRKZXhsNmFnQdIBYEFVX3lxTFBoWjhwbHpRYmZ2cl9UNGpMWG1pWlk2M0xSNDItVTZpSVlFcFpMTWFwcXlYUkVMTWx2MWdIM3dESFRlMXRMd1FKU3FIUVFCV1JRYnVtNHh1eGRKZXhsNmFnQQ?oc=5",
           "published": "2026-10-07T23:41:12+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -1659,26 +1654,10 @@
           "source": "연합뉴스",
           "source_group": "연합뉴스",
           "first_seen_at": "2026-10-06T15:11:36+00:00"
-        },
-        {
-          "title": "[인사]한화오션 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RM0swWW5JVEpUdDlaeGt4Wkpkc281bUFqMDIyU0lyUzkxbDI1bkNsQS1UVTFsN2FJSFpLUkdHb3hFN0ZJY3RHdG9kUDZYR0JJRVVVbDU1SUx4cDl1M1N5SVVQSFhpSVlhcjdjSdIBckFVX3lxTE53TF8xSVhUMEhadTZoeDhVZGhqdnNzR05SMHZmNUVWMFp2RTBjZ0JqbkZEc1ZybklmLU1zeTZfcGVLTEtXYWtwSmFTRnpYX0Jva3pjMEdWWFRPdGY5eDRNSS1XUnNuamtKQlBIVkpTYS1OQQ?oc=5",
-          "published": "2026-10-01T08:35:40+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-06T15:11:36+00:00"
-        },
-        {
-          "title": "한화오션 \"하청노동자 고공농성은 불법 점거\"…노조 \"강력 투쟁\"(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRS21oNUlJaVRFYngwZUpoV0FlUUo3SHAtdWl0VTZxQ1A4M3BUc2V6dmdPbXd0OXlVSXIyYXN6Z3hTT0liYnZ4SDBUcjZnTDN6cVFlT0FLVEN5dm_SAWBBVV95cUxNRFA3SnNNOEp3d0ZDRlQ5UjNWS2lZWlprRlE0OFZDMkFacFpIVFh3eHM2bDlOS0JPVlB2MC1WM1hZNm94cjFuc2V2bldsbnhvSC1OdjV2RWxkRDhPS2ZxVFU?oc=5",
-          "published": "2026-10-01T06:14:09+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-06T15:11:36+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:55+00:00",
+      "checked_at": "2026-10-08T12:24:44+00:00",
       "news_status": "ok"
     },
     "109820": {
@@ -1735,7 +1714,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:01:58+00:00",
+      "checked_at": "2026-10-08T12:24:37+00:00",
       "news_status": "no_articles"
     },
     "142280": {
@@ -1767,7 +1746,7 @@
       "name": "현대백화점",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 6,
+      "news_count": 5,
       "news_reasons": [
         "출시"
       ],
@@ -1811,18 +1790,10 @@
           "source": "머니투데이",
           "source_group": "머니투데이",
           "first_seen_at": "2026-10-06T07:17:13+00:00"
-        },
-        {
-          "title": "벤틀리서울, 현대백화점 판교점서 20주년 기념 스페셜 팝업 오픈 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TTUhKSF8wVDhGV2pEU1owMTVMZksyYmtDb1g0RUhudHViUTJPNS1MUC03UnVIMXZoM2xqc1ZMZVozbUtsWFdjenNzTzRlWTlJSjJCT3RJZThOWEHSAWBBVV95cUxOcFQyRzBZaUlqTXIxTy1OSWExNWMwWndfQ0d4THRBMkFaNy1XdDQ0VnAzUmtwTWViTEYwQjNvRGdtTUJiMWNFa2lZejZqM0pqVkZUamgzRlVBWkxoNE9tR3o?oc=5",
-          "published": "2026-10-01T06:29:57+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-06T07:17:13+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:02:01+00:00",
+      "checked_at": "2026-10-08T12:24:43+00:00",
       "news_status": "ok"
     },
     "388790": {
@@ -1912,7 +1883,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:02:06+00:00",
+      "checked_at": "2026-10-08T12:24:33+00:00",
       "news_status": "no_articles"
     },
     "067310": {
@@ -2047,7 +2018,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:02:11+00:00",
+      "checked_at": "2026-10-08T12:24:32+00:00",
       "news_status": "ok"
     },
     "014950": {
@@ -2147,7 +2118,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:02:17+00:00",
+      "checked_at": "2026-10-08T12:24:40+00:00",
       "news_status": "ok"
     },
     "107640": {
@@ -2168,7 +2139,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:02:18+00:00",
+      "checked_at": "2026-10-08T12:24:38+00:00",
       "news_status": "ok"
     },
     "095700": {
@@ -2414,7 +2385,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:02:32+00:00",
+      "checked_at": "2026-10-08T12:24:31+00:00",
       "news_status": "ok"
     },
     "490470": {
@@ -2482,7 +2453,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:02:35+00:00",
+      "checked_at": "2026-10-08T12:24:34+00:00",
       "news_status": "no_articles"
     },
     "456010": {
@@ -2620,7 +2591,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:02:44+00:00",
+      "checked_at": "2026-10-08T12:24:33+00:00",
       "news_status": "no_articles"
     },
     "299660": {
@@ -2916,7 +2887,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-08T06:03:02+00:00",
+      "checked_at": "2026-10-08T12:24:40+00:00",
       "news_status": "no_articles"
     },
     "0161M0": {
@@ -2937,7 +2908,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:03:03+00:00",
+      "checked_at": "2026-10-08T12:24:36+00:00",
       "news_status": "ok"
     },
     "111770": {
@@ -2958,15 +2929,15 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-08T06:03:04+00:00",
+      "checked_at": "2026-10-08T12:24:46+00:00",
       "news_status": "ok"
     }
   },
   "input_generated_at": "2026-10-07T09:24:44+09:00",
   "matching_revision": "company-boundary-v2",
   "collection_status": "ok",
-  "successful_queries": 300,
-  "attempted_queries": 300,
+  "successful_queries": 58,
+  "attempted_queries": 58,
   "themes": [
     {
       "id": "gold",
@@ -5746,5 +5717,6 @@
       "independent_search": true
     }
   ],
-  "theme_method": "최근 7일 기사·공시 제목 기반. 기업 업종 및 직접 수혜 확정 아님."
+  "theme_method": "최근 7일 기사·공시 제목 기반. 기업 업종 및 직접 수혜 확정 아님.",
+  "watch_checked_at": "2026-10-08T12:24:46+00:00"
 }
