@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-08T15:35:33.958665+00:00",
-  "updated_kst": "2026년 10월 09일 00:35",
+  "updated_at": "2026-10-08T21:19:09.427222+00:00",
+  "updated_kst": "2026년 10월 09일 06:19",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "병목",
+          "k": "이정현",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "북한이탈주민",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "gta6",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "쿠팡",
+          "m": "검색량 20000+"
+        },
+        {
+          "k": "ps",
           "m": "검색량 200+"
+        },
+        {
+          "k": "장민호",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "아리엘 후라도",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "수면제",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "병목",
+          "m": "검색량 500+"
         },
         {
           "k": "마이클 버리",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "채널a",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "식중독",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "로맥",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "박지훈",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "이데일리",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "김영광",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "로또1등도 출근합니다",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "하이마트",
-          "m": "검색량 100+"
+          "m": "검색량 1000+"
         }
       ]
     },
@@ -113,7 +113,7 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-09T00:32:46.849+09:00",
+      "updated": "2026-10-09T06:14:07.055+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
@@ -130,28 +130,28 @@
           "url": "https://search.daum.net/search?w=tot&q=%EB%85%B8%EB%B2%A8%EB%AC%B8%ED%95%99%EC%83%81%20%EC%95%A4%20%EC%B9%B4%EC%8A%A8"
         },
         {
-          "k": "십오야 골든벨",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%AD%EC%98%A4%EC%95%BC%20%EA%B3%A8%EB%93%A0%EB%B2%A8"
-        },
-        {
           "k": "인천 강화 지뢰 발견",
-          "rank": 4,
+          "rank": 3,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B8%EC%B2%9C%20%EA%B0%95%ED%99%94%20%EC%A7%80%EB%A2%B0%20%EB%B0%9C%EA%B2%AC"
         },
         {
-          "k": "김창민 감독",
-          "rank": 5,
+          "k": "쿠팡이츠",
+          "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%B0%BD%EB%AF%BC%20%EA%B0%90%EB%8F%85"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%BF%A0%ED%8C%A1%EC%9D%B4%EC%B8%A0"
         },
         {
-          "k": "나는 솔로 그후 사랑은 계속된다",
+          "k": "아람코 코리아 챔피언십",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EB%9E%8C%EC%BD%94%20%EC%BD%94%EB%A6%AC%EC%95%84%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD"
+        },
+        {
+          "k": "이종석 국정원장",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EB%8A%94%20%EC%86%94%EB%A1%9C%20%EA%B7%B8%ED%9B%84%20%EC%82%AC%EB%9E%91%EC%9D%80%20%EA%B3%84%EC%86%8D%EB%90%9C%EB%8B%A4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%A2%85%EC%84%9D%20%EA%B5%AD%EC%A0%95%EC%9B%90%EC%9E%A5"
         },
         {
           "k": "한글날",
@@ -160,22 +160,22 @@
           "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%EA%B8%80%EB%82%A0"
         },
         {
-          "k": "위켄드 내한",
+          "k": "기상청",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%84%EC%BC%84%EB%93%9C%20%EB%82%B4%ED%95%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B8%B0%EC%83%81%EC%B2%AD"
         },
         {
-          "k": "허영만 가짜 부고",
+          "k": "노벨 평화상",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%97%88%EC%98%81%EB%A7%8C%20%EA%B0%80%EC%A7%9C%20%EB%B6%80%EA%B3%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%85%B8%EB%B2%A8%20%ED%8F%89%ED%99%94%EC%83%81"
         },
         {
-          "k": "서울 드라마 어워즈 2026",
+          "k": "정청래 미국 비자 발급 보류",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%84%9C%EC%9A%B8%20%EB%93%9C%EB%9D%BC%EB%A7%88%20%EC%96%B4%EC%9B%8C%EC%A6%88%202026"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%B2%AD%EB%9E%98%20%EB%AF%B8%EA%B5%AD%20%EB%B9%84%EC%9E%90%20%EB%B0%9C%EA%B8%89%20%EB%B3%B4%EB%A5%98"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "병목",
+      "k": "이정현",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "북한이탈주민",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "gta6",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "쿠팡",
+      "m": "검색량 20000+"
+    },
+    {
+      "k": "ps",
       "m": "검색량 200+"
+    },
+    {
+      "k": "장민호",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "아리엘 후라도",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "수면제",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "병목",
+      "m": "검색량 500+"
     },
     {
       "k": "마이클 버리",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "채널a",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "식중독",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "로맥",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "박지훈",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "이데일리",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "김영광",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "로또1등도 출근합니다",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "하이마트",
-      "m": "검색량 100+"
+      "m": "검색량 1000+"
     }
   ]
 }
