@@ -1,48 +1,48 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-08T07:23:25.392012+00:00",
-  "updated_kst": "2026년 10월 08일 16:23",
+  "updated_at": "2026-10-08T15:35:33.958665+00:00",
+  "updated_kst": "2026년 10월 09일 00:35",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "한동훈",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "송지호 바다하늘길",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "중동",
+          "k": "병목",
           "m": "검색량 200+"
         },
         {
-          "k": "전투기",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "육아",
-          "m": "검색량 10000+"
-        },
-        {
-          "k": "김영옥",
+          "k": "마이클 버리",
           "m": "검색량 500+"
         },
         {
-          "k": "중국",
-          "m": "검색량 5000+"
+          "k": "채널a",
+          "m": "검색량 200+"
         },
         {
-          "k": "도쿄도",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "압구정동",
+          "k": "식중독",
           "m": "검색량 500+"
         },
         {
-          "k": "1기 신도시",
+          "k": "로맥",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "박지훈",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "이데일리",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "김영광",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "로또1등도 출근합니다",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "하이마트",
           "m": "검색량 100+"
         }
       ]
@@ -87,12 +87,6 @@
           "tag": "buy"
         },
         {
-          "k": "로지텍지슈스3",
-          "m": "주변기기 · 상승 3",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%A1%9C%EC%A7%80%ED%85%8D%EC%A7%80%EC%8A%88%EC%8A%A43",
-          "tag": "buy"
-        },
-        {
           "k": "가습기스텐팟",
           "m": "계절가전 · 상승 3",
           "url": "https://shopping.naver.com/ns/search?query=%EA%B0%80%EC%8A%B5%EA%B8%B0%EC%8A%A4%ED%85%90%ED%8C%9F",
@@ -109,11 +103,17 @@
           "m": "등산 · 신규",
           "url": "https://shopping.naver.com/ns/search?query=k2%EC%95%8C%ED%8C%8C%EC%B9%B4",
           "tag": "buy"
+        },
+        {
+          "k": "쥬얼스타티니핑",
+          "m": "완구/인형 · 상승 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%A5%AC%EC%96%BC%EC%8A%A4%ED%83%80%ED%8B%B0%EB%8B%88%ED%95%91",
+          "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-10-08T16:22:22.776+09:00",
+      "updated": "2026-10-09T00:32:46.849+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
@@ -124,58 +124,58 @@
           "url": "https://search.daum.net/search?w=tot&q=%EC%9E%84%EC%84%B8%EC%A3%BC%20%EC%9C%A0%EC%8A%B9%ED%98%B8%20%EA%B2%B0%EB%B3%84"
         },
         {
-          "k": "허영만 가짜 부고",
+          "k": "노벨문학상 앤 카슨",
           "rank": 2,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%85%B8%EB%B2%A8%EB%AC%B8%ED%95%99%EC%83%81%20%EC%95%A4%20%EC%B9%B4%EC%8A%A8"
+        },
+        {
+          "k": "십오야 골든벨",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%AD%EC%98%A4%EC%95%BC%20%EA%B3%A8%EB%93%A0%EB%B2%A8"
+        },
+        {
+          "k": "인천 강화 지뢰 발견",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B8%EC%B2%9C%20%EA%B0%95%ED%99%94%20%EC%A7%80%EB%A2%B0%20%EB%B0%9C%EA%B2%AC"
+        },
+        {
+          "k": "김창민 감독",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%B0%BD%EB%AF%BC%20%EA%B0%90%EB%8F%85"
+        },
+        {
+          "k": "나는 솔로 그후 사랑은 계속된다",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EB%8A%94%20%EC%86%94%EB%A1%9C%20%EA%B7%B8%ED%9B%84%20%EC%82%AC%EB%9E%91%EC%9D%80%20%EA%B3%84%EC%86%8D%EB%90%9C%EB%8B%A4"
+        },
+        {
+          "k": "한글날",
+          "rank": 7,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%EA%B8%80%EB%82%A0"
+        },
+        {
+          "k": "위켄드 내한",
+          "rank": 8,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%84%EC%BC%84%EB%93%9C%20%EB%82%B4%ED%95%9C"
+        },
+        {
+          "k": "허영만 가짜 부고",
+          "rank": 9,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%ED%97%88%EC%98%81%EB%A7%8C%20%EA%B0%80%EC%A7%9C%20%EB%B6%80%EA%B3%A0"
         },
         {
-          "k": "태풍 경로",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%83%9C%ED%92%8D%20%EA%B2%BD%EB%A1%9C"
-        },
-        {
-          "k": "미남 자연인",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%B8%EB%82%A8%20%EC%9E%90%EC%97%B0%EC%9D%B8"
-        },
-        {
-          "k": "이화영 가석방 요구",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%99%94%EC%98%81%20%EA%B0%80%EC%84%9D%EB%B0%A9%20%EC%9A%94%EA%B5%AC"
-        },
-        {
-          "k": "아람코 코리아 챔피언십",
-          "rank": 6,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EB%9E%8C%EC%BD%94%20%EC%BD%94%EB%A6%AC%EC%95%84%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD"
-        },
-        {
-          "k": "조철현 감독 별세",
-          "rank": 7,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%EC%B2%A0%ED%98%84%20%EA%B0%90%EB%8F%85%20%EB%B3%84%EC%84%B8"
-        },
-        {
-          "k": "금융권 연쇄 해킹",
-          "rank": 8,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B8%88%EC%9C%B5%EA%B6%8C%20%EC%97%B0%EC%87%84%20%ED%95%B4%ED%82%B9"
-        },
-        {
-          "k": "이재준 불송치",
-          "rank": 9,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9E%AC%EC%A4%80%20%EB%B6%88%EC%86%A1%EC%B9%98"
-        },
-        {
-          "k": "신인감독 김연경2",
+          "k": "서울 드라마 어워즈 2026",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%A0%EC%9D%B8%EA%B0%90%EB%8F%85%20%EA%B9%80%EC%97%B0%EA%B2%BD2"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%84%9C%EC%9A%B8%20%EB%93%9C%EB%9D%BC%EB%A7%88%20%EC%96%B4%EC%9B%8C%EC%A6%88%202026"
         }
       ]
     },
@@ -227,43 +227,43 @@
   },
   "items": [
     {
-      "k": "한동훈",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "송지호 바다하늘길",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "중동",
+      "k": "병목",
       "m": "검색량 200+"
     },
     {
-      "k": "전투기",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "육아",
-      "m": "검색량 10000+"
-    },
-    {
-      "k": "김영옥",
+      "k": "마이클 버리",
       "m": "검색량 500+"
     },
     {
-      "k": "중국",
-      "m": "검색량 5000+"
+      "k": "채널a",
+      "m": "검색량 200+"
     },
     {
-      "k": "도쿄도",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "압구정동",
+      "k": "식중독",
       "m": "검색량 500+"
     },
     {
-      "k": "1기 신도시",
+      "k": "로맥",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "박지훈",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "이데일리",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "김영광",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "로또1등도 출근합니다",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "하이마트",
       "m": "검색량 100+"
     }
   ]
