@@ -1,48 +1,48 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-09T02:08:37.453576+00:00",
-  "updated_kst": "2026년 10월 09일 11:08",
+  "updated_at": "2026-10-09T09:02:03.629889+00:00",
+  "updated_kst": "2026년 10월 09일 18:02",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "nba",
+          "k": "레이예스",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "한국표준과학연구원",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "레서판다",
           "m": "검색량 200+"
         },
         {
-          "k": "네이마르",
-          "m": "검색량 500+"
+          "k": "박재현",
+          "m": "검색량 100+"
         },
         {
-          "k": "집",
-          "m": "검색량 200+"
+          "k": "인천 대 포항",
+          "m": "검색량 2000+"
         },
         {
-          "k": "도깨비의 세계 보물상자",
-          "m": "검색량 500+"
+          "k": "조디악",
+          "m": "검색량 100+"
         },
         {
-          "k": "자산",
-          "m": "검색량 500+"
+          "k": "최수종",
+          "m": "검색량 2000+"
         },
         {
-          "k": "잠실 돔 구장",
+          "k": "알렉산더 즈베레프",
           "m": "검색량 1000+"
         },
         {
-          "k": "프리미어리그",
-          "m": "검색량 100+"
+          "k": "간호사",
+          "m": "검색량 2000+"
         },
         {
-          "k": "한글날 태극기",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "울산공업축제",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "가디언즈 대 화이트삭스",
+          "k": "사관학교",
           "m": "검색량 500+"
         }
       ]
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-09T10:58:57.327+09:00",
+      "updated": "2026-10-09T18:01:37.409+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "이 대통령 한글날",
+          "k": "최유화 공공장소 모유 수유",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%20%EB%8C%80%ED%86%B5%EB%A0%B9%20%ED%95%9C%EA%B8%80%EB%82%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%EC%9C%A0%ED%99%94%20%EA%B3%B5%EA%B3%B5%EC%9E%A5%EC%86%8C%20%EB%AA%A8%EC%9C%A0%20%EC%88%98%EC%9C%A0"
         },
         {
-          "k": "송민호 병역법 위반",
+          "k": "KIA NC 제압",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%86%A1%EB%AF%BC%ED%98%B8%20%EB%B3%91%EC%97%AD%EB%B2%95%20%EC%9C%84%EB%B0%98"
+          "url": "https://search.daum.net/search?w=tot&q=KIA%20NC%20%EC%A0%9C%EC%95%95"
         },
         {
-          "k": "KOVO 성비위 징계",
+          "k": "이영민 부친상",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=KOVO%20%EC%84%B1%EB%B9%84%EC%9C%84%20%EC%A7%95%EA%B3%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%98%81%EB%AF%BC%20%EB%B6%80%EC%B9%9C%EC%83%81"
+        },
+        {
+          "k": "김영광 보복운전 사과",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%98%81%EA%B4%91%20%EB%B3%B4%EB%B3%B5%EC%9A%B4%EC%A0%84%20%EC%82%AC%EA%B3%BC"
         },
         {
           "k": "정청래 비자 보류",
-          "rank": 4,
+          "rank": 5,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%B2%AD%EB%9E%98%20%EB%B9%84%EC%9E%90%20%EB%B3%B4%EB%A5%98"
         },
         {
-          "k": "정부 농지조사",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EB%B6%80%20%EB%86%8D%EC%A7%80%EC%A1%B0%EC%82%AC"
-        },
-        {
-          "k": "국무총리 한성숙",
+          "k": "이종석 국정원장",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AD%EB%AC%B4%EC%B4%9D%EB%A6%AC%20%ED%95%9C%EC%84%B1%EC%88%99"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%A2%85%EC%84%9D%20%EA%B5%AD%EC%A0%95%EC%9B%90%EC%9E%A5"
         },
         {
-          "k": "뭄바이 테러",
+          "k": "레이예스 204안타",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%AD%84%EB%B0%94%EC%9D%B4%20%ED%85%8C%EB%9F%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%A0%88%EC%9D%B4%EC%98%88%EC%8A%A4%20204%EC%95%88%ED%83%80"
+        },
+        {
+          "k": "뮤직뱅크",
+          "rank": 8,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC"
+        },
+        {
+          "k": "닥터x  하얀 마피아의 시대",
+          "rank": 9,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%8B%A5%ED%84%B0x%20%20%ED%95%98%EC%96%80%20%EB%A7%88%ED%94%BC%EC%95%84%EC%9D%98%20%EC%8B%9C%EB%8C%80"
         },
         {
           "k": "아람코 코리아 챔피언십",
-          "rank": 8,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EB%9E%8C%EC%BD%94%20%EC%BD%94%EB%A6%AC%EC%95%84%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD"
-        },
-        {
-          "k": "언니네 산지직송 3",
-          "rank": 9,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%96%B8%EB%8B%88%EB%84%A4%20%EC%82%B0%EC%A7%80%EC%A7%81%EC%86%A1%203"
-        },
-        {
-          "k": "국감 질의 방해",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AD%EA%B0%90%20%EC%A7%88%EC%9D%98%20%EB%B0%A9%ED%95%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EB%9E%8C%EC%BD%94%20%EC%BD%94%EB%A6%AC%EC%95%84%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD"
         }
       ]
     },
@@ -227,43 +227,43 @@
   },
   "items": [
     {
-      "k": "nba",
+      "k": "레이예스",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "한국표준과학연구원",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "레서판다",
       "m": "검색량 200+"
     },
     {
-      "k": "네이마르",
-      "m": "검색량 500+"
+      "k": "박재현",
+      "m": "검색량 100+"
     },
     {
-      "k": "집",
-      "m": "검색량 200+"
+      "k": "인천 대 포항",
+      "m": "검색량 2000+"
     },
     {
-      "k": "도깨비의 세계 보물상자",
-      "m": "검색량 500+"
+      "k": "조디악",
+      "m": "검색량 100+"
     },
     {
-      "k": "자산",
-      "m": "검색량 500+"
+      "k": "최수종",
+      "m": "검색량 2000+"
     },
     {
-      "k": "잠실 돔 구장",
+      "k": "알렉산더 즈베레프",
       "m": "검색량 1000+"
     },
     {
-      "k": "프리미어리그",
-      "m": "검색량 100+"
+      "k": "간호사",
+      "m": "검색량 2000+"
     },
     {
-      "k": "한글날 태극기",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "울산공업축제",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "가디언즈 대 화이트삭스",
+      "k": "사관학교",
       "m": "검색량 500+"
     }
   ]
