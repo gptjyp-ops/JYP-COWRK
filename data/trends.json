@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-10T18:34:25.396547+00:00",
-  "updated_kst": "2026년 10월 11일 03:34",
+  "updated_at": "2026-10-10T22:30:34.969300+00:00",
+  "updated_kst": "2026년 10월 11일 07:30",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "스포츠 중계",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "แมนยู พบ สเปอร์ส",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "man utd đấu với tottenham",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "논술",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "la liga",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "man utd vs spurs",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "브라이튼",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "바르셀로나 대 헤타페",
+          "k": "민 도희",
           "m": "검색량 5000+"
         },
         {
-          "k": "barcelona vs getafe",
-          "m": "검색량 1000+"
+          "k": "로스앤젤레스 fc",
+          "m": "검색량 100+"
         },
         {
-          "k": "맨유 대 토트넘",
-          "m": "검색량 20000+"
+          "k": "황인범",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "맥도날드",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "롯데월드",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "남편",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "미디어오늘",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "이민정",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "홍준표",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "madrid vs villarreal",
+          "m": "검색량 100+"
         }
       ]
     },
@@ -113,113 +113,113 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-11T01:00:51.079+09:00",
+      "updated": "2026-10-11T07:17:29.286+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "정청래 비자 지연",
+          "k": "1,245회 로또 당첨 번호",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%B2%AD%EB%9E%98%20%EB%B9%84%EC%9E%90%20%EC%A7%80%EC%97%B0"
+          "url": "https://search.daum.net/search?w=tot&q=1%2C245%ED%9A%8C%20%EB%A1%9C%EB%98%90%20%EB%8B%B9%EC%B2%A8%20%EB%B2%88%ED%98%B8"
         },
         {
-          "k": "시미즈 한강뷰 집",
+          "k": "아틀레티코 결승골",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%9C%EB%AF%B8%EC%A6%88%20%ED%95%9C%EA%B0%95%EB%B7%B0%20%EC%A7%91"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%ED%8B%80%EB%A0%88%ED%8B%B0%EC%BD%94%20%EA%B2%B0%EC%8A%B9%EA%B3%A8"
+        },
+        {
+          "k": "강석우 동국대 석좌교수",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%EC%84%9D%EC%9A%B0%20%EB%8F%99%EA%B5%AD%EB%8C%80%20%EC%84%9D%EC%A2%8C%EA%B5%90%EC%88%98"
+        },
+        {
+          "k": "재혼 황후",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%AC%ED%98%BC%20%ED%99%A9%ED%9B%84"
+        },
+        {
+          "k": "한동훈 수사 무마",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%EB%8F%99%ED%9B%88%20%EC%88%98%EC%82%AC%20%EB%AC%B4%EB%A7%88"
+        },
+        {
+          "k": "정청래 비자",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%B2%AD%EB%9E%98%20%EB%B9%84%EC%9E%90"
+        },
+        {
+          "k": "치이카와",
+          "rank": 7,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80"
+        },
+        {
+          "k": "100일의 거짓말",
+          "rank": 8,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90"
         },
         {
           "k": "놀면 뭐하니",
-          "rank": 3,
+          "rank": 9,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EB%86%80%EB%A9%B4%20%EB%AD%90%ED%95%98%EB%8B%88"
         },
         {
-          "k": "신민아 부산영화제",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%A0%EB%AF%BC%EC%95%84%20%EB%B6%80%EC%82%B0%EC%98%81%ED%99%94%EC%A0%9C"
-        },
-        {
-          "k": "아틀레티코 마드리드",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%ED%8B%80%EB%A0%88%ED%8B%B0%EC%BD%94%20%EB%A7%88%EB%93%9C%EB%A6%AC%EB%93%9C"
-        },
-        {
-          "k": "황재균 부모",
-          "rank": 6,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%99%A9%EC%9E%AC%EA%B7%A0%20%EB%B6%80%EB%AA%A8"
-        },
-        {
-          "k": "정보석 화장품 CEO",
-          "rank": 7,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EB%B3%B4%EC%84%9D%20%ED%99%94%EC%9E%A5%ED%92%88%20CEO"
-        },
-        {
-          "k": "이우석 결혼 아들",
-          "rank": 8,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9A%B0%EC%84%9D%20%EA%B2%B0%ED%98%BC%20%EC%95%84%EB%93%A4"
-        },
-        {
-          "k": "kt 위즈",
-          "rank": 9,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=kt%20%EC%9C%84%EC%A6%88"
-        },
-        {
-          "k": "100일의 거짓말",
+          "k": "전지적 참견 시점",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%84%EC%A7%80%EC%A0%81%20%EC%B0%B8%EA%B2%AC%20%EC%8B%9C%EC%A0%90"
         }
       ]
     },
     "creator": {
-      "updated": "2026년 10월 09일",
+      "updated": "2026년 10월 10일",
       "items": [
         {
-          "k": "김인석 안젤라박 이혼",
+          "k": "닥터x 김현이",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "손흥민 의미심장한 SNS 메시지",
+          "k": "대구 마트 천장 붕괴",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "김학범 손흥민 주장직 관련 발언",
+          "k": "김현이",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "나 혼자 산다 668회",
+          "k": "어린이대공원역 택시 돌진",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "윤소희",
+          "k": "운지 뜻",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "손흥민 의미심장한 SNS 남긴 이유",
+          "k": "이상엽 와이프",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "캡틴큐",
+          "k": "놀면뭐하니 서울가요제",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "박위 송지은 차별 의혹",
+          "k": "관음동 마트",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "김민재 유튜버 오현규 저격 이유",
+          "k": "대구 관음동 마트",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "임세주 유승호 결별",
+          "k": "장동윤 김승윤 결혼",
           "m": "실시간 인기 검색어"
         }
       ]
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "스포츠 중계",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "แมนยู พบ สเปอร์ส",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "man utd đấu với tottenham",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "논술",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "la liga",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "man utd vs spurs",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "브라이튼",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "바르셀로나 대 헤타페",
+      "k": "민 도희",
       "m": "검색량 5000+"
     },
     {
-      "k": "barcelona vs getafe",
-      "m": "검색량 1000+"
+      "k": "로스앤젤레스 fc",
+      "m": "검색량 100+"
     },
     {
-      "k": "맨유 대 토트넘",
-      "m": "검색량 20000+"
+      "k": "황인범",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "맥도날드",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "롯데월드",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "남편",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "미디어오늘",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "이민정",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "홍준표",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "madrid vs villarreal",
+      "m": "검색량 100+"
     }
   ]
 }
