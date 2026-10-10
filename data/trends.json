@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-10T00:49:24.276419+00:00",
-  "updated_kst": "2026년 10월 10일 09:49",
+  "updated_at": "2026-10-10T07:05:35.295243+00:00",
+  "updated_kst": "2026년 10월 10일 16:05",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "매일경제신문",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "어린이대공원",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "al nassr",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "서동주",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "여수세계박람회장",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "반려견",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "돈",
+          "k": "졸음 운전",
           "m": "검색량 2000+"
         },
         {
-          "k": "한혜연",
+          "k": "박종훈",
           "m": "검색량 500+"
         },
         {
-          "k": "노윤서",
+          "k": "fc 서울 대 제주",
+          "m": "검색량 20000+"
+        },
+        {
+          "k": "어머니",
+          "m": "검색량 5000+"
+        },
+        {
+          "k": "투르키스탄 바퀴벌레",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "시카고 컵스",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "다시보기",
           "m": "검색량 200+"
         },
         {
-          "k": "대한민국 축구 국가대표팀",
-          "m": "검색량 1000+"
+          "k": "주식시장",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "국채",
+          "m": "검색량 10000+"
+        },
+        {
+          "k": "티비",
+          "m": "검색량 200+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-10T09:48:42.707+09:00",
+      "updated": "2026-10-10T15:58:41.017+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "트럼프 푸틴 합의",
+          "k": "신유빈 임종훈 우승",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B8%EB%9F%BC%ED%94%84%20%ED%91%B8%ED%8B%B4%20%ED%95%A9%EC%9D%98"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%A0%EC%9C%A0%EB%B9%88%20%EC%9E%84%EC%A2%85%ED%9B%88%20%EC%9A%B0%EC%8A%B9"
         },
         {
-          "k": "노벨 평화상",
+          "k": "닥터x",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%85%B8%EB%B2%A8%20%ED%8F%89%ED%99%94%EC%83%81"
-        },
-        {
-          "k": "이태성 중3 아들",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%83%9C%EC%84%B1%20%EC%A4%913%20%EC%95%84%EB%93%A4"
-        },
-        {
-          "k": "icc",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=icc"
-        },
-        {
-          "k": "장동윤 김승윤 결혼",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%A5%EB%8F%99%EC%9C%A4%20%EA%B9%80%EC%8A%B9%EC%9C%A4%20%EA%B2%B0%ED%98%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%8B%A5%ED%84%B0x"
         },
         {
           "k": "문근영 우발라2 입덕",
-          "rank": 6,
+          "rank": 3,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EB%AC%B8%EA%B7%BC%EC%98%81%20%EC%9A%B0%EB%B0%9C%EB%9D%BC2%20%EC%9E%85%EB%8D%95"
         },
         {
-          "k": "골든벨",
+          "k": "나를 충전해줘",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EB%A5%BC%20%EC%B6%A9%EC%A0%84%ED%95%B4%EC%A4%98"
+        },
+        {
+          "k": "SSG 박종훈 방출",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=SSG%20%EB%B0%95%EC%A2%85%ED%9B%88%20%EB%B0%A9%EC%B6%9C"
+        },
+        {
+          "k": "정부 병역특례 재점검",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EB%B6%80%20%EB%B3%91%EC%97%AD%ED%8A%B9%EB%A1%80%20%EC%9E%AC%EC%A0%90%EA%B2%80"
+        },
+        {
+          "k": "100일의 거짓말 등장인물",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B3%A8%EB%93%A0%EB%B2%A8"
+          "url": "https://search.daum.net/search?w=tot&q=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90%20%EB%93%B1%EC%9E%A5%EC%9D%B8%EB%AC%BC"
         },
         {
-          "k": "워크돌",
+          "k": "pba 투어",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9B%8C%ED%81%AC%EB%8F%8C"
+          "url": "https://search.daum.net/search?w=tot&q=pba%20%ED%88%AC%EC%96%B4"
         },
         {
-          "k": "김영광 보복운전 무혐의",
+          "k": "클릭비 오종혁",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%98%81%EA%B4%91%20%EB%B3%B4%EB%B3%B5%EC%9A%B4%EC%A0%84%20%EB%AC%B4%ED%98%90%EC%9D%98"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%81%B4%EB%A6%AD%EB%B9%84%20%EC%98%A4%EC%A2%85%ED%98%81"
         },
         {
-          "k": "서장훈 결벽증",
+          "k": "정읍 구절초축제",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%84%9C%EC%9E%A5%ED%9B%88%20%EA%B2%B0%EB%B2%BD%EC%A6%9D"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%9D%8D%20%EA%B5%AC%EC%A0%88%EC%B4%88%EC%B6%95%EC%A0%9C"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "매일경제신문",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "어린이대공원",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "al nassr",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "서동주",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "여수세계박람회장",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "반려견",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "돈",
+      "k": "졸음 운전",
       "m": "검색량 2000+"
     },
     {
-      "k": "한혜연",
+      "k": "박종훈",
       "m": "검색량 500+"
     },
     {
-      "k": "노윤서",
+      "k": "fc 서울 대 제주",
+      "m": "검색량 20000+"
+    },
+    {
+      "k": "어머니",
+      "m": "검색량 5000+"
+    },
+    {
+      "k": "투르키스탄 바퀴벌레",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "시카고 컵스",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "다시보기",
       "m": "검색량 200+"
     },
     {
-      "k": "대한민국 축구 국가대표팀",
-      "m": "검색량 1000+"
+      "k": "주식시장",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "국채",
+      "m": "검색량 10000+"
+    },
+    {
+      "k": "티비",
+      "m": "검색량 200+"
     }
   ]
 }
