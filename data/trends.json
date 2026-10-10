@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-10T13:40:03.582161+00:00",
-  "updated_kst": "2026년 10월 10일 22:40",
+  "updated_at": "2026-10-10T18:34:25.396547+00:00",
+  "updated_kst": "2026년 10월 11일 03:34",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "arsenal",
+          "k": "스포츠 중계",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "แมนยู พบ สเปอร์ส",
           "m": "검색량 500+"
         },
         {
-          "k": "아스날 리즈",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "로또1245",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "울산광역시",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "환경일보",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "상장지수 펀드",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "여자 축구",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "첼시",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "노웅래",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "사미자",
+          "k": "man utd đấu với tottenham",
           "m": "검색량 500+"
+        },
+        {
+          "k": "논술",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "la liga",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "man utd vs spurs",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "브라이튼",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "바르셀로나 대 헤타페",
+          "m": "검색량 5000+"
+        },
+        {
+          "k": "barcelona vs getafe",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "맨유 대 토트넘",
+          "m": "검색량 20000+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-10T22:29:49.191+09:00",
+      "updated": "2026-10-11T01:00:51.079+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "놀면 뭐하니",
+          "k": "정청래 비자 지연",
           "rank": 1,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%B2%AD%EB%9E%98%20%EB%B9%84%EC%9E%90%20%EC%A7%80%EC%97%B0"
+        },
+        {
+          "k": "시미즈 한강뷰 집",
+          "rank": 2,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%9C%EB%AF%B8%EC%A6%88%20%ED%95%9C%EA%B0%95%EB%B7%B0%20%EC%A7%91"
+        },
+        {
+          "k": "놀면 뭐하니",
+          "rank": 3,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EB%86%80%EB%A9%B4%20%EB%AD%90%ED%95%98%EB%8B%88"
         },
         {
-          "k": "농구선수 변준형",
-          "rank": 2,
+          "k": "신민아 부산영화제",
+          "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%86%8D%EA%B5%AC%EC%84%A0%EC%88%98%20%EB%B3%80%EC%A4%80%ED%98%95"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%A0%EB%AF%BC%EC%95%84%20%EB%B6%80%EC%82%B0%EC%98%81%ED%99%94%EC%A0%9C"
+        },
+        {
+          "k": "아틀레티코 마드리드",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%ED%8B%80%EB%A0%88%ED%8B%B0%EC%BD%94%20%EB%A7%88%EB%93%9C%EB%A6%AC%EB%93%9C"
+        },
+        {
+          "k": "황재균 부모",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%99%A9%EC%9E%AC%EA%B7%A0%20%EB%B6%80%EB%AA%A8"
+        },
+        {
+          "k": "정보석 화장품 CEO",
+          "rank": 7,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EB%B3%B4%EC%84%9D%20%ED%99%94%EC%9E%A5%ED%92%88%20CEO"
         },
         {
           "k": "이우석 결혼 아들",
-          "rank": 3,
+          "rank": 8,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9A%B0%EC%84%9D%20%EA%B2%B0%ED%98%BC%20%EC%95%84%EB%93%A4"
         },
         {
-          "k": "100일의 거짓말",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90"
-        },
-        {
-          "k": "로또1245회 당첨 번호",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%A1%9C%EB%98%901245%ED%9A%8C%20%EB%8B%B9%EC%B2%A8%20%EB%B2%88%ED%98%B8"
-        },
-        {
-          "k": "김우석 배우",
-          "rank": 6,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%9A%B0%EC%84%9D%20%EB%B0%B0%EC%9A%B0"
-        },
-        {
-          "k": "그알",
-          "rank": 7,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B7%B8%EC%95%8C"
-        },
-        {
-          "k": "아는 형님",
-          "rank": 8,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EB%8A%94%20%ED%98%95%EB%8B%98"
-        },
-        {
-          "k": "이소희 농구선수",
+          "k": "kt 위즈",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%86%8C%ED%9D%AC%20%EB%86%8D%EA%B5%AC%EC%84%A0%EC%88%98"
+          "url": "https://search.daum.net/search?w=tot&q=kt%20%EC%9C%84%EC%A6%88"
         },
         {
-          "k": "재혼 황후",
+          "k": "100일의 거짓말",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%AC%ED%98%BC%20%ED%99%A9%ED%9B%84"
+          "url": "https://search.daum.net/search?w=tot&q=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "arsenal",
+      "k": "스포츠 중계",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "แมนยู พบ สเปอร์ส",
       "m": "검색량 500+"
     },
     {
-      "k": "아스날 리즈",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "로또1245",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "울산광역시",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "환경일보",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "상장지수 펀드",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "여자 축구",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "첼시",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "노웅래",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "사미자",
+      "k": "man utd đấu với tottenham",
       "m": "검색량 500+"
+    },
+    {
+      "k": "논술",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "la liga",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "man utd vs spurs",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "브라이튼",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "바르셀로나 대 헤타페",
+      "m": "검색량 5000+"
+    },
+    {
+      "k": "barcelona vs getafe",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "맨유 대 토트넘",
+      "m": "검색량 20000+"
     }
   ]
 }
