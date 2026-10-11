@@ -1,10 +1,42 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-11T15:39:25.101988+00:00",
-  "updated_kst": "2026년 10월 12일 00:39",
+  "updated_at": "2026-10-11T20:15:32.089560+00:00",
+  "updated_kst": "2026년 10월 12일 05:15",
   "sources": {
     "google": {
       "items": [
+        {
+          "k": "김지원",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "황희찬",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "ลิเวอร์พูล พบ แมนซิตี",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "fotmob",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "맨시티",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "ngoại hạng anh",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "김성한",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "liverpool vs man city",
+          "m": "검색량 1000+"
+        },
         {
           "k": "청년",
           "m": "검색량 5000+"
@@ -12,38 +44,6 @@
         {
           "k": "레알 소시에다드 대 데포르티보",
           "m": "검색량 500+"
-        },
-        {
-          "k": "india vs west indies",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "f1",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "리버풀 맨시티",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "표승주",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "주주",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "유현 조",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "persib bandung vs dewa united",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "pak vs sl",
-          "m": "검색량 1000+"
         }
       ]
     },
@@ -113,39 +113,39 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-12T00:31:25.235+09:00",
+      "updated": "2026-10-12T01:02:34.545+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "정수빈 LPBA 첫 우승",
+          "k": "정일영 교수",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%88%98%EB%B9%88%20LPBA%20%EC%B2%AB%20%EC%9A%B0%EC%8A%B9"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%9D%BC%EC%98%81%20%EA%B5%90%EC%88%98"
         },
         {
-          "k": "러-우크라 에너지 휴전",
+          "k": "놀면 뭐하니 서울가요제 참가자",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%9F%AC-%EC%9A%B0%ED%81%AC%EB%9D%BC%20%EC%97%90%EB%84%88%EC%A7%80%20%ED%9C%B4%EC%A0%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%86%80%EB%A9%B4%20%EB%AD%90%ED%95%98%EB%8B%88%20%EC%84%9C%EC%9A%B8%EA%B0%80%EC%9A%94%EC%A0%9C%20%EC%B0%B8%EA%B0%80%EC%9E%90"
+        },
+        {
+          "k": "트럼프 에너지 휴전",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%97%90%EB%84%88%EC%A7%80%20%ED%9C%B4%EC%A0%84"
+        },
+        {
+          "k": "정수빈 LPBA 우승",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%88%98%EB%B9%88%20LPBA%20%EC%9A%B0%EC%8A%B9"
         },
         {
           "k": "100일의 거짓말 드라마",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90%20%EB%93%9C%EB%9D%BC%EB%A7%88"
-        },
-        {
-          "k": "수원삼성",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%88%98%EC%9B%90%EC%82%BC%EC%84%B1"
-        },
-        {
-          "k": "바타 지예은 결혼 준비",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%94%ED%83%80%20%EC%A7%80%EC%98%88%EC%9D%80%20%EA%B2%B0%ED%98%BC%20%EC%A4%80%EB%B9%84"
+          "url": "https://search.daum.net/search?w=tot&q=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90%20%EB%93%9C%EB%9D%BC%EB%A7%88"
         },
         {
           "k": "KT 최원준 배트 내동댕이",
@@ -154,28 +154,28 @@
           "url": "https://search.daum.net/search?w=tot&q=KT%20%EC%B5%9C%EC%9B%90%EC%A4%80%20%EB%B0%B0%ED%8A%B8%20%EB%82%B4%EB%8F%99%EB%8C%95%EC%9D%B4"
         },
         {
-          "k": "디스이즈 현무로드",
+          "k": "김현주 배우",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%94%94%EC%8A%A4%EC%9D%B4%EC%A6%88%20%ED%98%84%EB%AC%B4%EB%A1%9C%EB%93%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%98%84%EC%A3%BC%20%EB%B0%B0%EC%9A%B0"
         },
         {
-          "k": "놀면 뭐하니 95 서울가요제 참가자",
+          "k": "김용지 배우",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%86%80%EB%A9%B4%20%EB%AD%90%ED%95%98%EB%8B%88%2095%20%EC%84%9C%EC%9A%B8%EA%B0%80%EC%9A%94%EC%A0%9C%20%EC%B0%B8%EA%B0%80%EC%9E%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%9A%A9%EC%A7%80%20%EB%B0%B0%EC%9A%B0"
         },
         {
-          "k": "김민석 아들 한동훈",
+          "k": "이재명 sns",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%AF%BC%EC%84%9D%20%EC%95%84%EB%93%A4%20%ED%95%9C%EB%8F%99%ED%9B%88"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9E%AC%EB%AA%85%20sns"
         },
         {
-          "k": "송종호 배우",
+          "k": "신인감독 김연경",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%86%A1%EC%A2%85%ED%98%B8%20%EB%B0%B0%EC%9A%B0"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%A0%EC%9D%B8%EA%B0%90%EB%8F%85%20%EA%B9%80%EC%97%B0%EA%B2%BD"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
+      "k": "김지원",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "황희찬",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "ลิเวอร์พูล พบ แมนซิตี",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "fotmob",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "맨시티",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "ngoại hạng anh",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "김성한",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "liverpool vs man city",
+      "m": "검색량 1000+"
+    },
+    {
       "k": "청년",
       "m": "검색량 5000+"
     },
     {
       "k": "레알 소시에다드 대 데포르티보",
       "m": "검색량 500+"
-    },
-    {
-      "k": "india vs west indies",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "f1",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "리버풀 맨시티",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "표승주",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "주주",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "유현 조",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "persib bandung vs dewa united",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "pak vs sl",
-      "m": "검색량 1000+"
     }
   ]
 }
