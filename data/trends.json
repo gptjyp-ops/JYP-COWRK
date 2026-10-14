@@ -1,54 +1,54 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-14T04:51:27.093118+00:00",
-  "updated_kst": "2026년 10월 14일 13:51",
+  "updated_at": "2026-10-14T10:10:53.970992+00:00",
+  "updated_kst": "2026년 10월 14일 19:10",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "최수종",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "gta6 pc",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "군산시",
+          "k": "용산공원",
           "m": "검색량 500+"
         },
         {
-          "k": "강원래",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "은현장",
+          "k": "와일드카드",
           "m": "검색량 500+"
         },
         {
-          "k": "이한범",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "양현석",
+          "k": "빅터 레이예스",
           "m": "검색량 1000+"
         },
         {
-          "k": "양재웅",
-          "m": "검색량 1000+"
+          "k": "캡틴큐",
+          "m": "검색량 500+"
         },
         {
-          "k": "경상일보",
+          "k": "심수봉",
+          "m": "검색량 10000+"
+        },
+        {
+          "k": "정동영",
+          "m": "검색량 10000+"
+        },
+        {
+          "k": "도청",
           "m": "검색량 200+"
         },
         {
-          "k": "부승화학",
-          "m": "검색량 200+"
+          "k": "김세의",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "광군제",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "달리기",
+          "m": "검색량 500+"
         }
       ]
     },
     "shopping": {
-      "updated": "20261012",
+      "updated": "20261013",
       "items": [
         {
           "k": "치이카와쿠키",
@@ -63,21 +63,33 @@
           "tag": "buy"
         },
         {
+          "k": "치이카와팝콘통",
+          "m": "수집품 · 상승 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%ED%8C%9D%EC%BD%98%ED%86%B5",
+          "tag": "buy"
+        },
+        {
           "k": "치이키와",
-          "m": "수집품 · 신규",
+          "m": "수집품 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%ED%82%A4%EC%99%80",
           "tag": "buy"
         },
         {
-          "k": "가습기스텐팟",
-          "m": "계절가전 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=%EA%B0%80%EC%8A%B5%EA%B8%B0%EC%8A%A4%ED%85%90%ED%8C%9F",
+          "k": "너구링",
+          "m": "스낵/과자 · 인기",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%84%88%EA%B5%AC%EB%A7%81",
           "tag": "buy"
         },
         {
           "k": "스타벅스피크닉매트",
-          "m": "생활용품 · 상승 2",
+          "m": "생활용품 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%ED%94%BC%ED%81%AC%EB%8B%89%EB%A7%A4%ED%8A%B8",
+          "tag": "buy"
+        },
+        {
+          "k": "커리쉴바바수오일",
+          "m": "헤어케어 · 신규",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%BB%A4%EB%A6%AC%EC%89%B4%EB%B0%94%EB%B0%94%EC%88%98%EC%98%A4%EC%9D%BC",
           "tag": "buy"
         },
         {
@@ -87,33 +99,21 @@
           "tag": "buy"
         },
         {
+          "k": "가습기스텐팟",
+          "m": "계절가전 · 하락 4",
+          "url": "https://shopping.naver.com/ns/search?query=%EA%B0%80%EC%8A%B5%EA%B8%B0%EC%8A%A4%ED%85%90%ED%8C%9F",
+          "tag": "buy"
+        },
+        {
           "k": "먼작귀인형",
-          "m": "인테리어소품 · 상승 2",
+          "m": "인테리어소품 · 하락 2",
           "url": "https://shopping.naver.com/ns/search?query=%EB%A8%BC%EC%9E%91%EA%B7%80%EC%9D%B8%ED%98%95",
-          "tag": "buy"
-        },
-        {
-          "k": "a20lite",
-          "m": "청소기 · 신규",
-          "url": "https://shopping.naver.com/ns/search?query=a20lite",
-          "tag": "buy"
-        },
-        {
-          "k": "랏코인형",
-          "m": "인테리어소품 · 상승 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%9E%8F%EC%BD%94%EC%9D%B8%ED%98%95",
-          "tag": "buy"
-        },
-        {
-          "k": "일본비염캔디",
-          "m": "젤리/사탕/초콜릿 · 상승 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%9D%BC%EB%B3%B8%EB%B9%84%EC%97%BC%EC%BA%94%EB%94%94",
           "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-10-14T13:50:08.223+09:00",
+      "updated": "2026-10-14T19:09:12.556+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
@@ -124,46 +124,46 @@
           "url": "https://search.daum.net/search?w=tot&q=%EC%B0%A8%EC%A0%95%EC%9B%90%20%ED%95%98%EC%A0%95%EC%9A%B0%20%EA%B2%B0%ED%98%BC"
         },
         {
-          "k": "임광현 국세청장",
+          "k": "포스코 임단협 불발",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%84%EA%B4%91%ED%98%84%20%EA%B5%AD%EC%84%B8%EC%B2%AD%EC%9E%A5"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8F%AC%EC%8A%A4%EC%BD%94%20%EC%9E%84%EB%8B%A8%ED%98%91%20%EB%B6%88%EB%B0%9C"
         },
         {
-          "k": "양재웅 병원 환자 사망",
+          "k": "이태원 참사 4주기",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%96%91%EC%9E%AC%EC%9B%85%20%EB%B3%91%EC%9B%90%20%ED%99%98%EC%9E%90%20%EC%82%AC%EB%A7%9D"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%83%9C%EC%9B%90%20%EC%B0%B8%EC%82%AC%204%EC%A3%BC%EA%B8%B0"
         },
         {
-          "k": "YG 양현석 신인 데뷔",
+          "k": "강선우 1억 공천헌금 실형",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=YG%20%EC%96%91%ED%98%84%EC%84%9D%20%EC%8B%A0%EC%9D%B8%20%EB%8D%B0%EB%B7%94"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%EC%84%A0%EC%9A%B0%201%EC%96%B5%20%EA%B3%B5%EC%B2%9C%ED%97%8C%EA%B8%88%20%EC%8B%A4%ED%98%95"
         },
         {
-          "k": "바다거북 바다 방류",
+          "k": "이지혜 성심당 싹쓸이",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%94%EB%8B%A4%EA%B1%B0%EB%B6%81%20%EB%B0%94%EB%8B%A4%20%EB%B0%A9%EB%A5%98"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%A7%80%ED%98%9C%20%EC%84%B1%EC%8B%AC%EB%8B%B9%20%EC%8B%B9%EC%93%B8%EC%9D%B4"
         },
         {
-          "k": "조희대 대법관 격려금",
+          "k": "곽빈 야구선수",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%ED%9D%AC%EB%8C%80%20%EB%8C%80%EB%B2%95%EA%B4%80%20%EA%B2%A9%EB%A0%A4%EA%B8%88"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B3%BD%EB%B9%88%20%EC%95%BC%EA%B5%AC%EC%84%A0%EC%88%98"
         },
         {
-          "k": "이승엽 요미우리 코치 퇴단",
+          "k": "차지훈 북한 지뢰 대응",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%8A%B9%EC%97%BD%20%EC%9A%94%EB%AF%B8%EC%9A%B0%EB%A6%AC%20%EC%BD%94%EC%B9%98%20%ED%87%B4%EB%8B%A8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%A8%EC%A7%80%ED%9B%88%20%EB%B6%81%ED%95%9C%20%EC%A7%80%EB%A2%B0%20%EB%8C%80%EC%9D%91"
         },
         {
-          "k": "강경화 돌발 국감 발언",
+          "k": "선관위 특검 압수수색 불허",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%EA%B2%BD%ED%99%94%20%EB%8F%8C%EB%B0%9C%20%EA%B5%AD%EA%B0%90%20%EB%B0%9C%EC%96%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%84%A0%EA%B4%80%EC%9C%84%20%ED%8A%B9%EA%B2%80%20%EC%95%95%EC%88%98%EC%88%98%EC%83%89%20%EB%B6%88%ED%97%88"
         },
         {
           "k": "이재명 지지율 하락",
@@ -172,10 +172,10 @@
           "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EC%A7%80%EC%A7%80%EC%9C%A8%20%ED%95%98%EB%9D%BD"
         },
         {
-          "k": "김지용 중수청장 후보",
+          "k": "한주에이알티 매출 과대계상",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A7%80%EC%9A%A9%20%EC%A4%91%EC%88%98%EC%B2%AD%EC%9E%A5%20%ED%9B%84%EB%B3%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%EC%A3%BC%EC%97%90%EC%9D%B4%EC%95%8C%ED%8B%B0%20%EB%A7%A4%EC%B6%9C%20%EA%B3%BC%EB%8C%80%EA%B3%84%EC%83%81"
         }
       ]
     },
@@ -229,44 +229,44 @@
   },
   "items": [
     {
-      "k": "최수종",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "gta6 pc",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "군산시",
+      "k": "용산공원",
       "m": "검색량 500+"
     },
     {
-      "k": "강원래",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "은현장",
+      "k": "와일드카드",
       "m": "검색량 500+"
     },
     {
-      "k": "이한범",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "양현석",
+      "k": "빅터 레이예스",
       "m": "검색량 1000+"
     },
     {
-      "k": "양재웅",
-      "m": "검색량 1000+"
+      "k": "캡틴큐",
+      "m": "검색량 500+"
     },
     {
-      "k": "경상일보",
+      "k": "심수봉",
+      "m": "검색량 10000+"
+    },
+    {
+      "k": "정동영",
+      "m": "검색량 10000+"
+    },
+    {
+      "k": "도청",
       "m": "검색량 200+"
     },
     {
-      "k": "부승화학",
-      "m": "검색량 200+"
+      "k": "김세의",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "광군제",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "달리기",
+      "m": "검색량 500+"
     }
   ]
 }
