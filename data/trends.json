@@ -1,54 +1,54 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-15T01:28:19.598739+00:00",
-  "updated_kst": "2026년 10월 15일 10:28",
+  "updated_at": "2026-10-15T07:25:12.215875+00:00",
+  "updated_kst": "2026년 10월 15일 16:25",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "어디가",
-          "m": "검색량 1000+"
+          "k": "김장훈",
+          "m": "검색량 500+"
         },
         {
-          "k": "카드뉴스",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "독도",
+          "k": "최동원",
           "m": "검색량 200+"
         },
         {
-          "k": "kospi",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "토스증권",
+          "k": "오스탈",
           "m": "검색량 1000+"
         },
         {
-          "k": "솔비",
+          "k": "조원철",
           "m": "검색량 2000+"
         },
         {
-          "k": "하이닉스 주가",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "삼전 주가",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "리그 오브 레전드",
+          "k": "플랭크",
           "m": "검색량 100+"
         },
         {
-          "k": "하이닉스",
-          "m": "검색량 2000+"
+          "k": "청년문화예술패스",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "국무회의",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "포스코노동조합",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "경향신문",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "서장훈의 이웃집 백만장자",
+          "m": "검색량 1000+"
         }
       ]
     },
     "shopping": {
-      "updated": "20261013",
+      "updated": "20261014",
       "items": [
         {
           "k": "치이카와쿠키",
@@ -57,216 +57,214 @@
           "tag": "buy"
         },
         {
+          "k": "너구링",
+          "m": "스낵/과자 · 상승 4",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%84%88%EA%B5%AC%EB%A7%81",
+          "tag": "buy"
+        },
+        {
           "k": "k2알파카",
-          "m": "등산 · 상승 1",
+          "m": "등산 · 하락 1",
           "url": "https://shopping.naver.com/ns/search?query=k2%EC%95%8C%ED%8C%8C%EC%B9%B4",
           "tag": "buy"
         },
         {
           "k": "치이카와팝콘통",
-          "m": "수집품 · 상승 1",
+          "m": "수집품 · 하락 2",
           "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%ED%8C%9D%EC%BD%98%ED%86%B5",
           "tag": "buy"
         },
         {
           "k": "치이키와",
-          "m": "수집품 · 유지",
+          "m": "수집품 · 하락 1",
           "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%ED%82%A4%EC%99%80",
           "tag": "buy"
         },
         {
-          "k": "너구링",
-          "m": "스낵/과자 · 인기",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%84%88%EA%B5%AC%EB%A7%81",
-          "tag": "buy"
-        },
-        {
-          "k": "스타벅스피크닉매트",
-          "m": "생활용품 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%ED%94%BC%ED%81%AC%EB%8B%89%EB%A7%A4%ED%8A%B8",
-          "tag": "buy"
-        },
-        {
           "k": "커리쉴바바수오일",
-          "m": "헤어케어 · 신규",
+          "m": "헤어케어 · 상승 1",
           "url": "https://shopping.naver.com/ns/search?query=%EC%BB%A4%EB%A6%AC%EC%89%B4%EB%B0%94%EB%B0%94%EC%88%98%EC%98%A4%EC%9D%BC",
           "tag": "buy"
         },
         {
+          "k": "치이카와굿즈",
+          "m": "수집품 · 신규",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%EA%B5%BF%EC%A6%88",
+          "tag": "buy"
+        },
+        {
+          "k": "스타벅스피크닉매트",
+          "m": "생활용품 · 하락 2",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%ED%94%BC%ED%81%AC%EB%8B%89%EB%A7%A4%ED%8A%B8",
+          "tag": "buy"
+        },
+        {
+          "k": "갤럭시탭s12울트라",
+          "m": "태블릿PC · 신규",
+          "url": "https://shopping.naver.com/ns/search?query=%EA%B0%A4%EB%9F%AD%EC%8B%9C%ED%83%ADs12%EC%9A%B8%ED%8A%B8%EB%9D%BC",
+          "tag": "buy"
+        },
+        {
           "k": "치이카와키링",
-          "m": "패션소품 · 하락 1",
+          "m": "패션소품 · 하락 2",
           "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%ED%82%A4%EB%A7%81",
-          "tag": "buy"
-        },
-        {
-          "k": "가습기스텐팟",
-          "m": "계절가전 · 하락 4",
-          "url": "https://shopping.naver.com/ns/search?query=%EA%B0%80%EC%8A%B5%EA%B8%B0%EC%8A%A4%ED%85%90%ED%8C%9F",
-          "tag": "buy"
-        },
-        {
-          "k": "먼작귀인형",
-          "m": "인테리어소품 · 하락 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%A8%BC%EC%9E%91%EA%B7%80%EC%9D%B8%ED%98%95",
           "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-10-15T10:23:25.344+09:00",
+      "updated": "2026-10-15T16:20:38.620+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "하정우 차정원 결혼",
+          "k": "솔비 이규한 결혼",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%95%98%EC%A0%95%EC%9A%B0%20%EC%B0%A8%EC%A0%95%EC%9B%90%20%EA%B2%B0%ED%98%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%86%94%EB%B9%84%20%EC%9D%B4%EA%B7%9C%ED%95%9C%20%EA%B2%B0%ED%98%BC"
         },
         {
-          "k": "코스피 5% 급락",
+          "k": "증시 급락",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%BD%94%EC%8A%A4%ED%94%BC%205%25%20%EA%B8%89%EB%9D%BD"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A6%9D%EC%8B%9C%20%EA%B8%89%EB%9D%BD"
         },
         {
-          "k": "임광현 국정과제 실현",
+          "k": "이재명 지지율",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%84%EA%B4%91%ED%98%84%20%EA%B5%AD%EC%A0%95%EA%B3%BC%EC%A0%9C%20%EC%8B%A4%ED%98%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EC%A7%80%EC%A7%80%EC%9C%A8"
         },
         {
-          "k": "장관들 생중계 축소",
+          "k": "임진모 유퀴즈 출연",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%A5%EA%B4%80%EB%93%A4%20%EC%83%9D%EC%A4%91%EA%B3%84%20%EC%B6%95%EC%86%8C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%84%EC%A7%84%EB%AA%A8%20%EC%9C%A0%ED%80%B4%EC%A6%88%20%EC%B6%9C%EC%97%B0"
         },
         {
-          "k": "강선우 공천헌금 재판",
+          "k": "북중 신압록강대교",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%EC%84%A0%EC%9A%B0%20%EA%B3%B5%EC%B2%9C%ED%97%8C%EA%B8%88%20%EC%9E%AC%ED%8C%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%81%EC%A4%91%20%EC%8B%A0%EC%95%95%EB%A1%9D%EA%B0%95%EB%8C%80%EA%B5%90"
         },
         {
-          "k": "영화 거짓말",
+          "k": "강훈식 퇴임",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%81%ED%99%94%20%EA%B1%B0%EC%A7%93%EB%A7%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%ED%9B%88%EC%8B%9D%20%ED%87%B4%EC%9E%84"
         },
         {
-          "k": "빅나티 짝사랑 결혼",
+          "k": "인태연 국감 질타",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B9%85%EB%82%98%ED%8B%B0%20%EC%A7%9D%EC%82%AC%EB%9E%91%20%EA%B2%B0%ED%98%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B8%ED%83%9C%EC%97%B0%20%EA%B5%AD%EA%B0%90%20%EC%A7%88%ED%83%80"
         },
         {
-          "k": "김종철 방송미디어통신위원장",
+          "k": "특검 추가영장 요청",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A2%85%EC%B2%A0%20%EB%B0%A9%EC%86%A1%EB%AF%B8%EB%94%94%EC%96%B4%ED%86%B5%EC%8B%A0%EC%9C%84%EC%9B%90%EC%9E%A5"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B9%EA%B2%80%20%EC%B6%94%EA%B0%80%EC%98%81%EC%9E%A5%20%EC%9A%94%EC%B2%AD"
         },
         {
-          "k": "세입자 주거비 상승",
+          "k": "김혜자 무대인사 취소",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%84%B8%EC%9E%85%EC%9E%90%20%EC%A3%BC%EA%B1%B0%EB%B9%84%20%EC%83%81%EC%8A%B9"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%98%9C%EC%9E%90%20%EB%AC%B4%EB%8C%80%EC%9D%B8%EC%82%AC%20%EC%B7%A8%EC%86%8C"
         },
         {
-          "k": "김민재 작심 발언",
+          "k": "주담대 변동금리 상승",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%AF%BC%EC%9E%AC%20%EC%9E%91%EC%8B%AC%20%EB%B0%9C%EC%96%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A3%BC%EB%8B%B4%EB%8C%80%20%EB%B3%80%EB%8F%99%EA%B8%88%EB%A6%AC%20%EC%83%81%EC%8A%B9"
         }
       ]
     },
     "creator": {
-      "updated": "2026년 10월 11일",
+      "updated": "2026년 10월 14일",
       "items": [
         {
-          "k": "야차클럽 복마전2",
+          "k": "오가닉포에버",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "100일의 거짓말 감우성",
+          "k": "하정우 차정원 결혼",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "안잠자기의뜻",
+          "k": "a20 lite",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "장모 살해 아내 납치",
+          "k": "오가닉포에버 박평순",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "박위 윤소희 송지은 논란",
+          "k": "배우 차정원",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "캡틴큐",
+          "k": "박평순",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "민지수",
+          "k": "하정우 차정원",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "20대 남성 장모 살해",
+          "k": "a20",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "송파 장모 살해 사건",
+          "k": "차정원 프로필",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "손흥민 SNS 메시지 남긴 이유",
+          "k": "김용건, 하정우 차정원 결혼경사",
           "m": "실시간 인기 검색어"
         }
-      ],
-      "stale": true,
-      "error": "HTTP Error 403: Forbidden"
+      ]
     }
   },
   "items": [
     {
-      "k": "어디가",
-      "m": "검색량 1000+"
+      "k": "김장훈",
+      "m": "검색량 500+"
     },
     {
-      "k": "카드뉴스",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "독도",
+      "k": "최동원",
       "m": "검색량 200+"
     },
     {
-      "k": "kospi",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "토스증권",
+      "k": "오스탈",
       "m": "검색량 1000+"
     },
     {
-      "k": "솔비",
+      "k": "조원철",
       "m": "검색량 2000+"
     },
     {
-      "k": "하이닉스 주가",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "삼전 주가",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "리그 오브 레전드",
+      "k": "플랭크",
       "m": "검색량 100+"
     },
     {
-      "k": "하이닉스",
-      "m": "검색량 2000+"
+      "k": "청년문화예술패스",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "국무회의",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "포스코노동조합",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "경향신문",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "서장훈의 이웃집 백만장자",
+      "m": "검색량 1000+"
     }
   ]
 }
