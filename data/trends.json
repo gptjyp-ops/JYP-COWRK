@@ -1,48 +1,48 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-15T13:24:48.433558+00:00",
-  "updated_kst": "2026년 10월 15일 22:24",
+  "updated_at": "2026-10-15T18:17:09.551304+00:00",
+  "updated_kst": "2026년 10월 16일 03:17",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "이선빈",
+          "k": "레이스 대 가디언즈",
           "m": "검색량 200+"
         },
         {
-          "k": "가정폭력",
+          "k": "유로파리그",
           "m": "검색량 100+"
         },
         {
-          "k": "정호영",
+          "k": "a20 soul",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "김귀정",
           "m": "검색량 200+"
         },
         {
-          "k": "홍수",
+          "k": "정원오",
           "m": "검색량 200+"
         },
         {
-          "k": "증여세",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "moab",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "xổ số miền bắc",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "인공지능",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "선수",
+          "k": "콜레스테롤",
           "m": "검색량 500+"
         },
         {
-          "k": "김지선",
+          "k": "최혜진",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "수출",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "김혜자",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "자동차산업",
           "m": "검색량 200+"
         }
       ]
@@ -113,7 +113,7 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-15T22:19:32.927+09:00",
+      "updated": "2026-10-16T01:04:00.907+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
@@ -124,58 +124,58 @@
           "url": "https://search.daum.net/search?w=tot&q=%EC%86%94%EB%B9%84%20%EC%9D%B4%EA%B7%9C%ED%95%9C%20%EA%B2%B0%ED%98%BC"
         },
         {
-          "k": "국립 스포츠 박물관",
+          "k": "안세영 배드민턴 경기",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AD%EB%A6%BD%20%EC%8A%A4%ED%8F%AC%EC%B8%A0%20%EB%B0%95%EB%AC%BC%EA%B4%80"
-        },
-        {
-          "k": "삼성 개막 4연승",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%82%BC%EC%84%B1%20%EA%B0%9C%EB%A7%89%204%EC%97%B0%EC%8A%B9"
-        },
-        {
-          "k": "신영균 외손녀 이재",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%A0%EC%98%81%EA%B7%A0%20%EC%99%B8%EC%86%90%EB%85%80%20%EC%9D%B4%EC%9E%AC"
-        },
-        {
-          "k": "고범석 답변",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B3%A0%EB%B2%94%EC%84%9D%20%EB%8B%B5%EB%B3%80"
-        },
-        {
-          "k": "거장항준",
-          "rank": 6,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B1%B0%EC%9E%A5%ED%95%AD%EC%A4%80"
-        },
-        {
-          "k": "설리 7주기 추모",
-          "rank": 7,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%84%A4%EB%A6%AC%207%EC%A3%BC%EA%B8%B0%20%EC%B6%94%EB%AA%A8"
-        },
-        {
-          "k": "애플 시리 AI 서비스",
-          "rank": 8,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%A0%ED%94%8C%20%EC%8B%9C%EB%A6%AC%20AI%20%EC%84%9C%EB%B9%84%EC%8A%A4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%84%B8%EC%98%81%20%EB%B0%B0%EB%93%9C%EB%AF%BC%ED%84%B4%20%EA%B2%BD%EA%B8%B0"
         },
         {
           "k": "이영애 정호영 시상식",
-          "rank": 9,
+          "rank": 3,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%98%81%EC%95%A0%20%EC%A0%95%ED%98%B8%EC%98%81%20%EC%8B%9C%EC%83%81%EC%8B%9D"
         },
         {
-          "k": "이정현 남편 병원",
+          "k": "내가 떨릴 수 있게",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%82%B4%EA%B0%80%20%EB%96%A8%EB%A6%B4%20%EC%88%98%20%EC%9E%88%EA%B2%8C"
+        },
+        {
+          "k": "미스트롯 포유",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%B8%EC%8A%A4%ED%8A%B8%EB%A1%AF%20%ED%8F%AC%EC%9C%A0"
+        },
+        {
+          "k": "차정원 하정우",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%A8%EC%A0%95%EC%9B%90%20%ED%95%98%EC%A0%95%EC%9A%B0"
+        },
+        {
+          "k": "신천지 후폭풍",
+          "rank": 7,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%A0%EC%B2%9C%EC%A7%80%20%ED%9B%84%ED%8F%AD%ED%92%8D"
+        },
+        {
+          "k": "서킷 브레이커",
+          "rank": 8,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%84%9C%ED%82%B7%20%EB%B8%8C%EB%A0%88%EC%9D%B4%EC%BB%A4"
+        },
+        {
+          "k": "티처스3  재수전쟁",
+          "rank": 9,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8B%B0%EC%B2%98%EC%8A%A43%20%20%EC%9E%AC%EC%88%98%EC%A0%84%EC%9F%81"
+        },
+        {
+          "k": "거장항준",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%A0%95%ED%98%84%20%EB%82%A8%ED%8E%B8%20%EB%B3%91%EC%9B%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B1%B0%EC%9E%A5%ED%95%AD%EC%A4%80"
         }
       ]
     },
@@ -227,43 +227,43 @@
   },
   "items": [
     {
-      "k": "이선빈",
+      "k": "레이스 대 가디언즈",
       "m": "검색량 200+"
     },
     {
-      "k": "가정폭력",
+      "k": "유로파리그",
       "m": "검색량 100+"
     },
     {
-      "k": "정호영",
+      "k": "a20 soul",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "김귀정",
       "m": "검색량 200+"
     },
     {
-      "k": "홍수",
+      "k": "정원오",
       "m": "검색량 200+"
     },
     {
-      "k": "증여세",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "moab",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "xổ số miền bắc",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "인공지능",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "선수",
+      "k": "콜레스테롤",
       "m": "검색량 500+"
     },
     {
-      "k": "김지선",
+      "k": "최혜진",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "수출",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "김혜자",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "자동차산업",
       "m": "검색량 200+"
     }
   ]
