@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-16T05:51:08.870416+00:00",
-  "updated_kst": "2026년 10월 16일 14:51",
+  "updated_at": "2026-10-16T11:21:48.448595+00:00",
+  "updated_kst": "2026년 10월 16일 20:21",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "송중기",
+          "k": "창신메모리테크놀로지",
           "m": "검색량 1000+"
         },
         {
-          "k": "위버스",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "경상남도",
+          "k": "대장동",
           "m": "검색량 500+"
         },
         {
-          "k": "한화시스템",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "디에고 포를란",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "민희진",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "이소나",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "동물복지",
+          "k": "스마일게이트",
           "m": "검색량 100+"
         },
         {
-          "k": "유홍준",
-          "m": "검색량 100+"
+          "k": "노란봉투법",
+          "m": "검색량 200+"
         },
         {
-          "k": "시드니 스위니",
+          "k": "최충락",
           "m": "검색량 500+"
+        },
+        {
+          "k": "두산에너빌리티",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "연금",
+          "m": "검색량 20000+"
+        },
+        {
+          "k": "부마항쟁",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "южная корея",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "추미애 소방관",
+          "m": "검색량 2000+"
         }
       ]
     },
@@ -60,12 +60,6 @@
           "k": "치이카와쿠키",
           "m": "스낵/과자 · 하락 1",
           "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%EC%BF%A0%ED%82%A4",
-          "tag": "buy"
-        },
-        {
-          "k": "치이카와팝콘통",
-          "m": "수집품 · 상승 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%ED%8C%9D%EC%BD%98%ED%86%B5",
           "tag": "buy"
         },
         {
@@ -109,11 +103,17 @@
           "m": "인테리어소품 · 상승 1",
           "url": "https://shopping.naver.com/ns/search?query=%EB%A8%BC%EC%9E%91%EA%B7%80%EC%9D%B8%ED%98%95",
           "tag": "buy"
+        },
+        {
+          "k": "가습기스텐팟",
+          "m": "계절가전 · 하락 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EA%B0%80%EC%8A%B5%EA%B8%B0%EC%8A%A4%ED%85%90%ED%8C%9F",
+          "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-10-16T14:43:29.082+09:00",
+      "updated": "2026-10-16T20:21:13.061+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
@@ -124,58 +124,58 @@
           "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%B9%98%ED%99%98%20%EC%A7%81%EC%9E%A5%EC%95%94%203%EA%B8%B0%20%ED%88%AC%EB%B3%91"
         },
         {
-          "k": "테슬라 로드스터",
-          "rank": 2,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%85%8C%EC%8A%AC%EB%9D%BC%20%EB%A1%9C%EB%93%9C%EC%8A%A4%ED%84%B0"
-        },
-        {
-          "k": "한화 류지현 취임",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%ED%99%94%20%EB%A5%98%EC%A7%80%ED%98%84%20%EC%B7%A8%EC%9E%84"
-        },
-        {
           "k": "인천 흉기난동",
-          "rank": 4,
+          "rank": 2,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B8%EC%B2%9C%20%ED%9D%89%EA%B8%B0%EB%82%9C%EB%8F%99"
         },
         {
-          "k": "박동일 산업부 차관 임명",
+          "k": "부천 화재",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%80%EC%B2%9C%20%ED%99%94%EC%9E%AC"
+        },
+        {
+          "k": "추미애 화재 현장 방문",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B6%94%EB%AF%B8%EC%95%A0%20%ED%99%94%EC%9E%AC%20%ED%98%84%EC%9E%A5%20%EB%B0%A9%EB%AC%B8"
+        },
+        {
+          "k": "킬링타임",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EB%8F%99%EC%9D%BC%20%EC%82%B0%EC%97%85%EB%B6%80%20%EC%B0%A8%EA%B4%80%20%EC%9E%84%EB%AA%85"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%82%AC%EB%A7%81%ED%83%80%EC%9E%84"
         },
         {
-          "k": "내가 떨릴 수 있게",
+          "k": "솔비 결혼",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%82%B4%EA%B0%80%20%EB%96%A8%EB%A6%B4%20%EC%88%98%20%EC%9E%88%EA%B2%8C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%86%94%EB%B9%84%20%EA%B2%B0%ED%98%BC"
         },
         {
-          "k": "코스닥 매수 사이드카",
+          "k": "아이스버그 골프",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%BD%94%EC%8A%A4%EB%8B%A5%20%EB%A7%A4%EC%88%98%20%EC%82%AC%EC%9D%B4%EB%93%9C%EC%B9%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EC%9D%B4%EC%8A%A4%EB%B2%84%EA%B7%B8%20%EA%B3%A8%ED%94%84"
         },
         {
-          "k": "부천 공장 화재",
+          "k": "서울지방중수청 배당",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%80%EC%B2%9C%20%EA%B3%B5%EC%9E%A5%20%ED%99%94%EC%9E%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%84%9C%EC%9A%B8%EC%A7%80%EB%B0%A9%EC%A4%91%EC%88%98%EC%B2%AD%20%EB%B0%B0%EB%8B%B9"
         },
         {
-          "k": "김지용 전담팀 구성",
+          "k": "데드덕 뜻",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A7%80%EC%9A%A9%20%EC%A0%84%EB%8B%B4%ED%8C%80%20%EA%B5%AC%EC%84%B1"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%8D%B0%EB%93%9C%EB%8D%95%20%EB%9C%BB"
         },
         {
-          "k": "밀워키 브루어스",
+          "k": "이천 쌀문화축제",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%80%EC%9B%8C%ED%82%A4%20%EB%B8%8C%EB%A3%A8%EC%96%B4%EC%8A%A4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%B2%9C%20%EC%8C%80%EB%AC%B8%ED%99%94%EC%B6%95%EC%A0%9C"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "송중기",
+      "k": "창신메모리테크놀로지",
       "m": "검색량 1000+"
     },
     {
-      "k": "위버스",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "경상남도",
+      "k": "대장동",
       "m": "검색량 500+"
     },
     {
-      "k": "한화시스템",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "디에고 포를란",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "민희진",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "이소나",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "동물복지",
+      "k": "스마일게이트",
       "m": "검색량 100+"
     },
     {
-      "k": "유홍준",
-      "m": "검색량 100+"
+      "k": "노란봉투법",
+      "m": "검색량 200+"
     },
     {
-      "k": "시드니 스위니",
+      "k": "최충락",
       "m": "검색량 500+"
+    },
+    {
+      "k": "두산에너빌리티",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "연금",
+      "m": "검색량 20000+"
+    },
+    {
+      "k": "부마항쟁",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "южная корея",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "추미애 소방관",
+      "m": "검색량 2000+"
     }
   ]
 }
