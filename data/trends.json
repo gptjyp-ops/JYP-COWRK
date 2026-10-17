@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-17T15:32:48.919043+00:00",
-  "updated_kst": "2026년 10월 18일 00:32",
+  "updated_at": "2026-10-17T18:29:58.369503+00:00",
+  "updated_kst": "2026년 10월 18일 03:29",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "เบรนต์ฟอร์ด พบ ลิเวอร์พูล",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "나폴리",
+          "k": "분데스리가",
           "m": "검색량 200+"
         },
         {
-          "k": "로또 1246 회",
+          "k": "laliga",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "psg",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "맨시티",
           "m": "검색량 500+"
         },
         {
-          "k": "북한",
+          "k": "betis vs barcelona",
           "m": "검색량 1000+"
         },
         {
-          "k": "brentford vs liverpool",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "김지현",
+          "k": "이재성",
           "m": "검색량 200+"
         },
         {
-          "k": "스완지 시티 대 웨스트 햄",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "운전",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "ngoại hạng anh",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "明天的天氣",
+          "k": "liverpool",
           "m": "검색량 100+"
+        },
+        {
+          "k": "레알 베티스 대 바르셀로나",
+          "m": "검색량 5000+"
+        },
+        {
+          "k": "바이에른 대 라이프치히",
+          "m": "검색량 5000+"
+        },
+        {
+          "k": "황희찬",
+          "m": "검색량 1000+"
         }
       ]
     },
@@ -113,33 +113,33 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-18T00:31:15.652+09:00",
+      "updated": "2026-10-18T01:03:02.321+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "오상욱 아시안게임 2관왕",
+          "k": "임찬규 장모상 선발",
           "rank": 1,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%84%EC%B0%AC%EA%B7%9C%20%EC%9E%A5%EB%AA%A8%EC%83%81%20%EC%84%A0%EB%B0%9C"
+        },
+        {
+          "k": "오상욱 아시안게임 2관왕",
+          "rank": 2,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%83%81%EC%9A%B1%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%202%EA%B4%80%EC%99%95"
         },
         {
-          "k": "임찬규 장모상 등판",
-          "rank": 2,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%84%EC%B0%AC%EA%B7%9C%20%EC%9E%A5%EB%AA%A8%EC%83%81%20%EB%93%B1%ED%8C%90"
-        },
-        {
-          "k": "바타 지예은 결혼 준비",
+          "k": "양치승 20억 사기 빵집",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%94%ED%83%80%20%EC%A7%80%EC%98%88%EC%9D%80%20%EA%B2%B0%ED%98%BC%20%EC%A4%80%EB%B9%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%96%91%EC%B9%98%EC%8A%B9%2020%EC%96%B5%20%EC%82%AC%EA%B8%B0%20%EB%B9%B5%EC%A7%91"
         },
         {
-          "k": "안세영 덴마크 오픈 연승",
+          "k": "김도영 야구선수",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%84%B8%EC%98%81%20%EB%8D%B4%EB%A7%88%ED%81%AC%20%EC%98%A4%ED%94%88%20%EC%97%B0%EC%8A%B9"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%8F%84%EC%98%81%20%EC%95%BC%EA%B5%AC%EC%84%A0%EC%88%98"
         },
         {
           "k": "지구마불 세계여행 시즌 4",
@@ -148,34 +148,34 @@
           "url": "https://search.daum.net/search?w=tot&q=%EC%A7%80%EA%B5%AC%EB%A7%88%EB%B6%88%20%EC%84%B8%EA%B3%84%EC%97%AC%ED%96%89%20%EC%8B%9C%EC%A6%8C%204"
         },
         {
-          "k": "강진 초등생 실종사건",
+          "k": "불후의 명곡",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%EC%A7%84%20%EC%B4%88%EB%93%B1%EC%83%9D%20%EC%8B%A4%EC%A2%85%EC%82%AC%EA%B1%B4"
-        },
-        {
-          "k": "동치미 이가돈",
-          "rank": 7,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%8F%99%EC%B9%98%EB%AF%B8%20%EC%9D%B4%EA%B0%80%EB%8F%88"
-        },
-        {
-          "k": "1246회 로또 당첨 번호",
-          "rank": 8,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=1246%ED%9A%8C%20%EB%A1%9C%EB%98%90%20%EB%8B%B9%EC%B2%A8%20%EB%B2%88%ED%98%B8"
-        },
-        {
-          "k": "놀쟈 사이트",
-          "rank": 9,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%86%80%EC%9F%88%20%EC%82%AC%EC%9D%B4%ED%8A%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%88%ED%9B%84%EC%9D%98%20%EB%AA%85%EA%B3%A1"
         },
         {
           "k": "맹승지 의사 남친 구애",
-          "rank": 10,
+          "rank": 7,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EB%A7%B9%EC%8A%B9%EC%A7%80%20%EC%9D%98%EC%82%AC%20%EB%82%A8%EC%B9%9C%20%EA%B5%AC%EC%95%A0"
+        },
+        {
+          "k": "닥터x 4화",
+          "rank": 8,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%8B%A5%ED%84%B0x%204%ED%99%94"
+        },
+        {
+          "k": "솔비 이규한 결혼",
+          "rank": 9,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%86%94%EB%B9%84%20%EC%9D%B4%EA%B7%9C%ED%95%9C%20%EA%B2%B0%ED%98%BC"
+        },
+        {
+          "k": "가수 김연자 나이",
+          "rank": 10,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%80%EC%88%98%20%EA%B9%80%EC%97%B0%EC%9E%90%20%EB%82%98%EC%9D%B4"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "เบรนต์ฟอร์ด พบ ลิเวอร์พูล",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "나폴리",
+      "k": "분데스리가",
       "m": "검색량 200+"
     },
     {
-      "k": "로또 1246 회",
+      "k": "laliga",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "psg",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "맨시티",
       "m": "검색량 500+"
     },
     {
-      "k": "북한",
+      "k": "betis vs barcelona",
       "m": "검색량 1000+"
     },
     {
-      "k": "brentford vs liverpool",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "김지현",
+      "k": "이재성",
       "m": "검색량 200+"
     },
     {
-      "k": "스완지 시티 대 웨스트 햄",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "운전",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "ngoại hạng anh",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "明天的天氣",
+      "k": "liverpool",
       "m": "검색량 100+"
+    },
+    {
+      "k": "레알 베티스 대 바르셀로나",
+      "m": "검색량 5000+"
+    },
+    {
+      "k": "바이에른 대 라이프치히",
+      "m": "검색량 5000+"
+    },
+    {
+      "k": "황희찬",
+      "m": "검색량 1000+"
     }
   ]
 }
