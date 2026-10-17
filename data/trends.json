@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-16T22:50:39.701163+00:00",
-  "updated_kst": "2026년 10월 17일 07:50",
+  "updated_at": "2026-10-17T01:18:37.492658+00:00",
+  "updated_kst": "2026년 10월 17일 10:18",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "soxl",
+          "k": "차량 화재",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "서효림",
           "m": "검색량 200+"
         },
         {
-          "k": "두산에너 빌리티",
+          "k": "메이저 리그 사커",
           "m": "검색량 2000+"
         },
         {
-          "k": "나스닥 100",
-          "m": "검색량 200+"
+          "k": "레이스 대 가디언즈",
+          "m": "검색량 2000+"
         },
         {
-          "k": "칠성종합시장",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "skhy",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "이다해",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "vix",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "성리",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "북한이탈주민",
+          "k": "조세",
           "m": "검색량 1000+"
         },
         {
-          "k": "한화그룹",
+          "k": "신승태",
           "m": "검색량 100+"
+        },
+        {
+          "k": "라면",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "손아섭",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "백진희",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "한다감",
+          "m": "검색량 1000+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-17T07:48:37.088+09:00",
+      "updated": "2026-10-17T10:10:02.097+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "안치환 직장암 투병",
+          "k": "안치환 직장암 3기 투병",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%B9%98%ED%99%98%20%EC%A7%81%EC%9E%A5%EC%95%94%20%ED%88%AC%EB%B3%91"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%B9%98%ED%99%98%20%EC%A7%81%EC%9E%A5%EC%95%94%203%EA%B8%B0%20%ED%88%AC%EB%B3%91"
         },
         {
-          "k": "현대 조지아 투자",
+          "k": "백악산",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%98%84%EB%8C%80%20%EC%A1%B0%EC%A7%80%EC%95%84%20%ED%88%AC%EC%9E%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%B1%EC%95%85%EC%82%B0"
         },
         {
-          "k": "구성환 번지점프 성공",
+          "k": "인천 흉기난동",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%EC%84%B1%ED%99%98%20%EB%B2%88%EC%A7%80%EC%A0%90%ED%94%84%20%EC%84%B1%EA%B3%B5"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B8%EC%B2%9C%20%ED%9D%89%EA%B8%B0%EB%82%9C%EB%8F%99"
         },
         {
-          "k": "솔비 이규한 결혼",
+          "k": "전국체전",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%86%94%EB%B9%84%20%EC%9D%B4%EA%B7%9C%ED%95%9C%20%EA%B2%B0%ED%98%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%84%EA%B5%AD%EC%B2%B4%EC%A0%84"
         },
         {
-          "k": "베스티 역주행 재결합",
+          "k": "장승조 닥터X 등장",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B2%A0%EC%8A%A4%ED%8B%B0%20%EC%97%AD%EC%A3%BC%ED%96%89%20%EC%9E%AC%EA%B2%B0%ED%95%A9"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%A5%EC%8A%B9%EC%A1%B0%20%EB%8B%A5%ED%84%B0X%20%EB%93%B1%EC%9E%A5"
         },
         {
-          "k": "장승조 닥터X 특별출연",
+          "k": "백악관 대변인 경질",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%A5%EC%8A%B9%EC%A1%B0%20%EB%8B%A5%ED%84%B0X%20%ED%8A%B9%EB%B3%84%EC%B6%9C%EC%97%B0"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%B1%EC%95%85%EA%B4%80%20%EB%8C%80%EB%B3%80%EC%9D%B8%20%EA%B2%BD%EC%A7%88"
         },
         {
-          "k": "전진 류이서 유산",
+          "k": "대전 빵 축제",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%84%EC%A7%84%20%EB%A5%98%EC%9D%B4%EC%84%9C%20%EC%9C%A0%EC%82%B0"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%8C%80%EC%A0%84%20%EB%B9%B5%20%EC%B6%95%EC%A0%9C"
         },
         {
-          "k": "백악산 개방",
+          "k": "해피 투게더 - 혼자가 아니어서 좋아",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%B1%EC%95%85%EC%82%B0%20%EA%B0%9C%EB%B0%A9"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%B4%ED%94%BC%20%ED%88%AC%EA%B2%8C%EB%8D%94%20-%20%ED%98%BC%EC%9E%90%EA%B0%80%20%EC%95%84%EB%8B%88%EC%96%B4%EC%84%9C%20%EC%A2%8B%EC%95%84"
         },
         {
-          "k": "시험관",
+          "k": "경복궁 한푸",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%9C%ED%97%98%EA%B4%80"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B2%BD%EB%B3%B5%EA%B6%81%20%ED%95%9C%ED%91%B8"
         },
         {
-          "k": "조국 특검 요구",
+          "k": "보은 대추축제",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%EA%B5%AD%20%ED%8A%B9%EA%B2%80%20%EC%9A%94%EA%B5%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B3%B4%EC%9D%80%20%EB%8C%80%EC%B6%94%EC%B6%95%EC%A0%9C"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "soxl",
+      "k": "차량 화재",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "서효림",
       "m": "검색량 200+"
     },
     {
-      "k": "두산에너 빌리티",
+      "k": "메이저 리그 사커",
       "m": "검색량 2000+"
     },
     {
-      "k": "나스닥 100",
-      "m": "검색량 200+"
+      "k": "레이스 대 가디언즈",
+      "m": "검색량 2000+"
     },
     {
-      "k": "칠성종합시장",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "skhy",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "이다해",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "vix",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "성리",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "북한이탈주민",
+      "k": "조세",
       "m": "검색량 1000+"
     },
     {
-      "k": "한화그룹",
+      "k": "신승태",
       "m": "검색량 100+"
+    },
+    {
+      "k": "라면",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "손아섭",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "백진희",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "한다감",
+      "m": "검색량 1000+"
     }
   ]
 }
