@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-19T13:22:50.520140+00:00",
-  "updated_kst": "2026년 10월 19일 22:22",
+  "updated_at": "2026-10-19T19:54:44.310215+00:00",
+  "updated_kst": "2026년 10월 20일 04:54",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "나의 유죄인간",
+          "k": "토트넘",
           "m": "검색량 200+"
         },
         {
-          "k": "문재인",
+          "k": "김현지",
           "m": "검색량 200+"
         },
         {
-          "k": "유시민",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "afghanistan vs zimbabwe",
+          "k": "기부",
           "m": "검색량 200+"
         },
         {
-          "k": "weather tomorrow",
-          "m": "검색량 2000+"
+          "k": "비보르 대 미트윌란",
+          "m": "검색량 200+"
         },
         {
-          "k": "погода завтра",
+          "k": "김정은",
           "m": "검색량 1000+"
         },
         {
-          "k": "xổ số miền bắc",
-          "m": "검색량 100+"
+          "k": "블리치",
+          "m": "검색량 200+"
         },
         {
-          "k": "thời tiết ngày mai",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "cuaca besok",
+          "k": "우유",
           "m": "검색량 500+"
         },
         {
-          "k": "문학동네",
+          "k": "사이버펑크",
           "m": "검색량 200+"
+        },
+        {
+          "k": "수영",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "로이킴",
+          "m": "검색량 100+"
         }
       ]
     },
@@ -113,7 +113,7 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-19T22:13:04.382+09:00",
+      "updated": "2026-10-20T01:01:09.864+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
@@ -124,58 +124,58 @@
           "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EC%9D%98%20%EC%9C%A0%EC%A3%84%EC%9D%B8%EA%B0%84"
         },
         {
-          "k": "머스크 스페이스X 1주",
-          "rank": 2,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%A8%B8%EC%8A%A4%ED%81%AC%20%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4X%201%EC%A3%BC"
-        },
-        {
-          "k": "부승찬 소방 재정",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%80%EC%8A%B9%EC%B0%AC%20%EC%86%8C%EB%B0%A9%20%EC%9E%AC%EC%A0%95"
-        },
-        {
-          "k": "추미애 사과",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B6%94%EB%AF%B8%EC%95%A0%20%EC%82%AC%EA%B3%BC"
-        },
-        {
           "k": "손아섭 두산 방출",
-          "rank": 5,
+          "rank": 2,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%86%90%EC%95%84%EC%84%AD%20%EB%91%90%EC%82%B0%20%EB%B0%A9%EC%B6%9C"
         },
         {
-          "k": "이혜정 모델",
+          "k": "부승찬 소방 재정 발언",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%80%EC%8A%B9%EC%B0%AC%20%EC%86%8C%EB%B0%A9%20%EC%9E%AC%EC%A0%95%20%EB%B0%9C%EC%96%B8"
+        },
+        {
+          "k": "에펠탑",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%97%90%ED%8E%A0%ED%83%91"
+        },
+        {
+          "k": "중증외상센터2 정예인 합류",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A4%91%EC%A6%9D%EC%99%B8%EC%83%81%EC%84%BC%ED%84%B02%20%EC%A0%95%EC%98%88%EC%9D%B8%20%ED%95%A9%EB%A5%98"
+        },
+        {
+          "k": "식스센스 b사이드",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%98%9C%EC%A0%95%20%EB%AA%A8%EB%8D%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%9D%EC%8A%A4%EC%84%BC%EC%8A%A4%20b%EC%82%AC%EC%9D%B4%EB%93%9C"
         },
         {
-          "k": "프랑스 시위",
+          "k": "트럼프 비비 네타냐후",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%94%84%EB%9E%91%EC%8A%A4%20%EC%8B%9C%EC%9C%84"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EB%B9%84%EB%B9%84%20%EB%84%A4%ED%83%80%EB%83%90%ED%9B%84"
         },
         {
-          "k": "불꽃야구 부산고 결과",
+          "k": "김한민 이소영 명창 결혼",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%88%EA%BD%83%EC%95%BC%EA%B5%AC%20%EB%B6%80%EC%82%B0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%95%9C%EB%AF%BC%20%EC%9D%B4%EC%86%8C%EC%98%81%20%EB%AA%85%EC%B0%BD%20%EA%B2%B0%ED%98%BC"
         },
         {
-          "k": "김용빈 잔류",
+          "k": "아이브 룩스 캔 킬 컴백",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%9A%A9%EB%B9%88%20%EC%9E%94%EB%A5%98"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EC%9D%B4%EB%B8%8C%20%EB%A3%A9%EC%8A%A4%20%EC%BA%94%20%ED%82%AC%20%EC%BB%B4%EB%B0%B1"
         },
         {
-          "k": "우리들의 발라드2",
+          "k": "김다영 아나운서",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9A%B0%EB%A6%AC%EB%93%A4%EC%9D%98%20%EB%B0%9C%EB%9D%BC%EB%93%9C2"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%8B%A4%EC%98%81%20%EC%95%84%EB%82%98%EC%9A%B4%EC%84%9C"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "나의 유죄인간",
+      "k": "토트넘",
       "m": "검색량 200+"
     },
     {
-      "k": "문재인",
+      "k": "김현지",
       "m": "검색량 200+"
     },
     {
-      "k": "유시민",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "afghanistan vs zimbabwe",
+      "k": "기부",
       "m": "검색량 200+"
     },
     {
-      "k": "weather tomorrow",
-      "m": "검색량 2000+"
+      "k": "비보르 대 미트윌란",
+      "m": "검색량 200+"
     },
     {
-      "k": "погода завтра",
+      "k": "김정은",
       "m": "검색량 1000+"
     },
     {
-      "k": "xổ số miền bắc",
-      "m": "검색량 100+"
+      "k": "블리치",
+      "m": "검색량 200+"
     },
     {
-      "k": "thời tiết ngày mai",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "cuaca besok",
+      "k": "우유",
       "m": "검색량 500+"
     },
     {
-      "k": "문학동네",
+      "k": "사이버펑크",
       "m": "검색량 200+"
+    },
+    {
+      "k": "수영",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "로이킴",
+      "m": "검색량 100+"
     }
   ]
 }
