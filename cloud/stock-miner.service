@@ -1,0 +1,29 @@
+[Unit]
+Description=Stock Miner collect, validate and publish from fixed-IP server
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=3h
+StartLimitBurst=4
+
+[Service]
+Type=oneshot
+User=stockminer
+Group=stockminer
+WorkingDirectory=/opt/stock-miner/repo
+EnvironmentFile=/etc/stock-miner.env
+Environment=PYTHONUNBUFFERED=1
+Environment="GIT_SSH_COMMAND=/usr/bin/ssh -o BatchMode=yes -o StrictHostKeyChecking=yes"
+ExecStart=/opt/stock-miner/venv/bin/python /opt/stock-miner/repo/scripts/run_stock_miner_cloud.py
+TimeoutStartSec=2h
+Restart=on-failure
+RestartSec=10min
+RestartPreventExitStatus=78
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadOnlyPaths=/opt/stock-miner
+
+[Install]
+WantedBy=multi-user.target

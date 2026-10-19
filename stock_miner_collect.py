@@ -7,7 +7,10 @@ import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-from kiwoom import get_client, KiwoomError
+if os.environ.get("STOCK_MINER_AUTH") == "env":
+    from stock_miner_cloud_client import get_client, KiwoomError
+else:
+    from kiwoom import get_client, KiwoomError
 from stock_miner_watchlist import include_watchlist
 from stock_miner_observations import include_pending
 
@@ -488,5 +491,6 @@ if __name__ == "__main__":
         main()
     except KiwoomError as e:
         raise SystemExit(f"키움 API 오류: {e}")
+
 
 

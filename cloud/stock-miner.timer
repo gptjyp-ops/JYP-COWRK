@@ -1,0 +1,13 @@
+[Unit]
+Description=Stock Miner weekdays at 09:20, 14:20 and 16:30 Asia/Seoul
+
+[Timer]
+OnCalendar=Mon..Fri *-*-* 09:20:00 Asia/Seoul
+OnCalendar=Mon..Fri *-*-* 14:20:00 Asia/Seoul
+OnCalendar=Mon..Fri *-*-* 16:30:00 Asia/Seoul
+Persistent=false
+AccuracySec=1min
+Unit=stock-miner.service
+
+[Install]
+WantedBy=timers.target
