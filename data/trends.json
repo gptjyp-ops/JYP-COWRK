@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-19T19:54:44.310215+00:00",
-  "updated_kst": "2026년 10월 20일 04:54",
+  "updated_at": "2026-10-19T23:39:28.161268+00:00",
+  "updated_kst": "2026년 10월 20일 08:39",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "토트넘",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "김현지",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "기부",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "비보르 대 미트윌란",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "김정은",
+          "k": "크리스티안 로메로",
           "m": "검색량 1000+"
         },
         {
-          "k": "블리치",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "우유",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "사이버펑크",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "수영",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "로이킴",
+          "k": "한화",
           "m": "검색량 100+"
+        },
+        {
+          "k": "송영길",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "경제",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "삼성",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "스타뉴스",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "날씨",
+          "m": "검색량 200000+"
+        },
+        {
+          "k": "걷기",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "보험 사기",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "이다해",
+          "m": "검색량 500+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-20T01:01:09.864+09:00",
+      "updated": "2026-10-20T08:30:20.162+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "나의 유죄인간",
+          "k": "정예인 중증외상센터 합류",
           "rank": 1,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%98%88%EC%9D%B8%20%EC%A4%91%EC%A6%9D%EC%99%B8%EC%83%81%EC%84%BC%ED%84%B0%20%ED%95%A9%EB%A5%98"
+        },
+        {
+          "k": "나의 유죄인간",
+          "rank": 2,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EC%9D%98%20%EC%9C%A0%EC%A3%84%EC%9D%B8%EA%B0%84"
         },
         {
           "k": "손아섭 두산 방출",
-          "rank": 2,
+          "rank": 3,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%86%90%EC%95%84%EC%84%AD%20%EB%91%90%EC%82%B0%20%EB%B0%A9%EC%B6%9C"
         },
         {
-          "k": "부승찬 소방 재정 발언",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%80%EC%8A%B9%EC%B0%AC%20%EC%86%8C%EB%B0%A9%20%EC%9E%AC%EC%A0%95%20%EB%B0%9C%EC%96%B8"
-        },
-        {
-          "k": "에펠탑",
+          "k": "소유 결혼 전 동거 찬성",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%97%90%ED%8E%A0%ED%83%91"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%86%8C%EC%9C%A0%20%EA%B2%B0%ED%98%BC%20%EC%A0%84%20%EB%8F%99%EA%B1%B0%20%EC%B0%AC%EC%84%B1"
         },
         {
-          "k": "중증외상센터2 정예인 합류",
+          "k": "유홍준 사퇴 요구",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A4%91%EC%A6%9D%EC%99%B8%EC%83%81%EC%84%BC%ED%84%B02%20%EC%A0%95%EC%98%88%EC%9D%B8%20%ED%95%A9%EB%A5%98"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A0%ED%99%8D%EC%A4%80%20%EC%82%AC%ED%87%B4%20%EC%9A%94%EA%B5%AC"
         },
         {
-          "k": "식스센스 b사이드",
+          "k": "하영 배우",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%9D%EC%8A%A4%EC%84%BC%EC%8A%A4%20b%EC%82%AC%EC%9D%B4%EB%93%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%98%EC%98%81%20%EB%B0%B0%EC%9A%B0"
         },
         {
-          "k": "트럼프 비비 네타냐후",
+          "k": "뉴욕증시 혼조 마감",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EB%B9%84%EB%B9%84%20%EB%84%A4%ED%83%80%EB%83%90%ED%9B%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%89%B4%EC%9A%95%EC%A6%9D%EC%8B%9C%20%ED%98%BC%EC%A1%B0%20%EB%A7%88%EA%B0%90"
         },
         {
-          "k": "김한민 이소영 명창 결혼",
+          "k": "지투지바이오",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%95%9C%EB%AF%BC%20%EC%9D%B4%EC%86%8C%EC%98%81%20%EB%AA%85%EC%B0%BD%20%EA%B2%B0%ED%98%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A7%80%ED%88%AC%EC%A7%80%EB%B0%94%EC%9D%B4%EC%98%A4"
         },
         {
-          "k": "아이브 룩스 캔 킬 컴백",
+          "k": "송지효 100일의 거짓말 출연",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EC%9D%B4%EB%B8%8C%20%EB%A3%A9%EC%8A%A4%20%EC%BA%94%20%ED%82%AC%20%EC%BB%B4%EB%B0%B1"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%86%A1%EC%A7%80%ED%9A%A8%20100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90%20%EC%B6%9C%EC%97%B0"
         },
         {
-          "k": "김다영 아나운서",
+          "k": "프랑스 시위",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%8B%A4%EC%98%81%20%EC%95%84%EB%82%98%EC%9A%B4%EC%84%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%94%84%EB%9E%91%EC%8A%A4%20%EC%8B%9C%EC%9C%84"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "토트넘",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "김현지",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "기부",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "비보르 대 미트윌란",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "김정은",
+      "k": "크리스티안 로메로",
       "m": "검색량 1000+"
     },
     {
-      "k": "블리치",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "우유",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "사이버펑크",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "수영",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "로이킴",
+      "k": "한화",
       "m": "검색량 100+"
+    },
+    {
+      "k": "송영길",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "경제",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "삼성",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "스타뉴스",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "날씨",
+      "m": "검색량 200000+"
+    },
+    {
+      "k": "걷기",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "보험 사기",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "이다해",
+      "m": "검색량 500+"
     }
   ]
 }
