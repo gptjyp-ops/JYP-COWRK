@@ -1,6 +1,8 @@
 {
-  "attempted_at": "2026-10-18T22:24:37+00:00",
-  "status": "error",
-  "message": "뉴스 조회가 연속 실패했습니다. 기존 게시 자료를 보존합니다. 머니투데이: HTTP Error 503: Service Unavailable; 연합뉴스: HTTP Error 503: Service Unavailable",
-  "preserved_previous_data": true
+  "attempted_at": "2026-10-19T04:25:18+00:00",
+  "status": "ok",
+  "last_success_at": "2026-10-19T04:25:39+00:00",
+  "successful_queries": 58,
+  "attempted_queries": 58,
+  "preserved_previous_data": false
 }
