@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-20T19:15:12.578467+00:00",
-  "updated_kst": "2026년 10월 21일 04:15",
+  "updated_at": "2026-10-20T22:19:16.747676+00:00",
+  "updated_kst": "2026년 10월 21일 07:19",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "슈투트가르트 대 아틀레티코",
-          "m": "검색량 2000+"
+          "k": "건강보험",
+          "m": "검색량 500+"
         },
         {
-          "k": "psg 대 바르셀로나",
-          "m": "검색량 2000+"
+          "k": "창신메모리테크놀로지",
+          "m": "검색량 200+"
         },
         {
-          "k": "리버풀 대 비야레알",
+          "k": "황인범",
           "m": "검색량 1000+"
         },
         {
-          "k": "psg vs barcelona",
+          "k": "schd",
           "m": "검색량 500+"
         },
         {
-          "k": "도르트문트",
+          "k": "김상식",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "라민 야말",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "콜 오브 듀티: 모던 워페어 4",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "vfb stuttgart vs atlético",
           "m": "검색량 100+"
         },
         {
-          "k": "뉴데일리",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "pakistan national cricket team vs england cricket team standings",
+          "k": "금",
           "m": "검색량 2000+"
         },
         {
-          "k": "스디파",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "데이비드",
+          "k": "날씨예보",
           "m": "검색량 100+"
-        },
-        {
-          "k": "임라라",
-          "m": "검색량 200+"
         }
       ]
     },
@@ -113,51 +113,51 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-21T01:03:10.526+09:00",
+      "updated": "2026-10-21T07:08:55.782+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "김정은 사망설 반박",
-          "rank": 1,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A0%95%EC%9D%80%20%EC%82%AC%EB%A7%9D%EC%84%A4%20%EB%B0%98%EB%B0%95"
-        },
-        {
           "k": "강헌 별세",
-          "rank": 2,
+          "rank": 1,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%ED%97%8C%20%EB%B3%84%EC%84%B8"
         },
         {
-          "k": "스디파",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8A%A4%EB%94%94%ED%8C%8C"
-        },
-        {
-          "k": "시사타파 tv 이종원",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%9C%EC%82%AC%ED%83%80%ED%8C%8C%20tv%20%EC%9D%B4%EC%A2%85%EC%9B%90"
-        },
-        {
-          "k": "남겨서 뭐하게",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%82%A8%EA%B2%A8%EC%84%9C%20%EB%AD%90%ED%95%98%EA%B2%8C"
-        },
-        {
           "k": "태풍 경로",
-          "rank": 6,
+          "rank": 2,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%ED%83%9C%ED%92%8D%20%EA%B2%BD%EB%A1%9C"
         },
         {
-          "k": "템페스트 그룹 활동 중단",
+          "k": "트럼프 종전 압박",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%A2%85%EC%A0%84%20%EC%95%95%EB%B0%95"
+        },
+        {
+          "k": "슈투트가르트 무승부",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8A%88%ED%88%AC%ED%8A%B8%EA%B0%80%EB%A5%B4%ED%8A%B8%20%EB%AC%B4%EC%8A%B9%EB%B6%80"
+        },
+        {
+          "k": "생산자물가 상승",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%83%9D%EC%82%B0%EC%9E%90%EB%AC%BC%EA%B0%80%20%EC%83%81%EC%8A%B9"
+        },
+        {
+          "k": "이강인 UCL 결장",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EA%B0%95%EC%9D%B8%20UCL%20%EA%B2%B0%EC%9E%A5"
+        },
+        {
+          "k": "강신일 간암 수술 복귀",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%85%9C%ED%8E%98%EC%8A%A4%ED%8A%B8%20%EA%B7%B8%EB%A3%B9%20%ED%99%9C%EB%8F%99%20%EC%A4%91%EB%8B%A8"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%EC%8B%A0%EC%9D%BC%20%EA%B0%84%EC%95%94%20%EC%88%98%EC%88%A0%20%EB%B3%B5%EA%B7%80"
         },
         {
           "k": "플레이오프 일정",
@@ -166,16 +166,16 @@
           "url": "https://search.daum.net/search?w=tot&q=%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84%20%EC%9D%BC%EC%A0%95"
         },
         {
-          "k": "장애인 아시안게임",
+          "k": "유재석 채수빈 사과",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%A5%EC%95%A0%EC%9D%B8%20%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A0%EC%9E%AC%EC%84%9D%20%EC%B1%84%EC%88%98%EB%B9%88%20%EC%82%AC%EA%B3%BC"
         },
         {
-          "k": "역삼동 화재",
+          "k": "잠실 야구장 철거",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%97%AD%EC%82%BC%EB%8F%99%20%ED%99%94%EC%9E%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%A0%EC%8B%A4%20%EC%95%BC%EA%B5%AC%EC%9E%A5%20%EC%B2%A0%EA%B1%B0"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "슈투트가르트 대 아틀레티코",
-      "m": "검색량 2000+"
+      "k": "건강보험",
+      "m": "검색량 500+"
     },
     {
-      "k": "psg 대 바르셀로나",
-      "m": "검색량 2000+"
+      "k": "창신메모리테크놀로지",
+      "m": "검색량 200+"
     },
     {
-      "k": "리버풀 대 비야레알",
+      "k": "황인범",
       "m": "검색량 1000+"
     },
     {
-      "k": "psg vs barcelona",
+      "k": "schd",
       "m": "검색량 500+"
     },
     {
-      "k": "도르트문트",
+      "k": "김상식",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "라민 야말",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "콜 오브 듀티: 모던 워페어 4",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "vfb stuttgart vs atlético",
       "m": "검색량 100+"
     },
     {
-      "k": "뉴데일리",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "pakistan national cricket team vs england cricket team standings",
+      "k": "금",
       "m": "검색량 2000+"
     },
     {
-      "k": "스디파",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "데이비드",
+      "k": "날씨예보",
       "m": "검색량 100+"
-    },
-    {
-      "k": "임라라",
-      "m": "검색량 200+"
     }
   ]
 }
