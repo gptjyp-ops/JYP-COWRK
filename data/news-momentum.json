@@ -16,7 +16,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:47:29+00:00",
+      "checked_at": "2026-10-20T09:37:50+00:00",
       "news_status": "no_articles"
     },
     "028670": {
@@ -241,7 +241,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:47:37+00:00",
+      "checked_at": "2026-10-20T09:37:49+00:00",
       "news_status": "no_articles"
     },
     "010120": {
@@ -277,7 +277,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:47:39+00:00",
+      "checked_at": "2026-10-20T09:37:47+00:00",
       "news_status": "no_articles"
     },
     "307750": {
@@ -301,7 +301,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:47:41+00:00",
+      "checked_at": "2026-10-20T09:37:40+00:00",
       "news_status": "no_articles"
     },
     "034220": {
@@ -544,7 +544,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:47:46+00:00",
+      "checked_at": "2026-10-20T09:37:43+00:00",
       "news_status": "no_articles"
     },
     "000020": {
@@ -810,7 +810,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:47:53+00:00",
+      "checked_at": "2026-10-20T09:37:46+00:00",
       "news_status": "ok"
     },
     "041190": {
@@ -822,7 +822,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:47:54+00:00",
+      "checked_at": "2026-10-20T09:37:42+00:00",
       "news_status": "no_articles"
     },
     "011700": {
@@ -846,7 +846,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:47:55+00:00",
+      "checked_at": "2026-10-20T09:37:44+00:00",
       "news_status": "no_articles"
     },
     "006340": {
@@ -870,7 +870,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:47:57+00:00",
+      "checked_at": "2026-10-20T09:37:37+00:00",
       "news_status": "no_articles"
     },
     "003220": {
@@ -933,13 +933,31 @@
       "news_label": "약함",
       "news_count": 20,
       "news_reasons": [
+        "특허",
+        "주의:하락",
         "주의:급락",
         "강세"
       ],
       "news": [
         {
+          "title": "파워오토로보틱스, 삼성전자 이동로봇 특허기술 이전 받아 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PaDhncU1CSmVLOTR4M3J1WDNGYm93b0NNbndMQnp2R0t2aHpPMjEzN09fa1k4bzFXRzZnMk55T0xTbm9pd28wMExHSlF0TTVyd1hXY2Vaa0V3WnBvdWpiLVFhWFFVNU5lbUHSAW9BVV95cUxORE4yM2RWOXlPbTdvSXFac2xrd0NsdEkySDN0MTFiOUI2ZmZXUkNvbGZHMmdTSFFlUkJHaUtfaWZnUmZncnZOcEY4WEloRk8zTVlHSnBsUnEyUnFkYjBKX1hDM1NUX05GemxZUl9ON3M?oc=5",
+          "published": "2026-10-20T08:20:16+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-20T09:37:39+00:00"
+        },
+        {
+          "title": "삼성전자, 낙폭 키워 3% 하락 마감…SK하이닉스도 4.2%↓(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uc3ZmakZOd1VfQmtaUmExV25pcDRqR09MUHNqRzRMYS15Mk5ibGxyMVhjVTdhYWRJa0xRa0FYdHQtMF8wb25aYnU2bVh1R0NRbGZYRFRabjV5OVktbE9OM9IBYEFVX3lxTE1uc3ZmakZOd1VfQmtaUmExV25pcDRqR09MUHNqRzRMYS15Mk5ibGxyMVhjVTdhYWRJa0xRa0FYdHQtMF8wb25aYnU2bVh1R0NRbGZYRFRabjV5OVktbE9OMw?oc=5",
+          "published": "2026-10-20T07:32:04+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-20T09:37:39+00:00"
+        },
+        {
           "title": "[특징주] SK하이닉스, 장초반 3.8% 급락…삼성전자도 0.8%↓ - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjU2dhQmtiaFNfcHJkaWoxMHdnNUlEbVRncVU0X1lmVVdUbF85cjJ0Z01IOFI5VjZXc1JnZ2p4MjhvOFNOZTlkWGlYT2hJSUpVYkk4SUlmOVBKcm5kUlR1ONIBYEFVX3lxTFBjU2dhQmtiaFNfcHJkaWoxMHdnNUlEbVRncVU0X1lmVVdUbF85cjJ0Z01IOFI5VjZXc1JnZ2p4MjhvOFNOZTlkWGlYT2hJSUpVYkk4SUlmOVBKcm5kUlR1OA?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MaGFRclp2QzZwYlk0U2VJV241c3lHeDE0eU1fSi1RLTNONEpNU3lPRW1UaTQ3c1lkTC1nWk5YNjFfanE0ZVZ6d0gtRDNIbUpBWG5HV2xrRzhjcEnSAWBBVV95cUxQY1NnYUJrYmhTX3ByZGlqMTB3ZzVJRG1UZ3FVNF9ZZlVXVGxfOXIydGdNSDhSOVY2V3NSZ2dqeDI4bzhTTmU5ZFhpWE9oSUlKVWJJOElJZjlQSnJuZFJUdTg?oc=5",
           "published": "2026-10-20T00:24:30+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -987,7 +1005,7 @@
         },
         {
           "title": "환경단체 \"삼성전자 평택캠퍼스 방류수서 PFAS 17종 검출\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kT2RoWjNLNHNhdUhkb3lhT1UwcER5bk1Pa0k4dThCOV9fX2FEUXRUcmQxSFhmd0VONDVfOThndm1INGZfTjJXNUdBWU5TZS1YMW5BZ3dVUTd3d3PSAWBBVV95cUxQek5LeDVFOTNKQTFXRFFxU0xZVFljY2VwSk5pQzQ2V3Z4OWNISWZSRzV6RC1fV2xrMjNWZk9vUlFnSUZtb1JtNmNUb2R3enhCR0dMcTBVcHFHS0NXYUFxdzE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6Tkt4NUU5M0pBMVdEUXFTTFlUWWNjZXBKTmlDNDZXdng5Y0hJZlJHNXpELV9XbGsyM1ZmT29SUWdJRm1vUm02Y1RvZHd6eEJHR0xxMFVwcUdLQ1dhQXF3MdIBYEFVX3lxTFB6Tkt4NUU5M0pBMVdEUXFTTFlUWWNjZXBKTmlDNDZXdng5Y0hJZlJHNXpELV9XbGsyM1ZmT29SUWdJRm1vUm02Y1RvZHd6eEJHR0xxMFVwcUdLQ1dhQXF3MQ?oc=5",
           "published": "2026-10-19T02:36:00+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -1003,7 +1021,7 @@
         },
         {
           "title": "[특징주] 삼성전자·하이닉스, 장초반 급락후 낙폭 줄여 1%·2%대↓ - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UeldmNTZjcW1KSE9ZNE1adFVVa0w5VWx1Q2o1b2UzQm5RZGNuTTVsUS1xZVBVb2N0Q2RlSjVLWjBVYXdGWl9VUjNjUVdaTGszNHhkWVNSUG4tcms?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UeldmNTZjcW1KSE9ZNE1adFVVa0w5VWx1Q2o1b2UzQm5RZGNuTTVsUS1xZVBVb2N0Q2RlSjVLWjBVYXdGWl9VUjNjUVdaTGszNHhkWVNSUG4tcmvSAWBBVV95cUxNeUN3RGpnTFFfVUxIb0RxUHRHOE1BUzR6X0NaR2gxazBvTE5idjh6QXo5MWowenNLSzd4aXNsUGJrUVJOVFB4N2trMVNRYWpoQ0dEUUNBUEpEdDk4c3dmYTk?oc=5",
           "published": "2026-10-19T00:21:47+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -1080,26 +1098,10 @@
           "source": "연합뉴스",
           "source_group": "연합뉴스",
           "first_seen_at": "2026-10-15T09:17:48+00:00"
-        },
-        {
-          "title": "삼성전자, 이탈리아 작가들과 협업…서울디자인위크서 전시 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52MEFpeDIyVE9vNnlrSUg5VjhRQTU1MUIwRHcxc0laZzFpZDNBWWVHYlJDLUs1REtCcm54ZXpUMkMtWkFTU09MaUtvUFhNTnd6a2VOQ3FJa3gydE3SAWBBVV95cUxOc24xM2hzOFVORk1Fblh1cENCNDhBcHg1aFVLdGFOS3VoXzdOYkdVYjdua3lfSHhONVNEZUlJTGVPUGhScV9YQ083S1FMNG9kZk9DUXBYUDh4bDJBeVN1WXk?oc=5",
-          "published": "2026-10-15T01:00:03+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-15T04:23:09+00:00"
-        },
-        {
-          "title": "삼성전자, 실리콘밸리서 '미래 통신 서밋' 개최…AI 기반 6G 개발 가속 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RblJnZ2ZybnNnVDVkeXZDbDRjdlpaZWl6aTdnSGh6TUkxNVYxY2d3MVpMOUtMREZjdGpkRHp1cUxpOHZ5c19vM0czT3Z0Y1ZlQ093bmtKVU52WWdKdnllMkNTN2FHc2dhYm1CRtIBckFVX3lxTE1vdzRhUmMyTTJENWZPang1SE5hRzIxdWhfX1E2cVVfTTQzdFZkb1otR2JlZU00OGtvd1QyeERuTWlfNy11WXI0RDhRcWdITm4wTGdMUUNkYkNTcTNfRWlDT0FUZWJFUEp5TlBSVV9yelcxQQ?oc=5",
-          "published": "2026-10-15T00:37:56+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-15T04:23:09+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:01+00:00",
+      "checked_at": "2026-10-20T09:37:39+00:00",
       "news_status": "ok"
     },
     "388050": {
@@ -1121,11 +1123,20 @@
       "news_label": "약함",
       "news_count": 20,
       "news_reasons": [
-        "주의:급락",
         "주의:하락",
+        "주의:급락",
+        "최대 실적",
         "강세"
       ],
       "news": [
+        {
+          "title": "삼성전자, 낙폭 키워 3% 하락 마감…SK하이닉스도 4.2%↓(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uc3ZmakZOd1VfQmtaUmExV25pcDRqR09MUHNqRzRMYS15Mk5ibGxyMVhjVTdhYWRJa0xRa0FYdHQtMF8wb25aYnU2bVh1R0NRbGZYRFRabjV5OVktbE9OM9IBYEFVX3lxTE1uc3ZmakZOd1VfQmtaUmExV25pcDRqR09MUHNqRzRMYS15Mk5ibGxyMVhjVTdhYWRJa0xRa0FYdHQtMF8wb25aYnU2bVh1R0NRbGZYRFRabjV5OVktbE9OMw?oc=5",
+          "published": "2026-10-20T07:32:04+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-20T09:37:46+00:00"
+        },
         {
           "title": "[특징주] SK하이닉스, 장초반 3.8% 급락…삼성전자도 0.8%↓ - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MaGFRclp2QzZwYlk0U2VJV241c3lHeDE0eU1fSi1RLTNONEpNU3lPRW1UaTQ3c1lkTC1nWk5YNjFfanE0ZVZ6d0gtRDNIbUpBWG5HV2xrRzhjcEnSAWBBVV95cUxQY1NnYUJrYmhTX3ByZGlqMTB3ZzVJRG1UZ3FVNF9ZZlVXVGxfOXIydGdNSDhSOVY2V3NSZ2dqeDI4bzhTTmU5ZFhpWE9oSUlKVWJJOElJZjlQSnJuZFJUdTg?oc=5",
@@ -1157,6 +1168,14 @@
           "source": "머니투데이",
           "source_group": "머니투데이",
           "first_seen_at": "2026-10-19T13:10:37+00:00"
+        },
+        {
+          "title": "SK하이닉스 또 사상 최대 실적 예고…HBM4·메모리값 상승 '겹호재' - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLeTZpY0thY2NSOFIwNGN3blcxdVpDUjkxQUh1Q3Z2N3d3SlRlRGw1RHZZUGo3U0NueFdDZ2NBdkRNR2JmT2F6SnNEb082dDZ0M2hGTUw5d2tSN2J6MjJwREEtU0RWdGp4azdqRW5CY2Vjd9IBckFVX3lxTFBLeTZpY0thY2NSOFIwNGN3blcxdVpDUjkxQUh1Q3Z2N3d3SlRlRGw1RHZZUGo3U0NueFdDZ2NBdkRNR2JmT2F6SnNEb082dDZ0M2hGTUw5d2tSN2J6MjJwREEtU0RWdGp4azdqRW5CY2Vjdw?oc=5",
+          "published": "2026-10-19T08:20:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-20T09:37:46+00:00"
         },
         {
           "title": "SK하이닉스, 소부장 기업에 2조 금융 지원…삼성도 상생 확대 - 머니투데이 - 머니투데이",
@@ -1192,7 +1211,7 @@
         },
         {
           "title": "SK하이닉스, 정부·금융권과 반도체 소부장 2조원 지원 '맞손' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fU1FsWTh5cWRqX19pdlR4Yzc3Yl9aTlo1bGg5RVhXdjN0VEtqbTh1VHV1TmdKR1gxSmxnNTh4U2VMMERJYURQUnBJSDcyaVdiN2tkVVgzR1RvYnp4NUVXZ293Z3BOaTI3MVhZaNIBckFVX3lxTE9CN1pma0VQTU5XcXpKVk5TRkdoUWlHVVVWUVBLdVJuVWRSUE5lRUIyVVdPT191LTZPbnJkRGNtOTFmM095Ri1sdjAtU0FqVlBGVkZqMEU1anZQMkFlNlY1bW1nMjhJV1RNcGJ4WTJvdWs5UQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CN1pma0VQTU5XcXpKVk5TRkdoUWlHVVVWUVBLdVJuVWRSUE5lRUIyVVdPT191LTZPbnJkRGNtOTFmM095Ri1sdjAtU0FqVlBGVkZqMEU1anZQMkFlNlY1bW1nMjhJV1RNcGJ4WTJvdWs5UdIBckFVX3lxTE9CN1pma0VQTU5XcXpKVk5TRkdoUWlHVVVWUVBLdVJuVWRSUE5lRUIyVVdPT191LTZPbnJkRGNtOTFmM095Ri1sdjAtU0FqVlBGVkZqMEU1anZQMkFlNlY1bW1nMjhJV1RNcGJ4WTJvdWs5UQ?oc=5",
           "published": "2026-10-19T06:00:00+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -1200,7 +1219,7 @@
         },
         {
           "title": "100명 중 0.8명 구멍 뚫어야 대기업 임원…SK하이닉스 최다 증가 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LNGV1RHF6YVVwczZ6dDh5R2NNeVdHMkZZbkMzSDJWM0RuUWxMSnBMek9YT0RWdXBmekhSSkFrVnJNejlLMUROS2l0Nng4ZzZ5cE96TnlxeFNfX2PSAWBBVV95cUxObFBLUVdtZ2F6YzdZVUpMbGRRa3JzaUJNRUJLTUszeEVIazFMSlBHR3Y5dVNrMzI5eklmQjVIYlFGVE14a3VLd0dtc2N0M3dUeVc4VTN5Y25sYVhka2k3elQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sUEtRV21nYXpjN1lVSkxsZFFrcnNpQk1FQktNSzN4RUhrMUxKUEdHdjl1U2szMjl6SWZCNUhiUUZUTXhrdUt3R21zY3Qzd1R5VzhVM3ljbmxhWGRraTd6VNIBYEFVX3lxTE5sUEtRV21nYXpjN1lVSkxsZFFrcnNpQk1FQktNSzN4RUhrMUxKUEdHdjl1U2szMjl6SWZCNUhiUUZUTXhrdUt3R21zY3Qzd1R5VzhVM3ljbmxhWGRraTd6VA?oc=5",
           "published": "2026-10-18T21:00:03+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -1248,7 +1267,7 @@
         },
         {
           "title": "[오늘 이 종목] AI 수요 확인 SK하이닉스 · 실적 기대 삼성바이오로직스 '주목' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yRTd3TTk1RGs1RkpINktfajBDZWpfc3YxeGdZc2VGaERla2J2dzFJZXlDOGY1aC12NHN1TXVYZlZLWG0yRW4wZ2FpUmQ4SVJjSURSdTBpV19xcDY5bjdqN3BfXzJEQXpwbnFBY0tR0gFuQVVfeXFMTzJFN3dNOTVEazVGSkg2S19qMENlal9zdjF4Z1lzZUZoRGVrYnZ3MUlleUM4ZjVoLXY0c3VNdVhmVktYbTJFbjBnYWlSZDhJUmNJRFJ1MGlXX3FwNjluN2o3cF9fMkRBenBucUFjS1E?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hMzhzd2Uyd2Rvejc3Y0t6N2U2Nk55Y3g5ZGVPNUhaaHdaN1VBZ2xGSEFOZlhjOHY1WmdZbzlWRDI0cDFxYlNLRUtnd0Nib3NDRjMzc1lBMmRKT2RBMXdCZ2tZTDdtQTZN0gFuQVVfeXFMTzJFN3dNOTVEazVGSkg2S19qMENlal9zdjF4Z1lzZUZoRGVrYnZ3MUlleUM4ZjVoLXY0c3VNdVhmVktYbTJFbjBnYWlSZDhJUmNJRFJ1MGlXX3FwNjluN2o3cF9fMkRBenBucUFjS1E?oc=5",
           "published": "2026-10-16T03:04:38+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -1269,26 +1288,10 @@
           "source": "연합뉴스",
           "source_group": "연합뉴스",
           "first_seen_at": "2026-10-16T00:23:55+00:00"
-        },
-        {
-          "title": "구직자가 뽑은 관심기업 1위 SK하이닉스…현대차 2위 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2dEhrb29JQnVRWG5GSmowTUtMRzRWY0tSRUdZYm1nbjRvaGQyeEdLWVVEOW5Jdnhta0Q1LVlEVHgyM1dVcDZ0Vkt2Y3M2SGpMVy1KdTJJWkdoNDTSAWBBVV95cUxOZ3hGN0pTNDBKU3lUNFpfMEVUZ1V6WExNNHZ4M00wMkRneGVKS2lqUk1qRTZncEtYcWEwbndfWXZuYXY0OVdXWFh3NEFsYWluRmwzR2FITFNfa2hSdDNvanc?oc=5",
-          "published": "2026-10-15T23:20:54+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-16T00:23:55+00:00"
-        },
-        {
-          "title": "[여의도 투자본부 2부] SK하이닉스 vs 한국콜마 vs 삼성전자 vs 스튜디오드래곤, 공략법은? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NV1RMMi1zTXdFZ2pIa3BRMmhBNVFuVnpmMEFaSTFEWktBUHlON1c0NWtqcGJKX2RLNjBiT2tsZ29UaTlGUW5KSlFxU3FfWm1zNHNuS2RSYkxfbDJLNFo0N2NvNzJaWS1i0gFuQVVfeXFMTWpOTTJOVWEzdWRFTVNlTjNQRmhCNVNwcUxHQkIwcHo1cXk3cFdYYjRCVmdvWk5vWGxNUm9Yb0tKdGZBWkl3RWNsU3ViaXJFeU13U2FKeHBGWlhvM2V5TjVzd0xYd0VMLWw3eGNraWc?oc=5",
-          "published": "2026-10-15T21:45:56+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-20T04:48:03+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:03+00:00",
+      "checked_at": "2026-10-20T09:37:46+00:00",
       "news_status": "ok"
     },
     "019170": {
@@ -1313,7 +1316,7 @@
       "news": [
         {
           "title": "SK이터닉스, '이천·파주 연료전지' 상업운전 돌입 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6enF0ZWY2VkZNWHV1dzBPQlZoaTA4b1pBUmYyS2c3OTBkbjNXTGsyREZZd0pXQzJHWk1BNGltWmpZRDU0RUxxRENMc1dLMTFJOVdxWHVkaGZTMFctQUh4MkhnTWdhNnc4YVJScdIBckFVX3lxTFBtWDN1dWhod0IxV0o5eEItY1ZieFExSWtkY3JDbDlGU2VWX2pJQ0p2Q3htQ3UwVkRuVVdMcXlhVWF1dzRuZzExc2FRRWRnU0FJZ2FLeWZfRXBSblRpaWxBQmxOeEdWYUF1Vk9XNTlTd3h1QQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hckVkMzN4bHZERGFvRGdLRkxZQWQ5dzBTeDRlNW8yTjNKQTBjUzU3U24wY3J6cGlvTVdtdUY0S2Rhdi02VVpHQjdXeHlPdG02WWlHVVFDLVNFem1SQ0M1U3Q3V1duQ3FXb1NKMUwzcUpfcHprcm02bldpajlrcmfSAX9BVV95cUxPYXJFZDMzeGx2RERhb0RnS0ZMWUFkOXcwU3g0ZTVvMk4zSkEwY1M1N1NuMGNyenBpb01XbXVGNEtkYXYtNlVaR0I3V3h5T3RtNllpR1VRQy1TRXptUkNDNVN0N1dXbkNxV29TSjFMM3FKX3B6a3JtNm5XaWo5a3Jn?oc=5",
           "published": "2026-10-20T00:18:15+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -1321,7 +1324,7 @@
         },
         {
           "title": "SK이터닉스, 이천·파주 연료전지 발전소 상업 운전 개시 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02LVRyWGZ3V0RUN0tZSk5Ldl9FcDkxLTcwQUFtMld1NDl3Y1czZlFJWW92MHliZ3Y3d0tLNzBVNHdfVGw1YlRYMEExT1diNHJOeU1IdG9ZRS0yTkXSAWBBVV95cUxPcjZyOF9RZkV6b19ENG5fQ0lBMGQxQW1oMW95TmFhUngwdVoyUklTR3ExX2N3THplX3c0QjdjTjM3Yi1Iam5nSjFRRWhvbjlJLS1rUGVWbXNFc2cwVkNtY2o?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yNnI4X1FmRXpvX0Q0bl9DSUEwZDFBbWgxb3lOYWFSeDB1WjJSSVNHcTFfY3dMemVfdzRCN2NOMzdiLUhqbmdKMVFFaG9uOUktLWtQZVZtc0VzZzBWQ21jatIBYEFVX3lxTE9yNnI4X1FmRXpvX0Q0bl9DSUEwZDFBbWgxb3lOYWFSeDB1WjJSSVNHcTFfY3dMemVfdzRCN2NOMzdiLUhqbmdKMVFFaG9uOUktLWtQZVZtc0VzZzBWQ21jag?oc=5",
           "published": "2026-10-19T23:50:09+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -1329,7 +1332,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:05+00:00",
+      "checked_at": "2026-10-20T09:37:44+00:00",
       "news_status": "ok"
     },
     "018880": {
@@ -1394,7 +1397,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:09+00:00",
+      "checked_at": "2026-10-20T09:37:41+00:00",
       "news_status": "no_articles"
     },
     "012210": {
@@ -1427,7 +1430,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:11+00:00",
+      "checked_at": "2026-10-20T09:37:40+00:00",
       "news_status": "ok"
     },
     "090710": {
@@ -1533,7 +1536,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:13+00:00",
+      "checked_at": "2026-10-20T09:37:49+00:00",
       "news_status": "ok"
     },
     "098460": {
@@ -1593,7 +1596,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:17+00:00",
+      "checked_at": "2026-10-20T09:37:47+00:00",
       "news_status": "no_articles"
     },
     "253840": {
@@ -1718,7 +1721,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:22+00:00",
+      "checked_at": "2026-10-20T09:37:48+00:00",
       "news_status": "ok"
     },
     "109820": {
@@ -1792,7 +1795,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:25+00:00",
+      "checked_at": "2026-10-20T09:37:42+00:00",
       "news_status": "ok"
     },
     "142280": {
@@ -1845,7 +1848,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:28+00:00",
+      "checked_at": "2026-10-20T09:37:48+00:00",
       "news_status": "ok"
     },
     "388790": {
@@ -1962,7 +1965,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:33+00:00",
+      "checked_at": "2026-10-20T09:37:38+00:00",
       "news_status": "no_articles"
     },
     "067310": {
@@ -2111,7 +2114,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:38+00:00",
+      "checked_at": "2026-10-20T09:37:37+00:00",
       "news_status": "ok"
     },
     "014950": {
@@ -2194,14 +2197,22 @@
     "064350": {
       "code": "064350",
       "name": "현대로템",
-      "news_score": 4,
-      "news_label": "강함",
-      "news_count": 10,
+      "news_score": 3,
+      "news_label": "형성중",
+      "news_count": 12,
       "news_reasons": [
-        "수주",
-        "주의:실적 부진"
+        "주의:실적 부진",
+        "수주"
       ],
       "news": [
+        {
+          "title": "[특징주] 현대로템, 실적 부진에 52주 신저가…방산주 급락(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tNTgtcnE4VkF0akRFWjBGcjYyWGVWamtlOTVvSDZUckdRajRjeEpNYVBKOW5kU1BvZlBFblR0cDQ2SDRlbzlQV0p5ZGo1WHFLZDJzVk9laWZ0RzjSAWBBVV95cUxPMmRRSWxCUnB3SldiZzlDSjI4U3pTN2N1WlFoZndrd2VuYXcyMjhoeGtMaEZ0cWlTcXRPSzhTS2tjVUppX1pJRXIwZ2VBUGNINEtjS2g5TE5mMWFRVF9mXzY?oc=5",
+          "published": "2026-10-20T06:43:20+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-20T09:37:45+00:00"
+        },
         {
           "title": "[특징주] 현대로템, 실적 부진·수주 지연 우려에 11% 하락 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90UDVZT2xhNjlJUUQ1WnZRZFZVWHhONDlkdzRUX3Rkc2M5NmhibFBzWHBMbTYzTVUzaGs0OWR6cXFEWEw5WmNGb094LUNxU193NGR0SEVMZmxobmPSAWBBVV95cUxQaWVaaWpoMTlUTENWdmxOUTM2VlNUTWNOcmMwSjhDQ2ZvLWpYUFFldEt3QVNOeG9ac2N3SDZWN21MS2xqbzlWV2VSSUEtQUpxSFZFZVRRTm1XaDNXSy1OMnA?oc=5",
@@ -2212,7 +2223,7 @@
         },
         {
           "title": "현대로템, 3분기 영업익 '어닝쇼크'… 장 초반 10%대 ↓ - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLOXdvTGQ3emFVcjZnOHB3cTNGOWtvd0pVaDhtbWdCVzFYLTNFSjNEZlhkQUJzTzc3cTlvZjZGcm9PVU5OanRkOEk2YVJfbzYzWlZPd3JBYTlhVGNtRlk3U21ZWGxxTzBT0gFuQVVfeXFMT2l2VGFzR2tlMUhzRzdPa29uM2ZtODNQV21sYnFCNFpxWjhKYmVMUGNxa0dlbHFRc29wY1llRUplNncyZjc3Vy1GMVlKTDctUXVNcWI2QjRPN2w1YjAwNWdJSTZkeGx4Zkp1anJiSGc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pdlRhc0drZTFIc0c3T2tvbjNmbTgzUFdtbGJxQjRacVo4SmJlTFBjcWtHZWxxUXNvcGNZZUVKZTZ3MmY3N1ctRjFZSkw3LVF1TXFiNkI0TzdsNWIwMDVnSUk2ZHhseGZKdWpyYkhn0gFuQVVfeXFMT2l2VGFzR2tlMUhzRzdPa29uM2ZtODNQV21sYnFCNFpxWjhKYmVMUGNxa0dlbHFRc29wY1llRUplNncyZjc3Vy1GMVlKTDctUXVNcWI2QjRPN2w1YjAwNWdJSTZkeGx4Zkp1anJiSGc?oc=5",
           "published": "2026-10-20T00:21:57+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -2243,6 +2254,14 @@
           "first_seen_at": "2026-10-19T19:56:15+00:00"
         },
         {
+          "title": "현대로템, K2 전차 '주포'까지 다 만든다…현대위아 '모빌리티' 집중 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpNDQxSmJRTTFEbl8tR3JMTkVEcWpfaVNYZFBzcE9EUW9QYTZIaUdQX0tIOG8xUkQxYTRteG1Cdm9mS1pyTThVS2M0Q0ViUTJMYUIxcHJqU04zb3lldzBLLVRNNkxpbjEwNVhLRW5zZFpZWnVrU0w0OW1JMGdKZ1HSAX9BVV95cUxQaTQ0MUpiUU0xRG5fLUdyTE5FRHFqX2lTWGRQc3BPRFFvUGE2SGlHUF9LSDhvMVJEMWE0bXhtQnZvZktack04VUtjNENFYlEyTGFCMXByalNOM295ZXcwSy1UTTZMaW4xMDVYS0Vuc2RaWVp1a1NMNDltSTBnSmdR?oc=5",
+          "published": "2026-10-19T07:38:35+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-20T09:37:45+00:00"
+        },
+        {
           "title": "현대로템, 3분기 영업이익 2471억원…이익률 15.3% - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04VTNjWmZOX2k1U3Q2WEU4LTZHNnFtaDJoejZIZC1KV2lrXzk3S1didC1ldGNOYmxXM0dPWXhYaTJhNlVPSGF4ZTUzYTcyUDhiNVhheFBJWnJidjR2R0p1V2tKSVFzMHpaelBrVtIBckFVX3lxTE5mS1lMMVZaSGd6TDcwVm1nZFoyZ2dOeUozUzdhaDBBSlp4RkJYOUNreWJPWVJHUGtOc2ZkUHlCYVU2QzVIa28wc3EtVVNFRm5iX1FJNkxwOTJaLTBSdXVXQ3VVak5INnp0MFJwa01JaDI3Zw?oc=5",
           "published": "2026-10-19T06:00:02+00:00",
@@ -2252,7 +2271,7 @@
         },
         {
           "title": "현대로템, 3분기 영업이익 2천471억원…작년보다 11% 감소 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4NlYzd0ZsaEVEei1OZjZXeU85OXhDV3UwaWNIMkQ2N25taWlhSzhSZEVSMkh4TUJuN0lHUnNWLTBneU95NFVOZGI1Zm9HaDJ5aTZqQmpEVFlpZmfSAWBBVV95cUxQMUl4ekZwSGJla2hpMUExTWRHdEpHbFZmWnRDUGExY1UybWthZEwxWDZUQ241Snl5MXRTNmFxX2dUZWlWOUhhMHpUWnNVRGlhRDZVZS1mUTF6Yzg2OXc3bG4?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxSXh6RnBIYmVraGkxQTFNZEd0SkdsVmZadENQYTFjVTJta2FkTDFYNlRDbjVKeXkxdFM2YXFfZ1RlaVY5SGEwelRac1VEaWFENlVlLWZRMXpjODY5dzdsbtIBYEFVX3lxTFAxSXh6RnBIYmVraGkxQTFNZEd0SkdsVmZadENQYTFjVTJta2FkTDFYNlRDbjVKeXkxdFM2YXFfZ1RlaVY5SGEwelRac1VEaWFENlVlLWZRMXpjODY5dzdsbg?oc=5",
           "published": "2026-10-19T05:16:16+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -2284,7 +2303,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:44+00:00",
+      "checked_at": "2026-10-20T09:37:45+00:00",
       "news_status": "ok"
     },
     "107640": {
@@ -2313,7 +2332,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:45+00:00",
+      "checked_at": "2026-10-20T09:37:43+00:00",
       "news_status": "ok"
     },
     "095700": {
@@ -2580,7 +2599,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:48:58+00:00",
+      "checked_at": "2026-10-20T09:37:36+00:00",
       "news_status": "ok"
     },
     "490470": {
@@ -2629,7 +2648,7 @@
       "news": [
         {
           "title": "[고래사냥] '주성엔지니어링·태성·디어유! 내일장 고래 종목은?! - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfZHNNX3JIOEUzcTdQbnd6Vk9ySzhYTFhOTFh5OHozTzRmOXdKV0VDVFJTSWM2SHJlM2p0NmxKazBGOFd5TmJnTTdPZHBjaWR4LU1hWDhrRUREMmFpOHJqWmxGeGNhNnBw0gFuQVVfeXFMTVlPTWJ1SmtoODZpTWo4bG9veUNILUp1Uk9HT3Q2YjJGNEN5dzZsZm5CVTdaWUV2NHNid0RudG11MFNyckZQSlFIN05FSTFvSDRaTzRKczBPQUhWWFg3SDBKdE5rMEpIemFzMHFuWWc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZT01idUpraDg2aU1qOGxvb3lDSC1KdVJPR090NmIyRjRDeXc2bGZuQlU3WllFdjRzYndEbnRtdTBTcnJGUEpRSDdORUkxb0g0Wk80SnMwT0FIVlhYN0gwSnROazBKSHphczBxblln0gFuQVVfeXFMTVlPTWJ1SmtoODZpTWo4bG9veUNILUp1Uk9HT3Q2YjJGNEN5dzZsZm5CVTdaWUV2NHNid0RudG11MFNyckZQSlFIN05FSTFvSDRaTzRKczBPQUhWWFg3SDBKdE5rMEpIemFzMHFuWWc?oc=5",
           "published": "2026-10-19T21:57:11+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -2637,7 +2656,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:49:02+00:00",
+      "checked_at": "2026-10-20T09:37:39+00:00",
       "news_status": "ok"
     },
     "456010": {
@@ -2777,7 +2796,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:49:10+00:00",
+      "checked_at": "2026-10-20T09:37:38+00:00",
       "news_status": "no_articles"
     },
     "299660": {
@@ -3082,7 +3101,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-20T04:49:27+00:00",
+      "checked_at": "2026-10-20T09:37:45+00:00",
       "news_status": "ok"
     },
     "0161M0": {
@@ -3094,7 +3113,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:49:28+00:00",
+      "checked_at": "2026-10-20T09:37:41+00:00",
       "news_status": "no_articles"
     },
     "111770": {
@@ -3106,15 +3125,15 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-20T04:49:29+00:00",
+      "checked_at": "2026-10-20T09:37:50+00:00",
       "news_status": "no_articles"
     }
   },
   "input_generated_at": "2026-10-07T09:24:44+09:00",
   "matching_revision": "company-boundary-v2",
   "collection_status": "ok",
-  "successful_queries": 300,
-  "attempted_queries": 300,
+  "successful_queries": 58,
+  "attempted_queries": 58,
   "themes": [
     {
       "id": "gold",
@@ -6394,5 +6413,6 @@
       "independent_search": true
     }
   ],
-  "theme_method": "최근 7일 기사·공시 제목 기반. 기업 업종 및 직접 수혜 확정 아님."
+  "theme_method": "최근 7일 기사·공시 제목 기반. 기업 업종 및 직접 수혜 확정 아님.",
+  "watch_checked_at": "2026-10-20T09:37:50+00:00"
 }
