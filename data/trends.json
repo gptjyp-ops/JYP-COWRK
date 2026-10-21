@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-21T13:46:45.064077+00:00",
-  "updated_kst": "2026년 10월 21일 22:46",
+  "updated_at": "2026-10-21T18:37:32.964270+00:00",
+  "updated_kst": "2026년 10월 22일 03:37",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "비정규직",
+          "k": "최형우",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "โกโม พบ แมนยู",
           "m": "검색량 200+"
         },
         {
-          "k": "persija jakarta vs arema fc",
-          "m": "검색량 100+"
+          "k": "calcio como đấu với man utd",
+          "m": "검색량 200+"
         },
         {
-          "k": "아침마당",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "송성문",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "ban vs afg",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "우덕배",
+          "k": "como vs man utd",
           "m": "검색량 1000+"
         },
         {
-          "k": "오디션",
+          "k": "코모 대 맨유",
+          "m": "검색량 10000+"
+        },
+        {
+          "k": "흐비차",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "나성범",
           "m": "검색량 100+"
         },
         {
-          "k": "이현중",
+          "k": "카일 프랜시스 케네디",
           "m": "검색량 200+"
         },
         {
-          "k": "황보라",
-          "m": "검색량 200+"
+          "k": "학교 폭력",
+          "m": "검색량 1000+"
         },
         {
-          "k": "thời tiết ngày mai",
-          "m": "검색량 2000+"
+          "k": "샘 김",
+          "m": "검색량 1000+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-21T22:44:49.397+09:00",
+      "updated": "2026-10-22T01:24:09.122+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "임진모 BTS 그래미 보이콧",
-          "rank": 1,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%84%EC%A7%84%EB%AA%A8%20BTS%20%EA%B7%B8%EB%9E%98%EB%AF%B8%20%EB%B3%B4%EC%9D%B4%EC%BD%A7"
-        },
-        {
-          "k": "박세영 딸 공개",
-          "rank": 2,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%84%B8%EC%98%81%20%EB%94%B8%20%EA%B3%B5%EA%B0%9C"
-        },
-        {
-          "k": "영웅문",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%81%EC%9B%85%EB%AC%B8"
-        },
-        {
           "k": "부캉이",
-          "rank": 4,
+          "rank": 1,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EB%B6%80%EC%BA%89%EC%9D%B4"
         },
         {
-          "k": "이현중 NBA 비보장 계약",
-          "rank": 5,
+          "k": "안용준 사기 혐의 피소",
+          "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%98%84%EC%A4%91%20NBA%20%EB%B9%84%EB%B3%B4%EC%9E%A5%20%EA%B3%84%EC%95%BD"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%9A%A9%EC%A4%80%20%EC%82%AC%EA%B8%B0%20%ED%98%90%EC%9D%98%20%ED%94%BC%EC%86%8C"
         },
         {
-          "k": "안용준 사기 피소",
-          "rank": 6,
+          "k": "더리슨6 박지현",
+          "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%9A%A9%EC%A4%80%20%EC%82%AC%EA%B8%B0%20%ED%94%BC%EC%86%8C"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%8D%94%EB%A6%AC%EC%8A%A86%20%EB%B0%95%EC%A7%80%ED%98%84"
         },
         {
-          "k": "장혜리 가수",
-          "rank": 7,
+          "k": "강소라 유퀴즈",
+          "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%A5%ED%98%9C%EB%A6%AC%20%EA%B0%80%EC%88%98"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%EC%86%8C%EB%9D%BC%20%EC%9C%A0%ED%80%B4%EC%A6%88"
         },
         {
           "k": "태풍 경로 현재 위치",
-          "rank": 8,
+          "rank": 5,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%ED%83%9C%ED%92%8D%20%EA%B2%BD%EB%A1%9C%20%ED%98%84%EC%9E%AC%20%EC%9C%84%EC%B9%98"
         },
         {
-          "k": "골때녀",
-          "rank": 9,
+          "k": "이상민 개그맨",
+          "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B3%A8%EB%95%8C%EB%85%80"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%83%81%EB%AF%BC%20%EA%B0%9C%EA%B7%B8%EB%A7%A8"
         },
         {
-          "k": "이웃집 백만장자",
+          "k": "클레이 페이스",
+          "rank": 7,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%81%B4%EB%A0%88%EC%9D%B4%20%ED%8E%98%EC%9D%B4%EC%8A%A4"
+        },
+        {
+          "k": "나는 솔로 34기 직업",
+          "rank": 8,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EB%8A%94%20%EC%86%94%EB%A1%9C%2034%EA%B8%B0%20%EC%A7%81%EC%97%85"
+        },
+        {
+          "k": "킬링타임",
+          "rank": 9,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%82%AC%EB%A7%81%ED%83%80%EC%9E%84"
+        },
+        {
+          "k": "재혼 황후",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9B%83%EC%A7%91%20%EB%B0%B1%EB%A7%8C%EC%9E%A5%EC%9E%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%AC%ED%98%BC%20%ED%99%A9%ED%9B%84"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "비정규직",
+      "k": "최형우",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "โกโม พบ แมนยู",
       "m": "검색량 200+"
     },
     {
-      "k": "persija jakarta vs arema fc",
-      "m": "검색량 100+"
+      "k": "calcio como đấu với man utd",
+      "m": "검색량 200+"
     },
     {
-      "k": "아침마당",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "송성문",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "ban vs afg",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "우덕배",
+      "k": "como vs man utd",
       "m": "검색량 1000+"
     },
     {
-      "k": "오디션",
+      "k": "코모 대 맨유",
+      "m": "검색량 10000+"
+    },
+    {
+      "k": "흐비차",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "나성범",
       "m": "검색량 100+"
     },
     {
-      "k": "이현중",
+      "k": "카일 프랜시스 케네디",
       "m": "검색량 200+"
     },
     {
-      "k": "황보라",
-      "m": "검색량 200+"
+      "k": "학교 폭력",
+      "m": "검색량 1000+"
     },
     {
-      "k": "thời tiết ngày mai",
-      "m": "검색량 2000+"
+      "k": "샘 김",
+      "m": "검색량 1000+"
     }
   ]
 }
