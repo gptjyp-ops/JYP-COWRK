@@ -1,48 +1,48 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-22T18:31:36.908389+00:00",
-  "updated_kst": "2026년 10월 23일 03:31",
+  "updated_at": "2026-10-22T22:19:25.940206+00:00",
+  "updated_kst": "2026년 10월 23일 07:19",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "솔리다임",
+          "k": "오현규",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "spcx",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "พยากรณ์อากาศ",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "욕망의 덫",
           "m": "검색량 100+"
         },
         {
-          "k": "나스닥",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "레흐 포즈난 대 선덜랜드",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "크래프톤",
+          "k": "성리",
           "m": "검색량 100+"
         },
         {
-          "k": "야블로네츠 대 브라이턴",
+          "k": "교통",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "엘니뇨",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "sk하이닉스",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "경찰",
           "m": "검색량 500+"
         },
         {
-          "k": "리설주",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "자격증",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "박찬호",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "이혼",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "천천히 강렬하게",
+          "k": "한국경제신문사",
           "m": "검색량 100+"
         }
       ]
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-23T01:02:25.631+09:00",
+      "updated": "2026-10-23T07:16:00.445+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "서현진 부친상",
+          "k": "나스닥 2.6% 급락",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%84%9C%ED%98%84%EC%A7%84%20%EB%B6%80%EC%B9%9C%EC%83%81"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EC%8A%A4%EB%8B%A5%202.6%25%20%EA%B8%89%EB%9D%BD"
+        },
+        {
+          "k": "오세훈 항소심 선고",
+          "rank": 2,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%ED%95%AD%EC%86%8C%EC%8B%AC%20%EC%84%A0%EA%B3%A0"
+        },
+        {
+          "k": "김태원 재산 161억원",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%83%9C%EC%9B%90%20%EC%9E%AC%EC%82%B0%20161%EC%96%B5%EC%9B%90"
+        },
+        {
+          "k": "김정은 이혼",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A0%95%EC%9D%80%20%EC%9D%B4%ED%98%BC"
+        },
+        {
+          "k": "부산 지하철",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%80%EC%82%B0%20%EC%A7%80%ED%95%98%EC%B2%A0"
+        },
+        {
+          "k": "오윤아 재혼 웨딩드레스",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%9C%A4%EC%95%84%20%EC%9E%AC%ED%98%BC%20%EC%9B%A8%EB%94%A9%EB%93%9C%EB%A0%88%EC%8A%A4"
         },
         {
           "k": "상강",
-          "rank": 2,
+          "rank": 7,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%83%81%EA%B0%95"
         },
         {
-          "k": "김태원 재산신고",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%83%9C%EC%9B%90%20%EC%9E%AC%EC%82%B0%EC%8B%A0%EA%B3%A0"
-        },
-        {
-          "k": "이세웅 재산 증가",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%84%B8%EC%9B%85%20%EC%9E%AC%EC%82%B0%20%EC%A6%9D%EA%B0%80"
-        },
-        {
-          "k": "뜨거운 안녕",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%9C%A8%EA%B1%B0%EC%9A%B4%20%EC%95%88%EB%85%95"
-        },
-        {
-          "k": "ufc",
-          "rank": 6,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=ufc"
-        },
-        {
-          "k": "심유진 배드민턴",
-          "rank": 7,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%AC%EC%9C%A0%EC%A7%84%20%EB%B0%B0%EB%93%9C%EB%AF%BC%ED%84%B4"
-        },
-        {
-          "k": "태풍 참피",
+          "k": "은행 연체율 최고",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%83%9C%ED%92%8D%20%EC%B0%B8%ED%94%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%80%ED%96%89%20%EC%97%B0%EC%B2%B4%EC%9C%A8%20%EC%B5%9C%EA%B3%A0"
         },
         {
-          "k": "pba",
+          "k": "시짱자치구",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=pba"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%9C%EC%A7%B1%EC%9E%90%EC%B9%98%EA%B5%AC"
         },
         {
-          "k": "박찬호 U-23 격려",
+          "k": "참피 예상경로",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%B0%AC%ED%98%B8%20U-23%20%EA%B2%A9%EB%A0%A4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%B8%ED%94%BC%20%EC%98%88%EC%83%81%EA%B2%BD%EB%A1%9C"
         }
       ]
     },
@@ -227,43 +227,43 @@
   },
   "items": [
     {
-      "k": "솔리다임",
+      "k": "오현규",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "spcx",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "พยากรณ์อากาศ",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "욕망의 덫",
       "m": "검색량 100+"
     },
     {
-      "k": "나스닥",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "레흐 포즈난 대 선덜랜드",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "크래프톤",
+      "k": "성리",
       "m": "검색량 100+"
     },
     {
-      "k": "야블로네츠 대 브라이턴",
+      "k": "교통",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "엘니뇨",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "sk하이닉스",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "경찰",
       "m": "검색량 500+"
     },
     {
-      "k": "리설주",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "자격증",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "박찬호",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "이혼",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "천천히 강렬하게",
+      "k": "한국경제신문사",
       "m": "검색량 100+"
     }
   ]
