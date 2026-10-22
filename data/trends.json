@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-22T13:46:49.726367+00:00",
-  "updated_kst": "2026년 10월 22일 22:46",
+  "updated_at": "2026-10-22T18:31:36.908389+00:00",
+  "updated_kst": "2026년 10월 23일 03:31",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "메시",
+          "k": "솔리다임",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "나스닥",
           "m": "검색량 500+"
         },
         {
-          "k": "나는 solo",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "madura united vs persib bandung",
+          "k": "레흐 포즈난 대 선덜랜드",
           "m": "검색량 200+"
         },
         {
-          "k": "호날두",
+          "k": "크래프톤",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "야블로네츠 대 브라이턴",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "리설주",
           "m": "검색량 200+"
         },
         {
-          "k": "반포 래미안 원펜타스",
+          "k": "자격증",
           "m": "검색량 500+"
         },
         {
-          "k": "더중앙플러스",
-          "m": "검색량 500+"
+          "k": "박찬호",
+          "m": "검색량 200+"
         },
         {
-          "k": "weather tomorrow",
-          "m": "검색량 2000+"
+          "k": "이혼",
+          "m": "검색량 200+"
         },
         {
-          "k": "투기",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "погода завтра",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "thời tiết ngày mai",
-          "m": "검색량 2000+"
+          "k": "천천히 강렬하게",
+          "m": "검색량 100+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-22T22:39:20.597+09:00",
+      "updated": "2026-10-23T01:02:25.631+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "부산지하철 파업",
-          "rank": 1,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%80%EC%82%B0%EC%A7%80%ED%95%98%EC%B2%A0%20%ED%8C%8C%EC%97%85"
-        },
-        {
           "k": "서현진 부친상",
-          "rank": 2,
+          "rank": 1,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%84%9C%ED%98%84%EC%A7%84%20%EB%B6%80%EC%B9%9C%EC%83%81"
         },
         {
-          "k": "북한 IT인력 위장취업",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%81%ED%95%9C%20IT%EC%9D%B8%EB%A0%A5%20%EC%9C%84%EC%9E%A5%EC%B7%A8%EC%97%85"
-        },
-        {
           "k": "상강",
-          "rank": 4,
+          "rank": 2,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%83%81%EA%B0%95"
         },
         {
-          "k": "후티 반군 타격",
+          "k": "김태원 재산신고",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%83%9C%EC%9B%90%20%EC%9E%AC%EC%82%B0%EC%8B%A0%EA%B3%A0"
+        },
+        {
+          "k": "이세웅 재산 증가",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%84%B8%EC%9B%85%20%EC%9E%AC%EC%82%B0%20%EC%A6%9D%EA%B0%80"
+        },
+        {
+          "k": "뜨거운 안녕",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%9B%84%ED%8B%B0%20%EB%B0%98%EA%B5%B0%20%ED%83%80%EA%B2%A9"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%9C%A8%EA%B1%B0%EC%9A%B4%20%EC%95%88%EB%85%95"
         },
         {
-          "k": "오세훈 재판",
+          "k": "ufc",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%EC%9E%AC%ED%8C%90"
+          "url": "https://search.daum.net/search?w=tot&q=ufc"
         },
         {
-          "k": "태풍 경로 현재 위치",
+          "k": "심유진 배드민턴",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%83%9C%ED%92%8D%20%EA%B2%BD%EB%A1%9C%20%ED%98%84%EC%9E%AC%20%EC%9C%84%EC%B9%98"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%AC%EC%9C%A0%EC%A7%84%20%EB%B0%B0%EB%93%9C%EB%AF%BC%ED%84%B4"
         },
         {
-          "k": "미국 중간선거 일정",
+          "k": "태풍 참피",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%B8%EA%B5%AD%20%EC%A4%91%EA%B0%84%EC%84%A0%EA%B1%B0%20%EC%9D%BC%EC%A0%95"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%83%9C%ED%92%8D%20%EC%B0%B8%ED%94%BC"
         },
         {
-          "k": "장동혁 욕설 녹취 공개",
+          "k": "pba",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%A5%EB%8F%99%ED%98%81%20%EC%9A%95%EC%84%A4%20%EB%85%B9%EC%B7%A8%20%EA%B3%B5%EA%B0%9C"
+          "url": "https://search.daum.net/search?w=tot&q=pba"
         },
         {
-          "k": "제네시스 챔피언십",
+          "k": "박찬호 U-23 격려",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%B0%AC%ED%98%B8%20U-23%20%EA%B2%A9%EB%A0%A4"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "메시",
+      "k": "솔리다임",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "나스닥",
       "m": "검색량 500+"
     },
     {
-      "k": "나는 solo",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "madura united vs persib bandung",
+      "k": "레흐 포즈난 대 선덜랜드",
       "m": "검색량 200+"
     },
     {
-      "k": "호날두",
+      "k": "크래프톤",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "야블로네츠 대 브라이턴",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "리설주",
       "m": "검색량 200+"
     },
     {
-      "k": "반포 래미안 원펜타스",
+      "k": "자격증",
       "m": "검색량 500+"
     },
     {
-      "k": "더중앙플러스",
-      "m": "검색량 500+"
+      "k": "박찬호",
+      "m": "검색량 200+"
     },
     {
-      "k": "weather tomorrow",
-      "m": "검색량 2000+"
+      "k": "이혼",
+      "m": "검색량 200+"
     },
     {
-      "k": "투기",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "погода завтра",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "thời tiết ngày mai",
-      "m": "검색량 2000+"
+      "k": "천천히 강렬하게",
+      "m": "검색량 100+"
     }
   ]
 }
