@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-23T18:19:54.848342+00:00",
-  "updated_kst": "2026년 10월 24일 03:19",
+  "updated_at": "2026-10-23T22:09:32.457023+00:00",
+  "updated_kst": "2026년 10월 24일 07:09",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "로보택시",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "ufc 333",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "롤",
+          "k": "전원주",
           "m": "검색량 500+"
         },
         {
-          "k": "업비트",
-          "m": "검색량 200+"
+          "k": "삼성 갤럭시",
+          "m": "검색량 500+"
         },
         {
-          "k": "아프리카",
-          "m": "검색량 200+"
+          "k": "운세",
+          "m": "검색량 2000+"
         },
         {
-          "k": "젠지",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "월즈",
+          "k": "세균",
           "m": "검색량 1000+"
         },
         {
-          "k": "lck",
-          "m": "검색량 200+"
+          "k": "손주",
+          "m": "검색량 500+"
         },
         {
-          "k": "도호쿠 라쿠텐 골든 이글스",
-          "m": "검색량 200+"
+          "k": "lpl",
+          "m": "검색량 100+"
         },
         {
-          "k": "주우재",
-          "m": "검색량 200+"
+          "k": "피싱",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "동아일보",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "상어",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "사과",
+          "m": "검색량 500+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-24T00:59:54.232+09:00",
+      "updated": "2026-10-24T06:59:39.554+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "푸른길",
+          "k": "트럼프 장대한 분노",
           "rank": 1,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EC%9E%A5%EB%8C%80%ED%95%9C%20%EB%B6%84%EB%85%B8"
+        },
+        {
+          "k": "차우민 피지컬 공개",
+          "rank": 2,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%A8%EC%9A%B0%EB%AF%BC%20%ED%94%BC%EC%A7%80%EC%BB%AC%20%EA%B3%B5%EA%B0%9C"
+        },
+        {
+          "k": "참피 예상경로",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%B8%ED%94%BC%20%EC%98%88%EC%83%81%EA%B2%BD%EB%A1%9C"
+        },
+        {
+          "k": "구회근 판사",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%ED%9A%8C%EA%B7%BC%20%ED%8C%90%EC%82%AC"
+        },
+        {
+          "k": "닥터x",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%8B%A5%ED%84%B0x"
+        },
+        {
+          "k": "푸른길",
+          "rank": 6,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%ED%91%B8%EB%A5%B8%EA%B8%B8"
         },
         {
-          "k": "차우민 벌크업",
-          "rank": 2,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%A8%EC%9A%B0%EB%AF%BC%20%EB%B2%8C%ED%81%AC%EC%97%85"
-        },
-        {
-          "k": "엄태웅 딸 선화예중 합격",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%97%84%ED%83%9C%EC%9B%85%20%EB%94%B8%20%EC%84%A0%ED%99%94%EC%98%88%EC%A4%91%20%ED%95%A9%EA%B2%A9"
-        },
-        {
-          "k": "올레시키 휴전 합의",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%AC%EB%A0%88%EC%8B%9C%ED%82%A4%20%ED%9C%B4%EC%A0%84%20%ED%95%A9%EC%9D%98"
-        },
-        {
-          "k": "이선민 코드쿤스트 식단",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%84%A0%EB%AF%BC%20%EC%BD%94%EB%93%9C%EC%BF%A4%EC%8A%A4%ED%8A%B8%20%EC%8B%9D%EB%8B%A8"
-        },
-        {
-          "k": "양홍원 폭로",
-          "rank": 6,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%96%91%ED%99%8D%EC%9B%90%20%ED%8F%AD%EB%A1%9C"
-        },
-        {
-          "k": "오세훈 여론조사 대납 무죄",
+          "k": "프랑스 오픈 배드민턴 대회",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%EC%97%AC%EB%A1%A0%EC%A1%B0%EC%82%AC%20%EB%8C%80%EB%82%A9%20%EB%AC%B4%EC%A3%84"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%94%84%EB%9E%91%EC%8A%A4%20%EC%98%A4%ED%94%88%20%EB%B0%B0%EB%93%9C%EB%AF%BC%ED%84%B4%20%EB%8C%80%ED%9A%8C"
         },
         {
-          "k": "원주 만두축제",
+          "k": "제주도 날씨",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9B%90%EC%A3%BC%20%EB%A7%8C%EB%91%90%EC%B6%95%EC%A0%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%9C%EC%A3%BC%EB%8F%84%20%EB%82%A0%EC%94%A8"
         },
         {
-          "k": "부당거래",
+          "k": "미국 중간선거 일정",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%80%EB%8B%B9%EA%B1%B0%EB%9E%98"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%B8%EA%B5%AD%20%EC%A4%91%EA%B0%84%EC%84%A0%EA%B1%B0%20%EC%9D%BC%EC%A0%95"
         },
         {
-          "k": "구회근 판사",
+          "k": "선화예중",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%ED%9A%8C%EA%B7%BC%20%ED%8C%90%EC%82%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%84%A0%ED%99%94%EC%98%88%EC%A4%91"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "로보택시",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "ufc 333",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "롤",
+      "k": "전원주",
       "m": "검색량 500+"
     },
     {
-      "k": "업비트",
-      "m": "검색량 200+"
+      "k": "삼성 갤럭시",
+      "m": "검색량 500+"
     },
     {
-      "k": "아프리카",
-      "m": "검색량 200+"
+      "k": "운세",
+      "m": "검색량 2000+"
     },
     {
-      "k": "젠지",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "월즈",
+      "k": "세균",
       "m": "검색량 1000+"
     },
     {
-      "k": "lck",
-      "m": "검색량 200+"
+      "k": "손주",
+      "m": "검색량 500+"
     },
     {
-      "k": "도호쿠 라쿠텐 골든 이글스",
-      "m": "검색량 200+"
+      "k": "lpl",
+      "m": "검색량 100+"
     },
     {
-      "k": "주우재",
-      "m": "검색량 200+"
+      "k": "피싱",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "동아일보",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "상어",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "사과",
+      "m": "검색량 500+"
     }
   ]
 }
