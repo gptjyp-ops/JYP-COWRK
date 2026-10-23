@@ -1,54 +1,54 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-23T01:29:58.916928+00:00",
-  "updated_kst": "2026년 10월 23일 10:29",
+  "updated_at": "2026-10-23T07:30:09.875290+00:00",
+  "updated_kst": "2026년 10월 23일 16:30",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "독도",
+          "k": "상장지수 펀드",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "조재호",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "김미화",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "hd현대",
           "m": "검색량 1000+"
         },
         {
-          "k": "국민은행",
+          "k": "고종욱",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "토스뱅크",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "김광삼",
           "m": "검색량 500+"
         },
         {
-          "k": "하나은행",
+          "k": "기호일보",
           "m": "검색량 200+"
         },
         {
-          "k": "카드뉴스",
-          "m": "검색량 100+"
+          "k": "인플루언서",
+          "m": "검색량 500+"
         },
         {
-          "k": "디티에스",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "우리은행",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "포수",
-          "m": "검색량 10000+"
-        },
-        {
-          "k": "다음",
+          "k": "한고은",
           "m": "검색량 5000+"
-        },
-        {
-          "k": "줌",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "페이커 우표",
-          "m": "검색량 500+"
         }
       ]
     },
     "shopping": {
-      "updated": "20261021",
+      "updated": "20261022",
       "items": [
         {
           "k": "너구링",
@@ -58,14 +58,8 @@
         },
         {
           "k": "메디올가",
-          "m": "스킨케어 · 상승 1",
+          "m": "스킨케어 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EB%A9%94%EB%94%94%EC%98%AC%EA%B0%80",
-          "tag": "buy"
-        },
-        {
-          "k": "치이카와쿠키",
-          "m": "스낵/과자 · 상승 1",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%EC%BF%A0%ED%82%A4",
           "tag": "buy"
         },
         {
@@ -75,107 +69,113 @@
           "tag": "buy"
         },
         {
-          "k": "번챔",
-          "m": "완구/인형 · 상승 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%B2%88%EC%B1%94",
-          "tag": "buy"
-        },
-        {
-          "k": "캠핑용버너",
-          "m": "캠핑 · 인기",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%BA%A0%ED%95%91%EC%9A%A9%EB%B2%84%EB%84%88",
-          "tag": "buy"
-        },
-        {
-          "k": "캠핑용테이블",
-          "m": "캠핑 · 인기",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%BA%A0%ED%95%91%EC%9A%A9%ED%85%8C%EC%9D%B4%EB%B8%94",
-          "tag": "buy"
-        },
-        {
-          "k": "운동용밴드",
-          "m": "헬스 · 신규",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%9A%B4%EB%8F%99%EC%9A%A9%EB%B0%B4%EB%93%9C",
+          "k": "치이카와쿠키",
+          "m": "스낵/과자 · 하락 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%EC%BF%A0%ED%82%A4",
           "tag": "buy"
         },
         {
           "k": "황칠환",
-          "m": "건강식품 · 하락 1",
+          "m": "건강식품 · 하락 3",
           "url": "https://shopping.naver.com/ns/search?query=%ED%99%A9%EC%B9%A0%ED%99%98",
           "tag": "buy"
         },
         {
           "k": "보스유선이어폰",
-          "m": "음향가전 · 상승 2",
+          "m": "음향가전 · 하락 3",
           "url": "https://shopping.naver.com/ns/search?query=%EB%B3%B4%EC%8A%A4%EC%9C%A0%EC%84%A0%EC%9D%B4%EC%96%B4%ED%8F%B0",
+          "tag": "buy"
+        },
+        {
+          "k": "번챔블럭",
+          "m": "완구/인형 · 신규",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%B2%88%EC%B1%94%EB%B8%94%EB%9F%AD",
+          "tag": "buy"
+        },
+        {
+          "k": "미닉스음식처리기",
+          "m": "주방가전 · 하락 4",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%AF%B8%EB%8B%89%EC%8A%A4%EC%9D%8C%EC%8B%9D%EC%B2%98%EB%A6%AC%EA%B8%B0",
+          "tag": "buy"
+        },
+        {
+          "k": "삼성akg이어폰",
+          "m": "음향가전 · 상승 2",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%82%BC%EC%84%B1akg%EC%9D%B4%EC%96%B4%ED%8F%B0",
+          "tag": "buy"
+        },
+        {
+          "k": "치이카와우사기",
+          "m": "패션소품 · 상승 4",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%EC%9A%B0%EC%82%AC%EA%B8%B0",
           "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-10-23T10:20:16.130+09:00",
+      "updated": "2026-10-23T16:19:37.171+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "김태원 재산 161억",
+          "k": "오세훈 정치자금법 무죄",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%83%9C%EC%9B%90%20%EC%9E%AC%EC%82%B0%20161%EC%96%B5"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%EC%A0%95%EC%B9%98%EC%9E%90%EA%B8%88%EB%B2%95%20%EB%AC%B4%EC%A3%84"
         },
         {
-          "k": "디티에스",
+          "k": "금융기관 AI 해킹",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%94%94%ED%8B%B0%EC%97%90%EC%8A%A4"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B8%88%EC%9C%B5%EA%B8%B0%EA%B4%80%20AI%20%ED%95%B4%ED%82%B9"
         },
         {
-          "k": "김미화 모친상 조문 사절",
+          "k": "KIA 홍건희 방출",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%AF%B8%ED%99%94%20%EB%AA%A8%EC%B9%9C%EC%83%81%20%EC%A1%B0%EB%AC%B8%20%EC%82%AC%EC%A0%88"
+          "url": "https://search.daum.net/search?w=tot&q=KIA%20%ED%99%8D%EA%B1%B4%ED%9D%AC%20%EB%B0%A9%EC%B6%9C"
         },
         {
-          "k": "오세훈 재판",
+          "k": "한화 진종길 영입",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%EC%9E%AC%ED%8C%90"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%ED%99%94%20%EC%A7%84%EC%A2%85%EA%B8%B8%20%EC%98%81%EC%9E%85"
         },
         {
-          "k": "나 혼자 산다 차우민 망원동",
+          "k": "실낙원",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%20%ED%98%BC%EC%9E%90%20%EC%82%B0%EB%8B%A4%20%EC%B0%A8%EC%9A%B0%EB%AF%BC%20%EB%A7%9D%EC%9B%90%EB%8F%99"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%A4%EB%82%99%EC%9B%90"
         },
         {
-          "k": "오윤아 재혼 웨딩드레스",
+          "k": "이재명 지지율",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%9C%A4%EC%95%84%20%EC%9E%AC%ED%98%BC%20%EC%9B%A8%EB%94%A9%EB%93%9C%EB%A0%88%EC%8A%A4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EC%A7%80%EC%A7%80%EC%9C%A8"
         },
         {
-          "k": "상강",
+          "k": "이태한 특검 중수청 방문",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%83%81%EA%B0%95"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%83%9C%ED%95%9C%20%ED%8A%B9%EA%B2%80%20%EC%A4%91%EC%88%98%EC%B2%AD%20%EB%B0%A9%EB%AC%B8"
         },
         {
-          "k": "이혜영 미국 대저택",
+          "k": "중국인 주택 증가",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%98%9C%EC%98%81%20%EB%AF%B8%EA%B5%AD%20%EB%8C%80%EC%A0%80%ED%83%9D"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A4%91%EA%B5%AD%EC%9D%B8%20%EC%A3%BC%ED%83%9D%20%EC%A6%9D%EA%B0%80"
         },
         {
-          "k": "나의 유죄인간",
+          "k": "국방부 군사회담",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EC%9D%98%20%EC%9C%A0%EC%A3%84%EC%9D%B8%EA%B0%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AD%EB%B0%A9%EB%B6%80%20%EA%B5%B0%EC%82%AC%ED%9A%8C%EB%8B%B4"
         },
         {
-          "k": "안성훈 송가인 우정",
+          "k": "구회근 판사",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%84%B1%ED%9B%88%20%EC%86%A1%EA%B0%80%EC%9D%B8%20%EC%9A%B0%EC%A0%95"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%ED%9A%8C%EA%B7%BC%20%ED%8C%90%EC%82%AC"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "독도",
+      "k": "상장지수 펀드",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "조재호",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "김미화",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "hd현대",
       "m": "검색량 1000+"
     },
     {
-      "k": "국민은행",
+      "k": "고종욱",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "토스뱅크",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "김광삼",
       "m": "검색량 500+"
     },
     {
-      "k": "하나은행",
+      "k": "기호일보",
       "m": "검색량 200+"
     },
     {
-      "k": "카드뉴스",
-      "m": "검색량 100+"
+      "k": "인플루언서",
+      "m": "검색량 500+"
     },
     {
-      "k": "디티에스",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "우리은행",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "포수",
-      "m": "검색량 10000+"
-    },
-    {
-      "k": "다음",
+      "k": "한고은",
       "m": "검색량 5000+"
-    },
-    {
-      "k": "줌",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "페이커 우표",
-      "m": "검색량 500+"
     }
   ]
 }
