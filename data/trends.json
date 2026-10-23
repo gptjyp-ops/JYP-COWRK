@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-22T22:19:25.940206+00:00",
-  "updated_kst": "2026년 10월 23일 07:19",
+  "updated_at": "2026-10-23T01:29:58.916928+00:00",
+  "updated_kst": "2026년 10월 23일 10:29",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "오현규",
+          "k": "독도",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "국민은행",
           "m": "검색량 500+"
         },
         {
-          "k": "spcx",
+          "k": "하나은행",
           "m": "검색량 200+"
         },
         {
-          "k": "พยากรณ์อากาศ",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "욕망의 덫",
+          "k": "카드뉴스",
           "m": "검색량 100+"
         },
         {
-          "k": "성리",
+          "k": "디티에스",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "우리은행",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "포수",
+          "m": "검색량 10000+"
+        },
+        {
+          "k": "다음",
+          "m": "검색량 5000+"
+        },
+        {
+          "k": "줌",
           "m": "검색량 100+"
         },
         {
-          "k": "교통",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "엘니뇨",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "sk하이닉스",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "경찰",
+          "k": "페이커 우표",
           "m": "검색량 500+"
-        },
-        {
-          "k": "한국경제신문사",
-          "m": "검색량 100+"
         }
       ]
     },
@@ -113,39 +113,39 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-23T07:16:00.445+09:00",
+      "updated": "2026-10-23T10:20:16.130+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "나스닥 2.6% 급락",
+          "k": "김태원 재산 161억",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EC%8A%A4%EB%8B%A5%202.6%25%20%EA%B8%89%EB%9D%BD"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%83%9C%EC%9B%90%20%EC%9E%AC%EC%82%B0%20161%EC%96%B5"
         },
         {
-          "k": "오세훈 항소심 선고",
+          "k": "디티에스",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%ED%95%AD%EC%86%8C%EC%8B%AC%20%EC%84%A0%EA%B3%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%94%94%ED%8B%B0%EC%97%90%EC%8A%A4"
         },
         {
-          "k": "김태원 재산 161억원",
+          "k": "김미화 모친상 조문 사절",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%83%9C%EC%9B%90%20%EC%9E%AC%EC%82%B0%20161%EC%96%B5%EC%9B%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%AF%B8%ED%99%94%20%EB%AA%A8%EC%B9%9C%EC%83%81%20%EC%A1%B0%EB%AC%B8%20%EC%82%AC%EC%A0%88"
         },
         {
-          "k": "김정은 이혼",
+          "k": "오세훈 재판",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A0%95%EC%9D%80%20%EC%9D%B4%ED%98%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%EC%9E%AC%ED%8C%90"
         },
         {
-          "k": "부산 지하철",
+          "k": "나 혼자 산다 차우민 망원동",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%80%EC%82%B0%20%EC%A7%80%ED%95%98%EC%B2%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%20%ED%98%BC%EC%9E%90%20%EC%82%B0%EB%8B%A4%20%EC%B0%A8%EC%9A%B0%EB%AF%BC%20%EB%A7%9D%EC%9B%90%EB%8F%99"
         },
         {
           "k": "오윤아 재혼 웨딩드레스",
@@ -160,22 +160,22 @@
           "url": "https://search.daum.net/search?w=tot&q=%EC%83%81%EA%B0%95"
         },
         {
-          "k": "은행 연체율 최고",
+          "k": "이혜영 미국 대저택",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%80%ED%96%89%20%EC%97%B0%EC%B2%B4%EC%9C%A8%20%EC%B5%9C%EA%B3%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%98%9C%EC%98%81%20%EB%AF%B8%EA%B5%AD%20%EB%8C%80%EC%A0%80%ED%83%9D"
         },
         {
-          "k": "시짱자치구",
+          "k": "나의 유죄인간",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%9C%EC%A7%B1%EC%9E%90%EC%B9%98%EA%B5%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EC%9D%98%20%EC%9C%A0%EC%A3%84%EC%9D%B8%EA%B0%84"
         },
         {
-          "k": "참피 예상경로",
+          "k": "안성훈 송가인 우정",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%B8%ED%94%BC%20%EC%98%88%EC%83%81%EA%B2%BD%EB%A1%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%84%B1%ED%9B%88%20%EC%86%A1%EA%B0%80%EC%9D%B8%20%EC%9A%B0%EC%A0%95"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "오현규",
+      "k": "독도",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "국민은행",
       "m": "검색량 500+"
     },
     {
-      "k": "spcx",
+      "k": "하나은행",
       "m": "검색량 200+"
     },
     {
-      "k": "พยากรณ์อากาศ",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "욕망의 덫",
+      "k": "카드뉴스",
       "m": "검색량 100+"
     },
     {
-      "k": "성리",
+      "k": "디티에스",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "우리은행",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "포수",
+      "m": "검색량 10000+"
+    },
+    {
+      "k": "다음",
+      "m": "검색량 5000+"
+    },
+    {
+      "k": "줌",
       "m": "검색량 100+"
     },
     {
-      "k": "교통",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "엘니뇨",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "sk하이닉스",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "경찰",
+      "k": "페이커 우표",
       "m": "검색량 500+"
-    },
-    {
-      "k": "한국경제신문사",
-      "m": "검색량 100+"
     }
   ]
 }
