@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-24T00:40:40.400168+00:00",
-  "updated_kst": "2026년 10월 24일 09:40",
+  "updated_at": "2026-10-24T05:51:26.594912+00:00",
+  "updated_kst": "2026년 10월 24일 14:51",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "cblol",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "대구 날씨",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "단체교섭",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "미래에셋증권",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "颱風動態",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "조세",
+          "k": "fc 서울 대 강원",
           "m": "검색량 2000+"
         },
         {
-          "k": "조선소",
+          "k": "안양 대 전북",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "인천 대 제주",
           "m": "검색량 1000+"
         },
         {
-          "k": "cfo",
+          "k": "낚시",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "삼성전기",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "김천상무 대 대전",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "노태문",
           "m": "검색량 200+"
         },
         {
-          "k": "서울날씨",
-          "m": "검색량 100000+"
+          "k": "lakers vs clippers",
+          "m": "검색량 100+"
         },
         {
-          "k": "선수",
+          "k": "성심당",
           "m": "검색량 500+"
+        },
+        {
+          "k": "신상출시 편스토랑",
+          "m": "검색량 200+"
         }
       ]
     },
@@ -113,113 +113,113 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-24T09:28:42.546+09:00",
+      "updated": "2026-10-24T14:49:08.807+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "전현무 리즈 모친 동갑",
-          "rank": 1,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%84%ED%98%84%EB%AC%B4%20%EB%A6%AC%EC%A6%88%20%EB%AA%A8%EC%B9%9C%20%EB%8F%99%EA%B0%91"
-        },
-        {
           "k": "손석구 최희서 은인",
-          "rank": 2,
+          "rank": 1,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%86%90%EC%84%9D%EA%B5%AC%20%EC%B5%9C%ED%9D%AC%EC%84%9C%20%EC%9D%80%EC%9D%B8"
         },
         {
-          "k": "오세훈 무죄",
+          "k": "최형우 전 내무장관 별세",
+          "rank": 2,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%95%EC%9A%B0%20%EC%A0%84%20%EB%82%B4%EB%AC%B4%EC%9E%A5%EA%B4%80%20%EB%B3%84%EC%84%B8"
+        },
+        {
+          "k": "기성용 성폭행 의혹 2심",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%EB%AC%B4%EC%A3%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B8%B0%EC%84%B1%EC%9A%A9%20%EC%84%B1%ED%8F%AD%ED%96%89%20%EC%9D%98%ED%98%B9%202%EC%8B%AC"
         },
         {
-          "k": "참피 예상경로",
+          "k": "삼성 김재윤 부상",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%B8%ED%94%BC%20%EC%98%88%EC%83%81%EA%B2%BD%EB%A1%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%82%BC%EC%84%B1%20%EA%B9%80%EC%9E%AC%EC%9C%A4%20%EB%B6%80%EC%83%81"
         },
         {
-          "k": "주우재 곽범 놀면뭐하니",
+          "k": "추미애 추모행사",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A3%BC%EC%9A%B0%EC%9E%AC%20%EA%B3%BD%EB%B2%94%20%EB%86%80%EB%A9%B4%EB%AD%90%ED%95%98%EB%8B%88"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B6%94%EB%AF%B8%EC%95%A0%20%EC%B6%94%EB%AA%A8%ED%96%89%EC%82%AC"
         },
         {
-          "k": "익산 국화축제",
+          "k": "오세훈 2심 무죄",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B5%EC%82%B0%20%EA%B5%AD%ED%99%94%EC%B6%95%EC%A0%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%202%EC%8B%AC%20%EB%AC%B4%EC%A3%84"
         },
         {
-          "k": "김천 김밥축제",
+          "k": "손석구 이라크 파병",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%B2%9C%20%EA%B9%80%EB%B0%A5%EC%B6%95%EC%A0%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%86%90%EC%84%9D%EA%B5%AC%20%EC%9D%B4%EB%9D%BC%ED%81%AC%20%ED%8C%8C%EB%B3%91"
         },
         {
-          "k": "KIA 방출",
+          "k": "이재명 지지율 회복",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=KIA%20%EB%B0%A9%EC%B6%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EC%A7%80%EC%A7%80%EC%9C%A8%20%ED%9A%8C%EB%B3%B5"
+        },
+        {
+          "k": "플레이오프 일정",
+          "rank": 9,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84%20%EC%9D%BC%EC%A0%95"
         },
         {
           "k": "원주 만두축제",
-          "rank": 9,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9B%90%EC%A3%BC%20%EB%A7%8C%EB%91%90%EC%B6%95%EC%A0%9C"
-        },
-        {
-          "k": "푸른길",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%91%B8%EB%A5%B8%EA%B8%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9B%90%EC%A3%BC%20%EB%A7%8C%EB%91%90%EC%B6%95%EC%A0%9C"
         }
       ]
     },
     "creator": {
-      "updated": "2026년 10월 14일",
+      "updated": "2026년 10월 23일",
       "items": [
         {
-          "k": "오가닉포에버",
+          "k": "25기 순자 영수 결혼",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "하정우 차정원 결혼",
+          "k": "양홍원 불륜설",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "a20 lite",
+          "k": "양홍원 불륜 주장 폭로자",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "오가닉포에버 박평순",
+          "k": "내새끼의연애3 이준수 전지우 첫 만남",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "배우 차정원",
+          "k": "양홍원 불륜 폭로, 계좌 잔고 공개",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "박평순",
+          "k": "여대생 할아버지 살해",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "하정우 차정원",
+          "k": "양홍원 바람",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "a20",
+          "k": "여대생 할아버지 사망",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "차정원 프로필",
+          "k": "저스틴 비버 내한",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "김용건, 하정우 차정원 결혼경사",
+          "k": "구회근 판사",
           "m": "실시간 인기 검색어"
         }
       ]
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "cblol",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "대구 날씨",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "단체교섭",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "미래에셋증권",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "颱風動態",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "조세",
+      "k": "fc 서울 대 강원",
       "m": "검색량 2000+"
     },
     {
-      "k": "조선소",
+      "k": "안양 대 전북",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "인천 대 제주",
       "m": "검색량 1000+"
     },
     {
-      "k": "cfo",
+      "k": "낚시",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "삼성전기",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "김천상무 대 대전",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "노태문",
       "m": "검색량 200+"
     },
     {
-      "k": "서울날씨",
-      "m": "검색량 100000+"
+      "k": "lakers vs clippers",
+      "m": "검색량 100+"
     },
     {
-      "k": "선수",
+      "k": "성심당",
       "m": "검색량 500+"
+    },
+    {
+      "k": "신상출시 편스토랑",
+      "m": "검색량 200+"
     }
   ]
 }
