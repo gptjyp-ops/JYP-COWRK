@@ -1,48 +1,48 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-24T14:31:13.898346+00:00",
-  "updated_kst": "2026년 10월 24일 23:31",
+  "updated_at": "2026-10-24T18:08:05.471070+00:00",
+  "updated_kst": "2026년 10월 25일 03:08",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "arsenal vs everton",
-          "m": "검색량 1000+"
+          "k": "볼카노프스키",
+          "m": "검색량 100+"
         },
         {
-          "k": "아우크스부르크 대 우니온 베를린",
+          "k": "chelsea vs spurs",
           "m": "검색량 500+"
         },
         {
-          "k": "연휴",
+          "k": "황희찬",
           "m": "검색량 2000+"
         },
         {
-          "k": "마인츠 05 대 베르더",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "라이프치히 대 엘버스베르크",
+          "k": "유영우",
           "m": "검색량 200+"
         },
         {
-          "k": "맨시티",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "아카데미상",
+          "k": "내 새끼의 연애",
           "m": "검색량 100+"
         },
         {
-          "k": "안효섭",
-          "m": "검색량 100+"
+          "k": "첼시 대 토트넘",
+          "m": "검색량 20000+"
         },
         {
-          "k": "루턴 타운 대 레스터 시티",
+          "k": "이재성",
           "m": "검색량 200+"
         },
         {
-          "k": "로또1247",
+          "k": "파이널 테이블",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "잠수교",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "아스날",
           "m": "검색량 500+"
         }
       ]
@@ -113,7 +113,7 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-24T23:28:11.343+09:00",
+      "updated": "2026-10-25T01:02:01.488+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
@@ -124,58 +124,58 @@
           "url": "https://search.daum.net/search?w=tot&q=%ED%8C%8C%EC%9D%B4%EB%84%90%20%ED%85%8C%EC%9D%B4%EB%B8%94"
         },
         {
-          "k": "김정은 왕후닝 회담",
+          "k": "최형우 조문",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A0%95%EC%9D%80%20%EC%99%95%ED%9B%84%EB%8B%9D%20%ED%9A%8C%EB%8B%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%95%EC%9A%B0%20%EC%A1%B0%EB%AC%B8"
         },
         {
-          "k": "홍화연 안효섭 돌발행동",
+          "k": "신천지",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%99%8D%ED%99%94%EC%97%B0%20%EC%95%88%ED%9A%A8%EC%84%AD%20%EB%8F%8C%EB%B0%9C%ED%96%89%EB%8F%99"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%A0%EC%B2%9C%EC%A7%80"
+        },
+        {
+          "k": "유영우 개그맨",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A0%EC%98%81%EC%9A%B0%20%EA%B0%9C%EA%B7%B8%EB%A7%A8"
         },
         {
           "k": "1247회 로또 당첨 번호",
-          "rank": 4,
+          "rank": 5,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=1247%ED%9A%8C%20%EB%A1%9C%EB%98%90%20%EB%8B%B9%EC%B2%A8%20%EB%B2%88%ED%98%B8"
         },
         {
-          "k": "최형우 전 내무부 장관 별세",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%95%EC%9A%B0%20%EC%A0%84%20%EB%82%B4%EB%AC%B4%EB%B6%80%20%EC%9E%A5%EA%B4%80%20%EB%B3%84%EC%84%B8"
-        },
-        {
-          "k": "전지적 참견 시점",
+          "k": "ufc",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%84%EC%A7%80%EC%A0%81%20%EC%B0%B8%EA%B2%AC%20%EC%8B%9C%EC%A0%90"
+          "url": "https://search.daum.net/search?w=tot&q=ufc"
         },
         {
-          "k": "그알",
+          "k": "국프와 514번의 처벌",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B7%B8%EC%95%8C"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AD%ED%94%84%EC%99%80%20514%EB%B2%88%EC%9D%98%20%EC%B2%98%EB%B2%8C"
         },
         {
-          "k": "박현호 은가은 둘째 임신",
+          "k": "안효섭 부모님 자동차 선물",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%ED%98%84%ED%98%B8%20%EC%9D%80%EA%B0%80%EC%9D%80%20%EB%91%98%EC%A7%B8%20%EC%9E%84%EC%8B%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%ED%9A%A8%EC%84%AD%20%EB%B6%80%EB%AA%A8%EB%8B%98%20%EC%9E%90%EB%8F%99%EC%B0%A8%20%EC%84%A0%EB%AC%BC"
         },
         {
-          "k": "김덕룡 장례위원장",
+          "k": "에이티즈 최산 집안 빚 청산",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%8D%95%EB%A3%A1%20%EC%9E%A5%EB%A1%80%EC%9C%84%EC%9B%90%EC%9E%A5"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%97%90%EC%9D%B4%ED%8B%B0%EC%A6%88%20%EC%B5%9C%EC%82%B0%20%EC%A7%91%EC%95%88%20%EB%B9%9A%20%EC%B2%AD%EC%82%B0"
         },
         {
-          "k": "ufc",
+          "k": "lpba",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=ufc"
+          "url": "https://search.daum.net/search?w=tot&q=lpba"
         }
       ]
     },
@@ -227,43 +227,43 @@
   },
   "items": [
     {
-      "k": "arsenal vs everton",
-      "m": "검색량 1000+"
+      "k": "볼카노프스키",
+      "m": "검색량 100+"
     },
     {
-      "k": "아우크스부르크 대 우니온 베를린",
+      "k": "chelsea vs spurs",
       "m": "검색량 500+"
     },
     {
-      "k": "연휴",
+      "k": "황희찬",
       "m": "검색량 2000+"
     },
     {
-      "k": "마인츠 05 대 베르더",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "라이프치히 대 엘버스베르크",
+      "k": "유영우",
       "m": "검색량 200+"
     },
     {
-      "k": "맨시티",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "아카데미상",
+      "k": "내 새끼의 연애",
       "m": "검색량 100+"
     },
     {
-      "k": "안효섭",
-      "m": "검색량 100+"
+      "k": "첼시 대 토트넘",
+      "m": "검색량 20000+"
     },
     {
-      "k": "루턴 타운 대 레스터 시티",
+      "k": "이재성",
       "m": "검색량 200+"
     },
     {
-      "k": "로또1247",
+      "k": "파이널 테이블",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "잠수교",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "아스날",
       "m": "검색량 500+"
     }
   ]
