@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-24T05:51:26.594912+00:00",
-  "updated_kst": "2026년 10월 24일 14:51",
+  "updated_at": "2026-10-24T10:57:52.578342+00:00",
+  "updated_kst": "2026년 10월 24일 19:57",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "fc 서울 대 강원",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "안양 대 전북",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "인천 대 제주",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "낚시",
+          "k": "정준하 아이스크림",
           "m": "검색량 500+"
         },
         {
-          "k": "삼성전기",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "김천상무 대 대전",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "노태문",
+          "k": "인플루엔자",
           "m": "검색량 200+"
         },
         {
-          "k": "lakers vs clippers",
+          "k": "니케 4주년",
           "m": "검색량 100+"
         },
         {
-          "k": "성심당",
-          "m": "검색량 500+"
+          "k": "부산항",
+          "m": "검색량 5000+"
         },
         {
-          "k": "신상출시 편스토랑",
+          "k": "붕어빵",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "호나우지뉴",
           "m": "검색량 200+"
+        },
+        {
+          "k": "오픈ai",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "김남춘",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "여객",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "설인아",
+          "m": "검색량 100+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-24T14:49:08.807+09:00",
+      "updated": "2026-10-24T19:50:13.142+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "손석구 최희서 은인",
+          "k": "이태원참사 4주기",
           "rank": 1,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%83%9C%EC%9B%90%EC%B0%B8%EC%82%AC%204%EC%A3%BC%EA%B8%B0"
+        },
+        {
+          "k": "경복궁 흥례문",
+          "rank": 2,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B2%BD%EB%B3%B5%EA%B6%81%20%ED%9D%A5%EB%A1%80%EB%AC%B8"
+        },
+        {
+          "k": "손석구 최희서 은인",
+          "rank": 3,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%86%90%EC%84%9D%EA%B5%AC%20%EC%B5%9C%ED%9D%AC%EC%84%9C%20%EC%9D%80%EC%9D%B8"
         },
         {
-          "k": "최형우 전 내무장관 별세",
-          "rank": 2,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%95%EC%9A%B0%20%EC%A0%84%20%EB%82%B4%EB%AC%B4%EC%9E%A5%EA%B4%80%20%EB%B3%84%EC%84%B8"
-        },
-        {
-          "k": "기성용 성폭행 의혹 2심",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B8%B0%EC%84%B1%EC%9A%A9%20%EC%84%B1%ED%8F%AD%ED%96%89%20%EC%9D%98%ED%98%B9%202%EC%8B%AC"
-        },
-        {
-          "k": "삼성 김재윤 부상",
+          "k": "푸른길",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%82%BC%EC%84%B1%20%EA%B9%80%EC%9E%AC%EC%9C%A4%20%EB%B6%80%EC%83%81"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%91%B8%EB%A5%B8%EA%B8%B8"
         },
         {
-          "k": "추미애 추모행사",
+          "k": "오세훈 무죄 판결",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B6%94%EB%AF%B8%EC%95%A0%20%EC%B6%94%EB%AA%A8%ED%96%89%EC%82%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%EB%AC%B4%EC%A3%84%20%ED%8C%90%EA%B2%B0"
         },
         {
-          "k": "오세훈 2심 무죄",
+          "k": "김연아 고우림",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%202%EC%8B%AC%20%EB%AC%B4%EC%A3%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%97%B0%EC%95%84%20%EA%B3%A0%EC%9A%B0%EB%A6%BC"
         },
         {
-          "k": "손석구 이라크 파병",
+          "k": "정준하 아이스크림",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%86%90%EC%84%9D%EA%B5%AC%20%EC%9D%B4%EB%9D%BC%ED%81%AC%20%ED%8C%8C%EB%B3%91"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%A4%80%ED%95%98%20%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC"
         },
         {
-          "k": "이재명 지지율 회복",
+          "k": "김정은 방중",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EC%A7%80%EC%A7%80%EC%9C%A8%20%ED%9A%8C%EB%B3%B5"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A0%95%EC%9D%80%20%EB%B0%A9%EC%A4%91"
         },
         {
-          "k": "플레이오프 일정",
+          "k": "김가은 윤선우 임신",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84%20%EC%9D%BC%EC%A0%95"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EA%B0%80%EC%9D%80%20%EC%9C%A4%EC%84%A0%EC%9A%B0%20%EC%9E%84%EC%8B%A0"
         },
         {
-          "k": "원주 만두축제",
+          "k": "최형우 전 내무부 장관 별세",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9B%90%EC%A3%BC%20%EB%A7%8C%EB%91%90%EC%B6%95%EC%A0%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%95%EC%9A%B0%20%EC%A0%84%20%EB%82%B4%EB%AC%B4%EB%B6%80%20%EC%9E%A5%EA%B4%80%20%EB%B3%84%EC%84%B8"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "fc 서울 대 강원",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "안양 대 전북",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "인천 대 제주",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "낚시",
+      "k": "정준하 아이스크림",
       "m": "검색량 500+"
     },
     {
-      "k": "삼성전기",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "김천상무 대 대전",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "노태문",
+      "k": "인플루엔자",
       "m": "검색량 200+"
     },
     {
-      "k": "lakers vs clippers",
+      "k": "니케 4주년",
       "m": "검색량 100+"
     },
     {
-      "k": "성심당",
-      "m": "검색량 500+"
+      "k": "부산항",
+      "m": "검색량 5000+"
     },
     {
-      "k": "신상출시 편스토랑",
+      "k": "붕어빵",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "호나우지뉴",
       "m": "검색량 200+"
+    },
+    {
+      "k": "오픈ai",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "김남춘",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "여객",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "설인아",
+      "m": "검색량 100+"
     }
   ]
 }
