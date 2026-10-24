@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-24T10:57:52.578342+00:00",
-  "updated_kst": "2026년 10월 24일 19:57",
+  "updated_at": "2026-10-24T14:31:13.898346+00:00",
+  "updated_kst": "2026년 10월 24일 23:31",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "정준하 아이스크림",
+          "k": "arsenal vs everton",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "아우크스부르크 대 우니온 베를린",
           "m": "검색량 500+"
         },
         {
-          "k": "인플루엔자",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "니케 4주년",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "부산항",
-          "m": "검색량 5000+"
-        },
-        {
-          "k": "붕어빵",
+          "k": "연휴",
           "m": "검색량 2000+"
         },
         {
-          "k": "호나우지뉴",
+          "k": "마인츠 05 대 베르더",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "라이프치히 대 엘버스베르크",
           "m": "검색량 200+"
         },
         {
-          "k": "오픈ai",
-          "m": "검색량 200+"
+          "k": "맨시티",
+          "m": "검색량 1000+"
         },
         {
-          "k": "김남춘",
+          "k": "아카데미상",
           "m": "검색량 100+"
         },
         {
-          "k": "여객",
+          "k": "안효섭",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "루턴 타운 대 레스터 시티",
           "m": "검색량 200+"
         },
         {
-          "k": "설인아",
-          "m": "검색량 100+"
+          "k": "로또1247",
+          "m": "검색량 500+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-24T19:50:13.142+09:00",
+      "updated": "2026-10-24T23:28:11.343+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "이태원참사 4주기",
+          "k": "파이널 테이블",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%83%9C%EC%9B%90%EC%B0%B8%EC%82%AC%204%EC%A3%BC%EA%B8%B0"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8C%8C%EC%9D%B4%EB%84%90%20%ED%85%8C%EC%9D%B4%EB%B8%94"
         },
         {
-          "k": "경복궁 흥례문",
+          "k": "김정은 왕후닝 회담",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B2%BD%EB%B3%B5%EA%B6%81%20%ED%9D%A5%EB%A1%80%EB%AC%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A0%95%EC%9D%80%20%EC%99%95%ED%9B%84%EB%8B%9D%20%ED%9A%8C%EB%8B%B4"
         },
         {
-          "k": "손석구 최희서 은인",
+          "k": "홍화연 안효섭 돌발행동",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%86%90%EC%84%9D%EA%B5%AC%20%EC%B5%9C%ED%9D%AC%EC%84%9C%20%EC%9D%80%EC%9D%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%99%8D%ED%99%94%EC%97%B0%20%EC%95%88%ED%9A%A8%EC%84%AD%20%EB%8F%8C%EB%B0%9C%ED%96%89%EB%8F%99"
         },
         {
-          "k": "푸른길",
+          "k": "1247회 로또 당첨 번호",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%91%B8%EB%A5%B8%EA%B8%B8"
-        },
-        {
-          "k": "오세훈 무죄 판결",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%EB%AC%B4%EC%A3%84%20%ED%8C%90%EA%B2%B0"
-        },
-        {
-          "k": "김연아 고우림",
-          "rank": 6,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%97%B0%EC%95%84%20%EA%B3%A0%EC%9A%B0%EB%A6%BC"
-        },
-        {
-          "k": "정준하 아이스크림",
-          "rank": 7,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%A4%80%ED%95%98%20%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC"
-        },
-        {
-          "k": "김정은 방중",
-          "rank": 8,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A0%95%EC%9D%80%20%EB%B0%A9%EC%A4%91"
-        },
-        {
-          "k": "김가은 윤선우 임신",
-          "rank": 9,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EA%B0%80%EC%9D%80%20%EC%9C%A4%EC%84%A0%EC%9A%B0%20%EC%9E%84%EC%8B%A0"
+          "url": "https://search.daum.net/search?w=tot&q=1247%ED%9A%8C%20%EB%A1%9C%EB%98%90%20%EB%8B%B9%EC%B2%A8%20%EB%B2%88%ED%98%B8"
         },
         {
           "k": "최형우 전 내무부 장관 별세",
-          "rank": 10,
+          "rank": 5,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%95%EC%9A%B0%20%EC%A0%84%20%EB%82%B4%EB%AC%B4%EB%B6%80%20%EC%9E%A5%EA%B4%80%20%EB%B3%84%EC%84%B8"
+        },
+        {
+          "k": "전지적 참견 시점",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%84%EC%A7%80%EC%A0%81%20%EC%B0%B8%EA%B2%AC%20%EC%8B%9C%EC%A0%90"
+        },
+        {
+          "k": "그알",
+          "rank": 7,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B7%B8%EC%95%8C"
+        },
+        {
+          "k": "박현호 은가은 둘째 임신",
+          "rank": 8,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%ED%98%84%ED%98%B8%20%EC%9D%80%EA%B0%80%EC%9D%80%20%EB%91%98%EC%A7%B8%20%EC%9E%84%EC%8B%A0"
+        },
+        {
+          "k": "김덕룡 장례위원장",
+          "rank": 9,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%8D%95%EB%A3%A1%20%EC%9E%A5%EB%A1%80%EC%9C%84%EC%9B%90%EC%9E%A5"
+        },
+        {
+          "k": "ufc",
+          "rank": 10,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=ufc"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "정준하 아이스크림",
+      "k": "arsenal vs everton",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "아우크스부르크 대 우니온 베를린",
       "m": "검색량 500+"
     },
     {
-      "k": "인플루엔자",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "니케 4주년",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "부산항",
-      "m": "검색량 5000+"
-    },
-    {
-      "k": "붕어빵",
+      "k": "연휴",
       "m": "검색량 2000+"
     },
     {
-      "k": "호나우지뉴",
+      "k": "마인츠 05 대 베르더",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "라이프치히 대 엘버스베르크",
       "m": "검색량 200+"
     },
     {
-      "k": "오픈ai",
-      "m": "검색량 200+"
+      "k": "맨시티",
+      "m": "검색량 1000+"
     },
     {
-      "k": "김남춘",
+      "k": "아카데미상",
       "m": "검색량 100+"
     },
     {
-      "k": "여객",
+      "k": "안효섭",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "루턴 타운 대 레스터 시티",
       "m": "검색량 200+"
     },
     {
-      "k": "설인아",
-      "m": "검색량 100+"
+      "k": "로또1247",
+      "m": "검색량 500+"
     }
   ]
 }
