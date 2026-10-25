@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-25T06:06:35.279932+00:00",
-  "updated_kst": "2026년 10월 25일 15:06",
+  "updated_at": "2026-10-25T11:25:22.674154+00:00",
+  "updated_kst": "2026년 10월 25일 20:25",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "이세웅",
+          "k": "한국여자프로골프협회",
           "m": "검색량 200+"
         },
         {
-          "k": "안성시",
+          "k": "도핑",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "닥터x: 하얀 마피아의 시대",
+          "m": "검색량 5000+"
+        },
+        {
+          "k": "축구 감독",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "충주시",
           "m": "검색량 200+"
         },
         {
-          "k": "서장훈",
-          "m": "검색량 2000+"
+          "k": "lig 디펜스&에어로스페이스",
+          "m": "검색량 200+"
         },
         {
-          "k": "석유",
-          "m": "검색량 500+"
+          "k": "스테이블코인",
+          "m": "검색량 200+"
         },
         {
-          "k": "노화",
-          "m": "검색량 500+"
+          "k": "설거지",
+          "m": "검색량 5000+"
         },
         {
-          "k": "배드민턴 프랑스오픈",
-          "m": "검색량 500+"
+          "k": "eng vs pak",
+          "m": "검색량 200+"
         },
         {
-          "k": "크리스티아누 호날두",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "자산",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "kia 대 삼성",
-          "m": "검색량 100000+"
-        },
-        {
-          "k": "사고",
-          "m": "검색량 2000+"
+          "k": "택시",
+          "m": "검색량 1000+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-25T14:59:29.927+09:00",
+      "updated": "2026-10-25T20:20:50.353+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "파이널 테이블",
+          "k": "한국 경상흑자 사상 최대",
           "rank": 1,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%EA%B5%AD%20%EA%B2%BD%EC%83%81%ED%9D%91%EC%9E%90%20%EC%82%AC%EC%83%81%20%EC%B5%9C%EB%8C%80"
+        },
+        {
+          "k": "삼성 개막 8연승",
+          "rank": 2,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%82%BC%EC%84%B1%20%EA%B0%9C%EB%A7%89%208%EC%97%B0%EC%8A%B9"
+        },
+        {
+          "k": "박진영 배우",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%A7%84%EC%98%81%20%EB%B0%B0%EC%9A%B0"
+        },
+        {
+          "k": "파이널 테이블",
+          "rank": 4,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%ED%8C%8C%EC%9D%B4%EB%84%90%20%ED%85%8C%EC%9D%B4%EB%B8%94"
         },
         {
-          "k": "이상대 당구선수",
-          "rank": 2,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%83%81%EB%8C%80%20%EB%8B%B9%EA%B5%AC%EC%84%A0%EC%88%98"
-        },
-        {
-          "k": "가상자산 과세 유예",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0%20%EA%B3%BC%EC%84%B8%20%EC%9C%A0%EC%98%88"
-        },
-        {
-          "k": "제주 태풍 참피",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%9C%EC%A3%BC%20%ED%83%9C%ED%92%8D%20%EC%B0%B8%ED%94%BC"
-        },
-        {
-          "k": "에이티즈 북부대공 최산",
+          "k": "최형우 전 내무장관 별세",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%97%90%EC%9D%B4%ED%8B%B0%EC%A6%88%20%EB%B6%81%EB%B6%80%EB%8C%80%EA%B3%B5%20%EC%B5%9C%EC%82%B0"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%95%EC%9A%B0%20%EC%A0%84%20%EB%82%B4%EB%AC%B4%EC%9E%A5%EA%B4%80%20%EB%B3%84%EC%84%B8"
         },
         {
-          "k": "법무장관 후보",
+          "k": "참피 예상경로",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B2%95%EB%AC%B4%EC%9E%A5%EA%B4%80%20%ED%9B%84%EB%B3%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%B8%ED%94%BC%20%EC%98%88%EC%83%81%EA%B2%BD%EB%A1%9C"
         },
         {
-          "k": "춘천 마라톤",
+          "k": "안세영 신두 결승 중계",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B6%98%EC%B2%9C%20%EB%A7%88%EB%9D%BC%ED%86%A4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%84%B8%EC%98%81%20%EC%8B%A0%EB%91%90%20%EA%B2%B0%EC%8A%B9%20%EC%A4%91%EA%B3%84"
         },
         {
-          "k": "유해란 BMW 챔피언십",
+          "k": "런닝맨",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A0%ED%95%B4%EB%9E%80%20BMW%20%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%9F%B0%EB%8B%9D%EB%A7%A8"
         },
         {
-          "k": "브라질 대선",
+          "k": "로또1247회 당첨 번호",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B8%8C%EB%9D%BC%EC%A7%88%20%EB%8C%80%EC%84%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%A1%9C%EB%98%901247%ED%9A%8C%20%EB%8B%B9%EC%B2%A8%20%EB%B2%88%ED%98%B8"
         },
         {
-          "k": "구본길 은퇴",
+          "k": "오바마 트럼프 맞불 유세",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%EB%B3%B8%EA%B8%B8%20%EC%9D%80%ED%87%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EB%B0%94%EB%A7%88%20%ED%8A%B8%EB%9F%BC%ED%94%84%20%EB%A7%9E%EB%B6%88%20%EC%9C%A0%EC%84%B8"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "이세웅",
+      "k": "한국여자프로골프협회",
       "m": "검색량 200+"
     },
     {
-      "k": "안성시",
+      "k": "도핑",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "닥터x: 하얀 마피아의 시대",
+      "m": "검색량 5000+"
+    },
+    {
+      "k": "축구 감독",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "충주시",
       "m": "검색량 200+"
     },
     {
-      "k": "서장훈",
-      "m": "검색량 2000+"
+      "k": "lig 디펜스&에어로스페이스",
+      "m": "검색량 200+"
     },
     {
-      "k": "석유",
-      "m": "검색량 500+"
+      "k": "스테이블코인",
+      "m": "검색량 200+"
     },
     {
-      "k": "노화",
-      "m": "검색량 500+"
+      "k": "설거지",
+      "m": "검색량 5000+"
     },
     {
-      "k": "배드민턴 프랑스오픈",
-      "m": "검색량 500+"
+      "k": "eng vs pak",
+      "m": "검색량 200+"
     },
     {
-      "k": "크리스티아누 호날두",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "자산",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "kia 대 삼성",
-      "m": "검색량 100000+"
-    },
-    {
-      "k": "사고",
-      "m": "검색량 2000+"
+      "k": "택시",
+      "m": "검색량 1000+"
     }
   ]
 }
