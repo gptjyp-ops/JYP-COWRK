@@ -1,48 +1,48 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-25T11:25:22.674154+00:00",
-  "updated_kst": "2026년 10월 25일 20:25",
+  "updated_at": "2026-10-25T16:16:02.549857+00:00",
+  "updated_kst": "2026년 10월 26일 01:16",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "한국여자프로골프협회",
+          "k": "분만",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "pl",
           "m": "검색량 200+"
         },
         {
-          "k": "도핑",
+          "k": "셀타 비고 대 레알 베티스",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "남양주시",
           "m": "검색량 100+"
         },
         {
-          "k": "닥터x: 하얀 마피아의 시대",
-          "m": "검색량 5000+"
-        },
-        {
-          "k": "축구 감독",
+          "k": "epl",
           "m": "검색량 1000+"
         },
         {
-          "k": "충주시",
+          "k": "리버풀",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "fotmob",
           "m": "검색량 200+"
         },
         {
-          "k": "lig 디펜스&에어로스페이스",
+          "k": "ลิเวอร์พูล พบ ไบรตัน",
           "m": "검색량 200+"
         },
         {
-          "k": "스테이블코인",
+          "k": "테일러 프리츠",
           "m": "검색량 200+"
         },
         {
-          "k": "설거지",
-          "m": "검색량 5000+"
-        },
-        {
-          "k": "eng vs pak",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "택시",
+          "k": "liverpool vs brighton",
           "m": "검색량 1000+"
         }
       ]
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-25T20:20:50.353+09:00",
+      "updated": "2026-10-26T01:01:23.932+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "한국 경상흑자 사상 최대",
+          "k": "김보미 LPBA 결승전",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%EA%B5%AD%20%EA%B2%BD%EC%83%81%ED%9D%91%EC%9E%90%20%EC%82%AC%EC%83%81%20%EC%B5%9C%EB%8C%80"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%B3%B4%EB%AF%B8%20LPBA%20%EA%B2%B0%EC%8A%B9%EC%A0%84"
         },
         {
-          "k": "삼성 개막 8연승",
+          "k": "이영현 33kg 감량",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%82%BC%EC%84%B1%20%EA%B0%9C%EB%A7%89%208%EC%97%B0%EC%8A%B9"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%98%81%ED%98%84%2033kg%20%EA%B0%90%EB%9F%89"
         },
         {
-          "k": "박진영 배우",
+          "k": "미운우리새끼 윤미라 미혼",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%A7%84%EC%98%81%20%EB%B0%B0%EC%9A%B0"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%B8%EC%9A%B4%EC%9A%B0%EB%A6%AC%EC%83%88%EB%81%BC%20%EC%9C%A4%EB%AF%B8%EB%9D%BC%20%EB%AF%B8%ED%98%BC"
         },
         {
-          "k": "파이널 테이블",
+          "k": "최형우 전 장관 별세",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%8C%8C%EC%9D%B4%EB%84%90%20%ED%85%8C%EC%9D%B4%EB%B8%94"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%95%EC%9A%B0%20%EC%A0%84%20%EC%9E%A5%EA%B4%80%20%EB%B3%84%EC%84%B8"
         },
         {
-          "k": "최형우 전 내무장관 별세",
+          "k": "천천히 강렬하게",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%95%EC%9A%B0%20%EC%A0%84%20%EB%82%B4%EB%AC%B4%EC%9E%A5%EA%B4%80%20%EB%B3%84%EC%84%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B2%9C%EC%B2%9C%ED%9E%88%20%EA%B0%95%EB%A0%AC%ED%95%98%EA%B2%8C"
         },
         {
-          "k": "참피 예상경로",
+          "k": "임정숙 당구선수",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%B8%ED%94%BC%20%EC%98%88%EC%83%81%EA%B2%BD%EB%A1%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%84%EC%A0%95%EC%88%99%20%EB%8B%B9%EA%B5%AC%EC%84%A0%EC%88%98"
         },
         {
-          "k": "안세영 신두 결승 중계",
+          "k": "정준하 아이스크림",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%84%B8%EC%98%81%20%EC%8B%A0%EB%91%90%20%EA%B2%B0%EC%8A%B9%20%EC%A4%91%EA%B3%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%A4%80%ED%95%98%20%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC"
         },
         {
-          "k": "런닝맨",
+          "k": "양부남 법무장관 후보",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%9F%B0%EB%8B%9D%EB%A7%A8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%96%91%EB%B6%80%EB%82%A8%20%EB%B2%95%EB%AC%B4%EC%9E%A5%EA%B4%80%20%ED%9B%84%EB%B3%B4"
         },
         {
-          "k": "로또1247회 당첨 번호",
+          "k": "모레노 감독",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%A1%9C%EB%98%901247%ED%9A%8C%20%EB%8B%B9%EC%B2%A8%20%EB%B2%88%ED%98%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%AA%A8%EB%A0%88%EB%85%B8%20%EA%B0%90%EB%8F%85"
         },
         {
-          "k": "오바마 트럼프 맞불 유세",
+          "k": "자주포",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EB%B0%94%EB%A7%88%20%ED%8A%B8%EB%9F%BC%ED%94%84%20%EB%A7%9E%EB%B6%88%20%EC%9C%A0%EC%84%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%90%EC%A3%BC%ED%8F%AC"
         }
       ]
     },
@@ -227,43 +227,43 @@
   },
   "items": [
     {
-      "k": "한국여자프로골프협회",
+      "k": "분만",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "pl",
       "m": "검색량 200+"
     },
     {
-      "k": "도핑",
+      "k": "셀타 비고 대 레알 베티스",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "남양주시",
       "m": "검색량 100+"
     },
     {
-      "k": "닥터x: 하얀 마피아의 시대",
-      "m": "검색량 5000+"
-    },
-    {
-      "k": "축구 감독",
+      "k": "epl",
       "m": "검색량 1000+"
     },
     {
-      "k": "충주시",
+      "k": "리버풀",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "fotmob",
       "m": "검색량 200+"
     },
     {
-      "k": "lig 디펜스&에어로스페이스",
+      "k": "ลิเวอร์พูล พบ ไบรตัน",
       "m": "검색량 200+"
     },
     {
-      "k": "스테이블코인",
+      "k": "테일러 프리츠",
       "m": "검색량 200+"
     },
     {
-      "k": "설거지",
-      "m": "검색량 5000+"
-    },
-    {
-      "k": "eng vs pak",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "택시",
+      "k": "liverpool vs brighton",
       "m": "검색량 1000+"
     }
   ]
