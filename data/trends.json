@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-26T06:11:33.442730+00:00",
-  "updated_kst": "2026년 10월 26일 15:11",
+  "updated_at": "2026-10-26T12:59:26.701785+00:00",
+  "updated_kst": "2026년 10월 26일 21:59",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "나솔",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "불가리아",
+          "k": "박민",
           "m": "검색량 200+"
         },
         {
-          "k": "보트",
+          "k": "ai 버블",
           "m": "검색량 200+"
         },
         {
-          "k": "부캉이 이모티콘",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "dl이앤씨",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "윤하",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "공장",
+          "k": "대한전선",
           "m": "검색량 100+"
         },
         {
-          "k": "알렉산더 볼카노프스키",
+          "k": "보스턴 다이내믹스",
           "m": "검색량 200+"
         },
         {
-          "k": "홍수",
+          "k": "모노레일",
           "m": "검색량 200+"
         },
         {
-          "k": "홈플러스",
-          "m": "검색량 2000+"
+          "k": "김성윤",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "부산대학교",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "울산 웨일즈",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "불꽃야구",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "일본 프로 야구",
+          "m": "검색량 100+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-26T15:07:56.523+09:00",
+      "updated": "2026-10-26T21:53:54.823+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "롯데 이택근 단장 선임",
+          "k": "트루디 이대은 부부갈등",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%A1%AF%EB%8D%B0%20%EC%9D%B4%ED%83%9D%EA%B7%BC%20%EB%8B%A8%EC%9E%A5%20%EC%84%A0%EC%9E%84"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B8%EB%A3%A8%EB%94%94%20%EC%9D%B4%EB%8C%80%EC%9D%80%20%EB%B6%80%EB%B6%80%EA%B0%88%EB%93%B1"
         },
         {
-          "k": "100일의 거짓말 감우성 사망",
+          "k": "박민 포구 실책",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90%20%EA%B0%90%EC%9A%B0%EC%84%B1%20%EC%82%AC%EB%A7%9D"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EB%AF%BC%20%ED%8F%AC%EA%B5%AC%20%EC%8B%A4%EC%B1%85"
         },
         {
-          "k": "아일릿 체포하겠어",
+          "k": "브라질 대선",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EC%9D%BC%EB%A6%BF%20%EC%B2%B4%ED%8F%AC%ED%95%98%EA%B2%A0%EC%96%B4"
-        },
-        {
-          "k": "홈플러스 단전 위기",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EB%8B%A8%EC%A0%84%20%EC%9C%84%EA%B8%B0"
-        },
-        {
-          "k": "박정희 추모식",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%A0%95%ED%9D%AC%20%EC%B6%94%EB%AA%A8%EC%8B%9D"
-        },
-        {
-          "k": "롯데 이동욱 감독 선임",
-          "rank": 6,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%A1%AF%EB%8D%B0%20%EC%9D%B4%EB%8F%99%EC%9A%B1%20%EA%B0%90%EB%8F%85%20%EC%84%A0%EC%9E%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B8%8C%EB%9D%BC%EC%A7%88%20%EB%8C%80%EC%84%A0"
         },
         {
           "k": "기아 삼성",
-          "rank": 7,
+          "rank": 4,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EA%B8%B0%EC%95%84%20%EC%82%BC%EC%84%B1"
         },
         {
-          "k": "룰라 4선 당선",
+          "k": "오세훈 무죄",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%EB%AC%B4%EC%A3%84"
+        },
+        {
+          "k": "오은영 리포트 - 결혼 지옥",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%9D%80%EC%98%81%20%EB%A6%AC%ED%8F%AC%ED%8A%B8%20-%20%EA%B2%B0%ED%98%BC%20%EC%A7%80%EC%98%A5"
+        },
+        {
+          "k": "말자쇼",
+          "rank": 7,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%A7%90%EC%9E%90%EC%87%BC"
+        },
+        {
+          "k": "곽도규 야구선수",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%A3%B0%EB%9D%BC%204%EC%84%A0%20%EB%8B%B9%EC%84%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B3%BD%EB%8F%84%EA%B7%9C%20%EC%95%BC%EA%B5%AC%EC%84%A0%EC%88%98"
         },
         {
-          "k": "김새론 모친 검찰 송치",
+          "k": "룰라 대통령",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%83%88%EB%A1%A0%20%EB%AA%A8%EC%B9%9C%20%EA%B2%80%EC%B0%B0%20%EC%86%A1%EC%B9%98"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%A3%B0%EB%9D%BC%20%EB%8C%80%ED%86%B5%EB%A0%B9"
         },
         {
-          "k": "허각 갑상선암 투병",
+          "k": "30대여성 철책 절단",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%97%88%EA%B0%81%20%EA%B0%91%EC%83%81%EC%84%A0%EC%95%94%20%ED%88%AC%EB%B3%91"
+          "url": "https://search.daum.net/search?w=tot&q=30%EB%8C%80%EC%97%AC%EC%84%B1%20%EC%B2%A0%EC%B1%85%20%EC%A0%88%EB%8B%A8"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "나솔",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "불가리아",
+      "k": "박민",
       "m": "검색량 200+"
     },
     {
-      "k": "보트",
+      "k": "ai 버블",
       "m": "검색량 200+"
     },
     {
-      "k": "부캉이 이모티콘",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "dl이앤씨",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "윤하",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "공장",
+      "k": "대한전선",
       "m": "검색량 100+"
     },
     {
-      "k": "알렉산더 볼카노프스키",
+      "k": "보스턴 다이내믹스",
       "m": "검색량 200+"
     },
     {
-      "k": "홍수",
+      "k": "모노레일",
       "m": "검색량 200+"
     },
     {
-      "k": "홈플러스",
-      "m": "검색량 2000+"
+      "k": "김성윤",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "부산대학교",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "울산 웨일즈",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "불꽃야구",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "일본 프로 야구",
+      "m": "검색량 100+"
     }
   ]
 }
