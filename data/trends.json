@@ -1,65 +1,59 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-26T00:22:13.700752+00:00",
-  "updated_kst": "2026년 10월 26일 09:22",
+  "updated_at": "2026-10-26T06:11:33.442730+00:00",
+  "updated_kst": "2026년 10월 26일 15:11",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "오클라호마시티 대 la 클리퍼스",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "치매",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "thứ hạng của barcelona gặp real madrid",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "барселона – реал мадрид турнирная таблица",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "김연경",
+          "k": "나솔",
           "m": "검색량 2000+"
         },
         {
-          "k": "열병합발전소",
+          "k": "불가리아",
           "m": "검색량 200+"
         },
         {
-          "k": "베트남",
+          "k": "보트",
           "m": "검색량 200+"
         },
         {
-          "k": "이건희",
+          "k": "부캉이 이모티콘",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "dl이앤씨",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "윤하",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "공장",
           "m": "검색량 100+"
         },
         {
-          "k": "klasemen fc barcelona vs real madrid",
+          "k": "알렉산더 볼카노프스키",
           "m": "검색량 200+"
         },
         {
-          "k": "롯데백화점",
+          "k": "홍수",
           "m": "검색량 200+"
+        },
+        {
+          "k": "홈플러스",
+          "m": "검색량 2000+"
         }
       ]
     },
     "shopping": {
-      "updated": "20261022",
+      "updated": "20261025",
       "items": [
         {
           "k": "너구링",
           "m": "스낵/과자 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EB%84%88%EA%B5%AC%EB%A7%81",
-          "tag": "buy"
-        },
-        {
-          "k": "메디올가",
-          "m": "스킨케어 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%A9%94%EB%94%94%EC%98%AC%EA%B0%80",
           "tag": "buy"
         },
         {
@@ -70,112 +64,118 @@
         },
         {
           "k": "치이카와쿠키",
-          "m": "스낵/과자 · 하락 1",
+          "m": "스낵/과자 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%EC%BF%A0%ED%82%A4",
           "tag": "buy"
         },
         {
-          "k": "황칠환",
-          "m": "건강식품 · 하락 3",
-          "url": "https://shopping.naver.com/ns/search?query=%ED%99%A9%EC%B9%A0%ED%99%98",
-          "tag": "buy"
-        },
-        {
-          "k": "보스유선이어폰",
-          "m": "음향가전 · 하락 3",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%B3%B4%EC%8A%A4%EC%9C%A0%EC%84%A0%EC%9D%B4%EC%96%B4%ED%8F%B0",
-          "tag": "buy"
-        },
-        {
-          "k": "번챔블럭",
-          "m": "완구/인형 · 신규",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%B2%88%EC%B1%94%EB%B8%94%EB%9F%AD",
-          "tag": "buy"
-        },
-        {
           "k": "미닉스음식처리기",
-          "m": "주방가전 · 하락 4",
+          "m": "주방가전 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EB%AF%B8%EB%8B%89%EC%8A%A4%EC%9D%8C%EC%8B%9D%EC%B2%98%EB%A6%AC%EA%B8%B0",
           "tag": "buy"
         },
         {
-          "k": "삼성akg이어폰",
+          "k": "게임용헤드셋",
           "m": "음향가전 · 상승 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%82%BC%EC%84%B1akg%EC%9D%B4%EC%96%B4%ED%8F%B0",
+          "url": "https://shopping.naver.com/ns/search?query=%EA%B2%8C%EC%9E%84%EC%9A%A9%ED%97%A4%EB%93%9C%EC%85%8B",
           "tag": "buy"
         },
         {
-          "k": "치이카와우사기",
+          "k": "메디올가",
+          "m": "스킨케어 · 하락 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%A9%94%EB%94%94%EC%98%AC%EA%B0%80",
+          "tag": "buy"
+        },
+        {
+          "k": "게임용키보드마우스",
+          "m": "주변기기 · 상승 2",
+          "url": "https://shopping.naver.com/ns/search?query=%EA%B2%8C%EC%9E%84%EC%9A%A9%ED%82%A4%EB%B3%B4%EB%93%9C%EB%A7%88%EC%9A%B0%EC%8A%A4",
+          "tag": "buy"
+        },
+        {
+          "k": "치이카와포켓",
           "m": "패션소품 · 상승 4",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%EC%9A%B0%EC%82%AC%EA%B8%B0",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%ED%8F%AC%EC%BC%93",
+          "tag": "buy"
+        },
+        {
+          "k": "보스유선이어폰",
+          "m": "음향가전 · 상승 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%B3%B4%EC%8A%A4%EC%9C%A0%EC%84%A0%EC%9D%B4%EC%96%B4%ED%8F%B0",
+          "tag": "buy"
+        },
+        {
+          "k": "3m보안경",
+          "m": "공구 · 상승 3",
+          "url": "https://shopping.naver.com/ns/search?query=3m%EB%B3%B4%EC%95%88%EA%B2%BD",
           "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-10-26T09:17:10.835+09:00",
+      "updated": "2026-10-26T15:07:56.523+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "브라질 대선",
+          "k": "롯데 이택근 단장 선임",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B8%8C%EB%9D%BC%EC%A7%88%20%EB%8C%80%EC%84%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%A1%AF%EB%8D%B0%20%EC%9D%B4%ED%83%9D%EA%B7%BC%20%EB%8B%A8%EC%9E%A5%20%EC%84%A0%EC%9E%84"
         },
         {
-          "k": "SKT AI 거버넌스 리포트",
+          "k": "100일의 거짓말 감우성 사망",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=SKT%20AI%20%EA%B1%B0%EB%B2%84%EB%84%8C%EC%8A%A4%20%EB%A6%AC%ED%8F%AC%ED%8A%B8"
+          "url": "https://search.daum.net/search?w=tot&q=100%EC%9D%BC%EC%9D%98%20%EA%B1%B0%EC%A7%93%EB%A7%90%20%EA%B0%90%EC%9A%B0%EC%84%B1%20%EC%82%AC%EB%A7%9D"
         },
         {
-          "k": "삼성SDI ESS 공급",
+          "k": "아일릿 체포하겠어",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%82%BC%EC%84%B1SDI%20ESS%20%EA%B3%B5%EA%B8%89"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EC%9D%BC%EB%A6%BF%20%EC%B2%B4%ED%8F%AC%ED%95%98%EA%B2%A0%EC%96%B4"
         },
         {
-          "k": "이호철 어머니 관계 단절",
+          "k": "홈플러스 단전 위기",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%98%B8%EC%B2%A0%20%EC%96%B4%EB%A8%B8%EB%8B%88%20%EA%B4%80%EA%B3%84%20%EB%8B%A8%EC%A0%88"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EB%8B%A8%EC%A0%84%20%EC%9C%84%EA%B8%B0"
         },
         {
-          "k": "대통령 지지율 하락",
+          "k": "박정희 추모식",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%8C%80%ED%86%B5%EB%A0%B9%20%EC%A7%80%EC%A7%80%EC%9C%A8%20%ED%95%98%EB%9D%BD"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%A0%95%ED%9D%AC%20%EC%B6%94%EB%AA%A8%EC%8B%9D"
         },
         {
-          "k": "네이버 명명권 확보",
+          "k": "롯데 이동욱 감독 선임",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%84%A4%EC%9D%B4%EB%B2%84%20%EB%AA%85%EB%AA%85%EA%B6%8C%20%ED%99%95%EB%B3%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%A1%AF%EB%8D%B0%20%EC%9D%B4%EB%8F%99%EC%9A%B1%20%EA%B0%90%EB%8F%85%20%EC%84%A0%EC%9E%84"
         },
         {
-          "k": "추미애 소방 재원",
+          "k": "기아 삼성",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B6%94%EB%AF%B8%EC%95%A0%20%EC%86%8C%EB%B0%A9%20%EC%9E%AC%EC%9B%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B8%B0%EC%95%84%20%EC%82%BC%EC%84%B1"
         },
         {
-          "k": "윤미라 남편 외도 발언",
+          "k": "룰라 4선 당선",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A4%EB%AF%B8%EB%9D%BC%20%EB%82%A8%ED%8E%B8%20%EC%99%B8%EB%8F%84%20%EB%B0%9C%EC%96%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%A3%B0%EB%9D%BC%204%EC%84%A0%20%EB%8B%B9%EC%84%A0"
         },
         {
-          "k": "레알 엘클라시코 승리",
+          "k": "김새론 모친 검찰 송치",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%A0%88%EC%95%8C%20%EC%97%98%ED%81%B4%EB%9D%BC%EC%8B%9C%EC%BD%94%20%EC%8A%B9%EB%A6%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%83%88%EB%A1%A0%20%EB%AA%A8%EC%B9%9C%20%EA%B2%80%EC%B0%B0%20%EC%86%A1%EC%B9%98"
         },
         {
-          "k": "김보미 LPBA 첫 우승",
+          "k": "허각 갑상선암 투병",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%B3%B4%EB%AF%B8%20LPBA%20%EC%B2%AB%20%EC%9A%B0%EC%8A%B9"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%97%88%EA%B0%81%20%EA%B0%91%EC%83%81%EC%84%A0%EC%95%94%20%ED%88%AC%EB%B3%91"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "오클라호마시티 대 la 클리퍼스",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "치매",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "thứ hạng của barcelona gặp real madrid",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "барселона – реал мадрид турнирная таблица",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "김연경",
+      "k": "나솔",
       "m": "검색량 2000+"
     },
     {
-      "k": "열병합발전소",
+      "k": "불가리아",
       "m": "검색량 200+"
     },
     {
-      "k": "베트남",
+      "k": "보트",
       "m": "검색량 200+"
     },
     {
-      "k": "이건희",
+      "k": "부캉이 이모티콘",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "dl이앤씨",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "윤하",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "공장",
       "m": "검색량 100+"
     },
     {
-      "k": "klasemen fc barcelona vs real madrid",
+      "k": "알렉산더 볼카노프스키",
       "m": "검색량 200+"
     },
     {
-      "k": "롯데백화점",
+      "k": "홍수",
       "m": "검색량 200+"
+    },
+    {
+      "k": "홈플러스",
+      "m": "검색량 2000+"
     }
   ]
 }
