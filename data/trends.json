@@ -1,54 +1,54 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-27T05:01:44.023707+00:00",
-  "updated_kst": "2026년 10월 27일 14:01",
+  "updated_at": "2026-10-27T10:32:08.869713+00:00",
+  "updated_kst": "2026년 10월 27일 19:32",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "강남대로",
-          "m": "검색량 500+"
+          "k": "리그 오브 레전드 월드 챔피언십",
+          "m": "검색량 2000+"
         },
         {
-          "k": "양산시",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "hd현대중공업",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "자산",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "교도관",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "양서류",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "이상순",
+          "k": "후라도",
           "m": "검색량 1000+"
         },
         {
-          "k": "제민일보",
+          "k": "연차",
           "m": "검색량 500+"
         },
         {
-          "k": "이마트",
-          "m": "검색량 1000+"
+          "k": "대전 대 비셀 고베",
+          "m": "검색량 2000+"
         },
         {
-          "k": "데블스플랜3",
+          "k": "의성군",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "타짜",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "한국경제",
+          "m": "검색량 10000+"
+        },
+        {
+          "k": "중위소득",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "원태인",
           "m": "검색량 100+"
+        },
+        {
+          "k": "암",
+          "m": "검색량 10000+"
         }
       ]
     },
     "shopping": {
-      "updated": "20261025",
+      "updated": "20261026",
       "items": [
         {
           "k": "너구링",
@@ -58,124 +58,124 @@
         },
         {
           "k": "k2알파카",
-          "m": "등산 · 상승 1",
+          "m": "등산 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=k2%EC%95%8C%ED%8C%8C%EC%B9%B4",
           "tag": "buy"
         },
         {
           "k": "치이카와쿠키",
-          "m": "스낵/과자 · 유지",
+          "m": "스낵/과자 · 상승 1",
           "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%EC%BF%A0%ED%82%A4",
           "tag": "buy"
         },
         {
           "k": "미닉스음식처리기",
-          "m": "주방가전 · 유지",
+          "m": "주방가전 · 상승 1",
           "url": "https://shopping.naver.com/ns/search?query=%EB%AF%B8%EB%8B%89%EC%8A%A4%EC%9D%8C%EC%8B%9D%EC%B2%98%EB%A6%AC%EA%B8%B0",
           "tag": "buy"
         },
         {
           "k": "게임용헤드셋",
-          "m": "음향가전 · 상승 2",
+          "m": "음향가전 · 상승 1",
           "url": "https://shopping.naver.com/ns/search?query=%EA%B2%8C%EC%9E%84%EC%9A%A9%ED%97%A4%EB%93%9C%EC%85%8B",
           "tag": "buy"
         },
         {
-          "k": "메디올가",
-          "m": "스킨케어 · 하락 1",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%A9%94%EB%94%94%EC%98%AC%EA%B0%80",
+          "k": "한성양면감자칼",
+          "m": "주방용품 · 인기",
+          "url": "https://shopping.naver.com/ns/search?query=%ED%95%9C%EC%84%B1%EC%96%91%EB%A9%B4%EA%B0%90%EC%9E%90%EC%B9%BC",
           "tag": "buy"
         },
         {
           "k": "게임용키보드마우스",
-          "m": "주변기기 · 상승 2",
+          "m": "주변기기 · 상승 1",
           "url": "https://shopping.naver.com/ns/search?query=%EA%B2%8C%EC%9E%84%EC%9A%A9%ED%82%A4%EB%B3%B4%EB%93%9C%EB%A7%88%EC%9A%B0%EC%8A%A4",
           "tag": "buy"
         },
         {
+          "k": "메디올가",
+          "m": "스킨케어 · 하락 2",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%A9%94%EB%94%94%EC%98%AC%EA%B0%80",
+          "tag": "buy"
+        },
+        {
           "k": "치이카와포켓",
-          "m": "패션소품 · 상승 4",
+          "m": "패션소품 · 하락 1",
           "url": "https://shopping.naver.com/ns/search?query=%EC%B9%98%EC%9D%B4%EC%B9%B4%EC%99%80%ED%8F%AC%EC%BC%93",
           "tag": "buy"
         },
         {
-          "k": "보스유선이어폰",
-          "m": "음향가전 · 상승 1",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%B3%B4%EC%8A%A4%EC%9C%A0%EC%84%A0%EC%9D%B4%EC%96%B4%ED%8F%B0",
-          "tag": "buy"
-        },
-        {
           "k": "3m보안경",
-          "m": "공구 · 상승 3",
+          "m": "공구 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=3m%EB%B3%B4%EC%95%88%EA%B2%BD",
           "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-10-27T13:59:03.339+09:00",
+      "updated": "2026-10-27T19:20:12.620+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "헤이지니 노동착취 폭로",
+          "k": "김건희 추가 구속영장",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%97%A4%EC%9D%B4%EC%A7%80%EB%8B%88%20%EB%85%B8%EB%8F%99%EC%B0%A9%EC%B7%A8%20%ED%8F%AD%EB%A1%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EA%B1%B4%ED%9D%AC%20%EC%B6%94%EA%B0%80%20%EA%B5%AC%EC%86%8D%EC%98%81%EC%9E%A5"
         },
         {
-          "k": "김건희 추가 구속 영장 심사",
+          "k": "김똘똘 정건주 원픽",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EA%B1%B4%ED%9D%AC%20%EC%B6%94%EA%B0%80%20%EA%B5%AC%EC%86%8D%20%EC%98%81%EC%9E%A5%20%EC%8B%AC%EC%82%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%98%98%EB%98%98%20%EC%A0%95%EA%B1%B4%EC%A3%BC%20%EC%9B%90%ED%94%BD"
         },
         {
-          "k": "코리아 그랜드 페스티벌",
+          "k": "아리엘 후라도 역투",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%BD%94%EB%A6%AC%EC%95%84%20%EA%B7%B8%EB%9E%9C%EB%93%9C%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EB%A6%AC%EC%97%98%20%ED%9B%84%EB%9D%BC%EB%8F%84%20%EC%97%AD%ED%88%AC"
         },
         {
-          "k": "배경훈 K-원자력",
+          "k": "오승환 시구",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%B0%EA%B2%BD%ED%9B%88%20K-%EC%9B%90%EC%9E%90%EB%A0%A5"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%8A%B9%ED%99%98%20%EC%8B%9C%EA%B5%AC"
         },
         {
-          "k": "이스라엘 선거",
+          "k": "하트 오브 비스트",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%8A%A4%EB%9D%BC%EC%97%98%20%EC%84%A0%EA%B1%B0"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%98%ED%8A%B8%20%EC%98%A4%EB%B8%8C%20%EB%B9%84%EC%8A%A4%ED%8A%B8"
         },
         {
-          "k": "주진우 리디아 고 사과 거부",
+          "k": "한파주의보",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A3%BC%EC%A7%84%EC%9A%B0%20%EB%A6%AC%EB%94%94%EC%95%84%20%EA%B3%A0%20%EC%82%AC%EA%B3%BC%20%EA%B1%B0%EB%B6%80"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%ED%8C%8C%EC%A3%BC%EC%9D%98%EB%B3%B4"
         },
         {
-          "k": "롯데 이택근 단장 선임",
+          "k": "김선빈 야구선수",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%A1%AF%EB%8D%B0%20%EC%9D%B4%ED%83%9D%EA%B7%BC%20%EB%8B%A8%EC%9E%A5%20%EC%84%A0%EC%9E%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%84%A0%EB%B9%88%20%EC%95%BC%EA%B5%AC%EC%84%A0%EC%88%98"
         },
         {
-          "k": "미국 중간선거 일정",
+          "k": "최형우 전 장관 영면",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%B8%EA%B5%AD%20%EC%A4%91%EA%B0%84%EC%84%A0%EA%B1%B0%20%EC%9D%BC%EC%A0%95"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%98%95%EC%9A%B0%20%EC%A0%84%20%EC%9E%A5%EA%B4%80%20%EC%98%81%EB%A9%B4"
         },
         {
-          "k": "계약결혼",
+          "k": "헤이지니 노동 착취 해명",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B3%84%EC%95%BD%EA%B2%B0%ED%98%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%97%A4%EC%9D%B4%EC%A7%80%EB%8B%88%20%EB%85%B8%EB%8F%99%20%EC%B0%A9%EC%B7%A8%20%ED%95%B4%EB%AA%85"
         },
         {
-          "k": "트루디 이대은 각방",
+          "k": "kgma",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B8%EB%A3%A8%EB%94%94%20%EC%9D%B4%EB%8C%80%EC%9D%80%20%EA%B0%81%EB%B0%A9"
+          "url": "https://search.daum.net/search?w=tot&q=kgma"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "강남대로",
-      "m": "검색량 500+"
+      "k": "리그 오브 레전드 월드 챔피언십",
+      "m": "검색량 2000+"
     },
     {
-      "k": "양산시",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "hd현대중공업",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "자산",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "교도관",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "양서류",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "이상순",
+      "k": "후라도",
       "m": "검색량 1000+"
     },
     {
-      "k": "제민일보",
+      "k": "연차",
       "m": "검색량 500+"
     },
     {
-      "k": "이마트",
-      "m": "검색량 1000+"
+      "k": "대전 대 비셀 고베",
+      "m": "검색량 2000+"
     },
     {
-      "k": "데블스플랜3",
+      "k": "의성군",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "타짜",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "한국경제",
+      "m": "검색량 10000+"
+    },
+    {
+      "k": "중위소득",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "원태인",
       "m": "검색량 100+"
+    },
+    {
+      "k": "암",
+      "m": "검색량 10000+"
     }
   ]
 }
