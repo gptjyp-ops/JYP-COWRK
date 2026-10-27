@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-27T16:37:01.866334+00:00",
-  "updated_kst": "2026년 10월 28일 01:37",
+  "updated_at": "2026-10-27T21:18:09.101582+00:00",
+  "updated_kst": "2026년 10월 28일 06:18",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "pba 팀리그",
+          "k": "태풍",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "주영진",
           "m": "검색량 100+"
         },
         {
-          "k": "승리 결혼",
+          "k": "전현무",
           "m": "검색량 1000+"
         },
         {
-          "k": "리그컵",
+          "k": "두나무",
           "m": "검색량 100+"
         },
         {
-          "k": "카를로스 알카라스",
-          "m": "검색량 1000+"
+          "k": "며느리",
+          "m": "검색량 2000+"
         },
         {
-          "k": "엄태웅",
+          "k": "에코프로",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "서장훈의 이웃집 백만장자",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "박문성",
           "m": "검색량 100+"
         },
         {
-          "k": "전쟁",
-          "m": "검색량 200+"
+          "k": "반도체",
+          "m": "검색량 5000+"
         },
         {
-          "k": "3기신도시 남양주 왕숙지구",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "우주발사체",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "앤 트로픽",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "잠실",
-          "m": "검색량 200+"
+          "k": "소넨호프 대 아우크스부르크",
+          "m": "검색량 100+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-28T01:01:41.969+09:00",
+      "updated": "2026-10-28T06:17:26.712+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "구룡마을",
+          "k": "승리 여친 임신 결혼",
           "rank": 1,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8A%B9%EB%A6%AC%20%EC%97%AC%EC%B9%9C%20%EC%9E%84%EC%8B%A0%20%EA%B2%B0%ED%98%BC"
+        },
+        {
+          "k": "김건희 구속영장 발부",
+          "rank": 2,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EA%B1%B4%ED%9D%AC%20%EA%B5%AC%EC%86%8D%EC%98%81%EC%9E%A5%20%EB%B0%9C%EB%B6%80"
+        },
+        {
+          "k": "이스라엘 선거",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%8A%A4%EB%9D%BC%EC%97%98%20%EC%84%A0%EA%B1%B0"
+        },
+        {
+          "k": "헤이지니 산재 갈등 녹취",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%97%A4%EC%9D%B4%EC%A7%80%EB%8B%88%20%EC%82%B0%EC%9E%AC%20%EA%B0%88%EB%93%B1%20%EB%85%B9%EC%B7%A8"
+        },
+        {
+          "k": "롯데 허문회 수석코치",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%A1%AF%EB%8D%B0%20%ED%97%88%EB%AC%B8%ED%9A%8C%20%EC%88%98%EC%84%9D%EC%BD%94%EC%B9%98"
+        },
+        {
+          "k": "권은비 24억 건물",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B6%8C%EC%9D%80%EB%B9%84%2024%EC%96%B5%20%EA%B1%B4%EB%AC%BC"
+        },
+        {
+          "k": "유명 국악인 성착취",
+          "rank": 7,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A0%EB%AA%85%20%EA%B5%AD%EC%95%85%EC%9D%B8%20%EC%84%B1%EC%B0%A9%EC%B7%A8"
+        },
+        {
+          "k": "구룡마을",
+          "rank": 8,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%EB%A3%A1%EB%A7%88%EC%9D%84"
         },
         {
-          "k": "승리 혼전임신 결혼",
-          "rank": 2,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8A%B9%EB%A6%AC%20%ED%98%BC%EC%A0%84%EC%9E%84%EC%8B%A0%20%EA%B2%B0%ED%98%BC"
-        },
-        {
-          "k": "김건희 구속 연장",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EA%B1%B4%ED%9D%AC%20%EA%B5%AC%EC%86%8D%20%EC%97%B0%EC%9E%A5"
-        },
-        {
-          "k": "아이폰 크랙게이트",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EC%9D%B4%ED%8F%B0%20%ED%81%AC%EB%9E%99%EA%B2%8C%EC%9D%B4%ED%8A%B8"
-        },
-        {
-          "k": "롯데 허문회 코치 영입",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%A1%AF%EB%8D%B0%20%ED%97%88%EB%AC%B8%ED%9A%8C%20%EC%BD%94%EC%B9%98%20%EC%98%81%EC%9E%85"
-        },
-        {
-          "k": "삼성화재",
-          "rank": 6,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%82%BC%EC%84%B1%ED%99%94%EC%9E%AC"
-        },
-        {
-          "k": "오경미 대법관",
-          "rank": 7,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EA%B2%BD%EB%AF%B8%20%EB%8C%80%EB%B2%95%EA%B4%80"
-        },
-        {
-          "k": "홍준표 법정 출석",
-          "rank": 8,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%99%8D%EC%A4%80%ED%91%9C%20%EB%B2%95%EC%A0%95%20%EC%B6%9C%EC%84%9D"
-        },
-        {
-          "k": "아주대 소아응급실 우즈벡",
+          "k": "31기 옥순 영호",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EC%A3%BC%EB%8C%80%20%EC%86%8C%EC%95%84%EC%9D%91%EA%B8%89%EC%8B%A4%20%EC%9A%B0%EC%A6%88%EB%B2%A1"
+          "url": "https://search.daum.net/search?w=tot&q=31%EA%B8%B0%20%EC%98%A5%EC%88%9C%20%EC%98%81%ED%98%B8"
         },
         {
-          "k": "네타냐후 이스라엘 총선",
+          "k": "하이닉스 실적발표",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%84%A4%ED%83%80%EB%83%90%ED%9B%84%20%EC%9D%B4%EC%8A%A4%EB%9D%BC%EC%97%98%20%EC%B4%9D%EC%84%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4%20%EC%8B%A4%EC%A0%81%EB%B0%9C%ED%91%9C"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "pba 팀리그",
+      "k": "태풍",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "주영진",
       "m": "검색량 100+"
     },
     {
-      "k": "승리 결혼",
+      "k": "전현무",
       "m": "검색량 1000+"
     },
     {
-      "k": "리그컵",
+      "k": "두나무",
       "m": "검색량 100+"
     },
     {
-      "k": "카를로스 알카라스",
-      "m": "검색량 1000+"
+      "k": "며느리",
+      "m": "검색량 2000+"
     },
     {
-      "k": "엄태웅",
+      "k": "에코프로",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "서장훈의 이웃집 백만장자",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "박문성",
       "m": "검색량 100+"
     },
     {
-      "k": "전쟁",
-      "m": "검색량 200+"
+      "k": "반도체",
+      "m": "검색량 5000+"
     },
     {
-      "k": "3기신도시 남양주 왕숙지구",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "우주발사체",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "앤 트로픽",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "잠실",
-      "m": "검색량 200+"
+      "k": "소넨호프 대 아우크스부르크",
+      "m": "검색량 100+"
     }
   ]
 }
