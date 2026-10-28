@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-28T08:28:26.522284+00:00",
-  "updated_kst": "2026년 10월 28일 17:28",
+  "updated_at": "2026-10-28T15:59:56.941363+00:00",
+  "updated_kst": "2026년 10월 29일 00:59",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "원당역",
+          "k": "서울반도체",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "김민",
           "m": "검색량 200+"
         },
         {
-          "k": "신유빈",
-          "m": "검색량 2000+"
-        },
-        {
-          "k": "할인",
+          "k": "올림픽파크 포레온",
           "m": "검색량 200+"
         },
         {
-          "k": "신문",
-          "m": "검색량 200+"
+          "k": "메달",
+          "m": "검색량 100+"
         },
         {
-          "k": "정부",
+          "k": "이계인",
           "m": "검색량 500+"
         },
         {
-          "k": "콜 오브 듀티: 모던 워 페어 4",
-          "m": "검색량 5000+"
+          "k": "신진 서",
+          "m": "검색량 2000+"
         },
         {
-          "k": "k뷰티",
-          "m": "검색량 200+"
+          "k": "하림",
+          "m": "검색량 100+"
         },
         {
-          "k": "연합뉴스",
-          "m": "검색량 5000+"
+          "k": "영아",
+          "m": "검색량 500+"
         },
         {
-          "k": "이터널 리턴",
-          "m": "검색량 200+"
+          "k": "노원구",
+          "m": "검색량 500+"
         },
         {
-          "k": "한국프로농구",
-          "m": "검색량 200+"
+          "k": "acl two",
+          "m": "검색량 500+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-28T17:21:12.188+09:00",
+      "updated": "2026-10-29T00:51:35.532+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "구글 애플 과징금",
+          "k": "김민 동두천집",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%EA%B8%80%20%EC%95%A0%ED%94%8C%20%EA%B3%BC%EC%A7%95%EA%B8%88"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%AF%BC%20%EB%8F%99%EB%91%90%EC%B2%9C%EC%A7%91"
         },
         {
-          "k": "정구범 어깨 통증 은퇴",
+          "k": "신민아 결혼 1주년",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EA%B5%AC%EB%B2%94%20%EC%96%B4%EA%B9%A8%20%ED%86%B5%EC%A6%9D%20%EC%9D%80%ED%87%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8B%A0%EB%AF%BC%EC%95%84%20%EA%B2%B0%ED%98%BC%201%EC%A3%BC%EB%85%84"
+        },
+        {
+          "k": "유시민 이재명 윤석열",
+          "rank": 3,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A0%EC%8B%9C%EB%AF%BC%20%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EC%9C%A4%EC%84%9D%EC%97%B4"
+        },
+        {
+          "k": "진성준 비자 절차 미종결",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A7%84%EC%84%B1%EC%A4%80%20%EB%B9%84%EC%9E%90%20%EC%A0%88%EC%B0%A8%20%EB%AF%B8%EC%A2%85%EA%B2%B0"
+        },
+        {
+          "k": "할로윈데이",
+          "rank": 5,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%A0%EB%A1%9C%EC%9C%88%EB%8D%B0%EC%9D%B4"
+        },
+        {
+          "k": "육중완 옥탑방 40억",
+          "rank": 6,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A1%EC%A4%91%EC%99%84%20%EC%98%A5%ED%83%91%EB%B0%A9%2040%EC%96%B5"
+        },
+        {
+          "k": "나솔 34기",
+          "rank": 7,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EC%86%94%2034%EA%B8%B0"
+        },
+        {
+          "k": "스페인 열차 충돌",
+          "rank": 8,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8A%A4%ED%8E%98%EC%9D%B8%20%EC%97%B4%EC%B0%A8%20%EC%B6%A9%EB%8F%8C"
         },
         {
           "k": "원당역",
-          "rank": 3,
+          "rank": 9,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%9B%90%EB%8B%B9%EC%97%AD"
         },
         {
-          "k": "유혜원 근황",
-          "rank": 4,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A0%ED%98%9C%EC%9B%90%20%EA%B7%BC%ED%99%A9"
-        },
-        {
-          "k": "이유진 차경은 결혼 갈등",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9C%A0%EC%A7%84%20%EC%B0%A8%EA%B2%BD%EC%9D%80%20%EA%B2%B0%ED%98%BC%20%EA%B0%88%EB%93%B1"
-        },
-        {
-          "k": "이택림 모친상",
-          "rank": 6,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%83%9D%EB%A6%BC%20%EB%AA%A8%EC%B9%9C%EC%83%81"
-        },
-        {
-          "k": "고민시 공식석상 불참",
-          "rank": 7,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B3%A0%EB%AF%BC%EC%8B%9C%20%EA%B3%B5%EC%8B%9D%EC%84%9D%EC%83%81%20%EB%B6%88%EC%B0%B8"
-        },
-        {
-          "k": "민주당 지지율 격차",
-          "rank": 8,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%BC%EC%A3%BC%EB%8B%B9%20%EC%A7%80%EC%A7%80%EC%9C%A8%20%EA%B2%A9%EC%B0%A8"
-        },
-        {
-          "k": "지만원 구속",
-          "rank": 9,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A7%80%EB%A7%8C%EC%9B%90%20%EA%B5%AC%EC%86%8D"
-        },
-        {
-          "k": "삼성물산 영업익 증가",
+          "k": "전현무 계획 4",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%82%BC%EC%84%B1%EB%AC%BC%EC%82%B0%20%EC%98%81%EC%97%85%EC%9D%B5%20%EC%A6%9D%EA%B0%80"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%84%ED%98%84%EB%AC%B4%20%EA%B3%84%ED%9A%8D%204"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "원당역",
+      "k": "서울반도체",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "김민",
       "m": "검색량 200+"
     },
     {
-      "k": "신유빈",
-      "m": "검색량 2000+"
-    },
-    {
-      "k": "할인",
+      "k": "올림픽파크 포레온",
       "m": "검색량 200+"
     },
     {
-      "k": "신문",
-      "m": "검색량 200+"
+      "k": "메달",
+      "m": "검색량 100+"
     },
     {
-      "k": "정부",
+      "k": "이계인",
       "m": "검색량 500+"
     },
     {
-      "k": "콜 오브 듀티: 모던 워 페어 4",
-      "m": "검색량 5000+"
+      "k": "신진 서",
+      "m": "검색량 2000+"
     },
     {
-      "k": "k뷰티",
-      "m": "검색량 200+"
+      "k": "하림",
+      "m": "검색량 100+"
     },
     {
-      "k": "연합뉴스",
-      "m": "검색량 5000+"
+      "k": "영아",
+      "m": "검색량 500+"
     },
     {
-      "k": "이터널 리턴",
-      "m": "검색량 200+"
+      "k": "노원구",
+      "m": "검색량 500+"
     },
     {
-      "k": "한국프로농구",
-      "m": "검색량 200+"
+      "k": "acl two",
+      "m": "검색량 500+"
     }
   ]
 }
