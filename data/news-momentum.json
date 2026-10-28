@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:14:24+00:00",
+  "generated_at": "2026-10-28T01:24:22+00:00",
   "version": "stock-miner-news-v1",
   "lookback_days": 7,
   "sources": [
@@ -16,7 +16,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:46+00:00",
+      "checked_at": "2026-10-28T01:21:48+00:00",
       "news_status": "no_articles"
     },
     "028670": {
@@ -28,19 +28,27 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:47+00:00",
+      "checked_at": "2026-10-28T01:21:49+00:00",
       "news_status": "no_articles"
     },
     "047040": {
       "code": "047040",
       "name": "대우건설",
-      "news_score": 3,
-      "news_label": "형성중",
-      "news_count": 3,
+      "news_score": 5,
+      "news_label": "강함",
+      "news_count": 4,
       "news_reasons": [
         "수주"
       ],
       "news": [
+        {
+          "title": "\"대우건설, 팀코리아 대형원전 수주 기대…목표가 2만원\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9DTlFONng5RmNOSUFQNTI4enAtbkJHNk1DaFNXVW40NGN6SHV5RFlCVTF1X2w4dGhkS19ud05GbFVIVjJNWTlzOGlneDJ0RzBJNURTdUJ0Y3ZMWE1jVEhxaVd5Q3kwc2RL0gFuQVVfeXFMTjNKcTBCc29iLU52ZFhuUmFqN0pQeDd2alhHS3U2TVJxdTJuMWJUNUM2WTJkeUR4c0dwRjFWNWprakxSQ01KLVpyMGFVMFdvcGRCTWJWVnhSN1hicXJPaWFsckRFXzdmMnNvTFBBX0E?oc=5",
+          "published": "2026-10-27T23:55:37+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:21:50+00:00"
+        },
         {
           "title": "대우건설, 3분기 영업이익 1천832억원…작년의 3.2배(종합) - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsZU1sZTE4emhYdW1Sbmxja3V6U3NQNlR1cEtveGx6ZXlyWE9JT3BWNVFmVXowY2JZbFlZNVdtdjlrNUI4d3VRVE5ETVAyVl9NR0dsZk1yVy1XMWPSAWBBVV95cUxPaU80U05iT0ZWZWFUUkc2Q3k1VURkWE5BT0ZRQ0tyRVJMOW5uc3ZMSnFOV08wS0hta3dtS2tWc1RxY2kwMkpNeFd2X0d1SkFRczh5ZXU3a0hmbzljdklGaW8?oc=5",
@@ -67,7 +75,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:48+00:00",
+      "checked_at": "2026-10-28T01:21:50+00:00",
       "news_status": "ok"
     },
     "003670": {
@@ -96,7 +104,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:49+00:00",
+      "checked_at": "2026-10-28T01:21:51+00:00",
       "news_status": "ok"
     },
     "036030": {
@@ -108,7 +116,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:50+00:00",
+      "checked_at": "2026-10-28T01:21:52+00:00",
       "news_status": "no_articles"
     },
     "065950": {
@@ -120,7 +128,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:51+00:00",
+      "checked_at": "2026-10-28T01:21:53+00:00",
       "news_status": "no_articles"
     },
     "001510": {
@@ -128,11 +136,19 @@
       "name": "SK증권",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 1,
+      "news_count": 2,
       "news_reasons": [
         "주의:하락"
       ],
       "news": [
+        {
+          "title": "SK증권, 한화오션 목표가↓…＂마스가 가시화 전 보수적 접근\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51VDRLTjc3WDFGVHdOWlNpT3VHTWYzcDNTd0xVdWIza2czTGtBSnQydlVxQ2VtWnFwbm1xV2xHX2lsU3JQY3J2NTkySTZCaTZyRnB2aHp4OXViWjg?oc=5",
+          "published": "2026-10-27T23:35:47+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-28T01:21:54+00:00"
+        },
         {
           "title": "코스닥, 고점 대비 38% 하락…SK증권 \"바닥 다지는 중\" - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKYWN4cHRDVTFMeE8wM1ZFTlR2TlFXUks2RDY2eGtYSnBGS2dXcVM3QTY2OHFLVGQzbjRNSEF6RTZ6RjNjbEh1TmF0YTJoYUp4Ymg3S1NVUWhOU1nSAWBBVV95cUxPRUFCRmlIcmpsRlBlQm9mdFpnTnA3bzZ2WGRUdmJPbnFweURmS0RzTkhONndRUmtxaEZxb0ktS0tNSnIyMWJ4bjNyeWhRZnVxZFFJREhNaDJsWDdFV3QyNUo?oc=5",
@@ -143,7 +159,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:52+00:00",
+      "checked_at": "2026-10-28T01:21:54+00:00",
       "news_status": "ok"
     },
     "006910": {
@@ -155,7 +171,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:53+00:00",
+      "checked_at": "2026-10-28T01:21:55+00:00",
       "news_status": "no_articles"
     },
     "003280": {
@@ -167,7 +183,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:54+00:00",
+      "checked_at": "2026-10-28T01:21:55+00:00",
       "news_status": "no_articles"
     },
     "124500": {
@@ -188,7 +204,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:55+00:00",
+      "checked_at": "2026-10-28T01:21:56+00:00",
       "news_status": "ok"
     },
     "010120": {
@@ -220,7 +236,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:56+00:00",
+      "checked_at": "2026-10-28T01:21:57+00:00",
       "news_status": "ok"
     },
     "027360": {
@@ -232,7 +248,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:57+00:00",
+      "checked_at": "2026-10-28T01:21:58+00:00",
       "news_status": "no_articles"
     },
     "304100": {
@@ -244,7 +260,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:58+00:00",
+      "checked_at": "2026-10-28T01:21:59+00:00",
       "news_status": "no_articles"
     },
     "307750": {
@@ -256,7 +272,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:11:59+00:00",
+      "checked_at": "2026-10-28T01:22:00+00:00",
       "news_status": "no_articles"
     },
     "189300": {
@@ -268,7 +284,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:00+00:00",
+      "checked_at": "2026-10-28T01:22:01+00:00",
       "news_status": "no_articles"
     },
     "034220": {
@@ -276,11 +292,19 @@
       "name": "LG디스플레이",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 5,
+      "news_count": 6,
       "news_reasons": [
         "반등"
       ],
       "news": [
+        {
+          "title": "LG디스플레이, 대형 OLED 패널 누적 판매 5천만대 돌파 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rMk1KTExBMlZ5MHVQb3NxdnZDNlVDRmw4MkhqcGU1dVVfWHUwbWdQekdFV2dsMEozOGxmQm9NMGNHX29BR2pWR2UwQ002WUVWZkRnUTlfQ2tMQm_SAWBBVV95cUxNOHAxWWk4cExXeGxyZk1Jb0FGOFVWbzZmUWwwYkRvOENTUUhqa1RTdFU2Yk5qUGF2bmgxRk5ueWh0UmEyeWU0dlMySWZ3ODFLSnRkbXlNcWJRamlod0JTZDQ?oc=5",
+          "published": "2026-10-28T01:00:08+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-28T01:22:02+00:00"
+        },
         {
           "title": "엔슬파트너스·LG디스플레이·SBA 스타트업 발굴 '최대 5000만원 지원' - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HZHhGNlVTbkJjZ2dEU0ZQVlFlNnRkNGIzNF9sSndzd1ZDLTNZdnlpbkN2TEc2eGlZbEZLZ2tXSzVSTVdySEFlZE0xUGxCTnZFRzl4VDQ1REE3eUpiZTBzVExZa2psdnJMLWfSAW9BVV95cUxQWFE5Y1ZNVG8zaGNNTnJCUmkxazQyZzZ3RXFmd3hocmRkcEwyVjNpR1EzclB6WW5ybXFweDJsQ2tPWXhQb3hSMExqTmF0S0lfdjJIVVQzZmV1bTVMZy1KTVhhZWFIWVhycDFSTXF2a0E?oc=5",
@@ -323,7 +347,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:01+00:00",
+      "checked_at": "2026-10-28T01:22:02+00:00",
       "news_status": "ok"
     },
     "019990": {
@@ -335,7 +359,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:02+00:00",
+      "checked_at": "2026-10-28T01:22:03+00:00",
       "news_status": "no_articles"
     },
     "003490": {
@@ -510,13 +534,13 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:04+00:00",
+      "checked_at": "2026-10-28T01:22:04+00:00",
       "news_status": "ok"
     },
     "001440": {
       "code": "001440",
       "name": "대한전선",
-      "news_score": 5,
+      "news_score": 4,
       "news_label": "강함",
       "news_count": 4,
       "news_reasons": [
@@ -557,18 +581,17 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:05+00:00",
+      "checked_at": "2026-10-28T01:22:05+00:00",
       "news_status": "ok"
     },
     "402340": {
       "code": "402340",
       "name": "SK스퀘어",
-      "news_score": 2,
-      "news_label": "형성중",
-      "news_count": 2,
+      "news_score": 1,
+      "news_label": "약함",
+      "news_count": 1,
       "news_reasons": [
-        "급등",
-        "회복"
+        "급등"
       ],
       "news": [
         {
@@ -578,18 +601,10 @@
           "source": "머니투데이",
           "source_group": "머니투데이",
           "first_seen_at": "2026-10-27T05:00:46+00:00"
-        },
-        {
-          "title": "미-이란 협상 기대감에 투심 회복… SK스퀘어 등 'S7'도 상승세 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1ekNERGl6MU9RQnJTWUpFZk01Z00zSkFacWd0YTJMV3lYUXZqVUoybmo5Ri1hMUs3LWtHYmhyVjdNQ2lsYnhHYmNlOUlBQmw5ckViQ3hqV1lhWlVzWmFJSUE2VzRBX1k50gFuQVVfeXFMT1M5M3J5RnVERUh6LWdNV3hJMThYeXBtSWxiTlNiZ3dzLVhVSEFkSTUxbm44bEhyZnpMUVNjblNzSlFVbnNKaVZESnFiMVd2YnFVdWFqY0RVSldDa3Z3eHYyclVwUzY1ZUFDMnVOMVE?oc=5",
-          "published": "2026-10-21T00:39:24+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-21T07:37:06+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:06+00:00",
+      "checked_at": "2026-10-28T01:22:07+00:00",
       "news_status": "ok"
     },
     "000020": {
@@ -601,7 +616,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:07+00:00",
+      "checked_at": "2026-10-28T01:22:08+00:00",
       "news_status": "no_articles"
     },
     "125020": {
@@ -613,7 +628,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:08+00:00",
+      "checked_at": "2026-10-28T01:22:08+00:00",
       "news_status": "no_articles"
     },
     "332570": {
@@ -625,15 +640,15 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:09+00:00",
+      "checked_at": "2026-10-28T01:22:09+00:00",
       "news_status": "no_articles"
     },
     "004310": {
       "code": "004310",
       "name": "현대약품",
-      "news_score": 2,
-      "news_label": "형성중",
-      "news_count": 2,
+      "news_score": 1,
+      "news_label": "약함",
+      "news_count": 1,
       "news_reasons": [
         "허가"
       ],
@@ -645,18 +660,10 @@
           "source": "연합뉴스",
           "source_group": "연합뉴스",
           "first_seen_at": "2026-10-27T12:08:35+00:00"
-        },
-        {
-          "title": "[적중! 대박 예감] '코리아써키트, 스피어, 현대약품' 내일장 예감 좋은 대박 종목? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45UExzZzhCb203SU9JZWVBVzFkWmptaV9LWFVObjZWd1ZOUU5aNjdIQW5GeC03c0Q3MDM5OEtjQmlOZTRnckRrOEtoNllIekF0elg1aC1IcGJRZzFiSTFlRWI0OE1lZUlE0gFuQVVfeXFMT01YTzBQalRhNkNmdHE1VHd5UTU5Zk9sbl9CbFh6cHhZTGs4aHN0aEhZTFozLUkwTEdPZUk4QjFucGw4MEJvRlJqVGFNcTl6LWt6Yk4wcmpaS3ROT0NHRmxMVlVJT1MyV2kzNUwtQWc?oc=5",
-          "published": "2026-10-20T22:13:09+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-21T00:37:12+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:10+00:00",
+      "checked_at": "2026-10-28T01:22:10+00:00",
       "news_status": "ok"
     },
     "034020": {
@@ -668,7 +675,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:11+00:00",
+      "checked_at": "2026-10-28T01:22:11+00:00",
       "news_status": "no_articles"
     },
     "066570": {
@@ -676,7 +683,7 @@
       "name": "LG전자",
       "news_score": 3,
       "news_label": "형성중",
-      "news_count": 13,
+      "news_count": 11,
       "news_reasons": [
         "출시"
       ],
@@ -768,26 +775,10 @@
           "source": "머니투데이",
           "source_group": "머니투데이",
           "first_seen_at": "2026-10-21T13:46:28+00:00"
-        },
-        {
-          "title": "LG전자, 냉난방 성능 높인 시스템 에어컨 '멀티 브이 7' 공개 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jRTNkeE1ERU9QemRSWHd6WDNoOGNKdGNWam9JNElha3FEbUd4X1pxNWRRT0g1d1FSQUliYkpYM2VmLXdvcnVleEd0a0RseFhLNTBoMzF3WFZMcnfSAWBBVV95cUxOMl85VHJwRG1NeWdQV0hjRldRTzBBOEZSanI3dmJZVTNuNWZnSUlRZE1XU25iSktIT1BheXJUV1BUX0lEeUJrT2tkOTZ6QjkxRE42Y0VIVmVFUklGUDkyeWw?oc=5",
-          "published": "2026-10-21T01:00:01+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-21T07:37:12+00:00"
-        },
-        {
-          "title": "최적 운전에 성능·효율도↑…LG전자, 차세대 시스템 에어컨 첫선 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpZC1qbldXTGs3SHVINmhqSmVQdWcyNnJYalVGNFhjVFNpaEw0dFV6TmpoelRMWmVfMmM1blREVGdDOWo1ZTFHcDIyd2xQN0xOdURpeUp2ZF81dmtvUzFHaVYwSUtqZmZlUFZsM9IBckFVX3lxTE5RM1Q4RnBtSHVDN2tHaWpjQ0RIUXdrN2dsV1dqU1JjeVZYcFFUQUk0WXh3NnBIMWc4WHo2Znc1U3J5YXpPQzdNcWstVHVaRzMweHpVam5Rb0lVcWxmcUR1RXRFNjBzZEtZMk92QmNMSVVtUQ?oc=5",
-          "published": "2026-10-21T01:00:00+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-21T07:37:12+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:12+00:00",
+      "checked_at": "2026-10-28T01:22:12+00:00",
       "news_status": "ok"
     },
     "080220": {
@@ -799,7 +790,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:13+00:00",
+      "checked_at": "2026-10-28T01:22:13+00:00",
       "news_status": "no_articles"
     },
     "041190": {
@@ -811,7 +802,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:14+00:00",
+      "checked_at": "2026-10-28T01:22:14+00:00",
       "news_status": "no_articles"
     },
     "011700": {
@@ -823,7 +814,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:15+00:00",
+      "checked_at": "2026-10-28T01:22:15+00:00",
       "news_status": "no_articles"
     },
     "448900": {
@@ -835,7 +826,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:16+00:00",
+      "checked_at": "2026-10-28T01:22:16+00:00",
       "news_status": "no_articles"
     },
     "006340": {
@@ -847,7 +838,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:17+00:00",
+      "checked_at": "2026-10-28T01:22:17+00:00",
       "news_status": "no_articles"
     },
     "024840": {
@@ -859,7 +850,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:18+00:00",
+      "checked_at": "2026-10-28T01:22:18+00:00",
       "news_status": "no_articles"
     },
     "003220": {
@@ -896,7 +887,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:19+00:00",
+      "checked_at": "2026-10-28T01:22:19+00:00",
       "news_status": "ok"
     },
     "093370": {
@@ -919,7 +910,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:20+00:00",
+      "checked_at": "2026-10-28T01:22:20+00:00",
       "news_status": "ok"
     },
     "078150": {
@@ -931,7 +922,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:21+00:00",
+      "checked_at": "2026-10-28T01:22:21+00:00",
       "news_status": "no_articles"
     },
     "005930": {
@@ -945,6 +936,14 @@
         "주의:제재"
       ],
       "news": [
+        {
+          "title": "[테크스냅] 삼성전자, 리센느 손잡고 갤럭시 Z 폴드8 알린다 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IWW0tb0VhQmpqbXVOUzM2UHhwSGJBRFAtUWVpbjdHOVI1cm1CMVhmd3ZQdDJvb044WGNaQURvN0xmRS0xTVIzS1l6SzU1eV9Rb0JtSklvdGI5bTjSAWBBVV95cUxNNWI1T3MtRGlldnUyS3YzcnFxZ0theUZqR3g0d1c5VHNBZWFLOWdQX3hObi1sejNUQkFGV1ZWZ2R0a0hJMnRtaUphT2xaeGlVbFE5eHdOQzV5N1hCUlFhcXg?oc=5",
+          "published": "2026-10-28T00:26:16+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-28T01:22:23+00:00"
+        },
         {
           "title": "공소청, '삼성전자 EUV기술 유출' 산학협력단 연구원 불구속기소 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aa1dDN0dyTGZESXVDNG5YZnc0TDg4a3UtaWJvMGdQamxxX3J4ZEJCMTBkSnREelBOUVdPUnRtWmFvVHdVM2doanZyWldZRUN4SlN0eFhLeUh3ZjTSAWBBVV95cUxPMEYzTjZ6MFVWbFdIbGM5S2gza1JUbXJ6aXdlMktmZWtVd0NjemYwMFRpMlhjRmFTV2pCYlJtQjFRWHk5YUxJSFlUd1VwNHhrbWVoRkJ6d3lPN0FsT3Q5Z3M?oc=5",
@@ -1051,7 +1050,7 @@
         },
         {
           "title": "[더벨]아이씨에이치, 삼성전자 1차 벤더코드 취득 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yLU5idkJ5ZDNTS215aWc1TDF6S0Y4b3Utb0FvLWJ0Z1NfbHV3MUVMaml1dkxYYW1lb1JtZ0Fab2d1dFAxc01VamVQb1UzcU5DT3NDWGVlS0hlQWVURTR6Sjc2QkNsVS1X0gFuQVVfeXFMTlcyQ1FQcDZHeWFLbkgtVC1EU2tTZUNkOGRIclB3dHhNeFdTMm9YQ1h3T1o0ZlFXZFFvOGFFZ2YxUmNtd01BMzlrMW1RcTBMR0FOOGoyVERYTlppYTBrUkgxdmZaRFZnWm5FUmVfbXc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XMkNRUHA2R3lhS25ILVQtRFNrU2VDZDhkSHJQd3R4TXhXUzJvWENYd09aNGZRV2RRbzhhRWdmMVJjbXdNQTM5azFtUXEwTEdBTjhqMlREWE5aaWEwa1JIMXZmWkRWZ1puRVJlX2130gFuQVVfeXFMTlcyQ1FQcDZHeWFLbkgtVC1EU2tTZUNkOGRIclB3dHhNeFdTMm9YQ1h3T1o0ZlFXZFFvOGFFZ2YxUmNtd01BMzlrMW1RcTBMR0FOOGoyVERYTlppYTBrUkgxdmZaRFZnWm5FUmVfbXc?oc=5",
           "published": "2026-10-26T05:15:48+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -1096,18 +1095,10 @@
           "source": "연합뉴스",
           "source_group": "연합뉴스",
           "first_seen_at": "2026-10-24T04:34:02+00:00"
-        },
-        {
-          "title": "삼성전자 온양캠퍼스, 아산시에 친환경 차량·생활 물품 지원 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OTjRhUnpEWXA0TFpuWkE1VGVLSFdienFiYVdMMXNaWkt5U0tOWjZfTVBiWmVPa1hGNEl4SnRzc0hZOVhORGNudjV0WVI4cmlaLWxFUkdWMmRmSUnSAWBBVV95cUxQblZSbjI0N2RjYjF5RERPOWw0QkptV3Azcm9pMkdDVUFtaUxoWTdPMl94T0hWcHpqNEVGTU50aEdRUTZhUjFMZU1rT1dTTnJiUWo5Rk84VEgtdGJJRURHU2o?oc=5",
-          "published": "2026-10-23T06:42:51+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-23T07:30:01+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:23+00:00",
+      "checked_at": "2026-10-28T01:22:23+00:00",
       "news_status": "ok"
     },
     "388050": {
@@ -1119,185 +1110,180 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:24+00:00",
+      "checked_at": "2026-10-28T01:22:23+00:00",
       "news_status": "no_articles"
     },
     "000660": {
       "code": "000660",
       "name": "SK하이닉스",
-      "news_score": 0,
-      "news_label": "약함",
+      "news_score": 2,
+      "news_label": "형성중",
       "news_count": 20,
-      "news_reasons": [
-        "주의:철회",
-        "주의:중단",
-        "반등",
-        "주의:급락"
-      ],
+      "news_reasons": [],
       "news": [
         {
-          "title": "'앤트로픽 훈풍' 코스피 5600 탈환…내일 SK하이닉스 실적 고비 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DajBnbmh1SW5GSS03cjBwNEozaHVkdGh4bUl5U2xaVnhzdVRsdTdxajcyQ2xVN3hKVDdlZWFnaWJid2lyQUdUMmpOQ2pVZlhlTmVEOVdwUjk3ZGZ2UEVRUUdoZElIWmN30gFuQVVfeXFMT0ROWmFmZGdMMjJoeTg5NjRWODM4R2Y1cUVYZXBjR0R1Ym1iek1nZWxpQ0ROVkUydEFkR0JfM3NYQXJ2UTR5NHpTWnRyNVFxYVMwRHJvUXc5SE9aSmg0cThqMlJTY2wzMER5V2l3dkE?oc=5",
-          "published": "2026-10-27T08:20:25+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-27T10:05:24+00:00"
-        },
-        {
-          "title": "SK하이닉스 내일 3분기 실적공개…주주환원 카드 나오나 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85Q3ZTMG0zSE0yUDhGVGVGb3JFU0k0LUM0SlRmcDVvTDZNWWJJbTFRdkx2clg5NmVfMkRjc2xKZklnSlczYlJLVV9TWjlBTi1DZlFTZlVuY1lEY0HSAWBBVV95cUxQeGZHY0gzSjNSRkJ0TlRqTThiN1I1d1Nta2NXV3FiYjB4U0l0V1I2bXNXbkNqR0dKcmNheTRyR3pLc1pkV3l0UUJZWHVtak8tUzEyNno3eko0dEZkc2plVzg?oc=5",
-          "published": "2026-10-26T21:01:00+00:00",
+          "title": "SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 완판\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JaE5JUUtSbEZtM2UyTHM0RUQzRllHSnA1SU5NanhBTHQyV1Rra0VGM1ZLSkFWanFqdElhWTRzWk84S2pMNVEwaEVNME9qRGQxWlQyamhNMGoydEnSAWBBVV95cUxPeGRlWFdkZjZKT1ZFa0owaGhrbnp4eEVtZGFqYld6a0dpWGw1SEhwYVk2amVWa18zcXFwQzViMDdmR1dsYXplOW1vejZ2OHpmcTI4N3FkY0lVWnZXT083Mkk?oc=5",
+          "published": "2026-10-28T01:07:48+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-26T23:51:58+00:00"
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
         },
         {
-          "title": "美 상장 SK하이닉스 레버리지 ETF, 석 달 만에 청산 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Qenl6aktXWWNtcFFlOG9xMVR2WVZOQ3U5NmJWOTZVbktjc0NQUkxremV4cE1faVdMVGl2bHNIXy1pTk9MaUNRWW96dXNYUHZ3czNnbUdPTzFaWVcxZHd5cWR0bWdOWWVuM09MdG9naktJUkE2c3fSAXtBVV95cUxQYzRueDJDMG9rdUxwWUg0dnYxdlFMeDBSZ21uOEhCbGptTEloZUhHOU9Qa2NZbDdQakl0NG4zTEtaZUVhOXY5TFVEWVhETC1kb04wVGdsMUk4aWk0dUUwZjAxSnFuV0FwUUExbjZOVnN0dU9NLUViU21DQWc?oc=5",
-          "published": "2026-10-26T06:38:21+00:00",
+          "title": "[컨콜]SK하이닉스 \"HBM 요청 물량, 공급 가능 물량의 두 배 웃돌아\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IN1BQVlhzNHBPajJhcmw4WmUtU1FuQ0NjcHJNNG41ZUlGZjJEUzdYYXkxMk53bDRXYU5BTE85UU1FeVBLRmQ5Y1FoTmFjMXZEZDItU2xpWUZsTHQ3Nmx5aG5fY25QWjl0OVN4cdIBckFVX3lxTE1CUDlNWGl3LUxHakFEdUliM2dRQURSM1pfUXVEX3JMRUwybUNzd2V3aGRFQkFmRGU1WE05Q0JTVG44Q0RyQXZ0eWFObFFSaHN2M1lKOHFQS1V6QzRZR0MxZXoxd1N4U1FnNHU5NDByUktRdw?oc=5",
+          "published": "2026-10-28T01:05:41+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
-          "first_seen_at": "2026-10-26T12:59:08+00:00"
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
         },
         {
-          "title": "SK하이닉스, 여의도 IFC몰서 기업광고 '초심' 전시회 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5kSW9IVEJIRFc0YkZwT1k5MFkwd2RKUUk0am9LZzZuZUUzSHJab0tUMFRxdi12a21iN0lELUNEclpVYlpDSDVuVVNlVW0xbTBJSnR1dHpYX0tiVEnSAWBBVV95cUxPWVRzcXYzY3EzX1hyR0cxbFRMdGM2Z0NsOV9wM0RsU29pQXQ0cUJmXzFNOU0wekNoU1J1eG5GVUtWV1pnbjR6ei1FclhhM3Y5TDZvLU9zS04xbVJrN3VnVjU?oc=5",
-          "published": "2026-10-26T05:55:04+00:00",
+          "title": "SK하이닉스, 향후 2년 생산능력 절반 계약완료…AI고점론에 맞불 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpN1ZTTjltS21wVC1HTmN0NmhyakN3Tm5LOGh1T0htYndqVHdTRmFLWEk3YWRPTFBDdXhHM1U0SDRsZ1NoWnNjWjBWelhSRDhlSHJMVUZpNFlsTTTSAWBBVV95cUxPZ0lSNlZUM2xyWTI4aUJrWTFaNE1kWldtRWFxWF94WTQ2Y3Y3LTh0YURIaXgzX2JLdmFnTloyWUdnUEhYQXIwV2NyU1JvUFNLNDVvNDNyTVhhRFlLYkZKd0E?oc=5",
+          "published": "2026-10-28T01:05:08+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-26T10:26:36+00:00"
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
         },
         {
-          "title": "SK하이닉스 레버리지 ETF, 美 상장 석달만에 청산 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BSGo1YzJKV2x0QUM0elplbkZfRE4wTnJ4X0F6V2YxNFgyOThIYkVEczdySjQ0MF9CdENVZmp4dVNYdmM3MGZDUmJRWjVlQXZ3SU1OWGlKNEFfWVXSAWBBVV95cUxORVBYVXdJNjFSQ0g5eWEyM0NCRGplbS1oakV6ZVMxYlF4Xzd2VzB4czlqdy1ZVzk2WUF0S08yenk5TGhYZ3dOZ3h6a1VjUjNqczh6R0Yzc1A3dTgtZ0pWT00?oc=5",
-          "published": "2026-10-26T05:52:26+00:00",
+          "title": "[컨콜]SK하이닉스 \"2029년까지 D램·HBM 물량 사실상 완판\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAybVNIZWpWODVFcU9xOWlTZnVUWGJ1UVNiUXJJdU91Rk1rUElyeVNuV3llU1dvY2xGQURyMGhIWUZZM25EUG5LMEJhX3ZMWFhOOEhMc1dXWHJWbEtfTVlzMjVNTnlJOUMtNV95SdIBckFVX3lxTFBLOVYzdnBJS3RNWl9tZ1VxQzRDNWRJOEdiRXpNTk12c3JhU2w0ck44VUQ3a0FiSThoVHRGTmtwWmJUWjZyMTVST05pS2xuUVctWXBNdDNhY1FCcGViNXhWbDBrLXlGWWRWVTZINGhiYnVIdw?oc=5",
+          "published": "2026-10-28T00:46:31+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
+        },
+        {
+          "title": "[속보] SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 모두 완판\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzZVUzNWZBakFBeURwTHB0UTZDd0tULS1TVlNDSWdIZmdwa0JnMVV6Nk5mRWtiUlR3OEhUTUIyUVlWNE8zeDVsWjl0U1hsb1N6TkhRaExlODJieHPSAWBBVV95cUxNaGRMM2pDVFJMaDBTbml3c1d0M2UzYjZxZEtuajhobWFWU3pxa2hrMWJCdVlxaFZzdGJNSE5uTkJCU2ZiVW95WElnalNWYk8zTkhKMWNlaGdTSGstTnppSE4?oc=5",
+          "published": "2026-10-28T00:45:27+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-26T12:59:08+00:00"
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
         },
         {
-          "title": "[특징주] '솔리다임 상장 검토 철회' SK하이닉스, 장초반 2%대 상승 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpVHVGQnZsTGRwOU96ZXliRU5xemNUVTltSzQxa0lmcm9IMnN3eHlEeGRSTWRTWFR6NXlZem9OV2RiSjVQTnd6LXkxQ3ZOU3RTOG1ZcUtwcVlTU0nSAWBBVV95cUxOSEZmV2xzUjVnWjVvR0R3RzhZdktPVDAxMU15NFZINWhJMllvbVVvNy1HMW53WnFJZjQzN1czQkJweDlBT2JfMF9IYnBVd2xuQ1FaZUdOZVpZOEhEbnR2OUY?oc=5",
-          "published": "2026-10-26T00:21:45+00:00",
+          "title": "[컨콜]SK하이닉스 \"메모리 부족 2030년까지 이어질 것으로 전망\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Pd3FNNGp1T3dtdzlIZUd6YW4ySXd0UXJ5SnV5NzQ0ZEoyMUdvRkw1bnRNSlpKUG5NTFZiMGtRRWVqejZBNG5Wei1LeTRXYVZERVBGajBiM3UtZDYySF9GWTNrTmQ2TVFRMnZHcNIBckFVX3lxTE5EcktNZWlPZjVMdVhYMDZ6UlRNWXJoMFFIemVyMUhvNzNlemRkYm1zTkFsbGJTc05RZEQ0N2F4ai15T2lablBveExfNXFZSnVNZWc4bHVRWWFUOWxvVVhZRk1reWcyanF4eElkbzlETEtlQQ?oc=5",
+          "published": "2026-10-28T00:34:54+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
+        },
+        {
+          "title": "[컨콜]SK하이닉스 \"내년 HBM 물량 협의 마무리…가치 충실히 반영\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zeGFIdVROd1JTajVNY29pYVU4UFpVdzR3WGtRcFRHV2o2Mi1HMlltbDhUT2JaS2F2ZWlsNTFWcDliWklYU1JweDcxODJHYWFQWXRnUWlfUGZ6bHdSYWg0VEdsb3U1U01Kc3NRNdIBckFVX3lxTFA5V0VXcjRGSHl4a0ZpOWRNTDhZTHg0NEJDQ2RBS0h6b1pJVUcwbGdNUGhsSmRZcE1LbXp0MnVBa1Q1bUtLc3FSX3lPTjdoaFdzemNuNEwtX2NxUU1fMFpNZGkwTmJiaXBsZDBudGwtaE5PZw?oc=5",
+          "published": "2026-10-28T00:27:14+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
+        },
+        {
+          "title": "'SK하이닉스 손자' 솔리다임, 60조원 규모 미국 낸드 공장 건설 논의 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53R1hWYlJIajF3ci1lNzRXcVF3dWplcW5sRmJxNEpDeGpCMDVsUkVDaVNselpzTEVaSjlXUXAxWG10bUtUUnFmc09TS1h0NDBxUndDXzBBWTVLM0ZPb0dRYmxxeVpFM2xpT0w3US1jc1VjcU5WaXfSAXtBVV95cUxNWU5KY29jSzVTY1p3VndWdWlGejlCcFQ3dlplNWVJZnpQb3prYjJ4eHRaQUJtb18zZXBLRUVSVERHU1lzN2FaejhMcWVLc0tEQWViQno1ZEctZEt4ZkJJMzJmUFctYVNjY25WaWJndFVIMkJ6YkM4WGx4RDg?oc=5",
+          "published": "2026-10-28T00:17:18+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
+        },
+        {
+          "title": "SK하이닉스, 3분기 영업익 83조…시장 기대치 뛰어넘었다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxSTk2OVZvOGZ5eml3RzBkVUlmeUg5MG42RnJncmM4cDY2QzVaTEotZHpIMUw2MGVkQzVja0dReEtUX1JoVkJmb2JCOVlEME9ISTRfUDBiemRkQTk2LWE1c0t1bzdwM3JOMzRlbNIBckFVX3lxTE42TmlSZ1hTRWZ1UlNFQ2taS2YwS01NVWU2NTJhWVZGWm12MG1iQTM3UFF2NXAyTU83dDNoSFFtSEIzUVlmQkZVRkItSzJkQldjWm9zSGlDNjZ4NXlfa3N5M09qR29EenI4VmFoNmRwQ2w2UQ?oc=5",
+          "published": "2026-10-28T00:05:52+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
+        },
+        {
+          "title": "SK하이닉스, 9개월 새 순현금 86조 늘렸다…100조 달성 초읽기 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIQVhhd1M1ZFB5c05hREZma1ZBcGFJUzlCQlBFTUo4dEFTdUExUklCaDZLcFJmRHhjSTFXNGhZNzJLVXZtelRJNnl1NU1sdGN6MDBpVkpQblZTdE82TmRPYldtZXdtOXBmUUVCONIBckFVX3lxTE9UaWdrRnRJSndxMzNOb05HZnZQS0k4ZW53RDZQQ052NFZIX19wMjZiUkhaVHVuZE9ING1nZWlYSG5vTmYxbUtHZzhGNWc2WkZqRHpURkZXMXdDd0prYUVhNEdLNVlYakRvaGNFSnUzUWh6Zw?oc=5",
+          "published": "2026-10-27T23:56:21+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
+        },
+        {
+          "title": "SK하이닉스, LTA 14곳과 체결…2027~2028년 생산량의 50% 이상 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hZUtPd18tZ0U1cWpsbjQ1VmFERlhwNVdPZmJicWxCbGpHVlUzZ3QyQzd6eTh1QTI1WTVhZnQzTmpqajBaQS1jSm5CTHlPNkJxMDVnX2N4WDNPM09HbE5mcHZmanFkU043b2RJRtIBckFVX3lxTE4wamUwWXJJMjlGVTRuZmxVN2l2SHdzNTFIWGQ1NWsxTXZlTGxlcFVtU3BXVG83aUp3T3pKM0V4ZDdYSXlwUEVpWlJRMEZjckVUUHdBVS1tN2xDcDlsakFmSlVMTDNfemgwaFM3Z2dmZ3BUQQ?oc=5",
+          "published": "2026-10-27T23:54:41+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
+        },
+        {
+          "title": "SK하이닉스, 100조 주주환원...3분기, 주당 2만원 배당 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHTmxKVWFlb01hYVRkTy1CTmpheUR3VzUxSks1T2NwNFdBUGNsR0dHUEE2WXFNQnhKTHNsaDFRdm5QdkVaX0ZWdFRWZ2lwVGd6TDlUQW1nTzczZlFGTW41YTZITWJmVmJTdWZRZdIBckFVX3lxTE5ZTEQ1TkpNVXpPYW1YR1lROGxYTEVhaExpcmQtLWFGbGtuMXRBSXpwQ1VsWldmSlhFdU9xRWF6M2pSMzNBZzJ5MTdQNHhHd09SMG5MQnVBTkJaek5hY3dKWXZJUVdrel80SmczV0FaTTFxZw?oc=5",
+          "published": "2026-10-27T23:44:50+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
+        },
+        {
+          "title": "SK하이닉스, 3Q 매출 100조·영업익 80조 호재에…삼전닉스 동반 상승 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02RHFTSXFYdUJGNC1uTndTNTFtOU5xektNaERKT3l4cVlBazJlaExLSTZjWHB1M0V3VkkzRmlGd1pSU0k3YlhsWVNidXhtazBwUC1NSTdBYlJRM2tXQVJVUW8xcmxfX3gxQll1dkdxZEFFZUx5Q3fSAXtBVV95cUxPQ2ZJWmVCZ2VJeE56Yzl0S0phSW4xeFJRU1RJUU5TUkM5dHRZM1Z6OWFDT3QtdDZSUzE3SFZkSGRULTNRQWVCbnZYdUlVNGdFdmwwRG9kdU5PejlpUGEzUS1HeWo4eThHN19xOTQ2Tl9PTWUwWVJNeXFEVE0?oc=5",
+          "published": "2026-10-27T23:41:17+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
+        },
+        {
+          "title": "SK하이닉스, 3Q 매출 첫 100조 돌파…영업익 83조 '역대 최대' - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Bd2dsTVBtZHFLb2tkaDlqYTk0QmpLblkwQTlEVWN6YTFnWXRtcWJMY0xBTVdXV0RGdURvZDVzajRHNWViN1dTcXNILS10clZpRmZLSHFxTHFCckxHTV9Dcm5tdkh4YlFIQXJ6MtIBckFVX3lxTE0ydzZ0aDRmbnR3N1NmcGZzX1lTSkpkVEdrYWtYSVJrMnJ2cmFnRHN3MmNoX3pmYVBobjFuTkdpWk1qVnlab1JKMk5iVld2aHZpU0FhTkVEQmc5WTNfMDVSWlJqRnZRTHBHOG1qeU1sd3U0Zw?oc=5",
+          "published": "2026-10-27T23:40:46+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
+        },
+        {
+          "title": "[속보] SK하이닉스, 보통주 2만원 분기배당…총 14조원 규모 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwYy1ZLUJNVnZwaVdJRGpfai1mNjl2LS1xYnpVczFFbDhySFdvb1BpSmdpbHhmOTRGbmc0SkI0UXdHWUxVZWQ2X1VzOTk0RS1sU1JUejNnTS1UblnSAWBBVV95cUxOa3ZkcUdrOXBJY1VDMlpibDlrUHp6aGNuNVk4S0VHUXQ0a2ZWSWVHM2JNczVXdWVZeW1Sa3lPZGZJMVN6d0RROUFyY3RBU2JkTmM5c1NVZ0djS2dBUWtlUUI?oc=5",
+          "published": "2026-10-27T23:40:14+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-26T04:29:32+00:00"
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
         },
         {
-          "title": "\"16조 특별배당 푼다\" 들썩…'중복상장 일단락' SK하이닉스, 2% 쑥 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rTkxKYUpablcwVlNqdGRpNkVsVEJhcVVSQ3MtTHF4a2NWRldUZWFmVU1PMkQ2ZmdIQkdwRHVtN0hJMWJ0Ulg3ZkxaVDl5R2RWa1NEbFJza01rUVpjMVA5bzdEYmNFaG030gFuQVVfeXFMT2Z3TmlCYlFfRjZWRUdhaWFqampxc0tnVEhYUFFPN0dMcUFzRDA3dWFmbS1GOWxzMmFLQU9LVWVwU3VmVHpoTDJSeEZWNlR1LXNDT2xNc21DdHFLV01MUzVSZ2tGSUhFcU9fNmtoRFE?oc=5",
-          "published": "2026-10-26T00:13:55+00:00",
+          "title": "[속보]SK하이닉스, 3분기 매출 104.6조…영업이익률 80% - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50eWhHaVNqRW5oZUZZLW5DTjBJMHdDQy0xWE96Z2p6YnZUdHN3cVUtOS1pMzhRTml2LW1hSWtUeGtXVENjRXNEcjN4dk9WbXdKZ1hyUGtBV3JMT0pfLW9GdTczWk1PdHkwNjltetIBckFVX3lxTE5sV1YxWUtidnUtbUp5ZXpjQW5OSnB2ZUd1VGl6aUhlcWZEeUV4RFlvRDVEZ0dIUFNFVEp1dEp1b1kteDNPNXEzRWtqeFRLQ19aVTR6TFIyV3FYR01PSGFTdWt3MVRBbGY1V01tY2dPMjI4Zw?oc=5",
+          "published": "2026-10-27T23:33:32+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
-          "first_seen_at": "2026-10-26T04:44:22+00:00"
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
         },
         {
-          "title": "SK하이닉스, 2% 상승…특별 배당·솔리다임 IPO 검토 중단 영향 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE12ZWVra0NjeG1lSEJRZjF0MXFyN0hnNUp5d1lncmJ4azVoVHJpMl9zeTNFS05VM2lkWlRua3pLTE5tS3ltcnA0Q2txSnJTbHpOXzZLYTFaZC1CSW9lbmk1a2NzSS0tVjAxeGZ4UG82cUxjbG1TTmtVSG9QY9IBe0FVX3lxTE12ZWVra0NjeG1lSEJRZjF0MXFyN0hnNUp5d1lncmJ4azVoVHJpMl9zeTNFS05VM2lkWlRua3pLTE5tS3ltcnA0Q2txSnJTbHpOXzZLYTFaZC1CSW9lbmk1a2NzSS0tVjAxeGZ4UG82cUxjbG1TTmtVSG9QYw?oc=5",
-          "published": "2026-10-26T00:13:55+00:00",
+          "title": "[속보]SK하이닉스, 3분기 배당 주당 2만원...키옥시아 투자 수익, 특별 배당 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JWkwtWV9rSDhoNWtFNWRJVTVyLTFLeWFZdFY0bXYycXJSUTBDWTNjd0d3ODlxdGFuY0FIR0JjQ3czaEJJY3FlVGtvdXBjYUdoMDVvcGZZN2Nmams5cDFQOEM0cm8xRXJINzhhS9IBckFVX3lxTFBIX3FrbTVMeGc5Z1RDWHlObFJucFJBVWtJWmFYY0FNSTVTRzI3Vlo5bWkzRm85d1Fva0N2akNJM0R6RHFVOEJLM1BQR0Z2Nm1hWnUzVllOYktjaUYyT0V3NVJtY1lyeG1NZWh4aDJkTk9zUQ?oc=5",
+          "published": "2026-10-27T23:31:47+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
-          "first_seen_at": "2026-10-26T12:59:08+00:00"
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
         },
         {
-          "title": "상장 멈춰도 투자는 해야…SK하이닉스, 솔리다임 자금조달 숙제 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WNUpBeW5jZXVoUE0xSTc5NE0tRjRfT1VuSTN6OFB4RS0xVDloRTFaRF9DZE0xTTBnRHQ2UWZSUVpiU0JTODhZQXdXTHRRelZYSC1KOXJpbWZyQTlrYVpBS1dvQUg3TEJ4SWZGS9IBckFVX3lxTE0xcFJoOFpwX0NGSUktcF93VlduNFA4bE5Ta0lFQmRMakQ5cmRCNk1XVHJTSm5zWnktMnFJRXBUcVk5NjFxaGdPWVc4M1hLRmxYcFI3NDdBcV80c3pRSlRLVUxrSFRfMTM0cUx2SE4wOXVXUQ?oc=5",
-          "published": "2026-10-25T07:15:00+00:00",
+          "title": "[속보]SK하이닉스, 3분기 영업이익 83.3조…'어닝 서프라이즈' - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xSnpqZ2s2NnRDVVZjQUtXM25KR2lGa1N0RXcwYUNqLXRscXA2Y3FUSnp4R2VsOWpFR21zMldGRU15QWl4bk1RRGg2eUtDeGlodm1acGZ2RHpNcExJOGp3OFY1VVpUMHJxMGlVQdIBckFVX3lxTE5BNFRBMVRfV085WnRNdE9aRWo5a1ZRVE5SR0NJYV95MDgwbDBOUHVacWFwOUlhN3BHNzNIZnJTc0JGWEJpYVNwZFZHTkVDUVJYaEFwYmpJWDBkY3J1VG1GYjFYVGFaRHdoX05TTl9KbENJUQ?oc=5",
+          "published": "2026-10-27T23:30:18+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
-          "first_seen_at": "2026-10-25T11:24:15+00:00"
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
         },
         {
-          "title": "고점 대비 56% 급락 SK하이닉스…이번주 실적발표 반등 계기되나 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yTk5RZV9EbHpnbHFKU0NaVmhkaWRZVkpHeXNMX0t5ZGpxekgyOTA0aUNIN25VeVE3TDdDM095anJNTDlldWxUNjRzenRrOGVONDRJSDh2M3ZjRGfSAWBBVV95cUxQcjRaaGhLaHMxWDdDYlFHZl9feThJcGdDN1UxNWxvZE0wcXAxamZzbE1YNUgtTzdTYWd5VHFrcTlvbUgyRnFiZGIyX0ZPSURJTE8zYzR1MzBScndJemtsZmQ?oc=5",
-          "published": "2026-10-24T21:05:01+00:00",
+          "title": "[속보]SK하이닉스, 주주환원 100조...배당 30조·자사주 소각 60조 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyekZZbG1WUHV5amdQdV85aWNWZU93THUtMmFaREVKaU4zYXhId2FQR090RDM4MHlUWmprUGtrVHhzZ0ZWNmFhZmFMS3A5OTBvRjFUWEY5bmJ5eEV1TFpHcUhteHZTMFlrTW9USdIBckFVX3lxTE5Nek5LZmVncTRuWGlubUprMFUzVE5BVVBiVGZFWGhYWTFTLWpvT2JKU1dUNWJLbmI3V0tWeVlsTlpqSm15dFhxOWVMbk5Oa3d3U2owY2pUMXM1MHVndVVyQmtMeUh5aVN4RHdUMjhKOVU0UQ?oc=5",
+          "published": "2026-10-27T23:30:17+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
+        },
+        {
+          "title": "[1보] SK하이닉스 3분기 영업이익 83조3천338억원…작년 대비 632%↑ - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pVjNHZnJ2Tjd4Y1NJZnRtb2hia01qeTM5UzNISzQyTmYwdkVXRmhfYklFUThQZlBrSWhOWVBSbnRyM1Bta1gtM004Ykk3NzZTcmNVb1cwOWVMYUJLOFlOWNIBYEFVX3lxTE9pVjNHZnJ2Tjd4Y1NJZnRtb2hia01qeTM5UzNISzQyTmYwdkVXRmhfYklFUThQZlBrSWhOWVBSbnRyM1Bta1gtM004Ykk3NzZTcmNVb1cwOWVMYUJLOFlOWA?oc=5",
+          "published": "2026-10-27T23:29:38+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-24T22:28:37+00:00"
-        },
-        {
-          "title": "'솔리다임' SK하이닉스 4%↑…코스피 막판 상승 전환 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vWnZhamJpekZLWG9yVS12TTl5UzVFTzNPZk9pdGZsQWNRaUZHRmtmaXlIbjZWT3JuNkhneUliVm45c3BFUUN1ZDMwRHJpdkhfdFRIeDF1aVN4ZDTSAWBBVV95cUxONjYzQmxQdElWUGRCc3NyTUhna0VFQUhUTGJBay1EZzM5Tjc0dnF3cVFKeE9kVE51WnFUeVl1QVVlZ0EzRVJsR3BJT1pNdllNXzNMNnFEU3ZZRm9LN1ZtUmE?oc=5",
-          "published": "2026-10-23T11:58:07+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-24T18:47:23+00:00"
-        },
-        {
-          "title": "SK하이닉스 주가 다시 300만원 갈까…솔리다임 상장 철회, 왜? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XQzlrNFNvX1hXRF9FeUdRVThMN1dOSVFxblBTSURlaXl0VXpyRDc0blZWMldrY2wtR3RwLTB2S19nZG90aXF2QmJDT2Zpc21DM2hjUGIwOEFGd0xmQ3JybXh6M2Y2N0c30gFuQVVfeXFMTjE0VkI2aE84b1U5TE1YR1Nxc1g3UFRkMzhhRFdSUnhYYUVPVDFtakhnVTNtSnBpVDB2RGFWbVBPek1HWFltdnVoaEt6a1d0N0lrVExkS25sSXdvcXU2VVprcFFqTWJDY3NuSUZsalE?oc=5",
-          "published": "2026-10-23T07:06:43+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-23T23:08:09+00:00"
-        },
-        {
-          "title": "[속보] 코스피, 0.3% 반등 5,550 마감…SK하이닉스 4.4%↑ - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QbU8zdDZDWkduc0EyTGZ1VGUyQTBkWHNtVjFVa2xHeFdBdENvcU5OcmZ6Unp5Q2ZCdnI1SlNpQ3JCeW1sRXJmZjhkVHdBRDVOcmpjMkJRcG9BblnSAWBBVV95cUxPS20tZDkyUHRiclhDSTJCWFMtb0E2dXlVZm51LXRTcVpMclpzMmI0X0RuZDNIeHZLOGF0MERZT1pCQllDY01oR0cwSnViMHpyMjJOODVpODNObFA3OWQ2cVA?oc=5",
-          "published": "2026-10-23T06:36:55+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-23T13:24:55+00:00"
-        },
-        {
-          "title": "SK하이닉스, 솔리다임 미국 상장 전격중단 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xbFZPbmlGaU5ZQnh2MHRnYmFmV09vQ1hxeGhXbDMzdDNfdkhpclVJbTUzejc1VXFzT1UtUEEzNUZBS3JHakZtSDNkYjhaZUtibHFweHlReVRDVEHSAWBBVV95cUxOZFB6ZU40QkFlTmc3bTY0QlR3ZUpPR1FWSGpHSW1nT0wxeS1MRWRlbjNRTld3TkNwOWV3b1JKY0wyODVxTWd0cnhoRzBTei1DYVJ5aHNuWGQySmt6aGl2Mk4?oc=5",
-          "published": "2026-10-23T04:57:50+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-23T13:24:55+00:00"
-        },
-        {
-          "title": "낸드값 치솟는데…SK하이닉스, 투자 '골든타임' 놓치나 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94enpaNTlhblhyVUpHLTdQR0tOTFRHSGJSZnZwYUl4cWJUNDFyVWhwV216OWZ5cGtMOFVqMGRsOUZXNElNLUZWVndONDFTODV3aklHeEtPalRjVGNDTnNxVWdLQzU4NTNqdGlYS9IBckFVX3lxTE5obkRzUXBiYjUxSDNYS3FfZ1gtRUdzdnlHM1BTck5LaGpXZi1jYnZvWkpxRGZUQ1pBNk92a1Z4ejhmWmJRVlEtM2YxMEltcmU2WFk2VW1NQzZra3lReFRhWEtMRnFHc0ZGcTJTNnJDWWsxZw?oc=5",
-          "published": "2026-10-23T04:43:36+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-23T07:30:03+00:00"
-        },
-        {
-          "title": "SK하이닉스, 2%대 상승…솔리다임 IPO 검토 중단 영향 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NS3RqXzhqa3JpMmhRSUlJSTM3cDBzWFFJeTB4UFEtRXNPME5sOTdQTThicThIaGhfMjhRbkk1MURtR2d5SUZDYmJLeExHSzktSmVtbENwWVVNYjRnYzdTdzEzUlpEdjNiRm5MUnFwS3pTZGUydmfSAXtBVV95cUxNZnFDUUFLejltUERIV0MtTnJkSVpSNklDVXRVODR6d2lXeU1fY2wtMDJRNEl3el8wRVk4RHB3TGp6Tnh4VTNOZWpYdlZManlkbUw0LTFhR09lZ3VCVHlZVWhTT0ZCNWdBWGxWOUppb2pfSk5tTGxWa09YNjA?oc=5",
-          "published": "2026-10-23T04:20:12+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-23T07:30:03+00:00"
-        },
-        {
-          "title": "SK하이닉스, 솔리다임 IPO '철회' - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBPWEtZZ0NuR3FiS2pnTm5LeGlHbnBNTjN6Ri0xZERtZVVXOWFXZm43M3RxNU9iSVoyUTVLc1YtcWRwQkdCNENick9n?oc=5",
-          "published": "2026-10-23T02:28:59+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-23T07:30:03+00:00"
-        },
-        {
-          "title": "SK하이닉스, 등락 거듭…AI 수익성 논란·솔리다임 IPO 중단 영향 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52R2V3bVR4R2stanM2bE9mbDFNUUY1R3lScWxxS2w0SF9HWTF0aUJCa1ZhbGJkTWhGeThLMEVzaE5UVVI3dzMyRWd1ZUQwZm5hb1ZNWFJBUEVuenFwVlgtVFJtVEVzRTdI0gFuQVVfeXFMTWFQSDRRQm13ZzgzM0FrUkQ1bnZ2cGdUNUlES0VnRjhFbWtGTXJXc1VpWEU3T190ZGxseWw3RDhHRXRnVGI5YTB2d3pnQ2RUUkwtSVdIeG5sdEFadzlqbjUtOU15WGZvYW9iaTVFcXc?oc=5",
-          "published": "2026-10-23T01:37:52+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-23T04:32:25+00:00"
-        },
-        {
-          "title": "급격한 시장 변동성에 솔리다임 IPO 내려놓은 SK하이닉스 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xR2Zsd0paaHJWY2duSS15eHd2RXlWQWctMWhjME5HWVdtNllIRy11Zy1iSUgxYnl2QTJYWjQtNGw2cGNBYlV6VzJMakt6ZUZXUHhaSDVYYVJNdlXSAWBBVV95cUxOblBhel9fall0TGxmc3Z6OVd6T1NhZVkxVVBERXhnMFlWamx5OEtjUzdCSmZNZzMtY0x3UmRfaWRmOWdUS2gxNkdERTU4OFR2bDdlclFLSko3ZkVEaGV0RE4?oc=5",
-          "published": "2026-10-23T01:30:08+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-23T04:32:25+00:00"
-        },
-        {
-          "title": "中 YMTC 쫓아오는데…SK하이닉스, 솔리다임 IPO 검토 중단 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zZERWTEN5M2pVcGg3NkNQQVJ6djVQeE9SRjVFNk5yUEJYckRiVnZlYWREOFNWOWQwcXRBZUNpblFoMFYxMTV2MV9PMF9jb04zUkpobFo4N0JCUWhxc1plQlFCUThBNGhBTC1iatIBckFVX3lxTE55VW9sWkJFT09WcVgzRElsN01ma2ltNEpMY2xwdGNLa25qUV9ZMG9iYkg1OGlYS3M0cDktcm5SNTNwMnRHLURaSkNpd19TQUxhRWRJNll3MVM4Z25RMHktNGtQY3IzaF9xWk1oZTd3YVBkUQ?oc=5",
-          "published": "2026-10-23T00:22:58+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-23T00:39:59+00:00"
+          "first_seen_at": "2026-10-28T01:22:25+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:25+00:00",
+      "checked_at": "2026-10-28T01:22:25+00:00",
       "news_status": "ok"
     },
     "019170": {
@@ -1309,7 +1295,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:26+00:00",
+      "checked_at": "2026-10-28T01:22:26+00:00",
       "news_status": "no_articles"
     },
     "475150": {
@@ -1317,21 +1303,12 @@
       "name": "SK이터닉스",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 1,
+      "news_count": 0,
       "news_reasons": [],
-      "news": [
-        {
-          "title": "하나증권, SK이터닉스에 \"3분기 실적 이연…4분기 집중 반영\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53X0pWUUw1Umo4Wk1GV216YUFOQnR3UlZMczdwbDlYWGdLbEFXbHR6N0J6NjZVaVRTOFA4V0xGdnVOZS0ybVNQZ2tWZFFyWHlpN2tBdEhWQkYzQ2PSAWBBVV95cUxNLVAyR2NUazk4SjdOUEt5RlhSakZHUGJQSjBWaG13bGZuWTN5VHkyVVhJVTRQYWdMR3B3c1ZXUFlEb1o1Y2hMWTlVZkZFRGNHcXQ4eGpJY1V0ZmtSaElBMFE?oc=5",
-          "published": "2026-10-20T23:40:14+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-10-21T00:37:28+00:00"
-        }
-      ],
+      "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:27+00:00",
-      "news_status": "ok"
+      "checked_at": "2026-10-28T01:22:27+00:00",
+      "news_status": "no_articles"
     },
     "018880": {
       "code": "018880",
@@ -1342,7 +1319,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:28+00:00",
+      "checked_at": "2026-10-28T01:22:28+00:00",
       "news_status": "no_articles"
     },
     "046970": {
@@ -1354,7 +1331,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:29+00:00",
+      "checked_at": "2026-10-28T01:22:29+00:00",
       "news_status": "no_articles"
     },
     "010140": {
@@ -1362,12 +1339,23 @@
       "name": "삼성중공업",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 0,
-      "news_reasons": [],
-      "news": [],
+      "news_count": 1,
+      "news_reasons": [
+        "주의:하향"
+      ],
+      "news": [
+        {
+          "title": "삼성중공업, 목표가 44% 하향…부유식 데이터센터는 기대-한국투자증권 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zczhQSTlhY3JxUDM1ajNLOG9OLW0wYXV5Y21scmlxakJYN3NZVlV1TXN3bGdpRmtzUmZNWU9aQVVKb2Q3Wjg4dDFKSWFOTnBsU2xWZm9rYlUxYnhiSE5hNzdlVDZidFg50gFuQVVfeXFMUGxHaGk2ejIwZ2RCM29NcmJ2S001ZjJiaTlkYmpwZ3FoU3JHMzMtQjlyakZwNnNENklsVXlUWUJNUlJ2d0dXaTlqcE9VQVQ5dlB3clZMcGY2WVJOMjgxNk9CTm1fRUtEY2JEb2FoMEE?oc=5",
+          "published": "2026-10-27T23:51:08+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:30+00:00"
+        }
+      ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:30+00:00",
-      "news_status": "no_articles"
+      "checked_at": "2026-10-28T01:22:30+00:00",
+      "news_status": "ok"
     },
     "024060": {
       "code": "024060",
@@ -1378,7 +1366,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:31+00:00",
+      "checked_at": "2026-10-28T01:22:31+00:00",
       "news_status": "no_articles"
     },
     "012210": {
@@ -1390,7 +1378,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:32+00:00",
+      "checked_at": "2026-10-28T01:22:32+00:00",
       "news_status": "no_articles"
     },
     "214450": {
@@ -1402,7 +1390,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:33+00:00",
+      "checked_at": "2026-10-28T01:22:32+00:00",
       "news_status": "no_articles"
     },
     "090710": {
@@ -1414,7 +1402,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:34+00:00",
+      "checked_at": "2026-10-28T01:22:33+00:00",
       "news_status": "no_articles"
     },
     "215790": {
@@ -1426,7 +1414,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:35+00:00",
+      "checked_at": "2026-10-28T01:22:34+00:00",
       "news_status": "no_articles"
     },
     "012330": {
@@ -1434,9 +1422,25 @@
       "name": "현대모비스",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 7,
+      "news_count": 9,
       "news_reasons": [],
       "news": [
+        {
+          "title": "현대모비스, 사내 모빌리티 앱 경진대회…AI 차량진단 앱 우승 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KVEpDeUhtVEFRQ3RrZHNXNFpuSHBaaEM4UjZpd0lJUnZIWjA2a3UtWVFyal9UcEY1bFlEYUtVYlZvLThqM1I3NDVDaWhXbmxPa2xUOVRlTUVhc1hxSDM1etIBYEFVX3lxTE5KVEpDeUhtVEFRQ3RrZHNXNFpuSHBaaEM4UjZpd0lJUnZIWjA2a3UtWVFyal9UcEY1bFlEYUtVYlZvLThqM1I3NDVDaWhXbmxPa2xUOVRlTUVhc1hxSDM1eg?oc=5",
+          "published": "2026-10-28T00:06:48+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-28T01:22:36+00:00"
+        },
+        {
+          "title": "\"직무 상관없이 車앱 만들었다\"…현대모비스, 임직원 SDV 해커톤 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpZEVVeE01UkEwOHJtNnNsbTBtdEhaeWtOS3p4LVNEOEZONnJZd2pyMnVSRlA1aldUUEc0T1ZHQ0g4R0V1VlN0cW1ta0tyYUNJSGtJN1E0STN5QlVMZ2ZDYUROaG9yUEhFZHYxb9IBckFVX3lxTE53THV1UXRSdWxQZk5tSjMzbE00VTRoblRhUEc0MFF2aWpQZFl4NFhOamRaTExjVGgxRjYwc1d6ejJ2dF9UM3JDV25KRGY4WmxyRUxrcml4NnBpQXNtRWdnemdtczFRU3d6dlpXc2JFbnpYdw?oc=5",
+          "published": "2026-10-27T23:48:12+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:36+00:00"
+        },
         {
           "title": "\"아이디어를 R&D 성과로\"..현대모비스 '엠필즈 페스타' 개최 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBISklKdm53V0VEdkRQUnAyeU5ZOWhnY3NBVER1eExCLVRURHZ1ejVrNWlhbmFiUEFhWlZpaVRyV1RzandSdjRyVkNFdWpROTZWUExxby1uc1ZocmppYTk0MnVRV1VUZlloT1NJStIBckFVX3lxTE8xdFBSWkQwcmMySF9ZX3lhVFV5WHBMOW04R1M0MjNMNEJRRU44UVZNdjd4czlWWVJZd21oUk8zaEdsNFBYR1M1SU9NV0k4Z3FGNEhMMDR4WWZQTzRjZjZ3bzRFUUh6WUtoVFBIa2JIbHRzUQ?oc=5",
@@ -1495,7 +1499,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:37+00:00",
+      "checked_at": "2026-10-28T01:22:36+00:00",
       "news_status": "ok"
     },
     "098460": {
@@ -1516,7 +1520,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:38+00:00",
+      "checked_at": "2026-10-28T01:22:37+00:00",
       "news_status": "ok"
     },
     "067290": {
@@ -1528,7 +1532,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:38+00:00",
+      "checked_at": "2026-10-28T01:22:38+00:00",
       "news_status": "no_articles"
     },
     "032820": {
@@ -1540,7 +1544,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:40+00:00",
+      "checked_at": "2026-10-28T01:22:39+00:00",
       "news_status": "no_articles"
     },
     "138360": {
@@ -1552,7 +1556,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:41+00:00",
+      "checked_at": "2026-10-28T01:22:40+00:00",
       "news_status": "no_articles"
     },
     "189330": {
@@ -1564,7 +1568,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:41+00:00",
+      "checked_at": "2026-10-28T01:22:40+00:00",
       "news_status": "no_articles"
     },
     "253840": {
@@ -1576,7 +1580,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:42+00:00",
+      "checked_at": "2026-10-28T01:22:41+00:00",
       "news_status": "no_articles"
     },
     "348030": {
@@ -1588,7 +1592,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:43+00:00",
+      "checked_at": "2026-10-28T01:22:42+00:00",
       "news_status": "no_articles"
     },
     "184230": {
@@ -1609,7 +1613,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:44+00:00",
+      "checked_at": "2026-10-28T01:22:43+00:00",
       "news_status": "ok"
     },
     "100590": {
@@ -1638,7 +1642,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:45+00:00",
+      "checked_at": "2026-10-28T01:22:44+00:00",
       "news_status": "ok"
     },
     "042660": {
@@ -1646,9 +1650,17 @@
       "name": "한화오션",
       "news_score": 2,
       "news_label": "형성중",
-      "news_count": 10,
+      "news_count": 11,
       "news_reasons": [],
       "news": [
+        {
+          "title": "SK증권, 한화오션 목표가↓…＂마스가 가시화 전 보수적 접근\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51VDRLTjc3WDFGVHdOWlNpT3VHTWYzcDNTd0xVdWIza2czTGtBSnQydlVxQ2VtWnFwbm1xV2xHX2lsU3JQY3J2NTkySTZCaTZyRnB2aHp4OXViWjg?oc=5",
+          "published": "2026-10-27T23:35:47+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-28T01:22:45+00:00"
+        },
         {
           "title": "한화오션 노사, '기본급 14만원 인상' 임단협 잠정 합의 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MSkhBWHl3bllFcFh0ZFZMLWZrSWtoWDQ0aGZDVmVQd19tM283WjYxUVgwbjVqV19zdTMzZUl4Q2ROWFE4QVNKOGl4SGhiSUxuZl9oRzhwelVxUEXSAWBBVV95cUxON1g3ZktBdm95Qm44VnFObkZka3NRdGwxZXJaUkh4WjRLTjV1VmNfR0tpSzZxUXZRU3h6Vjl6dHRxVmV2SGFNZ2JrdWg4LXZLdG9jM0lPSDliNnlEd185TE0?oc=5",
@@ -1731,7 +1743,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:47+00:00",
+      "checked_at": "2026-10-28T01:22:45+00:00",
       "news_status": "ok"
     },
     "109820": {
@@ -1743,7 +1755,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:48+00:00",
+      "checked_at": "2026-10-28T01:22:46+00:00",
       "news_status": "no_articles"
     },
     "356680": {
@@ -1755,7 +1767,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:49+00:00",
+      "checked_at": "2026-10-28T01:22:47+00:00",
       "news_status": "no_articles"
     },
     "340450": {
@@ -1767,7 +1779,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:50+00:00",
+      "checked_at": "2026-10-28T01:22:48+00:00",
       "news_status": "no_articles"
     },
     "396300": {
@@ -1779,7 +1791,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:51+00:00",
+      "checked_at": "2026-10-28T01:22:49+00:00",
       "news_status": "no_articles"
     },
     "142280": {
@@ -1791,7 +1803,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:51+00:00",
+      "checked_at": "2026-10-28T01:22:50+00:00",
       "news_status": "no_articles"
     },
     "050890": {
@@ -1803,7 +1815,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:52+00:00",
+      "checked_at": "2026-10-28T01:22:51+00:00",
       "news_status": "no_articles"
     },
     "069960": {
@@ -1815,7 +1827,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:53+00:00",
+      "checked_at": "2026-10-28T01:22:52+00:00",
       "news_status": "no_articles"
     },
     "388790": {
@@ -1827,7 +1839,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:54+00:00",
+      "checked_at": "2026-10-28T01:22:53+00:00",
       "news_status": "no_articles"
     },
     "125490": {
@@ -1839,7 +1851,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:55+00:00",
+      "checked_at": "2026-10-28T01:22:54+00:00",
       "news_status": "no_articles"
     },
     "278650": {
@@ -1851,7 +1863,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:56+00:00",
+      "checked_at": "2026-10-28T01:22:55+00:00",
       "news_status": "no_articles"
     },
     "041960": {
@@ -1863,7 +1875,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:57+00:00",
+      "checked_at": "2026-10-28T01:22:55+00:00",
       "news_status": "no_articles"
     },
     "009830": {
@@ -1875,7 +1887,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:58+00:00",
+      "checked_at": "2026-10-28T01:22:56+00:00",
       "news_status": "no_articles"
     },
     "218410": {
@@ -1896,7 +1908,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:12:59+00:00",
+      "checked_at": "2026-10-28T01:23:01+00:00",
       "news_status": "ok"
     },
     "067310": {
@@ -1908,7 +1920,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:00+00:00",
+      "checked_at": "2026-10-28T01:23:02+00:00",
       "news_status": "no_articles"
     },
     "042370": {
@@ -1920,7 +1932,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:01+00:00",
+      "checked_at": "2026-10-28T01:23:03+00:00",
       "news_status": "no_articles"
     },
     "042510": {
@@ -1932,7 +1944,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:02+00:00",
+      "checked_at": "2026-10-28T01:23:04+00:00",
       "news_status": "no_articles"
     },
     "204270": {
@@ -1944,7 +1956,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:03+00:00",
+      "checked_at": "2026-10-28T01:23:05+00:00",
       "news_status": "no_articles"
     },
     "101670": {
@@ -1965,7 +1977,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:04+00:00",
+      "checked_at": "2026-10-28T01:23:06+00:00",
       "news_status": "ok"
     },
     "347700": {
@@ -1973,7 +1985,7 @@
       "name": "스피어",
       "news_score": 1,
       "news_label": "약함",
-      "news_count": 2,
+      "news_count": 1,
       "news_reasons": [
         "수혜"
       ],
@@ -1985,18 +1997,10 @@
           "source": "머니투데이",
           "source_group": "머니투데이",
           "first_seen_at": "2026-10-21T07:38:01+00:00"
-        },
-        {
-          "title": "[적중! 대박 예감] '코리아써키트, 스피어, 현대약품' 내일장 예감 좋은 대박 종목? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45UExzZzhCb203SU9JZWVBVzFkWmptaV9LWFVObjZWd1ZOUU5aNjdIQW5GeC03c0Q3MDM5OEtjQmlOZTRnckRrOEtoNllIekF0elg1aC1IcGJRZzFiSTFlRWI0OE1lZUlE0gFuQVVfeXFMT01YTzBQalRhNkNmdHE1VHd5UTU5Zk9sbl9CbFh6cHhZTGs4aHN0aEhZTFozLUkwTEdPZUk4QjFucGw4MEJvRlJqVGFNcTl6LWt6Yk4wcmpaS3ROT0NHRmxMVlVJT1MyV2kzNUwtQWc?oc=5",
-          "published": "2026-10-20T22:13:09+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-21T00:38:03+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:05+00:00",
+      "checked_at": "2026-10-28T01:23:07+00:00",
       "news_status": "ok"
     },
     "014950": {
@@ -2008,7 +2012,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:06+00:00",
+      "checked_at": "2026-10-28T01:23:08+00:00",
       "news_status": "no_articles"
     },
     "217590": {
@@ -2020,7 +2024,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:07+00:00",
+      "checked_at": "2026-10-28T01:23:09+00:00",
       "news_status": "no_articles"
     },
     "047920": {
@@ -2032,7 +2036,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:08+00:00",
+      "checked_at": "2026-10-28T01:23:10+00:00",
       "news_status": "no_articles"
     },
     "232140": {
@@ -2044,7 +2048,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:09+00:00",
+      "checked_at": "2026-10-28T01:23:11+00:00",
       "news_status": "no_articles"
     },
     "043260": {
@@ -2073,7 +2077,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:10+00:00",
+      "checked_at": "2026-10-28T01:23:12+00:00",
       "news_status": "ok"
     },
     "064350": {
@@ -2113,7 +2117,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:11+00:00",
+      "checked_at": "2026-10-28T01:23:13+00:00",
       "news_status": "ok"
     },
     "107640": {
@@ -2125,7 +2129,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:12+00:00",
+      "checked_at": "2026-10-28T01:23:14+00:00",
       "news_status": "no_articles"
     },
     "095700": {
@@ -2137,7 +2141,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:13+00:00",
+      "checked_at": "2026-10-28T01:23:15+00:00",
       "news_status": "no_articles"
     },
     "327260": {
@@ -2149,7 +2153,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:14+00:00",
+      "checked_at": "2026-10-28T01:23:16+00:00",
       "news_status": "no_articles"
     },
     "103590": {
@@ -2161,7 +2165,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:15+00:00",
+      "checked_at": "2026-10-28T01:23:17+00:00",
       "news_status": "no_articles"
     },
     "353200": {
@@ -2192,7 +2196,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:16+00:00",
+      "checked_at": "2026-10-28T01:23:18+00:00",
       "news_status": "ok"
     },
     "008970": {
@@ -2204,7 +2208,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:17+00:00",
+      "checked_at": "2026-10-28T01:23:19+00:00",
       "news_status": "no_articles"
     },
     "439960": {
@@ -2216,7 +2220,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:18+00:00",
+      "checked_at": "2026-10-28T01:23:20+00:00",
       "news_status": "no_articles"
     },
     "224060": {
@@ -2228,7 +2232,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:19+00:00",
+      "checked_at": "2026-10-28T01:23:21+00:00",
       "news_status": "no_articles"
     },
     "200350": {
@@ -2240,7 +2244,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:20+00:00",
+      "checked_at": "2026-10-28T01:23:22+00:00",
       "news_status": "no_articles"
     },
     "072950": {
@@ -2252,7 +2256,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:21+00:00",
+      "checked_at": "2026-10-28T01:23:22+00:00",
       "news_status": "no_articles"
     },
     "452190": {
@@ -2264,7 +2268,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:22+00:00",
+      "checked_at": "2026-10-28T01:23:23+00:00",
       "news_status": "no_articles"
     },
     "065530": {
@@ -2276,7 +2280,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:23+00:00",
+      "checked_at": "2026-10-28T01:23:24+00:00",
       "news_status": "no_articles"
     },
     "382800": {
@@ -2297,7 +2301,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:25+00:00",
+      "checked_at": "2026-10-28T01:23:25+00:00",
       "news_status": "ok"
     },
     "033160": {
@@ -2309,7 +2313,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:26+00:00",
+      "checked_at": "2026-10-28T01:23:26+00:00",
       "news_status": "no_articles"
     },
     "263600": {
@@ -2321,28 +2325,30 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:27+00:00",
+      "checked_at": "2026-10-28T01:23:27+00:00",
       "news_status": "no_articles"
     },
     "263860": {
       "code": "263860",
       "name": "지니언스",
-      "news_score": 0,
-      "news_label": "약함",
+      "news_score": 2,
+      "news_label": "형성중",
       "news_count": 1,
-      "news_reasons": [],
+      "news_reasons": [
+        "수주"
+      ],
       "news": [
         {
-          "title": "KISA, 일본서 보안기업 수출 상담회…소만사·지니언스 등 참가 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QZnBuaHViTEdGV2x5Ukw5SVFwUDdiQXptcVJ6TmRhQi15YkhDcHc3LUhidDJBaWo0eDlTTFpieGZCSVZ4dkEwUTBxLW12NDN1akpMTW5zdm9JWWNLbUVidEdUTUF4YVHSAWxBVV95cUxPb0o4ZjBjVHdMdkdndEhWM0xHeXRWSG1EQlNGOTZLWTQ5bWlSMjVtVkZYSjNYaGl5RUFRZEhiNWZYRl8tN3o0TzZRb1JocDE5WUFvOTJCUlRNNWN3dlBQV2NvZXFGODJOSmxKQ1E?oc=5",
-          "published": "2026-10-20T23:36:32+00:00",
+          "title": "\"지니언스, 금융권 해킹 수혜…수주기회 확대\"-한투 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pcnVPTVlBdEZoaWRTb0FEaVRGZjRYNDNFV05xZUk3NWFIZFFvSDM0SW5Uek1xOTZROUp2dzBxVUhqZXJRUmRpUGIyVExuOFdYbnNBM2pLV2MwTi1Ia2tsYkVQSzR3NWJqa3BIM05GR1dFVlRxUFlJbWw1UdIBe0FVX3lxTE5pcnVPTVlBdEZoaWRTb0FEaVRGZjRYNDNFV05xZUk3NWFIZFFvSDM0SW5Uek1xOTZROUp2dzBxVUhqZXJRUmRpUGIyVExuOFdYbnNBM2pLV2MwTi1Ia2tsYkVQSzR3NWJqa3BIM05GR1dFVlRxUFlJbWw1UQ?oc=5",
+          "published": "2026-10-27T23:53:08+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
-          "first_seen_at": "2026-10-21T00:38:24+00:00"
+          "first_seen_at": "2026-10-28T01:23:28+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:28+00:00",
+      "checked_at": "2026-10-28T01:23:28+00:00",
       "news_status": "ok"
     },
     "105740": {
@@ -2363,7 +2369,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:29+00:00",
+      "checked_at": "2026-10-28T01:23:29+00:00",
       "news_status": "ok"
     },
     "490470": {
@@ -2375,7 +2381,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:30+00:00",
+      "checked_at": "2026-10-28T01:23:30+00:00",
       "news_status": "no_articles"
     },
     "001360": {
@@ -2387,7 +2393,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:30+00:00",
+      "checked_at": "2026-10-28T01:23:31+00:00",
       "news_status": "no_articles"
     },
     "411080": {
@@ -2418,7 +2424,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:32+00:00",
+      "checked_at": "2026-10-28T01:23:32+00:00",
       "news_status": "ok"
     },
     "036930": {
@@ -2439,7 +2445,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:33+00:00",
+      "checked_at": "2026-10-28T01:23:33+00:00",
       "news_status": "ok"
     },
     "456010": {
@@ -2451,7 +2457,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:34+00:00",
+      "checked_at": "2026-10-28T01:23:34+00:00",
       "news_status": "no_articles"
     },
     "097800": {
@@ -2463,7 +2469,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:35+00:00",
+      "checked_at": "2026-10-28T01:23:35+00:00",
       "news_status": "no_articles"
     },
     "203650": {
@@ -2475,7 +2481,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:36+00:00",
+      "checked_at": "2026-10-28T01:23:36+00:00",
       "news_status": "no_articles"
     },
     "010170": {
@@ -2496,7 +2502,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:37+00:00",
+      "checked_at": "2026-10-28T01:23:37+00:00",
       "news_status": "ok"
     },
     "017900": {
@@ -2508,7 +2514,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:38+00:00",
+      "checked_at": "2026-10-28T01:23:38+00:00",
       "news_status": "no_articles"
     },
     "003350": {
@@ -2520,7 +2526,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:39+00:00",
+      "checked_at": "2026-10-28T01:23:39+00:00",
       "news_status": "no_articles"
     },
     "256840": {
@@ -2532,7 +2538,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:39+00:00",
+      "checked_at": "2026-10-28T01:23:40+00:00",
       "news_status": "no_articles"
     },
     "443670": {
@@ -2544,19 +2550,28 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:40+00:00",
+      "checked_at": "2026-10-28T01:23:41+00:00",
       "news_status": "no_articles"
     },
     "069540": {
       "code": "069540",
       "name": "빛과전자",
-      "news_score": 2,
-      "news_label": "형성중",
-      "news_count": 1,
+      "news_score": 4,
+      "news_label": "강함",
+      "news_count": 2,
       "news_reasons": [
+        "급등",
         "양산"
       ],
       "news": [
+        {
+          "title": "빛과전자, 16%대 급등…美 광통신사 공급 계약 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tdi01d0twbnlMWXB4OTdqWnVRb1Zid1cyNnpELXdlUTdMamc0dnRkSjdTNXM1ZG1MZ2k1Tk1UdlZvbXBfQ1dGdTBJYTRhTDBVZ21QZW5FUkljX1BSNlY1STBSekxsdG9NWTg3YU1XWVB0TVp2cEtwYUZJQdIBe0FVX3lxTE0tdi01d0twbnlMWXB4OTdqWnVRb1Zid1cyNnpELXdlUTdMamc0dnRkSjdTNXM1ZG1MZ2k1Tk1UdlZvbXBfQ1dGdTBJYTRhTDBVZ21QZW5FUkljX1BSNlY1STBSekxsdG9NWTg3YU1XWVB0TVp2cEtwYUZJQQ?oc=5",
+          "published": "2026-10-28T00:33:18+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:23:42+00:00"
+        },
         {
           "title": "빛과전자, 美 광통신 H사에 25G 파장 가변 광트랜시버 초도 양산 공급 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZaTAxWUlSVHVteUgwS3ljWHE3amRYT0lvNk1URG9PeVpZT2dGcUV6cEg4TmxrbmdKejFxMmk3UGhJemxWWDFacUNwZk9vMGxhMDFnY1NxN3k2MlRMMm9zeElTbGktbVlJ0gFuQVVfeXFMUEI4SlJBWlRoU0tGb3F0SDRfWTVjZG9JcUViZ2FhZmVsZnBRYkp4LXV5cFVkdWFNOEtYd1h4SXZWQ09xczRFa2E2eTdSLVZXNkFkWFJOQVdZQWlnLXdBeHpweW5Nb3hwaG92aHR5MUE?oc=5",
@@ -2567,7 +2582,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:42+00:00",
+      "checked_at": "2026-10-28T01:23:42+00:00",
       "news_status": "ok"
     },
     "032500": {
@@ -2579,7 +2594,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:43+00:00",
+      "checked_at": "2026-10-28T01:23:43+00:00",
       "news_status": "no_articles"
     },
     "299660": {
@@ -2591,7 +2606,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:44+00:00",
+      "checked_at": "2026-10-28T01:23:44+00:00",
       "news_status": "no_articles"
     },
     "406820": {
@@ -2603,7 +2618,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:45+00:00",
+      "checked_at": "2026-10-28T01:23:45+00:00",
       "news_status": "no_articles"
     },
     "270520": {
@@ -2615,7 +2630,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:46+00:00",
+      "checked_at": "2026-10-28T01:23:45+00:00",
       "news_status": "no_articles"
     },
     "255220": {
@@ -2627,7 +2642,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:47+00:00",
+      "checked_at": "2026-10-28T01:23:46+00:00",
       "news_status": "no_articles"
     },
     "036540": {
@@ -2639,7 +2654,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:47+00:00",
+      "checked_at": "2026-10-28T01:23:47+00:00",
       "news_status": "no_articles"
     },
     "439580": {
@@ -2651,7 +2666,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:48+00:00",
+      "checked_at": "2026-10-28T01:23:48+00:00",
       "news_status": "no_articles"
     },
     "158430": {
@@ -2659,21 +2674,12 @@
       "name": "아톤",
       "news_score": 0,
       "news_label": "약함",
-      "news_count": 1,
+      "news_count": 0,
       "news_reasons": [],
-      "news": [
-        {
-          "title": "스테이블코인으로 적금 들고 담보대출까지…아톤·수협은행 PoC 완료 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nRkZYMGY3RFhrQXRJVEJudGZMUHRmUWcwS0I2aGdHNjRtTVZQVnJNTmg2b21xX2FKRkdRdWw3Y2VZM2hUOVBpNFJ1R1VKVlQ3OTBrRlk5MTBCSGt0U3UxTlpVSnNnUlXSAWxBVV95cUxOZWxNR0NCXzlMQ2dNamJfT3Z3dzJxNm8tYXg3SmVZWVpDNGRkS3lObTlUbGNLb1VVU1pTbld3MTd2R2N0OUdHVlpGdW85LUdhMGducVVhamI3WHRaOXZCU0U3YTg3Zmd0bzVxVEg?oc=5",
-          "published": "2026-10-21T00:34:25+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-10-21T07:38:42+00:00"
-        }
-      ],
+      "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:49+00:00",
-      "news_status": "ok"
+      "checked_at": "2026-10-28T01:23:49+00:00",
+      "news_status": "no_articles"
     },
     "403870": {
       "code": "403870",
@@ -2684,7 +2690,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:50+00:00",
+      "checked_at": "2026-10-28T01:23:50+00:00",
       "news_status": "no_articles"
     },
     "033790": {
@@ -2696,7 +2702,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:51+00:00",
+      "checked_at": "2026-10-28T01:23:51+00:00",
       "news_status": "no_articles"
     },
     "321370": {
@@ -2708,7 +2714,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:52+00:00",
+      "checked_at": "2026-10-28T01:23:52+00:00",
       "news_status": "no_articles"
     },
     "062970": {
@@ -2720,7 +2726,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:53+00:00",
+      "checked_at": "2026-10-28T01:23:53+00:00",
       "news_status": "no_articles"
     },
     "054920": {
@@ -2732,7 +2738,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:54+00:00",
+      "checked_at": "2026-10-28T01:23:54+00:00",
       "news_status": "no_articles"
     },
     "003580": {
@@ -2744,7 +2750,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:55+00:00",
+      "checked_at": "2026-10-28T01:23:55+00:00",
       "news_status": "no_articles"
     },
     "115450": {
@@ -2756,7 +2762,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:56+00:00",
+      "checked_at": "2026-10-28T01:23:56+00:00",
       "news_status": "no_articles"
     },
     "028300": {
@@ -2768,7 +2774,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:57+00:00",
+      "checked_at": "2026-10-28T01:23:57+00:00",
       "news_status": "no_articles"
     },
     "488280": {
@@ -2780,7 +2786,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:58+00:00",
+      "checked_at": "2026-10-28T01:23:58+00:00",
       "news_status": "no_articles"
     },
     "417200": {
@@ -2792,7 +2798,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:13:59+00:00",
+      "checked_at": "2026-10-28T01:23:59+00:00",
       "news_status": "no_articles"
     },
     "115440": {
@@ -2804,7 +2810,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:14:00+00:00",
+      "checked_at": "2026-10-28T01:24:00+00:00",
       "news_status": "no_articles"
     },
     "000500": {
@@ -2816,7 +2822,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:14:01+00:00",
+      "checked_at": "2026-10-28T01:24:01+00:00",
       "news_status": "no_articles"
     },
     "445680": {
@@ -2839,7 +2845,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-10-27T22:14:02+00:00",
+      "checked_at": "2026-10-28T01:24:02+00:00",
       "news_status": "ok"
     },
     "0161M0": {
@@ -2851,7 +2857,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:14:03+00:00",
+      "checked_at": "2026-10-28T01:24:03+00:00",
       "news_status": "no_articles"
     },
     "111770": {
@@ -2863,7 +2869,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-10-27T22:14:04+00:00",
+      "checked_at": "2026-10-28T01:24:04+00:00",
       "news_status": "no_articles"
     }
   },
@@ -2880,7 +2886,7 @@
       "articles": [
         {
           "title": "주식 떨어지고, \"고점에 물렸다\" 금값도 28% '뚝'...개미들 대피한 곳 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAySGx4R2IyX2l3R21SRnFGY2N3eG1zNWUyR1IxRGdGYkRBZmt2RWdiTGJyNHRQVnU2LTIzNWw5OHBWZ0x3YXR0U3JKclkzZGt1bGRObUpBQm9aUGVodUgtTnAzWEU0QU93Y2dxREQ2VTlhdEo3blHSAXtBVV95cUxPS2VuUHVpdm9UbWRfeHhXbktfVTJfV184aUE5R0RKQkdxcGZQZlJRSHdhZk1NNjRfcXFqdW1zMnVYalRlMXh4d29fVEx2cjZqWE1uWG9XWktQeTAwZGRTZ1gzNG53SXJ2QWJWMGZoeHBHTHlVWXcwTW9xTHM?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLdWpGVW9GSngzX1NzdHkyOWY3bl9JZFhLbWVYTmtTYVNYRzZHWFZwb1Q1YlB6Q2JjM0VUeVFFVTZDV0I0VFJaTmJua0VXU1ZENFYydm5YaDh0MDh5T3poZkUtNHp4aVJP0gFuQVVfeXFMTmRfanQ0ZkkxbnBDY2tDY2VVZXJicjFsdFJ6RlNNdFJFWXQzTFoyTlFvUEhvcUFOWDdUT21wSTNTdDd1TTF4VkZ1dG1YVXFZSXRyWG9IUzY2Z3EzdjdHdUx4LUE2SHhMR19RckRvckE?oc=5",
           "published": "2026-10-27T18:00:00+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -2967,6 +2973,32 @@
       "label": "전선",
       "watch": "공급계약·송전망 투자·구리 가격",
       "articles": [
+        {
+          "title": "SK브로드밴드, LS마린솔루션과 해저케이블 안정 운영 업무협약 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpWDVkaFRNX1c4WDhKNkJmb0ZkTDk0UlI2cHh3SlZmb3EzdTRLU1FWbDBQUGU4UE50ZkNTYjl3MFdpZTNBa3BJNDdPb3R6NkZhNTJrZE1wdjBmRUhhNDdZTDBha0Z2X2PSAWxBVV95cUxQRjNzWHdIQnpDRHMyc2NydjJoR1FSNmNtQ1REeTZDZ0czNlpwMXUyY1VxN3A1LXF1bjh3Y05BNGU3ejk1ZllMZzJmRnRQUlhsUTA2eUhaQ05kOENLakxIZ0NjeDNMU19IV2FDTmg?oc=5",
+          "published": "2026-10-27T23:25:51+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "theme_ids": [
+            "cable"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "LS일렉, 국내 최대 전력 전시서 초고압직류송전 경쟁력 홍보 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fNVpGMElNNEt4VThMT3ROcHk0ZFlTWTBvMUpFYjNQZVJCLXh2eVpITTlFMnlpYlBTb1NSa1FFTTZwRXpySUpabi1iTldRLURsdlJEVmsyc3BtSkXSAWBBVV95cUxPZUVlRW5DTkZScEcyMTMwQUJ0andCMUs0SEEzY0tpd01PUlJMUlRVa2xXTkJGR3NUTmlacThYcjBGTEVLWHhrdjhiMmZ3X2VpZjl1emljRU1QZXBPM1M3SkU?oc=5",
+          "published": "2026-10-27T23:17:13+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "cable"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
         {
           "title": "노동부, LS전선 '노조탄압 의혹' 수사…특별근로감독도 검토 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0MHFiTFpjYUZPYmNjRnJpTk5WclB3UTdnU2pRTnRPamxOd2pSWE8ta0MyTmYtWXZhX2tjNnNFWVhmanVoSjFhV1ppRzZ2ZDR3V1h4N3hpWVJybDDSAWBBVV95cUxNREJBXzBEa0ZWUWFCMU5vRmZuUGhZbkdRanlaVURCT2RaSmNCQXh1emFZbDlqLW4zb0d6OFlFM256bmdQMy1YbENpaWVoUEJ3blVCVV9CYzlZRkRnaE1VYi0?oc=5",
@@ -3109,32 +3141,6 @@
           "event_types": [],
           "risk_keywords": [],
           "mentioned_codes": []
-        },
-        {
-          "title": "효성중공업 \"내년 2GW 초고압직류송전 핵심기술 개발·설계완료\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55VXpEN3dhdzI2MGYwUTNSOTAwemE3dU5FV0J3M0k5aTdGSlZwYS1wV0ltUTlPdVl3MDdGYks2MlBQQ1ZIdzF4c3dtTFhzRFVBUi1BZ05QUnFRRVNHUjJKb9IBYEFVX3lxTE55VXpEN3dhdzI2MGYwUTNSOTAwemE3dU5FV0J3M0k5aTdGSlZwYS1wV0ltUTlPdVl3MDdGYks2MlBQQ1ZIdzF4c3dtTFhzRFVBUi1BZ05QUnFRRVNHUjJKbw?oc=5",
-          "published": "2026-10-23T07:08:53+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "cable"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "GS건설, 호주 에너지 인프라 사업 확대…빅토리아주 최대 전력망사업자와 '맞손' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LcVNpRFg5elFhTndkRWk2TUNydFFILTYzOG9TajZ5VHVudUZ4LVdTSFBMakxPeUdCVWhMc3l4YzlwQWpHRXpveXotS1lJOFhvZFVtemdpWGhlSDhxX3EtbEszbFRCTTlIbUHSAW9BVV95cUxNdXJfbGg0cnhNbEZxeldWWkhOajhhekwteUdhblh6d1pWc3hfRXVZSkhBb2VXN0pwMTdzZWo3ZERyeWs2ZjNIbHJMQ2lBekJNa1NZTmlaT1RXdXk1NGRmWW5fVU8tVGl6eWVqWU1wNkU?oc=5",
-          "published": "2026-10-22T01:27:37+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "cable"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
         }
       ],
       "candidates": [
@@ -3210,6 +3216,143 @@
       "watch": "메모리 가격·수주·증설·양산",
       "articles": [
         {
+          "title": "SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 완판\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JaE5JUUtSbEZtM2UyTHM0RUQzRllHSnA1SU5NanhBTHQyV1Rra0VGM1ZLSkFWanFqdElhWTRzWk84S2pMNVEwaEVNME9qRGQxWlQyamhNMGoydEnSAWBBVV95cUxPeGRlWFdkZjZKT1ZFa0owaGhrbnp4eEVtZGFqYld6a0dpWGw1SEhwYVk2amVWa18zcXFwQzViMDdmR1dsYXplOW1vejZ2OHpmcTI4N3FkY0lVWnZXT083Mkk?oc=5",
+          "published": "2026-10-28T01:07:48+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-28T01:22:25+00:00",
+          "theme_ids": [
+            "semiconductor"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": [
+            "000660"
+          ]
+        },
+        {
+          "title": "[컨콜]SK하이닉스 \"HBM 요청 물량, 공급 가능 물량의 두 배 웃돌아\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IN1BQVlhzNHBPajJhcmw4WmUtU1FuQ0NjcHJNNG41ZUlGZjJEUzdYYXkxMk53bDRXYU5BTE85UU1FeVBLRmQ5Y1FoTmFjMXZEZDItU2xpWUZsTHQ3Nmx5aG5fY25QWjl0OVN4cdIBckFVX3lxTE1CUDlNWGl3LUxHakFEdUliM2dRQURSM1pfUXVEX3JMRUwybUNzd2V3aGRFQkFmRGU1WE05Q0JTVG44Q0RyQXZ0eWFObFFSaHN2M1lKOHFQS1V6QzRZR0MxZXoxd1N4U1FnNHU5NDByUktRdw?oc=5",
+          "published": "2026-10-28T01:05:41+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00",
+          "theme_ids": [
+            "semiconductor"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": [
+            "000660"
+          ]
+        },
+        {
+          "title": "[컨콜]SK하이닉스 \"2029년까지 D램·HBM 물량 사실상 완판\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAybVNIZWpWODVFcU9xOWlTZnVUWGJ1UVNiUXJJdU91Rk1rUElyeVNuV3llU1dvY2xGQURyMGhIWUZZM25EUG5LMEJhX3ZMWFhOOEhMc1dXWHJWbEtfTVlzMjVNTnlJOUMtNV95SdIBckFVX3lxTFBLOVYzdnBJS3RNWl9tZ1VxQzRDNWRJOEdiRXpNTk12c3JhU2w0ck44VUQ3a0FiSThoVHRGTmtwWmJUWjZyMTVST05pS2xuUVctWXBNdDNhY1FCcGViNXhWbDBrLXlGWWRWVTZINGhiYnVIdw?oc=5",
+          "published": "2026-10-28T00:46:31+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00",
+          "theme_ids": [
+            "semiconductor"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": [
+            "000660"
+          ]
+        },
+        {
+          "title": "[속보] SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 모두 완판\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzZVUzNWZBakFBeURwTHB0UTZDd0tULS1TVlNDSWdIZmdwa0JnMVV6Nk5mRWtiUlR3OEhUTUIyUVlWNE8zeDVsWjl0U1hsb1N6TkhRaExlODJieHPSAWBBVV95cUxNaGRMM2pDVFJMaDBTbml3c1d0M2UzYjZxZEtuajhobWFWU3pxa2hrMWJCdVlxaFZzdGJNSE5uTkJCU2ZiVW95WElnalNWYk8zTkhKMWNlaGdTSGstTnppSE4?oc=5",
+          "published": "2026-10-28T00:45:27+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-28T01:22:25+00:00",
+          "theme_ids": [
+            "semiconductor"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": [
+            "000660"
+          ]
+        },
+        {
+          "title": "[컨콜]SK하이닉스 \"메모리 부족 2030년까지 이어질 것으로 전망\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Pd3FNNGp1T3dtdzlIZUd6YW4ySXd0UXJ5SnV5NzQ0ZEoyMUdvRkw1bnRNSlpKUG5NTFZiMGtRRWVqejZBNG5Wei1LeTRXYVZERVBGajBiM3UtZDYySF9GWTNrTmQ2TVFRMnZHcNIBckFVX3lxTE5EcktNZWlPZjVMdVhYMDZ6UlRNWXJoMFFIemVyMUhvNzNlemRkYm1zTkFsbGJTc05RZEQ0N2F4ai15T2lablBveExfNXFZSnVNZWc4bHVRWWFUOWxvVVhZRk1reWcyanF4eElkbzlETEtlQQ?oc=5",
+          "published": "2026-10-28T00:34:54+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00",
+          "theme_ids": [
+            "semiconductor"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": [
+            "000660"
+          ]
+        },
+        {
+          "title": "[컨콜]SK하이닉스 \"내년 HBM 물량 협의 마무리…가치 충실히 반영\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zeGFIdVROd1JTajVNY29pYVU4UFpVdzR3WGtRcFRHV2o2Mi1HMlltbDhUT2JaS2F2ZWlsNTFWcDliWklYU1JweDcxODJHYWFQWXRnUWlfUGZ6bHdSYWg0VEdsb3U1U01Kc3NRNdIBckFVX3lxTFA5V0VXcjRGSHl4a0ZpOWRNTDhZTHg0NEJDQ2RBS0h6b1pJVUcwbGdNUGhsSmRZcE1LbXp0MnVBa1Q1bUtLc3FSX3lPTjdoaFdzemNuNEwtX2NxUU1fMFpNZGkwTmJiaXBsZDBudGwtaE5PZw?oc=5",
+          "published": "2026-10-28T00:27:14+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:22:25+00:00",
+          "theme_ids": [
+            "semiconductor"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": [
+            "000660"
+          ]
+        },
+        {
+          "title": "美 반도체 훈풍·하닉 호실적…코스피, 3% 올라 5800 회복 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CTGpCUnpRb3RRVk9TSHYtWEVvMTRlNnA3RUI2T2JnLVZpMU9CMmxoZU5mVFVTNUtBQjVtYWVwMGpOZGVrbmdNbzFPVUJCU25QMFIydEF4T0REY0theGpSUmQ5TE1NNldo0gFuQVVfeXFMTzNtZ2Uwa1Zxa3VCblk0bUJhOXBGbnhtU0tsN0FJNHhOaHlNWG02NUZYVTZja2p5REhfSU1ucDdaOXZhZ0NQQlVTZkFaNE43QVhFak5JamJIcHU0X0tFZGNXa3lMbzJsNUZ5TTZkMEE?oc=5",
+          "published": "2026-10-28T00:27:14+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "theme_ids": [
+            "semiconductor"
+          ],
+          "event_types": [
+            "실적"
+          ],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "뉴욕증시, 반도체 반등에 나스닥 1.2%↑…3대 지수 상승 마감[뉴욕마감] - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hczExOTFpcGwzTTlPUzd3ek9IQ0VTZVFWWmdsd1pPMnliZjc3Nk40dGhuaC0yMVphRWlvZG9kS25WWkkyNTdfQWo5TXZyMXNTbV9iY1RQTjVBT0VPQ3R5RGNoVDZ1N3FM0gFuQVVfeXFMTmEyS1hORjFLS1pUUHVfaXdVaHVaQURjRl9oRGtkMFdvTUhwRGZ5NUV5QmRFblZCcE9PeVo5XzEtNHVyUWxLM2Jua296bnNyck8zT2plSzhmRWgtc1VoaXRJaWx5bF9OT3NobEF4R1E?oc=5",
+          "published": "2026-10-27T22:26:02+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "theme_ids": [
+            "semiconductor"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "[사설] 반도체전쟁,52시간 시행령 땜질론 필패 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84Y2Y2c2psYzlCVDJxcTF6UHlmZ0syN09oSmVueTBldFV6cDVvUFlPTU9qaTR1bHhiOHJzSW53ZHlBS0hra080M2ZfMWZCVkNZT284dUVnUWN5a01Mb1ZqRXVDcW9PZFBlcjRr0gFwQVVfeXFMT0JRTHIycFZ2SWFzNlFhUDlTS3RXeTJaTTk4Y3lxeXdxSWF5UDNSUmE2VGlLNHJsdWJyRndlUVEzZk11MkRSMDNTOHh1MmZ4U0NjLW5zeGpWRkZQWENpQVNXT013d08xX0VJWkZtZG8zTA?oc=5",
+          "published": "2026-10-27T22:12:13+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "theme_ids": [
+            "semiconductor"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
           "title": "HBM 없이도 엔비디아 제꼈다…하이퍼엑셀, 네이버와 AI칩 검증 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CQUdmdUhCWkw3aEJmcUZkOFdYeFhMMXBBWThncl9McElPZ0hoRDJKS00tczl5bjJqcUFXMHFZR0ZDRURGTHVBY1I0a3NocjBOOVB0UG4yTnpIbVNfSy1saFF3OHNpZ3czTnfSAW9BVV95cUxNbFRsX1JxNU1QaVdoWHowdHd5SlJJaUpBUFI1Qjd6czk2WjUzemZlbGNRZjhqcmpCUUJ4LWtMWUtGZlcxcXc2VGRXSHE4MEhFa0N2dmpiVlQtbmtBZ1N1NktOdGlXZDlzM2hta0R5R0U?oc=5",
           "published": "2026-10-27T22:00:00+00:00",
@@ -3250,127 +3393,6 @@
           "event_types": [],
           "risk_keywords": [],
           "mentioned_codes": []
-        },
-        {
-          "title": "앤트로픽 소식에… 반도체 소부장 ETF 살아나나 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HclNFWmJDRmpFcHpZYUxpTk1KdFdESHFiVlRGTHhCNFVzZlExam1aUFdfbHZmUVBlQnhoc2g0QmR3R3VkeDN0ZW5QQ0RFdnhYNzFIVEpfZHZMemY4SVBIUjRWazRyRzY40gFuQVVfeXFMT053QWhJd0tKTEJMaUQ4TTU1NFNnQWhSd2lfbWNzM2dGcmkzQ3FxVG5NVTFhWldTaDl3Wm9PajdDaGxSQkNOOWk2ZHAxT1BpODlPRTM3QjRjMEREOC1TMTVhb24xT0xYeUszQ2lPZmc?oc=5",
-          "published": "2026-10-27T19:01:00+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "semiconductor"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "반도체 호황· 설비투자 확대… 연간성장률 4.0%도 보인다 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xNTU3OU8tcF9Xd184b0hxVHJCUGIyczNrZ0hIbTJ1YXR4c0RLZ3dBR3lHSkRGZjhzellyVk1DdlMtTTQyRTUxOEVxbzlPVHpOUXUtTWdsOGROWGFwTXZ5b2F1cXZKXy1ZbHMw0gFwQVVfeXFMTUtESUpXWVFoaDN0NXppSjROSHBQZjl1cFU4Q29tTHNDVm1EVDZVUm4wNWlDSEU2Q3R5bFI2aF9nSkZ5X0Z6WW5wb0FmVzY0dTJ6SF9XQ2JfVy1KbmNOa3NJODJVbVRQWGRBRmhnLVNIWg?oc=5",
-          "published": "2026-10-27T18:47:00+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "semiconductor"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "AI 수익화 기대감에 반도체 '껑충'… 외인·기관 쌍끌이 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jU2VYNEh6Uzk5RVYxY0xoNHQyMDdxSS1vUWJTWjltZ1lpSnd0c2xLTjllZnhpdER2ck5XanljSEpENmNTWkEzbVl5dzdlODBhTEhncE03b29zc0VnR3hWcUdaRDRlM1Ay0gFuQVVfeXFMUEY4RVVZU3g2NjVSUWozVWtCam1wTDd5VnAzQ3I2RHV5NW9CcGQ1UV9NQW5tVlN0NzRjMkpiUkxYTXk3NVliU0NzeWlPWXBMSGpqZjBJRW1DSzhCOHBYMWdJRmM2S3RtdzBRVlh1Tnc?oc=5",
-          "published": "2026-10-27T18:00:00+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "semiconductor",
-            "ai"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "\"베트남 첫 반도체공장 건설계획 지연…내년 시험생산 어려울듯\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SS2NXbkhJNTBuS3FYa1owel9NNWZuSlNUWnoyYmY5c1pGVmN0M3Vtal91NklhVDFYNzVPMmRMV05tU3lFcFM1WGctLWtmZXFrblhROWU0eDlyU3EzS0RYcNIBYEFVX3lxTE9SS2NXbkhJNTBuS3FYa1owel9NNWZuSlNUWnoyYmY5c1pGVmN0M3Vtal91NklhVDFYNzVPMmRMV05tU3lFcFM1WGctLWtmZXFrblhROWU0eDlyU3EzS0RYcA?oc=5",
-          "published": "2026-10-27T11:47:05+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "semiconductor"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "광주공고 AI반도체과 경쟁률 4.16대1…작년보다 3배 뛰어(종합) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MQk1MNVZQclo0VGo0UnlGZzluYXJnVlRSMzMxRUdXSHhza011bU5vblNFSDBjSDNYRE5HVmNrb3l4c1FkVG5rMnloWFQ3X0hfTHhqVEpBWGN6QTDSAWBBVV95cUxPVW9JOHhFWXNkcTAycmpfWmxrdHg0ZDFlYjN5SmRhVW9IOEdxQzNVMHN0dVJIaEhRejFNY1ZwUGV2V0NEb0IwdzZHaWgwaHRHUlpHOGs5M2NadVpiVnREc3E?oc=5",
-          "published": "2026-10-27T08:25:46+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "semiconductor",
-            "ai"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "박현주 미래에셋회장 \"내일 M&A 발표…반도체 고점론 틀릴 가능성\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQWC13ZzhWdzMyWDFVYjBhdzF6eDMyem1TNk5rZURSbGQyZmwxRmlPRm0wcjNkTjBrdzFSTmtDLVJmdlVERU9EQWlXMUlqYjBjYVh3bUpiWE44MURtQlhDcdIBYEFVX3lxTFBQWC13ZzhWdzMyWDFVYjBhdzF6eDMyem1TNk5rZURSbGQyZmwxRmlPRm0wcjNkTjBrdzFSTmtDLVJmdlVERU9EQWlXMUlqYjBjYVh3bUpiWE44MURtQlhDcQ?oc=5",
-          "published": "2026-10-27T07:47:56+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "semiconductor"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "[전남광주소식] 광산구, 반도체 설비공사 보건의료 지원 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42TTc5NlhrUzVaQ3N4S01tRlRXV3dxODdaeC1yYmM2RXhmVExkRU5uSUU4YmFwLXN2dDJ5V0hfMHZheUU4TFU2dDZxU1FGT1RWc0QtNlhIY2VfVUsxZjRYX9IBYEFVX3lxTE42TTc5NlhrUzVaQ3N4S01tRlRXV3dxODdaeC1yYmM2RXhmVExkRU5uSUU4YmFwLXN2dDJ5V0hfMHZheUU4TFU2dDZxU1FGT1RWc0QtNlhIY2VfVUsxZjRYXw?oc=5",
-          "published": "2026-10-27T07:44:40+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "semiconductor"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "평택서 반도체 가스 저감기술 시험·검증한다 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wdkVvaTY0T2NqZGFUOWlaSk94ZkZvNzJFeXB3b0dneDB6U0FUR1lvY0gzNmlab2Y1QXRNUkxHVVUxQlZVRnIxQkQ2MjNJR0txN0hPRmlKbTBFS1nSAWBBVV95cUxNSjVSVW1xcWJJdHN1TGhHVF8yN0xBaXVJTktvUWl4QmU3OWV4amp2ZDgybnpsblpZS0RvMUZoUWRJY3p0WHZIbTNieFlKbEVCVHdXZ1IwbFJ1Zkl2ZDJSMmg?oc=5",
-          "published": "2026-10-27T07:39:34+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "semiconductor"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "[더벨]케이엔제이 \"올해 반도체 부품 매출 30% 이상 성장\" - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xUlYycHBoTW1GaXlWZFltSG9nRXlLNFIydUFWRXU0ZnBLZG9oMjAtMUtVRUgxb29YOWV5N3ZaNUlUWTBRUXAyRzlQWURNWXU5bVlUOHZNNFlKV2ktUlI0b0kxRFYxMXB2all3OFlB0gFuQVVfeXFMTzFSVjJwcGhNbUZpeVZkWW1Ib2dFeUs0UjJ1QVZFdTRmcEtkb2gyMC0xS1VFSDFvb1g5ZXk3dlo1SVRZMFFRcDJHOVBZRE1ZdTltWVQ4dk00WUpXaS1SUjRvSTFEVjExcHZqWXc4WUE?oc=5",
-          "published": "2026-10-27T06:31:50+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "semiconductor"
-          ],
-          "event_types": [
-            "실적"
-          ],
-          "risk_keywords": [],
-          "mentioned_codes": []
         }
       ],
       "candidates": [
@@ -3404,8 +3426,8 @@
           "evidence": [
             {
               "title": "내일 삼성전자 3분기 세부실적…메모리만 110조 영업익 추정 - 연합뉴스",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPa0pQd0hmOHF2MF9UbmdIM2VreVFHdE1kUjRWc21ndU85cHVxaE5DQ1o1T3ZyYmk5UWx1aDV5Vm1ieEN3NEhzRVlQWnA5MGNPY2pkZHBickhGVmvSAWBBVV95cUxNSFdIcGFwajNWZl9zX0tMbnMtLW5WZm0xWTRJUjR0TVhzOTdBQzk5a2JEZ3JBckdTNlE0aS1KdTEydmxHaVpuYXBjS0dIS0I4VUdsUjJIdkszOFI3emFiYno?oc=5",
-              "published": "2026-10-26T09:15:00+00:00",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IV0hwYXBqM1ZmX3NfS0xucy0tblZmbTFZNElSNHRNWHM5N0FDOTlrYkRnckFyR1M2UTRpLUp1MTJ2bEdpWm5hcGNLR0hLQjhVR2xSMkh2SzM4Ujd6YWJietIBYEFVX3lxTE1IV0hwYXBqM1ZmX3NfS0xucy0tblZmbTFZNElSNHRNWHM5N0FDOTlrYkRnckFyR1M2UTRpLUp1MTJ2bEdpWm5hcGNLR0hLQjhVR2xSMkh2SzM4Ujd6YWJieg?oc=5",
+              "published": "2026-10-27T21:01:00+00:00",
               "source": "연합뉴스",
               "source_group": "연합뉴스",
               "theme_ids": [
@@ -3451,6 +3473,64 @@
           ]
         },
         {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "evidence": [
+            {
+              "title": "SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 완판\" - 연합뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JaE5JUUtSbEZtM2UyTHM0RUQzRllHSnA1SU5NanhBTHQyV1Rra0VGM1ZLSkFWanFqdElhWTRzWk84S2pMNVEwaEVNME9qRGQxWlQyamhNMGoydEnSAWBBVV95cUxPeGRlWFdkZjZKT1ZFa0owaGhrbnp4eEVtZGFqYld6a0dpWGw1SEhwYVk2amVWa18zcXFwQzViMDdmR1dsYXplOW1vejZ2OHpmcTI4N3FkY0lVWnZXT083Mkk?oc=5",
+              "published": "2026-10-28T01:07:48+00:00",
+              "source": "연합뉴스",
+              "source_group": "연합뉴스",
+              "first_seen_at": "2026-10-28T01:22:25+00:00",
+              "theme_ids": [
+                "semiconductor"
+              ],
+              "event_types": [],
+              "risk_keywords": []
+            },
+            {
+              "title": "[컨콜]SK하이닉스 \"HBM 요청 물량, 공급 가능 물량의 두 배 웃돌아\" - 머니투데이 - 머니투데이",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IN1BQVlhzNHBPajJhcmw4WmUtU1FuQ0NjcHJNNG41ZUlGZjJEUzdYYXkxMk53bDRXYU5BTE85UU1FeVBLRmQ5Y1FoTmFjMXZEZDItU2xpWUZsTHQ3Nmx5aG5fY25QWjl0OVN4cdIBckFVX3lxTE1CUDlNWGl3LUxHakFEdUliM2dRQURSM1pfUXVEX3JMRUwybUNzd2V3aGRFQkFmRGU1WE05Q0JTVG44Q0RyQXZ0eWFObFFSaHN2M1lKOHFQS1V6QzRZR0MxZXoxd1N4U1FnNHU5NDByUktRdw?oc=5",
+              "published": "2026-10-28T01:05:41+00:00",
+              "source": "머니투데이",
+              "source_group": "머니투데이",
+              "first_seen_at": "2026-10-28T01:22:25+00:00",
+              "theme_ids": [
+                "semiconductor"
+              ],
+              "event_types": [],
+              "risk_keywords": []
+            },
+            {
+              "title": "[컨콜]SK하이닉스 \"2029년까지 D램·HBM 물량 사실상 완판\" - 머니투데이 - 머니투데이",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAybVNIZWpWODVFcU9xOWlTZnVUWGJ1UVNiUXJJdU91Rk1rUElyeVNuV3llU1dvY2xGQURyMGhIWUZZM25EUG5LMEJhX3ZMWFhOOEhMc1dXWHJWbEtfTVlzMjVNTnlJOUMtNV95SdIBckFVX3lxTFBLOVYzdnBJS3RNWl9tZ1VxQzRDNWRJOEdiRXpNTk12c3JhU2w0ck44VUQ3a0FiSThoVHRGTmtwWmJUWjZyMTVST05pS2xuUVctWXBNdDNhY1FCcGViNXhWbDBrLXlGWWRWVTZINGhiYnVIdw?oc=5",
+              "published": "2026-10-28T00:46:31+00:00",
+              "source": "머니투데이",
+              "source_group": "머니투데이",
+              "first_seen_at": "2026-10-28T01:22:25+00:00",
+              "theme_ids": [
+                "semiconductor"
+              ],
+              "event_types": [],
+              "risk_keywords": []
+            },
+            {
+              "title": "[속보] SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 모두 완판\" - 연합뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzZVUzNWZBakFBeURwTHB0UTZDd0tULS1TVlNDSWdIZmdwa0JnMVV6Nk5mRWtiUlR3OEhUTUIyUVlWNE8zeDVsWjl0U1hsb1N6TkhRaExlODJieHPSAWBBVV95cUxNaGRMM2pDVFJMaDBTbml3c1d0M2UzYjZxZEtuajhobWFWU3pxa2hrMWJCdVlxaFZzdGJNSE5uTkJCU2ZiVW95WElnalNWYk8zTkhKMWNlaGdTSGstTnppSE4?oc=5",
+              "published": "2026-10-28T00:45:27+00:00",
+              "source": "연합뉴스",
+              "source_group": "연합뉴스",
+              "first_seen_at": "2026-10-28T01:22:25+00:00",
+              "theme_ids": [
+                "semiconductor"
+              ],
+              "event_types": [],
+              "risk_keywords": []
+            }
+          ]
+        },
+        {
           "code": "012330",
           "name": "현대모비스",
           "evidence": [
@@ -3475,14 +3555,12 @@
               "published": "2026-10-21T06:10:00+00:00",
               "source": "연합뉴스",
               "source_group": "연합뉴스",
+              "first_seen_at": "2026-10-21T07:37:34+00:00",
               "theme_ids": [
                 "semiconductor"
               ],
               "event_types": [],
-              "risk_keywords": [],
-              "mentioned_codes": [
-                "012330"
-              ]
+              "risk_keywords": []
             }
           ]
         },
@@ -3509,27 +3587,6 @@
               ]
             }
           ]
-        },
-        {
-          "code": "000660",
-          "name": "SK하이닉스",
-          "evidence": [
-            {
-              "title": "SK하이닉스, '반도체의 날' 동탑산업훈장 등 5관왕 - 연합뉴스",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VRnVBV2E5VkdsaGVlUk4za3FIWjJUS0ZzRFdjd3pfYmlIZEVGLWVBY1V6dWZpNDhnYjNpRzExV2x3WV9NTHVGUkswbGotQlg0MGRIZU5FWXZqMTTSAWBBVV95cUxNQzM5T2lsWnc2QTFBRUJGdUpmRk1lREFKTmt0Y19LbldwNTBndTlaRTFPRjJ5aF9OaDFZR0Z2VThyNXlLRVV3VWp3T3Z0aEc2T1BkMXFXLXBWU1loczJjTHo?oc=5",
-              "published": "2026-10-22T02:52:46+00:00",
-              "source": "연합뉴스",
-              "source_group": "연합뉴스",
-              "theme_ids": [
-                "semiconductor"
-              ],
-              "event_types": [],
-              "risk_keywords": [],
-              "mentioned_codes": [
-                "000660"
-              ]
-            }
-          ]
         }
       ],
       "errors": [],
@@ -3540,6 +3597,21 @@
       "label": "우주항공",
       "watch": "발사·위성 계약·정부 예산",
       "articles": [
+        {
+          "title": "AI·양자·위성통신까지…KT, 6G 보안 대응 나선다 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KYTNoYTgxR1hrOHF5akdpU3hHZWp6VE0yNzNjazQwNDVOdjBraDZHQ19SeG9FVUZsZVNKdWxpeXFWeEsxYzB3QTJUdXlxczJialJ6Um8zTmZzQm_SAWBBVV95cUxPNzFnNDhrcWpGNlZJX3JVcldsRW9oSmxjTTE4V3hzZXpKQ0x4VFREaTgxSXJlVFZZZFRpVlpUa0h0bnFHVWEwMWtIZmhtMWMwV1EwTEZEMDVUMjZEZU5ZVlA?oc=5",
+          "published": "2026-10-28T00:56:45+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "aerospace",
+            "ai",
+            "telecom"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
         {
           "title": "브라질 대선, 룰라 '역전승' l 北 김정은, 당일치기 방중 l 일본, 화성 위성 탐사선 발사 [김동규의 評천하] - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83TWpYbV9yamhHSHNiOTUzamdXdlRMWGV4ajB6TS1HWWhHeFkxamdkTEg2ZUF1M0w0TUNxeDdLakNKZlk2N3A2N1JVcExiVFNQLWVN?oc=5",
@@ -3659,9 +3731,9 @@
           "mentioned_codes": []
         },
         {
-          "title": "한국, 2027년 세계 최초 '우주쓰레기' 포획 위성 쏜다 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UVjFEVlZEdDNVSmpzMk1uUHhMXzhxRlp1S0FDUFBRS0wtUGlkSU0zSHM2cGxoY1U5QkFVaDBVVzNSd3BlLXlsTi1uU0F6OGg2b1JSQ3lYZThNZXpidWpqUUpTOV9yOG_SAWxBVV95cUxPcl9uNnpxXy0yVjNZQVNWXzFYT29XSFBLUXFQenVVZ2VuV0FXZFpYcl92RGJfMEdhQ3I4VGNsdWN0MHZZVzM5bWF1TlhPUEdBMEJYSks4T1NrdXBlNlU0ZE1RQlR4bmR4N2RsMFU?oc=5",
-          "published": "2026-10-26T08:28:20+00:00",
+          "title": "보령, 우주 연구 '1호 잠재 고객' 확보…독일우주청과 양해각서 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80REpKanlNSDJpSE00VHhOU1hDUXZnYUE0QXAxNHVuazF5SVJFbFlPUi1hdFRaemltY1VoM2xJUjNVS09uUy0zQzYxdlFBSnlaWlhUM1VHYVROYWw2UXhsN1RxTllUUXlBMTAyZjhjczVhZmNtbWU00gF8QVVfeXFMTkpMTVFMS01lS3RfVEcxSTdBazl5cUY2SG1LUnR3R2V6VkZVVUlaQ2U5QndHVlA1MllTTHp5c2ZnZXYySFNQaENCSHRQMTlxY09jXzZiQkwxZkhpVDNyUEF4c0lQU2NPSTVMTFNtWlhMNDBxNkxMNmVEQ0pPZA?oc=5",
+          "published": "2026-10-27T00:56:07+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
           "theme_ids": [
@@ -3672,24 +3744,11 @@
           "mentioned_codes": []
         },
         {
-          "title": "우주판 '승리호' 뜬다…내년 누리호로 우주쓰레기 포획위성 발사 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByOFFDOERKbHlVcTJzd0daa2dNcDRDUjJ3cXd1Mm1VSUN3UDA3NlFnMWNwRi1yN0JpUXV2bkFOSlBSTGttOTZRLWxyUEhjN3dyMEE5VGFPSHE0eXfSAWBBVV95cUxOOUJRVnpxdk5KcC1QMkxpNW93dlVVVlU5aHVzUElxUU9kYkJ3NU9fQU9pb3V1NFEtcDBRdzhvYjlXNmNtNW0zM3BIOW5RWjR5SG10OFNoS0RQUXYwSi0xN2k?oc=5",
-          "published": "2026-10-26T08:26:24+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "aerospace"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "진주시, 우주항공산단 입주기업에 최대 75억 지원…조례 개정 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BdWYxaEZpaWN3VG9uVXhwUXF6YnpmYTJkTENPNXBwcVphTHBVRmNYLTlDam95WVh5cTBTMzU1RXo0UHVHUmdVNWgydlRiQ0lyTjZJeHgybnFYVnPSAWBBVV95cUxOdXhhckNxclYtUGpONnpMMjhSQV9WU0x5Q0N0OE84SlVYd2xRemM0U3Z2UUtBMzVybTc0YWVuSDBIRXA0UVlWRHZfT3lsTFhmb3BDNzVsRlcwOC1sRXhEbWg?oc=5",
-          "published": "2026-10-26T07:23:59+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
+          "title": "한국, 2027년 세계 최초 '우주쓰레기' 포획 위성 쏜다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UVjFEVlZEdDNVSmpzMk1uUHhMXzhxRlp1S0FDUFBRS0wtUGlkSU0zSHM2cGxoY1U5QkFVaDBVVzNSd3BlLXlsTi1uU0F6OGg2b1JSQ3lYZThNZXpidWpqUUpTOV9yOG_SAWxBVV95cUxPcl9uNnpxXy0yVjNZQVNWXzFYT29XSFBLUXFQenVVZ2VuV0FXZFpYcl92RGJfMEdhQ3I4VGNsdWN0MHZZVzM5bWF1TlhPUEdBMEJYSks4T1NrdXBlNlU0ZE1RQlR4bmR4N2RsMFU?oc=5",
+          "published": "2026-10-26T08:28:20+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
           "theme_ids": [
             "aerospace"
           ],
@@ -3730,8 +3789,21 @@
       "watch": "원유 가격·감산·공급 차질",
       "articles": [
         {
+          "title": "\"아람코, 유럽에 현물원유 추가 제안\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aYkFOZ3M0djUzNFpmTWhuYnQ3QnNjRjU5M0w2cUxGM3lST1N3cHJ6VXFpRHB5YjBXaklZbWdleGNWcTBWTG14bWRERGdER0RHcW9SakRrZElwQ2_SAWBBVV95cUxPcFlyVWZBeWdBUGpKeS1RY3JVcDE2MW9Wc1hQeEpnX1hneFNEWV9pcVpsTV9XYWgxYzU0VEFYeldWV0wyNHhRY3gxODBGalNYT2lwYUlfTlA4WGxkUlNpM3c?oc=5",
+          "published": "2026-10-28T00:49:39+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "oil"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
           "title": "중동 평화 회담 기대감에 WTI 1.8%↓…100달러 턱밑 마감 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTVnBrS3R5Y1dvTHhhZllfMjRtTzFwYlpqYUxiQUxqcTdDRU1WYnZEbnhEY0Mwc29HYl9RX1pLRGE5VWhUZHBKdWUxYzJwZFBLSjk0NS1nUU93REXSAWBBVV95cUxOZ0tWbVA0OXdLaGg1T1pNQWE1ZFlLcEFIZEpvX0l5NjZDeHhleHlySzZVMkNSNEFaMGdOOEMtT25zWnprS2s2YTBiV0MzOWt3eWo5NV9KQU51QzFVYXNpSXg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nS1ZtUDQ5d0toaDVPWk1BYTVkWUtwQUhkSm9fSXk2NkN4eGV4eXJLNlUyQ1I0QVowZ044Qy1PbnNaemtLazZhMGJXQzM5a3d5ajk1X0pBTnVDMVVhc2lJeNIBYEFVX3lxTE5nS1ZtUDQ5d0toaDVPWk1BYTVkWUtwQUhkSm9fSXk2NkN4eGV4eXJLNlUyQ1I0QVowZ044Qy1PbnNaemtLazZhMGJXQzM5a3d5ajk1X0pBTnVDMVVhc2lJeA?oc=5",
           "published": "2026-10-27T19:48:49+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -3809,7 +3881,7 @@
         },
         {
           "title": "[뉴스프레소] 뉴욕증시 유가 급등에 하락… 빅위크, 투자비 검증의 주간? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNZVQySmNjdUdjVkkwMlNzMFE2TjVnVDhDcVQzd01ab2p1MVNXdThCSjliNVZEVk5ZRkJNaXBDYWdLOHBua1g4d0VqOTVJQmZBVnpLU3pVc0ZFaDdaWUl3ODJuYXh2OWtSR09MS2FCdE9hZEszcENkMGR5d9IBe0FVX3lxTFBNZVQySmNjdUdjVkkwMlNzMFE2TjVnVDhDcVQzd01ab2p1MVNXdThCSjliNVZEVk5ZRkJNaXBDYWdLOHBua1g4d0VqOTVJQmZBVnpLU3pVc0ZFaDdaWUl3ODJuYXh2OWtSR09MS2FCdE9hZEszcENkMGR5dw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Rb1h6aTlvSWZ6aDl3RzVXdk9HbWtmdEtSVURJQ3R6ZEp4bnNYanpuMXg3MEFCVWVNbk5lQWtvY09Jb0lfNlc0NTdIeHlEMEVtclAwSWdWcGxaaEhkdUdjQjV2dnZEMzdzZlY1czdB0gFuQVVfeXFMTlFvWHppOW9JZnpoOXdHNVd2T0dta2Z0S1JVRElDdHpkSnhuc1hqem4xeDcwQUJVZU1uTmVBa29jT0lvSV82VzQ1N0h4eUQwRW1yUDBJZ1ZwbFpoSGR1R2NCNXZ2dkQzN3NmVjVzN0E?oc=5",
           "published": "2026-10-26T04:30:06+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -3897,23 +3969,6 @@
           "event_types": [],
           "risk_keywords": [],
           "mentioned_codes": []
-        },
-        {
-          "title": "AI 공포 진정되자 유가 충격…금값 4000달러 붕괴[뉴욕마감] - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5IOTloVUdYU1QyWVR2T0lTUVR5VDhfU1JqT1VEZ1Y3MmxpZGNSM3JMVk9ZMkpscmRydHVnREt2cXdqM0stS25nX0FwX3pVYU5NOUZVaWhIdzFqcjEtSUZRWUhDc01wbzhQMFUyMmx30gFuQVVfeXFMTkg5OWhVR1hTVDJZVHZPSVNRVHlUOF9TUmpPVURnVjcybGlkY1IzckxWT1kySmxyZHJ0dWdES3Zxd2ozSy1LbmdfQXBfelVhTk05RlVpaEh3MWpyMS1JRlFZSENzTXBvOFAwVTIybHc?oc=5",
-          "published": "2026-10-23T21:24:28+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "gold",
-            "oil",
-            "ai"
-          ],
-          "event_types": [
-            "가격·수요"
-          ],
-          "risk_keywords": [],
-          "mentioned_codes": []
         }
       ],
       "candidates": [],
@@ -3926,9 +3981,92 @@
       "watch": "인프라 투자·서비스 계약·전력 수요",
       "articles": [
         {
-          "title": "HBM 없이도 엔비디아 제꼈다…하이퍼엑셀, 네이버와 AI칩 검증 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CQUdmdUhCWkw3aEJmcUZkOFdYeFhMMXBBWThncl9McElPZ0hoRDJKS00tczl5bjJqcUFXMHFZR0ZDRURGTHVBY1I0a3NocjBOOVB0UG4yTnpIbVNfSy1saFF3OHNpZ3czTnfSAW9BVV95cUxNbFRsX1JxNU1QaVdoWHowdHd5SlJJaUpBUFI1Qjd6czk2WjUzemZlbGNRZjhqcmpCUUJ4LWtMWUtGZlcxcXc2VGRXSHE4MEhFa0N2dmpiVlQtbmtBZ1N1NktOdGlXZDlzM2hta0R5R0U?oc=5",
-          "published": "2026-10-27T22:00:00+00:00",
+          "title": "SK하이닉스, 향후 2년 생산능력 절반 계약완료…AI고점론에 맞불 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpN1ZTTjltS21wVC1HTmN0NmhyakN3Tm5LOGh1T0htYndqVHdTRmFLWEk3YWRPTFBDdXhHM1U0SDRsZ1NoWnNjWjBWelhSRDhlSHJMVUZpNFlsTTTSAWBBVV95cUxPZ0lSNlZUM2xyWTI4aUJrWTFaNE1kWldtRWFxWF94WTQ2Y3Y3LTh0YURIaXgzX2JLdmFnTloyWUdnUEhYQXIwV2NyU1JvUFNLNDVvNDNyTVhhRFlLYkZKd0E?oc=5",
+          "published": "2026-10-28T01:05:08+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-10-28T01:22:25+00:00",
+          "theme_ids": [
+            "ai"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": [
+            "000660"
+          ]
+        },
+        {
+          "title": "[AI픽] 오픈AI, 한국 기업 AI 도입 돕는다…서울서 실전 교육 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pV0I3d3V2SkpKMEtjN3RzblBGMUpLTjdrWjd4aVlwdzV1YTVnc0NiZm1BQXpiQTZNanQ5c0hLZVFieUV6VFRFbFMyZ2VMUWoycl80a1RNcy1raXfSAWBBVV95cUxPZVAxOHpLMjd5cVgtQTRPZ2JMZHhCOEtMSWthRV9EYjdrMXV6M1RaVy1Md005b0hRaVhUcGpkbXpKUC1PbmV6bWgzSUFhaG4xd0pseklNTFQteHFXNWRBVV8?oc=5",
+          "published": "2026-10-28T01:03:44+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "ai"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "정부, 6000억 규모 포항 AI DC 사업에 속도…1.2조 경제효과 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aakkyNENvOENnQjRMNThham9FOGxNVF9kbGdnbENwZlU3Z2k1UnBMd0FpblBvcDgwaVAtUUE1eTg2MHpFYVctRGVMLXM2dGtoTGx6dEhrY3d2ZWVtbHk4X0s1bmRCX1XSAWxBVV95cUxOSkZXZ3dtSmxTT0dWUFZIVzQ2T0dCb3p0cjYyVXZkb0cxcU1OT0Y2VDJVS2lNOE1GdFllSlczVVpFR19PWE9OcmZ4azBKcEQwQU5ZWUpoNlZocF9CLXpKTVFZeHNHTllBMnYzVlc?oc=5",
+          "published": "2026-10-28T01:00:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "theme_ids": [
+            "ai"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "'포항 AI 데이터센터' 지방정부 출자 절차 간소화…\"28년부터 운영\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9kQnQtY2pXelpUY3ZzZUpGNWJZWVVVSmpPaklCdzNqUWZPb1poaTUtUDFVSFlGN2cwM3EyUEd0OXZyelFUWUJSRzFtYXNaM2xxRGxSLVhtMkVhYjF0cFdVeTRoUUswTlBCd3RB0gFwQVVfeXFMTzFBWmx3Tk5HOVhFc2t4V19OQ3RBYXIzMGh4aGw2dkw1dlUtelAtY2M5TzRZd2JLT01fd2RGMGRnSGdacUhqdFE0VDZxRFFkWGlJMC1xNjZ1X3VkdmNPcHc0MzdtRnZoc014VHc1eFhJRQ?oc=5",
+          "published": "2026-10-28T01:00:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "theme_ids": [
+            "ai"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "AI·양자·위성통신까지…KT, 6G 보안 대응 나선다 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KYTNoYTgxR1hrOHF5akdpU3hHZWp6VE0yNzNjazQwNDVOdjBraDZHQ19SeG9FVUZsZVNKdWxpeXFWeEsxYzB3QTJUdXlxczJialJ6Um8zTmZzQm_SAWBBVV95cUxPNzFnNDhrcWpGNlZJX3JVcldsRW9oSmxjTTE4V3hzZXpKQ0x4VFREaTgxSXJlVFZZZFRpVlpUa0h0bnFHVWEwMWtIZmhtMWMwV1EwTEZEMDVUMjZEZU5ZVlA?oc=5",
+          "published": "2026-10-28T00:56:45+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "aerospace",
+            "ai",
+            "telecom"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "CJ온스타일 \"쇼핑, 검색서 콘텐츠로…AI·크리에이터가 바꾼다\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFdzVQcVFzc1dmS0xjVXhFRlRLbzdzV2RpRF9qdFlaWXZCc1dsNTBocHBaZXVrYVFHbjFsLWgzelA2MmV2bXZMaDNtR1B4RmpZRnVJcERsT090aG_SAWBBVV95cUxNMHhyN1BFU3N1R0w0LU9HRjNxRU0xX1UwOWF2anFEZWh5SjlUblBzNXIxeVl4aXR6TFducmdyekxHVmhnTy1iMVB0SWY5UTQ5WUIySmNjcTZuUmdNSEYwcE4?oc=5",
+          "published": "2026-10-28T00:46:27+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "ai"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "반도체주 3일째 상승…AI 랠리, 여전히 믿지 못하는 3가지 이유 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xalNobldJQVFLRktwSm0taXhyWXk1cVR3WG5kMFIxQ0dMTmtSY2gySWJqM2puWHBGbUZvdHVxRWJKd2xBNE03YjJ3MUc0b2VJX0JxZXE1aGlNRXFVS0N4dHRBN1lfVWkt0gFuQVVfeXFMT05rTW1IVy1DRzN2c3RvTXEzQ1ZlQXJVdTFjMmw1ZXZFeXZzR0VaSE8zUFJJYVA0cEF6VnRpR3NQZm5Wa0E2NnNXSkpfdXNzMWYwOWFCQUl4UFVkT2hRSFg2Wkw4ak12bzRyQlpkdlE?oc=5",
+          "published": "2026-10-28T00:42:24+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
           "theme_ids": [
@@ -3940,9 +4078,9 @@
           "mentioned_codes": []
         },
         {
-          "title": "엔비디아 매디슨 황, 내달 한국 또 찾는다…피지컬 AI 협력 주목 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wWHdMOU90M2c3YlZRbFN6VXc0R20yZjN3RjYzTUFhQXJLRW5KOFlUOWdXb1R6WWhNN3hBTVdfV0dsU00wT3dwSFE0M0hHcXZYMzVKZFRaME9YNGfSAWBBVV95cUxQb1FKYXBiekl6eHhENjQzZGdmN1YxbzI5dlpPSFJTU1BucG9CbVJ4Yk1xZ1AxYWhyQUt5S0EwY3VvY1MtU2FVTE9VaTJSelpJRUd3dnVRZXpyNE1NRkpqeXA?oc=5",
-          "published": "2026-10-27T21:30:02+00:00",
+          "title": "[특징주] 네이버, 12조원 AI인프라 확보 계약에 장초반 6%대 급등 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xM3VKeklTb0JDd0xFQVlBQnlYV3N2a2dmVW5zYTVURmxKdHR2N1IyX0s1QVExZE1pUjRsa3BnZVd2d2VGWGduX0FRNXpsRlpmZXlzOWlELXd5NWM?oc=5",
+          "published": "2026-10-28T00:42:02+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
           "theme_ids": [
@@ -3953,9 +4091,9 @@
           "mentioned_codes": []
         },
         {
-          "title": "유럽 AI전문가 \"한국, 선도AI 추격보단 접근권 확보에 투자해야\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sOEhrd2RLZHpwZmhsakNOd1Vzc1EwRExKWUgzbmZvS01fdXhkR0hua2pqQncyb1h0TmtOb0ZWc1FxWk1XdWR0UUpUYW43UFdDNW9qRnZONlZVTlXSAWBBVV95cUxOUHZhOFhMZGVtWWNDempBeEZybGU0TU1Ba0dQOEtZQmRiMG53Y2dOR3V5el96UF8ydERDVUhCTHNMVHZyVmhnVDVNMkl2Y21YUVJrNVZfVFBEUW0teWI4Z2w?oc=5",
-          "published": "2026-10-27T21:15:00+00:00",
+          "title": "스타워즈 R2-D2 현실되나…美공군, AI 조종사 보조 시스템 투입 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzNWpZWUtpVFg1SkhOb0VZXzJtNEl4bTRSMUJrdjB4a1JSYVR5X2NEa0t0enRKRGY3MU9SVTAyRm5TWjlZeVoxd0tUZjRnWkJUN0otcTNMejIxSUnSAWBBVV95cUxQMGtIUEplXzBET2s1OUp4c0dRZVRpTTR4YklCcTRSbjd6c0VqTEF1d0hOemlCS0pjWVhiTXdkbUdqUWNWUlpTUGdEekQyWlBDNWVEalhfaGcwcnRTdkFEZkM?oc=5",
+          "published": "2026-10-28T00:37:42+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
           "theme_ids": [
@@ -3966,9 +4104,9 @@
           "mentioned_codes": []
         },
         {
-          "title": "[르포]\"공랭만으론 AI 열 못식힌다\"…美 데이터센터 실험실 가보니 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0tYm9hWUx3cC1zQnk2RHNST25RZjRvTVYzVVNBbnVRVUktN05LOVQ4QzNrLU1ZMkxrY3lsU1l6R3ZwaGlYRDVXWnR5dFh3alVEX0NlOUs3UkN0SEIyNGJDRHdBWHJWUXh3YlhvS25xRW1NM19w0gF6QVVfeXFMTy1LUmR1cDJ3dldfc0QxRThzaFdxODZ2ZXhwdlZNcnJmbzJTYnFrcm9TR1A4RF9UWUFnR1dkSC1HdFlGRkZEM0M5eXRmRVZDNE81OXpZMXdpdklkckxQRlJieHdpNVlTM0htcUJybnJ0Vms5R0hxbzBCQWc?oc=5",
-          "published": "2026-10-27T21:00:00+00:00",
+          "title": "GM '테크기업' 선언…NYSE 떠나 나스닥으로, AI·자율주행 강화 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jUGdPTm5ueXpCUm02Sjh6aEVtTU1DczZzcU9YRVYwak5hb0NXbC1RTlJZcWhmb2tic0JraHBDbVBVMF9LWlNZa3h5RUJrci01aVkwaEFxMFNMY3V1Zi0tS0N0VEFPX1hv0gFuQVVfeXFMTWtsUW1tbm91ZnRoX3FkRzJzb2hYcE1hNHE3V0VGVjk5TS16MFNIZENGaXgxTnczZjlhcWVUanpWUUo4dXktMzhURDVpNGw0TXA3akZPdWVpQjk4UjNiUGpmS2hUeldQZ0NZekRxY2c?oc=5",
+          "published": "2026-10-28T00:28:50+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
           "theme_ids": [
@@ -3979,9 +4117,9 @@
           "mentioned_codes": []
         },
         {
-          "title": "네이버 '글로벌 AI팩토리' 본궤도, 브룩필드와 90억弗 인프라 계약 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aTGd4X3ZzN3V0NHZ4RGgtbzQ1M2NNZERmRlZhLVVWUG0zVm1zbmROT1NyVm9pOEJsa0FlbkZtRXZxbUJpQ1JwcElBdmZvMnN4N1JuNGtoYlcwenVnc3AyaHRCNkUwV3PSAWxBVV95cUxOT1RYMkJpRHBDbmZBclN1Q1p6eTAwNEpSUmZQa1NsaWp3WTZvYVVyN08yYTREUDVKOGx5SVRxU2xKTjJlZ21tNkdmVm56NWxWQmFVZHlMb2tpY1phNFh4dVhQdzNtY0lSamZKWjY?oc=5",
-          "published": "2026-10-27T19:03:00+00:00",
+          "title": "\"스벅 커피 마시며 북한 자주포 직관\" 사진은 AI 이미지였다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42Sk5WUnpwb1QxRWJKbm0xZ1dUUXhmaVc2ODgtWVBSVDdoMWRFcUNKYVZTaVNxNHlac2ZuMktmb0lfTDFZT0pMMmIzeUFSbzN0WTIxUXBoMkdQV2FrZDkwZUJjbzVDeFZLcUpV0gFwQVVfeXFMTmNQRmNhazFDWkx3SGlGVmZNMWtBMFVsSmVSZmE2bGVZRmtxdkw1R1psWU9jVVVGVlBXeWZhaVlzQlpLZkxDUzI5SXlEd1RKd3FmRGxLdDhyS1JNMklmY25PcWZwNmh0dWRLd2YwUzh0Rw?oc=5",
+          "published": "2026-10-28T00:27:55+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
           "theme_ids": [
@@ -3992,88 +4130,9 @@
           "mentioned_codes": []
         },
         {
-          "title": "[알림]'SEP 2026' 오늘 개막…AI 시대 에너지 대전환과 안보 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRdzRONnRhQ2hIS2lqR1BVUjRNSUhMQnZybHVxdENGU090ZkxkV2dMeUVhQ3VnRlFUZnVNZnI5WmxWbW5BZVhxX1BNdlZqcTBjVnFZLWJrS2gyRkRBRkktMFp2Y2pZNjRhcU5YZ9IBckFVX3lxTE15dkdjRXUzdU1UWHZSNkgxOVR0YlpGLS1IWDVMOFRmVjlveEs1WFBZeXNwMDQ0NWZUcnVJdXAyRGJHQWUzNVZxZmFWMklaU2xndjJySVZZc2xlQWNDQ2VvWlBadkc5V2c3WVl1TXdrX3FIUQ?oc=5",
-          "published": "2026-10-27T19:00:01+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "ai"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "\"안전한 AI 가치 지킨다\" 앤트로픽 창업자 7명 '슈퍼 의결권' 명시 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xWDVyUGFkbVhDbHFtS0J5Tjg1ZGVmaTQwX3JIdVEwejN3bXJFZENna2tmaG5hV3hJdFY5Ym5lTzZoODU4VXBLZ090QnQxV3ZySDEzTVp3LWcySHYxSUNQanVodFkyNHY20gFuQVVfeXFMTWIxSHlfOGQzMkFGbGhTVHBqRTZybWs5RlFqSnFReHlpM1drcklUZnRzZk9RUWdVOEFjOG8yN3RKanpOYzMwZlYxc0ZTT0pzLXhaUC03Mktmd2JLY0ZqVzZsY3FVYWowdHFVMTBfZlE?oc=5",
-          "published": "2026-10-27T19:00:00+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "ai"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "AI 수익화 기대감에 반도체 '껑충'… 외인·기관 쌍끌이 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jU2VYNEh6Uzk5RVYxY0xoNHQyMDdxSS1vUWJTWjltZ1lpSnd0c2xLTjllZnhpdER2ck5XanljSEpENmNTWkEzbVl5dzdlODBhTEhncE03b29zc0VnR3hWcUdaRDRlM1Ay0gFuQVVfeXFMUEY4RVVZU3g2NjVSUWozVWtCam1wTDd5VnAzQ3I2RHV5NW9CcGQ1UV9NQW5tVlN0NzRjMkpiUkxYTXk3NVliU0NzeWlPWXBMSGpqZjBJRW1DSzhCOHBYMWdJRmM2S3RtdzBRVlh1Tnc?oc=5",
-          "published": "2026-10-27T18:00:00+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "semiconductor",
-            "ai"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "트럼프 \"모든 분야서 AI용어 공식금지할 것\"…또 SI 명칭 강요 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pN0Z1QWJVVkR1ekdzZy1DTkplQ2VBYlFTOEVtTWhXZXJqaUpfeUVIcVVMYWV6NmMzU1BHZE9SVmYtQno4WGI5MXpDOU1WTWpiUWlSbnFIQU0xM2vSAWBBVV95cUxNSTZiS0U2MGo4UDlEdkc4cTBpZmY3X3JOejFhbmZJMmp6T2R6ZFktNm1ublJFLUFBdXJtS1dMZ21UdzN6ZmZabGpDem10djM4Y0l5LUJjUTgxV3YxenJaekY?oc=5",
-          "published": "2026-10-27T17:25:12+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "ai"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "애플, M6칩 탑재로 AI성능 높인 신형 맥북프로·아이맥 공개 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yTElTNmNFY1hrV1FETUVWR2ZoWmtZeDRTU1dFV3g2MWdYS1FsNk5hRUxtOENmakR0UTU3WkRFVDVJMlY1TV9nM3NvbzFFZi1MNDAxOTBkN0htODjSAWBBVV95cUxNN2REUU52WnAtU0d6QUJnMmQyTHZSMDUtZXB2Y29CMWVPT0xEVDFlZ0xWMGJqMk1Hbl9STHlPZmVoazFaZExNSGtQSjRjbTdfRVdBMUJ2bXU0Nk5Pc2l0VGY?oc=5",
-          "published": "2026-10-27T17:13:29+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "ai"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "엔비디아, 메타에 4조원 투자…\"AI 뮤즈 협력 확대\" - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SY0xyOW1obFZNQkllaDhEU0thLWJmLWtNRFNFUzRNMjVzOElEVm9pQUM4STltWllEdTZGdE1ka19sN0pjbUhiZVhvMmZYcUNGc1VfQThkQUM1bVp4ZWd2RHEtM09VNW960gFuQVVfeXFMT2RZbDkxMkl6SW0tQkNTM2x1cHdLRUIyZUUzNzZsazBZSnNTd2FESWg3ei1ZOUktV1pucXloV0JuYUEtVi1fWkpJSXNOZnpKQW01ZUxsUmhTclptMzFQZWo3dV9KTjZka3M5YmlrR3c?oc=5",
-          "published": "2026-10-27T11:40:51+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "ai"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "\"공유기에도 탑재 가능한 AI\"…에너자이, 유럽서 저전력AI 시연 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xcHY1aDY4aFNBbmJ6VHhsUURnak4ta1VaT3JpRklQNWZHWUpuMVBLaTRncUxlUmNPOHdzQmtxZUFDOXVJOUVZcWlJNnFlN3pMUlFlcUU1WURuVFA5WEE2TEk1eTR3NDJoNVHSAW9BVV95cUxNLUJYeEJSR2tMa2xDUUQxRlVDeEdDT3I5NXVWUHZaQjFWTzZaS0kxdHE2Zi1YZzFLeS1DQ3cwTkJqd2ZKSXI1Rmc2YVEtMHg4Qm9mbVhiU2pHWmdJbThwdTdvbEFxYS1wX2JZYXJqWjA?oc=5",
-          "published": "2026-10-27T11:00:00+00:00",
+          "title": "\"전화상담 'AI 뺑뺑이' 줄인다\"...유베이스, 상담 엔진 특허 2건 출원 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YWE1CMGJ2aEdCVkc1djhqdHEtZzZvVlcxVWpyZTJLOEsxeF83WUZMSjJNWkZNYkx5ZGJOQmloMV9QYllCUmRwNy05eUpjODBFVE1ibGs5bGt2czNSNVdLOUl6MFRiRWxvd2fSAW9BVV95cUxQcEtKLVBuSDZFNVBDcS1kYTBYVDl6QXZUUjJNQkdCQ0NNcW00eC1WY0NXMzJmTUJ3MVV4WC15YVJ3cUpsTms0eWNnSUVSZjJHZElVSzJlZi01TkVwSjlfUXVFcmJ4WFRkdWNvcUJob0k?oc=5",
+          "published": "2026-10-28T00:22:27+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
           "theme_ids": [
@@ -4185,13 +4244,15 @@
               "published": "2026-10-26T02:33:30+00:00",
               "source": "연합뉴스",
               "source_group": "연합뉴스",
-              "first_seen_at": "2026-10-26T04:29:26+00:00",
               "theme_ids": [
                 "semiconductor",
                 "ai"
               ],
               "event_types": [],
-              "risk_keywords": []
+              "risk_keywords": [],
+              "mentioned_codes": [
+                "005930"
+              ]
             }
           ]
         },
@@ -4200,18 +4261,60 @@
           "name": "SK하이닉스",
           "evidence": [
             {
-              "title": "SK하이닉스, 등락 거듭…AI 수익성 논란·솔리다임 IPO 중단 영향 - 머니투데이 - 머니투데이",
-              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52R2V3bVR4R2stanM2bE9mbDFNUUY1R3lScWxxS2w0SF9HWTF0aUJCa1ZhbGJkTWhGeThLMEVzaE5UVVI3dzMyRWd1ZUQwZm5hb1ZNWFJBUEVuenFwVlgtVFJtVEVzRTdI0gFuQVVfeXFMTWFQSDRRQm13ZzgzM0FrUkQ1bnZ2cGdUNUlES0VnRjhFbWtGTXJXc1VpWEU3T190ZGxseWw3RDhHRXRnVGI5YTB2d3pnQ2RUUkwtSVdIeG5sdEFadzlqbjUtOU15WGZvYW9iaTVFcXc?oc=5",
-              "published": "2026-10-23T01:37:52+00:00",
-              "source": "머니투데이",
-              "source_group": "머니투데이",
-              "first_seen_at": "2026-10-23T04:32:25+00:00",
+              "title": "SK하이닉스, 향후 2년 생산능력 절반 계약완료…AI고점론에 맞불 - 연합뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpN1ZTTjltS21wVC1HTmN0NmhyakN3Tm5LOGh1T0htYndqVHdTRmFLWEk3YWRPTFBDdXhHM1U0SDRsZ1NoWnNjWjBWelhSRDhlSHJMVUZpNFlsTTTSAWBBVV95cUxPZ0lSNlZUM2xyWTI4aUJrWTFaNE1kWldtRWFxWF94WTQ2Y3Y3LTh0YURIaXgzX2JLdmFnTloyWUdnUEhYQXIwV2NyU1JvUFNLNDVvNDNyTVhhRFlLYkZKd0E?oc=5",
+              "published": "2026-10-28T01:05:08+00:00",
+              "source": "연합뉴스",
+              "source_group": "연합뉴스",
               "theme_ids": [
                 "ai"
               ],
               "event_types": [],
-              "risk_keywords": [
-                "중단"
+              "risk_keywords": [],
+              "mentioned_codes": [
+                "000660"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "010140",
+          "name": "삼성중공업",
+          "evidence": [
+            {
+              "title": "삼성중공업, 목표가 44% 하향…부유식 데이터센터는 기대-한국투자증권 - 머니투데이 - 머니투데이",
+              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zczhQSTlhY3JxUDM1ajNLOG9OLW0wYXV5Y21scmlxakJYN3NZVlV1TXN3bGdpRmtzUmZNWU9aQVVKb2Q3Wjg4dDFKSWFOTnBsU2xWZm9rYlUxYnhiSE5hNzdlVDZidFg50gFuQVVfeXFMUGxHaGk2ejIwZ2RCM29NcmJ2S001ZjJiaTlkYmpwZ3FoU3JHMzMtQjlyakZwNnNENklsVXlUWUJNUlJ2d0dXaTlqcE9VQVQ5dlB3clZMcGY2WVJOMjgxNk9CTm1fRUtEY2JEb2FoMEE?oc=5",
+              "published": "2026-10-27T23:51:08+00:00",
+              "source": "머니투데이",
+              "source_group": "머니투데이",
+              "theme_ids": [
+                "ai"
+              ],
+              "event_types": [],
+              "risk_keywords": [],
+              "mentioned_codes": [
+                "010140"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "012330",
+          "name": "현대모비스",
+          "evidence": [
+            {
+              "title": "현대모비스, 사내 모빌리티 앱 경진대회…AI 차량진단 앱 우승 - 연합뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpN3BDaEdQR01yTnliQUEwNjRyMDlqdWVfekZFaDBMdFRQOWVuQzlNUEdET3ZqWnVfMHlCY01PN0FGVXViY2w5bXRyaG43Wml2VTRKX2hXaEtnUlXSAWBBVV95cUxOSlRKQ3lIbVRBUUN0a2RzVzRabkhwWmhDOFI2aXdJSVJ2SFowNmt1LVlRcmpfVHBGNWxZRGFLVWJWby04ajNSNzQ1Q2loV25sT2tsVDlUZU1FYXNYcUgzNXo?oc=5",
+              "published": "2026-10-28T00:06:48+00:00",
+              "source": "연합뉴스",
+              "source_group": "연합뉴스",
+              "theme_ids": [
+                "ai"
+              ],
+              "event_types": [],
+              "risk_keywords": [],
+              "mentioned_codes": [
+                "012330"
               ]
             }
           ]
@@ -4377,11 +4480,11 @@
           "mentioned_codes": []
         },
         {
-          "title": "브라질 대선 판도 바꾼 '룰라의 무기'는 왓츠앱…지지층 결집 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRdUxuR0l6SVlhNkRCN3hYdGVHbnhxMHhFT2gxUlB1bkZWRVdRM0xCNXJ2eU9HeVI0Q1Vwc3hLRWFOclYyUl9EMEhoRU8zaGRtQ3ZDRzFRUUIxemdmVWx6NtIBYEFVX3lxTFBRdUxuR0l6SVlhNkRCN3hYdGVHbnhxMHhFT2gxUlB1bkZWRVdRM0xCNXJ2eU9HeVI0Q1Vwc3hLRWFOclYyUl9EMEhoRU8zaGRtQ3ZDRzFRUUIxemdmVWx6Ng?oc=5",
-          "published": "2026-10-27T02:03:24+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
+          "title": "한미 국방장관, 필리핀서 첫 대면…'전작권 전환' 논의 진전 주목 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xV1hWd0V6OUwtQy1wbVMtRGpMZzJ4V0hmekRfYW84czBkRC1hX0JWUXZwUzcyU1Y3ZGJKY2x1bUpZWE9OVnoxbUd1bUVINnZZeWg0MUZPOUV2TFF6Z1o5SEE0M2RySGx2ZWljT0VRSmJBUdIBckFVX3lxTE9xV1hWd0V6OUwtQy1wbVMtRGpMZzJ4V0hmekRfYW84czBkRC1hX0JWUXZwUzcyU1Y3ZGJKY2x1bUpZWE9OVnoxbUd1bUVINnZZeWg0MUZPOUV2TFF6Z1o5SEE0M2RySGx2ZWljT0VRSmJBUQ?oc=5",
+          "published": "2026-10-27T01:51:34+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
           "theme_ids": [
             "defense"
           ],
@@ -4390,11 +4493,11 @@
           "mentioned_codes": []
         },
         {
-          "title": "한미 국방장관, 필리핀서 첫 대면…'전작권 전환' 논의 진전 주목 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xV1hWd0V6OUwtQy1wbVMtRGpMZzJ4V0hmekRfYW84czBkRC1hX0JWUXZwUzcyU1Y3ZGJKY2x1bUpZWE9OVnoxbUd1bUVINnZZeWg0MUZPOUV2TFF6Z1o5SEE0M2RySGx2ZWljT0VRSmJBUdIBckFVX3lxTE9xV1hWd0V6OUwtQy1wbVMtRGpMZzJ4V0hmekRfYW84czBkRC1hX0JWUXZwUzcyU1Y3ZGJKY2x1bUpZWE9OVnoxbUd1bUVINnZZeWg0MUZPOUV2TFF6Z1o5SEE0M2RySGx2ZWljT0VRSmJBUQ?oc=5",
-          "published": "2026-10-27T01:51:34+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
+          "title": "강신철, 아세안 국방장관회의 참석…美헤그세스와 첫 회동 조율 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SRUFmZGxMa1o1ak5mcVgtRGpXUE5wZXBzdGFZb3JvbW5fMThXN3pZeThtYnB6Ny12TUI3dEIwRXNuWDNkZHJrcWlMTHNOV1RoRGVaVHNPOFJaTFlLdkJRS9IBYEFVX3lxTE5SRUFmZGxMa1o1ak5mcVgtRGpXUE5wZXBzdGFZb3JvbW5fMThXN3pZeThtYnB6Ny12TUI3dEIwRXNuWDNkZHJrcWlMTHNOV1RoRGVaVHNPOFJaTFlLdkJRSw?oc=5",
+          "published": "2026-10-27T00:20:01+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
           "theme_ids": [
             "defense"
           ],
@@ -4412,6 +4515,76 @@
       "label": "통신",
       "watch": "망 투자·요금 정책·설비 계약",
       "articles": [
+        {
+          "title": "AI·양자·위성통신까지…KT, 6G 보안 대응 나선다 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KYTNoYTgxR1hrOHF5akdpU3hHZWp6VE0yNzNjazQwNDVOdjBraDZHQ19SeG9FVUZsZVNKdWxpeXFWeEsxYzB3QTJUdXlxczJialJ6Um8zTmZzQm_SAWBBVV95cUxPNzFnNDhrcWpGNlZJX3JVcldsRW9oSmxjTTE4V3hzZXpKQ0x4VFREaTgxSXJlVFZZZFRpVlpUa0h0bnFHVWEwMWtIZmhtMWMwV1EwTEZEMDVUMjZEZU5ZVlA?oc=5",
+          "published": "2026-10-28T00:56:45+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "aerospace",
+            "ai",
+            "telecom"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "정부, 민간 주요정보통신기반시설 170여곳 긴급점검 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBweEJiR3Jtb2t3aF9lWVpLblNqdDQ1bk1PQ0RJX21DYWFPbkpFWWc0dEVzVktfSWtuU284c2VNcVJIdHFpaEtMbU10bWU1cmRqdHZfa3dfRGZtS2JRRWNHZXVMVTJiWWfSAWxBVV95cUxNa3ZUMk9JNTJLcFRTVWZOcmZoclRibEhiTXJsaUFpcE1laEhWVll3Nl9YbzlnUFBkNG55d1BraEpiMWhRSGdLbU9vS3p6X3d4SlVPSnZCQ1k1QnhZeUwzMk03dU9SamFTem5TNXI?oc=5",
+          "published": "2026-10-28T00:35:51+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "theme_ids": [
+            "telecom"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "빛과전자, 16%대 급등…美 광통신사 공급 계약 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tdi01d0twbnlMWXB4OTdqWnVRb1Zid1cyNnpELXdlUTdMamc0dnRkSjdTNXM1ZG1MZ2k1Tk1UdlZvbXBfQ1dGdTBJYTRhTDBVZ21QZW5FUkljX1BSNlY1STBSekxsdG9NWTg3YU1XWVB0TVp2cEtwYUZJQdIBe0FVX3lxTE0tdi01d0twbnlMWXB4OTdqWnVRb1Zid1cyNnpELXdlUTdMamc0dnRkSjdTNXM1ZG1MZ2k1Tk1UdlZvbXBfQ1dGdTBJYTRhTDBVZ21QZW5FUkljX1BSNlY1STBSekxsdG9NWTg3YU1XWVB0TVp2cEtwYUZJQQ?oc=5",
+          "published": "2026-10-28T00:33:18+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-10-28T01:23:42+00:00",
+          "theme_ids": [
+            "telecom"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": [
+            "069540"
+          ]
+        },
+        {
+          "title": "잇단 해킹에 정부, 통신·IDC 등 핵심시설 170여곳 보안점검(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82RGJjSjcyWWxSNk03c2haWDI4Nzl3ZGdzSWlGelFHVXdsV3phMDJjTUhYTnpGczg2OFFaXzhUSFMyZjIzQ2tUSzc3YWZ6ZTZrY2xiSnp5TUNUUWxQQzN5ZNIBYEFVX3lxTE82RGJjSjcyWWxSNk03c2haWDI4Nzl3ZGdzSWlGelFHVXdsV3phMDJjTUhYTnpGczg2OFFaXzhUSFMyZjIzQ2tUSzc3YWZ6ZTZrY2xiSnp5TUNUUWxQQzN5ZA?oc=5",
+          "published": "2026-10-27T23:30:54+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "telecom"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "[속보] 정부, 민간 주요정보통신기반시설 170여개 취약점 점검 착수 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YMXJvOG5JRVV5dnliV2NyNndWODlCeFpkSEsxTGVYUkVuaUtmUEkxSFRwbUJxcmdQQ29vRjFYZHJmMFJSYVpqYkF2U2YyNENJMEZZWkRNV3Z4RGvSAWBBVV95cUxNZng0M21obmpub3U0eVZCN19fSjREZ3JjeVVBN1RXU0Zib3VnOWJabUpsWGZiV0pXbGxVZ001RXphQWwxSFR0N1RIWFZ6N05iMl92VjJ1UGF2ZmV6d2xlUng?oc=5",
+          "published": "2026-10-27T23:05:18+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "telecom"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
         {
           "title": "빛과전자, 美 광통신 H사에 25G 파장 가변 광트랜시버 초도 양산 공급 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZaTAxWUlSVHVteUgwS3ljWHE3amRYT0lvNk1URG9PeVpZT2dGcUV6cEg4TmxrbmdKejFxMmk3UGhJemxWWDFacUNwZk9vMGxhMDFnY1NxN3k2MlRMMm9zeElTbGktbVlJ0gFuQVVfeXFMUEI4SlJBWlRoU0tGb3F0SDRfWTVjZG9JcUViZ2FhZmVsZnBRYkp4LXV5cFVkdWFNOEtYd1h4SXZWQ09xczRFa2E2eTdSLVZXNkFkWFJOQVdZQWlnLXdBeHpweW5Nb3hwaG92aHR5MUE?oc=5",
@@ -4508,71 +4681,6 @@
           "event_types": [],
           "risk_keywords": [],
           "mentioned_codes": []
-        },
-        {
-          "title": "中 관영매체, \"몽골 초원 화재는 日 통신기업 탓…중국에도 사과해야\" - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ra1J3V0xGRXVxVzk3c0ROcF9pZW55OU5HZGN2ZnZKZTZtNUh1UTJZRGRYd0JEZDJBMVdmYUJWcW93R3hKdUUwZjFqQWI0VE1sNVhoS0tGRS1aWExlYkt6VzVrYmEtQ2Jo0gFuQVVfeXFMTjZ0aVZoa21DdXFXZGlWeGV6TjhtTFN1VUs4a2Rya1NWY3dHckY5Y2l0Z1BXQURfNDVCblBTZWpVVUROWjRFampxZk5QSTc4eTV5ZUJsWTBkUGhaM0tBRjMyOFJOWnFaSkk4TUoyanc?oc=5",
-          "published": "2026-10-23T04:30:51+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "telecom"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "종합감사 질문 듣는 박윤규 정보통신산업진흥원장 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SWlJuUExSeC0wc2ZibTBpRjQ3N0ttLXZKUFZURHRrS0V1S21OV0JHQzctUk9RcU40WmFXcDhFU0s2Vmc0NTdndUhjZkVIZ2o3WGZ3THdNOC1EblXSAWBBVV95cUxNTU1hTVRERC1MRWZhRGt0TndKUC1NYUJIcXF5ME5IazY0X2FrZlAwMWJaSlRPazJDNEp0T2lMWHdzaS1WbUZsVVJRVDNJSXNBR1ZLc1VzNUdFQ1FrSmFURXI?oc=5",
-          "published": "2026-10-23T04:29:52+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "telecom"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "\"스페이스X, 美 기지국 확보 추진…이동통신 진출 행보\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0Sko0ZkpfT3lCYU1nM0Jkb09VQnVCNXJ4aU5BX0l1Yl9iTjFHOXFuSVhOOHJrdXE5cXdMWGs0d2UyQlBCZG5YdUtENUs4RktONFNUTk5WSnhzVjjSAWBBVV95cUxOV1gwVFVGTnY5Y2ptbEVlYnowRFpNTTN3amlLWktkRWpZbVdzU3IydVJqSjlZMm10VVV0V09RcVltNkZub0NHS3lTMkhRSUZxakY3TS0zYk5yMGlDWlhyS3A?oc=5",
-          "published": "2026-10-23T02:27:11+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "telecom"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "與이정헌 \"통신요금 감면, 디지털 바우처로 전환해야\" - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51NGc1MEVxMVVreWpyMnZ2Qlg2Um5iTERfSjN1ZHlwLVR2cEhlcmhRd1laR1ROOGlIaDEtUFdGQUFYNGVLZEZEd0hVYnNZVXpXRl91VkZOWDB5TGxONE9qdFRjMTFLUFM0dHJiclZUZE5DNmlO0gF6QVVfeXFMTVpMaDFwTDdyYXdOZHg0RWlDTG90bHcyOVEtdFY0c3RpZDlGdUxNZ09GZjBucW1KdGpsOUo2VEEtcUpySTBWTElEMFNNdjVSTDNsd3h4TFhQSFVsTVhidjBObHpBcF81TUdHOF96YUotUVlBMDFmTEstenc?oc=5",
-          "published": "2026-10-23T00:41:46+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "telecom"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "이상현 KCC정보통신·KCC오토그룹 회장, '대한민국 CEO 대상' 수상 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CaFNGeHl5TmZZd1BzUUhWNlJkUlhhT2VPWjN4Z3NKQzdUdXFvS0xjQ2pzVkdHMU11WFZWUEV2UVR5anptTW1sall3cDVzeW40dUVUcU1OMElpbEZhVXhVVVZaeTcyamd0cjcyStIBckFVX3lxTE9YSHF4Y1J0OFlsX19zRDdyd3MzaGxzYVJ6R2I5ajNUTzVkSXFuNDU4UXF5S1h2NzlaZzBiek96WGpqNERyUlRJUVZNMUhuaTR3QlR3ajMwbndaMDlOdndjNHNMUUowS0FTaG1QMzRpQUNQZw?oc=5",
-          "published": "2026-10-22T08:25:34+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "telecom"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
         }
       ],
       "candidates": [
@@ -4601,6 +4709,21 @@
           "code": "069540",
           "name": "빛과전자",
           "evidence": [
+            {
+              "title": "빛과전자, 16%대 급등…美 광통신사 공급 계약 - 머니투데이 - 머니투데이",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2WFdZeXFtTWRjN2VBakcwb0p4NmhuV1dIOHlmRUFjME1KWHQxTGR5Z0l4NWJyaUNTSjRqSng3TUp4UTJpYTRTTWFWSzFNeTBWWGMtWXhyMzZzOC11Z0xhOEZxSEc0VzdaR09kT3FZS2NvdWUtTmfSAXtBVV95cUxNLXYtNXdLcG55TFlweDk3alp1UW9WYndXMjZ6RC13ZVE3TGpnNHZ0ZEo3UzVzNWRtTGdpNU5NVHZWb21wX0NXRnUwSWE0YUwwVWdtUGVuRVJJY19QUjZWNUkwUnpMbHRvTVk4N2FNV1lQdE1adnBLcGFGSUE?oc=5",
+              "published": "2026-10-28T00:33:18+00:00",
+              "source": "머니투데이",
+              "source_group": "머니투데이",
+              "theme_ids": [
+                "telecom"
+              ],
+              "event_types": [],
+              "risk_keywords": [],
+              "mentioned_codes": [
+                "069540"
+              ]
+            },
             {
               "title": "빛과전자, 美 광통신 H사에 25G 파장 가변 광트랜시버 초도 양산 공급 - 머니투데이 - 머니투데이",
               "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZaTAxWUlSVHVteUgwS3ljWHE3amRYT0lvNk1URG9PeVpZT2dGcUV6cEg4TmxrbmdKejFxMmk3UGhJemxWWDFacUNwZk9vMGxhMDFnY1NxN3k2MlRMMm9zeElTbGktbVlJ0gFuQVVfeXFMUEI4SlJBWlRoU0tGb3F0SDRfWTVjZG9JcUViZ2FhZmVsZnBRYkp4LXV5cFVkdWFNOEtYd1h4SXZWQ09xczRFa2E2eTdSLVZXNkFkWFJOQVdZQWlnLXdBeHpweW5Nb3hwaG92aHR5MUE?oc=5",
@@ -4699,7 +4822,7 @@
         },
         {
           "title": "전기선박 배터리 불 나면…부산서 항만 복합 재난 대응 훈련 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QRXRyanY4d2ZIMGp2bUVLbTdmaDlJbXdSSU9NTHh5ejU3MmVva2YxMDEtQ0xCRFVKUktWQS1VdnVyVlZyUTZPMEFXZzBoVVRZa1pqTmEzZDFkNWdUTHNIZNIBYEFVX3lxTE1QRXRyanY4d2ZIMGp2bUVLbTdmaDlJbXdSSU9NTHh5ejU3MmVva2YxMDEtQ0xCRFVKUktWQS1VdnVyVlZyUTZPMEFXZzBoVVRZa1pqTmEzZDFkNWdUTHNIZA?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kWmgtYUJlMUVTbzFxeDRuNDk3UEZ5ejFNTE95VG91NEgzU2xYbHVpSURjSVlFWmVVcWthb29DUmpCME5nRDZwaTZ4VGVlZWRVZUVjVjVfa3gwODDSAWBBVV95cUxNUEV0cmp2OHdmSDBqdm1FS203Zmg5SW13UklPTUx4eXo1NzJlb2tmMTAxLUNMQkRVSlJLVkEtVXZ1clZWclE2TzBBV2cwaFVUWWtaak5hM2QxZDVnVExzSGQ?oc=5",
           "published": "2026-10-27T02:00:06+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -4987,7 +5110,7 @@
         },
         {
           "title": "신안군, 여객선 운임 반값 지원 흑산권 11개 섬으로 확대 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IdDluX0FyVjkzMS1sZ2Vpc1EwUjBLcm5wLXkwZjh6Nm5Wb285cENBT3dUWnFqbW5NbHdyTlBmWUJzQXhTY0NKZkdmNjZxbE9HaEcwekF3ZDV4RkV4NFRDQ3JGMDNxZEJKU0JnekVnRzVGQ0s3WnJz0gF8QVVfeXFMTUROU2Yxam42bjgxSHlwc3dTOWYyMnBwM1dyS2JiVTZzekdJWnk4emw5R1ZnR19VUkVpYTdDYk9kVXdiUFR0WmFTNEwzejRsUTVqVEtHdmtublptWFJTamhXRmtzX3RQTzdBVmdvWkEwXzVmb3Nhc2Vyd3BESA?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wWTZXS2c3Wmpnblh4c3BtLTVzUmFmYVVEWWFia1V3OGxiYU5ndWdVallfdmJXTzAwWUZDZGJRd1VIcVp3dGhXMkZ6RFptUTQ5TXhQZFY2bDZKZjZ6QkJBcE9lc2U2OTFMc3fSAW9BVV95cUxOeGdtcG4tRDh1NUZhaGlpd1NtbmR1WXkzVVhENlhLajRFVlVqMTMzNVBNekJrQkxpSmpZUThiNUFDU3ZHRDhveHZlTHdzSDNrQkliaWlSYWZKV3NUVW5tazZHRk8xcGYxZnlZY0taaEE?oc=5",
           "published": "2026-10-23T01:32:01+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -5034,6 +5157,61 @@
       "label": "로봇",
       "watch": "공급계약·양산·기업 투자",
       "articles": [
+        {
+          "title": "화성시, 장애인복지관 2곳에 보행 재활 로봇 '모닝워크' 도입 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DbzE1cGZtclQ3ZDk0SjZoTk1jOUNNcjd5ZDAtLVlieHhQR0hjRmdac2N3OUVjYkU3ME5Wd18yVVdWd0lhMExPQ25CSG1Odkl4YzNIUDJfeWpKQVXSAWBBVV95cUxNMDBUNU41elBiaU84Q0hYclp3ZEhDdHZWaUJCejdHcVVMLU1PR3BYV2s4X0hzWkVxQWVkYTNJcXVGcS1FUkM3bDJBNHI1MHNHX19RbWtCcEx3ejVQUTZpb2E?oc=5",
+          "published": "2026-10-28T01:02:46+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "robot"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "완전자율운항 선박과 로봇 항만…정부 '해양수산 AX' 전략 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsYnI2Ny1BMDVsSjdSVXlBX3E0eXdUSnlWLXlYRlFhbGZleUZhcnd6ai1jY1NxbU1WbHlNZWZGbGlSb2lrUF91QUlpOElIVzRRR3BSNWttWVAwdWvSAWBBVV95cUxOOVZzdzFxUUtWV2Vid3lOMkFobmdfaHgzQzJGYnQtdlREUG1ocXNWaE5VZ2VINjRLX3BkaVFvUl8yWkIwY3djV1ZnMlN1T0ZST3FCRkxkcG1sOG50d1FSMzI?oc=5",
+          "published": "2026-10-28T01:00:07+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "shipping",
+            "robot"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "[특징주] 매디슨 황 엔비디아 수석이사 방한 소식에 로봇주 장 초반 강세 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52VGlTajgzbnYtV2xhUmVlQ0tXU2RjUU8ya0NhM0w1ZW5WMXp1dXdqc25sRnRmMGJ5YklVNHhWc1VJVnBQblpWZzhRMnE4SlEycGpDVlFyR0t0aXPSAWBBVV95cUxNTjFjTnh5a1BmR0daemV1cFNtdVZUTlRDRk51bUM2MGF6QWJaZWVyX1FCWWlwQ0RtVFp0RDAyWTY5OVM5M0VIQVhWWlptV2F1c3haTW9TZnNpR3YwSUZ5VjM?oc=5",
+          "published": "2026-10-28T00:25:06+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "robot"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "모델솔루션, KAIST 수술로봇 로엔서지컬과 맞손…양산까지 함께 설계 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lcUpNS0x5eWNscmNody1IZkF0NV9zUUEtNXFMUkkxcU1LZ3FuM1UyakEzWWNxZFZEdVVWMGlFMkpNNUJqOGMzc2kwTkU0VGNVV1BVekh3TG1TaXV1OHMyNHFoYUlQRGFIRFN1MdIBckFVX3lxTE1uTWtZSHBLV0JJeS1RSTdIX2V0RlBzLWR3YVVtT1czR0dfeHRrZnFNUXFJSGZfZkliN3dCdnZpaHJDRXdpYTRFRUc5Ujk3Ri1nUmNKZXdRbDgwdFM2RXlaRXFvRV9XQW9DRlJISTh5RnFjZw?oc=5",
+          "published": "2026-10-28T00:22:52+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "theme_ids": [
+            "robot"
+          ],
+          "event_types": [
+            "투자·생산"
+          ],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
         {
           "title": "기념식 대신… 로봇 '손' 보러간 이재용 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IY1NlVVFXaVZkN0R0SDR0MnV6VlREd2t3VUcxRndzUy02akRySERrRkZ6UWZlOG1mQzhnTXZKRkpGaGRsWDdGUC1YWXFVRVl3azFST0lVdXFSVXdaM0pmTGR2aW4xUGFrT2YyZ9IBckFVX3lxTE5PaEViT054TzNjVlRnZWEwS2daZVVkY1gzYkZZWjVqYjhocTdWMDI4WGhFWUNBMkJpTHhfQW1Na2xKeTN4OHFPQk51M2diMnd2N2NXN2xFVjRhVURGOHhxZFJQT0NnU3pCOGhnRzZEWV8wdw?oc=5",
@@ -5138,60 +5316,6 @@
           "event_types": [],
           "risk_keywords": [],
           "mentioned_codes": []
-        },
-        {
-          "title": "서울AI디지털배움터 7곳 새단장…면접·헬스케어·로봇 체험까지 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15dVVtMklodUxQd2VqZWlUcVBfLW5EbW5wRkt0VjV0SU1WcUp1QUZKeVhkTGE0VGlEeEMwUWVaUGJDZTFEVElkZ3MtTTZxYXQxdEhUU0FhTzZMMnPSAWBBVV95cUxQcVZPdEVZQ3FQVTZCUlE1NHRzYk5lMlFucGw1cmp5WFNxSWZOMzg2dVRSOW1xZUR5bV96MWJjd2Iyb0N5anppMVVwSmpqUkNua2JOVWRvZUF6ZTdFaUI0bUo?oc=5",
-          "published": "2026-10-27T02:15:00+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "ai",
-            "robot"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "軍·현대차·벤츠 등 전기차, 로봇개, 수소트램 총집합…'그린 모빌리티쇼' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXdzlLNHdITHRtYXpmUzVoNVZ4M1Z3TWlvU2FJRk5GbVRlTENFb2h6VW5nTEZjUnVlcmtnZVJQRXp6X1diaGNLcm9uRG9FOVFLZGpGaXEyeWpsa3FYZGpYRzA2ZE1XRHNZRTdZb9IBckFVX3lxTE5tYVllWk1Db1lHM1V6bnBQQWhHMnJXNl9MWjdBYVRPYklMR3JuRDNRTmRKV3NBY0RwQnNtc01ZVFRQdVNrTm5PX2tsa0VoZjZsZ3g2UDMtQlAtN2ppY21kWThyX2tGT3dESzZQSm1LLWQzQQ?oc=5",
-          "published": "2026-10-27T01:30:00+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "robot"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "화성시, MARS 2026에서 로봇 발레 공연 선보인다 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MR2U0dkkwZ3FNSUZPaGV6cW5zajZINlhuUEY4WTlyWGFETTItXy11QVZZb1Q0V1VOcXc5Y291ZFVzak5SLVlwa0dKLTFMb1NjdjBSSG1XV2ZDUEHSAWBBVV95cUxPNHhtT0JnUmtlb0NBaFlKcWRCLUM2TmNJRUNwcVZNUkZwZWRPb09NazVtbUpTVDdVTUFWdnhYYmJqOHAzbDhNTzZ5TEZ3aGZIaHBLWllLX2ZpUlNzdGZrbVQ?oc=5",
-          "published": "2026-10-27T01:28:01+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "robot"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "LSK아이로봇, 비전 AI로 베트남 생산공정 혁신…검사 시간 95%단축 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvem9EaEU0Z3VxM3hMcmdzNDBUUzJvdGZQa0R5LThqa2NCeXI1YjRVZGoxYnREV3JiN1JmLUQ4bllpak91dExhdlJCcTktT2NkazFaeWQzOFFpX3NiLVJGZy1YQ3F6QnRO0gFuQVVfeXFMTWkxaWQwZndoVUlsdVQ2VXNZYmlOcU5tRFFMNTNSSUk1YWREZnFsWEhkYTliSEhhVDgxR2t4MlFKOS0zYVI4enpLZFBnd3NlcWVEWUZ4VGFBTHVHeTFuUXF5UU1pcEJZSjNSYTRXV2c?oc=5",
-          "published": "2026-10-27T00:45:58+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "ai",
-            "robot"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
         }
       ],
       "candidates": [
@@ -5241,6 +5365,32 @@
       "label": "화장품",
       "watch": "수출·해외 유통·판매 실적",
       "articles": [
+        {
+          "title": "K뷰티 스타트업, SNS 바이럴 넘어 '체험'으로 브랜드 알린다 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAybGp4ZlFWRTZfTG1ycVc1emszTTREUUJRdjZXVFhrUXB0MU1NbF9LUDEzWExMNUhWTFVqN0wtZ1gzNG9Gc29XVE5IUlhPaW5zYXBDVzhiSm1nNTZoUVdPOTFtbktpRGszckHSAW9BVV95cUxQMXRaUXUyMk1FZHRlSDBzakNzN09qSmxFLTlUeTU4SVFfUFRNQ1FrMi1ua3pmU1JVcVJ6MUZGVlRGYUZyMzg0ODFLQ1VZWHNRQ0hmRVF4ZWRCZjVDQ0pld3RvUXZqWEVYZW05Z0pPOEE?oc=5",
+          "published": "2026-10-28T01:00:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "theme_ids": [
+            "beauty"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "충남 중소기업 20곳, 뉴욕서 판로 개척…K-푸드·화장품 선보여 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaXRWUWIxMEZaSVhOenU4cFFmZ1diRnNfQVN2UlQyaWJwUTd6a1lralFkUjA4M05uNG1oYzZ3cU9DbTFTdEZlRzh4dlpqWTVDcVU1ckx0b3AxYTFVQW9idkF1TW92RHdRbEd5ZE9UOGJPQlA5bWg4a3pWZGIxeHQtMVJyU19fQQ?oc=5",
+          "published": "2026-10-27T23:33:08+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "theme_ids": [
+            "beauty"
+          ],
+          "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
         {
           "title": "어웰, 줄기세포 화장품으로 中 진출 시동…의료관광 연계 추진 - 머니투데이 - 머니투데이",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FMnBSS2U5bWcxaGNHQlA1cWpJaHY0Q0xpZExGMmgzWlVScnlSZXJVS0dEVDBjYi1yY2JmVXJVbG5OaXczamZwQVVhUVZoOTJxNkJjbFE5T0dxdVlqbVBTVzFwRHdxWnVtQ1HSAW9BVV95cUxNTTFRZlVrZi1xZTFld3o2clZDV3pmY2xjVVY2b0oydkx6UHkybzNMdHlhSmlJT2dFekdBVHNZdUhOdVN5VEpMbjVGeUJlZGNfM3A1bFpuRlZBbkhUSlRHNEw5RU50NHVZRl8zcHQxSzg?oc=5",
@@ -5380,33 +5530,6 @@
           "event_types": [],
           "risk_keywords": [],
           "mentioned_codes": []
-        },
-        {
-          "title": "\"뷰티·패션앱 사용자 1위 올리브영…2위 에이블리·3위 무신사\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uNWJBRUU1djVvZ1NNVGl5Q1J1X2VxOHZNSGtuRkN5ZVZqa2VwOFVaQ3dyUUlOSGJnRFd5eWFQaldMdEtQT0Z1YnZaam1PUGtnMlg3RjRPRGdtbGPSAWBBVV95cUxQT2kzSTBESjhjMW9WSGU4OGpuS19la21haXhXUFVKSVRaNkJtejdzM19heHN6N3cwQzNSOFdXT0NGNVZId0Ita3BVMUZ5anBsNnFjbmp4X0ZHSFh4Z3ZmdWo?oc=5",
-          "published": "2026-10-27T00:39:59+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "beauty"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
-          "title": "3분기 中企 수출 334억달러 '역대 최대'…K뷰티·반도체 호조 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04RlVOX2V4ZmRFYjl5NTVCWnk4UThUY3FnRkNOTkNXV3UyZ1pXSGh4QnN3T2hiS2tfR0Z6RERzM2FJdGRMWkdKTy0zVnprcDNPOTlzeWhOc2lZVzhEMGhxYnNqWFZRaWNRUS1aZDFGdXlGVUJxZlHSAWBBVV95cUxNOThWNVZ6U0RrZHRSQ1VDTXJmUWN2a2hxVkRvVEZtRU9MQ0tPYjYySzl2QmNTcV8wTHZObFljSXZBaThlZGhPRXo2VWtKR0FYVW5tMFBMSjd4S09YT2NNTkQ?oc=5",
-          "published": "2026-10-26T03:00:07+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "theme_ids": [
-            "semiconductor",
-            "beauty"
-          ],
-          "event_types": [],
-          "risk_keywords": [],
-          "mentioned_codes": []
         }
       ],
       "candidates": [],
@@ -5432,6 +5555,21 @@
           "mentioned_codes": []
         },
         {
+          "title": "'통합' 동아제약 최대 실적… 약·물의 힘 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01UUVINC0zMDljMHVXN1BHU2U3cjZSY0pQZk8yTVhrU0Z3ZElwUWpIVHZIR21MRWdtdW5mZWVYcF90Y2NtOThzc1JsTEk3YklsUUNkOWR4Sk5LNXROSFdhUFJvYnZMVFpXdkpnMFc0d9IBb0FVX3lxTE01UUVINC0zMDljMHVXN1BHU2U3cjZSY0pQZk8yTVhrU0Z3ZElwUWpIVHZIR21MRWdtdW5mZWVYcF90Y2NtOThzc1JsTEk3YklsUUNkOWR4Sk5LNXROSFdhUFJvYnZMVFpXdkpnMFc0dw?oc=5",
+          "published": "2026-10-27T18:50:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "theme_ids": [
+            "bio"
+          ],
+          "event_types": [
+            "실적"
+          ],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
           "title": "큐리옥스바이오시스템즈 3분기 영업손실 40억원…적자 확대 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fa0x0Y2NmMzFYLWJacjhROElXWEdNb0hwejRuSG9SQU1hemNXVEZWMlVPbU44V2ZjZzF1eDVMTy05Y2tjV2Rva0NoVEZMa0xlNGhSUHd6UlFIak3SAWBBVV95cUxOdjltUDdnM1dKMEU2Y2p6S3NNQ1B2NnE5VmR2cXdPbzV0cUllQzVKNnhrWWtqc1drQ195ekFVbDVCUmFmRDZKZjlPOWs0TVViODdHNVlGYml2eTgtM3cyUmQ?oc=5",
           "published": "2026-10-27T08:50:51+00:00",
@@ -5453,7 +5591,7 @@
         },
         {
           "title": "메듀케이션K, 쉬엔비 써니 웨비나 개최…EMS 모드의 임상 활용 방안 논의 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jRmdna1pjZS1oZ3M3a09SdXpSWXJNNWxVYkRrcGduYnJkN19QUjFwc0d0RWNQejlWTkN0WEZ5ZExKS3JDNlQ0Rm9CTkpwMTNJRUp6UHY5YWtyc1U4WXhfZGJWS29aY1dIZk1aWUZoY0pPUdIBckFVX3lxTE5jRmdna1pjZS1oZ3M3a09SdXpSWXJNNWxVYkRrcGduYnJkN19QUjFwc0d0RWNQejlWTkN0WEZ5ZExKS3JDNlQ0Rm9CTkpwMTNJRUp6UHY5YWtyc1U4WXhfZGJWS29aY1dIZk1aWUZoY0pPUQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwdnhHVlc3Qk8tVTY3bFh2dUk4X0NNdllzYmpTT09BWlZtWFNQODg0V2NkTVotX2FneFRlU3hydk5KNVgzR3paT3RkOWZjXzVHN25oNW5VUjNnZ0JveDRvWDVqTlc5RjltLXIxTNIBckFVX3lxTE5jRmdna1pjZS1oZ3M3a09SdXpSWXJNNWxVYkRrcGduYnJkN19QUjFwc0d0RWNQejlWTkN0WEZ5ZExKS3JDNlQ0Rm9CTkpwMTNJRUp6UHY5YWtyc1U4WXhfZGJWS29aY1dIZk1aWUZoY0pPUQ?oc=5",
           "published": "2026-10-27T08:50:45+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -5493,23 +5631,8 @@
           "mentioned_codes": []
         },
         {
-          "title": "옵투스제약, 노안 치료제 '클로시' 허가 신청…2028년 상용화 시동 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02QUwzOEk3R0VzMm9NT3VnYWdfU2pLLTc5eDdtaEdUQUJlX05qSjllNmc3QkdMYVl4LXZDS1VVd3Z4aWM2NVhfWXc4WEdZNnRTMFowVWlEU1ZEcVlsNzdXeUlJd0JwalJOcE9Pelg2Y2U5NHYxaVHSAXtBVV95cUxPZ2h1THRqYWNoaDhId3Nma1RzTTk3emNRejhsbW1KbGRmZkQ3OTNxTW9nQVNzbVROclI4c0R6Y1JSVGFPN1BwdWhPSndqZkQ1Z18yVnAzclhBSWNKeGtaMmhNejhkRHdQekRONVh5cjYwOGlQakROeTBOLUk?oc=5",
-          "published": "2026-10-27T07:26:01+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "bio"
-          ],
-          "event_types": [
-            "허가·임상"
-          ],
-          "risk_keywords": [],
-          "mentioned_codes": []
-        },
-        {
           "title": "옵투스제약, 노안 신약 '클로시' 허가 신청…2028년 상용화 시동 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HX01fclVmZ3VpYWZHYjdsZmdhUno3MmlTM2ZnWHFxTmNBbVlteDlMSmR6WXZRb1o0WUpHV2doRUd0M085dzI2LXZ1ODRLT2NaNGZ2b3JZN2JpbVBqcUFwUVBDNTBlNnVkSmJkV3lB0gFuQVVfeXFMTkdfTV9yVWZndWlhZkdiN2xmZ2FSejcyaVMzZmdYcXFOY0FtWW14OUxKZHpZdlFvWjRZSkdXZ2hFR3QzTzl3MjYtdnU4NEtPY1o0ZnZvclk3YmltUGpxQXBRUEM1MGU2dWRKYmRXeUE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OOFpHeGRiVlNqTGhNVDhWNk5VSTRKY3g2bUZ2ck9ZVnhuYUI3Vm8xYlE2TFZNdDZ0VEx6NUhHeVNmN2VNTlRoTTBkb3NSNWVuM3k5aFY0akRUeEVsM0o1UHo0OU1vUmlC0gFuQVVfeXFMTkdfTV9yVWZndWlhZkdiN2xmZ2FSejcyaVMzZmdYcXFOY0FtWW14OUxKZHpZdlFvWjRZSkdXZ2hFR3QzTzl3MjYtdnU4NEtPY1o0ZnZvclk3YmltUGpxQXBRUEM1MGU2dWRKYmRXeUE?oc=5",
           "published": "2026-10-27T07:26:01+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -5537,7 +5660,7 @@
         },
         {
           "title": "일동제약그룹, 기능성 피부관리 시장 진출…나인앤컴퍼니와 JV 설립 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mUnB5SFBteWcwdlJYRWlrTjQzNFVROHBNSm9PV0NZS0N1eHZ1WHlmWlJQTjJGOHJtTFkzdjh5MnlOcUwxbzZKMmlBcmpUTlh3RWU3a3lxUF9EclA1TFI3V3Fod0pwbWNCdzVNQW9kYl9sTWI1bjVv0gF8QVVfeXFMT21PTUZXRmxaNmlPUldTLVM3cE9vUUNMR01SZXZyYXBLcVFrYnRKMFRxU3FNRkZPN3N6NEJwSWxKSWdrWGt0cFh4REN0ZWk3WWtPb1VxRXA5WFZ5Z1lSbk0yNUJTWlZ3VnVWcWJKVXUzX21wd3R5ODFfQkZvVQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GSkdTUTNYYjFtc2wwWWxPWFJVaE9hbFRham05WlR6RVBwNHk3U3VxUWVzNHU0anU4YnoxOGh0eWpCNlhoeG50Uk5tdUF5aDluWHd1ekZITzRhenRwV2p5U0NxSmhfNWxQUHJXeUFyc9IBb0FVX3lxTE1GSkdTUTNYYjFtc2wwWWxPWFJVaE9hbFRham05WlR6RVBwNHk3U3VxUWVzNHU0anU4YnoxOGh0eWpCNlhoeG50Uk5tdUF5aDluWHd1ekZITzRhenRwV2p5U0NxSmhfNWxQUHJXeUFycw?oc=5",
           "published": "2026-10-27T06:17:13+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -5545,6 +5668,21 @@
             "bio"
           ],
           "event_types": [],
+          "risk_keywords": [],
+          "mentioned_codes": []
+        },
+        {
+          "title": "'통합' 동아제약, 3분기 사상 최대 매출 달성…\"성장 지속\" - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SWnY2UnhpbF9Ga2REQnJpNXBPTGRFRTdFR0xuTmpQLUtaTTJCZ1YyWk43OElrOGJXU3Y0ZUY4OGtUYWdQM0NXellFNkM3VDF3Mk9DZ1FlZkFla0lPVnpoUE55RUZoSGZWbjRoLW9USdIBb0FVX3lxTE1SWnY2UnhpbF9Ga2REQnJpNXBPTGRFRTdFR0xuTmpQLUtaTTJCZ1YyWk43OElrOGJXU3Y0ZUY4OGtUYWdQM0NXellFNkM3VDF3Mk9DZ1FlZkFla0lPVnpoUE55RUZoSGZWbjRoLW9USQ?oc=5",
+          "published": "2026-10-27T06:08:01+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "theme_ids": [
+            "bio"
+          ],
+          "event_types": [
+            "실적"
+          ],
           "risk_keywords": [],
           "mentioned_codes": []
         },
@@ -5576,21 +5714,6 @@
           "event_types": [],
           "risk_keywords": [],
           "mentioned_codes": []
-        },
-        {
-          "title": "에스티큐브, 비소세포폐암 임상 2상 중간결과 발표…환자등록 73% - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vQ1BXZnF6RjZSaXZfSzNUSHo4ajA4Z183eTVWZXM2MjZVTmJNcF9KcERNMjItQTAtamZOVGpuRzB1eG1HbERxMjdZZXk0TzRiOE95cjRHRm1PdG1zTXVlUkw1OWk4Ykhw0gFuQVVfeXFMT2h0MlVZVGdmM0ViLXROZ2cwWTV0a3oyUFVsYXpqVjQ5MExvYXdEUTVaaDdPbHZNQTJiWkZVc2EtZEg0ckwtUkd3SHI3OF9fSGJOaFZxdS1QRVo4cnllQUhuOUF1WWR1NjY3dEYydFE?oc=5",
-          "published": "2026-10-27T05:42:36+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "theme_ids": [
-            "bio"
-          ],
-          "event_types": [
-            "허가·임상"
-          ],
-          "risk_keywords": [],
-          "mentioned_codes": []
         }
       ],
       "candidates": [
@@ -5613,8 +5736,21 @@
             },
             {
               "title": "[부고]이길호(대원제약 상무)씨 모친상 - 머니투데이 - 머니투데이",
-              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92LS1xVTViYlhQbTI2YXZraXdiNEJVUmR5eXZGazRCd0pGQmw2RHpVWUc5OXNpWGRZWTVlZXJEVk1HMXdwQmluN3pJNzBGMlFHN3ZFRzlKVE1LeEMwN3I4OHYzSTdLR0RBQW9UVGN6cGI1QVVULVVF0gF8QVVfeXFMTVBSemRiOXNwcEVRRGRQRU5EZVE2RTR6WUFWdTRRN3FrYm02SmhHbUFoZ1Z3YVRETkVQeThFNkVKeVZRTVE3Z1RMV3RzUFp5aXVRbk5GRExWcFBMZU1ta0FEM2xveERabTlJeUdBVjFzdkgzX0lvLTZYSEJoeg?oc=5",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WOUtMN2wxNmVFbGo0R2RobDM4V01XSE05cm1SWnp2ZTItbGk0TFgydjVERFBHVmduSTNLc1o1TzBucHFPRGhPcWhmWFhKYmMtVUNfamw4VDNSVVg2MzlDcFhWakRhMFN1VkHSAW9BVV95cUxQdllrY3E4QTJXOXd3SXY5MEdBOGp2cVdlQWJyZE41ZzhPb2tFaDVNRDN5RDBxLUV5OXFWNHh2SU1HUGFVbW5BdExkdEhwMGJ5UkUya3JZRTdvY1NYcVNWMk5heXhyemp2R1N4UHd5bDA?oc=5",
               "published": "2026-10-27T04:46:50+00:00",
+              "source": "머니투데이",
+              "source_group": "머니투데이",
+              "first_seen_at": "2026-10-27T05:00:58+00:00",
+              "theme_ids": [
+                "bio"
+              ],
+              "event_types": [],
+              "risk_keywords": []
+            },
+            {
+              "title": "대원제약, 먹는 비만약 흡수 기술 개발…\"리벨서스 대비 최대 3.14배\" - 머니투데이 - 머니투데이",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qZUN2cl92YW5xSEZxSE5FS2RlSV85MC1Mb1lfRk04ekIxUXJndXVqWHNDcmNPS21TQ203M3p0cmYzZHAxTWpVckpxNHlFZlBzcWZPUTdpQW9fZ3pxU3FFSGJaOFE0bG1oNHJKRGo4dnFJbGdhTTZj0gF8QVVfeXFMTlBpY1o2YzJRRnE5N0NaZi11eW5Yb3VLSDNpbTdrVEtWNGlVby1QdmFpS05qN1duNXhycUVDT0hhcGdPb0E3ejhyeVFlNkQ0eS1wOGNUbUE2bUJnZllMNk5RUmZaTG1WdEFrclRGRGhkWHdUdHpZMktBbWxZdg?oc=5",
+              "published": "2026-10-23T01:02:24+00:00",
               "source": "머니투데이",
               "source_group": "머니투데이",
               "theme_ids": [
@@ -5625,19 +5761,6 @@
               "mentioned_codes": [
                 "003220"
               ]
-            },
-            {
-              "title": "대원제약, 먹는 비만약 흡수 기술 개발…\"리벨서스 대비 최대 3.14배\" - 머니투데이 - 머니투데이",
-              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqNnBPVHhuanNRLU9nQWF5NE90YTI3aDY5MFVFSXptcTZaVUNlQ3ZlUVFVZmVVYW1mVzNBMXJtNUhRbWdkZjFVSHVTa1RkRFhsRnhtMGlkMGtoTGt3Wi1zaUU0bFVuenI0N0HSAW9BVV95cUxNeTNRMTNRM2d2R2g5ek1UMnBfeXJ0a0JMYnpXT0tLendYZ3c3d1pSQnVoRzdZbTZpVEsxSXM0MkszWm1XUndIVjZFVnJOR0t3UnRpSmZnazhwS0N2TFZrZU00bnAxVkJHQmZjQzMyS0k?oc=5",
-              "published": "2026-10-23T01:02:24+00:00",
-              "source": "머니투데이",
-              "source_group": "머니투데이",
-              "first_seen_at": "2026-10-23T07:29:57+00:00",
-              "theme_ids": [
-                "bio"
-              ],
-              "event_types": [],
-              "risk_keywords": []
             }
           ]
         },
