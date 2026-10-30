@@ -10,7 +10,17 @@ from pathlib import Path
 if os.environ.get("STOCK_MINER_AUTH") == "env":
     from stock_miner_cloud_client import get_client, KiwoomError
 else:
-    from kiwoom import get_client, KiwoomError
+    try:
+        from kiwoom import get_client, KiwoomError
+    except ModuleNotFoundError as exc:
+        if exc.name != "kiwoom":
+            raise
+        # Fresh Windows checkouts do not contain the old local kiwoom helper.
+        # Fall back to the repository's REST client, which reads credentials
+        # only from environment variables and never writes them to the repo.
+        os.environ["STOCK_MINER_AUTH"] = "env"
+        from stock_miner_cloud_client import get_client, KiwoomError
+        print("[키움] 로컬 kiwoom 모듈 없음 → 환경변수 REST 인증으로 전환")
 from stock_miner_watchlist import include_watchlist
 from stock_miner_observations import include_pending
 
