@@ -295,10 +295,16 @@ def chart_metrics(code: str):
         "stk_dt_pole_chart_qry", max_pages=3, max_rows=70)
     rows = dated_rows(rows, 60, "일봉")[:60]
     prices = [abs(required_num(r.get("cur_prc"), "cur_prc")) for r in rows]
+    opens = [abs(required_num(r.get("open_pric"), "open_pric")) for r in rows]
+    highs = [abs(required_num(r.get("high_pric"), "high_pric")) for r in rows]
+    lows = [abs(required_num(r.get("low_pric"), "low_pric")) for r in rows]
     vols = [required_num(r.get("trde_qty"), "trde_qty") for r in rows]
     if any(price <= 0 for price in prices) or any(volume < 0 for volume in vols):
         raise RuntimeError("차트 가격 또는 거래량 범위 오류")
+    if any(x <= 0 for x in opens + highs + lows):
+        raise RuntimeError("일봉 시가·고가·저가 범위 오류")
     current = prices[0]
+    ma5 = sum(prices[:5]) / 5
     ma20, ma60 = sum(prices[:20]) / 20, sum(prices[:60]) / 60
     avg20vol = sum(vols[1:21]) / 20
     if avg20vol <= 0:
@@ -308,8 +314,15 @@ def chart_metrics(code: str):
     STOCK_DIAGNOSTICS.setdefault(code, {})["chart"] = {
         "adjusted_prices": True, "exchange": "KRX",
         "volume_basis": "intraday_cumulative_vs_previous_20_full_days",
-        "rows": [{"date": r["dt"], "price": price, "volume": volume} for r, price, volume in zip(rows, prices, vols)],
-        "ma20": ma20, "ma60": ma60, "previous_20_average_volume": avg20vol,
+        "rows": [
+            {
+                "date": r["dt"], "open": open_price, "high": high_price, "low": low_price,
+                "price": price, "volume": volume
+            }
+            for r, open_price, high_price, low_price, price, volume
+            in zip(rows, opens, highs, lows, prices, vols)
+        ],
+        "ma5": ma5, "ma20": ma20, "ma60": ma60, "previous_20_average_volume": avg20vol,
     }
     return metrics
 
@@ -415,6 +428,12 @@ def main():
                 "comparison_only": bool(c.get("comparison_only")),
                 "screening_note": reason,
                 "price": round(price),
+                "open": round(STOCK_DIAGNOSTICS[code]["chart"]["rows"][0]["open"]),
+                "high": round(STOCK_DIAGNOSTICS[code]["chart"]["rows"][0]["high"]),
+                "low": round(STOCK_DIAGNOSTICS[code]["chart"]["rows"][0]["low"]),
+                "ma5": round(STOCK_DIAGNOSTICS[code]["chart"]["ma5"], 2),
+                "ma20": round(STOCK_DIAGNOSTICS[code]["chart"]["ma20"], 2),
+                "ma60": round(STOCK_DIAGNOSTICS[code]["chart"]["ma60"], 2),
                 "change": round(change, 2),
                 "foreign5": round(f5),
                 "inst5": round(i5),
