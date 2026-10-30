@@ -184,8 +184,9 @@ function ymdKey(value){
  return /^20\d{6}$/.test(m)?m:'';
 }
 function kstNowParts(now=Date.now()){
- const d=new Date(now+9*3600000),key=d.toISOString().slice(0,10).replace(/-/g,''),weekday=d.getUTCDay(),minutes=d.getUTCHours()*60+d.getUTCMinutes();
- return {key,weekday,minutes,weekend:weekday===0||weekday===6};
+ const d=new Date(now+9*3600000),key=d.toISOString().slice(0,10).replace(/-/g,''),weekday=d.getUTCDay(),minutes=d.getUTCHours()*60+d.getUTCMinutes(),weekend=weekday===0||weekday===6;
+ const phase=weekend?'closed':minutes<540?'preopen':minutes<=940?'open':minutes<1020?'settlement':'afterclose';
+ return {key,weekday,minutes,weekend,phase};
 }
 function ageMinutes(value,now=Date.now()){const t=newsTimestamp(value);return t===null?Infinity:Math.max(0,(now-t)/60000)}
 function businessDayGap(from,to){
@@ -207,12 +208,27 @@ function latestNewsPublished(){
 }
 function discoveryHealth(now=Date.now()){
  const today=kstNowParts(now),basis=modeDate(rows.map(r=>r.quote_date)),gap=businessDayGap(basis,today.key),age=ageMinutes(meta.generated_at,now);
- let status='확인 불가';if(meta.generated_at&&basis){if(age<=240&&gap===0)status='최신';else if(age<=36*60&&gap<=1)status='지연';else status='오래됨'}
+ let status='확인 불가';
+ if(meta.generated_at&&basis){
+  if(today.phase==='closed'&&gap===0)status='최신';
+  else if(today.phase==='preopen'&&gap<=1)status='최신';
+  else if(gap===0&&age<=300)status='최신';
+  else if(gap===0&&age<=12*60)status='지연';
+  else if(gap<=1&&age<=36*60)status='지연';
+  else status='오래됨';
+ }
  return {name:'키움 발굴',source:'키움 REST API',basis:fmtYmd(basis),success:shortTime(meta.generated_at),failure:(meta.errors||[]).length?((meta.errors||[]).length+'건 오류'):'없음',status};
 }
 function dataHealthRows(now=Date.now()){
  const today=kstNowParts(now),quotes=Object.values(watchQuoteData.stocks||{}),quoteBasis=modeDate(quotes.map(q=>q.quote_date)),quoteGap=businessDayGap(quoteBasis,today.key),quoteAge=ageMinutes(watchQuoteData.generated_at,now);
- let quoteStatus='확인 불가';if(watchQuoteData.generated_at&&quoteBasis){if(quoteAge<=90&&quoteGap===0)quoteStatus='최신';else if(quoteAge<=240&&quoteGap<=1)quoteStatus='지연';else quoteStatus='오래됨'}
+ let quoteStatus='확인 불가';if(watchQuoteData.generated_at&&quoteBasis){
+  if(today.phase==='closed'&&quoteGap===0)quoteStatus='최신';
+  else if(today.phase==='preopen'&&quoteGap<=1)quoteStatus='최신';
+  else if(quoteGap===0&&quoteAge<=90)quoteStatus='최신';
+  else if(quoteGap===0&&quoteAge<=360)quoteStatus='지연';
+  else if(quoteGap<=1&&quoteAge<=24*60)quoteStatus='지연';
+  else quoteStatus='오래됨'
+ }
  const flows=Object.values(flowMeta.stocks||{}),flowBasis=modeDate(flows.flatMap(r=>Array.isArray(r.investor_dates)?[r.investor_dates.map(String).sort().at(-1)]:[])),flowGap=businessDayGap(flowBasis,today.key),flowAge=ageMinutes(flowMeta.generated_at,now);
  let flowStatus='확인 불가';if(flowMeta.generated_at&&flowBasis){if(flowAge<=30&&flowGap<=1)flowStatus='최신';else if(flowAge<=180&&flowGap<=2)flowStatus='지연';else flowStatus='오래됨'}
  const newsSuccess=newsHealth.last_success_at||newsMeta.watch_checked_at||newsMeta.generated_at,newsAge=ageMinutes(newsSuccess,now);
@@ -231,7 +247,7 @@ function discoveryDataUsable(now=Date.now()){return !['오래됨','확인 불가
 function renderDataHealth(){
  const data=dataHealthRows();$('dataHealthGrid').innerHTML=data.map(h=>'<article class="healthCard"><h3>'+escapeWarningText(h.name)+' <span class="healthState '+healthState(h.status)+'">'+h.status+'</span></h3><p><b>출처</b> '+escapeWarningText(h.source)+'</p><p><b>실제 데이터 기준</b> '+escapeWarningText(h.basis)+'</p><p><b>수집 성공</b> '+escapeWarningText(h.success)+'</p><p><b>실패 여부</b> '+escapeWarningText(h.failure)+'</p></article>').join('');
  const core=discoveryHealth(),hold=!discoveryDataUsable();
- $('dataHealthNote').innerHTML=(hold?'<b>발굴 판정 보류:</b> 키움 발굴 원본이 '+escapeWarningText(core.basis)+' 기준이라 오늘 후보 점수·매매 관찰 계산에 사용하지 않습니다. ':'')+'주말은 영업일 간격에서 제외합니다. 공휴일·임시휴장은 원본 기준일이 갱신되지 않으면 보수적으로 지연/확인 필요로 표시합니다. 관심종목 보조 가격은 현재 공개 시세 소스를 사용하지만 재배포 조건 검토 전에는 후보 점수에 합산하지 않습니다.';
+ $('dataHealthNote').innerHTML=(hold?'<b>발굴 판정 보류:</b> 키움 발굴 원본이 '+escapeWarningText(core.basis)+' 기준이라 오늘 후보 점수·매매 관찰 계산에 사용하지 않습니다. ':'')+'장전에는 직전 거래일, 장중·장마감에는 당일 기준일을 기대합니다. 주말은 영업일 간격에서 제외하고, 공휴일·임시휴장은 원본 기준일이 갱신되지 않으면 보수적으로 지연/확인 필요로 표시합니다. 관심종목 보조 가격은 현재 공개 시세 소스를 사용하지만 재배포 조건 검토 전에는 후보 점수에 합산하지 않습니다.';
 }
 function flowEvidence(row,now=Date.now()){
  const time=newsTimestamp(row.collected_at||meta.generated_at),dates=Array.isArray(row.investor_dates)?row.investor_dates:[],latest=dates.map(String).sort().at(-1),age=time===null?Infinity:(now-time)/60000;
