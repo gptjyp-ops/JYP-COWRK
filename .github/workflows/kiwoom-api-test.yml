@@ -1,4 +1,5 @@
 name: Kiwoom API Test
+# trigger check: stock-miner daily automation
 
 on:
   workflow_dispatch:
