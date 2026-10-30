@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-30T18:36:29.164098+00:00",
-  "updated_kst": "2026년 10월 31일 03:36",
+  "updated_at": "2026-10-30T22:57:33.348439+00:00",
+  "updated_kst": "2026년 10월 31일 07:57",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "르아브르 ac 대 psg",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "중간선거",
+          "k": "신세계백화점 강남점",
           "m": "검색량 200+"
         },
         {
-          "k": "카를로스 알카라스",
+          "k": "나스닥 100",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "김구라",
           "m": "검색량 500+"
         },
         {
-          "k": "핼러윈",
-          "m": "검색량 1000+"
+          "k": "skhy",
+          "m": "검색량 200+"
         },
         {
-          "k": "김혜자",
-          "m": "검색량 10000+"
-        },
-        {
-          "k": "trick or treat",
+          "k": "dl이앤씨",
           "m": "검색량 100+"
         },
         {
-          "k": "크랙",
+          "k": "필라델피아 반도체 지수",
           "m": "검색량 500+"
         },
         {
-          "k": "한화시스템",
+          "k": "알렉산더 즈베레프",
           "m": "검색량 200+"
         },
         {
-          "k": "김민",
-          "m": "검색량 500+"
+          "k": "신발",
+          "m": "검색량 2000+"
         },
         {
-          "k": "intc",
+          "k": "pba 팀리그",
           "m": "검색량 200+"
+        },
+        {
+          "k": "김동현",
+          "m": "검색량 5000+"
         }
       ]
     },
@@ -113,7 +113,7 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-31T01:02:15.296+09:00",
+      "updated": "2026-10-31T07:48:51.784+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
@@ -124,102 +124,102 @@
           "url": "https://search.daum.net/search?w=tot&q=%EC%B0%A8%EC%98%88%EB%A0%A8%20%ED%95%99%ED%8F%AD%20%EC%9D%98%ED%98%B9%20%EB%B6%80%EC%9D%B8"
         },
         {
-          "k": "김혜자 최불암 조문",
+          "k": "나스닥 급락",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%98%9C%EC%9E%90%20%EC%B5%9C%EB%B6%88%EC%95%94%20%EC%A1%B0%EB%AC%B8"
-        },
-        {
-          "k": "젠슨 황 여성 스파이",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%A0%EC%8A%A8%20%ED%99%A9%20%EC%97%AC%EC%84%B1%20%EC%8A%A4%ED%8C%8C%EC%9D%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EC%8A%A4%EB%8B%A5%20%EA%B8%89%EB%9D%BD"
         },
         {
           "k": "꿀알바",
-          "rank": 4,
+          "rank": 3,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EA%BF%80%EC%95%8C%EB%B0%94"
         },
         {
-          "k": "김민자 배우",
+          "k": "최불암 추모",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%EB%B6%88%EC%95%94%20%EC%B6%94%EB%AA%A8"
+        },
+        {
+          "k": "박술녀 최불암 수의 공개",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%AF%BC%EC%9E%90%20%EB%B0%B0%EC%9A%B0"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%88%A0%EB%85%80%20%EC%B5%9C%EB%B6%88%EC%95%94%20%EC%88%98%EC%9D%98%20%EA%B3%B5%EA%B0%9C"
         },
         {
-          "k": "김영웅 수비 실책",
+          "k": "젠슨 황 여성 스파이",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%98%81%EC%9B%85%20%EC%88%98%EB%B9%84%20%EC%8B%A4%EC%B1%85"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%A0%EC%8A%A8%20%ED%99%A9%20%EC%97%AC%EC%84%B1%20%EC%8A%A4%ED%8C%8C%EC%9D%B4"
         },
         {
-          "k": "전원일기",
+          "k": "동화경모공원",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%84%EC%9B%90%EC%9D%BC%EA%B8%B0"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%8F%99%ED%99%94%EA%B2%BD%EB%AA%A8%EA%B3%B5%EC%9B%90"
         },
         {
-          "k": "KIA 전상현 김태군 베터리",
+          "k": "라이어",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=KIA%20%EC%A0%84%EC%83%81%ED%98%84%20%EA%B9%80%ED%83%9C%EA%B5%B0%20%EB%B2%A0%ED%84%B0%EB%A6%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%9D%BC%EC%9D%B4%EC%96%B4"
         },
         {
-          "k": "김수미 임호 사진",
+          "k": "주상욱 학폭 특단 조치",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%88%98%EB%AF%B8%20%EC%9E%84%ED%98%B8%20%EC%82%AC%EC%A7%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A3%BC%EC%83%81%EC%9A%B1%20%ED%95%99%ED%8F%AD%20%ED%8A%B9%EB%8B%A8%20%EC%A1%B0%EC%B9%98"
         },
         {
-          "k": "기안84 유리 선물",
+          "k": "김영웅 실책",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B8%B0%EC%95%8884%20%EC%9C%A0%EB%A6%AC%20%EC%84%A0%EB%AC%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%98%81%EC%9B%85%20%EC%8B%A4%EC%B1%85"
         }
       ]
     },
     "creator": {
-      "updated": "2026년 10월 29일",
+      "updated": "2026년 10월 30일",
       "items": [
         {
-          "k": "옥주현 한남더힐 경매",
+          "k": "최불암별세",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "최준희 뉴욕 웨딩",
+          "k": "최불암",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "의대교수 아들 살해",
+          "k": "차예련 학폭 부인",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "나는솔로 34기 영철",
+          "k": "배우 최불암 별세",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "의대교수 아들 살해 징역",
+          "k": "차예련 학폭 의혹 부인",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "경기도 버스 파업",
+          "k": "차예련",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "나는솔로 34기 영철 부적절언행 논란",
+          "k": "넷플릭스 꿀알바",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "강석우 손주 탄생",
+          "k": "최불암 별세",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "유퀴즈 디자이너 진태옥 삶의 철학",
+          "k": "故 최불암 별세 추모",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "무쇠소녀단3 쇼트트랙 계주 도전",
+          "k": "배우 패트릭 스튜어트 별세",
           "m": "실시간 인기 검색어"
         }
       ]
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "르아브르 ac 대 psg",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "중간선거",
+      "k": "신세계백화점 강남점",
       "m": "검색량 200+"
     },
     {
-      "k": "카를로스 알카라스",
+      "k": "나스닥 100",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "김구라",
       "m": "검색량 500+"
     },
     {
-      "k": "핼러윈",
-      "m": "검색량 1000+"
+      "k": "skhy",
+      "m": "검색량 200+"
     },
     {
-      "k": "김혜자",
-      "m": "검색량 10000+"
-    },
-    {
-      "k": "trick or treat",
+      "k": "dl이앤씨",
       "m": "검색량 100+"
     },
     {
-      "k": "크랙",
+      "k": "필라델피아 반도체 지수",
       "m": "검색량 500+"
     },
     {
-      "k": "한화시스템",
+      "k": "알렉산더 즈베레프",
       "m": "검색량 200+"
     },
     {
-      "k": "김민",
-      "m": "검색량 500+"
+      "k": "신발",
+      "m": "검색량 2000+"
     },
     {
-      "k": "intc",
+      "k": "pba 팀리그",
       "m": "검색량 200+"
+    },
+    {
+      "k": "김동현",
+      "m": "검색량 5000+"
     }
   ]
 }
