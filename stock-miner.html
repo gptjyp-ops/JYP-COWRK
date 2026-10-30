@@ -98,6 +98,25 @@ body{font-variant-numeric:tabular-nums}
 .disclosureBadge.disclosure-positive{background:#c5a2ff12}.disclosureBadge.disclosure-risk{background:#ffcf7012}
 .filingItem{border-left:3px solid currentColor}.filingItem.disclosure-positive{background:#c5a2ff0c}.filingItem.disclosure-risk{background:#ffcf700c}
 .disclosureArticle{border-left:3px solid var(--filing);background:#c5a2ff0c}.disclosureArticle a{color:var(--filing)}
+
+/* Watchlist chart / OHLC / buy-zone analysis */
+#fixedWatchCards{grid-template-columns:repeat(2,minmax(0,1fr))}
+.watchAnalysisCard{padding:17px;overflow:hidden}
+.watchAnalysisHead{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.watchAnalysisHead h3{margin:0 0 4px;font-size:19px}
+.watchPrice{text-align:right;white-space:nowrap}.watchPrice b{display:block;font-size:23px}.watchPrice span{font-size:13px;font-weight:800}
+.watchChart{height:116px;margin:12px 0 10px;background:#07100c;border:1px solid #193424;border-radius:10px;overflow:hidden}
+.watchChart svg{display:block;width:100%;height:100%}.watchChart polyline{fill:none;stroke:#66ff9b;stroke-width:2.2;vector-effect:non-scaling-stroke}
+.watchChart .ma20{stroke:#79a7ff;stroke-width:1.35;opacity:.9}.watchChart .ma60{stroke:#ffcc66;stroke-width:1.35;opacity:.85}
+.watchChartEmpty{height:100%;display:grid;place-items:center;color:var(--muted);font-size:12px}
+.watchOhlc{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;margin-top:9px}
+.watchOhlc>span{background:#0d1512;border:1px solid #1d3025;border-radius:8px;padding:8px;min-width:0}
+.watchOhlc small,.watchLevels small{display:block;color:var(--muted);font-size:10px;margin-bottom:3px}.watchOhlc b{font-size:12px;overflow-wrap:anywhere}
+.watchBuyState{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:5px 8px;font-size:11px;font-weight:900;margin-top:5px}
+.watchBuyState.buy{color:#66ff9b;border-color:#2e7044;background:#0b2415}.watchBuyState.wait{color:#ffcc66;border-color:#6b5726;background:#241d0b}.watchBuyState.chase{color:#ff8585;border-color:#733636;background:#271010}.watchBuyState.broken{color:#79a7ff;border-color:#315b91;background:#0d1b2b}.watchBuyState.stale{color:#ff8585;border-color:#733636;background:#271010}
+.watchLevels{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:8px}.watchLevels>span{padding:9px 10px;background:#0d1512;border:1px solid #1d3025;border-radius:8px}.watchLevels b{font-size:12px;line-height:1.5}
+.watchLegend{display:flex;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:10px;margin:6px 0}.watchLegend i{display:inline-block;width:13px;height:2px;vertical-align:middle;margin-right:4px;background:#66ff9b}.watchLegend .l20{background:#79a7ff}.watchLegend .l60{background:#ffcc66}
+@media(max-width:900px){#fixedWatchCards{grid-template-columns:1fr}}@media(max-width:520px){.watchOhlc{grid-template-columns:repeat(2,1fr)}.watchLevels{grid-template-columns:1fr}}
 </style>
 </head>
 <body><canvas id="matrixRain" aria-hidden="true"></canvas><div class="wrap">
@@ -118,7 +137,7 @@ body{font-variant-numeric:tabular-nums}
 <details class="themeNews"><summary>선택 분야 뉴스 더 보기</summary><div id="momentumContent"></div></details>
 </div><div class="footer">뉴스는 머니투데이·연합뉴스 최근 7일을 기준으로 계산합니다. 뉴스 모멘텀은 강함 4점 이상, 형성중 2~3점, 약함 0~1점입니다.</div></div>
 <script>
-let rows=[],meta={},newsMeta={},flowMeta={},newsHealth={},observations={},fixedWatch=[],active='all',activeTheme='all',discoveryLimit=12,deferredInstall=null;
+let rows=[],meta={},newsMeta={},flowMeta={},newsHealth={},observations={},fixedWatch=[],audit={},active='all',activeTheme='all',discoveryLimit=12,deferredInstall=null;
 
 let businessProfiles={};
 function businessProfile(r){const p=businessProfiles[String(r.code)];return p&&typeof p.summary==='string'?p:null}
@@ -286,15 +305,62 @@ function renderMomentum(){
  $('momentumContent').innerHTML=`<p class="topicHint">기사 기준: ${escapeWarningText(newsMeta.generated_at||'수집 대기')} · 최근 7일 · 제목 기반 분야 분류${themes.some(t=>!t.independent_search)?' · 분야별 검색 갱신 대기':''}${themes.some(t=>t.errors?.length)?' · 일부 조회 실패':''}</p><div class="themeNewsList">${articles.length?articles.map(x=>`<div><span class="badge">${escapeWarningText(x.topic)}</span>${evidenceHtml(x)}</div>`).join(''):'<p class="topicHint">해당 분야에서 수집된 뉴스가 없습니다.</p>'}</div>`;
 }
 
+
+function watchChartData(code){
+ const chart=audit?.stocks?.[String(code)]?.chart||{};
+ const raw=Array.isArray(chart.rows)?chart.rows.slice(0,30).reverse():[];
+ return {chart,rows:raw};
+}
+function inferredMA(row,key){
+ const explicit=Number(row?.[key]);
+ if(Number.isFinite(explicit)&&explicit>0)return explicit;
+ const dist=Number(row?.[key==='ma20'?'dist20':'dist60']);
+ const price=Number(row?.price);
+ return Number.isFinite(price)&&price>0&&Number.isFinite(dist)?price/(1+dist/100):null;
+}
+function watchAssessment(row){
+ if(!row)return {label:'수집 대기',cls:'wait',low:null,high:null,invalid:null,ma20:null,ma60:null};
+ const price=Number(row.price),ma20=inferredMA(row,'ma20'),ma60=inferredMA(row,'ma60');
+ if(!Number.isFinite(price)||!Number.isFinite(ma20)||!Number.isFinite(ma60))return {label:'판정 대기',cls:'wait',low:null,high:null,invalid:null,ma20,ma60};
+ const priceTime=meta.generated_at||meta.generated_at_dart, age=priceTime?(Date.now()-new Date(priceTime).getTime())/86400000:999;
+ const low=(ma20>=ma60?Math.max(ma60,ma20*.985):ma60*.985),high=(ma20>=ma60?ma20*1.02:ma60*1.015),invalid=Math.min(ma20,ma60)*.97;
+ if(age>=2)return {label:'업데이트 필요',cls:'stale',low,high,invalid,ma20,ma60};
+ if(price<ma60*.97)return {label:'지지이탈',cls:'broken',low,high,invalid,ma20,ma60};
+ if(price>ma20*1.08||Number(row.change)>=8||Number(row.dist20)>12)return {label:'추격금지',cls:'chase',low,high,invalid,ma20,ma60};
+ if(price>=low&&price<=high)return {label:'매수관찰',cls:'buy',low,high,invalid,ma20,ma60};
+ return {label:'대기',cls:'wait',low,high,invalid,ma20,ma60};
+}
+function miniWatchChart(code,row){
+ const data=watchChartData(code),values=data.rows.map(x=>Number(x.price)).filter(Number.isFinite);
+ if(values.length<2)return '<div class="watchChart"><div class="watchChartEmpty">차트는 다음 키움 수집 후 표시</div></div>';
+ const ma20=Number(data.chart.ma20)||inferredMA(row,'ma20'),ma60=Number(data.chart.ma60)||inferredMA(row,'ma60');
+ const all=values.concat([ma20,ma60].filter(Number.isFinite)),lo=Math.min(...all),hi=Math.max(...all),span=hi-lo||1,w=420,h=112,p=7;
+ const pts=values.map((v,i)=>{const x=p+i*(w-p*2)/Math.max(values.length-1,1),y=h-p-(v-lo)*(h-p*2)/span;return x.toFixed(1)+','+y.toFixed(1)}).join(' ');
+ const y20=Number.isFinite(ma20)?(h-p-(ma20-lo)*(h-p*2)/span).toFixed(1):null,y60=Number.isFinite(ma60)?(h-p-(ma60-lo)*(h-p*2)/span).toFixed(1):null;
+ return '<div class="watchChart"><svg viewBox="0 0 '+w+' '+h+'" role="img" aria-label="최근 30거래일 종가 차트">'+
+ '<polyline points="'+pts+'"/>'+(y20?'<line class="ma20" x1="0" x2="'+w+'" y1="'+y20+'" y2="'+y20+'"/>':'')+
+ (y60?'<line class="ma60" x1="0" x2="'+w+'" y1="'+y60+'" y2="'+y60+'"/>':'')+'</svg></div>'+
+ '<div class="watchLegend"><span><i></i>종가</span><span><i class="l20"></i>20일선</span><span><i class="l60"></i>60일선</span></div>';
+}
+function priceText(v){return Number.isFinite(Number(v))&&Number(v)>0?displayNumber(Number(v))+'원':'-'}
 function renderFixedWatch(){
  const host=$('fixedWatchCards');host.innerHTML=fixedWatch.map(w=>{
- const row=rows.find(r=>String(r.code)===String(w.code)),market=watchMarketRow(w),n=newsOf((newsMeta.stocks||{})[String(w.code)]||row||{}),flow=flowEvidence(market);
- return '<article class="card"><h3>'+escapeWarningText(w.name)+' <span class="k">'+escapeWarningText(w.code)+'</span></h3>'+businessLine(w)+(row?'<p class="watchQuote">수집 가격 <b class="'+directionClass(row.change)+'">'+displayNumber(row.price)+'원</b> · <span class="quoteChange '+directionClass(row.change)+'">'+signedPercent(row.change)+'</span></p>'+disclosureBadges(row):'<p class="topicHint">시세·차트는 다음 PC 수집에서 확인</p>')+'<p class="topicHint">'+escapeWarningText(market.flow_source||'키움')+' · 수급 기준일 '+escapeWarningText(flow.latest||'미확인')+' · 외국인 5일 <span class="'+directionClass(flow.f)+'">'+signedFlow(flow.f)+'</span> · 기관 5일 <span class="'+directionClass(flow.i)+'">'+signedFlow(flow.i)+'</span>'+'</p><p class="topicHint">뉴스: '+escapeWarningText(n.label)+(n.count===null?'':' · '+n.count+'건')+'</p><button type="button" data-watch-code="'+escapeWarningText(w.code)+'">뉴스·공시·수급 상세 보기</button>'+(!row?n.items.slice(0,2).map(evidenceHtml).join(''):'')+'</article>';
+  const row=rows.find(r=>String(r.code)===String(w.code)),market=watchMarketRow(w),n=newsOf((newsMeta.stocks||{})[String(w.code)]||row||{}),flow=flowEvidence(market),assessment=watchAssessment(row),chart=watchChartData(w.code).chart,currentBar=chart?.rows?.[0]||{};
+  const open=row?.open??currentBar.open,high=row?.high??currentBar.high,low=row?.low??currentBar.low,close=row?.price??currentBar.price;
+  const ma5=Number(row?.ma5)||Number(chart?.ma5)||null;
+  return '<article class="card watchAnalysisCard"><div class="watchAnalysisHead"><div><h3>'+escapeWarningText(w.name)+' <span class="k">'+escapeWarningText(w.code)+'</span></h3>'+businessLine(w)+'</div>'+
+   '<div class="watchPrice">'+(row?'<b class="'+directionClass(row.change)+'">'+displayNumber(row.price)+'원</b><span class="'+directionClass(row.change)+'">'+signedPercent(row.change)+'</span>':'<b>-</b><span>시세 대기</span>')+
+   '<em class="watchBuyState '+assessment.cls+'">'+escapeWarningText(assessment.label)+'</em></div></div>'+
+   miniWatchChart(w.code,row)+
+   '<div class="watchOhlc"><span><small>시가</small><b>'+priceText(open)+'</b></span><span><small>고가</small><b>'+priceText(high)+'</b></span><span><small>저가</small><b>'+priceText(low)+'</b></span><span><small>종가</small><b>'+priceText(close)+'</b></span><span><small>거래량</small><b>'+(row?displayRatio(row.vol_ratio):'-')+'</b></span></div>'+
+   '<div class="watchLevels"><span><small>매수 관찰 구간</small><b>'+(assessment.low?priceText(assessment.low)+' ~ '+priceText(assessment.high):'-')+'</b></span><span><small>무효선</small><b>'+(assessment.invalid?priceText(assessment.invalid)+' 종가 이탈':'-')+'</b></span><span><small>이평선</small><b>'+(ma5?'5일 '+priceText(ma5)+' · ':'')+(assessment.ma20?'20일 '+priceText(assessment.ma20)+' · 60일 '+priceText(assessment.ma60):'-')+'</b></span><span><small>수급</small><b>외국인 '+signedFlow(flow.f)+' · 기관 '+signedFlow(flow.i)+'</b></span></div>'+
+   disclosureBadges(row||{})+'<p class="topicHint">시세 기준 '+escapeWarningText(row?.quote_date||currentBar.date||'미확인')+' · 뉴스 '+escapeWarningText(n.label)+(n.count===null?'':' '+n.count+'건')+'</p>'+
+   '<button type="button" data-watch-code="'+escapeWarningText(w.code)+'">뉴스·공시·수급 상세 보기</button></article>';
  }).join('');
- host.querySelectorAll('[data-watch-code]').forEach(b=>b.onclick=()=>{const w=fixedWatch.find(r=>String(r.code)===b.dataset.watchCode);showDetail({...watchMarketRow(w),...newsMeta.stocks?.[b.dataset.watchCode]})});
+ host.querySelectorAll('[data-watch-code]').forEach(b=>b.onclick=()=>{const w=fixedWatch.find(r=>String(r.code)===b.dataset.watchCode),row=rows.find(r=>String(r.code)===b.dataset.watchCode)||{};showDetail({...watchMarketRow(w),...row,...newsMeta.stocks?.[b.dataset.watchCode]})});
 }
 function renderNewsHealth(){const el=$('newsHealth'),failed=newsHealth.status==='error',partial=newsHealth.status==='partial';el.hidden=!failed&&!partial;el.style.color=failed?'var(--warn)':'var(--muted)';el.textContent=failed?(newsHealth.preserved_previous_data?'뉴스 갱신 실패 · 이전 정상 자료 유지':'뉴스 갱신 실패 · 사용할 수 있는 이전 자료 없음')+' · 기사 수집: '+shortTime(newsMeta.generated_at)+' · 실패한 실행: '+shortTime(newsHealth.attempted_at):partial?'뉴스 일부 조회 실패 · 확인된 자료만 표시':'';}
-async function loadData(){try{const ts=Date.now();const m=await fetch('data/stock-miner-v4-meta.json?ts='+ts,{cache:'no-store'});if(!m.ok)throw new Error('meta HTTP '+m.status);meta=await m.json();const wr=await fetch('data/stock-miner-watchlist.json?ts='+ts,{cache:'no-store'});if(!wr.ok)throw new Error('관심종목 HTTP '+wr.status);fixedWatch=(await wr.json()).stocks||[];businessProfiles={};try{const br=await fetch('data/stock-miner-business.json?ts='+ts,{cache:'no-store'});if(br.ok)businessProfiles=(await br.json()).stocks||{}}catch(_e){}const parts=await Promise.all((meta.parts||[]).map(async f=>{const r=await fetch('data/'+f+'?ts='+ts,{cache:'no-store'});if(!r.ok)throw new Error(f+' HTTP '+r.status);return r.json()}));rows=parts.flat().map(r=>({...r,positive:r.positive||r.dart_disclosures?.positive||[],risk:r.risk||r.dart_disclosures?.risk||[]}));flowMeta={};try{const fr=await fetch('data/watch-investor-flow.json?ts='+ts,{cache:'no-store'});if(fr.ok)flowMeta=await fr.json()}catch(_e){}newsMeta={};newsHealth={};try{const nr=await fetch('data/news-momentum.json?ts='+ts,{cache:'no-store'});if(nr.ok){newsMeta=await nr.json();const map=newsMeta.stocks||{};rows=rows.map(r=>{const n=map[String(r.code)];return Object.assign({},r,n||{}, {news_status:n?(n.news_status||(n.errors?.length?'error':n.news?.length?'ok':'no_articles')):'not_collected'})})}}catch(_e){}try{const hr=await fetch('data/news-momentum-status.json?ts='+ts,{cache:'no-store'});if(hr.ok)newsHealth=await hr.json()}catch(_e){}renderNewsHealth();try{const er=await fetch('data/stock-miner-observations.json?ts='+ts,{cache:'no-store'});observations=er.ok?await er.json():{load_error:true}}catch(_e){observations={load_error:true}}const priceTime=meta.generated_at||meta.generated_at_dart;const age=priceTime?Math.floor((Date.now()-new Date(priceTime).getTime())/86400000):Infinity;const stale=!Number.isFinite(age)||age>=2;const status=$('updated');status.classList.toggle('stale',stale);status.textContent=`키움 시세·수급: ${shortTime(priceTime)}${stale?' · 오래된 데이터 — 매매 판단에 사용하지 마세요':''} · DART: ${shortTime(meta.generated_at_dart)} · 뉴스: ${shortTime(newsMeta.generated_at)} · ${rows.length}종목`;render()}catch(e){$('updated').textContent='데이터 로드 실패: '+e.message;$('discoveryCards').innerHTML='<p class="topicHint">데이터를 불러오지 못했습니다. 업로드 확인을 다시 눌러주세요.</p>';$('discoveryMore').hidden=true;$('tbody').innerHTML='<tr><td colspan="15" class="empty">데이터를 불러오지 못했습니다.</td></tr>'}}
+async function loadData(){try{const ts=Date.now();const m=await fetch('data/stock-miner-v4-meta.json?ts='+ts,{cache:'no-store'});if(!m.ok)throw new Error('meta HTTP '+m.status);meta=await m.json();const wr=await fetch('data/stock-miner-watchlist.json?ts='+ts,{cache:'no-store'});if(!wr.ok)throw new Error('관심종목 HTTP '+wr.status);fixedWatch=(await wr.json()).stocks||[];businessProfiles={};try{const br=await fetch('data/stock-miner-business.json?ts='+ts,{cache:'no-store'});if(br.ok)businessProfiles=(await br.json()).stocks||{}}catch(_e){}const parts=await Promise.all((meta.parts||[]).map(async f=>{const r=await fetch('data/'+f+'?ts='+ts,{cache:'no-store'});if(!r.ok)throw new Error(f+' HTTP '+r.status);return r.json()}));rows=parts.flat().map(r=>({...r,positive:r.positive||r.dart_disclosures?.positive||[],risk:r.risk||r.dart_disclosures?.risk||[]}));audit={};try{const ar=await fetch('data/'+(meta.audit_file||'stock-miner-v4-audit.json')+'?ts='+ts,{cache:'no-store'});if(ar.ok)audit=await ar.json()}catch(_e){}flowMeta={};try{const fr=await fetch('data/watch-investor-flow.json?ts='+ts,{cache:'no-store'});if(fr.ok)flowMeta=await fr.json()}catch(_e){}newsMeta={};newsHealth={};try{const nr=await fetch('data/news-momentum.json?ts='+ts,{cache:'no-store'});if(nr.ok){newsMeta=await nr.json();const map=newsMeta.stocks||{};rows=rows.map(r=>{const n=map[String(r.code)];return Object.assign({},r,n||{}, {news_status:n?(n.news_status||(n.errors?.length?'error':n.news?.length?'ok':'no_articles')):'not_collected'})})}}catch(_e){}try{const hr=await fetch('data/news-momentum-status.json?ts='+ts,{cache:'no-store'});if(hr.ok)newsHealth=await hr.json()}catch(_e){}renderNewsHealth();try{const er=await fetch('data/stock-miner-observations.json?ts='+ts,{cache:'no-store'});observations=er.ok?await er.json():{load_error:true}}catch(_e){observations={load_error:true}}const priceTime=meta.generated_at||meta.generated_at_dart;const age=priceTime?Math.floor((Date.now()-new Date(priceTime).getTime())/86400000):Infinity;const stale=!Number.isFinite(age)||age>=2;const status=$('updated');status.classList.toggle('stale',stale);status.textContent=`키움 시세·수급: ${shortTime(priceTime)}${stale?' · 오래된 데이터 — 매매 판단에 사용하지 마세요':''} · DART: ${shortTime(meta.generated_at_dart)} · 뉴스: ${shortTime(newsMeta.generated_at)} · ${rows.length}종목`;render()}catch(e){$('updated').textContent='데이터 로드 실패: '+e.message;$('discoveryCards').innerHTML='<p class="topicHint">데이터를 불러오지 못했습니다. 업로드 확인을 다시 눌러주세요.</p>';$('discoveryMore').hidden=true;$('tbody').innerHTML='<tr><td colspan="15" class="empty">데이터를 불러오지 못했습니다.</td></tr>'}}
 function enableMouseDrag(){const el=$('tableWrap');let down=false,startX=0,startScroll=0,moved=false;el.addEventListener('mousedown',e=>{if(e.button!==0)return;down=true;moved=false;startX=e.clientX;startScroll=el.scrollLeft;el.classList.add('dragging')});window.addEventListener('mousemove',e=>{if(!down)return;const dx=e.clientX-startX;if(Math.abs(dx)>3)moved=true;el.scrollLeft=startScroll-dx});window.addEventListener('mouseup',()=>{down=false;el.classList.remove('dragging')});el.addEventListener('click',e=>{if(moved){e.preventDefault();e.stopPropagation();moved=false}},true);el.addEventListener('wheel',e=>{if(e.shiftKey||Math.abs(e.deltaX)>Math.abs(e.deltaY)){e.preventDefault();el.scrollLeft+=e.deltaX||e.deltaY}},{passive:false})}
 function setupInstall(){const btn=$('installBtn'),standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;if(standalone){btn.classList.add('hidden');return}window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e});window.addEventListener('appinstalled',()=>btn.classList.add('hidden'));btn.onclick=async()=>{if(deferredInstall){deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;return}if(/iphone|ipad|ipod/i.test(navigator.userAgent))alert('Safari 아래 공유 버튼 → 홈 화면에 추가를 선택해 주세요.');else alert('브라우저 메뉴에서 홈 화면에 추가 또는 앱 설치를 선택해 주세요.')}}
 if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./stock-miner-sw.js').catch(()=>{}));$('q').oninput=()=>{discoveryLimit=12;render()};$('grade').onchange=()=>{discoveryLimit=12;render()};$('reloadBtn').onclick=loadData;renderTabs();enableMouseDrag();setupInstall();setupWarningTips();setupDetailDialog();setupNewsRanking();loadData();
