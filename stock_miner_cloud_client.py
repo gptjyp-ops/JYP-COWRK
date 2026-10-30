@@ -64,8 +64,13 @@ class CloudClient:
             "secretkey": self.secretkey,
         }))
         if str(body.get("return_code")) != "0" or not body.get("token"):
-            # Do not log raw responses, credentials or access tokens.
-            raise KiwoomError("키움 인증 실패. 앱키와 서버의 허용 IP 등록을 확인하세요.")
+            # Show only Kiwoom's non-secret status fields. Never log raw
+            # responses, credentials or access tokens.
+            code = str(body.get("return_code", "확인 불가"))
+            msg = str(body.get("return_msg", "응답 메시지 없음")).strip()
+            if len(msg) > 200:
+                msg = msg[:200] + "…"
+            raise KiwoomError(f"키움 인증 실패 · return_code={code} · {msg}")
         try:
             expiry = datetime.strptime(body["expires_dt"], "%Y%m%d%H%M%S").replace(tzinfo=KST)
         except (KeyError, ValueError, TypeError):
