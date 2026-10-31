@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-10-30T22:57:33.348439+00:00",
-  "updated_kst": "2026년 10월 31일 07:57",
+  "updated_at": "2026-10-31T02:20:30.757625+00:00",
+  "updated_kst": "2026년 10월 31일 11:20",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "신세계백화점 강남점",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "나스닥 100",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "김구라",
+          "k": "수익률",
           "m": "검색량 500+"
         },
         {
-          "k": "skhy",
-          "m": "검색량 200+"
+          "k": "주식",
+          "m": "검색량 10000+"
         },
         {
-          "k": "dl이앤씨",
-          "m": "검색량 100+"
+          "k": "필라데피아 대 뉴욕",
+          "m": "검색량 1000+"
         },
         {
-          "k": "필라델피아 반도체 지수",
+          "k": "sk 사장단 인사",
           "m": "검색량 500+"
         },
         {
-          "k": "알렉산더 즈베레프",
+          "k": "미세먼지",
           "m": "검색량 200+"
         },
         {
-          "k": "신발",
+          "k": "우주선",
           "m": "검색량 2000+"
         },
         {
-          "k": "pba 팀리그",
+          "k": "샌디스크",
           "m": "검색량 200+"
         },
         {
-          "k": "김동현",
-          "m": "검색량 5000+"
+          "k": "lcs",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "직장폐쇄",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "테슬라",
+          "m": "검색량 1000+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-10-31T07:48:51.784+09:00",
+      "updated": "2026-10-31T11:19:07.873+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "차예련 학폭 의혹 부인",
+          "k": "재혼 황후",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B0%A8%EC%98%88%EB%A0%A8%20%ED%95%99%ED%8F%AD%20%EC%9D%98%ED%98%B9%20%EB%B6%80%EC%9D%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%AC%ED%98%BC%20%ED%99%A9%ED%9B%84"
         },
         {
-          "k": "나스닥 급락",
+          "k": "김병기 경찰 출석",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%EC%8A%A4%EB%8B%A5%20%EA%B8%89%EB%9D%BD"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%B3%91%EA%B8%B0%20%EA%B2%BD%EC%B0%B0%20%EC%B6%9C%EC%84%9D"
         },
         {
-          "k": "꿀알바",
+          "k": "최불암 장례 미사",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%BF%80%EC%95%8C%EB%B0%94"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%EB%B6%88%EC%95%94%20%EC%9E%A5%EB%A1%80%20%EB%AF%B8%EC%82%AC"
         },
         {
-          "k": "최불암 추모",
+          "k": "진성준 비자 발급",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%EB%B6%88%EC%95%94%20%EC%B6%94%EB%AA%A8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A7%84%EC%84%B1%EC%A4%80%20%EB%B9%84%EC%9E%90%20%EB%B0%9C%EA%B8%89"
         },
         {
-          "k": "박술녀 최불암 수의 공개",
+          "k": "할로윈데이",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%88%A0%EB%85%80%20%EC%B5%9C%EB%B6%88%EC%95%94%20%EC%88%98%EC%9D%98%20%EA%B3%B5%EA%B0%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%A0%EB%A1%9C%EC%9C%88%EB%8D%B0%EC%9D%B4"
         },
         {
-          "k": "젠슨 황 여성 스파이",
+          "k": "핑계고",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%A0%EC%8A%A8%20%ED%99%A9%20%EC%97%AC%EC%84%B1%20%EC%8A%A4%ED%8C%8C%EC%9D%B4"
-        },
-        {
-          "k": "동화경모공원",
-          "rank": 7,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%8F%99%ED%99%94%EA%B2%BD%EB%AA%A8%EA%B3%B5%EC%9B%90"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%91%EA%B3%84%EA%B3%A0"
         },
         {
           "k": "라이어",
-          "rank": 8,
+          "rank": 7,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EB%9D%BC%EC%9D%B4%EC%96%B4"
         },
         {
-          "k": "주상욱 학폭 특단 조치",
-          "rank": 9,
+          "k": "강민호 배우",
+          "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A3%BC%EC%83%81%EC%9A%B1%20%ED%95%99%ED%8F%AD%20%ED%8A%B9%EB%8B%A8%20%EC%A1%B0%EC%B9%98"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%EB%AF%BC%ED%98%B8%20%EB%B0%B0%EC%9A%B0"
         },
         {
-          "k": "김영웅 실책",
+          "k": "꿀알바",
+          "rank": 9,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%BF%80%EC%95%8C%EB%B0%94"
+        },
+        {
+          "k": "민주당 국정조사",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%98%81%EC%9B%85%20%EC%8B%A4%EC%B1%85"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%BC%EC%A3%BC%EB%8B%B9%20%EA%B5%AD%EC%A0%95%EC%A1%B0%EC%82%AC"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "신세계백화점 강남점",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "나스닥 100",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "김구라",
+      "k": "수익률",
       "m": "검색량 500+"
     },
     {
-      "k": "skhy",
-      "m": "검색량 200+"
+      "k": "주식",
+      "m": "검색량 10000+"
     },
     {
-      "k": "dl이앤씨",
-      "m": "검색량 100+"
+      "k": "필라데피아 대 뉴욕",
+      "m": "검색량 1000+"
     },
     {
-      "k": "필라델피아 반도체 지수",
+      "k": "sk 사장단 인사",
       "m": "검색량 500+"
     },
     {
-      "k": "알렉산더 즈베레프",
+      "k": "미세먼지",
       "m": "검색량 200+"
     },
     {
-      "k": "신발",
+      "k": "우주선",
       "m": "검색량 2000+"
     },
     {
-      "k": "pba 팀리그",
+      "k": "샌디스크",
       "m": "검색량 200+"
     },
     {
-      "k": "김동현",
-      "m": "검색량 5000+"
+      "k": "lcs",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "직장폐쇄",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "테슬라",
+      "m": "검색량 1000+"
     }
   ]
 }
