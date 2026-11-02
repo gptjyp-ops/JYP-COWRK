@@ -1,54 +1,54 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-11-02T02:29:09.596367+00:00",
-  "updated_kst": "2026년 11월 02일 11:29",
+  "updated_at": "2026-11-02T11:01:46.049422+00:00",
+  "updated_kst": "2026년 11월 02일 20:01",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "lg화학",
+          "k": "대구 한국가스공사 대 안양 정관장",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "한학자",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "하이브",
           "m": "검색량 100+"
         },
         {
-          "k": "정의선",
+          "k": "이미숙",
           "m": "검색량 200+"
         },
         {
-          "k": "골든 스테이트 대 la 클리퍼스",
-          "m": "검색량 2000+"
+          "k": "하남시",
+          "m": "검색량 200+"
         },
         {
-          "k": "영광",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "한남더힐 아파트",
+          "k": "xrp",
           "m": "검색량 1000+"
         },
         {
-          "k": "t 멤버십",
+          "k": "김장훈",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "신영우",
           "m": "검색량 200+"
         },
         {
-          "k": "삼성증권",
-          "m": "검색량 100+"
+          "k": "현대 제네시스",
+          "m": "검색량 1000+"
         },
         {
-          "k": "new england vs inter miami",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "november",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "한국장학재단",
-          "m": "검색량 200+"
+          "k": "원익홀딩스",
+          "m": "검색량 500+"
         }
       ]
     },
     "shopping": {
-      "updated": "20261031",
+      "updated": "20261101",
       "items": [
         {
           "k": "잔스포츠경량패딩",
@@ -57,15 +57,15 @@
           "tag": "buy"
         },
         {
-          "k": "k2알파카",
-          "m": "등산 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=k2%EC%95%8C%ED%8C%8C%EC%B9%B4",
+          "k": "미닉스음식처리기",
+          "m": "주방가전 · 상승 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%AF%B8%EB%8B%89%EC%8A%A4%EC%9D%8C%EC%8B%9D%EC%B2%98%EB%A6%AC%EA%B8%B0",
           "tag": "buy"
         },
         {
-          "k": "미닉스음식처리기",
-          "m": "주방가전 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%AF%B8%EB%8B%89%EC%8A%A4%EC%9D%8C%EC%8B%9D%EC%B2%98%EB%A6%AC%EA%B8%B0",
+          "k": "뉴발란스윈터로버",
+          "m": "남성신발 · 상승 3",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%89%B4%EB%B0%9C%EB%9E%80%EC%8A%A4%EC%9C%88%ED%84%B0%EB%A1%9C%EB%B2%84",
           "tag": "buy"
         },
         {
@@ -76,32 +76,26 @@
         },
         {
           "k": "스테나하토레인",
-          "m": "계절가전 · 신규",
+          "m": "계절가전 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EC%8A%A4%ED%85%8C%EB%82%98%ED%95%98%ED%86%A0%EB%A0%88%EC%9D%B8",
           "tag": "buy"
         },
         {
-          "k": "뉴발란스윈터로버",
-          "m": "남성신발 · 상승 4",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%89%B4%EB%B0%9C%EB%9E%80%EC%8A%A4%EC%9C%88%ED%84%B0%EB%A1%9C%EB%B2%84",
-          "tag": "buy"
-        },
-        {
-          "k": "게임용헤드셋",
-          "m": "음향가전 · 하락 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EA%B2%8C%EC%9E%84%EC%9A%A9%ED%97%A4%EB%93%9C%EC%85%8B",
-          "tag": "buy"
-        },
-        {
-          "k": "디올홀리데이2026",
-          "m": "색조메이크업 · 하락 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%94%94%EC%98%AC%ED%99%80%EB%A6%AC%EB%8D%B0%EC%9D%B42026",
-          "tag": "buy"
-        },
-        {
           "k": "그래핀벽난방",
-          "m": "계절가전 · 유지",
+          "m": "계절가전 · 상승 3",
           "url": "https://shopping.naver.com/ns/search?query=%EA%B7%B8%EB%9E%98%ED%95%80%EB%B2%BD%EB%82%9C%EB%B0%A9",
+          "tag": "buy"
+        },
+        {
+          "k": "농심볶음너구리",
+          "m": "라면/면류 · 인기",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%86%8D%EC%8B%AC%EB%B3%B6%EC%9D%8C%EB%84%88%EA%B5%AC%EB%A6%AC",
+          "tag": "buy"
+        },
+        {
+          "k": "르메르카드지갑",
+          "m": "지갑 · 인기",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%A5%B4%EB%A9%94%EB%A5%B4%EC%B9%B4%EB%93%9C%EC%A7%80%EA%B0%91",
           "tag": "buy"
         },
         {
@@ -109,73 +103,79 @@
           "m": "김치 · 상승 1",
           "url": "https://shopping.naver.com/ns/search?query=%EC%A0%95%EA%B0%80%EB%84%A4%EA%B9%80%EC%B9%98",
           "tag": "buy"
+        },
+        {
+          "k": "게임용헤드셋",
+          "m": "음향가전 · 하락 4",
+          "url": "https://shopping.naver.com/ns/search?query=%EA%B2%8C%EC%9E%84%EC%9A%A9%ED%97%A4%EB%93%9C%EC%85%8B",
+          "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-11-02T11:20:45.651+09:00",
+      "updated": "2026-11-02T20:00:10.095+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "정애연 母 합가",
+          "k": "정애연 김진근과 이혼",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%95%A0%EC%97%B0%20%E6%AF%8D%20%ED%95%A9%EA%B0%80"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%95%A0%EC%97%B0%20%EA%B9%80%EC%A7%84%EA%B7%BC%EA%B3%BC%20%EC%9D%B4%ED%98%BC"
         },
         {
-          "k": "영광 코스닥 상장",
+          "k": "정애연 어머니 귀가 독촉",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%81%EA%B4%91%20%EC%BD%94%EC%8A%A4%EB%8B%A5%20%EC%83%81%EC%9E%A5"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%95%A0%EC%97%B0%20%EC%96%B4%EB%A8%B8%EB%8B%88%20%EA%B7%80%EA%B0%80%20%EB%8F%85%EC%B4%89"
         },
         {
-          "k": "특검 중앙선관위 압수수색",
+          "k": "브로드컴 과징금 확정",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B9%EA%B2%80%20%EC%A4%91%EC%95%99%EC%84%A0%EA%B4%80%EC%9C%84%20%EC%95%95%EC%88%98%EC%88%98%EC%83%89"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B8%8C%EB%A1%9C%EB%93%9C%EC%BB%B4%20%EA%B3%BC%EC%A7%95%EA%B8%88%20%ED%99%95%EC%A0%95"
         },
         {
-          "k": "최불암 영면",
+          "k": "조원태 한진칼 지분 매입",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%EB%B6%88%EC%95%94%20%EC%98%81%EB%A9%B4"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%EC%9B%90%ED%83%9C%20%ED%95%9C%EC%A7%84%EC%B9%BC%20%EC%A7%80%EB%B6%84%20%EB%A7%A4%EC%9E%85"
         },
         {
-          "k": "윤종훈 한은서 부부",
+          "k": "한-인도 경제안보대화",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A4%EC%A2%85%ED%9B%88%20%ED%95%9C%EC%9D%80%EC%84%9C%20%EB%B6%80%EB%B6%80"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C-%EC%9D%B8%EB%8F%84%20%EA%B2%BD%EC%A0%9C%EC%95%88%EB%B3%B4%EB%8C%80%ED%99%94"
         },
         {
-          "k": "박항서 감독 인종차별 조롱",
+          "k": "이란 호르무즈 개방",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%ED%95%AD%EC%84%9C%20%EA%B0%90%EB%8F%85%20%EC%9D%B8%EC%A2%85%EC%B0%A8%EB%B3%84%20%EC%A1%B0%EB%A1%B1"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EB%9E%80%20%ED%98%B8%EB%A5%B4%EB%AC%B4%EC%A6%88%20%EA%B0%9C%EB%B0%A9"
         },
         {
-          "k": "이재명 지지율 반등",
+          "k": "박항서 인종차별 조롱",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EC%A7%80%EC%A7%80%EC%9C%A8%20%EB%B0%98%EB%93%B1"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%ED%95%AD%EC%84%9C%20%EC%9D%B8%EC%A2%85%EC%B0%A8%EB%B3%84%20%EC%A1%B0%EB%A1%B1"
         },
         {
-          "k": "미국 중간선거 일정",
+          "k": "메이데이",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%B8%EA%B5%AD%20%EC%A4%91%EA%B0%84%EC%84%A0%EA%B1%B0%20%EC%9D%BC%EC%A0%95"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%A9%94%EC%9D%B4%EB%8D%B0%EC%9D%B4"
         },
         {
-          "k": "주식 결제주기 T+1 추진",
+          "k": "이재명 휴게소 카르텔",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A3%BC%EC%8B%9D%20%EA%B2%B0%EC%A0%9C%EC%A3%BC%EA%B8%B0%20T%2B1%20%EC%B6%94%EC%A7%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%ED%9C%B4%EA%B2%8C%EC%86%8C%20%EC%B9%B4%EB%A5%B4%ED%85%94"
         },
         {
-          "k": "포스코 퓨처엠",
+          "k": "조경태 홀로 악수",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%8F%AC%EC%8A%A4%EC%BD%94%20%ED%93%A8%EC%B2%98%EC%97%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%EA%B2%BD%ED%83%9C%20%ED%99%80%EB%A1%9C%20%EC%95%85%EC%88%98"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "lg화학",
+      "k": "대구 한국가스공사 대 안양 정관장",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "한학자",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "하이브",
       "m": "검색량 100+"
     },
     {
-      "k": "정의선",
+      "k": "이미숙",
       "m": "검색량 200+"
     },
     {
-      "k": "골든 스테이트 대 la 클리퍼스",
-      "m": "검색량 2000+"
+      "k": "하남시",
+      "m": "검색량 200+"
     },
     {
-      "k": "영광",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "한남더힐 아파트",
+      "k": "xrp",
       "m": "검색량 1000+"
     },
     {
-      "k": "t 멤버십",
+      "k": "김장훈",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "신영우",
       "m": "검색량 200+"
     },
     {
-      "k": "삼성증권",
-      "m": "검색량 100+"
+      "k": "현대 제네시스",
+      "m": "검색량 1000+"
     },
     {
-      "k": "new england vs inter miami",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "november",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "한국장학재단",
-      "m": "검색량 200+"
+      "k": "원익홀딩스",
+      "m": "검색량 500+"
     }
   ]
 }
