@@ -1,61 +1,55 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-11-05T02:26:54.987320+00:00",
-  "updated_kst": "2026년 11월 05일 11:26",
+  "updated_at": "2026-11-05T10:52:42.863698+00:00",
+  "updated_kst": "2026년 11월 05일 19:52",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "한남더힐 아파트",
-          "m": "검색량 5000+"
+          "k": "최종면접",
+          "m": "검색량 100+"
         },
         {
-          "k": "레인보우로보틱스",
+          "k": "강원도민일보",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "맘스터치",
           "m": "검색량 200+"
         },
         {
-          "k": "다문화 가정",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "젠지 라이언",
+          "k": "노동조합",
           "m": "검색량 500+"
         },
         {
-          "k": "인천",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "우주발사체",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "lg그룹",
+          "k": "라파엘 나달",
           "m": "검색량 500+"
         },
         {
-          "k": "디트로이트 대 필라데피아",
-          "m": "검색량 1000+"
+          "k": "유네스코",
+          "m": "검색량 500+"
         },
         {
-          "k": "한국대학신문",
+          "k": "하이닉스",
+          "m": "검색량 10000+"
+        },
+        {
+          "k": "fifa u-17 여자 월드컵",
           "m": "검색량 100+"
         },
         {
-          "k": "엔씨",
-          "m": "검색량 100+"
+          "k": "어벤져스 둠스데이",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "장동민",
+          "m": "검색량 500+"
         }
       ]
     },
     "shopping": {
-      "updated": "20261103",
+      "updated": "20261104",
       "items": [
-        {
-          "k": "잔스포츠경량패딩",
-          "m": "남성의류 · 유지",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%9E%94%EC%8A%A4%ED%8F%AC%EC%B8%A0%EA%B2%BD%EB%9F%89%ED%8C%A8%EB%94%A9",
-          "tag": "buy"
-        },
         {
           "k": "뉴발란스윈터로버",
           "m": "남성신발 · 유지",
@@ -64,13 +58,13 @@
         },
         {
           "k": "자가발전라디오",
-          "m": "캠핑 · 상승 1",
+          "m": "캠핑 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EC%9E%90%EA%B0%80%EB%B0%9C%EC%A0%84%EB%9D%BC%EB%94%94%EC%98%A4",
           "tag": "buy"
         },
         {
           "k": "미닉스음식처리기",
-          "m": "주방가전 · 하락 1",
+          "m": "주방가전 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EB%AF%B8%EB%8B%89%EC%8A%A4%EC%9D%8C%EC%8B%9D%EC%B2%98%EB%A6%AC%EA%B8%B0",
           "tag": "buy"
         },
@@ -87,95 +81,101 @@
           "tag": "buy"
         },
         {
-          "k": "볶음너구리컵라면",
-          "m": "라면/면류 · 상승 2",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%B3%B6%EC%9D%8C%EB%84%88%EA%B5%AC%EB%A6%AC%EC%BB%B5%EB%9D%BC%EB%A9%B4",
-          "tag": "buy"
-        },
-        {
-          "k": "농심볶음너구리",
-          "m": "라면/면류 · 하락 1",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%86%8D%EC%8B%AC%EB%B3%B6%EC%9D%8C%EB%84%88%EA%B5%AC%EB%A6%AC",
-          "tag": "buy"
-        },
-        {
           "k": "재난라디오",
           "m": "음향가전 · 상승 3",
           "url": "https://shopping.naver.com/ns/search?query=%EC%9E%AC%EB%82%9C%EB%9D%BC%EB%94%94%EC%98%A4",
           "tag": "buy"
         },
         {
-          "k": "정가네김치",
-          "m": "김치 · 하락 1",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%A0%95%EA%B0%80%EB%84%A4%EA%B9%80%EC%B9%98",
+          "k": "볶음너구리컵라면",
+          "m": "라면/면류 · 하락 1",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%B3%B6%EC%9D%8C%EB%84%88%EA%B5%AC%EB%A6%AC%EC%BB%B5%EB%9D%BC%EB%A9%B4",
+          "tag": "buy"
+        },
+        {
+          "k": "아이언맨이어폰",
+          "m": "음향가전 · 상승 3",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%95%84%EC%9D%B4%EC%96%B8%EB%A7%A8%EC%9D%B4%EC%96%B4%ED%8F%B0",
+          "tag": "buy"
+        },
+        {
+          "k": "아크테릭스부츠",
+          "m": "등산 · 상승 4",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%95%84%ED%81%AC%ED%85%8C%EB%A6%AD%EC%8A%A4%EB%B6%80%EC%B8%A0",
+          "tag": "buy"
+        },
+        {
+          "k": "베로니크가바이",
+          "m": "향수 · 상승 4",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%B2%A0%EB%A1%9C%EB%8B%88%ED%81%AC%EA%B0%80%EB%B0%94%EC%9D%B4",
           "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-11-05T11:19:18.398+09:00",
+      "updated": "2026-11-05T19:50:30.345+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "유병권 김수미",
+          "k": "유병권 김수미 15년 인연",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A0%EB%B3%91%EA%B6%8C%20%EA%B9%80%EC%88%98%EB%AF%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A0%EB%B3%91%EA%B6%8C%20%EA%B9%80%EC%88%98%EB%AF%B8%2015%EB%85%84%20%EC%9D%B8%EC%97%B0"
         },
         {
-          "k": "카카오 주가",
+          "k": "윤석열 내란 우두머리 2심",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EC%A3%BC%EA%B0%80"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A4%EC%84%9D%EC%97%B4%20%EB%82%B4%EB%9E%80%20%EC%9A%B0%EB%91%90%EB%A8%B8%EB%A6%AC%202%EC%8B%AC"
         },
         {
-          "k": "코스피 매도 사이드카 발동",
+          "k": "쿠팡 과징금 집행정지 기각",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%BD%94%EC%8A%A4%ED%94%BC%20%EB%A7%A4%EB%8F%84%20%EC%82%AC%EC%9D%B4%EB%93%9C%EC%B9%B4%20%EB%B0%9C%EB%8F%99"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%BF%A0%ED%8C%A1%20%EA%B3%BC%EC%A7%95%EA%B8%88%20%EC%A7%91%ED%96%89%EC%A0%95%EC%A7%80%20%EA%B8%B0%EA%B0%81"
         },
         {
-          "k": "에코프로 비엠",
+          "k": "진쓰레블",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%97%90%EC%BD%94%ED%94%84%EB%A1%9C%20%EB%B9%84%EC%97%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A7%84%EC%93%B0%EB%A0%88%EB%B8%94"
         },
         {
-          "k": "한국시리즈",
+          "k": "제이블랙 생활고",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%9C%EC%9D%B4%EB%B8%94%EB%9E%99%20%EC%83%9D%ED%99%9C%EA%B3%A0"
         },
         {
-          "k": "미국 중간선거 결과",
+          "k": "특전사 모델 워킹",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%B8%EA%B5%AD%20%EC%A4%91%EA%B0%84%EC%84%A0%EA%B1%B0%20%EA%B2%B0%EA%B3%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B9%EC%A0%84%EC%82%AC%20%EB%AA%A8%EB%8D%B8%20%EC%9B%8C%ED%82%B9"
         },
         {
-          "k": "세브란스 흉기난동 살인미수",
+          "k": "조세호 유튜브 복귀",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%84%B8%EB%B8%8C%EB%9E%80%EC%8A%A4%20%ED%9D%89%EA%B8%B0%EB%82%9C%EB%8F%99%20%EC%82%B4%EC%9D%B8%EB%AF%B8%EC%88%98"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%EC%84%B8%ED%98%B8%20%EC%9C%A0%ED%8A%9C%EB%B8%8C%20%EB%B3%B5%EA%B7%80"
         },
         {
-          "k": "유선민 중령",
+          "k": "옥주현 자택 경매",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A0%EC%84%A0%EB%AF%BC%20%EC%A4%91%EB%A0%B9"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A5%EC%A3%BC%ED%98%84%20%EC%9E%90%ED%83%9D%20%EA%B2%BD%EB%A7%A4"
         },
         {
-          "k": "코레일",
+          "k": "김태규 제명 촉구 결의안",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%BD%94%EB%A0%88%EC%9D%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%83%9C%EA%B7%9C%20%EC%A0%9C%EB%AA%85%20%EC%B4%89%EA%B5%AC%20%EA%B2%B0%EC%9D%98%EC%95%88"
         },
         {
-          "k": "원태인 선발 복귀",
+          "k": "수능",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9B%90%ED%83%9C%EC%9D%B8%20%EC%84%A0%EB%B0%9C%20%EB%B3%B5%EA%B7%80"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%88%98%EB%8A%A5"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "한남더힐 아파트",
-      "m": "검색량 5000+"
+      "k": "최종면접",
+      "m": "검색량 100+"
     },
     {
-      "k": "레인보우로보틱스",
+      "k": "강원도민일보",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "맘스터치",
       "m": "검색량 200+"
     },
     {
-      "k": "다문화 가정",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "젠지 라이언",
+      "k": "노동조합",
       "m": "검색량 500+"
     },
     {
-      "k": "인천",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "우주발사체",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "lg그룹",
+      "k": "라파엘 나달",
       "m": "검색량 500+"
     },
     {
-      "k": "디트로이트 대 필라데피아",
-      "m": "검색량 1000+"
+      "k": "유네스코",
+      "m": "검색량 500+"
     },
     {
-      "k": "한국대학신문",
+      "k": "하이닉스",
+      "m": "검색량 10000+"
+    },
+    {
+      "k": "fifa u-17 여자 월드컵",
       "m": "검색량 100+"
     },
     {
-      "k": "엔씨",
-      "m": "검색량 100+"
+      "k": "어벤져스 둠스데이",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "장동민",
+      "m": "검색량 500+"
     }
   ]
 }
