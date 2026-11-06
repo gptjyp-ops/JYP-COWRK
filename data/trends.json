@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-11-05T18:44:03.526205+00:00",
-  "updated_kst": "2026년 11월 06일 03:44",
+  "updated_at": "2026-11-06T00:15:26.330416+00:00",
+  "updated_kst": "2026년 11월 06일 09:15",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "알테오젠",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "수술",
+          "k": "군함",
           "m": "검색량 500+"
         },
         {
-          "k": "비트코인",
-          "m": "검색량 500+"
+          "k": "하이닉스 주가",
+          "m": "검색량 2000+"
         },
         {
-          "k": "샌디스크 주가",
+          "k": "바이퍼",
           "m": "검색량 100+"
         },
         {
-          "k": "nasdaq",
-          "m": "검색량 200+"
+          "k": "서킷브레이커",
+          "m": "검색량 20000+"
         },
         {
-          "k": "세계 청년 대회",
+          "k": "탁구",
           "m": "검색량 100+"
         },
         {
-          "k": "마이크론 주가",
+          "k": "치매",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "게이머",
           "m": "검색량 200+"
         },
         {
-          "k": "어선",
-          "m": "검색량 500+"
+          "k": "수능일",
+          "m": "검색량 100+"
         },
         {
-          "k": "qld",
+          "k": "blg",
           "m": "검색량 200+"
         },
         {
-          "k": "soxl stock",
-          "m": "검색량 1000+"
+          "k": "대학수학능력시험",
+          "m": "검색량 200+"
         }
       ]
     },
@@ -113,113 +113,113 @@
       ]
     },
     "daum": {
-      "updated": "2026-11-06T01:05:12.236+09:00",
+      "updated": "2026-11-06T09:09:13.615+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "김세레나 성형 부작용",
-          "rank": 1,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%84%B8%EB%A0%88%EB%82%98%20%EC%84%B1%ED%98%95%20%EB%B6%80%EC%9E%91%EC%9A%A9"
-        },
-        {
           "k": "손정은 아나운서",
-          "rank": 2,
+          "rank": 1,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%86%90%EC%A0%95%EC%9D%80%20%EC%95%84%EB%82%98%EC%9A%B4%EC%84%9C"
         },
         {
-          "k": "아이비 브로드웨이 꿈",
+          "k": "트럼프 관세 부과",
+          "rank": 2,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%ED%8A%B8%EB%9F%BC%ED%94%84%20%EA%B4%80%EC%84%B8%20%EB%B6%80%EA%B3%BC"
+        },
+        {
+          "k": "허영생 팬심",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EC%9D%B4%EB%B9%84%20%EB%B8%8C%EB%A1%9C%EB%93%9C%EC%9B%A8%EC%9D%B4%20%EA%BF%88"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%97%88%EC%98%81%EC%83%9D%20%ED%8C%AC%EC%8B%AC"
         },
         {
-          "k": "정지선 호통",
+          "k": "AI 규제 공포",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%A7%80%EC%84%A0%20%ED%98%B8%ED%86%B5"
+          "url": "https://search.daum.net/search?w=tot&q=AI%20%EA%B7%9C%EC%A0%9C%20%EA%B3%B5%ED%8F%AC"
         },
         {
-          "k": "최태원 SK㈜ 지분 매각",
+          "k": "알래스카 선거 결과",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%ED%83%9C%EC%9B%90%20SK%E3%88%9C%20%EC%A7%80%EB%B6%84%20%EB%A7%A4%EA%B0%81"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%8C%EB%9E%98%EC%8A%A4%EC%B9%B4%20%EC%84%A0%EA%B1%B0%20%EA%B2%B0%EA%B3%BC"
         },
         {
-          "k": "염유리 한다성 4연승 도전",
+          "k": "김세레나 성형 부작용",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%97%BC%EC%9C%A0%EB%A6%AC%20%ED%95%9C%EB%8B%A4%EC%84%B1%204%EC%97%B0%EC%8A%B9%20%EB%8F%84%EC%A0%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%84%B8%EB%A0%88%EB%82%98%20%EC%84%B1%ED%98%95%20%EB%B6%80%EC%9E%91%EC%9A%A9"
         },
         {
-          "k": "이승기 아들 첫 공개",
+          "k": "진쓰레블",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%8A%B9%EA%B8%B0%20%EC%95%84%EB%93%A4%20%EC%B2%AB%20%EA%B3%B5%EA%B0%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A7%84%EC%93%B0%EB%A0%88%EB%B8%94"
         },
         {
-          "k": "조진우 진쓰레블",
+          "k": "주지훈 소비에슈",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%EC%A7%84%EC%9A%B0%20%EC%A7%84%EC%93%B0%EB%A0%88%EB%B8%94"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A3%BC%EC%A7%80%ED%9B%88%20%EC%86%8C%EB%B9%84%EC%97%90%EC%8A%88"
         },
         {
-          "k": "슬픈 열대",
+          "k": "삼전닉스 프리마켓 급락",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%8A%AC%ED%94%88%20%EC%97%B4%EB%8C%80"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%82%BC%EC%A0%84%EB%8B%89%EC%8A%A4%20%ED%94%84%EB%A6%AC%EB%A7%88%EC%BC%93%20%EA%B8%89%EB%9D%BD"
         },
         {
-          "k": "유선민 중령",
+          "k": "입동",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A0%EC%84%A0%EB%AF%BC%20%EC%A4%91%EB%A0%B9"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%85%EB%8F%99"
         }
       ]
     },
     "creator": {
-      "updated": "2026년 11월 04일",
+      "updated": "2026년 11월 05일",
       "items": [
         {
-          "k": "김기수 근황 공개",
+          "k": "이요원 첫째딸 공개",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "유선민",
+          "k": "np 최지훈",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "한국시리즈 연장규정",
+          "k": "진쓰레블 뺑소니 사망",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "원피스 1198화",
+          "k": "김도영 연봉 10억 대반전?",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "백승엽 판사",
+          "k": "허영생 팬 기만 논란",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "주지훈 안색 논란",
+          "k": "이요원 첫째 딸 공개",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "손영권 김자연 결혼",
+          "k": "서인영 12월 재혼",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "샘스미스 연인과 약혼",
+          "k": "대치동 미모 강사",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "유선민 중령",
+          "k": "트럼프 중간선거 참패",
           "m": "실시간 인기 검색어"
         },
         {
-          "k": "경찰 발목 절단 사고",
+          "k": "재혼황후 디즈니 공개 후 호평",
           "m": "실시간 인기 검색어"
         }
       ]
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "알테오젠",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "수술",
+      "k": "군함",
       "m": "검색량 500+"
     },
     {
-      "k": "비트코인",
-      "m": "검색량 500+"
+      "k": "하이닉스 주가",
+      "m": "검색량 2000+"
     },
     {
-      "k": "샌디스크 주가",
+      "k": "바이퍼",
       "m": "검색량 100+"
     },
     {
-      "k": "nasdaq",
-      "m": "검색량 200+"
+      "k": "서킷브레이커",
+      "m": "검색량 20000+"
     },
     {
-      "k": "세계 청년 대회",
+      "k": "탁구",
       "m": "검색량 100+"
     },
     {
-      "k": "마이크론 주가",
+      "k": "치매",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "게이머",
       "m": "검색량 200+"
     },
     {
-      "k": "어선",
-      "m": "검색량 500+"
+      "k": "수능일",
+      "m": "검색량 100+"
     },
     {
-      "k": "qld",
+      "k": "blg",
       "m": "검색량 200+"
     },
     {
-      "k": "soxl stock",
-      "m": "검색량 1000+"
+      "k": "대학수학능력시험",
+      "m": "검색량 200+"
     }
   ]
 }
