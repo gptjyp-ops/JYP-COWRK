@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-11-08T02:27:59.772590+00:00",
-  "updated_kst": "2026년 11월 08일 11:27",
+  "updated_at": "2026-11-08T10:18:10.633106+00:00",
+  "updated_kst": "2026년 11월 08일 19:18",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "자산",
+          "k": "최태원",
           "m": "검색량 2000+"
         },
         {
-          "k": "blg t1",
+          "k": "기아",
+          "m": "검색량 10000+"
+        },
+        {
+          "k": "파주 대 충남 아산 fc",
           "m": "검색량 200+"
         },
         {
-          "k": "액화천연가스",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "첫눈",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "장재인",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "인구감소지역",
+          "k": "천안 시티 fc 대 부산 아이파크 순위",
           "m": "검색량 500+"
         },
         {
-          "k": "이자",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "우박",
+          "k": "스포츠",
           "m": "검색량 200+"
         },
         {
-          "k": "코리아 그랜드 뮤직 어워즈",
+          "k": "서울교통공사 채용",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "이승엽",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "김재서",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "2026 한국시리즈",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "김우석",
           "m": "검색량 1000+"
-        },
-        {
-          "k": "눈",
-          "m": "검색량 200+"
         }
       ]
     },
@@ -113,63 +113,63 @@
       ]
     },
     "daum": {
-      "updated": "2026-11-08T11:20:37.752+09:00",
+      "updated": "2026-11-08T19:07:50.001+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "전민기 여자 문제 폭로",
+          "k": "김재서 게임 괴인",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%84%EB%AF%BC%EA%B8%B0%20%EC%97%AC%EC%9E%90%20%EB%AC%B8%EC%A0%9C%20%ED%8F%AD%EB%A1%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%9E%AC%EC%84%9C%20%EA%B2%8C%EC%9E%84%20%EA%B4%B4%EC%9D%B8"
         },
         {
-          "k": "김정우 국정상황실장 사의",
+          "k": "권동진 타구 부상",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A0%95%EC%9A%B0%20%EA%B5%AD%EC%A0%95%EC%83%81%ED%99%A9%EC%8B%A4%EC%9E%A5%20%EC%82%AC%EC%9D%98"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B6%8C%EB%8F%99%EC%A7%84%20%ED%83%80%EA%B5%AC%20%EB%B6%80%EC%83%81"
         },
         {
-          "k": "1249회 로또 당첨 번호",
+          "k": "당정 소방 필수투자 재정지원",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=1249%ED%9A%8C%20%EB%A1%9C%EB%98%90%20%EB%8B%B9%EC%B2%A8%20%EB%B2%88%ED%98%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%8B%B9%EC%A0%95%20%EC%86%8C%EB%B0%A9%20%ED%95%84%EC%88%98%ED%88%AC%EC%9E%90%20%EC%9E%AC%EC%A0%95%EC%A7%80%EC%9B%90"
         },
         {
-          "k": "내년 초등 입학생",
+          "k": "오세훈 사과 요구",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%82%B4%EB%85%84%20%EC%B4%88%EB%93%B1%20%EC%9E%85%ED%95%99%EC%83%9D"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A4%EC%84%B8%ED%9B%88%20%EC%82%AC%EA%B3%BC%20%EC%9A%94%EA%B5%AC"
         },
         {
-          "k": "이미경 평생공로 메달",
+          "k": "박진만 감독 우승",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EB%AF%B8%EA%B2%BD%20%ED%8F%89%EC%83%9D%EA%B3%B5%EB%A1%9C%20%EB%A9%94%EB%8B%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%A7%84%EB%A7%8C%20%EA%B0%90%EB%8F%85%20%EC%9A%B0%EC%8A%B9"
         },
         {
-          "k": "매디슨 황 방한 취소",
+          "k": "전지적 집착 시점",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%A7%A4%EB%94%94%EC%8A%A8%20%ED%99%A9%20%EB%B0%A9%ED%95%9C%20%EC%B7%A8%EC%86%8C"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%84%EC%A7%80%EC%A0%81%20%EC%A7%91%EC%B0%A9%20%EC%8B%9C%EC%A0%90"
         },
         {
-          "k": "안세영 경기일정",
+          "k": "런닝맨 이담",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%95%88%EC%84%B8%EC%98%81%20%EA%B2%BD%EA%B8%B0%EC%9D%BC%EC%A0%95"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%9F%B0%EB%8B%9D%EB%A7%A8%20%EC%9D%B4%EB%8B%B4"
         },
         {
-          "k": "온수관",
+          "k": "구자욱 한국시리즈 MVP",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%98%A8%EC%88%98%EA%B4%80"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%EC%9E%90%EC%9A%B1%20%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88%20MVP"
         },
         {
-          "k": "젠지 결승 진출",
+          "k": "강민호 우승 반지",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%A0%EC%A7%80%20%EA%B2%B0%EC%8A%B9%20%EC%A7%84%EC%B6%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%EB%AF%BC%ED%98%B8%20%EC%9A%B0%EC%8A%B9%20%EB%B0%98%EC%A7%80"
         },
         {
           "k": "일본 지진",
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "자산",
+      "k": "최태원",
       "m": "검색량 2000+"
     },
     {
-      "k": "blg t1",
+      "k": "기아",
+      "m": "검색량 10000+"
+    },
+    {
+      "k": "파주 대 충남 아산 fc",
       "m": "검색량 200+"
     },
     {
-      "k": "액화천연가스",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "첫눈",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "장재인",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "인구감소지역",
+      "k": "천안 시티 fc 대 부산 아이파크 순위",
       "m": "검색량 500+"
     },
     {
-      "k": "이자",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "우박",
+      "k": "스포츠",
       "m": "검색량 200+"
     },
     {
-      "k": "코리아 그랜드 뮤직 어워즈",
+      "k": "서울교통공사 채용",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "이승엽",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "김재서",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "2026 한국시리즈",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "김우석",
       "m": "검색량 1000+"
-    },
-    {
-      "k": "눈",
-      "m": "검색량 200+"
     }
   ]
 }
