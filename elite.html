@@ -1,5 +1,52 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ELITE KOR 클랜 홍보글</title>
-<style>:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0f1115;color:#f5f7fb;font-family:system-ui,"Noto Sans KR",sans-serif}.wrap{max-width:760px;margin:auto;padding:24px 16px}a{color:#8bd3ff}h1{font-size:24px}.card{margin-top:24px;padding:20px;background:#171a21;border:1px solid #2a2f3a;border-radius:14px}pre{white-space:pre-wrap;word-break:keep-all;font-family:inherit;font-size:17px;line-height:1.7}button{width:100%;padding:14px;border:0;border-radius:10px;background:#8bd3ff;color:#111;font-size:16px;font-weight:700;cursor:pointer}.status{min-height:24px;margin:12px 0 0;color:#a8deb2}</style></head>
-<body><main class="wrap"><a href="index.html">← 전체 목록</a><h1>ELITE KOR 클랜 홍보글</h1><section class="card"><pre id="post"></pre><button id="copy" type="button">📋 홍보글 복사</button><p class="status" id="status" role="status"></p></section></main>
-<script>const text="ELITE KOR 클랜원 모집 중\n\n1일(24시간) 미접속 시 방출 · 단톡방 필수\n\n가입 문의 >>> 27서버 엘리트 검색 <<<\n\n언제나 당신과 함께\n\n-Ex'me-";document.getElementById('post').textContent=text;document.getElementById('copy').addEventListener('click',async()=>{try{try{await navigator.clipboard.writeText(text)}catch(e){const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();const ok=document.execCommand('copy');ta.remove();if(!ok)throw Error('copy failed')}document.getElementById('status').textContent='복사했습니다.'}catch(e){document.getElementById('status').textContent='복사하지 못했습니다. 문구를 직접 선택해 복사해 주세요.'}});</script></body></html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ELITE KOR 클랜 홍보글 100</title>
+<style>
+:root{color-scheme:dark;--bg:#0f1115;--card:#171a21;--line:#2a2f3a;--text:#f5f7fb;--muted:#9aa3b2;--accent:#8bd3ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}.wrap{max-width:760px;margin:0 auto;padding:16px}h1{font-size:24px;margin:6px 0 4px}.desc{color:var(--muted);margin:0 0 16px;font-size:14px}.grid{display:grid;gap:10px}.card{border:1px solid var(--line);background:var(--card);border-radius:14px;padding:12px}.num{color:var(--accent);font-weight:700;margin-bottom:6px;font-size:13px}pre{margin:0;white-space:pre-wrap;word-break:keep-all;font-family:inherit;font-size:15px;line-height:1.45}button{width:100%;margin-top:10px;padding:11px 12px;border:0;border-radius:10px;font-weight:700;font-size:15px;background:#f0f3f7;color:#111;cursor:pointer}button:active{transform:scale(.99)}.top{position:sticky;top:0;z-index:10;background:rgba(15,17,21,.92);backdrop-filter:blur(8px);padding:8px 0 10px;margin-bottom:8px}.search{width:100%;padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:#0c0e12;color:var(--text);font-size:15px}.hidden{display:none}.lang-switch{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0}.lang-switch button{margin:0;background:#242a35;color:#dce3ee;border:1px solid var(--line)}.lang-switch button.active{background:var(--accent);color:#071019;border-color:var(--accent)}.random-btn{width:100%;margin:0 0 10px;padding:12px;background:#8bd3ff;color:#111;font-weight:800}.loading{color:var(--muted);padding:20px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top">
+<h1 id="pageTitle">✨ ELITE KOR 클랜 홍보글 100</h1>
+
+<button class="random-btn" id="randomCopyBtn" onclick="randomCopy(this)">🎲 랜덤 홍보글 복사</button>
+<p class="desc" id="desc">영화·속보·꽁트 등 ELITE KOR 홍보글 100개입니다. 24시간 미접속 시 방출 / 단톡방 필수 / 가입 문의: 27서버 엘리트 검색.</p>
+<input class="search" id="search" placeholder="검색: 영화, 속보, 꽁트, 감자밭..." oninput="filterCards()">
+</div>
+<section class="grid" id="grid"><div class="loading">불러오는 중...</div></section>
+</div>
+<script>
+const files={ko:'elite-array.json',en:'potato-en-array.json',jp:'potato-jp-array.json'};
+const cache={};let currentLanguage='ko';let currentPosts=[];let lastRandomIndex=-1;
+const ui={
+ko:{title:'✨ ELITE KOR 클랜 홍보글 100',random:'🎲 랜덤 홍보글 복사',desc:'영화·속보·꽁트 등 ELITE KOR 홍보글 100개입니다. 24시간 미접속 시 방출 / 단톡방 필수 / 가입 문의: 27서버 엘리트 검색.',search:'검색: 영화, 속보, 꽁트, 감자밭...',copy:'📋 복사',copied:'✅ 복사됨',loading:'불러오는 중...'},
+en:{title:'✨ 50 ELITE KOR Recruitment Posts',random:'🎲 Copy a Random Post',desc:'50 posts with No power requirement / removal after 1 inactive day / group chat required.',search:'Search: movie, news, power, group chat...',copy:'📋 Copy',copied:'✅ Copied',loading:'Loading...'},
+jp:{title:'✨ ELITE KOR メンバー募集文 50選',random:'🎲 ランダム募集文をコピー',desc:'戦闘力制限なし / 1日未ログインで除名 / グループチャット必須 を含む50種類です。',search:'検索：映画、速報、戦闘力、グルチャ...',copy:'📋 コピー',copied:'✅ コピー完了',loading:'読み込み中...'}
+};
+async function loadPosts(lang){
+if(cache[lang])return cache[lang];
+const res=await fetch(files[lang]+'?v=20261109-elite100',{cache:'no-store'});if(!res.ok)throw new Error('load failed');
+const data=await res.json();cache[lang]=Array.isArray(data)?data:(data.posts||[]);return cache[lang];
+}
+function renderPosts(posts){
+const g=document.getElementById('grid');g.innerHTML='';posts.forEach((text,i)=>{const a=document.createElement('article');a.className='card';a.innerHTML=`<div class="num">#${String(i+1).padStart(2,'0')}</div><pre id="post-${i+1}"></pre><button onclick="copyPost(${i+1},this)">${ui[currentLanguage].copy}</button>`;a.querySelector('pre').textContent=text;g.appendChild(a)});filterCards();
+}
+async function setLanguage(lang){
+currentLanguage=lang;lastRandomIndex=-1;document.documentElement.lang=lang==='jp'?'ja':lang;
+['ko','en','jp'].forEach(x=>document.getElementById(x+'Btn')?.classList.toggle('active',x===lang));
+const t=ui[lang];document.getElementById('pageTitle').textContent=t.title;document.getElementById('randomCopyBtn').textContent=t.random;document.getElementById('desc').textContent=t.desc;document.getElementById('search').placeholder=t.search;document.getElementById('grid').innerHTML=`<div class="loading">${t.loading}</div>`;
+try{currentPosts=await loadPosts(lang);renderPosts(currentPosts)}catch(e){document.getElementById('grid').innerHTML='<div class="loading">데이터를 불러오지 못했습니다.</div>'}
+}
+async function writeClipboard(text){try{await navigator.clipboard.writeText(text)}catch(e){const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove()}}
+async function copyPost(i,btn){const text=currentPosts[i-1]||'';await writeClipboard(text);const old=btn.textContent;btn.textContent=ui[currentLanguage].copied;setTimeout(()=>btn.textContent=old,1200)}
+async function randomCopy(btn){if(!currentPosts.length)return;let idx;do{idx=Math.floor(Math.random()*currentPosts.length)}while(currentPosts.length>1&&idx===lastRandomIndex);lastRandomIndex=idx;await writeClipboard(currentPosts[idx]);const old=btn.textContent;btn.textContent='✅ #'+String(idx+1).padStart(2,'0')+(currentLanguage==='ko'?' 복사됨':currentLanguage==='jp'?' コピー完了':' Copied');setTimeout(()=>btn.textContent=old,1500)}
+function filterCards(){const q=document.getElementById('search').value.trim().toLowerCase();document.querySelectorAll('.card').forEach(card=>card.classList.toggle('hidden',q&&!card.innerText.toLowerCase().includes(q)))}
+setLanguage('ko');
+</script>
+</body>
+</html>
