@@ -15,8 +15,8 @@
 <h1 id="pageTitle">✨ POTATO 클랜 홍보글 100</h1>
 <div class="lang-switch"><button id="koBtn" class="active" onclick="setLanguage('ko')">한국어</button><button id="enBtn" onclick="setLanguage('en')">English</button><button id="jpBtn" onclick="setLanguage('jp')">日本語</button></div>
 <button class="random-btn" id="randomCopyBtn" onclick="randomCopy(this)">🎲 랜덤 홍보글 복사</button>
-<p class="desc" id="desc">전투력 제한 없음 / 톡방 참여 필수 / 1일 미접속 시 방출 기준을 담은 한국어 홍보글 100개입니다.</p>
-<input class="search" id="search" placeholder="검색: 성장, 접속, 전투력, 톡방..." oninput="filterCards()">
+<p class="desc" id="desc">영화·속보·꽁트 등 10가지 콘셉트의 한국어 홍보글 100개입니다. 전투력 제한 없음 / 톡방 필수 / 1일 미접속 시 방출.</p>
+<input class="search" id="search" placeholder="검색: 영화, 속보, 꽁트, 감자밭..." oninput="filterCards()">
 </div>
 <section class="grid" id="grid"><div class="loading">불러오는 중...</div></section>
 </div>
@@ -24,13 +24,13 @@
 const files={ko:'potato-array.json',en:'potato-en-array.json',jp:'potato-jp-array.json'};
 const cache={};let currentLanguage='ko';let currentPosts=[];let lastRandomIndex=-1;
 const ui={
-ko:{title:'✨ POTATO 클랜 홍보글 100',random:'🎲 랜덤 홍보글 복사',desc:'전투력 제한 없음 / 톡방 참여 필수 / 1일 미접속 시 방출 기준을 담은 한국어 홍보글 100개입니다.',search:'검색: 성장, 접속, 전투력, 톡방...',copy:'📋 복사',copied:'✅ 복사됨',loading:'불러오는 중...'},
+ko:{title:'✨ POTATO 클랜 홍보글 100',random:'🎲 랜덤 홍보글 복사',desc:'영화·속보·꽁트 등 10가지 콘셉트의 한국어 홍보글 100개입니다. 전투력 제한 없음 / 톡방 필수 / 1일 미접속 시 방출.',search:'검색: 영화, 속보, 꽁트, 감자밭...',copy:'📋 복사',copied:'✅ 복사됨',loading:'불러오는 중...'},
 en:{title:'✨ 50 POTATO Recruitment Posts',random:'🎲 Copy a Random Post',desc:'50 posts with No power requirement / removal after 1 inactive day / group chat required.',search:'Search: movie, news, power, group chat...',copy:'📋 Copy',copied:'✅ Copied',loading:'Loading...'},
 jp:{title:'✨ POTATO メンバー募集文 50選',random:'🎲 ランダム募集文をコピー',desc:'戦闘力制限なし / 1日未ログインで除名 / グループチャット必須 を含む50種類です。',search:'検索：映画、速報、戦闘力、グルチャ...',copy:'📋 コピー',copied:'✅ コピー完了',loading:'読み込み中...'}
 };
 async function loadPosts(lang){
 if(cache[lang])return cache[lang];
-const res=await fetch(files[lang]+'?v=20261109',{cache:'no-store'});if(!res.ok)throw new Error('load failed');
+const res=await fetch(files[lang]+'?v=20261109-diverse',{cache:'no-store'});if(!res.ok)throw new Error('load failed');
 const data=await res.json();cache[lang]=Array.isArray(data)?data:(data.posts||[]);return cache[lang];
 }
 function renderPosts(posts){
