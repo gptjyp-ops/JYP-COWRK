@@ -164,8 +164,10 @@ def main() -> None:
     try:
         run("git", "push", "origin", "main")
     except subprocess.CalledProcessError:
-        # News and trends workflows may have pushed while collection was running.
-        run("git", "pull", "--rebase", "origin", "main")
+        # News/trends/watch-price workflows may push while collection is running.
+        # Preserve unrelated local edits while replaying only our committed data update.
+        run("git", "fetch", "origin", "main")
+        run("git", "rebase", "--autostash", "origin/main")
         run("git", "push", "origin", "main")
     print(f"게시 완료: 키움 {payload['generated_at']} / DART {payload['generated_at_dart']} / {len(stocks)}종목")
 
