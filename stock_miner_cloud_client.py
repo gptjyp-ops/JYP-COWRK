@@ -80,6 +80,11 @@ class CloudClient:
         self.token = body["token"]
         self.valid_until = expiry - timedelta(minutes=2)
 
+    def check_auth(self):
+        """Validate the current App Key/Secret and registered outbound IP."""
+        self._login()
+        return True
+
     def fetch_page(self, *, api_id, path, body, cont_yn=None, next_key=None):
         if READ_APIS.get(api_id) != path:
             raise KiwoomError("Stock Miner 조회용 API만 허용됩니다.")
