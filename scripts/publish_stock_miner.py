@@ -20,11 +20,72 @@ META = DATA / "stock-miner-v4-meta.json"
 PARTS = [DATA / f"stock-miner-v4-part{i}.json" for i in (1, 2, 3)]
 AUDIT = DATA / "stock-miner-v4-audit.json"
 OBSERVATIONS = DATA / "stock-miner-observations.json"
-PUBLISH_FILES = [META, *PARTS, AUDIT, OBSERVATIONS]
+COLLECTOR_STATUS = DATA / "stock-miner-collector-status.json"
+PUBLISH_FILES = [META, *PARTS, AUDIT, OBSERVATIONS, COLLECTOR_STATUS]
 
 
 def run(*args: str) -> None:
     subprocess.run(args, cwd=ROOT, check=True)
+
+
+def write_collector_status(status: str, message: str, *, error_code: str | None = None,
+                           action_required: bool = False) -> None:
+    DATA.mkdir(exist_ok=True)
+    payload = {
+        "attempted_at": datetime.now().astimezone().isoformat(timespec="seconds"),
+        "status": status,
+        "source": "Kiwoom REST API",
+        "message": message,
+        "action_required": action_required,
+    }
+    if error_code:
+        payload["error_code"] = error_code
+    COLLECTOR_STATUS.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def publish_status_only() -> None:
+    run("git", "add", str(COLLECTOR_STATUS.relative_to(ROOT)))
+    changed = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode
+    if changed == 0:
+        return
+    if changed != 1:
+        raise RuntimeError("수집기 상태 변경 확인에 실패했습니다.")
+    run("git", "-c", "user.name=stock-miner-pc", "-c",
+        "user.email=stock-miner-pc@users.noreply.github.com", "commit",
+        "-m", "data: update Stock Miner collector status")
+    try:
+        run("git", "push", "origin", "main")
+    except subprocess.CalledProcessError:
+        run("git", "pull", "--rebase", "origin", "main")
+        run("git", "push", "origin", "main")
+
+
+def preflight_kiwoom() -> None:
+    # The current Windows setup uses the official REST API with environment
+    # credentials. Do not publish the user's public IP or any credential.
+    import os
+    if not os.environ.get("KIWOOM_APP_KEY") or not os.environ.get("KIWOOM_SECRET_KEY"):
+        return
+    from stock_miner_cloud_client import CloudClient, KiwoomError
+    try:
+        CloudClient().check_auth()
+    except KiwoomError as exc:
+        detail = str(exc)
+        if "8050" in detail or "IP가 등록되지 않았습니다" in detail:
+            write_collector_status(
+                "ip_not_registered",
+                "키움 허용 IP 갱신 필요",
+                error_code="8050",
+                action_required=True,
+            )
+        else:
+            write_collector_status(
+                "auth_error",
+                "키움 인증 사전점검 실패",
+                action_required=True,
+            )
+        publish_status_only()
+        raise
 
 
 def recent_timestamp(value: str, label: str, max_age_minutes: int) -> None:
@@ -37,7 +98,14 @@ def recent_timestamp(value: str, label: str, max_age_minutes: int) -> None:
 def main() -> None:
     # Never overwrite a local edit or stage unrelated files from this repository.
     run("git", "pull", "--ff-only", "origin", "main")
-    run(sys.executable, "stock_miner_collect.py")
+    preflight_kiwoom()
+    try:
+        run(sys.executable, "stock_miner_collect.py")
+    except subprocess.CalledProcessError:
+        write_collector_status("collection_error", "키움 수집 실행 실패", action_required=True)
+        publish_status_only()
+        raise
+    write_collector_status("ok", "키움 인증 및 수집 정상", action_required=False)
     collected = json.loads(SOURCE.read_text(encoding="utf-8"))
     recent_timestamp(collected["generated_at"], "키움", 10)
     if collected.get("version") != "stock-miner-collector-v3" or not collected.get("stocks"):
