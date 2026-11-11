@@ -1,64 +1,64 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-11-10T23:18:11.322566+00:00",
-  "updated_kst": "2026년 11월 11일 08:18",
+  "updated_at": "2026-11-11T06:14:41.579974+00:00",
+  "updated_kst": "2026년 11월 11일 15:14",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "메이플스토리",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "vix",
+          "k": "굴착기",
           "m": "검색량 200+"
         },
         {
-          "k": "코어위브 주가",
+          "k": "총파업",
           "m": "검색량 200+"
         },
         {
-          "k": "메이저 리그 사커",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "농구",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "예산",
+          "k": "폴 조지",
           "m": "검색량 100+"
         },
         {
-          "k": "엄정욱",
+          "k": "스마일게이트",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "사슴",
           "m": "검색량 500+"
         },
         {
-          "k": "gs칼텍스",
+          "k": "공무원",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "사고",
+          "m": "검색량 1000+"
+        },
+        {
+          "k": "이세계아이돌",
           "m": "검색량 200+"
         },
         {
-          "k": "보스턴다이내믹스",
+          "k": "양산시",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "이선빈",
           "m": "검색량 100+"
-        },
-        {
-          "k": "제네시스 gv90",
-          "m": "검색량 200+"
         }
       ]
     },
     "shopping": {
-      "updated": "20261109",
+      "updated": "20261110",
       "items": [
         {
-          "k": "자가발전라디오",
-          "m": "캠핑 · 상승 1",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%9E%90%EA%B0%80%EB%B0%9C%EC%A0%84%EB%9D%BC%EB%94%94%EC%98%A4",
+          "k": "온핸즈케이스",
+          "m": "휴대폰액세서리 · 상승 3",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%98%A8%ED%95%B8%EC%A6%88%EC%BC%80%EC%9D%B4%EC%8A%A4",
           "tag": "buy"
         },
         {
           "k": "뉴발란스윈터로버",
-          "m": "남성신발 · 하락 1",
+          "m": "남성신발 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EB%89%B4%EB%B0%9C%EB%9E%80%EC%8A%A4%EC%9C%88%ED%84%B0%EB%A1%9C%EB%B2%84",
           "tag": "buy"
         },
@@ -69,27 +69,21 @@
           "tag": "buy"
         },
         {
-          "k": "온핸즈케이스",
-          "m": "휴대폰액세서리 · 인기",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%98%A8%ED%95%B8%EC%A6%88%EC%BC%80%EC%9D%B4%EC%8A%A4",
+          "k": "자가발전라디오",
+          "m": "캠핑 · 하락 3",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%9E%90%EA%B0%80%EB%B0%9C%EC%A0%84%EB%9D%BC%EB%94%94%EC%98%A4",
           "tag": "buy"
         },
         {
           "k": "스타벅스미니백",
-          "m": "여성가방 · 하락 1",
+          "m": "여성가방 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%EB%AF%B8%EB%8B%88%EB%B0%B1",
           "tag": "buy"
         },
         {
-          "k": "그래핀벽난방",
-          "m": "계절가전 · 하락 1",
-          "url": "https://shopping.naver.com/ns/search?query=%EA%B7%B8%EB%9E%98%ED%95%80%EB%B2%BD%EB%82%9C%EB%B0%A9",
-          "tag": "buy"
-        },
-        {
-          "k": "재난라디오",
-          "m": "음향가전 · 하락 1",
-          "url": "https://shopping.naver.com/ns/search?query=%EC%9E%AC%EB%82%9C%EB%9D%BC%EB%94%94%EC%98%A4",
+          "k": "당가케이스",
+          "m": "휴대폰액세서리 · 상승 4",
+          "url": "https://shopping.naver.com/ns/search?query=%EB%8B%B9%EA%B0%80%EC%BC%80%EC%9D%B4%EC%8A%A4",
           "tag": "buy"
         },
         {
@@ -99,83 +93,89 @@
           "tag": "buy"
         },
         {
+          "k": "그래핀벽난방",
+          "m": "계절가전 · 하락 2",
+          "url": "https://shopping.naver.com/ns/search?query=%EA%B7%B8%EB%9E%98%ED%95%80%EB%B2%BD%EB%82%9C%EB%B0%A9",
+          "tag": "buy"
+        },
+        {
           "k": "운동용닭가슴살",
-          "m": "축산물 · 하락 1",
+          "m": "축산물 · 유지",
           "url": "https://shopping.naver.com/ns/search?query=%EC%9A%B4%EB%8F%99%EC%9A%A9%EB%8B%AD%EA%B0%80%EC%8A%B4%EC%82%B4",
           "tag": "buy"
         },
         {
-          "k": "당가케이스",
-          "m": "휴대폰액세서리 · 인기",
-          "url": "https://shopping.naver.com/ns/search?query=%EB%8B%B9%EA%B0%80%EC%BC%80%EC%9D%B4%EC%8A%A4",
+          "k": "재난라디오",
+          "m": "음향가전 · 하락 3",
+          "url": "https://shopping.naver.com/ns/search?query=%EC%9E%AC%EB%82%9C%EB%9D%BC%EB%94%94%EC%98%A4",
           "tag": "buy"
         }
       ]
     },
     "daum": {
-      "updated": "2026-11-11T08:11:43.486+09:00",
+      "updated": "2026-11-11T15:10:22.538+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "빼빼로 데이",
+          "k": "강지영 굿모닝FM 새 DJ 발탁",
           "rank": 1,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%EC%A7%80%EC%98%81%20%EA%B5%BF%EB%AA%A8%EB%8B%9DFM%20%EC%83%88%20DJ%20%EB%B0%9C%ED%83%81"
+        },
+        {
+          "k": "국고채 입찰 담합 과징금",
+          "rank": 2,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AD%EA%B3%A0%EC%B1%84%20%EC%9E%85%EC%B0%B0%20%EB%8B%B4%ED%95%A9%20%EA%B3%BC%EC%A7%95%EA%B8%88"
+        },
+        {
+          "k": "빼빼로 데이",
+          "rank": 3,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EB%B9%BC%EB%B9%BC%EB%A1%9C%20%EB%8D%B0%EC%9D%B4"
         },
         {
-          "k": "뉴욕증시 하락",
-          "rank": 2,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%89%B4%EC%9A%95%EC%A6%9D%EC%8B%9C%20%ED%95%98%EB%9D%BD"
-        },
-        {
-          "k": "구룡마을 화재",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%EB%A3%A1%EB%A7%88%EC%9D%84%20%ED%99%94%EC%9E%AC"
-        },
-        {
-          "k": "이유진 차경은 혼전임신",
+          "k": "농어촌 기본소득",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9C%A0%EC%A7%84%20%EC%B0%A8%EA%B2%BD%EC%9D%80%20%ED%98%BC%EC%A0%84%EC%9E%84%EC%8B%A0"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%86%8D%EC%96%B4%EC%B4%8C%20%EA%B8%B0%EB%B3%B8%EC%86%8C%EB%93%9D"
         },
         {
-          "k": "수원 병원 화재",
+          "k": "바로팜",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%88%98%EC%9B%90%20%EB%B3%91%EC%9B%90%20%ED%99%94%EC%9E%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%94%EB%A1%9C%ED%8C%9C"
         },
         {
-          "k": "크래시2 허수아비",
+          "k": "김성환 장관 주민간담회",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%81%AC%EB%9E%98%EC%8B%9C2%20%ED%97%88%EC%88%98%EC%95%84%EB%B9%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%84%B1%ED%99%98%20%EC%9E%A5%EA%B4%80%20%EC%A3%BC%EB%AF%BC%EA%B0%84%EB%8B%B4%ED%9A%8C"
         },
         {
-          "k": "이효정 집안 배우 6명",
+          "k": "고효준 KT 입단 무산",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%9A%A8%EC%A0%95%20%EC%A7%91%EC%95%88%20%EB%B0%B0%EC%9A%B0%206%EB%AA%85"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B3%A0%ED%9A%A8%EC%A4%80%20KT%20%EC%9E%85%EB%8B%A8%20%EB%AC%B4%EC%82%B0"
         },
         {
-          "k": "경기도 교육감",
+          "k": "분당 버스 사고",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B5%90%EC%9C%A1%EA%B0%90"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B6%84%EB%8B%B9%20%EB%B2%84%EC%8A%A4%20%EC%82%AC%EA%B3%A0"
         },
         {
-          "k": "데블스 플랜3",
+          "k": "최정원 결혼 25주년",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%8D%B0%EB%B8%94%EC%8A%A4%20%ED%94%8C%EB%9E%9C3"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%EC%A0%95%EC%9B%90%20%EA%B2%B0%ED%98%BC%2025%EC%A3%BC%EB%85%84"
         },
         {
-          "k": "與 신천지 자료",
+          "k": "건설노동자 근로이력 대출심사",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%E8%88%87%20%EC%8B%A0%EC%B2%9C%EC%A7%80%20%EC%9E%90%EB%A3%8C"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B1%B4%EC%84%A4%EB%85%B8%EB%8F%99%EC%9E%90%20%EA%B7%BC%EB%A1%9C%EC%9D%B4%EB%A0%A5%20%EB%8C%80%EC%B6%9C%EC%8B%AC%EC%82%AC"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "메이플스토리",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "vix",
+      "k": "굴착기",
       "m": "검색량 200+"
     },
     {
-      "k": "코어위브 주가",
+      "k": "총파업",
       "m": "검색량 200+"
     },
     {
-      "k": "메이저 리그 사커",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "농구",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "예산",
+      "k": "폴 조지",
       "m": "검색량 100+"
     },
     {
-      "k": "엄정욱",
+      "k": "스마일게이트",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "사슴",
       "m": "검색량 500+"
     },
     {
-      "k": "gs칼텍스",
+      "k": "공무원",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "사고",
+      "m": "검색량 1000+"
+    },
+    {
+      "k": "이세계아이돌",
       "m": "검색량 200+"
     },
     {
-      "k": "보스턴다이내믹스",
+      "k": "양산시",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "이선빈",
       "m": "검색량 100+"
-    },
-    {
-      "k": "제네시스 gv90",
-      "m": "검색량 200+"
     }
   ]
 }
