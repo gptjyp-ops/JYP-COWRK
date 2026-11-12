@@ -2,10 +2,10 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Stock Miner · Matrix Edition</title>
-<meta name="theme-color" content="#020705">
+<title>Stock Miner · Korea Market Dashboard</title>
+<meta name="theme-color" content="#f6f8fb">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Stock Miner">
 <link rel="manifest" href="stock-miner.webmanifest"><link rel="icon" href="stock-miner-icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="stock-miner-icon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -130,9 +130,281 @@ body{font-variant-numeric:tabular-nums}
 .watchLegend{display:flex;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:10px;margin:6px 0}.watchLegend i{display:inline-block;width:13px;height:2px;vertical-align:middle;margin-right:4px;background:#66ff9b}.watchLegend .l20{background:#79a7ff}.watchLegend .l60{background:#ffcc66}
 @media(max-width:900px){#fixedWatchCards{grid-template-columns:1fr}}@media(max-width:520px){.watchOhlc{grid-template-columns:repeat(2,1fr)}.watchLevels{grid-template-columns:1fr}}
 </style>
+
+<style id="stockMinerLightFinanceTheme">
+/* Light finance dashboard — keeps existing Stock Miner logic intact. */
+:root{
+  color-scheme:light;
+  --bg:#f5f7fa;
+  --panel:#ffffff;
+  --panel2:#f8fafc;
+  --muted:#667085;
+  --text:#101828;
+  --line:#e4e7ec;
+  --good:#067647;
+  --warn:#b54708;
+  --bad:#b42318;
+  --accent:#175cd3;
+  --multi:#6938ef;
+  --filing:#7f56d9;
+  --filing-risk:#b54708;
+}
+html{background:var(--bg)}
+body{
+  background:var(--bg)!important;
+  color:var(--text)!important;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",Roboto,sans-serif!important;
+  line-height:1.5;
+}
+#matrixRain,.matrixToggle{display:none!important}
+.wrap{max-width:1500px!important;padding:28px 24px 56px!important}
+.top{
+  align-items:flex-start!important;
+  gap:24px!important;
+  padding:4px 0 18px;
+  border-bottom:1px solid var(--line);
+}
+.matrixEyebrow{
+  color:#475467!important;
+  font:700 11px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+  letter-spacing:.08em!important;
+  margin-bottom:8px!important;
+}
+.matrixEyebrow::before{display:none!important}
+.top h1{
+  color:#101828!important;
+  text-shadow:none!important;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif!important;
+  font-size:clamp(30px,3vw,42px)!important;
+  letter-spacing:-.045em!important;
+  font-weight:800!important;
+}
+.matrixEdition{
+  display:inline-block!important;
+  margin:0 0 0 10px!important;
+  padding:5px 8px;
+  border-radius:999px;
+  background:#eef4ff;
+  color:#175cd3!important;
+  font:700 10px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+  letter-spacing:.04em!important;
+  vertical-align:middle;
+}
+.top p{color:#667085!important;margin:10px 0 0!important;font-size:14px!important}
+.status{
+  color:#667085!important;
+  font-family:inherit!important;
+  font-size:12px!important;
+  margin-top:8px!important;
+}
+.status.stale{color:var(--bad)!important}
+.controls{max-width:720px!important;gap:8px!important;align-items:center!important}
+.controls input,.controls select,.newsToolbar select,button{
+  background:#fff!important;
+  color:#344054!important;
+  border:1px solid #d0d5dd!important;
+  border-radius:9px!important;
+  box-shadow:0 1px 2px rgba(16,24,40,.03);
+}
+.controls input{min-width:210px}
+.controls input:focus-visible,.controls select:focus-visible,.newsToolbar select:focus-visible,button:focus-visible,summary:focus-visible{
+  outline:3px solid rgba(47,128,237,.18)!important;
+  outline-offset:1px!important;
+  border-color:#84adff!important;
+}
+button:hover{background:#f9fafb!important;border-color:#98a2b3!important}
+.primary{
+  background:#175cd3!important;
+  color:#fff!important;
+  border-color:#175cd3!important;
+  box-shadow:none!important;
+}
+.primary:hover{background:#1849a9!important;color:#fff!important}
+.install{background:#fff!important;color:#344054!important;border-color:#d0d5dd!important}
+.autoRefreshPill{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:9px 10px;
+  border-radius:999px;
+  background:#ecfdf3;
+  color:#067647;
+  border:1px solid #abefc6;
+  font-size:11px;
+  font-weight:700;
+  white-space:nowrap;
+}
+.autoRefreshPill::before{content:"";width:7px;height:7px;border-radius:50%;background:#17b26a}
+.dataHealth{
+  margin:20px 0 22px!important;
+  padding:18px!important;
+  background:#fff!important;
+  border:1px solid var(--line)!important;
+  border-radius:14px!important;
+  box-shadow:0 1px 3px rgba(16,24,40,.04)!important;
+}
+.dataHealthHead h2,.discoveryHeading h2,.tableHeading{
+  color:#101828!important;
+  letter-spacing:-.025em!important;
+}
+.discoveryHeading h2::before{display:none!important}
+.healthGrid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:10px!important}
+.healthCard{
+  background:#f9fafb!important;
+  border:1px solid #eaecf0!important;
+  border-radius:10px!important;
+  padding:12px 13px!important;
+}
+.healthCard h3{color:#344054!important;font-size:12px!important}
+.healthCard p{color:#667085!important}
+.healthState.latest{color:#067647!important;background:#ecfdf3!important}
+.healthState.delayed{color:#b54708!important;background:#fffaeb!important}
+.healthState.old,.healthState.unknown{color:#b42318!important;background:#fef3f2!important}
+.dataHold{background:#fffaeb!important;border-color:#fedf89!important;color:#93370d!important}
+.viewTabs{
+  gap:4px!important;
+  border-bottom:1px solid var(--line)!important;
+  padding-bottom:0!important;
+  margin:18px 0 20px!important;
+}
+.viewTabs button{
+  border:0!important;
+  border-bottom:2px solid transparent!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  padding:11px 15px!important;
+  background:transparent!important;
+  color:#667085!important;
+}
+.viewTabs button[aria-pressed="true"]{
+  color:#175cd3!important;
+  border-bottom-color:#175cd3!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+.colorLegend{
+  background:#fff!important;
+  border:1px solid var(--line)!important;
+  border-radius:10px!important;
+  padding:10px 12px!important;
+  margin:0 0 20px!important;
+}
+.discoveryGrid{gap:14px!important}
+.discoveryStock,.rankNews,.watchAnalysisCard{
+  background:#fff!important;
+  border:1px solid #e4e7ec!important;
+  border-radius:12px!important;
+  box-shadow:0 1px 3px rgba(16,24,40,.04)!important;
+}
+.discoveryStock::before,.rankNews::before{display:none!important}
+.discoveryStock:hover,.discoveryStock:focus-visible{
+  background:#fff!important;
+  border-color:#b2ccff!important;
+  box-shadow:0 4px 12px rgba(16,24,40,.07)!important;
+}
+.stockTop b,.watchAnalysisHead h3{color:#101828!important}
+.stockCode,.stockScore{color:#667085!important}
+.stockScore b{color:#175cd3!important;text-shadow:none!important}
+.stockSignal{
+  background:#f5f8ff!important;
+  color:#344054!important;
+  border-left:3px solid #84adff!important;
+  border-radius:8px!important;
+}
+.stockMaterial{color:#475467!important}
+.stockTopics,.cardAction{color:#175cd3!important}
+.cardFlows{border-top-color:#eaecf0!important}
+.card,.comparison>summary,.tableWrap,.side,.newsEmpty{
+  background:#fff!important;
+  border-color:#e4e7ec!important;
+  border-radius:12px!important;
+  box-shadow:none!important;
+}
+.quickTabs,.themeTabs,.tabs{gap:7px!important}
+.quickTabs button,.themeTabs button,.tabs button{
+  background:#fff!important;
+  color:#475467!important;
+  border-color:#d0d5dd!important;
+}
+.quickTabs button.active,.themeTabs button[aria-pressed="true"],.tab.active{
+  background:#eef4ff!important;
+  color:#175cd3!important;
+  border-color:#b2ccff!important;
+  box-shadow:none!important;
+}
+.interestFilter summary,.extraFilters summary,.detailSection summary,.rankNews summary,.collectionStats>summary,.themeNews>summary{
+  color:#475467!important;
+}
+.collectionStats,.comparison,.themeNews{color:#667085!important}
+.comparison>summary{
+  padding:14px 16px!important;
+  font-weight:700;
+  color:#344054!important;
+}
+.tableWrap{overflow:auto!important}
+th{
+  background:#f9fafb!important;
+  color:#475467!important;
+  border-bottom-color:#eaecf0!important;
+}
+td{border-bottom-color:#f2f4f7!important;color:#344054!important}
+tr:hover{background:#f9fafb!important}
+.multirow{background:#f9f5ff!important}
+.detailDialog{
+  background:#fff!important;
+  color:#101828!important;
+  border-color:#e4e7ec!important;
+  border-radius:16px!important;
+  box-shadow:0 24px 48px rgba(16,24,40,.18)!important;
+}
+.detailDialog::backdrop{background:rgba(16,24,40,.35)!important;backdrop-filter:none!important}
+.dialogBar{background:#fff!important;border-color:#eaecf0!important;color:#667085!important}
+.detailMetrics>div,.reason,.newsItem{
+  background:#f9fafb!important;
+  border:1px solid #eaecf0;
+  border-radius:9px!important;
+}
+.newsItem a,.rankNews .headline{color:#175cd3!important}
+.warning-tip{background:#fff!important;color:#344054!important;border-color:#d0d5dd!important;box-shadow:0 12px 30px rgba(16,24,40,.16)!important}
+.watchChart{
+  background:#fbfcfe!important;
+  border-color:#eaecf0!important;
+  border-radius:10px!important;
+}
+.watchChart polyline{stroke:#12b76a!important}
+.watchChart .ma20{stroke:#2e90fa!important}
+.watchChart .ma60{stroke:#f79009!important}
+.watchOhlc>span,.watchLevels>span{
+  background:#f9fafb!important;
+  border-color:#eaecf0!important;
+}
+.watchBuyState.buy{color:#067647!important;border-color:#abefc6!important;background:#ecfdf3!important}
+.watchBuyState.wait{color:#b54708!important;border-color:#fedf89!important;background:#fffaeb!important}
+.watchBuyState.chase,.watchBuyState.stale{color:#b42318!important;border-color:#fecdca!important;background:#fef3f2!important}
+.watchBuyState.broken{color:#175cd3!important;border-color:#b2ccff!important;background:#eef4ff!important}
+.watchLegend i{background:#12b76a!important}.watchLegend .l20{background:#2e90fa!important}.watchLegend .l60{background:#f79009!important}
+.pos,.s80,.momStrong,.newsStrong{color:#067647!important}
+.neg{color:#b42318!important}
+.s70,.momMid,.newsMid{color:#b54708!important}
+.disclosure-positive{color:#6941c6!important}
+.disclosure-risk{color:#b54708!important}
+.footer{color:#98a2b3!important}
+@media(max-width:1050px){.healthGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:700px){
+  .wrap{padding:16px 12px 40px!important}
+  .top{padding-top:0}
+  .matrixEdition{display:block!important;width:max-content;margin:8px 0 0!important}
+  .controls{width:100%!important}
+  .controls input{flex:1 1 100%;min-width:0}
+  .controls select,.controls button{flex:1 1 auto}
+  .autoRefreshPill{order:6}
+  .healthGrid{grid-template-columns:1fr!important}
+  #fixedWatchCards,.discoveryGrid{grid-template-columns:1fr!important}
+}
+</style>
 </head>
 <body><canvas id="matrixRain" aria-hidden="true"></canvas><div class="wrap">
-<div class="top"><div><div class="matrixEyebrow">FOLLOW THE SIGNAL / 신호를 관찰하다</div><h1>STOCK MINER<span class="matrixEdition">MATRIX EDITION</span></h1><p>새 재료 → 수급 반응 → 아직 덜 오른 후보</p><div class="status" id="updated">데이터 불러오는 중...</div></div><div class="controls"><input id="q" placeholder="종목명/코드 검색"><select id="grade"><option value="all">전체 점수</option><option value="80">기존 종합 80점 이상</option><option value="70">기존 종합 70점 이상</option></select><button class="primary" id="reloadBtn">업로드 확인</button><button class="install" id="installBtn">📱 앱으로 설치</button><button type="button" class="matrixToggle" id="matrixToggle" aria-pressed="true" aria-controls="matrixRain">코드 효과 끄기</button></div></div>
+<div class="top"><div><div class="matrixEyebrow">KOREA MARKET DASHBOARD</div><h1>Stock Miner<span class="matrixEdition">PERSONAL MARKET WORKSPACE</span></h1><p>관심종목 · 수급 · 뉴스 · 공시 · 발굴 후보를 한 화면에서 확인합니다.</p><div class="status" id="updated">데이터 불러오는 중...</div></div><div class="controls"><input id="q" placeholder="종목명 또는 코드 검색"><select id="grade"><option value="all">전체 점수</option><option value="80">기존 종합 80점 이상</option><option value="70">기존 종합 70점 이상</option></select><button class="primary" id="reloadBtn">지금 새로고침</button><span class="autoRefreshPill" title="페이지를 열어 둔 동안 데이터 파일을 자동으로 다시 확인합니다.">자동 갱신 5분</span><button class="install" id="installBtn">앱으로 설치</button><button type="button" class="matrixToggle" id="matrixToggle" aria-pressed="false" aria-controls="matrixRain">코드 효과 끄기</button></div></div>
 <p id="newsHealth" class="topicHint" role="status" hidden></p>
 <section class="dataHealth" aria-labelledby="dataHealthTitle">
   <div class="dataHealthHead"><div><h2 id="dataHealthTitle">데이터 상태</h2><p class="topicHint">페이지를 연 시각이 아니라 원본 데이터 기준일·수집 성공 시각을 표시합니다.</p></div><span class="topicHint">상태: 최신 / 지연 / 오래됨 / 확인 불가</span></div>
@@ -492,6 +764,28 @@ async function loadData(){try{const ts=Date.now();const m=await fetch('data/stoc
 function enableMouseDrag(){const el=$('tableWrap');let down=false,startX=0,startScroll=0,moved=false;el.addEventListener('mousedown',e=>{if(e.button!==0)return;down=true;moved=false;startX=e.clientX;startScroll=el.scrollLeft;el.classList.add('dragging')});window.addEventListener('mousemove',e=>{if(!down)return;const dx=e.clientX-startX;if(Math.abs(dx)>3)moved=true;el.scrollLeft=startScroll-dx});window.addEventListener('mouseup',()=>{down=false;el.classList.remove('dragging')});el.addEventListener('click',e=>{if(moved){e.preventDefault();e.stopPropagation();moved=false}},true);el.addEventListener('wheel',e=>{if(e.shiftKey||Math.abs(e.deltaX)>Math.abs(e.deltaY)){e.preventDefault();el.scrollLeft+=e.deltaX||e.deltaY}},{passive:false})}
 function setupInstall(){const btn=$('installBtn'),standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;if(standalone){btn.classList.add('hidden');return}window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e});window.addEventListener('appinstalled',()=>btn.classList.add('hidden'));btn.onclick=async()=>{if(deferredInstall){deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;return}if(/iphone|ipad|ipod/i.test(navigator.userAgent))alert('Safari 아래 공유 버튼 → 홈 화면에 추가를 선택해 주세요.');else alert('브라우저 메뉴에서 홈 화면에 추가 또는 앱 설치를 선택해 주세요.')}}
 if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./stock-miner-sw.js').catch(()=>{}));$('q').oninput=()=>{discoveryLimit=12;render()};$('grade').onchange=()=>{discoveryLimit=12;render()};$('reloadBtn').onclick=loadData;renderTabs();enableMouseDrag();setupInstall();setupWarningTips();setupDetailDialog();setupNewsRanking();loadData();
+</script>
+
+<script>
+(function setupStockMinerAutoRefresh(){
+  try{localStorage.setItem('stock-miner-matrix-motion','off')}catch(_e){}
+  const intervalMs=5*60*1000;
+  let lastRefresh=Date.now();
+  let timer=null;
+  function refresh(){
+    if(document.hidden||typeof loadData!=='function')return;
+    lastRefresh=Date.now();
+    loadData();
+  }
+  function start(){
+    if(timer)clearInterval(timer);
+    timer=setInterval(refresh,intervalMs);
+  }
+  document.addEventListener('visibilitychange',()=>{
+    if(!document.hidden&&Date.now()-lastRefresh>2*60*1000)refresh();
+  });
+  start();
+})();
 </script>
 <script>
 (function setupMatrixRain(){
