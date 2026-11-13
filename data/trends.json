@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-11-13T16:19:56.839237+00:00",
-  "updated_kst": "2026년 11월 14일 01:19",
+  "updated_at": "2026-11-13T22:36:06.483196+00:00",
+  "updated_kst": "2026년 11월 14일 07:36",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "구성환",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "김수현",
+          "k": "สภาพอากาศ",
           "m": "검색량 1000+"
         },
         {
-          "k": "대한민국",
-          "m": "검색량 200+"
+          "k": "погода",
+          "m": "검색량 500+"
         },
         {
-          "k": "쿠플",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "포수",
+          "k": "天気",
           "m": "검색량 100+"
         },
         {
-          "k": "광천동주택재개발",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "민희진",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "대한민국 기후에너지환경부",
+          "k": "김하성",
           "m": "검색량 200+"
         },
         {
-          "k": "대한민국 야구",
+          "k": "중앙일보",
+          "m": "검색량 2000+"
+        },
+        {
+          "k": "제네시스 gv90",
           "m": "검색량 200+"
         },
         {
-          "k": "明天的天氣",
+          "k": "은행나무",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "디에고 시메오네",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "군수산업",
           "m": "검색량 100+"
+        },
+        {
+          "k": "이재영",
+          "m": "검색량 200+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-11-14T01:01:49.477+09:00",
+      "updated": "2026-11-14T07:28:02.915+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "나혼자산다 박지현",
+          "k": "구본현 검거",
           "rank": 1,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%82%98%ED%98%BC%EC%9E%90%EC%82%B0%EB%8B%A4%20%EB%B0%95%EC%A7%80%ED%98%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%EB%B3%B8%ED%98%84%20%EA%B2%80%EA%B1%B0"
         },
         {
-          "k": "구성환 전여친 재회",
+          "k": "美연방항공청 운항 중단 지시",
           "rank": 2,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%EC%84%B1%ED%99%98%20%EC%A0%84%EC%97%AC%EC%B9%9C%20%EC%9E%AC%ED%9A%8C"
+          "url": "https://search.daum.net/search?w=tot&q=%E7%BE%8E%EC%97%B0%EB%B0%A9%ED%95%AD%EA%B3%B5%EC%B2%AD%20%EC%9A%B4%ED%95%AD%20%EC%A4%91%EB%8B%A8%20%EC%A7%80%EC%8B%9C"
         },
         {
-          "k": "마이크로 소프트",
+          "k": "리트",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%20%EC%86%8C%ED%94%84%ED%8A%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%A6%AC%ED%8A%B8"
+        },
+        {
+          "k": "구성환 고교 4대 천왕",
+          "rank": 4,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%AC%EC%84%B1%ED%99%98%20%EA%B3%A0%EA%B5%90%204%EB%8C%80%20%EC%B2%9C%EC%99%95"
         },
         {
           "k": "정무성 별세",
-          "rank": 4,
+          "rank": 5,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EB%AC%B4%EC%84%B1%20%EB%B3%84%EC%84%B8"
         },
         {
-          "k": "꿈꾸던 어른이 되었나요",
-          "rank": 5,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%BF%88%EA%BE%B8%EB%8D%98%20%EC%96%B4%EB%A5%B8%EC%9D%B4%20%EB%90%98%EC%97%88%EB%82%98%EC%9A%94"
-        },
-        {
-          "k": "조현 중국 역할 당부",
+          "k": "아이들 우기 하나의 중국",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%A1%B0%ED%98%84%20%EC%A4%91%EA%B5%AD%20%EC%97%AD%ED%95%A0%20%EB%8B%B9%EB%B6%80"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EC%9D%B4%EB%93%A4%20%EC%9A%B0%EA%B8%B0%20%ED%95%98%EB%82%98%EC%9D%98%20%EC%A4%91%EA%B5%AD"
         },
         {
-          "k": "한국 사우디 축구 중계",
+          "k": "아웃룩",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%EA%B5%AD%20%EC%82%AC%EC%9A%B0%EB%94%94%20%EC%B6%95%EA%B5%AC%20%EC%A4%91%EA%B3%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%95%84%EC%9B%83%EB%A3%A9"
         },
         {
-          "k": "박수홍 친형 부부 손배소",
+          "k": "미국 공항",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%88%98%ED%99%8D%20%EC%B9%9C%ED%98%95%20%EB%B6%80%EB%B6%80%20%EC%86%90%EB%B0%B0%EC%86%8C"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%B8%EA%B5%AD%20%EA%B3%B5%ED%95%AD"
         },
         {
-          "k": "최원호 감독",
+          "k": "최민희 녹취 입수",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%EC%9B%90%ED%98%B8%20%EA%B0%90%EB%8F%85"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%EB%AF%BC%ED%9D%AC%20%EB%85%B9%EC%B7%A8%20%EC%9E%85%EC%88%98"
         },
         {
-          "k": "김휘집 스리런포",
+          "k": "이희진 결혼 불안",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%9C%98%EC%A7%91%20%EC%8A%A4%EB%A6%AC%EB%9F%B0%ED%8F%AC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%ED%9D%AC%EC%A7%84%20%EA%B2%B0%ED%98%BC%20%EB%B6%88%EC%95%88"
         }
       ]
     },
@@ -227,44 +227,44 @@
   },
   "items": [
     {
-      "k": "구성환",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "김수현",
+      "k": "สภาพอากาศ",
       "m": "검색량 1000+"
     },
     {
-      "k": "대한민국",
-      "m": "검색량 200+"
+      "k": "погода",
+      "m": "검색량 500+"
     },
     {
-      "k": "쿠플",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "포수",
+      "k": "天気",
       "m": "검색량 100+"
     },
     {
-      "k": "광천동주택재개발",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "민희진",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "대한민국 기후에너지환경부",
+      "k": "김하성",
       "m": "검색량 200+"
     },
     {
-      "k": "대한민국 야구",
+      "k": "중앙일보",
+      "m": "검색량 2000+"
+    },
+    {
+      "k": "제네시스 gv90",
       "m": "검색량 200+"
     },
     {
-      "k": "明天的天氣",
+      "k": "은행나무",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "디에고 시메오네",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "군수산업",
       "m": "검색량 100+"
+    },
+    {
+      "k": "이재영",
+      "m": "검색량 200+"
     }
   ]
 }
