@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-11-15T09:23:09.994426+00:00",
-  "updated_kst": "2026년 11월 15일 18:23",
+  "updated_at": "2026-11-15T17:08:18.104627+00:00",
+  "updated_kst": "2026년 11월 16일 02:08",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "개혁",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "창원 lg 대 수원 kt",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "kb5132061",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "박태환",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "부산 kcc 대 대구 한국가스공사",
-          "m": "검색량 1000+"
-        },
-        {
-          "k": "구자욱",
+          "k": "아파트",
           "m": "검색량 2000+"
         },
         {
-          "k": "금오산",
+          "k": "스포츠조선",
+          "m": "검색량 100+"
+        },
+        {
+          "k": "입양",
           "m": "검색량 200+"
         },
         {
-          "k": "화물선",
+          "k": "퇴직금",
           "m": "검색량 200+"
         },
         {
-          "k": "의료",
+          "k": "미미미누",
           "m": "검색량 500+"
         },
         {
-          "k": "사고",
+          "k": "알렉산더 즈베레프",
           "m": "검색량 1000+"
+        },
+        {
+          "k": "박현주",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "수상함",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "재건축",
+          "m": "검색량 5000+"
+        },
+        {
+          "k": "안재석",
+          "m": "검색량 100+"
         }
       ]
     },
@@ -113,69 +113,69 @@
       ]
     },
     "daum": {
-      "updated": "2026-11-15T18:17:51.484+09:00",
+      "updated": "2026-11-16T01:01:37.095+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "진형구 별세",
+          "k": "강미나 전현무 일본 여행",
           "rank": 1,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B0%95%EB%AF%B8%EB%82%98%20%EC%A0%84%ED%98%84%EB%AC%B4%20%EC%9D%BC%EB%B3%B8%20%EC%97%AC%ED%96%89"
+        },
+        {
+          "k": "윤영인 새 콤비",
+          "rank": 2,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9C%A4%EC%98%81%EC%9D%B8%20%EC%83%88%20%EC%BD%A4%EB%B9%84"
+        },
+        {
+          "k": "진형구 별세",
+          "rank": 3,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%EC%A7%84%ED%98%95%EA%B5%AC%20%EB%B3%84%EC%84%B8"
         },
         {
-          "k": "김희선 놀면 뭐하니 MC",
-          "rank": 2,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%ED%9D%AC%EC%84%A0%20%EB%86%80%EB%A9%B4%20%EB%AD%90%ED%95%98%EB%8B%88%20MC"
-        },
-        {
-          "k": "靑 수능 AI 부정행위 대책",
-          "rank": 3,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%E9%9D%91%20%EC%88%98%EB%8A%A5%20AI%20%EB%B6%80%EC%A0%95%ED%96%89%EC%9C%84%20%EB%8C%80%EC%B1%85"
-        },
-        {
-          "k": "80대 남성 구속",
+          "k": "박현주 젠슨 황 복귀 청원",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=80%EB%8C%80%20%EB%82%A8%EC%84%B1%20%EA%B5%AC%EC%86%8D"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%ED%98%84%EC%A3%BC%20%EC%A0%A0%EC%8A%A8%20%ED%99%A9%20%EB%B3%B5%EA%B7%80%20%EC%B2%AD%EC%9B%90"
         },
         {
-          "k": "김정관 석유 최고가격제 연장",
+          "k": "에이티즈 우영",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A0%95%EA%B4%80%20%EC%84%9D%EC%9C%A0%20%EC%B5%9C%EA%B3%A0%EA%B0%80%EA%B2%A9%EC%A0%9C%20%EC%97%B0%EC%9E%A5"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%97%90%EC%9D%B4%ED%8B%B0%EC%A6%88%20%EC%9A%B0%EC%98%81"
         },
         {
-          "k": "김숙 김강우 집 비밀번호",
+          "k": "박보영 동안 미모",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%88%99%20%EA%B9%80%EA%B0%95%EC%9A%B0%20%EC%A7%91%20%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EB%B3%B4%EC%98%81%20%EB%8F%99%EC%95%88%20%EB%AF%B8%EB%AA%A8"
         },
         {
-          "k": "수석합격 AI 커닝",
+          "k": "최원호 감독 3연속 준우승",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%88%98%EC%84%9D%ED%95%A9%EA%B2%A9%20AI%20%EC%BB%A4%EB%8B%9D"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%EC%9B%90%ED%98%B8%20%EA%B0%90%EB%8F%85%203%EC%97%B0%EC%86%8D%20%EC%A4%80%EC%9A%B0%EC%8A%B9"
         },
         {
-          "k": "고경표 음주운전 사과",
+          "k": "코르티스 MMA 2026 대상",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B3%A0%EA%B2%BD%ED%91%9C%20%EC%9D%8C%EC%A3%BC%EC%9A%B4%EC%A0%84%20%EC%82%AC%EA%B3%BC"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%BD%94%EB%A5%B4%ED%8B%B0%EC%8A%A4%20MMA%202026%20%EB%8C%80%EC%83%81"
         },
         {
-          "k": "도로공사 4연승",
+          "k": "김다솔 정관장 입단",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%8F%84%EB%A1%9C%EA%B3%B5%EC%82%AC%204%EC%97%B0%EC%8A%B9"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%8B%A4%EC%86%94%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EC%9E%85%EB%8B%A8"
         },
         {
-          "k": "문무 김춘추 첫 방송",
+          "k": "김광규 연희동 아파트",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%AC%B8%EB%AC%B4%20%EA%B9%80%EC%B6%98%EC%B6%94%20%EC%B2%AB%20%EB%B0%A9%EC%86%A1"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EA%B4%91%EA%B7%9C%20%EC%97%B0%ED%9D%AC%EB%8F%99%20%EC%95%84%ED%8C%8C%ED%8A%B8"
         }
       ]
     },
@@ -222,49 +222,51 @@
           "k": "뜨거운 안녕 기본정보",
           "m": "실시간 인기 검색어"
         }
-      ]
+      ],
+      "stale": true,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   },
   "items": [
     {
-      "k": "개혁",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "창원 lg 대 수원 kt",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "kb5132061",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "박태환",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "부산 kcc 대 대구 한국가스공사",
-      "m": "검색량 1000+"
-    },
-    {
-      "k": "구자욱",
+      "k": "아파트",
       "m": "검색량 2000+"
     },
     {
-      "k": "금오산",
+      "k": "스포츠조선",
+      "m": "검색량 100+"
+    },
+    {
+      "k": "입양",
       "m": "검색량 200+"
     },
     {
-      "k": "화물선",
+      "k": "퇴직금",
       "m": "검색량 200+"
     },
     {
-      "k": "의료",
+      "k": "미미미누",
       "m": "검색량 500+"
     },
     {
-      "k": "사고",
+      "k": "알렉산더 즈베레프",
       "m": "검색량 1000+"
+    },
+    {
+      "k": "박현주",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "수상함",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "재건축",
+      "m": "검색량 5000+"
+    },
+    {
+      "k": "안재석",
+      "m": "검색량 100+"
     }
   ]
 }
