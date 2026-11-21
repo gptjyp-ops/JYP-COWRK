@@ -1,49 +1,49 @@
 {
   "source": "Google Trends KR RSS + public realtime rankings",
-  "updated_at": "2026-11-20T20:15:33.928038+00:00",
-  "updated_kst": "2026년 11월 21일 05:15",
+  "updated_at": "2026-11-21T01:32:25.666605+00:00",
+  "updated_kst": "2026년 11월 21일 10:32",
   "sources": {
     "google": {
       "items": [
         {
-          "k": "한파",
-          "m": "검색량 100+"
+          "k": "패딩",
+          "m": "검색량 10000+"
         },
         {
-          "k": "al-ahli vs al-nassr",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "알아흘리 사우디 대 알나스르",
-          "m": "검색량 500+"
-        },
-        {
-          "k": "riemann hypothesis",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "fear and greed",
-          "m": "검색량 100+"
-        },
-        {
-          "k": "india a cricket team vs nepal national cricket team standings",
-          "m": "검색량 5000+"
-        },
-        {
-          "k": "의·치의학교육입문검사",
-          "m": "검색량 200+"
-        },
-        {
-          "k": "리만가설 증명",
+          "k": "동아일보",
           "m": "검색량 1000+"
         },
         {
-          "k": "세계사 2 번",
+          "k": "lpga",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "공군사관학교",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "지스타",
+          "m": "검색량 500+"
+        },
+        {
+          "k": "ราคาทองวันนี้",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "브루노 마스",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "공인회계사",
+          "m": "검색량 200+"
+        },
+        {
+          "k": "안양시",
           "m": "검색량 100+"
         },
         {
-          "k": "공포지수",
-          "m": "검색량 200+"
+          "k": "반도체",
+          "m": "검색량 5000+"
         }
       ]
     },
@@ -113,73 +113,71 @@
       ]
     },
     "daum": {
-      "updated": "2026-11-20T20:28:49.117+09:00",
+      "updated": "2026-11-21T10:28:05.572+09:00",
       "provider": "Daum official",
       "source_url": "https://www.daum.net/",
       "items": [
         {
-          "k": "푸른길",
+          "k": "굿파트너 2",
           "rank": 1,
+          "m": "다음 공식 실시간 트렌드",
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%BF%ED%8C%8C%ED%8A%B8%EB%84%88%202"
+        },
+        {
+          "k": "푸른길",
+          "rank": 2,
           "m": "다음 공식 실시간 트렌드",
           "url": "https://search.daum.net/search?w=tot&q=%ED%91%B8%EB%A5%B8%EA%B8%B8"
         },
         {
-          "k": "컬리 개인정보 유출",
-          "rank": 2,
-          "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%BB%AC%EB%A6%AC%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EC%9C%A0%EC%B6%9C"
-        },
-        {
-          "k": "굿파트너",
+          "k": "최미나수 MAMA 진행",
           "rank": 3,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B5%BF%ED%8C%8C%ED%8A%B8%EB%84%88"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%B5%9C%EB%AF%B8%EB%82%98%EC%88%98%20MAMA%20%EC%A7%84%ED%96%89"
         },
         {
-          "k": "임지열 정철원 트레이드",
+          "k": "김정은 대화 제의 외면",
           "rank": 4,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%9E%84%EC%A7%80%EC%97%B4%20%EC%A0%95%EC%B2%A0%EC%9B%90%20%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%93%9C"
+          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EC%A0%95%EC%9D%80%20%EB%8C%80%ED%99%94%20%EC%A0%9C%EC%9D%98%20%EC%99%B8%EB%A9%B4"
         },
         {
-          "k": "궁금한 이야기 y",
+          "k": "뮌헨 쾰른 무승부",
           "rank": 5,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B6%81%EA%B8%88%ED%95%9C%20%EC%9D%B4%EC%95%BC%EA%B8%B0%20y"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%AE%8C%ED%97%A8%20%EC%BE%B0%EB%A5%B8%20%EB%AC%B4%EC%8A%B9%EB%B6%80"
         },
         {
-          "k": "김건희 실형 확정",
+          "k": "정철원 마지막 인사",
           "rank": 6,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EA%B1%B4%ED%9D%AC%20%EC%8B%A4%ED%98%95%20%ED%99%95%EC%A0%95"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%A0%95%EC%B2%A0%EC%9B%90%20%EB%A7%88%EC%A7%80%EB%A7%89%20%EC%9D%B8%EC%82%AC"
         },
         {
-          "k": "박찬종 전 의원 별세",
+          "k": "슬픈 열대",
           "rank": 7,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EB%B0%95%EC%B0%AC%EC%A2%85%20%EC%A0%84%20%EC%9D%98%EC%9B%90%20%EB%B3%84%EC%84%B8"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%8A%AC%ED%94%88%20%EC%97%B4%EB%8C%80"
         },
         {
-          "k": "mama 2026",
+          "k": "민주당 탄핵 추진",
           "rank": 8,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=mama%202026"
+          "url": "https://search.daum.net/search?w=tot&q=%EB%AF%BC%EC%A3%BC%EB%8B%B9%20%ED%83%84%ED%95%B5%20%EC%B6%94%EC%A7%84"
         },
         {
-          "k": "김민전 내란",
+          "k": "한라산 국립공원",
           "rank": 9,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EA%B9%80%EB%AF%BC%EC%A0%84%20%EB%82%B4%EB%9E%80"
+          "url": "https://search.daum.net/search?w=tot&q=%ED%95%9C%EB%9D%BC%EC%82%B0%20%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90"
         },
         {
-          "k": "추성훈 은퇴전",
+          "k": "이재명 대장동 기소",
           "rank": 10,
           "m": "다음 공식 실시간 트렌드",
-          "url": "https://search.daum.net/search?w=tot&q=%EC%B6%94%EC%84%B1%ED%9B%88%20%EC%9D%80%ED%87%B4%EC%A0%84"
+          "url": "https://search.daum.net/search?w=tot&q=%EC%9D%B4%EC%9E%AC%EB%AA%85%20%EB%8C%80%EC%9E%A5%EB%8F%99%20%EA%B8%B0%EC%86%8C"
         }
-      ],
-      "stale": true,
-      "error": "<urlopen error timed out>"
+      ]
     },
     "creator": {
       "updated": "2026년 11월 11일",
@@ -229,44 +227,44 @@
   },
   "items": [
     {
-      "k": "한파",
-      "m": "검색량 100+"
+      "k": "패딩",
+      "m": "검색량 10000+"
     },
     {
-      "k": "al-ahli vs al-nassr",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "알아흘리 사우디 대 알나스르",
-      "m": "검색량 500+"
-    },
-    {
-      "k": "riemann hypothesis",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "fear and greed",
-      "m": "검색량 100+"
-    },
-    {
-      "k": "india a cricket team vs nepal national cricket team standings",
-      "m": "검색량 5000+"
-    },
-    {
-      "k": "의·치의학교육입문검사",
-      "m": "검색량 200+"
-    },
-    {
-      "k": "리만가설 증명",
+      "k": "동아일보",
       "m": "검색량 1000+"
     },
     {
-      "k": "세계사 2 번",
+      "k": "lpga",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "공군사관학교",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "지스타",
+      "m": "검색량 500+"
+    },
+    {
+      "k": "ราคาทองวันนี้",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "브루노 마스",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "공인회계사",
+      "m": "검색량 200+"
+    },
+    {
+      "k": "안양시",
       "m": "검색량 100+"
     },
     {
-      "k": "공포지수",
-      "m": "검색량 200+"
+      "k": "반도체",
+      "m": "검색량 5000+"
     }
   ]
 }
