@@ -1,7 +1,8 @@
 {
-  "attempted_at": "2026-11-20T16:31:26+09:00",
-  "status": "ok",
+  "attempted_at": "2026-11-23T13:57:20+09:00",
+  "status": "ip_not_registered",
   "source": "Kiwoom REST API",
-  "message": "키움 인증 및 수집 정상",
-  "action_required": false
+  "message": "키움 허용 IP 갱신 필요",
+  "action_required": true,
+  "error_code": "8050"
 }
