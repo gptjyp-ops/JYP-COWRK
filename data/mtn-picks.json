@@ -5,62 +5,39 @@
     "part1": "https://www.mtn.co.kr/program/588/replay",
     "part2": "https://www.mtn.co.kr/program/589/replay"
   },
-  "generated_at": "2026-11-26T07:30:00+00:00",
+  "generated_at": "2026-11-26T22:30:34+00:00",
+  "collection_status": "ok",
+  "errors": [],
   "stocks": [
+    {
+      "code": "108490",
+      "name": "로보티즈",
+      "theme": "robot",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-26",
+      "mentions": 3,
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은? 2026-11-26",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046",
+      "episodes": [
+        "2부|2026-11-26|인제니아테라퓨틱스,코스맥스,현대오토에버,로보티즈",
+        "1부|https://www.mtn.co.kr/program/588/replay/c6121df7-a1f7-1832-81a2-08d0074800e0",
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046"
+      ]
+    },
     {
       "code": "090710",
       "name": "휴림로봇",
       "theme": "robot",
-      "first_seen": "2026-11-26",
+      "first_seen": "2026-11-25",
       "last_seen": "2026-11-26",
-      "mentions": 1,
+      "mentions": 2,
       "latest_part": "1부",
       "latest_episode": "'휴림로봇, 한진칼' 명예의 전당 갈 종목은?",
       "latest_url": "https://www.mtn.co.kr/program/588/replay",
       "episodes": [
-        "1부|2026-11-26|휴림로봇,한진칼"
-      ]
-    },
-    {
-      "code": "180640",
-      "name": "한진칼",
-      "theme": "other",
-      "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26",
-      "mentions": 1,
-      "latest_part": "1부",
-      "latest_episode": "'휴림로봇, 한진칼' 명예의 전당 갈 종목은?",
-      "latest_url": "https://www.mtn.co.kr/program/588/replay",
-      "episodes": [
-        "1부|2026-11-26|휴림로봇,한진칼"
-      ]
-    },
-    {
-      "code": "950260",
-      "name": "인제니아테라퓨틱스",
-      "theme": "bio",
-      "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26",
-      "mentions": 1,
-      "latest_part": "2부",
-      "latest_episode": "인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은?",
-      "latest_url": "https://news.mtn.co.kr/article/2026112602175284451",
-      "episodes": [
-        "2부|2026-11-26|인제니아테라퓨틱스,코스맥스,현대오토에버,로보티즈"
-      ]
-    },
-    {
-      "code": "192820",
-      "name": "코스맥스",
-      "theme": "retail",
-      "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26",
-      "mentions": 1,
-      "latest_part": "2부",
-      "latest_episode": "인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은?",
-      "latest_url": "https://news.mtn.co.kr/article/2026112602175284451",
-      "episodes": [
-        "2부|2026-11-26|인제니아테라퓨틱스,코스맥스,현대오토에버,로보티즈"
+        "1부|2026-11-26|휴림로봇,한진칼",
+        "1부|https://www.mtn.co.kr/program/588/replay/c612219e-a211-1e2d-81a2-13baaec50059"
       ]
     },
     {
@@ -69,27 +46,604 @@
       "theme": "robot",
       "first_seen": "2026-11-26",
       "last_seen": "2026-11-26",
-      "mentions": 1,
+      "mentions": 2,
       "latest_part": "2부",
-      "latest_episode": "인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은?",
-      "latest_url": "https://news.mtn.co.kr/article/2026112602175284451",
+      "latest_episode": "[여의도 투자본부 2부] 인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은? 2026-11-26",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046",
       "episodes": [
-        "2부|2026-11-26|인제니아테라퓨틱스,코스맥스,현대오토에버,로보티즈"
+        "2부|2026-11-26|인제니아테라퓨틱스,코스맥스,현대오토에버,로보티즈",
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046"
       ]
     },
     {
-      "code": "108490",
-      "name": "로보티즈",
+      "code": "180640",
+      "name": "한진칼",
+      "theme": "robot",
+      "first_seen": "2026-11-25",
+      "last_seen": "2026-11-26",
+      "mentions": 2,
+      "latest_part": "1부",
+      "latest_episode": "'휴림로봇, 한진칼' 명예의 전당 갈 종목은?",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay",
+      "episodes": [
+        "1부|2026-11-26|휴림로봇,한진칼",
+        "1부|https://www.mtn.co.kr/program/588/replay/c612219e-a211-1e2d-81a2-13baaec50059"
+      ]
+    },
+    {
+      "code": "192820",
+      "name": "코스맥스",
+      "theme": "retail",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "mentions": 2,
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은? 2026-11-26",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046",
+      "episodes": [
+        "2부|2026-11-26|인제니아테라퓨틱스,코스맥스,현대오토에버,로보티즈",
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046"
+      ]
+    },
+    {
+      "code": "950260",
+      "name": "인제니아테라퓨틱스",
+      "theme": "bio",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "mentions": 2,
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은? 2026-11-26",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046",
+      "episodes": [
+        "2부|2026-11-26|인제니아테라퓨틱스,코스맥스,현대오토에버,로보티즈",
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046"
+      ]
+    },
+    {
+      "code": "232680",
+      "name": "라온로보틱스",
+      "market": "코스닥",
+      "theme": "robot",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-26",
+      "mentions": 2,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c6122192-a20c-1007-81a2-0d93894b000b",
+        "2부|https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 알지노믹스 vs 라온로보틱스 vs LIG아큐버 vs 에이프릴바이오, 공략법은? 2026-11-26",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b"
+    },
+    {
+      "code": "397030",
+      "name": "에이프릴바이오",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 알지노믹스 vs 라온로보틱스 vs LIG아큐버 vs 에이프릴바이오, 공략법은? 2026-11-26",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b"
+    },
+    {
+      "code": "476830",
+      "name": "알지노믹스",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 알지노믹스 vs 라온로보틱스 vs LIG아큐버 vs 에이프릴바이오, 공략법은? 2026-11-26",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b"
+    },
+    {
+      "code": "439090",
+      "name": "마녀공장",
+      "market": "코스닥",
       "theme": "robot",
       "first_seen": "2026-11-26",
       "last_seen": "2026-11-26",
       "mentions": 1,
-      "latest_part": "2부",
-      "latest_episode": "인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은?",
-      "latest_url": "https://news.mtn.co.kr/article/2026112602175284451",
       "episodes": [
-        "2부|2026-11-26|인제니아테라퓨틱스,코스맥스,현대오토에버,로보티즈"
-      ]
+        "1부|https://www.mtn.co.kr/program/588/replay/c6121e23-a216-1b94-81a2-17c56e5c0032"
+      ],
+      "latest_part": "1부",
+      "latest_episode": "[여의도 투자본부 1부] '마녀공장, 대주전자재료' 명예의 전당 갈 종목은? 2026-11-26",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay/c6121e23-a216-1b94-81a2-17c56e5c0032"
+    },
+    {
+      "code": "078600",
+      "name": "대주전자재료",
+      "market": "코스닥",
+      "theme": "robot",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "mentions": 1,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c6121e23-a216-1b94-81a2-17c56e5c0032"
+      ],
+      "latest_part": "1부",
+      "latest_episode": "[여의도 투자본부 1부] '마녀공장, 대주전자재료' 명예의 전당 갈 종목은? 2026-11-26",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay/c6121e23-a216-1b94-81a2-17c56e5c0032"
+    },
+    {
+      "code": "073490",
+      "name": "LIG아큐버",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 알지노믹스 vs 라온로보틱스 vs LIG아큐버 vs 에이프릴바이오, 공략법은? 2026-11-26",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b"
+    },
+    {
+      "code": "319400",
+      "name": "현대무벡스",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] HPSP vs 현대무벡스 vs 일진전기 vs 나노신소재, 공략법은? 2026-11-24",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f"
+    },
+    {
+      "code": "160190",
+      "name": "하이젠알앤엠",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 리브스메드 vs 씨엠티엑스 vs 케이씨텍 vs 하이젠알앤엠, 공략법은? 2026-11-24",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1"
+    },
+    {
+      "code": "281820",
+      "name": "케이씨텍",
+      "market": "코스피",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 리브스메드 vs 씨엠티엑스 vs 케이씨텍 vs 하이젠알앤엠, 공략법은? 2026-11-24",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1"
+    },
+    {
+      "code": "103590",
+      "name": "일진전기",
+      "market": "코스피",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] HPSP vs 현대무벡스 vs 일진전기 vs 나노신소재, 공략법은? 2026-11-24",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f"
+    },
+    {
+      "code": "058610",
+      "name": "에스피지",
+      "market": "코스닥",
+      "theme": "robot",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "mentions": 1,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c6122192-a20c-1007-81a2-0d93894b000b"
+      ],
+      "latest_part": "1부",
+      "latest_episode": "[여의도 투자본부 1부] '에스피지, 라온로보틱스' 명예의 전당 갈 종목은? 2026-11-24",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay/c6122192-a20c-1007-81a2-0d93894b000b"
+    },
+    {
+      "code": "388210",
+      "name": "씨엠티엑스",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 리브스메드 vs 씨엠티엑스 vs 케이씨텍 vs 하이젠알앤엠, 공략법은? 2026-11-24",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1"
+    },
+    {
+      "code": "491000",
+      "name": "리브스메드",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 리브스메드 vs 씨엠티엑스 vs 케이씨텍 vs 하이젠알앤엠, 공략법은? 2026-11-24",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1"
+    },
+    {
+      "code": "121600",
+      "name": "나노신소재",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] HPSP vs 현대무벡스 vs 일진전기 vs 나노신소재, 공략법은? 2026-11-24",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f"
+    },
+    {
+      "code": "403870",
+      "name": "HPSP",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] HPSP vs 현대무벡스 vs 일진전기 vs 나노신소재, 공략법은? 2026-11-24",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f"
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "코스피",
+      "theme": "robot",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "mentions": 1,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c6121df7-a1f7-1832-81a2-08d0074800e0"
+      ],
+      "latest_part": "1부",
+      "latest_episode": "[여의도 투자본부 1부] '로보티즈, 에이피알' 명예의 전당 갈 종목은? 2026-11-23",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay/c6121df7-a1f7-1832-81a2-08d0074800e0"
+    },
+    {
+      "code": "041510",
+      "name": "에스엠",
+      "market": "코스닥",
+      "theme": "robot",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-21",
+      "mentions": 2,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c612199d-a1ed-1198-81a1-ef2914040043",
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 카카오게임즈 vs 노머스 vs 에스엠 vs 오이솔루션, 공략법은? 2026-11-21",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032"
+    },
+    {
+      "code": "293490",
+      "name": "카카오게임즈",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 카카오게임즈 vs 노머스 vs 에스엠 vs 오이솔루션, 공략법은? 2026-11-21",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032"
+    },
+    {
+      "code": "138080",
+      "name": "오이솔루션",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 카카오게임즈 vs 노머스 vs 에스엠 vs 오이솔루션, 공략법은? 2026-11-21",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032"
+    },
+    {
+      "code": "473980",
+      "name": "노머스",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 카카오게임즈 vs 노머스 vs 에스엠 vs 오이솔루션, 공략법은? 2026-11-21",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032"
+    },
+    {
+      "code": "020120",
+      "name": "키다리스튜디오",
+      "market": "코스피",
+      "theme": "robot",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "mentions": 1,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c6121c2e-a1f7-1689-81a1-fbfd355a003d"
+      ],
+      "latest_part": "1부",
+      "latest_episode": "[여의도 투자본부 1부] '키다리스튜디오, HLB생명과학' 명예의 전당 갈 종목은? 2026-11-20",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay/c6121c2e-a1f7-1689-81a1-fbfd355a003d"
+    },
+    {
+      "code": "067630",
+      "name": "HLB생명과학",
+      "market": "코스닥",
+      "theme": "robot",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "mentions": 1,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c6121c2e-a1f7-1689-81a1-fbfd355a003d"
+      ],
+      "latest_part": "1부",
+      "latest_episode": "[여의도 투자본부 1부] '키다리스튜디오, HLB생명과학' 명예의 전당 갈 종목은? 2026-11-20",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay/c6121c2e-a1f7-1689-81a1-fbfd355a003d"
+    },
+    {
+      "code": "218410",
+      "name": "RFHIC",
+      "market": "코스닥",
+      "theme": "robot",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-19",
+      "mentions": 3,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c612067f-a1e8-1652-81a1-e96ac523000b",
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f",
+        "2부|https://www.mtn.co.kr/program/589/replay/c612073c-a1e8-17d0-81a1-e9a419df000e"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 성호전자 vs 대덕전자 vs SK오션플랜트 vs RFHIC, 공략법은? 2026-11-19",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f"
+    },
+    {
+      "code": "347700",
+      "name": "스피어",
+      "market": "코스닥",
+      "theme": "robot",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "mentions": 1,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c6121fb5-a1f2-1f3c-81a1-f3d4cc15003b"
+      ],
+      "latest_part": "1부",
+      "latest_episode": "[여의도 투자본부 1부] '빅웨이브로보틱스, 스피어' 명예의 전당 갈 종목은? 2026-11-19",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay/c6121fb5-a1f2-1f3c-81a1-f3d4cc15003b"
+    },
+    {
+      "code": "043260",
+      "name": "성호전자",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 성호전자 vs 대덕전자 vs SK오션플랜트 vs RFHIC, 공략법은? 2026-11-19",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f"
+    },
+    {
+      "code": "0035S0",
+      "name": "빅웨이브로보틱스",
+      "market": "코스닥",
+      "theme": "robot",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "mentions": 1,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c6121fb5-a1f2-1f3c-81a1-f3d4cc15003b"
+      ],
+      "latest_part": "1부",
+      "latest_episode": "[여의도 투자본부 1부] '빅웨이브로보틱스, 스피어' 명예의 전당 갈 종목은? 2026-11-19",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay/c6121fb5-a1f2-1f3c-81a1-f3d4cc15003b"
+    },
+    {
+      "code": "353200",
+      "name": "대덕전자",
+      "market": "코스피",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 성호전자 vs 대덕전자 vs SK오션플랜트 vs RFHIC, 공략법은? 2026-11-19",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f"
+    },
+    {
+      "code": "100090",
+      "name": "SK오션플랜트",
+      "market": "코스피",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 성호전자 vs 대덕전자 vs SK오션플랜트 vs RFHIC, 공략법은? 2026-11-19",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f"
+    },
+    {
+      "code": "232140",
+      "name": "와이씨",
+      "market": "코스닥",
+      "theme": "robot",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
+      "mentions": 2,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c612067f-a1e8-1652-81a1-e96ac523000b",
+        "2부|https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 미코 vs 브릴스 vs 와이씨 vs YG PLUS, 공략법은? 2026-11-18",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044"
+    },
+    {
+      "code": "468670",
+      "name": "브릴스",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 미코 vs 브릴스 vs 와이씨 vs YG PLUS, 공략법은? 2026-11-18",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044"
+    },
+    {
+      "code": "059090",
+      "name": "미코",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 미코 vs 브릴스 vs 와이씨 vs YG PLUS, 공략법은? 2026-11-18",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044"
+    },
+    {
+      "code": "190510",
+      "name": "나무가",
+      "market": "코스닥",
+      "theme": "robot",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "mentions": 1,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c612199d-a1ed-1198-81a1-ef2914040043"
+      ],
+      "latest_part": "1부",
+      "latest_episode": "[여의도 투자본부 1부] '에스엠, 나무가' 명예의 전당 갈 종목은? 2026-11-18",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay/c612199d-a1ed-1198-81a1-ef2914040043"
+    },
+    {
+      "code": "037270",
+      "name": "YG PLUS",
+      "market": "코스피",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 미코 vs 브릴스 vs 와이씨 vs YG PLUS, 공략법은? 2026-11-18",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044"
+    },
+    {
+      "code": "241710",
+      "name": "코스메카코리아",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c612073c-a1e8-17d0-81a1-e9a419df000e"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] RFHIC vs 코리아써키트 vs 코스메카코리아 vs 동국제약, 공략법은? 2026-11-17",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c612073c-a1e8-17d0-81a1-e9a419df000e"
+    },
+    {
+      "code": "007810",
+      "name": "코리아써키트",
+      "market": "코스피",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c612073c-a1e8-17d0-81a1-e9a419df000e"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] RFHIC vs 코리아써키트 vs 코스메카코리아 vs 동국제약, 공략법은? 2026-11-17",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c612073c-a1e8-17d0-81a1-e9a419df000e"
+    },
+    {
+      "code": "086450",
+      "name": "동국제약",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "mentions": 1,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c612073c-a1e8-17d0-81a1-e9a419df000e"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] RFHIC vs 코리아써키트 vs 코스메카코리아 vs 동국제약, 공략법은? 2026-11-17",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c612073c-a1e8-17d0-81a1-e9a419df000e"
     }
   ]
 }
