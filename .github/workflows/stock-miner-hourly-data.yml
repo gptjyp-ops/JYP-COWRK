@@ -21,6 +21,7 @@ permissions:
   contents: write
 
 jobs:
+  # MTN picks are included through load_monitoring_stocks()
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 20
