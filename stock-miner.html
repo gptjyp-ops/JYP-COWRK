@@ -1026,6 +1026,12 @@ function setupWarningTips(){
 const interestThemes=[['gold','금'],['cable','전선'],['semiconductor','반도체'],['aerospace','우주항공'],['oil','유가'],['ai','AI'],['defense','방산'],['telecom','통신'],['battery','2차전지'],['shipping','해운'],['robot','로봇'],['beauty','화장품'],['bio','바이오']];
 function themeData(id){return (newsMeta.themes||[]).find(t=>t.id===id)||{id,label:interestThemes.find(x=>x[0]===id)?.[1]||id,articles:[],candidates:[],errors:[]}}
 function themeCandidates(id){return (themeData(id).candidates||[]).filter(c=>rows.some(r=>String(r.code)===String(c.code)))}
+const primaryThemeOverrides={
+ "448900":"robot",        // 한국피아이엠 · 로봇/감속기 모멘텀
+ "445680":"bio",          // 큐리옥스바이오시스템즈 · 세포분석/바이오
+ "189300":"aerospace",    // 인텔리안테크 · 위성통신/저궤도
+ "218410":"telecom"       // RFHIC · 무선통신/RF
+};
 const themeKeywordRules={
  gold:/귀금속|금광|금거래|금 시세|골드|gold/i,
  cable:/전선|케이블|동선|구리선|초고압/i,
@@ -1043,6 +1049,7 @@ const themeKeywordRules={
 };
 function stockThemeIds(stock){
  const code=String(stock?.code||''),weighted=[];
+ if(primaryThemeOverrides[code])weighted.push({id:primaryThemeOverrides[code],weight:1000,order:-1});
  (newsMeta.themes||[]).forEach((t,idx)=>{
   const c=(t.candidates||[]).find(x=>String(x.code)===code);
   if(c)weighted.push({id:t.id,weight:100+(c.evidence?.length||0),order:idx});
@@ -1350,6 +1357,23 @@ if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serv
   ['retail','유통·소비재',/백화점|유통|화장품|뷰티|의류|패션|소비재/i],
   ['industrial','산업·부품',/밸브|피팅|기계|산업|부품|금속|제조|플랜트|엔지니어링/i]
  ];
+ const nfPrimaryThemeOverrides={
+  "448900":"robot",
+  "445680":"bio",
+  "189300":"telecom",
+  "218410":"telecom"
+ };
+ const eventThemeMap={
+  "로봇":"robot","피지컬 AI":"robot","감속기":"robot","자동화":"robot",
+  "바이오":"bio","의료":"bio","진단":"bio","세포":"bio","임상":"bio",
+  "통신":"telecom","5G":"telecom","6G":"telecom","위성":"telecom","우주":"telecom","항공":"telecom","RF":"telecom",
+  "반도체":"semiconductor","HBM":"semiconductor",
+  "방산":"defense","조선":"defense",
+  "화장품":"retail",
+  "2차전지":"battery","배터리":"battery","ESS":"battery",
+  "전선":"cable"
+ };
+
  const themeOrder=themeDefs.map(x=>x[0]).concat('other');
  const themeLabel=id=>themeDefs.find(x=>x[0]===id)?.[1]||'기타 · 미분류';
 
@@ -1373,12 +1397,20 @@ if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serv
   return out;
  }
  function themeFor(stock){
-  const p=biz.stocks?.[String(stock.code)]||{};
-  const text=[stock.name,p.summary,p.sector,p.business].filter(Boolean).join(' ');
-  for(const [id,,rx] of themeDefs){if(rx.test(text))return id}
-  const ids=newsThemeIds(stock.code);
+  const code=String(stock.code);
+  if(nfPrimaryThemeOverrides[code])return nfPrimaryThemeOverrides[code];
+  const articles=n.stocks?.[code]?.news||[];
+  for(const article of articles.slice(0,5)){
+   for(const event of article.event_types||[]){
+    if(eventThemeMap[event])return eventThemeMap[event];
+   }
+  }
+  const ids=newsThemeIds(code);
   const map={semiconductor:'semiconductor',ai:'ai',robot:'robot',defense:'defense',shipping:'defense',telecom:'telecom',aerospace:'telecom',bio:'bio',beauty:'retail',battery:'battery',oil:'battery',cable:'cable'};
   for(const id of ids){if(map[id])return map[id]}
+  const p=biz.stocks?.[code]||{};
+  const text=[stock.name,p.summary,p.sector,p.business].filter(Boolean).join(' ');
+  for(const [id,,rx] of themeDefs){if(rx.test(text))return id}
   return 'other';
  }
  function stockNews(stock){
