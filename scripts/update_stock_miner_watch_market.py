@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import time
+import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -44,9 +45,101 @@ def fetch_symbol(code: str):
     raise RuntimeError(last_error or "Yahoo Finance 일봉 없음")
 
 
+
+def _num(value):
+    if isinstance(value, (int, float)):
+        return float(value)
+    return float(str(value).replace(",", "").strip())
+
+
+def fetch_naver_chart(code: str):
+    url = f"https://api.stock.naver.com/chart/domestic/item/{code}?periodType=dayCandle"
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 StockMiner/1.0",
+        "Accept": "application/json",
+    })
+    with urllib.request.urlopen(req, timeout=25) as response:
+        payload = json.load(response)
+    if isinstance(payload, list):
+        rows = payload
+    elif isinstance(payload, dict):
+        rows = payload.get("priceInfos") or payload.get("result") or payload.get("data") or []
+        if isinstance(rows, dict):
+            rows = rows.get("priceInfos") or rows.get("items") or []
+    else:
+        rows = []
+    cleaned = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        date = str(row.get("localDate") or row.get("date") or "")
+        if len(date) < 8:
+            continue
+        try:
+            cleaned.append({
+                "date": date[:8],
+                "open": _num(row.get("openPrice")),
+                "high": _num(row.get("highPrice")),
+                "low": _num(row.get("lowPrice")),
+                "close": _num(row.get("closePrice")),
+                "volume": _num(row.get("accumulatedTradingVolume")),
+            })
+        except (TypeError, ValueError):
+            continue
+    cleaned.sort(key=lambda x: x["date"])
+    if len(cleaned) < 20:
+        raise RuntimeError("네이버 일봉 20개 미만")
+    return cleaned
+
+
+def one_stock_naver(item: dict) -> dict:
+    code = str(item["code"])
+    rows = fetch_naver_chart(code)[-70:]
+    closes = [x["close"] for x in rows]
+    volumes = [x["volume"] for x in rows]
+    latest = closes[-1]
+    previous = closes[-2] if len(closes) > 1 else latest
+    ma5 = sum(closes[-5:]) / min(5, len(closes))
+    ma20 = sum(closes[-20:]) / min(20, len(closes))
+    ma60 = sum(closes[-60:]) / min(60, len(closes))
+    avg_source = volumes[-21:-1] if len(volumes) >= 21 else volumes[-20:]
+    avg20 = sum(avg_source) / len(avg_source) if avg_source else 0.0
+    vol_ratio = volumes[-1] / avg20 if avg20 > 0 else 0.0
+    latest_row = rows[-1]
+    chart = [{
+        "date": x["date"],
+        "open": round(x["open"]),
+        "high": round(x["high"]),
+        "low": round(x["low"]),
+        "price": round(x["close"]),
+        "volume": round(x["volume"]),
+    } for x in rows[-30:]]
+    return {
+        "code": code,
+        "name": item.get("name", code),
+        "symbol": code,
+        "source": "네이버 증권 공개 일봉",
+        "quote_date": latest_row["date"],
+        "open": round(latest_row["open"]),
+        "high": round(latest_row["high"]),
+        "low": round(latest_row["low"]),
+        "close": round(latest),
+        "change": round((latest / previous - 1) * 100 if previous else 0.0, 2),
+        "volume": round(latest_row["volume"]),
+        "vol_ratio": round(vol_ratio, 2),
+        "ma5": round(ma5, 2),
+        "ma20": round(ma20, 2),
+        "ma60": round(ma60, 2),
+        "chart": chart,
+    }
+
+
 def one_stock(item: dict) -> dict:
     code = str(item["code"])
-    symbol, frame = fetch_symbol(code)
+    try:
+        symbol, frame = fetch_symbol(code)
+    except Exception:
+        return one_stock_naver(item)
     frame = frame.tail(70)
     close = frame["Close"].astype(float)
     open_s = frame["Open"].astype(float)
@@ -105,8 +198,8 @@ def main():
     stocks, errors = {}, []
     for item in watch:
         code = str(item.get("code", "")).strip()
-        if not code or not code.isdigit():
-            errors.append({"code": code, "name": item.get("name"), "error": "일반 종목코드 아님"})
+        if not code:
+            errors.append({"code": code, "name": item.get("name"), "error": "종목코드 없음"})
             continue
         try:
             stocks[code] = one_stock(item)
@@ -123,8 +216,8 @@ def main():
     payload = {
         "generated_at": datetime.now(KST).isoformat(timespec="seconds"),
         "version": "stock-miner-watch-market-v1",
-        "source": "Yahoo Finance",
-        "note": "관심종목 가격·OHLC·일봉 차트 보조 데이터. 키움 수급·발굴 데이터와 별도.",
+        "source": "Yahoo Finance + 네이버 증권 fallback",
+        "note": "관심종목 가격·OHLC·일봉 차트 보조 데이터. Yahoo 미지원 종목은 네이버 공개 일봉으로 대체. 키움 수급·발굴 데이터와 별도.",
         "count": len(stocks),
         "watch_count": len(watch),
         "errors": errors,
