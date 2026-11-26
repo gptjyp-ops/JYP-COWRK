@@ -9,9 +9,6 @@ on:
       - data/stock-miner-watchlist.json
       - .github/workflows/news-momentum.yml
   workflow_dispatch:
-  schedule:
-    # 매일 매시간 5분에 뉴스·수급 전체 갱신
-    - cron: '5 * * * *'
 
 concurrency:
   group: news-momentum
