@@ -1418,13 +1418,21 @@ if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serv
  }
  function renderStatus(){
   const ns=freshness(n.generated_at),fs=freshness(f.generated_at);
+  const manualNewsAt=n.manual_updated_at||null,manualFlowAt=f.manual_updated_at||null;
+  const manualCodes=[...new Set([...(n.manual_updated_codes||[]),...(f.manual_updated_codes||[])])];
+  const manualNames=manualCodes.map(code=>list.find(x=>String(x.code)===String(code))?.name||code);
+  const manualAt=[manualNewsAt,manualFlowAt].filter(Boolean).sort().pop()||null;
+  const manualState=freshness(manualAt);
   el('nfStatusBar').innerHTML=
-   '<span class="nfStatusItem"><b>뉴스</b> '+shortDate(n.generated_at)+' <span class="nfState '+ns.cls+'">'+ns.label+'</span></span>'+
-   '<span class="nfStatusItem"><b>수급</b> '+shortDate(f.generated_at)+' <span class="nfState '+fs.cls+'">'+fs.label+'</span></span>'+
+   '<span class="nfStatusItem"><b>전체 뉴스</b> '+shortDate(n.generated_at)+' <span class="nfState '+ns.cls+'">'+ns.label+'</span></span>'+
+   '<span class="nfStatusItem"><b>전체 수급</b> '+shortDate(f.generated_at)+' <span class="nfState '+fs.cls+'">'+fs.label+'</span></span>'+
+   (manualCodes.length?'<span class="nfStatusItem"><b>개별 보정</b> '+shortDate(manualAt)+' <span class="nfState '+manualState.cls+'">'+manualState.label+'</span> · '+escapeHtml(manualNames.join(' / '))+'</span>':'')+
    '<span class="nfStatusItem"><b>관심종목</b> '+list.length+'개</span>';
-  const old=ns.cls==='old'||fs.cls==='old';
-  el('nfNotice').hidden=!old;
-  el('nfNotice').textContent=old?'주의 · 저장된 뉴스/수급 자료가 오래됐습니다. 최신 자료 수집 자동화를 점검해야 합니다.':'';
+  const stale=ns.cls==='old'||fs.cls==='old';
+  el('nfNotice').hidden=!stale;
+  el('nfNotice').textContent=stale
+   ?('주의 · 전체 뉴스/수급 데이터는 오래됐습니다.'+(manualCodes.length?' 다만 '+manualNames.join(', ')+'은 '+shortDate(manualAt)+' 기준으로 개별 최신 보정했습니다.':'')+' 전체 자동수집은 매시간 05분에 재시도합니다.')
+   :'';
  }
  function cardHtml(stock){
   const code=String(stock.code),flow=f.stocks?.[code],articles=stockNews(stock);
