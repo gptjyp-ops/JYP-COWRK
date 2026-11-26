@@ -254,8 +254,12 @@ def collect_payload(watch_only=False):
         raise RuntimeError("뉴스 조회가 모두 실패했습니다. 기존 게시 자료를 보존합니다.")
 
     if watch_only:
+        watch_checked_at=datetime.now(timezone.utc).isoformat(timespec="seconds")
         return dict(previous, stocks={**previous.get("stocks", {}), **result},
-                    watch_checked_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                    watch_checked_at=watch_checked_at,
+                    watch_generated_at=watch_checked_at,
+                    manual_updated_at=None,
+                    manual_updated_codes=[],
                     collection_status="partial" if successful_queries < attempted_queries else "ok",
                     successful_queries=successful_queries, attempted_queries=attempted_queries)
     payload = {
