@@ -5,7 +5,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from stock_miner_watchlist import load_watchlist
+from stock_miner_watchlist import load_monitoring_stocks
 
 OUT = Path('data/watch-investor-flow.json')
 
@@ -58,7 +58,7 @@ def collect(stock):
 def main():
     previous = json.loads(OUT.read_text()) if OUT.exists() else {}
     with ThreadPoolExecutor(max_workers=4) as pool:
-        results = list(pool.map(collect, load_watchlist()))
+        results = list(pool.map(collect, load_monitoring_stocks()))
     stocks = {}
     for row in results:
         old = previous.get('stocks', {}).get(row['code'], {})
