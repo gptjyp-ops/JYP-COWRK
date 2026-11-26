@@ -22,6 +22,160 @@
       "collected_at": "2026-10-30T06:05:59+00:00",
       "checked_at": "2026-10-30T06:05:59+00:00"
     },
+    "107640": {
+      "code": "107640",
+      "name": "한중엔시에스",
+      "fixed_watch": true,
+      "foreign5": -18150,
+      "inst5": 38074,
+      "investor_dates": [
+        "20261029",
+        "20261028",
+        "20261027",
+        "20261026",
+        "20261023"
+      ],
+      "flow_source": "네이버 증권",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-10-30T06:06:01+00:00",
+      "checked_at": "2026-10-30T06:06:01+00:00"
+    },
+    "111770": {
+      "code": "111770",
+      "name": "영원무역",
+      "fixed_watch": true,
+      "foreign5": -137007,
+      "inst5": 157344,
+      "investor_dates": [
+        "20261125",
+        "20261124",
+        "20261123",
+        "20261120",
+        "20261119"
+      ],
+      "flow_source": "공개 증권 데이터 확인값",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-11-26T05:43:00+00:00",
+      "checked_at": "2026-11-26T05:43:00+00:00",
+      "manual_refresh": true
+    },
+    "124500": {
+      "code": "124500",
+      "name": "아이티센글로벌",
+      "fixed_watch": true,
+      "foreign5": 94736,
+      "inst5": -17568,
+      "investor_dates": [
+        "20261029",
+        "20261028",
+        "20261027",
+        "20261026",
+        "20261023"
+      ],
+      "flow_source": "네이버 증권",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-10-30T06:06:04+00:00",
+      "checked_at": "2026-10-30T06:06:04+00:00"
+    },
+    "189300": {
+      "code": "189300",
+      "name": "인텔리안테크",
+      "fixed_watch": true,
+      "foreign5": 39925,
+      "inst5": -8794,
+      "investor_dates": [
+        "20261029",
+        "20261028",
+        "20261027",
+        "20261026",
+        "20261023"
+      ],
+      "flow_source": "네이버 증권",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-10-30T06:06:00+00:00",
+      "checked_at": "2026-10-30T06:06:00+00:00"
+    },
+    "189330": {
+      "code": "189330",
+      "name": "씨이랩",
+      "fixed_watch": true,
+      "foreign5": -6868,
+      "inst5": -1,
+      "investor_dates": [
+        "20261029",
+        "20261028",
+        "20261027",
+        "20261026",
+        "20261023"
+      ],
+      "flow_source": "네이버 증권",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-10-30T06:06:03+00:00",
+      "checked_at": "2026-10-30T06:06:03+00:00"
+    },
+    "214450": {
+      "code": "214450",
+      "name": "파마리서치",
+      "fixed_watch": true,
+      "foreign5": 1739,
+      "inst5": 40144,
+      "investor_dates": [
+        "20261125",
+        "20261124",
+        "20261123",
+        "20261120",
+        "20261119"
+      ],
+      "flow_source": "공개 증권 데이터 확인값",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-11-26T05:43:00+00:00",
+      "checked_at": "2026-11-26T05:43:00+00:00",
+      "manual_refresh": true
+    },
+    "218410": {
+      "code": "218410",
+      "name": "RFHIC",
+      "fixed_watch": true,
+      "foreign5": -346746,
+      "inst5": 352848,
+      "investor_dates": [
+        "20261029",
+        "20261028",
+        "20261027",
+        "20261026",
+        "20261023"
+      ],
+      "flow_source": "네이버 증권",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-10-30T06:05:59+00:00",
+      "checked_at": "2026-10-30T06:05:59+00:00"
+    },
+    "304100": {
+      "code": "304100",
+      "name": "솔트룩스",
+      "fixed_watch": true,
+      "foreign5": 86336,
+      "inst5": -356,
+      "investor_dates": [
+        "20261029",
+        "20261028",
+        "20261027",
+        "20261026",
+        "20261023"
+      ],
+      "flow_source": "네이버 증권",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-10-30T06:06:03+00:00",
+      "checked_at": "2026-10-30T06:06:03+00:00"
+    },
     "347700": {
       "code": "347700",
       "name": "스피어",
@@ -41,12 +195,12 @@
       "collected_at": "2026-10-30T06:05:59+00:00",
       "checked_at": "2026-10-30T06:05:59+00:00"
     },
-    "024840": {
-      "code": "024840",
-      "name": "KBI메탈",
+    "396300": {
+      "code": "396300",
+      "name": "HT로보틱스",
       "fixed_watch": true,
-      "foreign5": 87960,
-      "inst5": -6500,
+      "foreign5": 582978,
+      "inst5": -214816,
       "investor_dates": [
         "20261029",
         "20261028",
@@ -57,15 +211,92 @@
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-10-30T06:05:59+00:00",
-      "checked_at": "2026-10-30T06:05:59+00:00"
+      "collected_at": "2026-10-30T06:06:01+00:00",
+      "checked_at": "2026-10-30T06:06:01+00:00"
     },
-    "218410": {
-      "code": "218410",
-      "name": "RFHIC",
+    "402340": {
+      "code": "402340",
+      "name": "SK스퀘어",
       "fixed_watch": true,
-      "foreign5": -346746,
-      "inst5": 352848,
+      "foreign5": -438789,
+      "inst5": 646792,
+      "investor_dates": [
+        "20261029",
+        "20261028",
+        "20261027",
+        "20261026",
+        "20261023"
+      ],
+      "flow_source": "네이버 증권",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-10-30T06:06:01+00:00",
+      "checked_at": "2026-10-30T06:06:01+00:00"
+    },
+    "445680": {
+      "code": "445680",
+      "name": "큐리옥스바이오시스템즈",
+      "fixed_watch": true,
+      "foreign5": 41302,
+      "inst5": -76800,
+      "investor_dates": [
+        "20261029",
+        "20261028",
+        "20261027",
+        "20261026",
+        "20261023"
+      ],
+      "flow_source": "네이버 증권",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-10-30T06:06:02+00:00",
+      "checked_at": "2026-10-30T06:06:02+00:00"
+    },
+    "448900": {
+      "code": "448900",
+      "name": "한국피아이엠",
+      "fixed_watch": true,
+      "foreign5": 57361,
+      "inst5": 28505,
+      "investor_dates": [
+        "20261125",
+        "20261124",
+        "20261123",
+        "20261120",
+        "20261119"
+      ],
+      "flow_source": "공개 증권 데이터 확인값",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-11-26T05:43:00+00:00",
+      "checked_at": "2026-11-26T05:43:00+00:00",
+      "manual_refresh": true
+    },
+    "475150": {
+      "code": "475150",
+      "name": "SK이터닉스",
+      "fixed_watch": true,
+      "foreign5": 519635,
+      "inst5": -255450,
+      "investor_dates": [
+        "20261029",
+        "20261028",
+        "20261027",
+        "20261026",
+        "20261023"
+      ],
+      "flow_source": "네이버 증권",
+      "flow_unit": "shares",
+      "flow_status": "ok",
+      "collected_at": "2026-10-30T06:06:01+00:00",
+      "checked_at": "2026-10-30T06:06:01+00:00"
+    },
+    "024840": {
+      "code": "024840",
+      "name": "KBI메탈",
+      "fixed_watch": true,
+      "foreign5": 87960,
+      "inst5": -6500,
       "investor_dates": [
         "20261029",
         "20261028",
@@ -136,44 +367,6 @@
       "collected_at": "2026-10-30T06:06:00+00:00",
       "checked_at": "2026-10-30T06:06:00+00:00"
     },
-    "189300": {
-      "code": "189300",
-      "name": "인텔리안테크",
-      "fixed_watch": true,
-      "foreign5": 39925,
-      "inst5": -8794,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:00+00:00",
-      "checked_at": "2026-10-30T06:06:00+00:00"
-    },
-    "214450": {
-      "code": "214450",
-      "name": "파마리서치",
-      "fixed_watch": true,
-      "foreign5": 137196,
-      "inst5": -136013,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:01+00:00",
-      "checked_at": "2026-10-30T06:06:01+00:00"
-    },
     "0161M0": {
       "code": "0161M0",
       "name": "네오사피엔스",
@@ -212,25 +405,6 @@
       "collected_at": "2026-10-30T06:06:01+00:00",
       "checked_at": "2026-10-30T06:06:01+00:00"
     },
-    "396300": {
-      "code": "396300",
-      "name": "HT로보틱스",
-      "fixed_watch": true,
-      "foreign5": 582978,
-      "inst5": -214816,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:01+00:00",
-      "checked_at": "2026-10-30T06:06:01+00:00"
-    },
     "041190": {
       "code": "041190",
       "name": "우리기술투자",
@@ -249,101 +423,6 @@
       "flow_status": "ok",
       "collected_at": "2026-10-30T06:06:01+00:00",
       "checked_at": "2026-10-30T06:06:01+00:00"
-    },
-    "402340": {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "fixed_watch": true,
-      "foreign5": -438789,
-      "inst5": 646792,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:01+00:00",
-      "checked_at": "2026-10-30T06:06:01+00:00"
-    },
-    "107640": {
-      "code": "107640",
-      "name": "한중엔시에스",
-      "fixed_watch": true,
-      "foreign5": -18150,
-      "inst5": 38074,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:01+00:00",
-      "checked_at": "2026-10-30T06:06:01+00:00"
-    },
-    "475150": {
-      "code": "475150",
-      "name": "SK이터닉스",
-      "fixed_watch": true,
-      "foreign5": 519635,
-      "inst5": -255450,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:01+00:00",
-      "checked_at": "2026-10-30T06:06:01+00:00"
-    },
-    "448900": {
-      "code": "448900",
-      "name": "한국피아이엠",
-      "fixed_watch": true,
-      "foreign5": -23497,
-      "inst5": 88957,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:02+00:00",
-      "checked_at": "2026-10-30T06:06:02+00:00"
-    },
-    "445680": {
-      "code": "445680",
-      "name": "큐리옥스바이오시스템즈",
-      "fixed_watch": true,
-      "foreign5": 41302,
-      "inst5": -76800,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:02+00:00",
-      "checked_at": "2026-10-30T06:06:02+00:00"
     },
     "064350": {
       "code": "064350",
@@ -389,44 +468,6 @@
       "fixed_watch": true,
       "foreign5": 38490,
       "inst5": -81760,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:03+00:00",
-      "checked_at": "2026-10-30T06:06:03+00:00"
-    },
-    "189330": {
-      "code": "189330",
-      "name": "씨이랩",
-      "fixed_watch": true,
-      "foreign5": -6868,
-      "inst5": -1,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:03+00:00",
-      "checked_at": "2026-10-30T06:06:03+00:00"
-    },
-    "304100": {
-      "code": "304100",
-      "name": "솔트룩스",
-      "fixed_watch": true,
-      "foreign5": 86336,
-      "inst5": -356,
       "investor_dates": [
         "20261029",
         "20261028",
@@ -497,50 +538,12 @@
       "collected_at": "2026-10-30T06:06:04+00:00",
       "checked_at": "2026-10-30T06:06:04+00:00"
     },
-    "124500": {
-      "code": "124500",
-      "name": "아이티센글로벌",
-      "fixed_watch": true,
-      "foreign5": 94736,
-      "inst5": -17568,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:04+00:00",
-      "checked_at": "2026-10-30T06:06:04+00:00"
-    },
     "082740": {
       "code": "082740",
       "name": "한화엔진",
       "fixed_watch": true,
       "foreign5": 742031,
       "inst5": -553261,
-      "investor_dates": [
-        "20261029",
-        "20261028",
-        "20261027",
-        "20261026",
-        "20261023"
-      ],
-      "flow_source": "네이버 증권",
-      "flow_unit": "shares",
-      "flow_status": "ok",
-      "collected_at": "2026-10-30T06:06:04+00:00",
-      "checked_at": "2026-10-30T06:06:04+00:00"
-    },
-    "111770": {
-      "code": "111770",
-      "name": "영원무역",
-      "fixed_watch": true,
-      "foreign5": -32075,
-      "inst5": 27811,
       "investor_dates": [
         "20261029",
         "20261028",
@@ -573,5 +576,11 @@
       "collected_at": "2026-10-30T06:06:04+00:00",
       "checked_at": "2026-10-30T06:06:04+00:00"
     }
-  }
+  },
+  "manual_updated_at": "2026-11-26T05:43:00+00:00",
+  "manual_updated_codes": [
+    "111770",
+    "214450",
+    "448900"
+  ]
 }
