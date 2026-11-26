@@ -582,7 +582,229 @@ th{font-weight:700!important}
  .themeGroupHead{align-items:flex-start}
  .themeGroupMeta{flex-direction:column;align-items:flex-end}
 }</style>
-<style id="newsFirstReadability">#newsFirst{font-family:system-ui,-apple-system,sans-serif;color:#f1f5f9;line-height:1.65}#newsFirst h1{font-size:clamp(24px,4vw,34px);letter-spacing:-1px;margin:0 0 8px}#newsFirst .muted,#newsFirst small{color:#b8c5d1;font-size:13px}#nfCards{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}#nfCards .card{background:#101b18;border:1px solid #40554b;padding:22px;border-radius:14px;min-width:0}#nfCards h3{font-size:23px;margin:0 0 12px;overflow-wrap:anywhere}#nfCards h4{font-size:16px;border-top:1px solid #40554b;padding-top:14px;margin:16px 0 8px}#nfCards p{font-size:16px;font-weight:650;margin:12px 0 4px}#nfCards a{font-size:15px;line-height:1.65;padding:9px 0;overflow-wrap:anywhere;color:#b9e4ff!important}#nfCards small{display:block;margin-bottom:8px}#nfCards button{float:right;font-size:12px;padding:6px 12px}#nfForm input,#nfForm button{font-size:16px;min-height:44px}#nfForm button{background:#a9f5c4;color:#102319;font-weight:800}#nfStatus{padding:12px;background:#14221c;border-radius:8px;overflow-wrap:anywhere}#newsFirst a:focus-visible,#newsFirst button:focus-visible{outline:2px solid #fff;outline-offset:3px}@media(max-width:700px){#nfCards{grid-template-columns:1fr;gap:12px}#nfCards .card{padding:16px}#newsFirst{padding:14px!important}#nfCards h3{font-size:21px}}</style></head>
+<style id="newsFirstReadability">
+#newsFirst{
+  max-width:1500px;
+  margin:auto;
+  padding:28px 24px 54px;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",Roboto,sans-serif;
+  color:#101828;
+  line-height:1.5;
+}
+#newsFirst *{box-sizing:border-box}
+#newsFirst .nfTop{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:24px;
+  padding-bottom:20px;
+  border-bottom:1px solid #e4e7ec;
+}
+#newsFirst .nfEyebrow{
+  margin:0 0 6px;
+  color:#667085;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.08em;
+}
+#newsFirst h1{margin:0;font-size:38px;line-height:1.12;letter-spacing:-.045em;color:#101828}
+#newsFirst .nfSub{margin:10px 0 0;color:#667085;font-size:15px}
+#newsFirst .nfActions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+#newsFirst button,#newsFirst input{
+  min-height:42px;
+  border:1px solid #d0d5dd;
+  border-radius:9px;
+  background:#fff;
+  color:#344054;
+  font:inherit;
+}
+#newsFirst button{padding:9px 13px;cursor:pointer;font-weight:700}
+#newsFirst button:hover{background:#f9fafb;border-color:#98a2b3}
+#newsFirst .nfPrimary{background:#175cd3;color:#fff;border-color:#175cd3}
+#newsFirst .nfPrimary:hover{background:#1849a9;color:#fff}
+#newsFirst .nfStatusBar{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  align-items:center;
+  margin:18px 0 14px;
+  padding:12px 14px;
+  border:1px solid #e4e7ec;
+  border-radius:12px;
+  background:#fff;
+}
+#newsFirst .nfStatusItem{display:flex;align-items:center;gap:7px;color:#475467;font-size:13px}
+#newsFirst .nfState{
+  display:inline-flex;
+  align-items:center;
+  padding:4px 8px;
+  border-radius:999px;
+  font-size:11px;
+  font-weight:800;
+}
+#newsFirst .nfState.ok{background:#ecfdf3;color:#067647}
+#newsFirst .nfState.old{background:#fef3f2;color:#b42318}
+#newsFirst .nfState.unknown{background:#f2f4f7;color:#667085}
+#newsFirst .nfNotice{
+  margin:0 0 18px;
+  color:#b42318;
+  font-size:13px;
+  font-weight:700;
+}
+#newsFirst .nfToolbar{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  flex-wrap:wrap;
+  margin:18px 0 10px;
+}
+#newsFirst .nfToolbar strong{font-size:15px;color:#344054}
+#newsFirst .nfThemeNav{display:flex;gap:7px;flex-wrap:wrap}
+#newsFirst .nfThemeNav button{
+  min-height:auto;
+  padding:7px 10px;
+  border-radius:999px;
+  color:#475467;
+  font-size:12px;
+  font-weight:700;
+}
+#newsFirst .nfThemeNav button:hover{background:#eef4ff;color:#175cd3;border-color:#b2ccff}
+#newsFirst .nfAdd{
+  display:none;
+  gap:8px;
+  flex-wrap:wrap;
+  margin:12px 0 20px;
+  padding:14px;
+  background:#f9fafb;
+  border:1px solid #eaecf0;
+  border-radius:12px;
+}
+#newsFirst .nfAdd.open{display:flex}
+#newsFirst .nfAdd input{padding:9px 11px;min-width:170px}
+#newsFirst .nfAdd .wide{min-width:230px}
+#nfStatus{width:100%;margin:0;color:#667085;font-size:12px}
+#nfGroups{display:flex;flex-direction:column;gap:24px;margin-top:18px}
+#newsFirst .nfGroup{
+  padding:16px;
+  background:#fff;
+  border:1px solid #e4e7ec;
+  border-radius:14px;
+}
+#newsFirst .nfGroupHead{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:14px;
+  padding:0 2px 13px;
+  margin-bottom:14px;
+  border-bottom:1px solid #eaecf0;
+}
+#newsFirst .nfGroupHead h2{margin:0;color:#101828;font-size:22px;letter-spacing:-.025em}
+#newsFirst .nfGroupHead span{color:#667085;font-size:12px}
+#newsFirst .nfGroupHead b{color:#175cd3;font-size:17px}
+#newsFirst .nfGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+#newsFirst .nfCard{
+  min-width:0;
+  padding:17px;
+  background:#fff;
+  border:1px solid #e4e7ec;
+  border-radius:12px;
+  box-shadow:0 1px 2px rgba(16,24,40,.03);
+}
+#newsFirst .nfCard:hover{border-color:#b2ccff;box-shadow:0 4px 12px rgba(16,24,40,.06)}
+#newsFirst .nfCardHead{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+#newsFirst .nfCard h3{margin:0;color:#101828;font-size:21px;line-height:1.25;letter-spacing:-.025em}
+#newsFirst .nfCode{display:block;margin-top:3px;color:#98a2b3;font-size:12px;font-weight:600}
+#newsFirst .nfDelete{
+  min-height:auto;
+  padding:5px 8px;
+  color:#98a2b3;
+  font-size:11px;
+  font-weight:600;
+  border-color:#eaecf0;
+}
+#newsFirst .nfFlow{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
+  margin:14px 0 13px;
+}
+#newsFirst .nfMetric{
+  padding:10px 11px;
+  background:#f9fafb;
+  border:1px solid #eaecf0;
+  border-radius:9px;
+}
+#newsFirst .nfMetric small{display:block;margin-bottom:3px;color:#98a2b3;font-size:11px}
+#newsFirst .nfMetric b{font-size:15px;font-variant-numeric:tabular-nums}
+#newsFirst .nfPos{color:#067647}
+#newsFirst .nfNeg{color:#b42318}
+#newsFirst .nfZero{color:#667085}
+#newsFirst .nfNewsTitle{
+  margin:12px 0 7px;
+  color:#475467;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.04em;
+}
+#newsFirst .nfNews a{
+  display:block;
+  padding:8px 0;
+  color:#175cd3;
+  font-size:14px;
+  line-height:1.5;
+  font-weight:650;
+  text-decoration:none;
+  overflow-wrap:anywhere;
+  border-top:1px solid #f2f4f7;
+}
+#newsFirst .nfNews a:first-child{border-top:0}
+#newsFirst .nfNews a:hover{text-decoration:underline}
+#newsFirst .nfNews small{
+  display:block;
+  margin:-4px 0 6px;
+  color:#98a2b3;
+  font-size:11px;
+}
+#newsFirst .nfEmpty{padding:9px 0;color:#98a2b3;font-size:13px}
+#newsFirst details{margin-top:7px}
+#newsFirst details summary{cursor:pointer;color:#667085;font-size:12px;font-weight:700}
+#newsFirst .nfLinks{
+  display:flex;
+  gap:7px;
+  flex-wrap:wrap;
+  margin-top:14px;
+  padding-top:12px;
+  border-top:1px solid #eaecf0;
+}
+#newsFirst .nfLinks a{
+  padding:6px 9px;
+  border:1px solid #d0d5dd;
+  border-radius:8px;
+  color:#344054;
+  background:#fff;
+  font-size:11px;
+  font-weight:700;
+  text-decoration:none;
+}
+#newsFirst .nfLinks a:hover{background:#f9fafb;border-color:#98a2b3}
+#newsFirst .nfBottom{display:flex;justify-content:center;margin-top:22px}
+#newsFirst a:focus-visible,#newsFirst button:focus-visible,#newsFirst input:focus-visible{
+  outline:3px solid rgba(47,128,237,.18);
+  outline-offset:1px;
+  border-color:#84adff;
+}
+@media(max-width:1150px){#newsFirst .nfGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){
+  #newsFirst{padding:16px 12px 40px}
+  #newsFirst .nfTop{flex-direction:column}
+  #newsFirst .nfActions{justify-content:flex-start}
+  #newsFirst h1{font-size:31px}
+  #newsFirst .nfGrid{grid-template-columns:1fr}
+  #newsFirst .nfGroup{padding:12px}
+  #newsFirst .nfGroupHead h2{font-size:20px}
+}
+</style></head>
 <body><canvas id="matrixRain" aria-hidden="true"></canvas><div class="wrap">
 <div class="top"><div><div class="matrixEyebrow">KOREA MARKET DASHBOARD</div><h1>Stock Miner<span class="matrixEdition">PERSONAL MARKET WORKSPACE</span></h1><p>관심종목 · 수급 · 뉴스 · 공시 · 발굴 후보를 한 화면에서 확인합니다.</p><div class="status" id="updated">데이터 불러오는 중...</div></div><div class="controls"><input id="q" placeholder="종목명 또는 코드 검색"><select id="grade"><option value="all">전체 점수</option><option value="80">기존 종합 80점 이상</option><option value="70">기존 종합 70점 이상</option></select><button class="primary" id="reloadBtn">지금 새로고침</button><span class="autoRefreshPill" title="페이지를 열어 둔 동안 데이터 파일을 자동으로 다시 확인합니다.">자동 갱신 5분</span><button class="install" id="installBtn">앱으로 설치</button><button type="button" class="matrixToggle" id="matrixToggle" aria-pressed="false" aria-controls="matrixRain">코드 효과 끄기</button></div></div>
 <p id="newsHealth" class="topicHint" role="status" hidden></p>
@@ -1071,6 +1293,150 @@ if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serv
  resize();sync();
 })();
 </script>
-<section id="newsFirst" style="max-width:1200px;margin:auto;padding:20px"><h1>STOCK MINER / 관심종목 정보</h1><p class="muted">뉴스 · 수급 · 공시 원문 | 주가 조회 제외</p><form id="nfForm" class="controls"><input id="nfName" placeholder="종목명" required><input id="nfCode" placeholder="종목코드" pattern="[A-Za-z0-9]{6}" required><button>추가</button></form><p id="nfStatus" class="muted"></p><div id="nfCards" class="discoveryGrid"></div><button id="nfLegacy" type="button">기존 분석 화면 열기</button></section><script>
-(async()=>{const el=id=>document.getElementById(id), host=el('nfCards'), legacy=document.querySelector('.wrap');if(legacy)legacy.hidden=true;el('nfLegacy').onclick=()=>{if(legacy)legacy.hidden=!legacy.hidden};const get=async p=>{try{const r=await fetch('data/'+p+'?t='+Date.now());return r.ok?await r.json():{}}catch{return {}}};const [w,n,f]=await Promise.all(['stock-miner-watchlist.json','news-momentum.json','watch-investor-flow.json'].map(get));let list=w.stocks||[];try{const saved=localStorage.getItem('stock-miner-news-watch');if(saved)list=JSON.parse(saved)}catch{};const save=()=>{try{localStorage.setItem('stock-miner-news-watch',JSON.stringify(list))}catch{}};const node=(tag,t,parent)=>{const x=document.createElement(tag);x.textContent=t;parent.append(x);return x};const link=(t,u,p)=>{try{const url=new URL(u);if(url.protocol!=='https:')return;const a=node('a',t,p);a.href=url.href;a.target='_blank';a.rel='noopener noreferrer';a.style.color='var(--accent)';a.style.display='block'}catch{}};const fmt=v=>typeof v==='number'?v.toLocaleString('ko-KR')+'주':'미수집';function render(){host.replaceChildren();el('nfStatus').textContent='저장된 뉴스: '+(n.generated_at||'미수집')+' / 수급: '+(f.generated_at||'미수집')+' · 과거 자료일 수 있음 · 추가 종목은 이 기기에 저장';for(const s of list){const c=node('article','',host);c.className='card';node('h3',s.name+' · '+s.code,c);const b=node('button','삭제',c);b.onclick=()=>{list=list.filter(x=>x.code!==s.code);save();render()};const flow=f.stocks?.[s.code];node('p','5일 외국인 '+fmt(flow?.foreign5)+' / 기관 '+fmt(flow?.inst5),c);node('small','수급 기준일: '+(flow?.investor_dates?.[0]||'미수집'),c);link('최신 투자자별 수급 확인','https://finance.naver.com/item/frgn.naver?code='+encodeURIComponent(s.code),c);node('h4','저장된 뉴스',c);const articles=n.stocks?.[s.code]?.news||[];if(!articles.length)node('p','저장된 기사 없음 또는 미수집',c);for(const a of articles.slice(0,5)){link(a.title,a.link,c);node('small',(a.source||'')+' '+(a.published||''),c)}link('최신 뉴스 검색','https://news.google.com/search?q='+encodeURIComponent(s.name)+'&hl=ko&gl=KR&ceid=KR:ko',c);link('공시 검색 (DART)','https://dart.fss.or.kr/',c)}}el('nfForm').onsubmit=e=>{e.preventDefault();const code=el('nfCode').value.trim().toUpperCase(),name=el('nfName').value.trim();if(!name||list.some(x=>x.code===code))return;list.push({code,name});save();render();e.target.reset()};render()})();
-</script></body></html>
+<section id="newsFirst">
+  <div class="nfTop">
+    <div>
+      <p class="nfEyebrow">STOCK MINER · NEWS / FLOW / DISCLOSURE</p>
+      <h1>관심종목 모니터</h1>
+      <p class="nfSub">테마별로 묶어서 최신 뉴스 · 외국인/기관 수급 · 공시 원문을 빠르게 확인합니다. 주가 조회는 제외합니다.</p>
+    </div>
+    <div class="nfActions">
+      <button type="button" id="nfRefresh" class="nfPrimary">데이터 새로고침</button>
+      <button type="button" id="nfAddToggle">종목 추가</button>
+    </div>
+  </div>
+
+  <div id="nfStatusBar" class="nfStatusBar"></div>
+  <p id="nfNotice" class="nfNotice" hidden></p>
+
+  <div class="nfToolbar">
+    <strong>테마 바로가기</strong>
+    <div id="nfThemeNav" class="nfThemeNav"></div>
+  </div>
+
+  <form id="nfForm" class="nfAdd">
+    <input id="nfName" class="wide" placeholder="종목명" required>
+    <input id="nfCode" placeholder="종목코드" pattern="[A-Za-z0-9]{6}" required>
+    <button type="submit">추가</button>
+    <p id="nfStatus"></p>
+  </form>
+
+  <div id="nfGroups"></div>
+
+  <div class="nfBottom">
+    <button id="nfLegacy" type="button">고급 분석 화면 열기</button>
+  </div>
+</section>
+<script>
+(async()=>{
+ const el=id=>document.getElementById(id),legacy=document.querySelector('.wrap');
+ if(legacy)legacy.hidden=true;
+
+ const get=async p=>{try{const r=await fetch('data/'+p+'?t='+Date.now(),{cache:'no-store'});return r.ok?await r.json():{}}catch{return {}}};
+ let w={},n={},f={},biz={};
+ let list=[];
+
+ const themeDefs=[
+  ['semiconductor','반도체',/반도체|HBM|메모리|웨이퍼|파운드리|패키징|식각|증착/i],
+  ['ai','AI·소프트웨어',/인공지능|AI|LLM|생성형|딥러닝|소프트웨어|클라우드|데이터센터/i],
+  ['robot','로봇',/로봇|로보틱스|자동화|스마트팩토리|협동로봇/i],
+  ['defense','방산·조선',/방산|국방|군수|미사일|전차|장갑차|함정|조선|선박|엔진/i],
+  ['telecom','통신·우주',/통신|5G|6G|기지국|RF|안테나|위성|우주|항공|저궤도/i],
+  ['bio','바이오·헬스',/바이오|제약|신약|의료|진단|세포|치료제|임상|보톡스|필러/i],
+  ['battery','2차전지·에너지',/2차전지|이차전지|배터리|ESS|양극재|음극재|전해질|정유|석유|원유|LNG|가스/i],
+  ['cable','전선·소재',/전선|케이블|동선|구리|비철|소재/i],
+  ['auto','자동차',/자동차|모빌리티|전장|차량|모비스|부품/i],
+  ['finance','금융·투자',/금융|투자|증권|지주|핀테크|가상자산|벤처/i],
+  ['retail','유통·소비재',/백화점|유통|화장품|뷰티|의류|패션|소비재/i],
+  ['industrial','산업·부품',/밸브|피팅|기계|산업|부품|금속|제조|플랜트|엔지니어링/i]
+ ];
+ const themeOrder=themeDefs.map(x=>x[0]).concat('other');
+ const themeLabel=id=>themeDefs.find(x=>x[0]===id)?.[1]||'기타 · 미분류';
+
+ const safeUrl=value=>{try{const u=new URL(value);return u.protocol==='https:'?u.href:'#'}catch{return '#'}};
+ const fmt=v=>typeof v==='number'&&Number.isFinite(v)?v.toLocaleString('ko-KR')+'주':'미수집';
+ const flowClass=v=>!Number.isFinite(Number(v))?'nfZero':Number(v)>0?'nfPos':Number(v)<0?'nfNeg':'nfZero';
+ const shortDate=value=>{if(!value)return '미수집';const d=new Date(value);return Number.isNaN(d.getTime())?String(value).slice(0,10):d.toLocaleDateString('ko-KR',{year:'numeric',month:'2-digit',day:'2-digit'})};
+ const freshness=value=>{if(!value)return {label:'확인 불가',cls:'unknown'};const t=new Date(value).getTime();if(!Number.isFinite(t))return {label:'확인 불가',cls:'unknown'};const days=(Date.now()-t)/86400000;return days<=2?{label:'최신',cls:'ok'}:{label:'오래됨',cls:'old'}};
+
+ function savedList(){
+  try{const saved=localStorage.getItem('stock-miner-news-watch');if(saved)return JSON.parse(saved)}catch{}
+  return null;
+ }
+ function save(){try{localStorage.setItem('stock-miner-news-watch',JSON.stringify(list))}catch{}}
+
+ function newsThemeIds(code){
+  const out=[];
+  for(const t of n.themes||[]){
+   if((t.candidates||[]).some(c=>String(c.code)===String(code)))out.push(t.id);
+  }
+  return out;
+ }
+ function themeFor(stock){
+  const p=biz.stocks?.[String(stock.code)]||{};
+  const text=[stock.name,p.summary,p.sector,p.business].filter(Boolean).join(' ');
+  for(const [id,,rx] of themeDefs){if(rx.test(text))return id}
+  const ids=newsThemeIds(stock.code);
+  const map={semiconductor:'semiconductor',ai:'ai',robot:'robot',defense:'defense',shipping:'defense',telecom:'telecom',aerospace:'telecom',bio:'bio',beauty:'retail',battery:'battery',oil:'battery',cable:'cable'};
+  for(const id of ids){if(map[id])return map[id]}
+  return 'other';
+ }
+ function stockNews(stock){
+  return n.stocks?.[String(stock.code)]?.news||[];
+ }
+ function renderStatus(){
+  const ns=freshness(n.generated_at),fs=freshness(f.generated_at);
+  el('nfStatusBar').innerHTML=
+   '<span class="nfStatusItem"><b>뉴스</b> '+shortDate(n.generated_at)+' <span class="nfState '+ns.cls+'">'+ns.label+'</span></span>'+
+   '<span class="nfStatusItem"><b>수급</b> '+shortDate(f.generated_at)+' <span class="nfState '+fs.cls+'">'+fs.label+'</span></span>'+
+   '<span class="nfStatusItem"><b>관심종목</b> '+list.length+'개</span>';
+  const old=ns.cls==='old'||fs.cls==='old';
+  el('nfNotice').hidden=!old;
+  el('nfNotice').textContent=old?'주의 · 저장된 뉴스/수급 자료가 오래됐습니다. 최신 자료 수집 자동화를 점검해야 합니다.':'';
+ }
+ function cardHtml(stock){
+  const code=String(stock.code),flow=f.stocks?.[code],articles=stockNews(stock);
+  const first=articles.slice(0,3),rest=articles.slice(3,8);
+  const newsHtml=first.length?first.map(a=>'<a href="'+safeUrl(a.link)+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(a.title||'제목 없음')+'</a><small>'+escapeHtml((a.source||'')+' '+(a.published||''))+'</small>').join(''):'<div class="nfEmpty">저장된 기사 없음 또는 미수집</div>';
+  const more=rest.length?'<details><summary>뉴스 '+rest.length+'건 더 보기</summary><div class="nfNews">'+rest.map(a=>'<a href="'+safeUrl(a.link)+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(a.title||'제목 없음')+'</a><small>'+escapeHtml((a.source||'')+' '+(a.published||''))+'</small>').join('')+'</div></details>':'';
+  return '<article class="nfCard"><div class="nfCardHead"><div><h3>'+escapeHtml(stock.name)+'</h3><span class="nfCode">'+escapeHtml(code)+'</span></div><button class="nfDelete" type="button" data-delete="'+escapeHtml(code)+'">숨기기</button></div>'+
+   '<div class="nfFlow"><div class="nfMetric"><small>외국인 5일</small><b class="'+flowClass(flow?.foreign5)+'">'+fmt(flow?.foreign5)+'</b></div><div class="nfMetric"><small>기관 5일</small><b class="'+flowClass(flow?.inst5)+'">'+fmt(flow?.inst5)+'</b></div></div>'+
+   '<div class="nfNewsTitle">저장된 최신 뉴스</div><div class="nfNews">'+newsHtml+'</div>'+more+
+   '<div class="nfLinks"><a href="https://finance.naver.com/item/frgn.naver?code='+encodeURIComponent(code)+'" target="_blank" rel="noopener noreferrer">수급 원문</a><a href="https://news.google.com/search?q='+encodeURIComponent(stock.name)+'&hl=ko&gl=KR&ceid=KR:ko" target="_blank" rel="noopener noreferrer">최신 뉴스 검색</a><a href="https://dart.fss.or.kr/" target="_blank" rel="noopener noreferrer">DART 공시</a></div></article>';
+ }
+ function escapeHtml(value){
+  return String(value??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+ }
+ function render(){
+  renderStatus();
+  const groups=new Map();
+  for(const stock of list){
+   const id=themeFor(stock);
+   if(!groups.has(id))groups.set(id,[]);
+   groups.get(id).push(stock);
+  }
+  const ordered=[...groups.entries()].sort((a,b)=>themeOrder.indexOf(a[0])-themeOrder.indexOf(b[0]));
+  el('nfThemeNav').innerHTML=ordered.map(([id,items])=>'<button type="button" data-jump="'+escapeHtml(id)+'">'+escapeHtml(themeLabel(id))+' '+items.length+'</button>').join('');
+  el('nfGroups').innerHTML=ordered.map(([id,items])=>'<section class="nfGroup" id="nf-theme-'+escapeHtml(id)+'"><div class="nfGroupHead"><h2>'+escapeHtml(themeLabel(id))+'</h2><span><b>'+items.length+'</b>종목</span></div><div class="nfGrid">'+items.map(cardHtml).join('')+'</div></section>').join('');
+  el('nfStatus').textContent='추가 종목은 이 브라우저에 저장됩니다.';
+  document.querySelectorAll('[data-delete]').forEach(btn=>btn.onclick=()=>{list=list.filter(x=>String(x.code)!==String(btn.dataset.delete));save();render()});
+  document.querySelectorAll('[data-jump]').forEach(btn=>btn.onclick=()=>document.getElementById('nf-theme-'+btn.dataset.jump)?.scrollIntoView({behavior:'smooth',block:'start'}));
+ }
+ async function load(){
+  [w,n,f,biz]=await Promise.all(['stock-miner-watchlist.json','news-momentum.json','watch-investor-flow.json','stock-miner-business.json'].map(get));
+  list=savedList()||(w.stocks||[]);
+  render();
+ }
+ el('nfLegacy').onclick=()=>{if(legacy)legacy.hidden=!legacy.hidden};
+ el('nfAddToggle').onclick=()=>el('nfForm').classList.toggle('open');
+ el('nfRefresh').onclick=load;
+ el('nfForm').onsubmit=e=>{
+  e.preventDefault();
+  const code=el('nfCode').value.trim().toUpperCase(),name=el('nfName').value.trim();
+  if(!name||list.some(x=>String(x.code)===code))return;
+  list.push({code,name});save();render();e.target.reset();el('nfForm').classList.remove('open');
+ };
+ await load();
+})();
+</script>
+</body></html>
