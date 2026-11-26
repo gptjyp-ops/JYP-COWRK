@@ -6,7 +6,7 @@ $taskName = 'Stock Miner Daily Upload'
 
 # The Kiwoom credentials and registered IP remain on this PC. The task runs only
 # while this user is signed in, so the local credential store remains available.
-$action = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument ('-NoProfile -ExecutionPolicy Bypass -File "' + $script + '" -Python "' + $python + '"') -WorkingDirectory $repo
+$action = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument ('-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "' + $script + '" -Python "' + $python + '"') -WorkingDirectory $repo
 $triggers = @(
     (New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -At '09:20'),
     (New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -At '14:20'),
