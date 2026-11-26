@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from stock_miner_watchlist import include_watchlist, load_watchlist
+from stock_miner_watchlist import include_watchlist, load_monitoring_stocks
 from momentum_themes import THEMES, SPORTS, build_themes, company_match, recent
 
 PARTS = [Path(f"data/stock-miner-v4-part{i}.json") for i in (1, 2, 3)]
@@ -157,7 +157,7 @@ def score_news(items: list[dict], now=None) -> tuple[int, str, list[str]]:
 
 
 def collect_payload(watch_only=False):
-    stocks = load_watchlist() if watch_only else load_stocks()
+    stocks = load_monitoring_stocks() if watch_only else load_stocks()
     previous={}
     if OUT.exists():
         try:
