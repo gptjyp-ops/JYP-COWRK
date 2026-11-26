@@ -1,0 +1,55 @@
+name: Stock Miner Hourly Data
+
+on:
+  push:
+    paths:
+      - .github/workflows/stock-miner-hourly-data.yml
+      - news_collect.py
+      - watch_flow_collect.py
+      - stock_miner_watchlist.py
+      - data/stock-miner-watchlist.json
+  workflow_dispatch:
+  schedule:
+    # 매일 매시간 05분: 관심종목 30개 뉴스 + 투자자별 수급 갱신
+    - cron: '5 * * * *'
+
+concurrency:
+  group: stock-miner-hourly-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh investor flow
+        run: python watch_flow_collect.py
+
+      - name: Refresh watchlist news
+        run: python news_collect.py --watch-only
+
+      - name: Commit refreshed data
+        run: |
+          git add data/news-momentum.json data/news-momentum-status.json data/watch-investor-flow.json
+          if git diff --cached --quiet; then
+            echo "No data changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: refresh Stock Miner hourly news and flow"
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
