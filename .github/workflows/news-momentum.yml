@@ -10,9 +10,8 @@ on:
       - .github/workflows/news-momentum.yml
   workflow_dispatch:
   schedule:
-    - cron: '15 */2 * * *'
-    # 한국시간 평일 09:00~15:59, 관심종목만 5분 간격으로 조회합니다.
-    - cron: '2-57/5 0-6 * * 1-5'
+    # 매일 매시간 5분에 뉴스·수급 전체 갱신
+    - cron: '5 * * * *'
 
 concurrency:
   group: news-momentum
@@ -44,15 +43,7 @@ jobs:
 
       - name: Collect news momentum
         id: collect
-        env:
-          SCHEDULE: ${{ github.event.schedule }}
-          EVENT_NAME: ${{ github.event_name }}
-        run: |
-          if [ "$SCHEDULE" = '2-57/5 0-6 * * 1-5' ] || [ "$EVENT_NAME" = 'push' ]; then
-            python news_collect.py --watch-only
-          else
-            python news_collect.py
-          fi
+        run: python news_collect.py
 
       - name: Commit updated news data
         if: success() || (failure() && steps.collect.outcome == 'failure')
