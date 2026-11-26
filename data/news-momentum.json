@@ -86,7 +86,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:49+00:00",
+      "checked_at": "2026-11-26T18:20:33+00:00",
       "news_status": "no_articles"
     },
     "107640": {
@@ -98,7 +98,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:56+00:00",
+      "checked_at": "2026-11-26T18:20:40+00:00",
       "news_status": "no_articles"
     },
     "109820": {
@@ -164,7 +164,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:03+00:00",
+      "checked_at": "2026-11-26T18:20:47+00:00",
       "news_status": "ok"
     },
     "115440": {
@@ -200,7 +200,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:02+00:00",
+      "checked_at": "2026-11-26T18:20:46+00:00",
       "news_status": "no_articles"
     },
     "125020": {
@@ -309,7 +309,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:52+00:00",
+      "checked_at": "2026-11-26T18:20:37+00:00",
       "news_status": "no_articles"
     },
     "189330": {
@@ -321,7 +321,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:59+00:00",
+      "checked_at": "2026-11-26T18:20:44+00:00",
       "news_status": "no_articles"
     },
     "200350": {
@@ -395,7 +395,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:53+00:00",
+      "checked_at": "2026-11-26T18:20:37+00:00",
       "news_status": "ok"
     },
     "215790": {
@@ -431,7 +431,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:50+00:00",
+      "checked_at": "2026-11-26T18:20:35+00:00",
       "news_status": "no_articles"
     },
     "224060": {
@@ -590,7 +590,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:00+00:00",
+      "checked_at": "2026-11-26T18:20:44+00:00",
       "news_status": "no_articles"
     },
     "307750": {
@@ -674,22 +674,24 @@
     "347700": {
       "code": "347700",
       "name": "스피어",
-      "news_score": 0,
-      "news_label": "약함",
+      "news_score": 2,
+      "news_label": "형성중",
       "news_count": 1,
-      "news_reasons": [],
+      "news_reasons": [
+        "공급계약"
+      ],
       "news": [
         {
-          "title": "[여의도 투자본부 1부] '빅웨이브로보틱스, 스피어' 명예의 전당 갈 종목은? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8xd24ycDJSSmd6WGxuaFhyUC00Rl84SnpucTVyOUxiM19GUGl2dGdnUmEzWm56UEhFUFBDekVPdkx5Q1pSX1QtbGhkMUQzVDFjUklBbUtXZllXWC1uTXB2M2N6WlZPbUt5ekEySU9XQzNZLVFOWTc4cG5xNNIBe0FVX3lxTE8xd24ycDJSSmd6WGxuaFhyUC00Rl84SnpucTVyOUxiM19GUGl2dGdnUmEzWm56UEhFUFBDekVPdkx5Q1pSX1QtbGhkMUQzVDFjUklBbUtXZllXWC1uTXB2M2N6WlZPbUt5ekEySU9XQzNZLVFOWTc4cG5xNA?oc=5",
-          "published": "2026-11-19T13:08:32+00:00",
+          "title": "[종목상담 주식민원처리반] 작년 스페이스X와 10년 장기 공급계약 체결 '스피어' - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zcmVPOU8zblh4RS1EbVpYWlpHWDRCQ3BTM0M1WjhXZHRpQkEydWhJbG9lMnhxMTJMbXBsSURoRHVVWng4TmRLYUtFMzZpMzBwUnZaTHNpZ29qU21vdVh1UlViSUluV2tM0gFuQVVfeXFMTmxjRng0UWt4dmpfZjBnNkV5bWMwMmNadmJ4Ri1CLXVaR2FqbmJ0dDBlbDhQc1pBZ3RlRzFVTE5ZdWN4QUNuTGxHTUxPRnFiVmxhUmxqRXRGRS1ldmtFWTM0NE9IQkVmOVVkZ3BtSUE?oc=5",
+          "published": "2026-11-26T10:11:25+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
-          "first_seen_at": "2026-11-26T07:20:03+00:00"
+          "first_seen_at": "2026-11-26T18:20:34+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:49+00:00",
+      "checked_at": "2026-11-26T18:20:34+00:00",
       "news_status": "ok"
     },
     "348030": {
@@ -799,7 +801,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:54+00:00",
+      "checked_at": "2026-11-26T18:20:39+00:00",
       "news_status": "ok"
     },
     "402340": {
@@ -811,7 +813,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:55+00:00",
+      "checked_at": "2026-11-26T18:20:40+00:00",
       "news_status": "no_articles"
     },
     "403870": {
@@ -926,7 +928,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:57+00:00",
+      "checked_at": "2026-11-26T18:20:42+00:00",
       "news_status": "no_articles"
     },
     "448900": {
@@ -952,7 +954,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:57+00:00",
+      "checked_at": "2026-11-26T18:20:41+00:00",
       "news_status": "ok"
     },
     "452190": {
@@ -998,7 +1000,7 @@
       "news": [
         {
           "title": "SK이터닉스, 산림 ESG 우수사례 공모전 특별상 수상 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Xd2kyYWQxeWRWajhaLWtaMjNxWTNZcF9JSXBER0VZTF9QZjJac3owNldfQm01WUoxWTNHSXpBUEpSRGhvekFfX2RPTmYwNl9aakluczdibXRmT05hbi16MWJfZTVxbzBmeHBaOdIBckFVX3lxTE9tSUhYRUJwU2Rwa2d4X0tlY2tWN2ozTF9aOGxwb2hlU0ZoSlRoc3BXVVpKdnJqMG5ldjF3ZFJOSjVLVHpsQThvRERUQmQ0VHVFRWYycmlnN01FQndMeFFtanMtOGNaUU5NNk5WeHhNck5DQQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tSUhYRUJwU2Rwa2d4X0tlY2tWN2ozTF9aOGxwb2hlU0ZoSlRoc3BXVVpKdnJqMG5ldjF3ZFJOSjVLVHpsQThvRERUQmQ0VHVFRWYycmlnN01FQndMeFFtanMtOGNaUU5NNk5WeHhNck5DQdIBckFVX3lxTE9tSUhYRUJwU2Rwa2d4X0tlY2tWN2ozTF9aOGxwb2hlU0ZoSlRoc3BXVVpKdnJqMG5ldjF3ZFJOSjVLVHpsQThvRERUQmQ0VHVFRWYycmlnN01FQndMeFFtanMtOGNaUU5NNk5WeHhNck5DQQ?oc=5",
           "published": "2026-11-26T05:13:37+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -1006,7 +1008,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:56+00:00",
+      "checked_at": "2026-11-26T18:20:41+00:00",
       "news_status": "ok"
     },
     "488280": {
@@ -1042,7 +1044,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:02+00:00",
+      "checked_at": "2026-11-26T18:20:47+00:00",
       "news_status": "no_articles"
     },
     "028670": {
@@ -1903,7 +1905,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:59+00:00",
+      "checked_at": "2026-11-26T18:20:43+00:00",
       "news_status": "no_articles"
     },
     "041190": {
@@ -1915,7 +1917,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:55+00:00",
+      "checked_at": "2026-11-26T18:20:39+00:00",
       "news_status": "no_articles"
     },
     "011700": {
@@ -1951,7 +1953,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:50+00:00",
+      "checked_at": "2026-11-26T18:20:34+00:00",
       "news_status": "no_articles"
     },
     "003220": {
@@ -2038,14 +2040,37 @@
     "005930": {
       "code": "005930",
       "name": "삼성전자",
-      "news_score": 2,
-      "news_label": "형성중",
+      "news_score": 1,
+      "news_label": "약함",
       "news_count": 20,
       "news_reasons": [
-        "주의:하락",
-        "최대 실적"
+        "주의:하락"
       ],
       "news": [
+        {
+          "title": "\"두 손 자유롭게 작업\"…딥파인, 삼성전자에 산업용 XR 기술 선봬 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE04aWVjM00zQURBbE1FdkZsYzdHSnJsdDVmbGtVNm9MWEsxUTEzTTZzVGpGZ2t1bzlGc2M0R1B5R3lLU2V1NERERXpsYlVGRnBsTWc4RGVKZFAyMEdKYWdzVkpkTmdFbUN0ZXp0ZFZac9IBb0FVX3lxTE04aWVjM00zQURBbE1FdkZsYzdHSnJsdDVmbGtVNm9MWEsxUTEzTTZzVGpGZ2t1bzlGc2M0R1B5R3lLU2V1NERERXpsYlVGRnBsTWc4RGVKZFAyMEdKYWdzVkpkTmdFbUN0ZXp0ZFZacw?oc=5",
+          "published": "2026-11-26T10:00:00+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-11-26T18:20:36+00:00"
+        },
+        {
+          "title": "삼성전자, 공조·AI·차세대 반도체 강화…성장 중심 조직개편 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xU2RjMDM2REdHX2F6QzVmOU83b2Yya25ESWE2MW5PalJIb0hpcTlQMzYtNWFZOERFMFJLeGxWdktwdmlUcm9yT1BMdWRyNzdmNU1HdVp5YnItT2hPRHV6YmpVOGphdklTeXRLedIBckFVX3lxTFA2UFlVZ2JYeGJBVmVoMktrWG9ObDJSd0NhV2liWExrS3Z5a0NiV1RHNTlGcTk1R0h1QU1sdm9GTzcyZEd1ZzVYRGhvWEt6eHE1eDRPWDRlcktnRU5yWFBYci1weGo5UmJqcnRxYkFFb3RIQQ?oc=5",
+          "published": "2026-11-26T08:56:03+00:00",
+          "source": "머니투데이",
+          "source_group": "머니투데이",
+          "first_seen_at": "2026-11-26T18:20:36+00:00"
+        },
+        {
+          "title": "삼성전자, M&A 전담조직 신설…대형 인수합병 속도 붙나(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YOHgyaHlreTJ2blA3T0RXU0M1YW9TZXJRLUV0N1Q2WXJUOUU2ekFEOVdVVVlYZlFpb012d3hhWU5nN1lYbGstVEV3aWxYSF9LYWhiY1JOVTdVWknSAWBBVV95cUxOM2U1VXJ0RWNzNktMUFBMNFNiN0dPSVdpVmlIWnctR1NhWGJoRzNVenVIVFJUeHZjLTJPaUZ0Ql9sS1BESFJtNjdzdFB0Tk9jVTlKTFljSlVpUk9IZXNna3A?oc=5",
+          "published": "2026-11-26T08:34:26+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-11-26T18:20:36+00:00"
+        },
         {
           "title": "삼성전자, M&A 조직 격상…미래 성장동력 확보에 힘 싣는다 - 연합뉴스",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50VkZjbnZjZWxPbkRjcjlYVlh5c1EzM0hVQWZjSmhKZkZTYjNHRVhhY2F1QzFKQUw2ZFlpaVZ6NjU3TF9lTHV3UmpWeU9tM3NxX3dGS0hfTmQxUFXSAWBBVV95cUxOVUIyN08zUHlsV0VLbjZWcVZ5eXpzVTRTSE1EY2NsYjRRMmJ6QzViWVV6dVVrREZNVXhfTUQtN1V2OUhRM3lxVDhRbDJEUGJqb3dmeTYyNER4YzdxWUJOVVY?oc=5",
@@ -2160,11 +2185,19 @@
         },
         {
           "title": "삼성전자, 9년만에 최소 131명 승진…반도체서만 70명 발탁(종합2보) - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yaFRrVWh5T1ZSQ244X0o3eWgyNzB5VDM4N2dzS1hoLUlhSUZ3R2JCRV84a0tPYnpvUHBPbVpoQmJLYXVnRUlOeGNnbzlWUXRwd1VLeXlfYnVxREHSAWBBVV95cUxNVEZyM05KNldOblpJcnV5VXdSWGZkcnE4cThEOG9fZmhvcXF4X2wtNkxkYXhZbGtlOTh1YktnM0EzcW54eklPZlZtRk9ncEhpZERfblhmS0E5RnE2clZna3Q?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1URnIzTko2V05uWklydXlVd1JYZmRycThxOEQ4b19maG9xcXhfbC02TGRheFlsa2U5OHViS2czQTNxbnh6SU9mVm1GT2dwSGlkRF9uWGZLQTlGcTZyVmdrdNIBYEFVX3lxTE1URnIzTko2V05uWklydXlVd1JYZmRycThxOEQ4b19maG9xcXhfbC02TGRheFlsa2U5OHViS2czQTNxbnh6SU9mVm1GT2dwSGlkRF9uWGZLQTlGcTZyVmdrdA?oc=5",
           "published": "2026-11-24T04:48:17+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
           "first_seen_at": "2026-11-26T07:19:03+00:00"
+        },
+        {
+          "title": "삼성전자, 임원 승진 줄여도 반도체 챙겼다…70명 발탁(종합) - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sYlpyRE9pV3RybXRYZVBTcDJ0anZrSV80Y3FYR2hXYUFna08tMTl2YVFianJMV1l2MkFxdVhVSU1sZlB1djRGa0xsYUpvZjNzYU5JTEN0MzVCSXPSAWBBVV95cUxNVjBtRXpXVVgzSEpmUjJMZzdKV1JLRG1tUW1xTktsa0M0d3VJWWRvUXBPY3B3bFZ2V25fNnoxQWZtMGV4ZFBjRS13M1NRMkZ1SGJJMFZmTjJRdmlYYWZPeEk?oc=5",
+          "published": "2026-11-24T01:39:20+00:00",
+          "source": "연합뉴스",
+          "source_group": "연합뉴스",
+          "first_seen_at": "2026-11-26T18:20:36+00:00"
         },
         {
           "title": "나이·성별 장벽 허문 삼성전자…30대 상무에 여성 승진 역대 최다 - 머니투데이 - 머니투데이",
@@ -2173,42 +2206,10 @@
           "source": "머니투데이",
           "source_group": "머니투데이",
           "first_seen_at": "2026-11-26T07:19:03+00:00"
-        },
-        {
-          "title": "삼성전자, '최대 실적' 반도체 성과 보상…AI·로봇 인재 전진배치 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4dUpZc3EzU21HWUdYb2R2aExMYXpjT3lwOFh0UVZpd080Wm5taTJjZm1sOEpBZ0F6SFNjemdPRUNmakxJRHBSSGtGWkk3Sno1LXViOGJ6SU42X1hmRDhESzd2bm9PaEpIemZBeNIBckFVX3lxTE1ERnNmczMtNUZ1ZWNtYVdWX21wX1VVZk9ZcXVjdnhKZTJzeTNOVnZqeTNGakJ0VHlfcnREaXFtb0RrOHpYX3JRVFQ4c3NIYl9QR0VESG43Q2JzZFdnalZkdndzajJ1aUdzU2RxZEJuY2h2UQ?oc=5",
-          "published": "2026-11-24T00:57:21+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-11-26T07:19:03+00:00"
-        },
-        {
-          "title": "삼성전자 '최대 실적' 반도체 대거 승진…AI·로봇 인재 전진배치 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4dUpZc3EzU21HWUdYb2R2aExMYXpjT3lwOFh0UVZpd080Wm5taTJjZm1sOEpBZ0F6SFNjemdPRUNmakxJRHBSSGtGWkk3Sno1LXViOGJ6SU42X1hmRDhESzd2bm9PaEpIemZBeNIBckFVX3lxTE1ERnNmczMtNUZ1ZWNtYVdWX21wX1VVZk9ZcXVjdnhKZTJzeTNOVnZqeTNGakJ0VHlfcnREaXFtb0RrOHpYX3JRVFQ4c3NIYl9QR0VESG43Q2JzZFdnalZkdndzajJ1aUdzU2RxZEJuY2h2UQ?oc=5",
-          "published": "2026-11-24T00:57:21+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-11-26T07:19:03+00:00"
-        },
-        {
-          "title": "삼성전자, 임원 승진 19% 줄였지만 반도체선 70명 대거 발탁 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WT3oyWHRmNWpzSGhVR3k4amFDdTBDdWhkNExZZW1lMVd0czdOSmw0WjBsQjhpN1BoclFLR28xWllsQ1FMXzQ4SGNhcnhTUll6QXdMd3I4WTY0OXN6a2V4ddIBYEFVX3lxTE1WT3oyWHRmNWpzSGhVR3k4amFDdTBDdWhkNExZZW1lMVd0czdOSmw0WjBsQjhpN1BoclFLR28xWllsQ1FMXzQ4SGNhcnhTUll6QXdMd3I4WTY0OXN6a2V4dQ?oc=5",
-          "published": "2026-11-24T00:35:43+00:00",
-          "source": "연합뉴스",
-          "source_group": "연합뉴스",
-          "first_seen_at": "2026-11-26T07:19:03+00:00"
-        },
-        {
-          "title": "삼성전자, 131명 임원 승진…작년보다 30명 줄어, 여성은 '역대 최다' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BQkg5Qks2S0YyTnljUUJ0bjRRd1JOSGlpWmhrS0g3Vmc3VThJWmUwVXdVTmxoc1VxTE04OFdtZzh4OHhkdkdzbWczTy10UXF1eFVEblpRTHVOVS1XcXJYNklENVhmUW1DR2c5S9IBckFVX3lxTE9fR1AtZEdYTFFhMjY4V0dkenZDbDFqSFVUME9MRXlqNHlxejhET0NyWktRakgyX2dUaFlyNjRlTFhMV29ISUdldUgxdnBvN2lxckZEOWdEREJlbm0wLUxPandRaHNQZEZERWU2N3JvMTZydw?oc=5",
-          "published": "2026-11-24T00:21:50+00:00",
-          "source": "머니투데이",
-          "source_group": "머니투데이",
-          "first_seen_at": "2026-11-26T07:19:03+00:00"
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:52+00:00",
+      "checked_at": "2026-11-26T18:20:36+00:00",
       "news_status": "ok"
     },
     "000660": {
@@ -2237,7 +2238,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:58+00:00",
+      "checked_at": "2026-11-26T18:20:43+00:00",
       "news_status": "ok"
     },
     "019170": {
@@ -2332,7 +2333,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:54+00:00",
+      "checked_at": "2026-11-26T18:20:38+00:00",
       "news_status": "no_articles"
     },
     "012210": {
@@ -2375,7 +2376,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:04+00:00",
+      "checked_at": "2026-11-26T18:20:48+00:00",
       "news_status": "ok"
     },
     "012330": {
@@ -2398,7 +2399,7 @@
         },
         {
           "title": "현대모비스, 대규모 해외수주 봇물…올해 20조 달성 기대 - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2dzA1VmxsV2txWDlmTTc3RlNPWTd3QU4zY3hVa0Z6Zy1PRTMtQkt6c0x5U3ltX3lzOGJ5R0hKMDRZZVhMeFJTZHVJOHhxcFZ0UklnbTRCZ1h2REF1enZLTtIBYEFVX3lxTFA2dzA1VmxsV2txWDlmTTc3RlNPWTd3QU4zY3hVa0Z6Zy1PRTMtQkt6c0x5U3ltX3lzOGJ5R0hKMDRZZVhMeFJTZHVJOHhxcFZ0UklnbTRCZ1h2REF1enZLTg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lSTRsMDh0M0Q3REwtalBHUldJUjZURDdSeEZTVElQZ2VwOUgtbE54WnZ2WW51emt5UlJGeXA1UmMwbl95SHBKSU9hNVV6dTAwM0RJVmNqcnc3WFXSAWBBVV95cUxQNncwNVZsbFdrcVg5Zk03N0ZTT1k3d0FOM2N4VWtGemctT0UzLUJLenNMeVN5bV95czhieUdISjA0WWVYTHhSU2R1STh4cXBWdFJJZ200QmdYdkRBdXp2S04?oc=5",
           "published": "2026-11-25T02:00:06+00:00",
           "source": "연합뉴스",
           "source_group": "연합뉴스",
@@ -2414,7 +2415,7 @@
         },
         {
           "title": "[종목상담 주식민원처리반] 로봇사업 확장 기대 '현대모비스' - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16VHdreFk3ZjVmUUdPR2VMb0VjWUpTTVVhYy10VDdESHliTzZwVWlsUkplbWhTdnFIc2xYWnFnNGFWazc2RU5reHFvOGpTUWpKdERBRnliVVkxWkZoUFI2NUtMMWxWQVN3bHNXX29B0gFuQVVfeXFMTXpUd2t4WTdmNWZRR09HZUxvRWNZSlNNVWFjLXRUN0RIeWJPNnBVaWxSSmVtaFN2cUhzbFhacWc0YVZrNzZFTmt4cW84alNRakp0REFGeWJVWTFaRmhQUjY1S0wxbFZBU3dsc1dfb0E?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jRjIxbkpRSV9qR1VZLTBSZ2d0RlBHSmd6WmNIZ0N1dDh3dW9jejVfWURBQVRfdEd4dVYzdTlhMGZlNUFrVFZuWDE1X1pqSWN5dHBVc21IOHRxc3BmeERZVkFVSmV3Q1Js0gFuQVVfeXFMTXpUd2t4WTdmNWZRR09HZUxvRWNZSlNNVWFjLXRUN0RIeWJPNnBVaWxSSmVtaFN2cUhzbFhacWc0YVZrNzZFTmt4cW84alNRakp0REFGeWJVWTFaRmhQUjY1S0wxbFZBU3dsc1dfb0E?oc=5",
           "published": "2026-11-24T10:30:58+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -2430,7 +2431,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:01+00:00",
+      "checked_at": "2026-11-26T18:20:46+00:00",
       "news_status": "ok"
     },
     "098460": {
@@ -2512,7 +2513,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:01+00:00",
+      "checked_at": "2026-11-26T18:20:45+00:00",
       "news_status": "ok"
     },
     "050890": {
@@ -2545,7 +2546,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:00+00:00",
+      "checked_at": "2026-11-26T18:20:45+00:00",
       "news_status": "ok"
     },
     "041960": {
@@ -2706,7 +2707,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:58+00:00",
+      "checked_at": "2026-11-26T18:20:42+00:00",
       "news_status": "ok"
     },
     "095700": {
@@ -2790,7 +2791,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:51+00:00",
+      "checked_at": "2026-11-26T18:20:36+00:00",
       "news_status": "no_articles"
     },
     "097800": {
@@ -2899,7 +2900,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:51+00:00",
+      "checked_at": "2026-11-26T18:20:35+00:00",
       "news_status": "no_articles"
     },
     "036540": {
@@ -3020,7 +3021,7 @@
       "news_reasons": [],
       "news": [],
       "errors": [],
-      "checked_at": "2026-11-26T08:11:53+00:00",
+      "checked_at": "2026-11-26T18:20:38+00:00",
       "news_status": "no_articles"
     },
     "028050": {
@@ -3043,7 +3044,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:04+00:00",
+      "checked_at": "2026-11-26T18:20:48+00:00",
       "news_status": "ok"
     },
     "180640": {
@@ -3064,7 +3065,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:05+00:00",
+      "checked_at": "2026-11-26T18:20:49+00:00",
       "news_status": "ok"
     },
     "950260": {
@@ -3077,7 +3078,7 @@
       "news": [
         {
           "title": "[여의도 투자본부 2부] 인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzLVFRaXFmenpVZF9SaDFxT3pQaldHZGFrMk9QZTdCUGE2ZnQ3X1pfTjNyTW9DUXNIYUVDYlpGNzdmZXc5cEZwM0l6cHBOY2ZKLUpIdVhCZV9Pak5JaG9EbGJRWlEtaUt5YVdjVzZ30gFuQVVfeXFMUHMtUVFpcWZ6elVkX1JoMXFPelBqV0dkYWsyT1BlN0JQYTZmdDdfWl9OM3JNb0NRc0hhRUNiWkY3N2ZldzlwRnAzSXpwcE5jZkotSkh1WEJlX09qTklob0RsYlFaUS1pS3lhV2NXNnc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11b3lLbk12eFJvSDVMNDdkb29UU0FKRmwycGs3TWZiNmZpQXFtS2VhdWltV2NlRERHcldDUmpNM0xpUWZIdnJjcU41YjFNeDRiZW1JdGYwaEVfVUdubl9lQ3QtUnNzT3pX0gFuQVVfeXFMUHMtUVFpcWZ6elVkX1JoMXFPelBqV0dkYWsyT1BlN0JQYTZmdDdfWl9OM3JNb0NRc0hhRUNiWkY3N2ZldzlwRnAzSXpwcE5jZkotSkh1WEJlX09qTklob0RsYlFaUS1pS3lhV2NXNnc?oc=5",
           "published": "2026-11-25T21:58:01+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -3085,7 +3086,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:05+00:00",
+      "checked_at": "2026-11-26T18:20:49+00:00",
       "news_status": "ok"
     },
     "192820": {
@@ -3098,7 +3099,7 @@
       "news": [
         {
           "title": "[여의도 투자본부 2부] 인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzLVFRaXFmenpVZF9SaDFxT3pQaldHZGFrMk9QZTdCUGE2ZnQ3X1pfTjNyTW9DUXNIYUVDYlpGNzdmZXc5cEZwM0l6cHBOY2ZKLUpIdVhCZV9Pak5JaG9EbGJRWlEtaUt5YVdjVzZ30gFuQVVfeXFMUHMtUVFpcWZ6elVkX1JoMXFPelBqV0dkYWsyT1BlN0JQYTZmdDdfWl9OM3JNb0NRc0hhRUNiWkY3N2ZldzlwRnAzSXpwcE5jZkotSkh1WEJlX09qTklob0RsYlFaUS1pS3lhV2NXNnc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11b3lLbk12eFJvSDVMNDdkb29UU0FKRmwycGs3TWZiNmZpQXFtS2VhdWltV2NlRERHcldDUmpNM0xpUWZIdnJjcU41YjFNeDRiZW1JdGYwaEVfVUdubl9lQ3QtUnNzT3pX0gFuQVVfeXFMUHMtUVFpcWZ6elVkX1JoMXFPelBqV0dkYWsyT1BlN0JQYTZmdDdfWl9OM3JNb0NRc0hhRUNiWkY3N2ZldzlwRnAzSXpwcE5jZkotSkh1WEJlX09qTklob0RsYlFaUS1pS3lhV2NXNnc?oc=5",
           "published": "2026-11-25T21:58:01+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -3106,7 +3107,7 @@
         },
         {
           "title": "코스맥스, 미국 타임 선정 '세계 최고 지속가능 성장기업' 2년 연속 선정 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PQ21wQWJNbk4zbmloUGF1NllxMXZMRmJoOTJRZjFZbjl5M203NTd2SFZaQkg1UG1ZSVZQTmtGQnpiMzJSWnNxUVdZTm9xWmMwMmVhZzhxSzNGMUZkSklJX0dBdnpGSEN5Zk9vS3B5MnpDeEdoVi1Z0gF8QVVfeXFMTXlGUUg3eXFWbE90T2UtOWJVaVZUS0NWUmxmS1d5cDlvSktuNWJGdG81RHE5RGxNTm9UZkxqNTQxZHVNU0RFYXZGbUVZQjBuVC1DR1RISkU1S0twTlI3QW5KdGdsOHRRTWhzT05Fc0Jjc1c3Sk41M3FKZjNyag?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpUkpyTGllVlJ4enZIRFJUd1Byc0dlZ19fQlNVYllVTkpsQ250aUd6SWdDaXlrckZNZklnOEp0SldkSkRHbHlZMjJHZUMwTmtERDVYU0lvNWw4cW9QQUpnQjc4ZUlaRDFmb1NzZkV4QdIBb0FVX3lxTFBpUkpyTGllVlJ4enZIRFJUd1Byc0dlZ19fQlNVYllVTkpsQ250aUd6SWdDaXlrckZNZklnOEp0SldkSkRHbHlZMjJHZUMwTmtERDVYU0lvNWw4cW9QQUpnQjc4ZUlaRDFmb1NzZkV4QQ?oc=5",
           "published": "2026-11-24T07:05:36+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -3114,7 +3115,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:06+00:00",
+      "checked_at": "2026-11-26T18:20:50+00:00",
       "news_status": "ok"
     },
     "307950": {
@@ -3127,7 +3128,7 @@
       "news": [
         {
           "title": "[여의도 투자본부 2부] 인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzLVFRaXFmenpVZF9SaDFxT3pQaldHZGFrMk9QZTdCUGE2ZnQ3X1pfTjNyTW9DUXNIYUVDYlpGNzdmZXc5cEZwM0l6cHBOY2ZKLUpIdVhCZV9Pak5JaG9EbGJRWlEtaUt5YVdjVzZ30gFuQVVfeXFMUHMtUVFpcWZ6elVkX1JoMXFPelBqV0dkYWsyT1BlN0JQYTZmdDdfWl9OM3JNb0NRc0hhRUNiWkY3N2ZldzlwRnAzSXpwcE5jZkotSkh1WEJlX09qTklob0RsYlFaUS1pS3lhV2NXNnc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11b3lLbk12eFJvSDVMNDdkb29UU0FKRmwycGs3TWZiNmZpQXFtS2VhdWltV2NlRERHcldDUmpNM0xpUWZIdnJjcU41YjFNeDRiZW1JdGYwaEVfVUdubl9lQ3QtUnNzT3pX0gFuQVVfeXFMUHMtUVFpcWZ6elVkX1JoMXFPelBqV0dkYWsyT1BlN0JQYTZmdDdfWl9OM3JNb0NRc0hhRUNiWkY3N2ZldzlwRnAzSXpwcE5jZkotSkh1WEJlX09qTklob0RsYlFaUS1pS3lhV2NXNnc?oc=5",
           "published": "2026-11-25T21:58:01+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -3135,7 +3136,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:06+00:00",
+      "checked_at": "2026-11-26T18:20:51+00:00",
       "news_status": "ok"
     },
     "108490": {
@@ -3148,7 +3149,7 @@
       "news": [
         {
           "title": "[여의도 투자본부 2부] 인제니아테라퓨틱스 vs 코스맥스 vs 현대오토에버 vs 로보티즈, 공략법은? - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzLVFRaXFmenpVZF9SaDFxT3pQaldHZGFrMk9QZTdCUGE2ZnQ3X1pfTjNyTW9DUXNIYUVDYlpGNzdmZXc5cEZwM0l6cHBOY2ZKLUpIdVhCZV9Pak5JaG9EbGJRWlEtaUt5YVdjVzZ30gFuQVVfeXFMUHMtUVFpcWZ6elVkX1JoMXFPelBqV0dkYWsyT1BlN0JQYTZmdDdfWl9OM3JNb0NRc0hhRUNiWkY3N2ZldzlwRnAzSXpwcE5jZkotSkh1WEJlX09qTklob0RsYlFaUS1pS3lhV2NXNnc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11b3lLbk12eFJvSDVMNDdkb29UU0FKRmwycGs3TWZiNmZpQXFtS2VhdWltV2NlRERHcldDUmpNM0xpUWZIdnJjcU41YjFNeDRiZW1JdGYwaEVfVUdubl9lQ3QtUnNzT3pX0gFuQVVfeXFMUHMtUVFpcWZ6elVkX1JoMXFPelBqV0dkYWsyT1BlN0JQYTZmdDdfWl9OM3JNb0NRc0hhRUNiWkY3N2ZldzlwRnAzSXpwcE5jZkotSkh1WEJlX09qTklob0RsYlFaUS1pS3lhV2NXNnc?oc=5",
           "published": "2026-11-25T21:58:01+00:00",
           "source": "머니투데이",
           "source_group": "머니투데이",
@@ -3164,7 +3165,7 @@
         }
       ],
       "errors": [],
-      "checked_at": "2026-11-26T08:12:07+00:00",
+      "checked_at": "2026-11-26T18:20:51+00:00",
       "news_status": "ok"
     }
   },
@@ -6296,8 +6297,8 @@
     }
   ],
   "theme_method": "최근 7일 기사·공시 제목 기반. 기업 업종 및 직접 수혜 확정 아님.",
-  "watch_checked_at": "2026-11-26T08:12:07+00:00",
+  "watch_checked_at": "2026-11-26T18:20:51+00:00",
   "manual_updated_at": null,
   "manual_updated_codes": [],
-  "watch_generated_at": "2026-11-26T08:12:07+00:00"
+  "watch_generated_at": "2026-11-26T18:20:51+00:00"
 }
