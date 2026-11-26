@@ -1417,21 +1417,25 @@ if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serv
   return n.stocks?.[String(stock.code)]?.news||[];
  }
  function renderStatus(){
-  const ns=freshness(n.generated_at),fs=freshness(f.generated_at);
+  const newsAt=n.watch_generated_at||n.watch_checked_at||n.generated_at;
+  const flowAt=f.generated_at;
+  const ns=freshness(newsAt),fs=freshness(flowAt);
   const manualNewsAt=n.manual_updated_at||null,manualFlowAt=f.manual_updated_at||null;
-  const manualCodes=[...new Set([...(n.manual_updated_codes||[]),...(f.manual_updated_codes||[])])];
-  const manualNames=manualCodes.map(code=>list.find(x=>String(x.code)===String(code))?.name||code);
+  const rawManualCodes=[...new Set([...(n.manual_updated_codes||[]),...(f.manual_updated_codes||[])])];
   const manualAt=[manualNewsAt,manualFlowAt].filter(Boolean).sort().pop()||null;
+  const latestFull=[newsAt,flowAt].filter(Boolean).sort().pop()||null;
+  const manualCodes=manualAt&&latestFull&&new Date(manualAt)>new Date(latestFull)?rawManualCodes:[];
+  const manualNames=manualCodes.map(code=>list.find(x=>String(x.code)===String(code))?.name||code);
   const manualState=freshness(manualAt);
   el('nfStatusBar').innerHTML=
-   '<span class="nfStatusItem"><b>전체 뉴스</b> '+shortDate(n.generated_at)+' <span class="nfState '+ns.cls+'">'+ns.label+'</span></span>'+
-   '<span class="nfStatusItem"><b>전체 수급</b> '+shortDate(f.generated_at)+' <span class="nfState '+fs.cls+'">'+fs.label+'</span></span>'+
+   '<span class="nfStatusItem"><b>관심종목 뉴스</b> '+shortDate(newsAt)+' <span class="nfState '+ns.cls+'">'+ns.label+'</span></span>'+
+   '<span class="nfStatusItem"><b>관심종목 수급</b> '+shortDate(flowAt)+' <span class="nfState '+fs.cls+'">'+fs.label+'</span></span>'+
    (manualCodes.length?'<span class="nfStatusItem"><b>개별 보정</b> '+shortDate(manualAt)+' <span class="nfState '+manualState.cls+'">'+manualState.label+'</span> · '+escapeHtml(manualNames.join(' / '))+'</span>':'')+
    '<span class="nfStatusItem"><b>관심종목</b> '+list.length+'개</span>';
   const stale=ns.cls==='old'||fs.cls==='old';
   el('nfNotice').hidden=!stale;
   el('nfNotice').textContent=stale
-   ?('주의 · 전체 뉴스/수급 데이터는 오래됐습니다.'+(manualCodes.length?' 다만 '+manualNames.join(', ')+'은 '+shortDate(manualAt)+' 기준으로 개별 최신 보정했습니다.':'')+' 전체 자동수집은 매시간 05분에 재시도합니다.')
+   ?('주의 · 관심종목 뉴스/수급 데이터가 오래됐습니다.'+(manualCodes.length?' 다만 '+manualNames.join(', ')+'은 '+shortDate(manualAt)+' 기준으로 개별 최신 보정했습니다.':'')+' 전체 자동수집은 매시간 05분에 재시도합니다.')
    :'';
  }
  function cardHtml(stock){
