@@ -1,61 +1,22 @@
 <!doctype html>
 <html lang="ko">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>DOTS Coffee Works · Design Archive</title>
-<style>
-:root{--blue:#89CFF0;--ink:#111;--ivory:#F6F1E8;--line:#c8c1b7;--muted:#625f59}
-*{box-sizing:border-box}body{margin:0;background:var(--ivory);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}
-.wrap{width:min(1180px,100%);margin:auto;padding:28px 22px 70px}.back{color:var(--ink);text-decoration:none;font-weight:900}
-header{padding:54px 0 28px;border-bottom:3px solid var(--ink)}.eyebrow{font-size:12px;font-weight:900;letter-spacing:.18em;color:#4385a2}
-h1{font-family:Impact,"Arial Black",sans-serif;font-size:clamp(48px,10vw,112px);line-height:.82;letter-spacing:-.055em;margin:15px 0 22px}
-.lead{max-width:760px;font-size:16px;line-height:1.65}.brand{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:26px 0}
-.rule{border:2px solid var(--ink);padding:14px;background:#fff}.rule b{display:block;font-size:12px;margin-bottom:7px}.swatch{height:32px;background:var(--blue);border:1px solid #78b9d8;margin-bottom:8px}
-.filters{display:flex;flex-wrap:wrap;gap:8px;padding:24px 0}.filters button{appearance:none;border:2px solid var(--ink);background:transparent;padding:9px 13px;font-weight:900;cursor:pointer}.filters button.active{background:var(--blue)}
-.summary{margin:0 0 28px;padding:16px 18px;background:#111;color:#fff;line-height:1.6}.summary strong{color:var(--blue)}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{margin:0;border:2px solid var(--ink);background:#fff;box-shadow:6px 6px 0 var(--blue)}
-.card img{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;background:#f2eee7}.card figcaption{padding:13px 14px 16px;border-top:2px solid var(--ink)}
-.no{font-size:12px;font-weight:900;color:#397c99;letter-spacing:.1em}.title{font-size:17px;font-weight:900;margin:4px 0}.tag{font-size:12px;color:var(--muted)}
-.note{margin-top:38px;border-top:3px solid var(--ink);padding-top:20px;line-height:1.7}.hidden{display:none}
-@media(max-width:760px){.brand{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr 1fr}}
-@media(max-width:520px){.brand,.grid{grid-template-columns:1fr}header{padding-top:38px}}
-</style></head>
-<body><main class="wrap"><a class="back" href="index.html">← 대시보드</a>
-<header><div class="eyebrow">BRAND DESIGN ARCHIVE · 2026</div><h1>DOTS<br>COFFEE WORKS</h1>
-<p class="lead">점에서 시작해 기본기를 쌓고, 새로운 관점으로 확장하는 닷츠의 로고·브랜딩 개발 기록. 완성안뿐 아니라 폐기한 시안과 그 이유도 남겨 다음 판단의 기준으로 사용한다.</p></header>
-<section class="brand">
-<div class="rule"><div class="swatch"></div><b>MAIN COLOR</b>Baby Blue Mist · #89CFF0</div>
-<div class="rule"><b>CORE IDEA</b>DOTS → 기본기 → 확장된 생각</div>
-<div class="rule"><b>GOOD DIRECTION</b>굵은 타이포 · 행동하는 인물 · 단색 · 손맛</div>
-<div class="rule"><b>AVOID</b>치즈 같은 원형 구멍 · 앱 아이콘 느낌 · 무난한 기업 심벌</div>
-</section>
-<nav class="filters"><button class="active" data-filter="all">전체 36</button><button data-filter="explore">초기 탐색</button><button data-filter="symbol">심벌 실험</button><button data-filter="character">캐릭터·타이포</button><button data-filter="mockup">색상·적용 목업</button><button data-filter="font">최근 폰트 로고</button><button data-filter="emblem">문양 엠블럼</button></nav>
-<p class="summary"><strong>현재 기준:</strong> 베이비 블루 #89CFF0를 메인으로 사용하며, 검정 #111111과 소프트 아이보리 #F6F1E8는 보조색으로만 사용한다. 기존 폰트 작업과 문양 엠블럼을 함께 보존하되 서로 다른 분류로 비교한다. 유아틱한 꽃·바람개비형 문양은 폐기 후보로 기록한다.</p>
-<section class="grid" id="gallery"></section>
-<section class="note"><b>다음 작업</b><br>참고할 엠블럼을 수집한 뒤 형태의 무게감·대칭 방식·선과 면의 비율을 분석한다. 기존 폰트 작업은 유지하고, 문양은 그대로 복제하지 않은 닷츠 전용 상징으로 발전시킨다.</section>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f1e8">
+<title>닷츠 디자인 보관함 · 골라서 보내기</title><meta name="description" content="닷츠의 기존 시안을 크게 보고 직접 선택해 ChatGPT에 전달하는 디자인 보관함.">
+<link rel="stylesheet" href="assets/dots/archive.css?v=20261127">
+<script defer src="assets/dots/flat-gallery-1.js"></script><script defer src="assets/dots/flat-gallery-2.js"></script><script defer src="assets/dots/flat-gallery-3.js"></script><script defer src="assets/dots/flat-gallery-4.js"></script><script defer src="assets/dots/flat-gallery-5.js"></script><script defer src="assets/dots/flat-gallery-6.js"></script><script defer src="assets/dots/flat-gallery-7.js"></script><script defer src="assets/dots/archive-data.js?v=20261127"></script><script defer src="assets/dots/archive-core.js?v=20261127"></script><script defer src="assets/dots/archive.js?v=20261127"></script>
+</head>
+<body>
+<header class="topbar"><a class="wordmark" href="dots.html">DOTS<span>COFFEE WORKS</span></a><a class="dashboard" href="index.html">내 공간으로 ↗</a></header>
+<main>
+<section class="intro"><div><p class="eyebrow">THE DESIGN ARCHIVE / 2026</p><h1>마음에 드는 것부터,<br><span>하나씩 골라요.</span></h1><p class="intro-copy">로고 하나, 컵의 글씨, 봉투의 색감까지.<br>기존 시안을 고르고 원하는 부분을 적어 보내주세요.</p></div><div class="intro-right"><span class="big-dot" aria-hidden="true"></span><p><strong id="photo-total">사진 불러오는 중</strong><br><span id="archive-scope">원본을 확인한 사진만 표시해요.</span></p><a href="#missing">빠진 날짜 확인 ↘</a></div></section>
+<a class="coverage" href="#missing">사진 원본 미확보: 10월 14일~11월 8일 · 날짜별 목록 보기 ↘</a><div class="workspace"><aside class="sidebar"><p class="section-label">모아보기</p><nav id="categories" aria-label="시안 종류"></nav><div class="side-note"><span>01 → 02 → 03</span><p>사진 선택<br>원하는 부분 메모<br>ChatGPT에 보내기</p></div></aside>
+<section class="gallery-section" aria-label="시안 사진"><div class="tools"><label class="search"><span aria-hidden="true">⌕</span><input type="search" id="search" placeholder="이름, 날짜, 번호로 찾기" aria-label="시안 검색"></label><select id="month" aria-label="월별 보기"><option value="all">모든 날짜</option></select><select id="sort" aria-label="정렬"><option value="new">최신순</option><option value="number">번호순</option><option value="old">오래된순</option></select></div><div class="result-bar"><p id="result-count" role="status">시안을 불러오고 있어요.</p><button id="selected-only" aria-pressed="false">선택한 것만 <b id="selected-badge">0</b></button></div><div id="gallery" class="gallery"></div><div id="empty" class="empty" hidden><p>해당하는 시안이 없어요.</p><button id="reset-filters">필터 초기화</button></div><p id="load-error" class="load-error" hidden>사진 목록을 불러오지 못했어요. 페이지를 새로고침해 주세요.</p><section class="missing" id="missing"><div class="missing-heading"><span class="missing-icon" aria-hidden="true">!</span><div><h2>아직 빠져 있는 시안</h2><p>10월 14일~11월 8일은 콘셉트 기록만 확인됐고, 사진 원본을 확보하지 못했어요. 아래 목록은 사진 수에 포함하지 않았어요.</p></div></div><details><summary>원본을 기다리는 날짜별 콘셉트 <span id="missing-count"></span></summary><div class="missing-list" id="missing-list"></div></details></section></section></div>
+<section id="selection" class="selection" aria-label="선택한 시안과 전달 내용"><div class="selection-heading"><div><p class="eyebrow">YOUR SELECTION</p><h2>고른 시안 <span id="selection-count">0</span></h2></div><div class="small-actions"><button id="save-top" disabled>선택 저장</button><button id="import-open">저장한 선택 불러오기</button><button id="clear-selection">선택 비우기</button></div></div><p id="selection-empty">사진 아래 체크칸을 누르면 여기에 모여요. 선택은 이 브라우저에 자동 저장돼요.</p><div id="selection-list" class="selection-list"></div><label class="request-label" for="request">전체 요청 내용</label><textarea id="request" rows="3" maxlength="10000" placeholder="예: 고른 시안의 글씨는 유지하고, 봉투는 아이보리로 바꿔줘."></textarea><p class="storage-note" id="storage-note">선택은 이 기기의 브라우저에 저장돼요. 다른 기기에서 이어가려면 ‘선택 저장’을 이용해 주세요.</p><input id="import-file" type="file" accept=".json,application/json" hidden></section>
+<footer><span>DOTS COFFEE WORKS / 디자인 보관함</span><span>선택한 시안은 사용자가 확정하기 전까지 최종안이 아니에요.</span></footer>
 </main>
-
-<script src="assets/dots/flat-gallery-1.js"></script><script src="assets/dots/flat-gallery-2.js"></script><script src="assets/dots/flat-gallery-3.js"></script><script src="assets/dots/flat-gallery-4.js"></script><script src="assets/dots/flat-gallery-5.js"></script><script src="assets/dots/flat-gallery-6.js"></script><script src="assets/dots/flat-gallery-7.js"></script>
-<script>
-const labels=[
-["초기 방향 01","explore"],["초기 방향 02","explore"],["초기 방향 03","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],["브랜딩 적용 탐색","explore"],
-["로스트 커브","symbol"],["독립 심벌 탐색","symbol"],["점과 기반 실험","symbol"],["점과 기반 실험","symbol"],["언밸런스 심벌","symbol"],["이동한 기초점","symbol"],["단색 심벌","symbol"],
-["행동하는 DOTS 01","character"],["행동하는 DOTS 02","character"],["지용 캐릭터 적용","character"],["점을 딛는 제작자","character"],["기준점을 맞추는 제작자","character"],["로스터의 교정선","character"],["터닝 포인트","character"],["타이포 발전안","character"],["타이포 발전안","character"],["공정의 레이어","character"],
-["베이비 블루 수정","mockup"],["컵 적용 목업","mockup"],["투명 뚜껑 적용","mockup"],["로스팅 배치 기준점","mockup"],["로스팅 배치 아카이브","mockup"],["패키지 적용안","mockup"]
-];
-const category={explore:"초기 탐색",symbol:"심벌 실험",character:"캐릭터·타이포",mockup:"색상·적용 목업",font:"최근 폰트 로고",emblem:"문양 엠블럼"};
-const gallery=document.getElementById("gallery");
-const excluded=new Set([5,17,27]);
-const curated=window.DOTS_IMAGES.map((src,i)=>({src,label:labels[i]})).filter((_,i)=>!excluded.has(i));
-const recent=[
-{src:"assets/dots/recent/font-calibration-line.jpg",label:["CALIBRATION LINE","font"],status:"2026-08-29 · 폰트 작업"},
-{src:"assets/dots/recent/font-roast-ledger.jpg",label:["ROAST LEDGER","font"],status:"2026-08-30 · 폰트 작업"},
-{src:"assets/dots/recent/font-letterpress-mark.jpg",label:["LETTERPRESS MAKER'S MARK","font"],status:"2026-08-31 · 폰트 작업"},
-{src:"assets/dots/recent/emblem-expanding-planes.jpg",label:["확장되는 네 개의 면","emblem"],status:"폐기 후보 · 유아틱한 바람개비 인상"},
-{src:"assets/dots/recent/emblem-maker-mark.jpg",label:["비대칭 메이커 마크","emblem"],status:"검토 보류 · 기업 심벌 인상"},
-{src:"assets/dots/recent/emblem-architectural-mark.jpg",label:["건축형 각인 문양","emblem"],status:"검토 보류 · 참고 엠블럼 수집 후 재설계"}
-];
-const allItems=[...curated,...recent];
-gallery.innerHTML=allItems.map(({src,label,status},i)=>{const [title,type]=label||["추가 시안","explore"];return `<figure class="card" data-type="${type}"><img src="${src}" loading="lazy" alt="DOTS Coffee Works 시안 ${i+1}"><figcaption><div class="no">CONCEPT ${String(i+1).padStart(2,"0")}</div><div class="title">${title}</div><div class="tag">${category[type]} · ${status||"작업 기록 보존"}</div></figcaption></figure>`}).join("");
-document.querySelectorAll(".filters button").forEach(btn=>btn.addEventListener("click",()=>{document.querySelector(".filters .active").classList.remove("active");btn.classList.add("active");const f=btn.dataset.filter;document.querySelectorAll(".card").forEach(c=>c.classList.toggle("hidden",f!=="all"&&c.dataset.type!==f))}));
-</script></body></html>
+<div class="actionbar"><a href="#selection" class="selection-summary"><span class="selection-symbol" aria-hidden="true">✓</span><strong><span id="sticky-count">0</span>개 선택</strong><span class="summary-hint">선택 목록 보기 ↑</span></a><div class="actions"><button id="save-selection" disabled>선택 저장</button><button id="copy-request" disabled>요청 복사</button><button id="send-chatgpt" class="primary" disabled>ChatGPT에 보내기 ↗</button></div></div>
+<dialog id="lightbox" class="lightbox"><div class="lightbox-head"><strong id="lightbox-title"></strong><button id="lightbox-close" aria-label="확대 사진 닫기">닫기 ×</button></div><img id="lightbox-image" alt=""><div class="lightbox-foot"><button id="lightbox-prev" aria-label="이전 사진">← 이전</button><label><input id="lightbox-check" type="checkbox"> 이 시안 선택</label><a id="lightbox-original" target="_blank" rel="noopener">큰 사진 열기 ↗</a><button id="lightbox-next" aria-label="다음 사진">다음 →</button></div></dialog>
+<dialog id="handoff" class="handoff"><p class="eyebrow">READY TO SEND</p><h2 id="handoff-title">선택한 내용을 전달해요.</h2><p id="handoff-help">아래 내용이 복사됐어요. 채팅에서 붙여넣고 전송해 주세요.</p><textarea id="handoff-text" rows="10" readonly aria-label="ChatGPT에 전달할 요청"></textarea><div class="handoff-actions"><button id="handoff-copy">다시 복사</button><a id="handoff-chat" class="button primary" href="https://chatgpt.com/c/6acec6ae-0cb4-83ee-b378-ab27c119a7d3" target="_blank" rel="noopener">이 대화 열기 ↗</a><button id="handoff-close">닫기</button></div><p class="fine-print">버튼이 채팅을 자동 전송하지는 않아요. 붙여넣고 전송하면 선택한 사진 번호와 링크가 함께 전달돼요.</p></dialog>
+<div class="toast" id="toast" role="status" hidden></div><noscript><p>사진 선택 기능을 사용하려면 브라우저에서 JavaScript를 켜 주세요.</p></noscript>
+</body></html>
