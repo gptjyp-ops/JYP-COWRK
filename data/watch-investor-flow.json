@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T02:07:04+00:00",
+  "generated_at": "2026-11-27T11:59:33+00:00",
   "source": "네이버 증권 공개 투자자별 매매동향",
   "unit": "shares",
   "stocks": {
@@ -7,20 +7,20 @@
       "code": "105740",
       "name": "디케이락",
       "fixed_watch": true,
-      "foreign5": 108679,
-      "inst5": 218,
+      "foreign5": 77588,
+      "inst5": 151,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:51+00:00",
-      "checked_at": "2026-11-27T02:06:51+00:00"
+      "collected_at": "2026-11-27T11:59:20+00:00",
+      "checked_at": "2026-11-27T11:59:20+00:00"
     },
     "347700": {
       "code": "347700",
@@ -32,39 +32,39 @@
       "mtn_part": "1부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/588/replay/c6121fb5-a1f2-1f3c-81a1-f3d4cc15003b",
-      "foreign5": 217897,
-      "inst5": 537605,
+      "foreign5": 413204,
+      "inst5": 628597,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:51+00:00",
-      "checked_at": "2026-11-27T02:06:51+00:00"
+      "collected_at": "2026-11-27T11:59:20+00:00",
+      "checked_at": "2026-11-27T11:59:20+00:00"
     },
     "024840": {
       "code": "024840",
       "name": "KBI메탈",
       "fixed_watch": true,
-      "foreign5": 189028,
+      "foreign5": 352408,
       "inst5": 0,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:51+00:00",
-      "checked_at": "2026-11-27T02:06:51+00:00"
+      "collected_at": "2026-11-27T11:59:20+00:00",
+      "checked_at": "2026-11-27T11:59:20+00:00"
     },
     "218410": {
       "code": "218410",
@@ -76,514 +76,514 @@
       "mtn_part": "2부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f",
-      "foreign5": -143882,
-      "inst5": 261794,
+      "foreign5": -310281,
+      "inst5": 525071,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:51+00:00",
-      "checked_at": "2026-11-27T02:06:51+00:00"
+      "collected_at": "2026-11-27T11:59:20+00:00",
+      "checked_at": "2026-11-27T11:59:20+00:00"
     },
     "032500": {
       "code": "032500",
       "name": "케이엠더블유",
       "fixed_watch": true,
-      "foreign5": 63504,
-      "inst5": 188548,
+      "foreign5": 130050,
+      "inst5": 397691,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:52+00:00",
-      "checked_at": "2026-11-27T02:06:52+00:00"
+      "collected_at": "2026-11-27T11:59:21+00:00",
+      "checked_at": "2026-11-27T11:59:21+00:00"
     },
     "036930": {
       "code": "036930",
       "name": "주성엔지니어링",
       "fixed_watch": true,
-      "foreign5": -62535,
-      "inst5": 54770,
+      "foreign5": 281457,
+      "inst5": 269094,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:52+00:00",
-      "checked_at": "2026-11-27T02:06:52+00:00"
+      "collected_at": "2026-11-27T11:59:21+00:00",
+      "checked_at": "2026-11-27T11:59:21+00:00"
     },
     "005930": {
       "code": "005930",
       "name": "삼성전자",
       "fixed_watch": true,
-      "foreign5": -6297985,
-      "inst5": 836312,
+      "foreign5": -1443049,
+      "inst5": 3247125,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:52+00:00",
-      "checked_at": "2026-11-27T02:06:52+00:00"
+      "collected_at": "2026-11-27T11:59:21+00:00",
+      "checked_at": "2026-11-27T11:59:21+00:00"
     },
     "189300": {
       "code": "189300",
       "name": "인텔리안테크",
       "fixed_watch": true,
-      "foreign5": -45066,
-      "inst5": 49675,
+      "foreign5": -72923,
+      "inst5": 134389,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:52+00:00",
-      "checked_at": "2026-11-27T02:06:52+00:00"
+      "collected_at": "2026-11-27T11:59:21+00:00",
+      "checked_at": "2026-11-27T11:59:21+00:00"
     },
     "214450": {
       "code": "214450",
       "name": "파마리서치",
       "fixed_watch": true,
-      "foreign5": 5910,
-      "inst5": 33479,
+      "foreign5": 10014,
+      "inst5": 38685,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:53+00:00",
-      "checked_at": "2026-11-27T02:06:53+00:00"
+      "collected_at": "2026-11-27T11:59:22+00:00",
+      "checked_at": "2026-11-27T11:59:22+00:00"
     },
     "0161M0": {
       "code": "0161M0",
       "name": "네오사피엔스",
       "fixed_watch": true,
-      "foreign5": 31900,
-      "inst5": 655,
+      "foreign5": 98055,
+      "inst5": 466,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:53+00:00",
-      "checked_at": "2026-11-27T02:06:53+00:00"
+      "collected_at": "2026-11-27T11:59:22+00:00",
+      "checked_at": "2026-11-27T11:59:22+00:00"
     },
     "024060": {
       "code": "024060",
       "name": "흥구석유",
       "fixed_watch": true,
-      "foreign5": 87678,
-      "inst5": 46,
+      "foreign5": 154212,
+      "inst5": 51,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:53+00:00",
-      "checked_at": "2026-11-27T02:06:53+00:00"
+      "collected_at": "2026-11-27T11:59:22+00:00",
+      "checked_at": "2026-11-27T11:59:22+00:00"
     },
     "396300": {
       "code": "396300",
       "name": "HT로보틱스",
       "fixed_watch": true,
-      "foreign5": -97109,
-      "inst5": 117432,
+      "foreign5": 146179,
+      "inst5": 116905,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:53+00:00",
-      "checked_at": "2026-11-27T02:06:53+00:00"
+      "collected_at": "2026-11-27T11:59:22+00:00",
+      "checked_at": "2026-11-27T11:59:22+00:00"
     },
     "041190": {
       "code": "041190",
       "name": "우리기술투자",
       "fixed_watch": true,
-      "foreign5": -30255,
-      "inst5": 72983,
+      "foreign5": 150536,
+      "inst5": 219704,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:54+00:00",
-      "checked_at": "2026-11-27T02:06:54+00:00"
+      "collected_at": "2026-11-27T11:59:23+00:00",
+      "checked_at": "2026-11-27T11:59:23+00:00"
     },
     "402340": {
       "code": "402340",
       "name": "SK스퀘어",
       "fixed_watch": true,
-      "foreign5": 5005,
-      "inst5": 13217,
+      "foreign5": 65648,
+      "inst5": 29724,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:54+00:00",
-      "checked_at": "2026-11-27T02:06:54+00:00"
+      "collected_at": "2026-11-27T11:59:23+00:00",
+      "checked_at": "2026-11-27T11:59:23+00:00"
     },
     "107640": {
       "code": "107640",
       "name": "한중엔시에스",
       "fixed_watch": true,
-      "foreign5": 88625,
-      "inst5": -162560,
+      "foreign5": 106072,
+      "inst5": -162735,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:54+00:00",
-      "checked_at": "2026-11-27T02:06:54+00:00"
+      "collected_at": "2026-11-27T11:59:23+00:00",
+      "checked_at": "2026-11-27T11:59:23+00:00"
     },
     "475150": {
       "code": "475150",
       "name": "SK이터닉스",
       "fixed_watch": true,
-      "foreign5": 233702,
-      "inst5": -99020,
+      "foreign5": 367679,
+      "inst5": -104836,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:54+00:00",
-      "checked_at": "2026-11-27T02:06:54+00:00"
+      "collected_at": "2026-11-27T11:59:23+00:00",
+      "checked_at": "2026-11-27T11:59:23+00:00"
     },
     "448900": {
       "code": "448900",
       "name": "한국피아이엠",
       "fixed_watch": true,
-      "foreign5": 46300,
-      "inst5": 26664,
+      "foreign5": 40482,
+      "inst5": 80413,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:54+00:00",
-      "checked_at": "2026-11-27T02:06:54+00:00"
+      "collected_at": "2026-11-27T11:59:23+00:00",
+      "checked_at": "2026-11-27T11:59:23+00:00"
     },
     "445680": {
       "code": "445680",
       "name": "큐리옥스바이오시스템즈",
       "fixed_watch": true,
-      "foreign5": 2952,
-      "inst5": 55452,
+      "foreign5": 12932,
+      "inst5": 118918,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:54+00:00",
-      "checked_at": "2026-11-27T02:06:54+00:00"
+      "collected_at": "2026-11-27T11:59:23+00:00",
+      "checked_at": "2026-11-27T11:59:23+00:00"
     },
     "064350": {
       "code": "064350",
       "name": "현대로템",
       "fixed_watch": true,
-      "foreign5": -636,
-      "inst5": -48690,
+      "foreign5": 5381,
+      "inst5": -5138,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:54+00:00",
-      "checked_at": "2026-11-27T02:06:54+00:00"
+      "collected_at": "2026-11-27T11:59:23+00:00",
+      "checked_at": "2026-11-27T11:59:23+00:00"
     },
     "000660": {
       "code": "000660",
       "name": "SK하이닉스",
       "fixed_watch": true,
-      "foreign5": -655245,
-      "inst5": -344975,
+      "foreign5": -119398,
+      "inst5": -350282,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:54+00:00",
-      "checked_at": "2026-11-27T02:06:54+00:00"
+      "collected_at": "2026-11-27T11:59:23+00:00",
+      "checked_at": "2026-11-27T11:59:23+00:00"
     },
     "080220": {
       "code": "080220",
       "name": "제주반도체",
       "fixed_watch": true,
-      "foreign5": 44851,
-      "inst5": -17796,
+      "foreign5": 382941,
+      "inst5": 168167,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:55+00:00",
-      "checked_at": "2026-11-27T02:06:55+00:00"
+      "collected_at": "2026-11-27T11:59:24+00:00",
+      "checked_at": "2026-11-27T11:59:24+00:00"
     },
     "189330": {
       "code": "189330",
       "name": "씨이랩",
       "fixed_watch": true,
-      "foreign5": 158377,
-      "inst5": 91,
+      "foreign5": 144984,
+      "inst5": -28,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:55+00:00",
-      "checked_at": "2026-11-27T02:06:55+00:00"
+      "collected_at": "2026-11-27T11:59:24+00:00",
+      "checked_at": "2026-11-27T11:59:24+00:00"
     },
     "304100": {
       "code": "304100",
       "name": "솔트룩스",
       "fixed_watch": true,
-      "foreign5": 35724,
-      "inst5": -1893,
+      "foreign5": 73873,
+      "inst5": -1409,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:55+00:00",
-      "checked_at": "2026-11-27T02:06:55+00:00"
+      "collected_at": "2026-11-27T11:59:24+00:00",
+      "checked_at": "2026-11-27T11:59:24+00:00"
     },
     "069960": {
       "code": "069960",
       "name": "현대백화점",
       "fixed_watch": true,
-      "foreign5": -8402,
-      "inst5": 39896,
+      "foreign5": 60304,
+      "inst5": -85178,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:55+00:00",
-      "checked_at": "2026-11-27T02:06:55+00:00"
+      "collected_at": "2026-11-27T11:59:24+00:00",
+      "checked_at": "2026-11-27T11:59:24+00:00"
     },
     "042660": {
       "code": "042660",
       "name": "한화오션",
       "fixed_watch": true,
-      "foreign5": 326234,
-      "inst5": -457184,
+      "foreign5": 443426,
+      "inst5": -164904,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:55+00:00",
-      "checked_at": "2026-11-27T02:06:55+00:00"
+      "collected_at": "2026-11-27T11:59:25+00:00",
+      "checked_at": "2026-11-27T11:59:25+00:00"
     },
     "012330": {
       "code": "012330",
       "name": "현대모비스",
       "fixed_watch": true,
-      "foreign5": -185070,
-      "inst5": 209438,
+      "foreign5": -185870,
+      "inst5": 201302,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:56+00:00",
-      "checked_at": "2026-11-27T02:06:56+00:00"
+      "collected_at": "2026-11-27T11:59:25+00:00",
+      "checked_at": "2026-11-27T11:59:25+00:00"
     },
     "124500": {
       "code": "124500",
       "name": "아이티센글로벌",
       "fixed_watch": true,
-      "foreign5": 41507,
-      "inst5": 27722,
+      "foreign5": 130097,
+      "inst5": 95272,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:56+00:00",
-      "checked_at": "2026-11-27T02:06:56+00:00"
+      "collected_at": "2026-11-27T11:59:25+00:00",
+      "checked_at": "2026-11-27T11:59:25+00:00"
     },
     "082740": {
       "code": "082740",
       "name": "한화엔진",
       "fixed_watch": true,
-      "foreign5": 312246,
-      "inst5": -192191,
+      "foreign5": 183171,
+      "inst5": 61932,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:56+00:00",
-      "checked_at": "2026-11-27T02:06:56+00:00"
+      "collected_at": "2026-11-27T11:59:25+00:00",
+      "checked_at": "2026-11-27T11:59:25+00:00"
     },
     "111770": {
       "code": "111770",
       "name": "영원무역",
       "fixed_watch": true,
-      "foreign5": -126673,
-      "inst5": 137950,
+      "foreign5": -118191,
+      "inst5": 124376,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:56+00:00",
-      "checked_at": "2026-11-27T02:06:56+00:00"
+      "collected_at": "2026-11-27T11:59:25+00:00",
+      "checked_at": "2026-11-27T11:59:25+00:00"
     },
     "028050": {
       "code": "028050",
       "name": "삼성E&A",
       "fixed_watch": true,
-      "foreign5": -66157,
-      "inst5": -452098,
+      "foreign5": -243157,
+      "inst5": -250060,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:56+00:00",
-      "checked_at": "2026-11-27T02:06:56+00:00"
+      "collected_at": "2026-11-27T11:59:26+00:00",
+      "checked_at": "2026-11-27T11:59:26+00:00"
     },
     "108490": {
       "code": "108490",
@@ -594,20 +594,20 @@
       "mtn_part": "2부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046",
-      "foreign5": -63244,
-      "inst5": 285357,
+      "foreign5": 1844,
+      "inst5": 392858,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:56+00:00",
-      "checked_at": "2026-11-27T02:06:56+00:00"
+      "collected_at": "2026-11-27T11:59:26+00:00",
+      "checked_at": "2026-11-27T11:59:26+00:00"
     },
     "090710": {
       "code": "090710",
@@ -618,20 +618,20 @@
       "mtn_part": "1부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/588/replay",
-      "foreign5": -330505,
-      "inst5": 543017,
+      "foreign5": 143915,
+      "inst5": 885818,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:57+00:00",
-      "checked_at": "2026-11-27T02:06:57+00:00"
+      "collected_at": "2026-11-27T11:59:26+00:00",
+      "checked_at": "2026-11-27T11:59:26+00:00"
     },
     "307950": {
       "code": "307950",
@@ -642,20 +642,20 @@
       "mtn_part": "2부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046",
-      "foreign5": -74259,
-      "inst5": 113670,
+      "foreign5": -69208,
+      "inst5": 144741,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:57+00:00",
-      "checked_at": "2026-11-27T02:06:57+00:00"
+      "collected_at": "2026-11-27T11:59:26+00:00",
+      "checked_at": "2026-11-27T11:59:26+00:00"
     },
     "180640": {
       "code": "180640",
@@ -666,20 +666,20 @@
       "mtn_part": "1부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/588/replay",
-      "foreign5": 46183,
-      "inst5": 65429,
+      "foreign5": 72224,
+      "inst5": 55783,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:57+00:00",
-      "checked_at": "2026-11-27T02:06:57+00:00"
+      "collected_at": "2026-11-27T11:59:26+00:00",
+      "checked_at": "2026-11-27T11:59:26+00:00"
     },
     "192820": {
       "code": "192820",
@@ -690,20 +690,20 @@
       "mtn_part": "2부",
       "mtn_theme": "retail",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046",
-      "foreign5": -17358,
-      "inst5": 2761,
+      "foreign5": -39537,
+      "inst5": -40017,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:57+00:00",
-      "checked_at": "2026-11-27T02:06:57+00:00"
+      "collected_at": "2026-11-27T11:59:27+00:00",
+      "checked_at": "2026-11-27T11:59:27+00:00"
     },
     "950260": {
       "code": "950260",
@@ -714,20 +714,20 @@
       "mtn_part": "2부",
       "mtn_theme": "bio",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121c0e-a211-1fc3-81a2-13b4dbcc0046",
-      "foreign5": -346127,
-      "inst5": 558677,
+      "foreign5": -360079,
+      "inst5": 770730,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:57+00:00",
-      "checked_at": "2026-11-27T02:06:57+00:00"
+      "collected_at": "2026-11-27T11:59:27+00:00",
+      "checked_at": "2026-11-27T11:59:27+00:00"
     },
     "232680": {
       "code": "232680",
@@ -738,20 +738,20 @@
       "mtn_part": "2부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b",
-      "foreign5": -163463,
-      "inst5": 41358,
+      "foreign5": -102296,
+      "inst5": 35639,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:57+00:00",
-      "checked_at": "2026-11-27T02:06:57+00:00"
+      "collected_at": "2026-11-27T11:59:27+00:00",
+      "checked_at": "2026-11-27T11:59:27+00:00"
     },
     "397030": {
       "code": "397030",
@@ -762,20 +762,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b",
-      "foreign5": 58404,
-      "inst5": -42586,
+      "foreign5": 117237,
+      "inst5": 7965,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:58+00:00",
-      "checked_at": "2026-11-27T02:06:58+00:00"
+      "collected_at": "2026-11-27T11:59:27+00:00",
+      "checked_at": "2026-11-27T11:59:27+00:00"
     },
     "476830": {
       "code": "476830",
@@ -786,20 +786,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b",
-      "foreign5": 6647,
-      "inst5": 56073,
+      "foreign5": -53222,
+      "inst5": 137769,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:58+00:00",
-      "checked_at": "2026-11-27T02:06:58+00:00"
+      "collected_at": "2026-11-27T11:59:27+00:00",
+      "checked_at": "2026-11-27T11:59:27+00:00"
     },
     "439090": {
       "code": "439090",
@@ -810,20 +810,20 @@
       "mtn_part": "1부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/588/replay/c6121e23-a216-1b94-81a2-17c56e5c0032",
-      "foreign5": -73219,
-      "inst5": 2933,
+      "foreign5": -46298,
+      "inst5": 4410,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:58+00:00",
-      "checked_at": "2026-11-27T02:06:58+00:00"
+      "collected_at": "2026-11-27T11:59:27+00:00",
+      "checked_at": "2026-11-27T11:59:27+00:00"
     },
     "078600": {
       "code": "078600",
@@ -834,20 +834,20 @@
       "mtn_part": "1부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/588/replay/c6121e23-a216-1b94-81a2-17c56e5c0032",
-      "foreign5": 14271,
-      "inst5": 63202,
+      "foreign5": 11765,
+      "inst5": 164185,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:58+00:00",
-      "checked_at": "2026-11-27T02:06:58+00:00"
+      "collected_at": "2026-11-27T11:59:28+00:00",
+      "checked_at": "2026-11-27T11:59:28+00:00"
     },
     "073490": {
       "code": "073490",
@@ -858,20 +858,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b",
-      "foreign5": 17422,
-      "inst5": 30331,
+      "foreign5": 80607,
+      "inst5": 84411,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:58+00:00",
-      "checked_at": "2026-11-27T02:06:58+00:00"
+      "collected_at": "2026-11-27T11:59:28+00:00",
+      "checked_at": "2026-11-27T11:59:28+00:00"
     },
     "319400": {
       "code": "319400",
@@ -882,20 +882,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f",
-      "foreign5": -397698,
-      "inst5": 564137,
+      "foreign5": -323940,
+      "inst5": 928482,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:58+00:00",
-      "checked_at": "2026-11-27T02:06:58+00:00"
+      "collected_at": "2026-11-27T11:59:28+00:00",
+      "checked_at": "2026-11-27T11:59:28+00:00"
     },
     "160190": {
       "code": "160190",
@@ -906,20 +906,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1",
-      "foreign5": -177766,
-      "inst5": 135512,
+      "foreign5": -157694,
+      "inst5": 163196,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:59+00:00",
-      "checked_at": "2026-11-27T02:06:59+00:00"
+      "collected_at": "2026-11-27T11:59:28+00:00",
+      "checked_at": "2026-11-27T11:59:28+00:00"
     },
     "281820": {
       "code": "281820",
@@ -930,20 +930,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1",
-      "foreign5": -30096,
-      "inst5": 184056,
+      "foreign5": 20197,
+      "inst5": 168856,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:59+00:00",
-      "checked_at": "2026-11-27T02:06:59+00:00"
+      "collected_at": "2026-11-27T11:59:28+00:00",
+      "checked_at": "2026-11-27T11:59:28+00:00"
     },
     "103590": {
       "code": "103590",
@@ -954,20 +954,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f",
-      "foreign5": 168655,
-      "inst5": -45874,
+      "foreign5": 227767,
+      "inst5": -34612,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:59+00:00",
-      "checked_at": "2026-11-27T02:06:59+00:00"
+      "collected_at": "2026-11-27T11:59:28+00:00",
+      "checked_at": "2026-11-27T11:59:28+00:00"
     },
     "058610": {
       "code": "058610",
@@ -978,20 +978,20 @@
       "mtn_part": "1부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/588/replay/c6122192-a20c-1007-81a2-0d93894b000b",
-      "foreign5": -208669,
-      "inst5": 415878,
+      "foreign5": -209741,
+      "inst5": 463999,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:06:59+00:00",
-      "checked_at": "2026-11-27T02:06:59+00:00"
+      "collected_at": "2026-11-27T11:59:29+00:00",
+      "checked_at": "2026-11-27T11:59:29+00:00"
     },
     "388210": {
       "code": "388210",
@@ -1002,20 +1002,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1",
-      "foreign5": 33567,
-      "inst5": -10185,
+      "foreign5": 58709,
+      "inst5": -13310,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:00+00:00",
-      "checked_at": "2026-11-27T02:07:00+00:00"
+      "collected_at": "2026-11-27T11:59:29+00:00",
+      "checked_at": "2026-11-27T11:59:29+00:00"
     },
     "491000": {
       "code": "491000",
@@ -1026,20 +1026,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a2-08d074bd00e1",
-      "foreign5": 45143,
-      "inst5": 78287,
+      "foreign5": 122981,
+      "inst5": 42783,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:00+00:00",
-      "checked_at": "2026-11-27T02:07:00+00:00"
+      "collected_at": "2026-11-27T11:59:29+00:00",
+      "checked_at": "2026-11-27T11:59:29+00:00"
     },
     "121600": {
       "code": "121600",
@@ -1050,20 +1050,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f",
-      "foreign5": 131598,
-      "inst5": -76087,
+      "foreign5": 28326,
+      "inst5": 80121,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:00+00:00",
-      "checked_at": "2026-11-27T02:07:00+00:00"
+      "collected_at": "2026-11-27T11:59:29+00:00",
+      "checked_at": "2026-11-27T11:59:29+00:00"
     },
     "403870": {
       "code": "403870",
@@ -1074,20 +1074,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6122192-a20c-1007-81a2-0dace16c000f",
-      "foreign5": -1109923,
-      "inst5": 297779,
+      "foreign5": -349479,
+      "inst5": 250548,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:00+00:00",
-      "checked_at": "2026-11-27T02:07:00+00:00"
+      "collected_at": "2026-11-27T11:59:29+00:00",
+      "checked_at": "2026-11-27T11:59:29+00:00"
     },
     "278470": {
       "code": "278470",
@@ -1098,20 +1098,20 @@
       "mtn_part": "1부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/588/replay/c6121df7-a1f7-1832-81a2-08d0074800e0",
-      "foreign5": -190998,
-      "inst5": 257465,
+      "foreign5": -457105,
+      "inst5": 318022,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:00+00:00",
-      "checked_at": "2026-11-27T02:07:00+00:00"
+      "collected_at": "2026-11-27T11:59:30+00:00",
+      "checked_at": "2026-11-27T11:59:30+00:00"
     },
     "041510": {
       "code": "041510",
@@ -1122,20 +1122,20 @@
       "mtn_part": "2부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032",
-      "foreign5": -120933,
-      "inst5": 370133,
+      "foreign5": -180604,
+      "inst5": 263476,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:01+00:00",
-      "checked_at": "2026-11-27T02:07:01+00:00"
+      "collected_at": "2026-11-27T11:59:30+00:00",
+      "checked_at": "2026-11-27T11:59:30+00:00"
     },
     "293490": {
       "code": "293490",
@@ -1146,20 +1146,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032",
-      "foreign5": 160758,
-      "inst5": 299965,
+      "foreign5": 130367,
+      "inst5": 295909,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:01+00:00",
-      "checked_at": "2026-11-27T02:07:01+00:00"
+      "collected_at": "2026-11-27T11:59:30+00:00",
+      "checked_at": "2026-11-27T11:59:30+00:00"
     },
     "138080": {
       "code": "138080",
@@ -1170,20 +1170,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032",
-      "foreign5": 46706,
-      "inst5": -942,
+      "foreign5": 179596,
+      "inst5": -112,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:01+00:00",
-      "checked_at": "2026-11-27T02:07:01+00:00"
+      "collected_at": "2026-11-27T11:59:30+00:00",
+      "checked_at": "2026-11-27T11:59:30+00:00"
     },
     "473980": {
       "code": "473980",
@@ -1194,20 +1194,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121df7-a1f7-1832-81a1-fbfdde590032",
-      "foreign5": -18287,
-      "inst5": 71523,
+      "foreign5": 28402,
+      "inst5": 2828,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:01+00:00",
-      "checked_at": "2026-11-27T02:07:01+00:00"
+      "collected_at": "2026-11-27T11:59:30+00:00",
+      "checked_at": "2026-11-27T11:59:30+00:00"
     },
     "020120": {
       "code": "020120",
@@ -1218,20 +1218,20 @@
       "mtn_part": "1부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/588/replay/c6121c2e-a1f7-1689-81a1-fbfd355a003d",
-      "foreign5": -357062,
-      "inst5": 326369,
+      "foreign5": 25310,
+      "inst5": 129930,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:01+00:00",
-      "checked_at": "2026-11-27T02:07:01+00:00"
+      "collected_at": "2026-11-27T11:59:31+00:00",
+      "checked_at": "2026-11-27T11:59:31+00:00"
     },
     "067630": {
       "code": "067630",
@@ -1242,20 +1242,20 @@
       "mtn_part": "1부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/588/replay/c6121c2e-a1f7-1689-81a1-fbfd355a003d",
-      "foreign5": 1439358,
-      "inst5": 119809,
+      "foreign5": 57445,
+      "inst5": 177124,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:01+00:00",
-      "checked_at": "2026-11-27T02:07:01+00:00"
+      "collected_at": "2026-11-27T11:59:31+00:00",
+      "checked_at": "2026-11-27T11:59:31+00:00"
     },
     "043260": {
       "code": "043260",
@@ -1266,20 +1266,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f",
-      "foreign5": -111425,
-      "inst5": 65470,
+      "foreign5": 114737,
+      "inst5": 185714,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:01+00:00",
-      "checked_at": "2026-11-27T02:07:01+00:00"
+      "collected_at": "2026-11-27T11:59:31+00:00",
+      "checked_at": "2026-11-27T11:59:31+00:00"
     },
     "0035S0": {
       "code": "0035S0",
@@ -1290,20 +1290,20 @@
       "mtn_part": "1부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/588/replay/c6121fb5-a1f2-1f3c-81a1-f3d4cc15003b",
-      "foreign5": -211254,
-      "inst5": -43768,
+      "foreign5": 6321,
+      "inst5": -42796,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:01+00:00",
-      "checked_at": "2026-11-27T02:07:01+00:00"
+      "collected_at": "2026-11-27T11:59:31+00:00",
+      "checked_at": "2026-11-27T11:59:31+00:00"
     },
     "353200": {
       "code": "353200",
@@ -1314,20 +1314,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f",
-      "foreign5": 500999,
-      "inst5": -585175,
+      "foreign5": 537192,
+      "inst5": -453836,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:02+00:00",
-      "checked_at": "2026-11-27T02:07:02+00:00"
+      "collected_at": "2026-11-27T11:59:31+00:00",
+      "checked_at": "2026-11-27T11:59:31+00:00"
     },
     "100090": {
       "code": "100090",
@@ -1338,20 +1338,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c6121fb5-a1f2-1f3c-81a1-f3e427c6003f",
-      "foreign5": -15245,
-      "inst5": 156891,
+      "foreign5": 122660,
+      "inst5": 127582,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:02+00:00",
-      "checked_at": "2026-11-27T02:07:02+00:00"
+      "collected_at": "2026-11-27T11:59:31+00:00",
+      "checked_at": "2026-11-27T11:59:31+00:00"
     },
     "232140": {
       "code": "232140",
@@ -1362,20 +1362,20 @@
       "mtn_part": "2부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044",
-      "foreign5": -384386,
-      "inst5": 986437,
+      "foreign5": -247839,
+      "inst5": 812361,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:02+00:00",
-      "checked_at": "2026-11-27T02:07:02+00:00"
+      "collected_at": "2026-11-27T11:59:31+00:00",
+      "checked_at": "2026-11-27T11:59:31+00:00"
     },
     "468670": {
       "code": "468670",
@@ -1386,20 +1386,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044",
-      "foreign5": 18731,
-      "inst5": -116965,
+      "foreign5": 248323,
+      "inst5": -116505,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:02+00:00",
-      "checked_at": "2026-11-27T02:07:02+00:00"
+      "collected_at": "2026-11-27T11:59:31+00:00",
+      "checked_at": "2026-11-27T11:59:31+00:00"
     },
     "059090": {
       "code": "059090",
@@ -1410,20 +1410,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044",
-      "foreign5": 10948,
-      "inst5": -194958,
+      "foreign5": 200758,
+      "inst5": -215228,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:02+00:00",
-      "checked_at": "2026-11-27T02:07:02+00:00"
+      "collected_at": "2026-11-27T11:59:32+00:00",
+      "checked_at": "2026-11-27T11:59:32+00:00"
     },
     "190510": {
       "code": "190510",
@@ -1434,20 +1434,20 @@
       "mtn_part": "1부",
       "mtn_theme": "robot",
       "mtn_url": "https://www.mtn.co.kr/program/588/replay/c612199d-a1ed-1198-81a1-ef2914040043",
-      "foreign5": -29820,
-      "inst5": 15635,
+      "foreign5": 33649,
+      "inst5": 6502,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:02+00:00",
-      "checked_at": "2026-11-27T02:07:02+00:00"
+      "collected_at": "2026-11-27T11:59:32+00:00",
+      "checked_at": "2026-11-27T11:59:32+00:00"
     },
     "037270": {
       "code": "037270",
@@ -1458,20 +1458,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c612199d-a1ed-1198-81a1-ef2ae1f60044",
-      "foreign5": -440564,
-      "inst5": -44708,
+      "foreign5": 75571,
+      "inst5": -46315,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:02+00:00",
-      "checked_at": "2026-11-27T02:07:02+00:00"
+      "collected_at": "2026-11-27T11:59:32+00:00",
+      "checked_at": "2026-11-27T11:59:32+00:00"
     },
     "241710": {
       "code": "241710",
@@ -1482,20 +1482,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c612073c-a1e8-17d0-81a1-e9a419df000e",
-      "foreign5": -163740,
-      "inst5": 172572,
+      "foreign5": -123275,
+      "inst5": 115781,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:03+00:00",
-      "checked_at": "2026-11-27T02:07:03+00:00"
+      "collected_at": "2026-11-27T11:59:32+00:00",
+      "checked_at": "2026-11-27T11:59:32+00:00"
     },
     "007810": {
       "code": "007810",
@@ -1506,20 +1506,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c612073c-a1e8-17d0-81a1-e9a419df000e",
-      "foreign5": -28851,
-      "inst5": -241617,
+      "foreign5": 33402,
+      "inst5": -279921,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:03+00:00",
-      "checked_at": "2026-11-27T02:07:03+00:00"
+      "collected_at": "2026-11-27T11:59:33+00:00",
+      "checked_at": "2026-11-27T11:59:33+00:00"
     },
     "086450": {
       "code": "086450",
@@ -1530,20 +1530,20 @@
       "mtn_part": "2부",
       "mtn_theme": "semiconductor",
       "mtn_url": "https://www.mtn.co.kr/program/589/replay/c612073c-a1e8-17d0-81a1-e9a419df000e",
-      "foreign5": 194568,
-      "inst5": -51695,
+      "foreign5": 304280,
+      "inst5": -190930,
       "investor_dates": [
+        "20261127",
         "20261126",
         "20261125",
         "20261124",
-        "20261123",
-        "20261120"
+        "20261123"
       ],
       "flow_source": "네이버 증권",
       "flow_unit": "shares",
       "flow_status": "ok",
-      "collected_at": "2026-11-27T02:07:03+00:00",
-      "checked_at": "2026-11-27T02:07:03+00:00"
+      "collected_at": "2026-11-27T11:59:33+00:00",
+      "checked_at": "2026-11-27T11:59:33+00:00"
     }
   }
 }
