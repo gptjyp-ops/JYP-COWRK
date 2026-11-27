@@ -5,10 +5,58 @@
     "part1": "https://www.mtn.co.kr/program/588/replay",
     "part2": "https://www.mtn.co.kr/program/589/replay"
   },
-  "generated_at": "2026-11-26T22:30:34+00:00",
-  "collection_status": "ok",
-  "errors": [],
+  "generated_at": "2026-11-27T22:15:29+00:00",
+  "collection_status": "partial",
+  "errors": [
+    "레이크머티리얼즈 vs에이비엘바이오: 종목코드 확인 불가"
+  ],
   "stocks": [
+    {
+      "code": "397030",
+      "name": "에이프릴바이오",
+      "market": "코스닥",
+      "theme": "semiconductor",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-27",
+      "mentions": 2,
+      "episodes": [
+        "2부|https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b",
+        "2부|https://www.mtn.co.kr/program/589/replay/c6120083-a21c-1ee2-81a2-1d4be1380006"
+      ],
+      "latest_part": "2부",
+      "latest_episode": "[여의도 투자본부 2부] 에이프릴바이오 vs 레이크머티리얼즈 vs에이비엘바이오 vs 에이프릴바이오, 공략법은? 2026-11-27",
+      "latest_url": "https://www.mtn.co.kr/program/589/replay/c6120083-a21c-1ee2-81a2-1d4be1380006"
+    },
+    {
+      "code": "003010",
+      "name": "혜인",
+      "market": "코스피",
+      "theme": "robot",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "mentions": 1,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c6121306-a21c-10c3-81a2-1d4b5ef00005"
+      ],
+      "latest_part": "1부",
+      "latest_episode": "[여의도 투자본부 1부] '키움증권, 혜인' 명예의 전당 갈 종목은? 2026-11-27",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay/c6121306-a21c-10c3-81a2-1d4b5ef00005"
+    },
+    {
+      "code": "039490",
+      "name": "키움증권",
+      "market": "코스피",
+      "theme": "robot",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "mentions": 1,
+      "episodes": [
+        "1부|https://www.mtn.co.kr/program/588/replay/c6121306-a21c-10c3-81a2-1d4b5ef00005"
+      ],
+      "latest_part": "1부",
+      "latest_episode": "[여의도 투자본부 1부] '키움증권, 혜인' 명예의 전당 갈 종목은? 2026-11-27",
+      "latest_url": "https://www.mtn.co.kr/program/588/replay/c6121306-a21c-10c3-81a2-1d4b5ef00005"
+    },
     {
       "code": "108490",
       "name": "로보티즈",
@@ -110,21 +158,6 @@
       "mentions": 2,
       "episodes": [
         "1부|https://www.mtn.co.kr/program/588/replay/c6122192-a20c-1007-81a2-0d93894b000b",
-        "2부|https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b"
-      ],
-      "latest_part": "2부",
-      "latest_episode": "[여의도 투자본부 2부] 알지노믹스 vs 라온로보틱스 vs LIG아큐버 vs 에이프릴바이오, 공략법은? 2026-11-26",
-      "latest_url": "https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b"
-    },
-    {
-      "code": "397030",
-      "name": "에이프릴바이오",
-      "market": "코스닥",
-      "theme": "semiconductor",
-      "first_seen": "2026-11-26",
-      "last_seen": "2026-11-26",
-      "mentions": 1,
-      "episodes": [
         "2부|https://www.mtn.co.kr/program/589/replay/c61218d2-a216-1d6d-81a2-17fc9900005b"
       ],
       "latest_part": "2부",
