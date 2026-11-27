@@ -819,6 +819,85 @@ th{font-weight:700!important}
   font-weight:800;
 }
 #newsFirst .nfMtnBadge b{font-size:11px;color:#9a3412}
+
+#newsFirst .nfScopeBar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  margin:18px 0 12px;
+}
+#newsFirst .nfScopeTabs{display:flex;gap:6px;flex-wrap:wrap}
+#newsFirst .nfScopeTabs button{
+  min-height:auto;
+  padding:9px 13px;
+  border-radius:9px;
+  font-size:13px;
+  color:#475467;
+}
+#newsFirst .nfScopeTabs button.active{
+  background:#eef4ff;
+  color:#175cd3;
+  border-color:#b2ccff;
+}
+#newsFirst .nfScopeTabs button[data-scope="mtn"].active{
+  background:#fff7ed;
+  color:#c2410c;
+  border-color:#fed7aa;
+}
+#newsFirst .nfSearch{
+  position:relative;
+  flex:1 1 280px;
+  max-width:430px;
+}
+#newsFirst .nfSearch input{
+  width:100%;
+  min-height:42px;
+  padding:9px 36px 9px 12px;
+  font-size:14px;
+}
+#newsFirst .nfSearchCount{
+  position:absolute;
+  right:11px;
+  top:50%;
+  transform:translateY(-50%);
+  color:#98a2b3;
+  font-size:11px;
+  pointer-events:none;
+}
+#newsFirst .nfMtnGroup{
+  padding:16px;
+  background:#fff;
+  border:1px solid #fed7aa;
+  border-radius:14px;
+}
+#newsFirst .nfMtnGroup .nfGroupHead{border-bottom-color:#ffedd5}
+#newsFirst .nfMtnGroup .nfGroupHead h2{color:#9a3412}
+#newsFirst .nfMtnMeta{
+  margin:5px 0 0;
+  color:#98a2b3;
+  font-size:11px;
+}
+#newsFirst .nfMtnEpisode{
+  margin:10px 0 0;
+  padding:9px 10px;
+  background:#fff7ed;
+  border-radius:8px;
+  color:#9a3412;
+  font-size:12px;
+  line-height:1.5;
+}
+#newsFirst .nfMtnEpisode a{color:#c2410c;font-weight:700;text-decoration:none}
+#newsFirst .nfMtnEpisode a:hover{text-decoration:underline}
+#newsFirst .nfEmptySearch{
+  padding:32px 18px;
+  text-align:center;
+  background:#fff;
+  border:1px dashed #d0d5dd;
+  border-radius:12px;
+  color:#667085;
+}
 </style></head>
 <body><canvas id="matrixRain" aria-hidden="true"></canvas><div class="wrap">
 <div class="top"><div><div class="matrixEyebrow">KOREA MARKET DASHBOARD</div><h1>Stock Miner<span class="matrixEdition">PERSONAL MARKET WORKSPACE</span></h1><p>관심종목 · 수급 · 뉴스 · 공시 · 발굴 후보를 한 화면에서 확인합니다.</p><div class="status" id="updated">데이터 불러오는 중...</div></div><div class="controls"><input id="q" placeholder="종목명 또는 코드 검색"><select id="grade"><option value="all">전체 점수</option><option value="80">기존 종합 80점 이상</option><option value="70">기존 종합 70점 이상</option></select><button class="primary" id="reloadBtn">지금 새로고침</button><span class="autoRefreshPill" title="페이지를 열어 둔 동안 데이터 파일을 자동으로 다시 확인합니다.">자동 갱신 5분</span><button class="install" id="installBtn">앱으로 설치</button><button type="button" class="matrixToggle" id="matrixToggle" aria-pressed="false" aria-controls="matrixRain">코드 효과 끄기</button></div></div>
@@ -1331,6 +1410,17 @@ if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serv
   <div id="nfStatusBar" class="nfStatusBar"></div>
   <p id="nfNotice" class="nfNotice" hidden></p>
 
+  <div class="nfScopeBar">
+    <div id="nfScopeTabs" class="nfScopeTabs">
+      <button type="button" data-scope="saved" class="active">저장 종목</button>
+      <button type="button" data-scope="mtn">MTN PICK</button>
+    </div>
+    <label class="nfSearch">
+      <input id="nfSearch" type="search" placeholder="저장된 종목명 또는 코드 검색" autocomplete="off">
+      <span id="nfSearchCount" class="nfSearchCount"></span>
+    </label>
+  </div>
+
   <div class="nfToolbar">
     <strong>테마 바로가기</strong>
     <div id="nfThemeNav" class="nfThemeNav"></div>
@@ -1356,7 +1446,7 @@ if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serv
 
  const get=async p=>{try{const r=await fetch('data/'+p+'?t='+Date.now(),{cache:'no-store'});return r.ok?await r.json():{}}catch{return {}}};
  let w={},n={},f={},biz={},mtn={};
- let list=[],mtnByCode={};
+ let list=[],mtnByCode={},fixedCodes=new Set(),activeScope='saved',searchQuery='';
 
  const themeDefs=[
   ['semiconductor','반도체',/반도체|HBM|메모리|웨이퍼|파운드리|패키징|식각|증착/i],
@@ -1398,11 +1488,28 @@ if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serv
  const shortDate=value=>{if(!value)return '미수집';const d=new Date(value);return Number.isNaN(d.getTime())?String(value).slice(0,10):d.toLocaleDateString('ko-KR',{year:'numeric',month:'2-digit',day:'2-digit'})};
  const freshness=value=>{if(!value)return {label:'확인 불가',cls:'unknown'};const t=new Date(value).getTime();if(!Number.isFinite(t))return {label:'확인 불가',cls:'unknown'};const days=(Date.now()-t)/86400000;return days<=2?{label:'최신',cls:'ok'}:{label:'오래됨',cls:'old'}};
 
- function savedList(){
-  try{const saved=localStorage.getItem('stock-miner-news-watch');if(saved)return JSON.parse(saved)}catch{}
-  return null;
+ function savedCustomList(){
+  try{
+   const custom=localStorage.getItem('stock-miner-custom-watch');
+   if(custom)return JSON.parse(custom);
+   const legacy=localStorage.getItem('stock-miner-news-watch');
+   if(legacy){
+    const parsed=JSON.parse(legacy);
+    const serverCodes=new Set((w.stocks||[]).map(x=>String(x.code)));
+    const extras=(Array.isArray(parsed)?parsed:[]).filter(x=>!serverCodes.has(String(x.code))&&!mtnByCode[String(x.code)]);
+    localStorage.setItem('stock-miner-custom-watch',JSON.stringify(extras));
+    localStorage.removeItem('stock-miner-news-watch');
+    return extras;
+   }
+  }catch{}
+  return [];
  }
- function save(){try{localStorage.setItem('stock-miner-news-watch',JSON.stringify(list))}catch{}}
+ function saveCustom(){
+  try{
+   const custom=list.filter(x=>!fixedCodes.has(String(x.code))&&!mtnByCode[String(x.code)]);
+   localStorage.setItem('stock-miner-custom-watch',JSON.stringify(custom.map(x=>({code:x.code,name:x.name}))));
+  }catch{}
+ }
 
  function newsThemeIds(code){
   const out=[];
@@ -1462,7 +1569,10 @@ if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serv
   const more=rest.length?'<details><summary>뉴스 '+rest.length+'건 더 보기</summary><div class="nfNews">'+rest.map(a=>'<a href="'+safeUrl(a.link)+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(a.title||'제목 없음')+'</a><small>'+escapeHtml((a.source||'')+' '+(a.published||''))+'</small>').join('')+'</div></details>':'';
   const mp=mtnByCode[code];
   const mtnBadge=mp?'<span class="nfMtnBadge"><b>MTN PICK</b> '+escapeHtml(mp.latest_part||'')+' · '+escapeHtml(mp.last_seen||'날짜 미확인')+' · '+Number(mp.mentions||1)+'회</span>':'';
-  return '<article class="nfCard"><div class="nfCardHead"><div><h3>'+escapeHtml(stock.name)+'</h3><span class="nfCode">'+escapeHtml(code)+'</span>'+mtnBadge+'</div><button class="nfDelete" type="button" data-delete="'+escapeHtml(code)+'">숨기기</button></div>'+
+  const canDelete=!fixedCodes.has(code)&&!mp;
+  const deleteButton=canDelete?'<button class="nfDelete" type="button" data-delete="'+escapeHtml(code)+'">삭제</button>':'';
+  const episode=mp?'<div class="nfMtnEpisode">'+escapeHtml(mp.latest_episode||'여의도 투자본부 PICK')+(mp.latest_url?' · <a href="'+safeUrl(mp.latest_url)+'" target="_blank" rel="noopener noreferrer">방송 보기</a>':'')+'</div>':'';
+  return '<article class="nfCard"><div class="nfCardHead"><div><h3>'+escapeHtml(stock.name)+'</h3><span class="nfCode">'+escapeHtml(code)+'</span>'+mtnBadge+'</div>'+deleteButton+'</div>'+episode+
    '<div class="nfFlow"><div class="nfMetric"><small>외국인 5일</small><b class="'+flowClass(flow?.foreign5)+'">'+fmt(flow?.foreign5)+'</b></div><div class="nfMetric"><small>기관 5일</small><b class="'+flowClass(flow?.inst5)+'">'+fmt(flow?.inst5)+'</b></div></div>'+
    '<div class="nfNewsTitle">저장된 최신 뉴스</div><div class="nfNews">'+newsHtml+'</div>'+more+
    '<div class="nfLinks"><a href="https://finance.naver.com/item/frgn.naver?code='+encodeURIComponent(code)+'" target="_blank" rel="noopener noreferrer">수급 원문</a><a href="https://news.google.com/search?q='+encodeURIComponent(stock.name)+'&hl=ko&gl=KR&ceid=KR:ko" target="_blank" rel="noopener noreferrer">최신 뉴스 검색</a><a href="https://dart.fss.or.kr/" target="_blank" rel="noopener noreferrer">DART 공시</a></div></article>';
@@ -1470,48 +1580,80 @@ if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serv
  function escapeHtml(value){
   return String(value??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
  }
+ function filteredStocks(){
+  const source=activeScope==='mtn'
+   ?(mtn.stocks||[]).map(p=>({code:p.code,name:p.name,mtn_pick:true,mtn_mentions:p.mentions,mtn_last_seen:p.last_seen,mtn_theme:p.theme}))
+   :list.filter(x=>!mtnByCode[String(x.code)]||fixedCodes.has(String(x.code)));
+  const q=searchQuery.trim().toLowerCase();
+  if(!q)return source;
+  return source.filter(x=>String(x.name||'').toLowerCase().includes(q)||String(x.code||'').toLowerCase().includes(q));
+ }
  function render(){
   renderStatus();
-  const groups=new Map();
-  for(const stock of list){
-   const id=themeFor(stock);
-   if(!groups.has(id))groups.set(id,[]);
-   groups.get(id).push(stock);
+  document.querySelectorAll('#nfScopeTabs [data-scope]').forEach(btn=>btn.classList.toggle('active',btn.dataset.scope===activeScope));
+  const filtered=filteredStocks();
+  el('nfSearchCount').textContent=searchQuery?filtered.length+'개':'';
+  el('nfThemeNav').hidden=activeScope==='mtn';
+  document.querySelector('.nfToolbar strong').textContent=activeScope==='mtn'?'MTN 여의도 투자본부':'테마 바로가기';
+  if(activeScope==='mtn'){
+   el('nfThemeNav').innerHTML='';
+   const sorted=[...filtered].sort((a,b)=>{
+    const ma=mtnByCode[String(a.code)]||{},mb=mtnByCode[String(b.code)]||{};
+    return String(mb.last_seen||'').localeCompare(String(ma.last_seen||''))||Number(mb.mentions||0)-Number(ma.mentions||0)||String(a.name).localeCompare(String(b.name),'ko');
+   });
+   el('nfGroups').innerHTML=sorted.length
+    ?'<section class="nfMtnGroup"><div class="nfGroupHead"><h2>MTN PICK · 여의도 투자본부</h2><span><b>'+sorted.length+'</b>종목</span></div><div class="nfGrid">'+sorted.map(cardHtml).join('')+'</div></section>'
+    :'<div class="nfEmptySearch">검색 조건에 맞는 MTN PICK이 없습니다.</div>';
+  }else{
+   const groups=new Map();
+   for(const stock of filtered){
+    const id=themeFor(stock);
+    if(!groups.has(id))groups.set(id,[]);
+    groups.get(id).push(stock);
+   }
+   const ordered=[...groups.entries()].sort((a,b)=>themeOrder.indexOf(a[0])-themeOrder.indexOf(b[0]));
+   el('nfThemeNav').hidden=false;
+   el('nfThemeNav').innerHTML=ordered.map(([id,items])=>'<button type="button" data-jump="'+escapeHtml(id)+'">'+escapeHtml(themeLabel(id))+' '+items.length+'</button>').join('');
+   el('nfGroups').innerHTML=ordered.length
+    ?ordered.map(([id,items])=>'<section class="nfGroup" id="nf-theme-'+escapeHtml(id)+'"><div class="nfGroupHead"><h2>'+escapeHtml(themeLabel(id))+'</h2><span><b>'+items.length+'</b>종목</span></div><div class="nfGrid">'+items.map(cardHtml).join('')+'</div></section>').join('')
+    :'<div class="nfEmptySearch">검색 조건에 맞는 저장 종목이 없습니다.</div>';
   }
-  const ordered=[...groups.entries()].sort((a,b)=>themeOrder.indexOf(a[0])-themeOrder.indexOf(b[0]));
-  el('nfThemeNav').innerHTML=ordered.map(([id,items])=>'<button type="button" data-jump="'+escapeHtml(id)+'">'+escapeHtml(themeLabel(id))+' '+items.length+'</button>').join('');
-  el('nfGroups').innerHTML=ordered.map(([id,items])=>'<section class="nfGroup" id="nf-theme-'+escapeHtml(id)+'"><div class="nfGroupHead"><h2>'+escapeHtml(themeLabel(id))+'</h2><span><b>'+items.length+'</b>종목</span></div><div class="nfGrid">'+items.map(cardHtml).join('')+'</div></section>').join('');
-  el('nfStatus').textContent='추가 종목은 이 브라우저에 저장됩니다.';
-  document.querySelectorAll('[data-delete]').forEach(btn=>btn.onclick=()=>{list=list.filter(x=>String(x.code)!==String(btn.dataset.delete));save();render()});
+  el('nfStatus').textContent='고정 관심종목은 서버에 보존됩니다. 직접 추가한 종목만 이 브라우저에 저장됩니다.';
+  document.querySelectorAll('[data-delete]').forEach(btn=>btn.onclick=()=>{list=list.filter(x=>String(x.code)!==String(btn.dataset.delete));saveCustom();render()});
   document.querySelectorAll('[data-jump]').forEach(btn=>btn.onclick=()=>document.getElementById('nf-theme-'+btn.dataset.jump)?.scrollIntoView({behavior:'smooth',block:'start'}));
  }
  async function load(){
   [w,n,f,biz,mtn]=await Promise.all(['stock-miner-watchlist.json','news-momentum.json','watch-investor-flow.json','stock-miner-business.json','mtn-picks.json'].map(get));
   mtnByCode=Object.fromEntries((mtn.stocks||[]).map(x=>[String(x.code),x]));
-  const base=savedList()||(w.stocks||[]);
-  const merged=[...base.map(x=>({...x}))];
-  const seen=new Set(merged.map(x=>String(x.code)));
-  for(const pick of mtn.stocks||[]){
-   const code=String(pick.code);
-   if(seen.has(code)){
-    const row=merged.find(x=>String(x.code)===code);
-    if(row)Object.assign(row,{mtn_pick:true,mtn_mentions:pick.mentions,mtn_last_seen:pick.last_seen,mtn_theme:pick.theme});
-    continue;
-   }
-   merged.push({code:pick.code,name:pick.name,mtn_pick:true,mtn_mentions:pick.mentions,mtn_last_seen:pick.last_seen,mtn_theme:pick.theme});
+  fixedCodes=new Set((w.stocks||[]).map(x=>String(x.code)));
+  const custom=savedCustomList();
+  const merged=[],seen=new Set();
+  for(const stock of [...(w.stocks||[]),...custom]){
+   const code=String(stock.code);
+   if(seen.has(code))continue;
+   merged.push({...stock,fixed_watch:fixedCodes.has(code)});
    seen.add(code);
+  }
+  // MTN 종목이 원래 고정 관심종목이면 MTN 배지만 함께 표시하고,
+  // MTN 전용 종목은 저장 종목 화면에 섞지 않고 MTN PICK 목차에서만 보여준다.
+  for(const code of fixedCodes){
+   const row=merged.find(x=>String(x.code)===code);
+   const pick=mtnByCode[code];
+   if(row&&pick)Object.assign(row,{mtn_pick:true,mtn_mentions:pick.mentions,mtn_last_seen:pick.last_seen,mtn_theme:pick.theme});
   }
   list=merged;
   render();
  }
  el('nfLegacy').onclick=()=>{if(legacy)legacy.hidden=!legacy.hidden};
+ document.querySelectorAll('#nfScopeTabs [data-scope]').forEach(btn=>btn.onclick=()=>{activeScope=btn.dataset.scope;render()});
+ el('nfSearch').oninput=e=>{searchQuery=e.target.value||'';render()};
  el('nfAddToggle').onclick=()=>el('nfForm').classList.toggle('open');
  el('nfRefresh').onclick=load;
  el('nfForm').onsubmit=e=>{
   e.preventDefault();
   const code=el('nfCode').value.trim().toUpperCase(),name=el('nfName').value.trim();
-  if(!name||list.some(x=>String(x.code)===code))return;
-  list.push({code,name});save();render();e.target.reset();el('nfForm').classList.remove('open');
+  if(!name||list.some(x=>String(x.code)===code)||mtnByCode[code])return;
+  list.push({code,name});saveCustom();activeScope='saved';render();e.target.reset();el('nfForm').classList.remove('open');
  };
  await load();
 })();
